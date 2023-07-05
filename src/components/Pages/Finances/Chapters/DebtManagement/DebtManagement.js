@@ -9,9 +9,13 @@ import './../../Finances.css'
 import Table30 from '../../../Tables/Chapter2/Table30'
 import Table30kan from '../../../Tables/Chapter2kan/Table30'
 import c214 from '../../../../../Images/c214.png'
+import k214 from '../../../../../Images/k214.png'
 import c215 from '../../../../../Images/c215.png'
+import k215 from '../../../../../Images/k215.png'
 import c216 from '../../../../../Images/c216.png'
+import k216 from '../../../../../Images/k216.png'
 import c217 from '../../../../../Images/c217.png'
+import k217 from '../../../../../Images/k217.png'
 import ImageComponent from 'material-ui-image'
 
 import Table31 from '../../../Tables/Chapter2/Table31'
@@ -25,7 +29,7 @@ import Table34 from '../../../Tables/Chapter2/Table34'
 import Table34kan from '../../../Tables/Chapter2kan/Table34'
 import Table35kan from '../../../Tables/Chapter2kan/Table35'
 import Table36kan from '../../../Tables/Chapter2kan/Table36'
-import Table37kan from '../../../Tables/Chapter2kan/Table37'
+import Table37akan from '../../../Tables/Chapter2kan/Table37'
 import {
     Chart14, Chart15, Chart16,
 } from '../../../Charts/Chap2Charts'
@@ -206,6 +210,11 @@ const DebtManagement = () => {
                             </br>
                             
                         </h6> */}
+                        <ImageComponent  src={k214} alt="chart23" aspectRatio={1 / 0.55} />
+                        <h3>*ಸಾಲ-ರಾಜ್ಯದ ಒಟ್ಟು ಆಂತರಿಕ ಉತ್ಪನ್ನದ ಅನುಪಾತವನ್ನು ಲೆಕ್ಕ ಮಾಡಲು ಸರಕು ಮತ್ತು ಸೇವಾ ತೆರಿಗೆ 
+                            ಪರಿಹಾರದ ಬದಲಿಗೆ ಪಡೆದ ಬ್ಯಾಕ್-ಟು-ಬ್ಯಾಕ್ ಸಾಲವನ್ನು  (`೧೨,೪೦೭ ಕೋಟಿ ೨೦೨೦-೨೧ರಲ್ಲಿ ಮತ್ತು 
+                            `೧೮,೧೦೯ ಕೋಟಿ ೨೦೨೧-೨೨ರಲ್ಲಿ) ಪರಿಗಣಿಸಲಾಗಿಲ್ಲ.
+                        </h3>
                         {["para239", "para240"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
@@ -239,12 +248,19 @@ const DebtManagement = () => {
                                 {ctx.chapter2kannada.Content[item]}
                                 </li>
                             </Para>)}
-                        <Chart15 />
+                        {/* <Chart15 /> */}
+                        <ImageComponent  src={k215} alt="chart23" aspectRatio={1 / 0.55} />
+                        <h3>ಆಕರ: ಹಣಕಾಸು ಲೆಕ್ಕಗಳು</h3>
+                        <h3>ಋಣ ಸ್ವೀಕೃತಿಗಳಡಿಯಲ್ಲಿ ರಾಜ್ಯಕ್ಕೆ ೨೦೨೦-೨೧ ಮತ್ತು ೨೦೨೧-೨೨ರ ಅವಧಿಯಲ್ಲಿ  ಬ್ಯಾಕ್-ಟು-ಬ್ಯಾಕ್ ಸಾಲವಾಗಿ ನೀಡಲಾದ 
+                            `12,407 ಕೋಟಿ ಮತ್ತು `೧೮,೧೦೯ ಕೋಟಿ ಸರಕು ಮತ್ತು ಸೇವಾ ತೆರಿಗೆ ಪರಿಹಾರವನ್ನು, ಹಣಕಾಸು ಆಯೋಗವು ಸೂಚಿಸಬಹುದಾದ 
+                            ಯಾವುದೇ ಮಾನದಂಡಗಳಿಗೆ ರಾಜ್ಯದ ಸಾಲವೆಂದು ಪರಿಗಣಿಸಲಾಗುವುದಿಲ್ಲ ಎಂದು ಭಾರತ ಸರ್ಕಾರದ ವೆಚ್ಚದ ಇಲಾಖೆಯು 
+                            ನಿರ್ಧರಿಸಿರುವುದರಿಂದ, ಪರಿಣಾಮಕಾರಿ ಸಾಲಗಳು ಮತ್ತು ಮುಂಗಡಗಳು `೧೪,೮೬೯ ಕೋಟಿಗಳಾಗುವುದರಿಂದ ಒಟ್ಟು ಋಣಗಳು 
+                            `4,೫೯,೭೪೦  ಕೋಟಿಗಳಾಗುವಲ್ಲಿ ಪರಿಣಮಿಸುತ್ತದೆ.</h3>
+                        <ImageComponent  src={k216} alt="chart23" aspectRatio={1 / 0.5} />
+                        <h3>ಆಕರ: ಹಣಕಾಸು ಲೆಕ್ಕಗಳು</h3>
+                        {/* <Chart16 />
                         <h6>ಆಕರ: ಹಣಕಾಸು ಲೆಕ್ಕಗಳು</h6>
-                        
-                        <Chart16 />
-                        <h6>ಆಕರ: ಹಣಕಾಸು ಲೆಕ್ಕಗಳು</h6>
-                        
+                         */}
                         {["para247","para248"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
@@ -327,9 +343,9 @@ const DebtManagement = () => {
                         <h3 className='headnote'>
                         (₹ ಕೋಟಿಗಳಲ್ಲಿ)
                         </h3>
-                         <Table37kan /> 
+                         <Table37akan /> 
                         <h3>ಆಕರ: ಹಣಕಾಸು ಲೆಕ್ಕಗಳು</h3>
-
+                        <ImageComponent  src={k217} alt="chart23" aspectRatio={1 / 0.6} />
                         <Para>
                             {ctx.chapter2kannada.Content.para263}
                         </Para>

@@ -14,7 +14,7 @@ const columns = [
         wrap: true
     },
     {
-        name: "Category",
+        name: "Classification",
         selector: "Classification",
         wrap: true
     },
@@ -22,37 +22,19 @@ const columns = [
         name: "Allocation during 2020-21",
         selector: "Allocation during 2020-21",
         wrap: true,
-       
+        format: data => data["Allocation during 2020-21"].toLocaleString('en-IN')
     },
     {
-        name: "Allocation during 2021-22",
-        selector: "Allocation during 2021-22",
-        wrap: true,
-       
-    },
-    {
-        name: "Expenditure (2020-21)",
+        name: "Expenditure",
         selector: "Expenditure",
         wrap: true,
         format: data => data["Expenditure"].toLocaleString('en-IN')
     },
     {
-        name: "Expenditure (2021-22)",
-        selector: "Expenditure1",
-        wrap: true
-     
-    },
-    {
-        name: "Percentage of Allocation to total Budget allocation (2020-21) ",
+        name: "Savings (in percentage)",
         selector: "Savings (in percentage)",
         wrap: true,
-       
-    },
-    {
-        name: "Percentage of Allocation to total Budget allocation (2021-22) ",
-        selector: "Savings",
-        wrap: true,
-        
+        format: data => data["Savings (in percentage)"].toLocaleString('en-IN')
     }
 ];
 
@@ -66,7 +48,7 @@ const Table3 = () => {
         <div className="App" style={{ margin: "40px 0 40px 0" }} >
             <Card>
                 <DataTable
-                    title="Table 3.2: Details of allocation under Child Centric Programme/Schemes"
+                    title="Table 3.3: Details of allocation under Child Centric Programme/Schemes"
                     columns={columns}
                     data={ctx.tables3.Table3}
                     customStyles={customStyles}

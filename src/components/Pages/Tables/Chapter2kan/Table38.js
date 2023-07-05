@@ -9,26 +9,57 @@ import { styles } from "../helpers";
 
 const columns = [
     {
-        name: "",
-        selector: "1",
-        grow: 2.5,
+        name: "ಕ್ರಮ ಸಂಖ್ಯೆ",
+        selector: "ಕ್ರಮ ಸಂಖ್ಯೆ",
+        // grow: ,
         wrap: true,
         // width:'35px',
     },
     {
-        name: "1 ಏಪ್ರಿಲ್‌ 2020ರಲ್ಲಿ ಪ್ರಾರಂಭಿಕ ಶಿಲ್ಕು",
-        selector: "1 ಏಪ್ರಿಲ್‌ 2020ರಲ್ಲಿ ಪ್ರಾರಂಭಿಕ ಶಿಲ್ಕು",
-        // grow:0.05,
+        name: "ವರ್ಷ/ವಿವರ",
+        selector: "ವರ್ಷ/ವಿವರ",
+        // grow: ,
         wrap: true,
-        
+        // width:'35px',
     },
     {
-        name: "31 ಮಾರ್ಚ್‌ 2021ರಲ್ಲಿ ಅಂತಿಮ ಶಿಲ್ಕು",
-        selector: "31 ಮಾರ್ಚ್‌ 2021ರಲ್ಲಿ ಅಂತಿಮ ಶಿಲ್ಕು",
+        selector: "2017 18",
+        name: "2017 18",
         // grow: 0.05,
         // width:'110px',
         wrap: true,
        
+    },
+    {
+        name: "2018 19",
+        selector: "2018 19",
+        // grow: 0.05,
+        // width:'110px',
+        wrap: true,
+        
+    },
+    {
+        name: "2019 20",
+        selector: "2019 20",
+        // grow: 0.05,
+        // width:'110px',
+        wrap: true,
+        
+    },
+    {
+        name: "2020 21",
+        selector: "2020 21",
+        // grow:0.05,
+        wrap: true,
+       
+    },
+    {
+        name: "2021 22",
+        selector: "2021 22",
+        // grow: 0.05,
+        // width:'110px',
+        wrap: true,
+        
     }
 ];
 
@@ -42,7 +73,7 @@ const Table38kan = () => {
         <div className="App" style={{ margin: "40px 0 40px 0" }} >
             <Card>
                 <DataTable
-                    title="ಕೋಷ್ಟಕ-2.38: ನಗದು ಶಿಲ್ಕುಗಳು ಮತ್ತು ಅವುಗಳ ಹೂಡಿಕೆ"
+                    title="ಕೋಷ್ಟಕ-2.38: ಸಾಲ ಪಡೆದ ನಿಧಿಯ ಬಳಕೆ"
                     columns={columns}
                     data={ctx.tables2kan.Table38}
                     customStyles={customStyles}

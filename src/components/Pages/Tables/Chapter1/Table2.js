@@ -10,13 +10,13 @@ import { styles } from "../helpers";
 const columns = [
     {
         name: "Sl No",
-        selector: "1",
+        selector: "Sl. No",
         // sortable: true,
         grow: 0.3,
         cell: column =>
         (<div data-tag="allowColumnEvents">
             <div style={{ fontWeight: "bold", color: "#467880" }}>
-                {column["1"]}
+                {column["Sl No"]}
             </div>
         </div>),
         conditionalCellStyles: [

@@ -69,25 +69,12 @@ const State = () => {
                     <div className="contentwrapper" id="home">
                     <FloatingActionButtons back="/quality/recommendations" forward="/State/Definition" />
                         <Title>
-                            {ctx.chapter4kannada.Content.para66}
+                            {ctx.chapter5kannada.Content.para1}
                         </Title>
                         <Para>
-                            {ctx.chapter4kannada.Content.para67}
+                        {ctx.chapter5kannada.Content.para2}
                         </Para>
-                        <Para>
-                            {ctx.chapter4kannada.Content.para68}
-                        </Para>
-                        <h3 className="headnote">
-                            ₹ In crore
-                        </h3>
-                        {/* <Table10kan /> */}
-                        <h4>ಆಕರ-ಎಮ್‌ಸಿಎ ಮೇಲಿನ ವರದಿ ಮತ್ತು ಹಣಕಾಸು ಲೆಕ್ಕಗಳು</h4>
-                        <Para>
-                            {ctx.chapter4kannada.Content.para69}
-                        </Para>
-                        <Para>
-                            {ctx.chapter4kannada.Content.para70}
-                        </Para>
+                        
                     </div>
                 </div>
                 : <div>

@@ -9,43 +9,51 @@ import { styles } from "../helpers";
 
 const columns = [
     {
-        name: "ವರ್ಷ",
-        selector: "ವರ್ಷ",
+        name: "ಖಾತರಿಗಳು",
+        selector: "ಖಾತರಿಗಳು",
         // grow: ,
         wrap: true,
         // width:'35px',
     },
     {
-        name: "ಪ್ರಾರಂಭಿಕ ಶಿಲ್ಕು",
-        selector: "ಪ್ರಾರಂಭಿಕ ಶಿಲ್ಕು",
+        selector: "2017 18",
+        name: "2017 18",
+        // grow: 0.05,
+        // width:'110px',
+        wrap: true,
+       
+    },
+    {
+        name: "2018 19",
+        selector: "2018 19",
+        // grow: 0.05,
+        // width:'110px',
+        wrap: true,
+        
+    },
+    {
+        name: "2019 20",
+        selector: "2019 20",
+        // grow: 0.05,
+        // width:'110px',
+        wrap: true,
+        
+    },
+    {
+        name: "2020 21",
+        selector: "2020 21",
         // grow:0.05,
         wrap: true,
        
     },
     {
-        name: "ಅಂತಿಮ ಶಿಲ್ಕು",
-        selector: "ಅಂತಿಮ ಶಿಲ್ಕು",
+        name: "2021 22",
+        selector: "2021 22",
         // grow: 0.05,
         // width:'110px',
         wrap: true,
         
-    },
-    {
-        name: "ಹೆಚ್ಚಳ (+)/ ಇಳಿಕೆ(-)",
-        selector: "ಹೆಚ್ಚಳ (+)/ ಇಳಿಕೆ(-)",
-        // grow: 0.05,
-        // width:'110px',
-        wrap: true,
-       
-    },
-    {
-        name: "ಗಳಿಸಿದ ಬಡ್ಡಿ",
-        selector: "ಗಳಿಸಿದ ಬಡ್ಡಿ",
-        // grow: 0.05,
-        // width:'110px',
-        wrap: true,
-        
-    },
+    }
 ];
 
 const customStyles = styles;
@@ -58,7 +66,7 @@ const Table39kan = () => {
         <div className="App" style={{ margin: "40px 0 40px 0" }} >
             <Card>
                 <DataTable
-                    title="ಕೋಷ್ಟಕ-2.39: ನಗದು ಶಿಲ್ಕಿನ ಹೂಡಿಕೆ ಲೆಕ್ಕ (ಪ್ರಧಾನ ಲೆಕ್ಕ ಶೀರ್ಷಿಕೆ-8673)"
+                    title="ಕೋಷ್ಟಕ-2.3೯: ರಾಜ್ಯ ಸರ್ಕಾರವು ನೀಡಿದ ಖಾತರಿಗಳು"
                     columns={columns}
                     data={ctx.tables2kan.Table39}
                     customStyles={customStyles}

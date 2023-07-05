@@ -8,8 +8,11 @@ import Subtitle from "./../../../../Subtitle/Subtitle"
 import Title from "../../../../Title/Title";
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton"
 import Table2 from "../../../Tables/Chapter5/Table2";
+import Table2kan from "../../../Tables/Chapter5kan/Table2";
 import Table3 from "../../../Tables/Chapter5/Table3";
+import Table3kan from "../../../Tables/Chapter5kan/Table3";
 import Table4 from "../../../Tables/Chapter5/Table4";
+import Table4kan from "../../../Tables/Chapter5kan/Table4";
 //import Table1 from '../../../Tables/Chapter4/Table1'
 
 
@@ -149,14 +152,68 @@ const Investment = () => {
 
 
                         <Title>
-                            {ctx.chapter4kannada.Content.para103}
+                            {ctx.chapter5kannada.Content.para11}
                         </Title>
-                        {["para104", "para105", "para106", "para107", "para108"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                <i>
-                                    {ctx.chapter4kannada.Content[item]}
-                                </i>
-                            </Para>)}
+                        <Subtitle>
+                            <i>
+                            {ctx.chapter5kannada.Content.para12}
+                            </i>
+                        </Subtitle>
+                        <Para>
+                            {ctx.chapter5kannada.Content.para13}
+                        </Para>
+
+                        <Table2kan />
+
+                        <h4 className='footnote'>
+                            <i>
+                            ಆಕರ: ರಾಜ್ಯ ಸಾರ್ವಜನಿಕ ವಲಯ ಉದ್ದಿಮೆಗಳ ಇತ್ತೀಚಿನ ಆರ್ಥಿಕ ವಿವರಣಾಪಟ್ಟಿಗಳು
+                                
+                            </i>
+                        </h4>
+
+                        <Para>
+                            {ctx.chapter5kannada.Content.para14}
+                        </Para>
+                        <Subtitle>
+                            <i>
+                            {ctx.chapter5kannada.Content.para15}
+                            </i>
+                        </Subtitle>
+                        <Para>
+                            {ctx.chapter5kannada.Content.para16}
+                        </Para>    
+                        <Subtitle>
+                            <i>
+                            {ctx.chapter5kannada.Content.para17}
+                            </i>
+                        </Subtitle>
+                        <Para>
+                            {ctx.chapter5kannada.Content.para18}
+                        </Para>  
+                        <Subtitle>
+                            <i>
+                            {ctx.chapter5kannada.Content.para19}
+                            </i>
+                        </Subtitle>
+                        <Para>
+                            {ctx.chapter5kannada.Content.para21}
+                        </Para> 
+
+                        <Table3kan />
+
+                        <Para>
+                            {ctx.chapter5kannada.Content.para22}
+                        </Para>
+
+                        <Table4kan />
+
+                        <Para>
+                            {ctx.chapter5kannada.Content.para23}
+                        </Para>
+                        <Para>
+                            {ctx.chapter5kannada.Content.para24}
+                        </Para>
 
                     </div>
                 </div>

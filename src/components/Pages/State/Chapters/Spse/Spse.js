@@ -7,6 +7,7 @@ import Para from "../../../../Para/Para"
 import Title from "../../../../Title/Title";
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton"
 import Table1 from "../../../Tables/Chapter5/Table1";
+import Table1kan from "../../../Tables/Chapter5kan/Table1";
 // import Table1 from '../../../Tables/Chapter4/Table1'
 
 
@@ -82,7 +83,7 @@ const Spse = () => {
                     <Navbar />
                     <FaSpinner icon="spinner" className="spinner" />
                 </div>)
-            : (ctx.chapter4kannada
+            : (ctx.chapter5kannada
                 ? <div >
                     <Navbar />
                     <div className="contentwrapper" id="home">
@@ -90,14 +91,19 @@ const Spse = () => {
 
 
                         <Title>
-                            {ctx.chapter4kannada.Content.para103}
+                            {ctx.chapter5kannada.Content.para8}
                         </Title>
-                        {["para104", "para105", "para106", "para107", "para108"].map((item, ind) =>
+                        {["para9", "para10"].map((item, ind) =>
                             <Para key={ind / 10}>
-                                <i>
-                                    {ctx.chapter4kannada.Content[item]}
-                                </i>
+                            
+                                    {ctx.chapter5kannada.Content[item]}
+                            
                             </Para>)}
+                        <Table1kan />
+
+                        <Para>
+                        {ctx.chapter5kannada.Content.para10a}
+                        </Para>    
 
                     </div>
                 </div>

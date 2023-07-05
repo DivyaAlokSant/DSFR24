@@ -2,6 +2,7 @@ import React, { useContext } from "react"
 import Navbar from "../../../../Navbar/Navbar"
 import Subtitle from "./../../../../Subtitle/Subtitle"
 import Table11 from "../../../Tables/Chapter5/Table11";
+import Table11kan from "../../../Tables/Chapter5kan/Table11";
 import './../../State.css'
 import { FaSpinner } from "react-icons/fa"
 import { MyContext } from '../../../../../Context/MyProvider';
@@ -94,7 +95,7 @@ const Submissions = () => {
                     <Navbar />
                     <FaSpinner icon="spinner" className="spinner" />
                 </div>)
-            : (ctx.chapter4kannada
+            : (ctx.chapter5kannada
                 ? <div >
                     <Navbar />
                     <div className="contentwrapper" id="home">
@@ -102,14 +103,39 @@ const Submissions = () => {
 
 
                         <Title>
-                            {ctx.chapter4kannada.Content.para103}
+                            {ctx.chapter5kannada.Content.Para57}
                         </Title>
-                        {["para104", "para105", "para106", "para107", "para108"].map((item, ind) =>
+                        <Subtitle>
+                            <i>
+                            {ctx.chapter5kannada.Content.Para58}
+                            </i>
+                        </Subtitle>
+                        {["Para59", "Para60","Para61","Para62"].map((item, ind) =>
                             <Para key={ind / 10}>
-                                <i>
-                                    {ctx.chapter4kannada.Content[item]}
-                                </i>
+                                {ctx.chapter5kannada.Content[item]}
                             </Para>)}
+                        <Subtitle>
+                            <i>
+                            {ctx.chapter5kannada.Content.Para63}
+                            </i>
+                        </Subtitle>
+                        <Para>
+                            {ctx.chapter5kannada.Content.Para64}
+                        </Para> 
+                        <Table11kan />
+                        <Para>
+                            {ctx.chapter5kannada.Content.Para65}
+                        </Para>
+                        <Subtitle>
+                            <i>
+                            {ctx.chapter5kannada.Content.Para66}
+                            </i>
+                        </Subtitle>
+                        <Para>
+                            {ctx.chapter5kannada.Content.Para67}
+                        </Para> 
+
+
 
                     </div>
                 </div>

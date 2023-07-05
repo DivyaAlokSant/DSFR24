@@ -7,19 +7,25 @@ import { FaSpinner } from 'react-icons/fa'
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton"
 import './../../Finances.css'
 import c218 from '../../../../../Images/c218.png'
+import k218 from '../../../../../Images/k218.png'
 import c219 from '../../../../../Images/c219.png'
+import k219 from '../../../../../Images/k219.png'
 import c220 from '../../../../../Images/c220.png'
+import k220 from '../../../../../Images/k220.png'
 import ImageComponent from 'material-ui-image'
 import Table35 from '../../../Tables/Chapter2/Table35'
 import Table35kan from '../../../Tables/Chapter2kan/Table35'
 import Table36kan from '../../../Tables/Chapter2kan/Table36'
 import Table37 from '../../../Tables/Chapter2/Table37'
 import Table37kan from '../../../Tables/Chapter2kan/Table37'
+import Table3೭kan from '../../../Tables/Chapter2kan/Table3೭'
 import Table38 from '../../../Tables/Chapter2/Table38'
 import Table38kan from '../../../Tables/Chapter2kan/Table38'
 import Table39 from '../../../Tables/Chapter2/Table39'
 import Table39kan from '../../../Tables/Chapter2kan/Table39'
 import Table40 from '../../../Tables/Chapter2/Table40'
+import Table40kan from '../../../Tables/Chapter2kan/Table40'
+import Table41kan from '../../../Tables/Chapter2kan/Table41'
 import {
     Chart17,
     Chart18,
@@ -174,77 +180,153 @@ const Dsa = () => {
                         <FloatingActionButtons back="/finances/debtmanagement" forward="/finances/conclusion" />
                         <Title>{ctx.chapter2kannada.Content.para282}</Title>
 
-                        {["para283", "para284", "para285"].map((item, ind) =>
+                        {["para264", "para265", "para266"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
                             </Para>)}
                         <h3 className='headnote'>
                             ₹ In crore
                         </h3>
-                        <Table35kan />
-                        <h6>* ಬಾಕಿಯಿರುವ ಸಾರ್ವಜನಿಕ ಋಣವು 6003-ಆಂತರಿಕ ಋಣ ಮತ್ತು 6004-ಭಾರತ ಸರ್ಕಾರದಿಂದ ಸಾಲಗಳು ಮತ್ತು ಮುಂಗಡಗಳ ಅಡಿಯಲ್ಲಿ ಉಳಿದಿರುವ ಮೊತ್ತವಾಗಿದೆ.
+                        <Table3೭kan />
+                        <h3>* ಬಾಕಿಯಿರುವ ಸಾರ್ವಜನಿಕ ಋಣವು 6003-ಆಂತರಿಕ ಋಣ ಮತ್ತು 6004-ಭಾರತ ಸರ್ಕಾರದಿಂದ ಸಾಲಗಳು ಮತ್ತು ಮುಂಗಡಗಳ ಅಡಿಯಲ್ಲಿ ಉಳಿದಿರುವ ಮೊತ್ತವಾಗಿದೆ.
                             <br></br>
                             #	 ರಾಜ್ಯ ಸರ್ಕಾರಕ್ಕೆ ಲಭ್ಯವಿರುವ ನಿವ್ವಳ ಸಾಲವನ್ನು, ಸಾರ್ವಜನಿಕ ಸಾಲ ಮರುಪಾವತಿ ಮತ್ತು ಸಾರ್ವಜನಿಕ ಸಾಲದ ಮೇಲಿನ ಬಡ್ಡಿ ಪಾವತಿಗಳ ಮೇಲಿನ ಸಾರ್ವಜನಿಕ ಸಾಲ ಸ್ವೀಕೃತಿಗಳ ಹೆಚ್ಚುವರಿ ಎಂದು ಲೆಕ್ಕಹಾಕಲಾಗುತ್ತದೆ ಮತ್ತು ಸರಕು ಮತ್ತು ಸೇವಾ ತೆರಿಗೆ ಪರಿಹಾರವಾಗಿ ಭಾರತ ಸರ್ಕಾರದಿಂದ ಪಡೆದ ಬ್ಯಾಕ್-ಟು-ಬ್ಯಾಕ್ ಸಾಲಗಳನ್ನು ಒಳಗೊಂಡಿರುವುದಿಲ್ಲ.
                             <br></br>
                             ^  ಸರಕು ಮತ್ತು ಸೇವಾ ತೆರಿಗೆ ಪರಿಹಾರದ ಬದಲಾಗಿ ಭಾರತ ಸರ್ಕಾರದಿಂದ ಪಡೆದ ಬ್ಯಾಕ್-ಟು-ಬ್ಯಾಕ್ ಸಾಲವನ್ನು (₹12,407 ಕೋಟಿ) ಸೂಚಕವನ್ನು ಲೆಕ್ಕ ಹಾಕಲು ಪರಿಗಣಿಸಲಾಗಿಲ್ಲ.
-                        </h6>
-                        {["para286", "para287", "para288", "para289", "para290", "para291", "para292", "para293", "para294", "para295", "para296", "para297", "para298", "para299","para300"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapter2kannada.Content[item]}
-                            </Para>)}
-                        <h3 className='headnote'>
-                            ₹ In crore
+                            <br></br>
+                            ** ೨೦೨೦-೨೧ ಮತ್ತು ೨೦೨೧-೨೨ರ ಅವಧಿಯಲ್ಲಿ  ಸರಕು ಸೇವಾ ತೆರಿಗೆ ಪರಿಹಾರದ ಬದಲಾಗಿ ಸ್ವೀಕರಿಸಿದ `೩೦,೫೧೬ ಕೋಟಿ ಬ್ಯಾಕ್‌-ಟು-ಬ್ಯಾಕ್‌ ಸಾಲವನ್ನು ಒಳಗೊಂಡಿದೆ.                       
                         </h3>
-                        <Table36kan />
-                        <h6>ಆಕರ: ಹಣಕಾಸು ಲೆಕ್ಕಗಳು</h6>
-                        {["para301", "para302", "para303","para304"].map((item, ind) =>
+                        {["para267", "para268"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
                             </Para>)}
-                        <h3 className='headnote'>
-                            ₹ In crore
-                        </h3>
-                        <Table37kan />
-                        <h6>ಆಕರ: ಹಣಕಾಸು ಲೆಕ್ಕಗಳು</h6>
-                        {["para305", "para306", "para307", "para308", "para309", "para310", "para311", "para312", "para313", "para314","para315"].map((item, ind) =>
+                        {["para269","para270"].map((item, ind) =>
                             <Para key={ind / 10}>
+                                <li>
                                 {ctx.chapter2kannada.Content[item]}
+                                </li>
                             </Para>)}
+                        
+                        <Para>
+                            {ctx.chapter2kannada.Content.para271}
+                        </Para>    
+                        {["para272", "para273","para274","para275","para276","para277",].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                <li>
+                                {ctx.chapter2kannada.Content[item]}
+                                </li>
+                            </Para>)}
+
+                        <Subtitle>
+                            <i>
+                            {ctx.chapter2kannada.Content.para278}
+                            </i>
+                        </Subtitle>
+                        <Para>
+                            {ctx.chapter2kannada.Content.para279}
+                        </Para> 
                         <h3 className='headnote'>
-                            ₹ In crore
+                            ₹  ಕೋಟಿಗಳಲ್ಲಿ
                         </h3>
                         <Table38kan />
-                        <h6>ಆಕರ: ಹಣಕಾಸು ಲೆಕ್ಕಗಳು</h6>
-                        {["para316", "para317", "para318"].map((item, ind) =>
+                        <h3>* ಬಾಕಿಯಿರುವ ಸಾರ್ವಜನಿಕ ಋಣವು 6003-ಆಂತರಿಕ ಋಣ ಮತ್ತು 6004-ಭಾರತ ಸರ್ಕಾರದಿಂದ ಸಾಲಗಳು ಮತ್ತು ಮುಂಗಡಗಳ ಅಡಿಯಲ್ಲಿ ಉಳಿದಿರುವ ಮೊತ್ತವಾಗಿದೆ.
+                            <br></br>
+                            * 2020-21 ಮತ್ತು 2021-22ರ ಅವಧಿಯಲ್ಲಿ ಒಟ್ಟು ಸಾಲಗಳು ಬ್ಯಾಕ್-ಟು-ಬ್ಯಾಕ್ ಸಾಲಗಳನ್ನು ಒಳಗೊಂಡಿದ್ದವು.
+                             ಋಣ ಸ್ವೀಕೃತಿಗಳಡಿಯಲ್ಲಿ 2020-21 ಮತ್ತು 2021-22ರ ಅವಧಿಯಲ್ಲಿ ಅನುಕ್ರಮವಾಗಿ ರಾಜ್ಯಕ್ಕೆ ಬ್ಯಾಕ್-ಟು-ಬ್ಯಾಕ್
+                              ಸಾಲವಾಗಿ ನೀಡಲಾದ `೧೨,೪೦೭ ಕೋಟಿ ಮತ್ತು  `1೮,೧೦೯ ಕೋಟಿ ಸರಕು ಮತ್ತು ಸೇವಾ ತೆರಿಗೆ ಪರಿಹಾರವನ್ನು,
+                               ಹಣಕಾಸು ಆಯೋಗವು ಸೂಚಿಸಬಹುದಾದ ಯಾವುದೇ ಮಾನದಂಡಗಳಿಗೆ ರಾಜ್ಯದ ಸಾಲವೆಂದು ಪರಿಗಣಿಸಲಾಗುವುದಿಲ್ಲ 
+                               ಎಂದು ಭಾರತ ಸರ್ಕಾರದ ವೆಚ್ಚ ಇಲಾಖೆಯು ನಿರ್ಧರಿಸಿತು.
+                        </h3>
+
+
+                        {["para280", "para281"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
+                            </Para>)}
+                        <Subtitle>
+                            <i>
+                            {ctx.chapter2kannada.Content.para282}
+                            </i>
+                        </Subtitle>
+                        <Para>
+                            {ctx.chapter2kannada.Content.para283}
+                        </Para>
+
+                        <h3 className='headnote'>
+                            ₹  ಕೋಟಿಗಳಲ್ಲಿ
+                        </h3>
+                        <Table39kan />
+                        <h3>
+                            ಆಕರ : ಹಣಕಾಸು ಲೆಕ್ಕಗಳು
+                        </h3>
+
+                        {["para284", "para285", "para286"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter2kannada.Content[item]}
+                            </Para>)}
+                        <Subtitle>
+                            <i>
+                            {ctx.chapter2kannada.Content.para287}
+                            </i>
+                        </Subtitle>
+                        <Para>
+                            {ctx.chapter2kannada.Content.para288}
+                        </Para>
+
+                        {["para289","para290","para291"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                <li>
+                                {ctx.chapter2kannada.Content[item]}
+                                </li>
                             </Para>)}
                         <h3 className='headnote'>
-                            ₹ In crore
+                            ₹  ಕೋಟಿಗಳಲ್ಲಿ
                         </h3>
-                        {["para319"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapter2kannada.Content[item]}
-                            </Para>)}
-                        <Table39kan />
-                        <h6>ಆಕರ: ಹಣಕಾಸು ಲೆಕ್ಕಗಳು</h6>
-                        
+                        <Table40kan />
+                        <h3>
+                            ಆಕರ : ಹಣಕಾಸು ಲೆಕ್ಕಗಳು
+                        </h3>
 
-                        {["para320","para321"].map((item, ind) =>
+
+                        {["para292", "para293", "para294", "para295"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
                             </Para>)}
-                        <Chart19 />
-                        <h6>ಆಕರ: ಹಣಕಾಸು ಲೆಕ್ಕಗಳು</h6>
-                        <Para>
-                            {ctx.chapter2kannada.Content.para322}
-                        </Para>
-                        <Chart18 />
-                        <Chart19 />
-                        {["para323","para324","Para325","para325a","para325b","para326"].map((item, ind) =>
+
+                        <h3 className='headnote'>
+                            ₹  ಕೋಟಿಗಳಲ್ಲಿ
+                        </h3>
+                        <Table41kan />
+                        <h3>
+                            ಆಕರ : ಹಣಕಾಸು ಲೆಕ್ಕಗಳು
+                        </h3>
+
+
+                        {["para296", "para297"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter2kannada.Content[item]}
+                            </Para>)}   
+
+                        <ImageComponent  src={k218} alt="chart23" aspectRatio={1 / 0.5} />
+
+                        {["para298", "para299"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter2kannada.Content[item]}
+                            </Para>)}    
+
+                        <ImageComponent  src={k219} alt="chart23" aspectRatio={1 / 0.6} />
+                        <ImageComponent  src={k220} alt="chart23" aspectRatio={1 / 0.6} />
+                        {["para300", "para301", "para302"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
                             </Para>)}
+
+
+
+
+
+
+                        
 
                     </div>
                 </div>

@@ -51,7 +51,7 @@ const conditionalRowStyles = [
     }
   ]
 
-const Table37kan = () => {
+const Table37akan = () => {
 
     const ctx = useContext(MyContext)
 
@@ -61,7 +61,7 @@ const Table37kan = () => {
                 <DataTable
                     title="ಕೋಷ್ಟಕ-2.3೬: ಸಾರ್ವಜನಿಕ ಋಣದ ಅವಧಿ ಪೂರ್ಣತೆಯ ಚಿತ್ರಣ"
                     columns={columns}
-                    data={ctx.tables2kan.Table37}
+                    data={ctx.tables2kan.Table37a}
                     customStyles={customStyles}
                     striped
                     conditionalRowStyles={conditionalRowStyles}
@@ -74,4 +74,4 @@ const Table37kan = () => {
     );
 }
 
-export default Table37kan;
+export default Table37akan;

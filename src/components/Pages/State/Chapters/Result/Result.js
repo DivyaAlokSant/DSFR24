@@ -106,7 +106,7 @@ const Result = () => {
                     <Navbar />
                     <FaSpinner icon="spinner" className="spinner" />
                 </div>)
-            : (ctx.chapter4kannada
+            : (ctx.chapter5kannada
                 ? <div >
                     <Navbar />
                     <div className="contentwrapper" id="home">
@@ -114,13 +114,70 @@ const Result = () => {
 
 
                         <Title>
-                            {ctx.chapter4kannada.Content.para103}
+                            {ctx.chapter5kannada.Content.Para80}
                         </Title>
-                        {["para104", "para105", "para106", "para107", "para108"].map((item, ind) =>
+                        <Subtitle>
+                            <i>
+                            {ctx.chapter5kannada.Content.Para81}
+                            </i>
+                        </Subtitle>
+                        <Para>
+                            {ctx.chapter5kannada.Content.Para82}
+                        </Para> 
+                        <Subtitle>
+                            <i>
+                            {ctx.chapter5kannada.Content.Para83}
+                            </i>
+                        </Subtitle>
+                        <Para>
+                            {ctx.chapter5kannada.Content.Para84}
+                        </Para> 
+                        <Subtitle>
+                            <i>
+                            {ctx.chapter5kannada.Content.Para85}
+                            </i>
+                        </Subtitle>
+                        <Para>
+                            {ctx.chapter5kannada.Content.Para86}
+                        </Para> 
+                        <Subtitle>
+                            <i>
+                            {ctx.chapter5kannada.Content.Para87}
+                            </i>
+                        </Subtitle>
+                        {["Para88", "Para89"].map((item, ind) =>
                             <Para key={ind / 10}>
-                                <i>
-                                    {ctx.chapter4kannada.Content[item]}
-                                </i>
+                                {ctx.chapter5kannada.Content[item]}
+                            </Para>)} 
+                        <Subtitle>
+                            <i>
+                            {ctx.chapter5kannada.Content.Para90}
+                            </i>
+                        </Subtitle>
+                        <Para>
+                            {ctx.chapter5kannada.Content.Para91}
+                        </Para> 
+                        <Para>
+                            <h3>
+                            {ctx.chapter5kannada.Content.Para92}
+                            </h3>
+                        </Para> 
+                        {["Para93", "Para94", "Para95"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                <li>   
+                                {ctx.chapter5kannada.Content[item]}
+                                </li>
+                            </Para>)} 
+                        <Para>
+                            <h3>
+                            {ctx.chapter5kannada.Content.Para96}
+                            </h3>
+                        </Para> 
+                        {["Para97", "Para98"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                <li>   
+                                {ctx.chapter5kannada.Content[item]}
+                                </li>
                             </Para>)}
 
                     </div>

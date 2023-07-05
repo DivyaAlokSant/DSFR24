@@ -7,11 +7,18 @@ import { FaSpinner } from 'react-icons/fa'
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton"
 import './../../Finances.css'
 import c23 from '../../../../../Images/c23.png'
+import k23 from '../../../../../Images/k23.png'
 import c24 from '../../../../../Images/c24.png'
+import k24 from '../../../../../Images/k24.png'
 import c25 from '../../../../../Images/c25.png'
+import k25 from '../../../../../Images/k25.png'
 import c26 from '../../../../../Images/c26.png'
+import k26 from '../../../../../Images/k26.png'
 import t24 from '../../../../../Images/t24.png'
+import kt24 from '../../../../../Images/kt24.png'
+
 import t26 from '../../../../../Images/t26.png'
+import kt26 from '../../../../../Images/kt26.png'
 import ImageComponent from 'material-ui-image'
 import Table3 from '../../../Tables/Chapter2/Table3'
 import Table9 from '../../../Tables/Chapter2/Table9'
@@ -30,7 +37,7 @@ import Subtitle from '../../../../Subtitle/Subtitle'
 import { getFirebase } from '../../../../../firebase/firebase'
 import Table3kan from '../../../Tables/Chapter2kan/Table3'
 import Table5kan from '../../../Tables/Chapter2kan/Table5'
-
+import Table6kan from '../../../Tables/Chapter2kan/Table6'
 import Table7kan from '../../../Tables/Chapter2kan/Table7'
 import Table8kan from '../../../Tables/Chapter2kan/Table8'
 import Table9kan from '../../../Tables/Chapter2kan/Table9'
@@ -422,7 +429,15 @@ const Resources = () => {
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
                             </Para>)}
-                            {["para14", "para15"].map((item, ind) =>
+                        <ImageComponent  src={k23} alt="chart23" aspectRatio={1 / 1} />    
+                        <h4 className='footnote'>
+                            <i>
+                            
+                            *	ಋಣ ಸ್ವೀಕೃತಿಗಳಡಿಯಲ್ಲಿ ರಾಜ್ಯಕ್ಕೆ ಬ್ಯಾಕ್-ಟು-ಬ್ಯಾಕ್ ಸಾಲವಾಗಿ ನೀಡಲಾದ `1೮,೧೦೯ ಕೋಟಿ ಸರಕು ಮತ್ತು ಸೇವಾ ತೆರಿಗೆ ಪರಿಹಾರವನ್ನು, ಹಣಕಾಸು ಆಯೋಗವು ಸೂಚಿಸಬಹುದಾದ ಯಾವುದೇ ಮಾನದಂಡಗಳಿಗೆ ರಾಜ್ಯದ ಸಾಲವೆಂದು ಪರಿಗಣಿಸಲಾಗುವುದಿಲ್ಲ ಎಂದು ಭಾರತ ಸರ್ಕಾರದ ವೆಚ್ಚದ ಇಲಾಖೆಯು ನಿರ್ಧರಿಸಿರುವುದರಿಂದ ಪರಿಣಾಮಕಾರಿ ಋಣ ಸ್ವೀಕೃತಿಗಳು `೬೨,೫೩೨ ಕೋಟಿಗಳಾಗುತ್ತದೆ, ಹಾಗಾಗಿ ಪರಿಣಾಮಕಾರಿ ಬಂಡವಾಳ ಸ್ವೀಕೃತಿಗಳು `೬೨,೬೬೫ಕೋಟಿ ಮತ್ತು ಪರಿಣಾಮಕಾರಿ ಒಟ್ಟು ಸ್ವೀಕೃತಿಗಳು `೨,೭೩,೬೪೪ ಕೋಟಿಗಳಾಗುತ್ತದೆ
+                            </i>
+                    </h4>   
+                           
+                         {["para14", "para15"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
                             </Para>)}
@@ -443,8 +458,10 @@ const Resources = () => {
                         <Table3kan />
                         <Para>
                             {ctx.chapter2kannada._collections_.t3f1}
+                        <ImageComponent  src={k24} alt="chart23" aspectRatio={1 / 0.6} />
+                        <ImageComponent  src={k25} alt="chart23" aspectRatio={1 / 0.6} />
                         </Para>
-                        <Para>
+                        {/* <Para>
                             {ctx.chapter2kannada._collections_.t3f2}
                         </Para>
                         <Chrt2 />
@@ -453,18 +470,18 @@ const Resources = () => {
                             <i>
                             {ctx.chapter2kannada._collections_.c4f1}
                             </i>
-                        </Para>
+                        </Para> */}
                         <Para>
                             
                             {ctx.chapter2kannada._collections_.f6}
                             
                         </Para>
-                        <Chrt3 />
+                        {/* <Chrt3 />
                         <h4 className='footnote'>
                             <i>
                             ಆಕರ: ಹಣಕಾಸು ಲೆಕ್ಕಗಳು
                             </i>
-                        </h4>
+                        </h4> */}
                             {["para15"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
@@ -494,24 +511,25 @@ const Resources = () => {
                                 {ctx.chapter2kannada.Content[item]}
                                 
                             </Para>)} 
-
-                        <Chrt4 />
+                        <ImageComponent  src={k26} alt="chart23" aspectRatio={1 / 0.7} />
+                        {/* <Chrt4 /> */}
                         <Para>
                             {ctx.chapter2kannada.Content.para28}
                         </Para>
+                        <ImageComponent  src={kt24} alt="chart23" aspectRatio={1 / 0.7} />
+                        
+                        <Para>
+                            {ctx.chapter2kannada.Content.para29}
+                        </Para>
+                        {["para30", "para31", "para32",].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter2kannada.Content[item]}
+                            </Para>)}
                         
                         <h3 className='headnote'>
                             ₹ In crore
                         </h3>
                         <Table5kan />
-                        <Para>
-                            {ctx.chapter2kannada.Content.para29}
-                        </Para>
-                        {["para30", "para31", "para32"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapter2kannada.Content[item]}
-                            </Para>)}
-
                         
                         {/* <h3 className='headnote'>
                             ₹ In crore
@@ -531,12 +549,14 @@ const Resources = () => {
 
                         {/* <Table9kan/> */}
                        
-                        
+                        <ImageComponent  src={kt26} alt="chart23" aspectRatio={1 / 0.7} />
                         {["para41", "para42", "para43", "para44",].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
                             </Para>)}
-
+                            
+                        <Table6kan />    
+                        
                         {["para45", "para46"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}

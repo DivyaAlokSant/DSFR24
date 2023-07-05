@@ -8,7 +8,9 @@ import Para from "../../../../Para/Para"
 import Title from "../../../../Title/Title";
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton"
 import Table5 from "../../../Tables/Chapter5/Table5";
+import Table5kan from "../../../Tables/Chapter5kan/Table5";
 import Table6 from "../../../Tables/Chapter5/Table6";
+import Table6kan from "../../../Tables/Chapter5kan/Table6";
 // import Table1 from '../../../Tables/Chapter4/Table1'
 
 
@@ -102,15 +104,40 @@ const Returns = () => {
 
 
                         <Title>
-                            {ctx.chapter4kannada.Content.para103}
+                            {ctx.chapter5kannada.Content.para25}
                         </Title>
-                        {["para104", "para105", "para106", "para107", "para108"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                <i>
-                                    {ctx.chapter4kannada.Content[item]}
-                                </i>
-                            </Para>)}
+                        <Subtitle>
+                            <i>
+                            {ctx.chapter5kannada.Content.para26}
+                            </i>
+                        </Subtitle>
+                        <Para>
+                            {ctx.chapter5kannada.Content.para20}
+                        </Para> 
+                        <Para>
+                            {ctx.chapter5kannada.Content.para27}
+                        </Para>
+                        <Table5kan />
 
+                        <Para>
+                            {ctx.chapter5kannada.Content.para28}
+                        </Para>
+                        <Subtitle>
+                            <i>
+                            {ctx.chapter5kannada.Content.para29}
+                            </i>
+                        </Subtitle>
+                        <Para>
+                            {ctx.chapter5kannada.Content.para30}
+                        </Para> 
+                        <h3 className='headnote'>
+                            ₹  ಕೋಟಿಗಳಲ್ಲಿ
+                        </h3>
+                        <Table6kan />
+                        
+                        <Para>
+                            {ctx.chapter5kannada.Content.para31}
+                        </Para>
                     </div>
                 </div>
                 : <div>

@@ -8,43 +8,27 @@ import { MyContext } from "../../../../Context/MyProvider";
 
 const columns = [
     {
-        name: "Year",
-        selector: "Year",
-        // grow: ,
+        name: "",
+        selector: "1",
+        grow: 1,
         wrap: true,
         // width:'35px',
     },
     {
-        name: "Opening Balance",
-        selector: "Opening Balance",
+        name: "1 ಏಪ್ರಿಲ್‌ 202೧ರಲ್ಲಿ ಪ್ರಾರಂಭಿಕ ಶಿಲ್ಕು",
+        selector: "1 ಏಪ್ರಿಲ್‌ 202೧ರಲ್ಲಿ ಪ್ರಾರಂಭಿಕ ಶಿಲ್ಕು",
         // grow:0.05,
         wrap: true,
-        format: data => data["Opening Balance"].toLocaleString('en-IN')
+        format: data => data["1 ಏಪ್ರಿಲ್‌ 202೧ರಲ್ಲಿ ಪ್ರಾರಂಭಿಕ ಶಿಲ್ಕು"].toLocaleString('en-IN')
     },
     {
-        name: "Closing Balance",
-        selector: "Closing Balance",
+        name: "೩೧ ಮಾರ್ಚ್‌ 202೨ರಲ್ಲಿ ಅಂತಿಮ ಶಿಲ್ಕು",
+        selector: "೩೧ ಮಾರ್ಚ್‌ 202೨ರಲ್ಲಿ ಅಂತಿಮ ಶಿಲ್ಕು",
         // grow: 0.05,
         // width:'110px',
         wrap: true,
-        format: data => data["Closing Balance"].toLocaleString('en-IN')
-    },
-    {
-        name: "IncreaseDecrease",
-        selector: "IncreaseDecrease",
-        // grow: 0.05,
-        // width:'110px',
-        wrap: true,
-        format: data => data["IncreaseDecrease"].toLocaleString('en-IN')
-    },
-    {
-        name: "Interest earned",
-        selector: "Interest earned",
-        // grow: 0.05,
-        // width:'110px',
-        wrap: true,
-        format: data => data["Interest earned"].toLocaleString('en-IN')
-    },
+        format: data => data["೩೧ ಮಾರ್ಚ್‌ 202೨ರಲ್ಲಿ ಅಂತಿಮ ಶಿಲ್ಕು"].toLocaleString('en-IN')
+    }
 ];
 
 
@@ -92,7 +76,7 @@ const customStyles = {
 
 
 
-const Table40 = () => {
+const Table40kan = () => {
 
     const ctx = useContext(MyContext)
 
@@ -100,9 +84,9 @@ const Table40 = () => {
         <div className="App" style={{ margin: "40px 0 40px 0" }} >
             <Card>
                 <DataTable
-                    title="Table 2.41: Cash Balance Investment Account (Major Head-8673)"
+                    title="ಕೋಷ್ಟಕ-2.೪೦: ನಗದು ಶಿಲ್ಕುಗಳು ಮತ್ತು ಅವುಗಳ ಹೂಡಿಕೆ"
                     columns={columns}
-                    data={ctx.reportData.Chap2Tables.Table40}
+                    data={ctx.tables2kan.Table40}
                     customStyles={customStyles}
                     striped
                     // conditionalRowStyles={conditionalRowStyles}
@@ -115,4 +99,4 @@ const Table40 = () => {
     );
 }
 
-export default Table40;
+export default Table40kan;

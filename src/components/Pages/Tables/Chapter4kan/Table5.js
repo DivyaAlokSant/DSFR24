@@ -30,8 +30,8 @@ const columns = [
         
     },
     {
-        name: "ಅಂತಿಮ ಶಿಲ್ಕು",
-        selector: "ಅಂತಿಮ ಶಿಲ್ಕು",
+        name: "ಆಂತಿಮ ಶಿಲ್ಕು",
+        selector: "ಆಂತಿಮ ಶಿಲ್ಕು",
         wrap: true,
        
     }
@@ -47,7 +47,7 @@ const Table5kan = () => {
         <div className="App" style={{ margin: "40px 0 40px 0" }} >
             <Card>
                 <DataTable
-                    title="ಕೋಷ್ಟಕ-೪.೬: ವೈಯಕ್ತಿಕ ಠೇವಣಿ ಖಾತೆಗಳಲ್ಲಿ ಇರಿಸಲಾದ ನಿಧಿಗಳು. "
+                    title="ಕೋಷ್ಟಕ 4.5: ವೈಯಕ್ತಿಕ  ಠೇವಣಿ ಖಾತೆಗಳಲ್ಲಿ ಇರಿಸಲಾದ ನಿಧಿಗಳು"
                     columns={columns}
                     data={ctx.tables4kan.Table5}
                     customStyles={customStyles}

@@ -9,6 +9,7 @@ import './../../Finances.css'
 import Table28 from '../../../Tables/Chapter2/Table28'
 import Table28kan from '../../../Tables/Chapter2kan/Table28'
 import c213 from '../../../../../Images/c213.png'
+import k213 from '../../../../../Images/k213.png'
 import ImageComponent from 'material-ui-image'
 
 import Table29 from '../../../Tables/Chapter2/Table29'
@@ -17,7 +18,7 @@ import Table29a from '../../../Tables/Chapter2/Table29a'
 import Table29kan from '../../../Tables/Chapter2kan/Table29'
 import Table30kan from '../../../Tables/Chapter2kan/Table30'
 import Table31akan from '../../../Tables/Chapter2kan/Table31a'
-import { 
+import {
 
     Chart13
 } from '../../../Charts/Chap2Charts'
@@ -158,6 +159,8 @@ const PublicAccount = () => {
                             ಟಿಪ್ಪಣಿ : (+) ಎನ್ನುವುದು ಖರ್ಚು ಶಿಲ್ಕನ್ನು ಮತ್ತು (-) ಎನ್ನುವುದು ಜಮೆ ಶಿಲ್ಕನ್ನು ಸೂಚಿಸುತ್ತದೆ
                         </h3>
 
+                        <ImageComponent  src={k213} alt="chart23" aspectRatio={1 / 0.55} />
+
                         <Para>
                             {ctx.chapter2kannada.Content.para191}
                         </Para>
@@ -283,12 +286,6 @@ const PublicAccount = () => {
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
                             </Para>)} 
-
-
-
-
-
-
                         
                         
 

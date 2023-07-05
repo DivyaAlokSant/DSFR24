@@ -49,7 +49,7 @@ const columns = [
     },
     
     {
-        name: "Percent increase/decrease",
+        name: "Percent Increase",
         selector: "Per cent increase",
         // grow: 0.05,
         width:'150px',
@@ -97,7 +97,7 @@ const columns = [
     },
   
     {
-        name: "Percent increase/decrease",
+        name: "Percent Increase",
         selector: "Per cent increase__1",
         grow:0.05,
         wrap: true,

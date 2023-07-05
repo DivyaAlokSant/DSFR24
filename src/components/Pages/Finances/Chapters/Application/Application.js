@@ -22,7 +22,7 @@ import Table21 from '../../../Tables/Chapter2/Table21'
 import Table22 from '../../../Tables/Chapter2/Table22'
 import Table23 from '../../../Tables/Chapter2/Table23'
 import Table24 from '../../../Tables/Chapter2/Table24'
-import Table24b from '../../../Tables/Chapter2/Table24b'
+//import Table24b from '../../../Tables/Chapter2/Table24b'
 import Table25 from '../../../Tables/Chapter2/Table25'
 import Table25a from '../../../Tables/Chapter2/Table25a'
 import Table26 from '../../../Tables/Chapter2/Table26'
@@ -52,11 +52,17 @@ import {
    Chart7, Chart8, Chart9
 } from '../../../Charts/Chap2Charts'
 import c27 from '../../../../../Images/c27.png'
+import k27 from '../../../../../Images/k27.png'
 import c28 from '../../../../../Images/c28.png'
+import k28 from '../../../../../Images/k28.png'
 import c29 from '../../../../../Images/c29.png'
+import k29 from '../../../../../Images/k29.png'
 import c210 from '../../../../../Images/c210.png'
+import k210 from '../../../../../Images/k210.png'
 import c211 from '../../../../../Images/c211.png'
+import k211 from '../../../../../Images/k211.png'
 import c212a from '../../../../../Images/c212a.png'
+import k212a from '../../../../../Images/k212a.png'
 import ImageComponent from 'material-ui-image'
 import { getFirebase } from '../../../../../firebase/firebase'
 import Table20kan from '../../../Tables/Chapter2kan/Table20'
@@ -845,17 +851,19 @@ const Application = () => {
                         <Para>
                             {ctx.chapter2kannada.Content.para77}
                         </Para>
-                        <Chart7 />
+                        <ImageComponent  src={k27} alt="chart23" aspectRatio={1 / 0.5} />
+                        {/* <Chart7 />
                         <Para>
                             {ctx.chapter2kannada.Content["t3fb"]}
-                        </Para>
+                        </Para> */}
                         <Para>
                             {ctx.chapter2kannada.Content.para78}
                         </Para>
-                        <Chart8 />
+                        <ImageComponent  src={k28} alt="chart23" aspectRatio={1 / 0.6} />
+                        {/* <Chart8 />
                         <Para>
                             {ctx.chapter2kannada.Content["t3fb"]}
-                        </Para>
+                        </Para> */}
                         <Para>
                             {ctx.chapter2kannada.Content["para79"]}
                         </Para>
@@ -875,13 +883,17 @@ const Application = () => {
                         <Para>
                             {ctx.chapter2kannada.Content["t13a"]}
                         </Para>
+
+                        
+
                         <Para>
                             {ctx.chapter2kannada.Content.para84}
                         </Para>
-                        <Chart9 />
+                        <ImageComponent  src={k29} alt="chart23" aspectRatio={1 / 0.5} />
+                        {/* <Chart9 />
                         <Para>
                             {ctx.chapter2kannada.Content["t3fb"]}
-                        </Para>
+                        </Para> */}
                         {["para85", "para86", "para87",].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
@@ -933,9 +945,7 @@ const Application = () => {
                         <br></br>
                         * ಪಂಚಾಯತ್‌ ರಾಜ್‌ ಸಂಸ್ಥೆಗಳ ಸಂಬಳೇತರ ಬಾಬ್ತುಗಳು ಮತ್ತು ಪಂಚಾಯತ್‌ ರಾಜ್‌ ಸಂಸ್ಥೆಗಳ ಮತ್ತು ನಗರ ಸ್ಥಳೀಯ ಸಂಸ್ಥೆಗಳಿಗೆ ಸಂಬಂಧಿಸಿದ ಇತರ ವೆಚ್ಚಗಳ ಬಾಬ್ತುಗಳನ್ನು ಒಳಗೊಂಡಿದೆ.
                         </h3> 
-                        <Para>
-                            {ctx.chapter2kannada.Content["t15a"]}
-                        </Para>
+                        <ImageComponent  src={k210} alt="chart23" aspectRatio={1 / 0.5} />
                         
                         {["para95" ].map((item, ind) =>
                             <Para key={ind / 10}>
@@ -979,10 +989,13 @@ const Application = () => {
                         <Para>
                             {ctx.chapter2kannada.Content.para119}
                         </Para>
-                        <Chart11 />
+
+                        <ImageComponent  src={k211} alt="chart23" aspectRatio={1 / 0.6} />
+
+                        {/* <Chart11 />
                         <Para>
                             {ctx.chapter2kannada.Content["t15a"]}
-                        </Para>
+                        </Para> */}
                         {["para120", "para121", "para122"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
@@ -1089,7 +1102,7 @@ const Application = () => {
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
                             </Para>)}
-
+                        <ImageComponent  src={k212a} alt="chart23" aspectRatio={1 / 0.6} />
                         <Para>
                             {ctx.chapter2kannada.Content.para147}
                         </Para>  

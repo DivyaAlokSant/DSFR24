@@ -70,7 +70,7 @@ const Cag = () => {
                     <Navbar />
                     <FaSpinner icon="spinner" className="spinner" />
                 </div>)
-            : (ctx.chapter4kannada
+            : (ctx.chapter5kannada
                 ? <div >
                     <Navbar />
                     <div className="contentwrapper" id="home">
@@ -78,14 +78,41 @@ const Cag = () => {
 
 
                         <Title>
-                            {ctx.chapter4kannada.Content.para103}
+                            {ctx.chapter5kannada.Content.Para68}
                         </Title>
-                        {["para104", "para105", "para106", "para107", "para108"].map((item, ind) =>
+                        <Subtitle>
+                            <i>
+                            {ctx.chapter5kannada.Content.Para69}
+                            </i>
+                        </Subtitle>
+                        <Para>
+                            {ctx.chapter5kannada.Content.Para70}
+                        </Para> 
+                        <Subtitle>
+                            <i>
+                            {ctx.chapter5kannada.Content.Para71}
+                            </i>
+                        </Subtitle>
+                        {["Para72", "Para73"].map((item, ind) =>
                             <Para key={ind / 10}>
-                                <i>
-                                    {ctx.chapter4kannada.Content[item]}
-                                </i>
+                                {ctx.chapter5kannada.Content[item]}
                             </Para>)}
+                        {["Para74", "Para75"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                <li>
+                                {ctx.chapter5kannada.Content[item]}
+                                </li>
+                            </Para>)}
+                        <Subtitle>
+                            <i>
+                            {ctx.chapter5kannada.Content.Para76}
+                            </i>
+                        </Subtitle>
+                        {["Para77", "Para78", "Para79"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter5kannada.Content[item]}
+                            </Para>)}
+
 
                     </div>
                 </div>

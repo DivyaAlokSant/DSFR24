@@ -16,11 +16,11 @@ const columns = [
         // width:'35px',
     },
     {
-        name: "ಆಯವ್ಯಯ ಅವಕಾಶ (ಮೂಲ)",
-        selector: "ಆಯವ್ಯಯ ಅವಕಾಶ (ಮೂಲ)",
+        name: "ಒಟ್ಟು ಹಂಚಿಕೆ",
+        selector: "ಒಟ್ಟು ಹಂಚಿಕೆ",
         // grow:0.05,
         wrap: true,
-        
+        format: data => data["ಒಟ್ಟು ಹಂಚಿಕೆ"].toLocaleString('en-IN')
     },
     {
         name: "ವರ್ಗ ʼಎʼ ಒಟ್ಟು ಹಂಚಿಕೆ",
@@ -28,19 +28,19 @@ const columns = [
         // grow: 0.05,
         // width:'110px',
         wrap: true,
-      
+        format: data => data["ವರ್ಗ ʼಎʼ ಒಟ್ಟು ಹಂಚಿಕೆ"].toLocaleString('en-IN')
     },
     {
         name: "ವರ್ಗ ʼಬಿʼ ಒಟ್ಟು ಹಂಚಿಕೆ",
-        selector: "ವರ್ಗ ʼಬಿʼ",
+        selector: "ವರ್ಗ ʼಬಿʼ ಒಟ್ಟು ಹಂಚಿಕೆ",
         // grow: 0.05,
         // width:'110px',
         wrap: true,
        
     },
     {
-        name: "ವರ್ಗ ʼಬಿʼ ಹಂಚಿಕೆಯ ಶೇಕಡ ೩೦",
-        selector: "ವರ್ಗ ʼಬಿʼ ಹಂಚಿಕೆಯ ಶೇಕಡ ೩೦",
+        name: "ವರ್ಗ ʼಬಿʼ ಹಂಚಿಕೆಯ ಶೇಕಡ 30",
+        selector: "ವರ್ಗ ʼಬಿʼ ಹಂಚಿಕೆಯ ಶೇಕಡ 30",
         // grow: 0.05,
         // width:'110px',
         wrap: true,
@@ -54,8 +54,8 @@ const columns = [
         
     },
   {
-        name: "ಒಟ್ಟು ಹಂಚಿಕೆಗೆ ವರ್ಗ ʼಬಿʼ ಶೇಕಡಾವಾರು",
-        selector: "ಒಟ್ಟು ಹಂಚಿಕೆಗೆ ವರ್ಗ ʼಬಿʼ ಶೇಕಡಾವಾರು",
+        name: "ಒಟ್ಟು ಹಂಚಿಕೆಗೆ ವರ್ಗ ʼಬಿʼ (ಶೇಕಡ 30) ಶೇಕಡಾವಾರು",
+        selector: "ಒಟ್ಟು ಹಂಚಿಕೆಗೆ ವರ್ಗ ʼಬಿʼ (ಶೇಕಡ 30) ಶೇಕಡಾವಾರು",
         // grow: 0.05,
         // width:'110px',
         wrap: true,
@@ -73,7 +73,7 @@ const Table1kan = () => {
         <div className="App" style={{ margin: "40px 0 40px 0" }} >
             <Card>
                 <DataTable
-                    title="ಕೋಷ್ಟಕ-3.1: ೨೦೧೭-೧೮ರಿಂದ ೨೦೨೧-೨೨ರ ಅವಧಿಯಲ್ಲಿ ವರ್ಗವಾರು ಹಂಚಿಕೆ"
+                    title="ಕೋಷ್ಟಕ 3.1: 2016-17ರಿಂದ 2020-21ರ ಅವಧಿಯಲ್ಲಿ ವರ್ಗವಾರು ಹಂಚಿಕೆ"
                     columns={columns}
                     data={ctx.tables3kan.Table1}
                     customStyles={customStyles}

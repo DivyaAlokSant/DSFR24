@@ -9,51 +9,44 @@ import { styles } from "../helpers";
 
 const columns = [
     {
-        name: "ಹೊಣೆಗಾರಿಕೆಗಳು",
-        selector: "ಹೊಣೆಗಾರಿಕೆಗಳು",
-        grow: 3,
+        name: "ಭಾದ್ಯತೆಗಳು",
+        selector: "ಭಾದ್ಯತೆಗಳು",
+        grow: 0.8,
         wrap: true,
-        width:'150px',
-    },
-    {
-        name: "ಹೊಣೆಗಾರಿಕೆಗಳು",
-        selector: "13",
-        grow:0.2,
-        wrap: true,
-        
+        width:'35px',
     },
     
     {
-        name: "ಹೊಣೆಗಾರಿಕೆಗಳು",
+        name: "__1",
         selector: "__1",
         grow:0.2,
         wrap: true,
         format: data => data["__1"].toLocaleString('en-IN')
     },
     {
-        name: "ಹೊಣೆಗಾರಿಕೆಗಳು",
+        name: "__2",
         selector: "__2",
         grow: 0.2,
         wrap: true,
         format: data => data["__2"].toLocaleString('en-IN')
     },
     {
-        name: "ಶೇಕಡಾವಾರು",
+        name: "__3",
         selector: "__3",
         grow: 0.5,
         width:'150px',
         wrap: true,
-       
+        format: data => data["__3"].toLocaleString('en-IN')
     },
     {
         name: "ಆಸ್ತಿಗಳು",
         selector:"ಆಸ್ತಿಗಳು",
         grow: 0.5,
         wrap: true,
-        width:'155px'
+        width:'35px'
     },
     {
-        name: "ಆಸ್ತಿಗಳು",
+        name: "__4",
         selector: "__4",
         grow: 0.35,
         wrap: true,
@@ -71,49 +64,26 @@ const columns = [
         ]
     },
     {
-        name: "ಆಸ್ತಿಗಳು",
+        name: "__5",
         selector: "__5",
         grow: 0.2,
         wrap: true,
-        
+        format: data => data["__5"].toLocaleString('en-IN')
     },
     {
-        name: "ಆಸ್ತಿಗಳು",
+        name: "__6",
         selector: "__6",
         grow: 0.2,
         wrap: true,
-       
+        format: data => data["__6"].toLocaleString('en-IN')
     },
     {
-        name: "ಆಸ್ತಿಗಳು",
+        name: "__7",
         selector: "__7",
         grow:0.05,
         wrap: true,
-       
+        format: data => data["__7"].toLocaleString('en-IN')
     },
-    {
-        name: "ಆಸ್ತಿಗಳು",
-        selector: "__8",
-        grow:0.05,
-        wrap: true,
-       
-    },
-    {
-        name: "_ಆಸ್ತಿಗಳು",
-        selector: "__9",
-        grow:0.05,
-        wrap: true,
-       
-    },
-    {
-        name: "ಆಸ್ತಿಗಳು",
-        selector: "__10",
-        grow:0.05,
-        wrap: true,
-       
-    }
-
-
 ];
 
 const conditionalRowStyles = [
@@ -138,7 +108,7 @@ const Table3kan = () => {
         <div className="App" style={{ margin: "40px 0 40px 0" }} >
             <Card>
                 <DataTable
-                    title="ಕೋಷ್ಟಕ-1.3: ಆಸ್ತಿಗಳು ಮತ್ತು ಹೊಣೆಗಾರಿಕೆಗಳ ಸಂಕ್ಷಿಪ್ತ ಸ್ಥಿತಿ"
+                    title="ಕೋಷ್ಟಕ 1.3: ಆಸ್ತಿಗಳು ಮತ್ತು ಹೊಣೆಗಾರಿಕೆಗಳ ಸ್ಥಿತಿಯ ಸಾರಾಂಶs"
                     columns={columns}
                     data={ctx.tables1kan.Table3}
                     customStyles={customStyles}

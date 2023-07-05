@@ -7,7 +7,9 @@ import Subtitle from "./../../../../Subtitle/Subtitle"
 import Para from "../../../../Para/Para"
 import Title from "../../../../Title/Title";
 import Table8 from "../../../Tables/Chapter5/Table8";
+import Table8kan from "../../../Tables/Chapter5kan/Table8";
 import Table9 from "../../../Tables/Chapter5/Table9";
+import Table9kan from "../../../Tables/Chapter5kan/Table9";
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton"
 // import Table1 from '../../../Tables/Chapter4/Table1'
 
@@ -80,7 +82,7 @@ const Performance = () => {
                     <Navbar />
                     <FaSpinner icon="spinner" className="spinner" />
                 </div>)
-            : (ctx.chapter4kannada
+            : (ctx.chapter5kannada
                 ? <div >
                     <Navbar />
                     <div className="contentwrapper" id="home">
@@ -88,15 +90,46 @@ const Performance = () => {
 
 
                         <Title>
-                            {ctx.chapter4kannada.Content.para103}
+                            {ctx.chapter5kannada.Content.para36}
                         </Title>
-                        {["para104", "para105", "para106", "para107", "para108"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                <i>
-                                    {ctx.chapter4kannada.Content[item]}
-                                </i>
-                            </Para>)}
+                        <Para>
+                            {ctx.chapter5kannada.Content.para37}
+                        </Para>
+                        <Subtitle>
+                            <i>
+                            {ctx.chapter5kannada.Content.para38}
+                            </i>
+                        </Subtitle>
+                        <Para>
+                            {ctx.chapter5kannada.Content.para39}
+                        </Para> 
 
+
+                        <Table8kan />
+                        <h3>
+                        ಆಕರ: ರಾಜ್ಯ ಸಾರ್ವಜನಿಕ ವಲಯ ಉದ್ದಿಮೆಗಳ ಇತ್ತೀಚಿನ ಆರ್ಥಿಕ ವಿವರಣಾ ಪಟ್ಟಗಳು
+                        </h3>
+                        <Para>
+                            {ctx.chapter5kannada.Content.para40}
+                        </Para> 
+                        <Subtitle>
+                            <i>
+                            {ctx.chapter5kannada.Content.para41}
+                            </i>
+                        </Subtitle>
+                        <Para>
+                            {ctx.chapter5kannada.Content.para42}
+                        </Para> 
+                        <Para>
+                            {ctx.chapter5kannada.Content.para43}
+                        </Para> 
+                        <Para>
+                            {ctx.chapter5kannada.Content.para44}
+                        </Para> 
+                        <Table9kan />
+                        <Para>
+                            {ctx.chapter5kannada.Content.para45}
+                        </Para>
                     </div>
                 </div>
                 : <div>

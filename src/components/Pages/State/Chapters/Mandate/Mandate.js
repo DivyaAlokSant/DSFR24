@@ -15,12 +15,11 @@ const Mandate = () => {
 
     return (
         ctx.langPref
-            ? (ctx.chapterFive
-                ? <div >
+        ? (ctx.chapterFive
+            ? <div >
                     <Navbar />
                     <div className="contentwrapper" id="home">
-                        <FloatingActionButtons back="/State/Definition" forward="/State/Spse" />
-
+                    <FloatingActionButtons back="/State/Definition" forward="/State/Spse" />
                         <Title>
                             {ctx.chapterFive.Fifth.Para5}
                         </Title>
@@ -35,22 +34,19 @@ const Mandate = () => {
                     <Navbar />
                     <FaSpinner icon="spinner" className="spinner" />
                 </div>)
-            : (ctx.chapter4kannada
+             : (ctx.chapter5kannada
                 ? <div >
                     <Navbar />
                     <div className="contentwrapper" id="home">
-                        <FloatingActionButtons back="/quality" forward="delay" />
+                    <FloatingActionButtons back="/State/Definition" forward="/State/Spse" />
 
 
                         <Title>
-                            {ctx.chapter4kannada.Content.para103}
+                            {ctx.chapter5kannada.Content.para6}
                         </Title>
-                        {["para104", "para105", "para106", "para107", "para108"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                <i>
-                                    {ctx.chapter4kannada.Content[item]}
-                                </i>
-                            </Para>)}
+                        <Para>
+                        {ctx.chapter5kannada.Content.para7}
+                        </Para>
 
                     </div>
                 </div>

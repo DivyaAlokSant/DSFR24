@@ -39,7 +39,7 @@ const Recommend= () => {
                     <Navbar />
                     <FaSpinner icon="spinner" className="spinner" />
                 </div>)
-            : (ctx.chapter4kannada
+            : (ctx.chapter5kannada
                 ? <div >
                     <Navbar />
                     <div className="contentwrapper" id="home">
@@ -47,14 +47,19 @@ const Recommend= () => {
 
 
                         <Title>
-                            {ctx.chapter4kannada.Content.para103}
+                            {ctx.chapter5kannada.Content.Para106}
                         </Title>
-                        {["para104", "para105", "para106", "para107", "para108"].map((item, ind) =>
+                        {["Para107", "Para108"].map((item, ind) =>
                             <Para key={ind / 10}>
-                                <i>
-                                    {ctx.chapter4kannada.Content[item]}
-                                </i>
-                            </Para>)}
+                                <h3>
+                                    <li>   
+                                    
+                                        {ctx.chapter5kannada.Content[item]}
+                                    
+                                    </li>
+                                </h3>
+                            </Para>)} 
+
 
                     </div>
                 </div>

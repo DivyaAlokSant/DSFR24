@@ -52,13 +52,13 @@ const columns = [
   
     {
         name: "ಸಲ್ಲಿಕೆಗೆ ಬಾಕಿ",
-        selector: "ಸಲ್ಲಿಕೆಗೆ ಬಾಕಿ",
+        selector: "__3",
         wrap: true,
        
     },
     {
         name: "ಸಲ್ಲಿಕೆಗೆ ಬಾಕಿ",
-        selector: "__3",
+        selector: "__4",
         wrap: true,
        
     }
@@ -74,7 +74,7 @@ const Table2kan = () => {
         <div className="App" style={{ margin: "40px 0 40px 0" }} >
             <Card>
                 <DataTable
-                    title="ಕೋಷ್ಟಕ-೪.೨: ೨೦೨೧-೨೨ಕ್ಕೆ ಬಾಕಿ ಇರುವ ಬಳಕೆ ಪ್ರಮಾಣಪತ್ರಗಳು"
+                    title="ಕೋಷ್ಟಕ-4.2: 2020-21ಕ್ಕೆ ಬಾಕಿ ಇರುವ ಬಳಕೆ ಪ್ರಮಾಣಪತ್ರಗಳು"
                     columns={columns}
                     data={ctx.tables4kan.Table2}
                     customStyles={customStyles}

@@ -151,7 +151,7 @@ const Table1 = () => {
       style={{ margin: "40px 0 40px 0" }} >
       <Card>
         <DataTable
-          title={" Table 1.1 " + ctx.tables1.T1H1}
+          title={"1.1 " + ctx.tables1.T1H1}
           columns={columns}
           data={ctx.tables1.Table1}
           defaultSortField="title"

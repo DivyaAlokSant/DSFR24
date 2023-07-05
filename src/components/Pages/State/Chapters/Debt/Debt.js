@@ -8,6 +8,7 @@ import Para from "../../../../Para/Para"
 import Title from "../../../../Title/Title";
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton"
 import Table7 from "../../../Tables/Chapter5/Table7";
+import Table7kan from "../../../Tables/Chapter5kan/Table7";
 // import Table1 from '../../../Tables/Chapter4/Table1'
 
 
@@ -57,22 +58,32 @@ Number of companies having interest coverage ratio less than 1-   This doesn’t
                     <Navbar />
                     <FaSpinner icon="spinner" className="spinner" />
                 </div>)
-            : (ctx.chapter4kannada
+            : (ctx.chapter5kannada
                 ? <div >
                     <Navbar />
                     <div className="contentwrapper" id="home">
-                    <FloatingActionButtons back="/State/Spse" forward="/State/Returns"  />
+                    <FloatingActionButtons back="/State/Returns" forward="/State/Performance" />
 
 
                         <Title>
-                            {ctx.chapter4kannada.Content.para103}
+                            {ctx.chapter5kannada.Content.para32}
                         </Title>
-                        {["para104", "para105", "para106", "para107", "para108"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                <i>
-                                    {ctx.chapter4kannada.Content[item]}
-                                </i>
-                            </Para>)}
+                        <Subtitle>
+                            <i>
+                            {ctx.chapter5kannada.Content.para33}
+                            </i>
+                        </Subtitle>
+                        <Para>
+                            {ctx.chapter5kannada.Content.para34}
+                        </Para>
+                        
+                        <Table7kan />
+                        <h3>
+                        ಆಕರ: ರಾಜ್ಯ ಸಾರ್ವಜನಿಕ ವಲಯ ಉದ್ದಿಮೆಗಳ ಇತ್ತೀಚಿನ ಆರ್ಥಿಕ ವಿವರಣಾ ಪಟ್ಟಗಳು
+                        </h3>
+                        <Para>
+                            {ctx.chapter5kannada.Content.para35}
+                        </Para>
 
                     </div>
                 </div>

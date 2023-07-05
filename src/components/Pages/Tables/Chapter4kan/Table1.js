@@ -15,32 +15,32 @@ const columns = [
     grow: 2
   },
   {
-    name: "ಗಳಿಸಿದ ಬಡ್ಡಿ",
-    selector: "ಗಳಿಸಿದ ಬಡ್ಡಿ",
+    name: "ಬಡ್ಡಿ ಗಳಿಕೆ",
+    selector: "ಬಡ್ಡಿ ಗಳಿಕೆ",
     wrap: true,
   
   },
   {
-    name: "ಗಳಿಸಿದ ಬಡ್ಡಿ",
-    selector: "3",
+    name: "ಬಡ್ಡಿ ಗಳಿಕೆ",
+    selector: "4",
     wrap: true,
    
   },
   {
-    name: "ಗಳಿಸಿದ ಬಡ್ಡಿ",
-    selector: "__1",
+    name: "ಬಡ್ಡಿ ಗಳಿಕೆ",
+    selector: "2",
     wrap: true,
 
   },
   {
-    name: "ಗಳಿಸಿದ ಬಡ್ಡಿ",
-    selector: "__2",
+    name: "ಬಡ್ಡಿ ಗಳಿಕೆ",
+    selector: "3",
     wrap: true,
 
   },
   {
-    name: "ಬಡ್ಡಿ ಹಣದ ವ್ಯವಹಾರ",
-    selector: "ಬಡ್ಡಿ ಹಣದ ವ್ಯವಹಾರ",
+    name: "ಬಡ್ಡಿ ಹಣದ ವ್ಯವಹೃತಿ",
+    selector: "ಬಡ್ಡಿ ಹಣದ ವ್ಯವಹೃತಿ",
     grow: 3,
     wrap: true
   }
@@ -56,7 +56,7 @@ const Table1kan = () => {
     <div className="App" style={{ margin: "40px 0 40px 0" }} >
       <Card>
         <DataTable
-          title="ಕೋಷ್ಟಕ-೪.೧: ಗಳಿಸಿದ ಬಡ್ಡಿ ಮತ್ತು ಅದರ ವ್ಯವಹಾರದ ವಿವರಗಳು."
+          title="ಕೋಷ್ಟಕ-4.1: ಸಂಸ್ಥೆಯು ಗಳಿಸಿದ ಬಡ್ಡಿ ಮತ್ತು ಅದರ ವ್ಯವಹೃತಿಯ  ವಿವರಗಳು"
           columns={columns}
           data={ctx.tables4kan.Table1}
           customStyles={customStyles}

@@ -113,12 +113,75 @@ const Conclusion = () => {
                     <Navbar />
                     <div className="contentwrapper" id="home">
                         <FloatingActionButtons back="/finances/dsa" forward="/budget" />
-                        <Title>{ctx.chapter2kannada.Content.para327}</Title>
+                        <Title>{ctx.chapter2kannada.Content.para303}</Title>
 
-                        {["para328", "para329", "para330", "para331", "para332", "para333", "para334", "para335", "para336", "para337", "para338", "para339", "para340", "para341", "para342", "para343", "para344", "para345", "para346", "para347", "para348",].map((item, ind) =>
+                        <Para>
+                            <h3>
+                            {ctx.chapter2kannada.Content.para304}
+                            </h3>
+                        </Para>
+
+                        <Para>
+                            {ctx.chapter2kannada.Content.para305}
+                        </Para>
+                        {["para306", "para307"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                <h3>
+                                {ctx.chapter2kannada.Content[item]}
+                                </h3>
+                            </Para>)} 
+
+                        {["para308", "para309"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
+                            </Para>)}     
+                        {["para310", "para311"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                <h3>
+                                {ctx.chapter2kannada.Content[item]}
+                                </h3>
+                            </Para>)} 
+                        {["para312", "para313"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter2kannada.Content[item]}
+                            </Para>)}     
+                        {["para314", "para315", "para316"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                <h3>
+                                {ctx.chapter2kannada.Content[item]}
+                                </h3>
+                            </Para>)} 
+                        <Para>
+                            {ctx.chapter2kannada.Content.para317}
+                        </Para>    
+
+                        {["para318", "para319"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                <h3>
+                                {ctx.chapter2kannada.Content[item]}
+                                </h3>
                             </Para>)}
+                        <Para>
+                            {ctx.chapter2kannada.Content.para320}
+                        </Para>  
+                        {["para321", "para322"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                <h3>
+                                {ctx.chapter2kannada.Content[item]}
+                                </h3>
+                            </Para>)}  
+
+                        <Para>
+                            {ctx.chapter2kannada.Content.para323}
+                        </Para>
+                        {["para324"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                <h3>
+                                {ctx.chapter2kannada.Content[item]}
+                                </h3>
+                            </Para>)}
+
+
 
                     </div>
                 </div>

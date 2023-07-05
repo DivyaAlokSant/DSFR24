@@ -10,46 +10,52 @@ import { styles } from "../helpers";
 
 const columns = [
     {
-        name: "Head of Account",
-        selector: "Head of Account",
-        wrap: true,
-        grow:2
-    },
-    {
-        name: "Budget Estimate",
-        selector: "Budget",
+        name: "Sl No",
+        selector: "Sl No",
         wrap: true,
         grow:0.05
     },
     {
-        name: "Revised Estimate",
-        selector: "Revised Estimate",
+        name: "HoA and Nomenclature",
+        selector: "HoA and Nomenclature",
         wrap: true,
-        sortable:true,
-        
+        grow:2
     },
     {
-        name: "Expenditure",
-        selector: "Expenditure",
+        name: "Total Expenditure",
+        selector: "Total Expenditure",
         wrap: true,
         sortable:true,
-       
+        format: data => data["Total Expenditure"].toLocaleString('en-IN')
     },
     {
-        name: "Savings *",
-        selector: "Savings",
+        name: "Expenditure during last quarter",
+        selector: "Expenditure during last quarter",
         wrap: true,
         sortable:true,
-        
+        format: data => data["Expenditure during last quarter"].toLocaleString('en-IN')
     },
     {
-        name: "Deposited in the account (Shown as Expenditure)",
-        selector: "Deposited in the account (Shown as Expenditure)",
+        name: " ",
+        selector: "1",
         wrap: true,
         sortable:true,
-        
+        format: data => data["1"].toLocaleString('en-IN')
+    },
+    {
+        name: "Expenditure during March",
+        selector: "Expenditure during March",
+        wrap: true,
+        sortable:true,
+        format: data => data["Expenditure during March"].toLocaleString('en-IN')
+    },
+    {
+        name: " ",
+        selector: "2",
+        wrap: true,
+        sortable:true,
+        format: data => data["2"].toLocaleString('en-IN')
     }
-    
 ];
 
 
@@ -63,7 +69,7 @@ const Table14 = () => {
         <div className="App" style={{ margin: "40px 0 40px 0" }} >
             <Card>
                 <DataTable
-                    title="Table 3.10: Details of Grants, Expenditure and transfers to Bank Account"
+                    title="Table 3.14: Rush of Expenditure"
                     columns={columns}
                     data={ctx.tables3.Table14}
                     customStyles={customStyles}

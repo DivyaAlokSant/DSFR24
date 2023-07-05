@@ -10,51 +10,51 @@ import { styles } from "../helpers";
 
 const columns = [
     {
-        name: "Year",
-        selector: "Year",
+        name: "Sl No",
+        selector: "Sl No",
         wrap: true,
         grow:0.05
     },
     {
-        name: "Revenue",
-        selector: "Revenue",
+        name: "HOA and Nomenclature",
+        selector: "HOA and Nomenclature",
         wrap: true,
-        grow:1
+        grow:2
     },
     {
-        name: "Revenue",
-        selector: "FIELD3",
+        name: "Total Expenditure",
+        selector: "Total Expenditure",
         wrap: true,
         sortable:true,
-        
+        format: data => data["Total Expenditure"].toLocaleString('en-IN')
     },
     {
-        name: "Revenue",
-        selector: "FIELD4",
+        name: "Expenditure during last quarter",
+        selector: "Expenditure during last quarter",
         wrap: true,
         sortable:true,
-       
+        format: data => data["Expenditure during last quarter"].toLocaleString('en-IN')
     },
     {
-        name: "Capital",
-        selector: "Capital",
+        name: " ",
+        selector: "1",
         wrap: true,
         sortable:true,
-        
+        format: data => data["1"].toLocaleString('en-IN')
     },
     {
-        name: "Capital",
-        selector: "FIELD6",
+        name: "Expenditure during March",
+        selector: "Expenditure during March",
         wrap: true,
         sortable:true,
-        
+        format: data => data["Expenditure during March"].toLocaleString('en-IN')
     },
     {
-        name: "Capital",
-        selector: "FIELD7",
+        name: " ",
+        selector: "2",
         wrap: true,
         sortable:true,
-       
+        format: data => data["2"].toLocaleString('en-IN')
     }
 ];
 
@@ -69,7 +69,7 @@ const Table17 = () => {
         <div className="App" style={{ margin: "40px 0 40px 0" }} >
             <Card>
                 <DataTable
-                    title="Table 3.12 : Anticipated savings not surrendered/partially surrendered"
+                    title="Table 3.17: Rush of Expenditure"
                     columns={columns}
                     data={ctx.tables3.Table17}
                     customStyles={customStyles}

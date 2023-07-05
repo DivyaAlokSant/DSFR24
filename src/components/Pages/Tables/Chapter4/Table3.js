@@ -9,7 +9,7 @@ import { styles } from "../helpers";
 
 const columns = [
     {
-        name: "Due Year",
+        name: "Year",
         selector: "Year",
         wrap: true,
     },
