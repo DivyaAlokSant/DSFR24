@@ -107,19 +107,19 @@ const Appendix4 = () => {
                             ₹ in crore
                     </h3>
                     <Tabled4k />
-                    <h4>Source: Office of the Pr. AG (Audit-I) &  AG (Audit-II)</h4>
+                    <h4>ಆಕರ: ಹಣಕಾಸು ಲೆಕ್ಕಗಳು</h4>
 
 
                     <h3 className='headnote'>
                                             ₹ in crore
-                                        </h3>
-                    <Tabled5 />
-                    <h4>   Source:  Office of the Pr.AG(Audit-I)</h4>
+                    </h3>
+                    <Tabled5k />
+                    <h4> ಆಕರ: ಪ್ರಧಾನ ಮಹಾಲೇಖಾಪಾಲರ (ಲೆಕ್ಕ ಪರಿಶೋಧನೆ-I) ಕಛೇರಿ</h4>
 
                     <h3 className='headnote'>
                                         (₹ in Lakh)
                                         </h3>
-                    <Tabled6 /> 
+                    <Tabled6k /> 
                     <h4>Source: Office of the Pr. AG (Audit-I) &  AG (Audit-II)</h4>
 
 
