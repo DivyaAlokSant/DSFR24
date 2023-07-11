@@ -19,7 +19,7 @@ const Definition = () => {
                 ? <div >
                     <Navbar />
                     <div className="contentwrapper" id="home">
-                        <FloatingActionButtons back="/State/State" forward="/State/Mandate" />
+                        <FloatingActionButtons back="/State" forward="/State/Mandate" />
 
                         <Title>
                             {ctx.chapterFive.Fifth.Para2}
@@ -59,7 +59,7 @@ const Definition = () => {
                 ? <div >
                     <Navbar />
                     <div className="contentwrapper" id="home">
-                    <FloatingActionButtons back="/State/State" forward="/State/Mandate" />
+                    <FloatingActionButtons back="/State" forward="/State/Mandate" />
 
 
                         <Title>

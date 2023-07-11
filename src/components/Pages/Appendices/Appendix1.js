@@ -74,7 +74,7 @@ const Appendix1 = () => {
                 ? <div >
                     <Navbar />
                     <div className="contentwrapper" id="home">
-                        <FloatingActionButtons back="/Quality/recommendations" forward="/appendices/appendix-2" />
+                        <FloatingActionButtons back="/State/Recommend" forward="/appendices/appendix-2" />
 <Tablea1 />
 <Tablea2 />
 <h4> Source: Financial data is based on Finance Accounts <br></br>
@@ -115,15 +115,15 @@ const Appendix1 = () => {
                 ? <div >
                     <Navbar />
                     <div className="contentwrapper" id="home">
-                        <FloatingActionButtons back="/Quality/recommendations" forward="/appendices/appendix-2" />
+                        <FloatingActionButtons back="/State/Recommend" forward="/appendices/appendix-2" />
                        <Tablekan1 />
                        <Tablekan2 />
                        <h4>ಆಕರ: ಹಣಕಾಸು ದತ್ತಾಂಶಗಳಿಗೆ ಹಣಕಾಸು ಲೆಕ್ಕಗಳು ಆಧಾರಿತ.<br></br>
                        ಸಾಮಾನ್ಯ ವರ್ಗದ ರಾಜ್ಯಗಳ ಅಂಕಿಅಂಶಗಳನ್ನು ಆರ್ಥಿಕ ಸಲಹೆಗಾರರು, ಭಾರತದ ಲೆಕ್ಕನಿಯಂತ್ರಕರು ಮತ್ತು ಮಹಾ ಲೆಕ್ಕಪರಿಶೋಧಕರ ಕಛೇರಿ, ನವದೆಹಲಿ ಇವರಿಂದ ಮಾಹಿತಿ ಪಡೆಯಲಾಗಿದೆ.<br></br>
 
-^ ೨೦೧೯-20 ರಿಂದ 20೨೦-21ರ ಅಂಕಿಅಂಶಗಳನ್ನು ಮಾರ್ಚಿ ೨೦೨1ಕ್ಕೆ ಕೊನೆಗೊಂಡ ಆರ್ಥಿಕ ಲೆಕ್ಕಗಳಿಂದ ಅಳವಡಿಸಲಾಗಿದೆ.<br></br> <br></br>
-</h4>
-{["para1ak","para1bk","para1ck","para1dk","para1ek","para1fk","para1gk","para1hk","para1ik","para1jk","para1kk","para1lk","para1mk","para1nk","para1ok"].map((item, ind) =>
+                        ^ ೨೦೧೯-20 ರಿಂದ 20೨೦-21ರ ಅಂಕಿಅಂಶಗಳನ್ನು ಮಾರ್ಚಿ ೨೦೨1ಕ್ಕೆ ಕೊನೆಗೊಂಡ ಆರ್ಥಿಕ ಲೆಕ್ಕಗಳಿಂದ ಅಳವಡಿಸಲಾಗಿದೆ.<br></br> <br></br>
+                    </h4>
+                    {["para1ak","para1bk","para1ck","para1dk","para1ek","para1fk","para1gk","para1hk","para1ik","para1jk","para1kk","para1lk","para1mk","para1nk","para1ok"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterOne.Profile[item]}
                             </Para>

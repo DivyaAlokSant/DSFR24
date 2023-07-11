@@ -38,42 +38,42 @@ const columns = [
         selector: "Total",
         // grow:0.05,
         wrap: true,
-        format: data => data["Total"].toLocaleString('en-IN')
+        //format: data => data["Total"].toLocaleString('en-IN')
     },
     {
         name: "Actual expenditure",
         selector: "Actual expenditure",
         // grow:0.05,
         wrap: true,
-        format: data => data["Actual expenditure"].toLocaleString('en-IN')
+        //format: data => data["Actual expenditure"].toLocaleString('en-IN')
     },
     {
         name: "Unspent  Provision (-) / Excess over provision (+)",
         selector: "Unspent Provision Excess over provision",
         // grow:0.05,
         wrap: true,
-        format: data => data["Unspent Provision Excess over provision"].toLocaleString('en-IN')
+       // format: data => data["Unspent Provision Excess over provision"].toLocaleString('en-IN')
     },
     {
         name: "Amount surrendered",
         selector: "Amount surrendered",
         // grow:0.05,
         wrap: true,
-        format: data => data["Amount surrendered"].toLocaleString('en-IN')
+       // format: data => data["Amount surrendered"].toLocaleString('en-IN')
     },
     {
         name: "Amount surrendered on 31 March",
         selector: "Amount surrendered on 31 March",
         // grow:0.05,
         wrap: true,
-        format: data => data["Amount surrendered on 31 March"].toLocaleString('en-IN')
+        //format: data => data["Amount surrendered on 31 March"].toLocaleString('en-IN')
     },
     {
         name: "Per cent of savings surrendered on 31 March",
         selector: "Per cent of savings surrendered on 31 March",
         // grow:0.05,
         wrap: true,
-        format: data => data["Per cent of savings surrendered on 31 March"].toLocaleString('en-IN')
+        //format: data => data["Per cent of savings surrendered on 31 March"].toLocaleString('en-IN')
     }
 ];
 

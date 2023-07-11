@@ -19,7 +19,7 @@ const Recommend= () => {
                 ? <div >
                     <Navbar />
                     <div className="contentwrapper" id="home">
-                        <FloatingActionButtons back="/State/Conclusions" forward="/State/Recommend" />
+                        <FloatingActionButtons back="/State/Conclusions" forward="//appendices/appendix-1" />
 
                         <Title>
                             {ctx.chapterFive.Fifth.Para130}
@@ -43,7 +43,7 @@ const Recommend= () => {
                 ? <div >
                     <Navbar />
                     <div className="contentwrapper" id="home">
-                    <FloatingActionButtons back="/State/Conclusions" forward="/State/Recommend"  />
+                    <FloatingActionButtons back="/State/Conclusions" forward="/appendices/appendix-1"  />
 
 
                         <Title>

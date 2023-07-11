@@ -21,28 +21,28 @@ const columns = [
         grow: 2,
     },
     {
-        name: "ರಾಜಸ್ವ ಹೆಚ್ಚಳ",
-        selector: "ರಾಜಸ್ವ ಹೆಚ್ಚಳ-",
+        name: "ರಾಜಸ್ವ ಕೊರತೆ",
+        selector: "ರಾಜಸ್ವ ಕೊರತೆ",
         wrap: true,
-        format: data => data["ರಾಜಸ್ವ ಹೆಚ್ಚಳ-"].toLocaleString('en-IN')
+        //format: data => data["ರಾಜಸ್ವ ಹೆಚ್ಚಳ-"].toLocaleString('en-IN')
     },
     {
         name: "ರಾಜಸ್ವ ಹೆಚ್ಚಳ",
-        selector: "ರಾಜಸ್ವ ಹೆಚ್ಚಳ",
+        selector: "2",
         wrap: true,
-        format: data => data["ರಾಜಸ್ವ ಹೆಚ್ಚಳ"].toLocaleString('en-IN')
-    },
-    {
-        name: "ವಿತ್ತೀಯ ಕೊರತೆ-",
-        selector: "ವಿತ್ತೀಯ ಕೊರತೆ-",
-        wrap: true,
-        format: data => data["ವಿತ್ತೀಯ ಕೊರತೆ-"].toLocaleString('en-IN')
+       // format: data => data["ರಾಜಸ್ವ ಹೆಚ್ಚಳ"].toLocaleString('en-IN')
     },
     {
         name: "ವಿತ್ತೀಯ ಕೊರತೆ",
         selector: "ವಿತ್ತೀಯ ಕೊರತೆ",
         wrap: true,
-        format: data => data["ವಿತ್ತೀಯ ಕೊರತೆ"].toLocaleString('en-IN')
+        //format: data => data["ವಿತ್ತೀಯ ಕೊರತೆ-"].toLocaleString('en-IN')
+    },
+    {
+        name: "ವಿತ್ತೀಯ ಕೊರತೆ",
+        selector: "__1",
+        wrap: true,
+        //format: data => data["ವಿತ್ತೀಯ ಕೊರತೆ"].toLocaleString('en-IN')
     },
 ];
 

@@ -24,37 +24,59 @@ const columns = [
     //     },
     //   },
     // ]
-    {
-        name: "ಕ್ರಮ ಸಂಖ್ಯೆ",
-        selector: "ಕ್ರಮ ಸಂಖ್ಯೆ",
-        width:"100px",
-        
-    },
-      {
-        name: "ಕಂಪನಿಯ ಹೆಸರು",
-        selector: "ಕಂಪನಿಯ ಹೆಸರು",
-        sortable: true,
-        wrap:true,
-        width:"100px",
-        
-      },
-      {
-        name: "ಟಿಪ್ಪಣಿಗಳು",
-        selector: "ಟಿಪ್ಪಣಿಗಳು",
-        sortable: true,
-        wrap:true,
-        //width:"650px",
-      },
+  
+  {
+    name: "",
+    selector: "2",
+    sortable: true,
+    wrap:true,
+    width:"200px",
+  },
+  {
+    name: "2017-18",
+    selector: "2017 18",
+    sortable: true,
     
+  },
+  {
+    name: "2018-19",
+    selector: "2018 19",
+    sortable: true,
     
+  },
+  {
+    name: "2019-20",
+    selector: "2019 20",
+    sortable: true,
+   
+    // conditionalCellStyles: [
+    //   {
+    //     when: row => (row["2020-21"] === "-4.27"),
+    //     style: {
+    //       backgroundColor: '#FFF89A',
+    //       color: 'black',
+    //       '&:hover': {
+    //         cursor: 'pointer',
+    //       },
+    //     },
+    //   },
+    // ]
+  },
+  {
+    name: "2020-21",
+    selector: "2020 21",
+    sortable: true,
     
- 
- 
+  },
+
+  {
+    name: "2021-22",
+    selector: "2021 22",
+    sortable: true,
+    
+  },
 
 
-
- 
- 
 
 ];
 
@@ -67,7 +89,7 @@ const columns = [
 
 const customStyles = styles
 
-const Tablee2k = () => {
+const Tableb2k = () => {
 
   const ctx = useContext(MyContext)
 
@@ -77,13 +99,13 @@ const Tablee2k = () => {
       style={{ margin: "40px 0 40px 0" }} >
       <Card>
         <DataTable
-          title="ಅನುಬಂಧ ೫.೨
-          ಸರ್ಕಾರಿ ಕಂಪನಿಗಳ ಲಾಭಸಾಧ್ಯತೆ ಮೇಲೆ ಟಿಪ್ಪಣಿಗಳ ಪ್ರಭಾವ 
-          (ಉಲ್ಲೇಖ: ಕಂಡಿಕೆ-೫.೧೩.೪; ಪುಟ ಸಂಖ್ಯೆ ೧47)
+          title="Appendix 2.2
+          Time series data on the State Government Finances
+          (Reference: Paragraph 2.2, 2.4.3, 2.7.1;)
           "
           
           columns={columns}
-          data={ctx.tables1.Tablee2k}
+          data={ctx.tables1.Tableb2k}
           defaultSortField="title"
           sortIcon={<SortIcon />}
           customStyles={customStyles}
@@ -97,4 +119,4 @@ const Tablee2k = () => {
   );
 }
 
-export default Tablee2k;
+export default Tableb2k;

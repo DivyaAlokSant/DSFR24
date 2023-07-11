@@ -26,7 +26,7 @@ const columns = [
       selector: "ಅವಕಾಶ",
       grow:0.3,
       wrap: true,
-      format: data => data["ಅವಕಾಶ"].toLocaleString('en-IN')
+      // format: data => data["ಅವಕಾಶ"].toLocaleString('en-IN')
   },
     {
         name: "ವೆಚ್ಚ",
@@ -40,7 +40,7 @@ const columns = [
         selector: "ಅಧಿಕ",
         grow:0.3,
         wrap: true,
-        format: data => data["ಅಧಿಕ"].toLocaleString('en-IN')
+       
     }
 
 ];

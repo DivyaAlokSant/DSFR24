@@ -26,21 +26,20 @@ const columns = [
         selector: "ಆಯವ್ಯಯ ಅವಕಾಶ",
         // grow:0.05,
         wrap: true,
-        format: data => data["ಆಯವ್ಯಯ ಅವಕಾಶ"].toLocaleString('en-IN')
-    },
+        },
     {
         name: "ಭರಿಸಿದ ವೆಚ್ಚ",
         selector: "ಭರಿಸಿದ ವೆಚ್ಚ",
         // grow:0.05,
         wrap: true,
-        format: data => data["ಭರಿಸಿದ ವೆಚ್ಚ"].toLocaleString('en-IN')
+        
     },
     {
         name: "ಬಿಡುಗಡೆಯಾದ ಮೊತ್ತ",
         selector: "ಬಿಡುಗಡೆಯಾದ ಮೊತ್ತ",
         // grow:0.05,
         wrap: true,
-        format: data => data["ಬಿಡುಗಡೆಯಾದ ಮೊತ್ತ"].toLocaleString('en-IN')
+       
     }
 ];
 

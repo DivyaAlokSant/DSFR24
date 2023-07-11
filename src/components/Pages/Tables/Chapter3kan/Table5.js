@@ -31,28 +31,28 @@ const columns = [
         selector: "ಪೂರಕ ಅನುದಾನ/ ವಿನಿಯೋಗ",
         // grow:0.05,
         wrap: true,
-        format: data => data["ಪೂರಕ ಅನುದಾನ/ ವಿನಿಯೋಗ"].toLocaleString('en-IN')
+       // format: data => data["ಪೂರಕ ಅನುದಾನ/ ವಿನಿಯೋಗ"].toLocaleString('en-IN')
     },
     {
         name: "ಒಟ್ಟು",
         selector: "ಒಟ್ಟು",
         // grow:0.05,
         wrap: true,
-        format: data => data["ಒಟ್ಟು"].toLocaleString('en-IN')
+       //format: data => data["ಒಟ್ಟು"].toLocaleString('en-IN')
     },
     {
         name: "ವಾಸ್ತವ ವೆಚ್ಚ",
         selector: "ವಾಸ್ತವ ವೆಚ್ಚ",
         // grow:0.05,
         wrap: true,
-        format: data => data["ವಾಸ್ತವ ವೆಚ್ಚ"].toLocaleString('en-IN')
+       // format: data => data["ವಾಸ್ತವ ವೆಚ್ಚ"].toLocaleString('en-IN')
     },
     {
         name: "ಬಳಕೆ ಮಾಡದ ಅವಕಾಶ (-) / ಅವಕಾಶಕ್ಕಿಂತ ಅಧಿಕ (+)",
         selector: "ಬಳಕೆ ಮಾಡದ ಅವಕಾಶ (-) / ಅವಕಾಶಕ್ಕಿಂತ ಅಧಿಕ (+)",
         // grow:0.05,
         wrap: true,
-        format: data => data["ಬಳಕೆ ಮಾಡದ ಅವಕಾಶ (-) / ಅವಕಾಶಕ್ಕಿಂತ ಅಧಿಕ (+)"].toLocaleString('en-IN')
+        //format: data => data["ಬಳಕೆ ಮಾಡದ ಅವಕಾಶ (-) / ಅವಕಾಶಕ್ಕಿಂತ ಅಧಿಕ (+)"].toLocaleString('en-IN')
     },
     {
         name: "ಅಧ್ಯರ್ಪಿಸಿದ ಮೊತ್ತತ",
@@ -66,14 +66,14 @@ const columns = [
         selector: "31 ಮಾರ್ಚ್‌ ರಂದು ಅಧ್ಯರ್ಪಿಸಿದ ಮೊತ್ತ",
         // grow:0.05,
         wrap: true,
-        format: data => data["31 ಮಾರ್ಚ್‌ ರಂದು ಅಧ್ಯರ್ಪಿಸಿದ ಮೊತ್ತ"].toLocaleString('en-IN')
+       // format: data => data["31 ಮಾರ್ಚ್‌ ರಂದು ಅಧ್ಯರ್ಪಿಸಿದ ಮೊತ್ತ"].toLocaleString('en-IN')
     },
     {
         name: "31 ಮಾರ್ಚ್‌ ರಂದು ಅಧ್ಯರ್ಪಿಸಿದ ಉಳಿತಾಯದ ಶೇಕಡವಾರು",
         selector: "31 ಮಾರ್ಚ್‌ ರಂದು ಅಧ್ಯರ್ಪಿಸಿದ ಉಳಿತಾಯದ ಶೇಕಡವಾರು",
         // grow:0.05,
         wrap: true,
-        format: data => data["31 ಮಾರ್ಚ್‌ ರಂದು ಅಧ್ಯರ್ಪಿಸಿದ ಉಳಿತಾಯದ ಶೇಕಡವಾರು"].toLocaleString('en-IN')
+        //format: data => data["31 ಮಾರ್ಚ್‌ ರಂದು ಅಧ್ಯರ್ಪಿಸಿದ ಉಳಿತಾಯದ ಶೇಕಡವಾರು"].toLocaleString('en-IN')
     }
 ];
 
