@@ -180,7 +180,7 @@ export const Chart2 = () => {
       ? <Card className={classes.cardColored}>
         <CustomBarChart
           data={chartTwo}
-          title='Chart 1.2: Change in Sectoral contribution to GSVA (2016-17 and 2020-21)'
+          title='Chart 1.2: Change in Sectoral contribution to GSVA (2017-18 and 2021-22)'
           xaxisTitle=" "
           yaxisTitle="Contribution to GDP(In percent)"
           rangeStart="0"
@@ -190,7 +190,7 @@ export const Chart2 = () => {
       : <Card className={classes.cardMargin}>
         <CustomBarChart
           data={chartTwo}
-          title='Chart 1.2: Change in Sectoral contribution to GSVA (2016-17 and 2020-21)'
+          title='Chart 1.2: Change in Sectoral contribution to GSVA (2017-18 and 2021-22)'
           xaxisTitle=" "
           yaxisTitle="Contribution to GDP(In percent)"
           rangeStart="0"
@@ -296,13 +296,13 @@ export const Chart4 = () => {
       ? <Card className={classes.cardColored}>
         <CustomPieChart
           data={chartmap}
-          title="Chart 1.4: Sectoral contribution to GSDP during 2020-21"
+          title="Chart 1.4: Sectoral contribution to GSDP during 2021-22"
         />
       </Card >
       : <Card className={classes.cardMargin}>
         <CustomPieChart
           data={chartmap}
-          title="Chart 1.4: Sectoral contribution to GSDP during 2020-21"
+          title="Chart 1.4: Sectoral contribution to GSDP during 2021-22"
         />
       </Card>
   );

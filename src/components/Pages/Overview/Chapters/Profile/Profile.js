@@ -123,7 +123,7 @@ const Profile = () => {
                             </i>
                         </h4>
                         {/* Chart 1 goes here */}
-                        {/* <Chart1 /> */}
+                        <Chart1 />
 
                         {["Para9"].map((item, ind) =>
                             <Para key={ind / 10}>
@@ -148,7 +148,7 @@ const Profile = () => {
                            Chart 1.2: Change in Sectoral contribution to GSVA (2017-18 and 2021-22)
                         </Title>
                         <ImageComponent flex="2" aspectRatio = "2" resizeMode = 'contain' src={c2} color ="#ffffff00" />
-                        {/* <Chart2 /> */}
+                        <Chart2 />
                         <h4 className='footnote'>
                             <i>
                                 Source:Economic Survey of Karnataka 2021-22
@@ -164,7 +164,7 @@ const Profile = () => {
                         </Title>
                         <ImageComponent flex="2" aspectRatio = "2" resizeMode = 'contain' src={c3} color ="#ffffff00" />
                         
-                        {/* <Chart3 /> */}
+                        <Chart3 />
 
                         <h4 className='footnote'>
                             <i>
@@ -181,7 +181,7 @@ const Profile = () => {
                         </Title>
                      <ImageComponent flex="2" aspectRatio = "2" resizeMode = 'contain' src={c4} color ="#ffffff00" />
 
-                        {/* <Chart4 /> */}
+                        <Chart4 />
                         <h4 className='footnote'>
                             <i>
                                 Source: Directorate of Economics and Statistics, Government of Karnataka
