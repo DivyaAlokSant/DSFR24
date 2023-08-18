@@ -125,7 +125,7 @@ const Routes = () => {
                             <Route path='/finances/publicaccount' exact component={PublicAccount} />
                             <Route path='/finances/debtmanagement' exact component={DebtManagement} />
                             <Route path='/finances/dsa' exact component={Dsa} />
-                            <Route path='/finances/conclusion' exact component={Conclusion} />
+                            <Route path='/finances/Conclusion' exact component={Conclusion} />
 
                             <Route path='/Budget' exact component={Budget} />
                             <Route path='/Budget/introduction' exact component={BudIntroduction} />
