@@ -35,7 +35,9 @@ import Subtitle from '../../../../Subtitle/Subtitle'
 const Dsa = () => {
 
     const ctx = useContext(MyContext)
-    console.log(ctx.chapterTwo)
+    // console.log(ctx.chapterTwo)
+
+
 
     return (
         ctx.langPref
