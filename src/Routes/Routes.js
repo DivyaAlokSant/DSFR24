@@ -35,7 +35,7 @@ import ChildBudget from '../components/Pages/Budget/Chapters/ChildBudget/ChildBu
 import AppropAccounts from '../components/Pages/Budget/Chapters/AppropAccounts/AppropAccounts';
 import Audit from '../components/Pages/Budget/Chapters/Audit/Audit';
 import Outcome from '../components/Pages/Budget/Chapters/Outcome/Outcome';
-import BudConclusion from '../components/Pages/Budget/Chapters/BudConclusion/BudConclusion';
+import BudConclusion from '../components/Pages/Budget/Chapters/BudConclusion/BudConclusion'; 
 import Recommendations from '../components/Pages/Budget/Chapters/Recommendations/Recommendations';
 
 import Quality from '../components/Pages/Quality/Quality';

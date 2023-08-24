@@ -27313,74 +27313,77 @@
 				  "Sales": 10
 				}
 			  ],
-			"Chart1": [{
-					"GDP at Constant price": 8.26,
-					"Year": "2016-17",
-					"GDP at current price": 11.76,
-					"GSDP at Constant price": 13.28,
-					"GSDP at Current Price": 15.54
-				},
+			"Chart1": [
 				{
-					"GSDP at Constant price": 8.61,
-					"GSDP at Current Price": 10.71,
-					"GDP at Constant price": 6.8,
-					"Year": "2017-18",
-					"GDP at current price": 11.03
-				},
-				{
-					"GSDP at Current Price": 11.5,
-					"GDP at current price": 10.51,
-					"GDP at Constant price": 6.53,
-					"Year": "2018-19",
-					"GSDP at Constant price": 6.49
-				},
-				{
-					"GDP at current price": 7.75,
-					"GDP at Constant price": 4.04,
-					"GSDP at Constant price": 5,
-					"Year": "2019-20",
-					"GSDP at Current Price": 9.28
-				},
-				{
-					"Year": "2020-21",
-					"GSDP at Current Price": 10.72,
-					"GSDP at Constant price": -2.62,
-					"GDP at Constant price": -7.75,
-					"GDP at current price": -4.27
-				}
+					"GSDP at Current Price": 10.40,
+					"GDP at current price": 11.03,
+					"GSDP at Constant price": 8.28,
+					"GDP at Constant price": 6.80,
+					"Year": "2017-18"
+					},
+					{
+						"GSDP at Current Price": 10.74,
+						"GDP at current price": 10.59,
+						"GSDP at Constant price": 6.17,
+						"GDP at Constant price": 6.45,
+						"Year": "2018-19"
+						},
+						{
+							"GSDP at Current Price": 9.41,
+							"GDP at current price": 6.22,
+							"GSDP at Constant price":6.21,
+							"GDP at Constant price": 3.74,
+							"Year": "2019-20"
+							},
+							{
+								"GSDP at Current Price": 7.15,
+								"GDP at current price": -1.36,
+								"GSDP at Constant price": -0.52,
+								"GDP at Constant price": -6.60,
+								"Year": "2020-21"
+								},
+								{
+									"GSDP at Current Price": -0.56,
+									"GDP at current price": 17.24,
+									"GSDP at Constant price": 9.47,
+									"GDP at Constant price": 8.81,
+									"Year": "2021-22"
+									}
+			
+				
 			],
 			"C4H1": "Sectoral contribution to GSDP during 2020-21",
 			"C2H1": "Change in Sectoral contribution to GSVA (2016-17 and 2020-21)",
 			"C1H1": "Growth of India’s GDP and State’s GSDP",
 			"Chart3": [{
-					"Services": 15.26,
-					"Agriculture": 5.92,
-					"Year": "2016-17",
-					"Industry": 18.52
-				},
-				{
-					"Services": 9.68,
+					"Services": 9.15,
 					"Agriculture": 26.02,
-					"Year": "2017-18",
-					"Industry": 7.84
+					"Industry": 7.86,
+					"Year": "2017-18"
 				},
-				{
-					"Year": "2018-19",
-					"Industry": 9.53,
-					"Agriculture": 2,
-					"Services": 14.44
+				
+				{   "Services": 13.78,
+					"Agriculture": 1.83,
+					"Industry": 10.09,
+					"Year": "2018-19"
+					
+					
 				},
-				{
-					"Agriculture": 16.72,
-					"Year": "2019-20",
-					"Industry": 0.41,
-					"Services": 11.26
+				{	"Services":12.98,
+					"Agriculture": 18.53,
+					"Industry":-1.43,
+					"Year": "2019-20"
+					
 				},
-				{
-					"Agriculture": 10.04,
-					"Year": "2020-21",
-					"Services": 2.34,
-					"Industry": -4.66
+				{	"Services":6.52,
+					"Agriculture": 23.82,
+					"Industry": -3.18,
+					"Year": "2020-21"	
+				},
+				{	"Services":15.96,
+					"Agriculture": 14.69,								
+					"Industry": 18.73,
+					"Year": "2021-22"	
 				}
 			],
 			"Chart2": [
@@ -27404,67 +27407,73 @@
 				}
 			  ],
 			"C6H1": "Trends in deficit parameters",
-			"Chart7": [{
-					"PD/GSDP": -1.31,
-					"RS/GSDP": 0.11,
-					"FD/GSDP": -2.37,
-					"Year": "2016-17"
+			"Chart7": [
+				{
+					"RS/GSDP": 0.34,
+					"FD/GSDP": -2.33,					
+					"PD/GSDP": -1.21,					
+					"Year": "2017-18"
 				},
 				{
-					"FD/GSDP": -2.33,
-					"Year": "2017-18",
-					"PD/GSDP": -1.21,
-					"RS/GSDP": 0.34
+					"RS/GSDP": 0.05,
+					"FD/GSDP": -2.60,					
+					"PD/GSDP": -1.48,					
+					"Year": "2018-19"
 				},
 				{
-					"FD/GSDP": -2.58,
-					"RS/GSDP": 0.04,
-					"Year": "2018-19",
-					"PD/GSDP": -1.46
-				},
-				{
-					"Year": "2019-20",
-					"FD/GSDP": -2.34,
-					"PD/GSDP": -1.12,
-					"RS/GSDP": 0.07
-				},
-				{
-					"RS/GSDP": -1.07,
-					"Year": "2020-21",
-					"FD/GSDP": -3.72,
-					"PD/GSDP": -2.42
-				}
-			],
-			"Chart6": [{
-					"Year": "2016-17",
-					"Primary Deficit": "-15,815",
-					"Revenue Surplus/Deifict": "1,293",
-					"Fiscal Deficit": "-28,664"
-				},
-				{
-					"Primary Deficit": "-16,128",
-					"Year": "2017-18",
-					"Revenue Surplus/Deifict": "4,518",
-					"Fiscal Deficit": "-31,101"
-				},
-				{
-					"Revenue Surplus/Deifict": 679,
-					"Year": "2018-19",
-					"Primary Deficit": "-21,828",
-					"Fiscal Deficit": "-38,442"
-				},
-				{
-					"Fiscal Deficit": "-38,166",
-					"Primary Deficit": "-18,263",
-					"Revenue Surplus/Deifict": "1,185",
+					"RS/GSDP": 0.07,
+					"FD/GSDP": -2.36,					
+					"PD/GSDP": -1.13,					
 					"Year": "2019-20"
 				},
 				{
-					"Fiscal Deficit": "-67,098",
-					"Revenue Surplus/Deifict": "-19,338",
-					"Primary Deficit": "-43,665",
+					"RS/GSDP": -1.12,
+					"FD/GSDP": -3.88,					
+					"PD/GSDP": -2.52,					
 					"Year": "2020-21"
+				},
+				{
+					"RS/GSDP": -0.79,
+					"FD/GSDP": -3.84,					
+					"PD/GSDP": -2.31,					
+					"Year": "2021-22"
 				}
+
+				
+			],
+			"Chart6": [
+				{
+				"Revenue Surplus/Deifict": "4,518",
+				"Fiscal Deficit": "-31,101",					
+				"Primary Deficit": "-16,128",
+				"Year": "2017-18"								
+				},
+				{
+					"Revenue Surplus/Deifict": "679",
+					"Fiscal Deficit": "-38,442",					
+					"Primary Deficit": "-21,828",
+					"Year": "2018-19"
+
+					},
+					{
+						"Revenue Surplus/Deifict": "1,185",
+						"Fiscal Deficit": "-38,166",					
+						"Primary Deficit": "-18,263",
+						"Year": "2019-20"								
+						},
+						{
+							"Revenue Surplus/Deifict": "-19,338",
+							"Fiscal Deficit": "-67,098",					
+							"Primary Deficit": "-43,665",
+							"Year": "2020-21"								
+							},
+							{
+								"Revenue Surplus/Deifict": "-13,666",
+								"Fiscal Deficit": "-66,036",					
+								"Primary Deficit": "-39,760",
+								"Year": "2021-22"								
+								}
+				
 			],
 			"C3H1": "Sectoral growth in GSDP",
 			"C1F1": "Source: Directorate of Economics and Statistics, Government of Karnataka Sectoral contribution to GSDP"

@@ -126,7 +126,7 @@ const Outcome = () => {
             <i>
               Source: Grant Register
             </i>
-
+            </h4>
           
           {["Para160","Para161"].map(
             (item, ind) => (
@@ -141,7 +141,7 @@ const Outcome = () => {
             <i>
               Source: Grant Register
             </i>
-          </h4>
+          
           {[ "Para163", "Para164","Para167", "Para168","Para168a","Para168b"].map(
 
             (item, ind) => (
