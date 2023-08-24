@@ -60,7 +60,7 @@ export const Chart3 = () => {
       ? <Card className={classes.cardColored}>
         <CustomBarChart
           data={chartTwo}
-          title='Chart 3.3: Monthly Receipts and Disbursements during 2020-21'
+          title='Chart 3.3: Monthly Receipts and Disbursements during 2021-22'
           xaxisTitle=" "
           yaxisTitle=" "
           rangeStart="0"

@@ -40,7 +40,7 @@ const columns = [
     },
     {
         name: "Unutilized provision and its percentage",
-        selector: "Unutilized provision and its percentage",
+        selector: "Unutilised provision and its percentage",
         wrap: true,
        
     }
@@ -57,7 +57,7 @@ const Table11 = () => {
         <div className="App" style={{ margin: "40px 0 40px 0" }} >
             <Card>
                 <DataTable
-                    title="Table 3.11 : Budget and Expenditure"
+                    title="Table 3.7 : Budget and Expenditure"
                     columns={columns}
                     data={ctx.tables3.Table11}
                     customStyles={customStyles}

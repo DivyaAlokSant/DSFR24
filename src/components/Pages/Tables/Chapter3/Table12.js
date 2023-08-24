@@ -17,7 +17,7 @@ const columns = [
     },
     {
         name: " ",
-        selector: "1",
+        selector: "Revenue",
         wrap: true,
         sortable:true,
        
@@ -25,35 +25,36 @@ const columns = [
     },
     {
         name: "Revenue",
-        selector: "Revenue",
+        selector: "FIELD3",
         wrap: true,
         sortable:true,
         
     },
     {
         name: " ",
-        selector: "2",
+        selector: "FIELD4",
         wrap: true,
         sortable:true,
         
     },
+ 
     {
-        name: " ",
-        selector: "3",
-        wrap: true,
-        sortable:true,
-       
-    },
-    {
-        name: "Capital",
+        name: "",
         selector: "Capital",
         wrap: true,
         sortable:true,
         
     },
     {
+        name: "Capital",
+        selector: "FIELD6",
+        wrap: true,
+        sortable:true,
+        
+    },
+    {
         name: " ",
-        selector: "4",
+        selector: "FIELD7",
         wrap: true,
         sortable:true,
         
@@ -71,7 +72,7 @@ const Table12 = () => {
         <div className="App" style={{ margin: "40px 0 40px 0" }} >
             <Card>
                 <DataTable
-                    title="Table 3.12 : Anticipated savings not surrendered/partially surrendered"
+                    title="Table 3.8 : Anticipated savings not surrendered/partially surrendered"
                     columns={columns}
                     data={ctx.tables3.Table12}
                     customStyles={customStyles}

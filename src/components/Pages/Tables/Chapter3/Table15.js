@@ -24,6 +24,12 @@ const columns = [
         
     },
     {
+        name: "Budget Provision",
+        selector: "FIELD4",
+        wrap: true,
+        
+    },
+    {
         name: "Total",
         selector: "Total",
         wrap: true,
@@ -37,7 +43,7 @@ const columns = [
     },
     {
         name: "Unutilized provision and its percentage",
-        selector: "Unutilized provision and its percentage",
+        selector: "Unutilised provision and its percentage",
         wrap: true,
        
     }
@@ -54,7 +60,7 @@ const Table15 = () => {
         <div className="App" style={{ margin: "40px 0 40px 0" }} >
             <Card>
                 <DataTable
-                    title="Table 3.15 : Budget and Expenditure"
+                    title="Table 3.11 : Budget and Expenditure"
                     columns={columns}
                     data={ctx.tables3.Table15}
                     customStyles={customStyles}

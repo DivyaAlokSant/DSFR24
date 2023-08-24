@@ -177,6 +177,15 @@ const Audit = () => {
                         <h4>
                         Source: Monthly Civil Accounts	
                         </h4>
+                           <h3 className="headnote">
+            ₹ In crore
+          </h3>
+          <Chart3Chap3 />
+          <h4 className="footnote">
+            <i>
+              Source: Monthly Civil Accounts
+            </i>
+          </h4> 
              {["Para104", "Para105"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>

@@ -16,30 +16,30 @@ const columns = [
         grow:0.05
     },
     {
-        name: "HoANomenclature",
-        selector: "HoANomenclature",
+        name: "Head of Account",
+        selector: "Head of Account",
         wrap: true,
         grow:2,
        
 
     },
     {
-        name: "2018 19",
-        selector: "2018 19",
+        name: "2019-20",
+        selector: "2019-20",
         wrap: true,
         sortable:true,
         
     },
     {
-        name: "2019 20",
-        selector: "2019 20",
+        name: "2020-21",
+        selector: "2020-21",
         wrap: true,
         sortable:true,
       
     },
     {
-        name: "2020 21",
-        selector: "2020 21",
+        name: "2021-22",
+        selector: "2021-22",
         wrap: true,
         sortable:true,
         
@@ -57,7 +57,7 @@ const Table13 = () => {
         <div className="App" style={{ margin: "40px 0 40px 0" }} >
             <Card>
                 <DataTable
-                    title="Table 3.13: Persistent savings"
+                    title="Table 3.9: Persistent savings"
                     columns={columns}
                     data={ctx.tables3.Table13}
                     customStyles={customStyles}

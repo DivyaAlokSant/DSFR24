@@ -16,26 +16,26 @@ const columns = [
         grow:0.05
     },
     {
-        name: "HoANomenclature",
-        selector: "HoANomenclature",
+        name: "Head of Account",
+        selector: "Head of Account",
         wrap: true,
         grow:2
     },
     {
-        name: "2018 19",
-        selector: "2018 19",
+        name: "2019-20",
+        selector: "2019-20",
         wrap: true,
         
     },
     {
-        name: "2019 20",
-        selector: "2019 20",
+        name: "2020-21",
+        selector: "2020-21",
         wrap: true,
       
     },
     {
-        name: "2020 21",
-        selector: "2020 21",
+        name: "2021-22",
+        selector: "2021-22",
         wrap: true,
         
     }
