@@ -80,7 +80,9 @@ const Loss = () => {
                                         {ctx.chapterFive.Fifth[item]}
                                    
                             </Para>)}
-
+<Para>
+{ctx.chapterFive.Fifth.Para67}
+</Para>
                     </div>
                 </div>
                 : <div>

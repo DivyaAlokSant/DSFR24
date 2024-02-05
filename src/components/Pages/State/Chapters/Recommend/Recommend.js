@@ -24,7 +24,7 @@ const Recommend= () => {
                         <Title>
                             {ctx.chapterFive.Fifth.Para130}
                         </Title>
-                        {["Para131", "Para132"].map((item, ind) =>
+                        {["Para131", "Para132","Para133"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 <li>
                                     

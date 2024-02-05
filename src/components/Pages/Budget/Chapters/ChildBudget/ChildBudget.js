@@ -23,7 +23,7 @@ const ChildBudget = () => {
         <FloatingActionButtons back="/budget/gender-budget" forward="/budget/appropaccounts" />
 
           <Title>{ctx.chapterThree.Profile.Para13}</Title>
-          <Subtitle>{ctx.chapterThree.Profile.Para14}</Subtitle>
+          
           {["Para15", "Para16"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
@@ -44,10 +44,11 @@ const ChildBudget = () => {
              {/* <Para>{ctx.chapterThree.Introduction.Para1}</Para> */}
              
              <Table3/>
+             <h4> Source: Grant Register and Child Budget Document</h4>
              <Para>{ctx.chapterThree.Profile.Para25}</Para>
              <Para>{ctx.chapterThree.Profile.Para26}</Para>
              <Para>{ctx.chapterThree.Profile.Para27}</Para>
-
+             <Para>{ctx.chapterThree.Profile.Para27a}</Para>
         </div>
       </div>
     ) : (

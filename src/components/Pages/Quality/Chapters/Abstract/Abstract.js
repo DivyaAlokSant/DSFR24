@@ -14,6 +14,7 @@ import ImageComponent from 'material-ui-image'
 import { getFirebase } from '../../../../../firebase/firebase'
 import c42 from '../../../../../Images/c42.png'
 import k42 from '../../../../../Images/k42.png'
+import { Chart2 as Chart2Chap4 } from '../../../Charts/Chap4Charts'
 const Abstract = () => {
 
     const ctx = useContext(MyContext)
@@ -60,7 +61,8 @@ const Abstract = () => {
                         </h3>
                         <ImageComponent flex="4" aspectRatio = "4" resizeMode = 'contain' src={c42} color ="#ffffff00" />
 <h4>Source: Office of the AG(A&E)</h4>
-
+                        
+                    <Chart2Chap4 />
 
                         {["Para9", "Para10","Para10a"].map((item, ind) =>
                             <Para key={ind / 10}>

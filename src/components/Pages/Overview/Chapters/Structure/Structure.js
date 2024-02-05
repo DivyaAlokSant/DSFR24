@@ -88,7 +88,7 @@ const Structure = () => {
                             {ctx.chapterOne.Profile["Para35"]}
                         </Para>
                         <Title>
-                        Chart 1.5: Pictorial depiction of the structure of Government Accounts
+                        Chart 1.3: Pictorial depiction of the structure of Government Accounts
                         </Title>
                         <ImageComponent flex="2" aspectRatio = "2" resizeMode = 'contain' src={c5} color ="#ffffff00" />
                     </div>

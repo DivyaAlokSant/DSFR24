@@ -55,7 +55,7 @@ export const Chart3 = () => {
       }
       ) : "no data"
 
-  return (
+  return (  
     char.themeChanger
       ? <Card className={classes.cardColored}>
         <CustomBarChart

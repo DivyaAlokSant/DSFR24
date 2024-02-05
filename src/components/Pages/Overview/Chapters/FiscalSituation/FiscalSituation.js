@@ -47,26 +47,28 @@ const FiscalSituation = () => {
                                 {ctx.tables1.T5F1}
                             </i>
                         </h4>
-                        {["Para58a"].map((item, ind) =>
+                        <Para>
+                            {ctx.chapterOne.Profile.Para58a.substring(0, 177)}
+
+                            <span className="tooltip">
+                                {ctx.chapterOne.Profile.Para58a.substring(177, 185)}
+                                <span className="tooltiptext">
+                                    Borrowings by PSUs and SPVs are Off-budget borrowings
+                                </span>
+                                <sup>3</sup>
+                            </span>
+                            {ctx.chapterOne.Profile.Para58a.substring(185,)}
+
+                        </Para>
+                        {["Para59"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterOne.Profile[item]}
                             </Para>
                         )}
-                        <Para>
-                            {ctx.chapterOne.Profile.Para59.substring(0, 177)}
+                       
+               
 
-                            <span className="tooltip">
-                                {ctx.chapterOne.Profile.Para59.substring(177, 185)}
-                                <span className="tooltiptext">
-                                    Borrowings by PSUs and SPVs are Off-budget borrowings
-                                </span>
-                                <sup>2</sup>
-                            </span>
-                            {ctx.chapterOne.Profile.Para59.substring(185,)}
-
-                        </Para>
-
-                        {["Para60","Para60a"].map((item, ind) =>
+                        {["Para60"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterOne.Profile[item]}
                             </Para>
@@ -76,7 +78,7 @@ const FiscalSituation = () => {
                             {ctx.chapterOne.Profile["Para61"]}
                         </Subtitle>
 
-                        {["Para62", "Para63",].map((item, ind) =>
+                        {["Para62"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterOne.Profile[item]}
                             </Para>
@@ -93,24 +95,13 @@ const FiscalSituation = () => {
                                 <br></br>
                                 **The back-to-back Loan (`30,516 crore) received during 2020-21 and 2021-22 from GoI in lieu of GST compensation has not been considered as Debt for working out the indicator.                            </i>
                         </h4>
-                        <Para>
-                            {ctx.chapterOne.Profile.Para64.substring(0, 98)}
-
-                            <span className="tooltip">
-                                {ctx.chapterOne.Profile.Para64.substring(98, 108)}
-                                <span className="tooltiptext">
-                                    Fiscal indicators like revenue surplus/deficit, fiscal deficit, Debt-GSDP ratio and GSDP growth rate at current prices.
-                                </span>
-                                <sup>3</sup>
-                            </span>
-                            {ctx.chapterOne.Profile.Para64.substring(108,)}
-
-                        </Para>
-                        {["Para65"].map((item, ind) =>
+                 
+                        {["Para64"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterOne.Profile[item]}
                             </Para>
                         )}
+                  
 
                     </div>
                 </div>

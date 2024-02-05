@@ -39,7 +39,7 @@ const Conclusions= () => {
                             </li>
                         </Para> 
 
-                        {["Para127", "Para128"].map((item, ind) =>
+                        {["Para127", "Para128","Para129","Para129a"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 <li>
                                     

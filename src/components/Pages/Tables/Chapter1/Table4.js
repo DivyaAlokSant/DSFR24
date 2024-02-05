@@ -31,18 +31,12 @@ const columns = [
     },
      
      {
-        name: "2017-18",
-        selector: "2017-18",
-        wrap: true,
-        
-    },
-     {
         name: "2018-19",
         selector: "2018-19",
         wrap: true,
         
     },
-    {
+     {
         name: "2019-20",
         selector: "2019-20",
         wrap: true,
@@ -52,15 +46,23 @@ const columns = [
         name: "2020-21",
         selector: "2020-21",
         wrap: true,
-      
         
     },
     {
         name: "2021-22",
         selector: "2021-22",
-        wrap: true,        
+        wrap: true,
+      
         
     },
+    {
+        name: "2022-23",
+        selector: "2022-23",
+        wrap: true,
+      
+        
+    },
+ 
 ];
 
 const conditionalRowStyles = [
@@ -85,7 +87,7 @@ const Table4 = () => {
         <div className="App" style={{ margin: "40px 0 40px 0" }} >
             <Card>
                 <DataTable
-                    title="Table 1.4: Trends in Fiscal Liabilities and GSDP"
+                    title="Table 1.5: Trends in Fiscal Liabilities and its ratio to GSDP"
                     columns={columns}
                     data={ctx.tables1.Table4}
                     customStyles={customStyles}

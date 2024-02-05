@@ -7,6 +7,7 @@ import { FaSpinner } from "react-icons/fa";
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton";
 import "./../../Budget.css";
 import Table7 from "../../../Tables/Chapter3/Table7";
+import Subtitle from  "../../../../Subtitle/Subtitle";
 
 import Table7a from "../../../Tables/Chapter3/Table7a";
 import Table7b from "../../../Tables/Chapter3/Table7b";

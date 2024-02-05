@@ -15,7 +15,7 @@ import k41 from '../../../../../Images/k41.png'
 import ImageComponent from 'material-ui-image'
 import { getFirebase } from '../../../../../firebase/firebase'
 import { Subtitles } from "@material-ui/icons";
-
+import { Chart1 as Chart1Chap4  } from '../../../Charts/Chap4Charts'
 
 const Delay = () => {
 
@@ -73,7 +73,12 @@ const Delay = () => {
                         </h3>
                         <ImageComponent flex="4" aspectRatio = "4" resizeMode = 'contain' src={c41} color ="#ffffff00" />
 <h4>Source: Office of the AG(A&E)</h4>
-
+<h3 className="headnote">
+                          ( ₹ In crore)
+                        </h3>
+                        {/* <App /> */}
+                        <Chart1Chap4 />
+<h4>Source: Office of the AG(A&E)</h4>
                         {["Para5", "Para6"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterFour.first[item]}

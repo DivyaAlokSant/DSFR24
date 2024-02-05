@@ -15,7 +15,7 @@ import kc7 from '../../../../../Images/kc7.png'
 import c6 from '../../../../../Images/c6.png'
 import c7 from '../../../../../Images/c7.png'
 import ImageComponent from 'material-ui-image'
-
+import Table3aa from '../../../Tables/Chapter1/Table3aa'
 const FiscalParams = () => {
 
     const ctx = useContext(MyContext)
@@ -44,15 +44,37 @@ const FiscalParams = () => {
                                 {ctx.chapterOne.Profile[item]}
                             </Para>
                         )}
+                        <Table3aa />
+                        <h4>
+                        Source: Recommendations of 15th FC, Annual Financial Statement, Overview of Budget 2022-23 and Finance Accounts  <br></br>
+                        </h4>
+                        <h4>
+                        Note: Deficit figures have been shown in minus.
+                        </h4>
+                        <h4>
+                        *  Calculated on the basis of GSDP figures of ₹21,81,217crore as per Ministry of Finance, GOI.
+                        </h4>
+                        <h4>
+                        ^ The back-to-back Loan (₹ 30,516 crore) received from GoI during 2020-21 and 2021-22 in lieu of GST     compensation has not been considered as Debt for working out the indicator.
+                        </h4>
+                        <Para>
+                          
+                        </Para>
+
+                        {["Para50a","Para50b"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapterOne.Profile[item]}
+                            </Para>
+                        )}
                         <Title>
-                        Chart 1.6: Trends in deficit parameters                    
+                        Chart 1.4: Trends in fiscal parameters                    
                         </Title>
                         <ImageComponent flex="2" aspectRatio = "2" resizeMode = 'contain' src={c6} color ="#ffffff00" />
                         <h4>
                         Source: Finance Accounts  
                         </h4>
                         <Title>
-                        Chart 1.7: Trends in Surplus/Deficit relative to GSDP                    
+                        Chart 1.5: Trends in Surplus/Deficit relative to GSDP                    
                         </Title>
                         <ImageComponent flex="2" aspectRatio = "2" resizeMode = 'contain' src={c7} color ="#ffffff00" />
                         <h4>
@@ -97,7 +119,7 @@ const FiscalParams = () => {
                             </i>
                         </h4>
 
-                        {["Para53a","Para54","Para54a"].map((item, ind) =>
+                        {["Para54","Para54a"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterOne.Profile[item]}
                             </Para>

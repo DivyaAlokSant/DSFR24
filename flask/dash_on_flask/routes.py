@@ -13,7 +13,7 @@ def home():
         title='eSamvid',
         description='Digital audit reporting initiative',
         template='home-template',
-        body="This is the state finance report of karnataka, 2021-22"
+        body="This is the state finance report of karnataka, 2022-23"
     )
 
 # @app.route('/')

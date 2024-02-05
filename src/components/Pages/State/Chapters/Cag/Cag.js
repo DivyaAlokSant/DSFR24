@@ -23,19 +23,36 @@ const Cag = () => {
                         <FloatingActionButtons back="/State/Submissions" forward="/State/Result" />
 
                         <Title>
-                            {ctx.chapterFive.Fifth.Para91}
+                            {ctx.chapterFive.Fifth.Para88}
                         </Title>
                         <Subtitle>
-                            {ctx.chapterFive.Fifth.Para92}
+                            {ctx.chapterFive.Fifth.Para89}
                         </Subtitle>
+                        <Para>
+                              {ctx.chapterFive.Fifth.Para90}
+                        </Para>   
+                        <Subtitle>
+                            {ctx.chapterFive.Fifth.Para91}
+                        </Subtitle>
+                        <Para>
+                            {ctx.chapterFive.Fifth.Para92}
+                        </Para>
 
                         <Para>
                               {ctx.chapterFive.Fifth.Para93}
                         </Para>    
-
+                        <Para>
+                              {ctx.chapterFive.Fifth.Para93a}
+                        </Para> 
+                        <Para>
+                              {ctx.chapterFive.Fifth.Para93b}
+                        </Para> 
                         <Subtitle>
                             {ctx.chapterFive.Fifth.Para94}
                         </Subtitle>
+                        <Para>
+                              {ctx.chapterFive.Fifth.Para94a}
+                        </Para> 
 
                         {["Para95", "Para96"].map((item, ind) =>
                             <Para key={ind / 10}>
@@ -44,25 +61,9 @@ const Cag = () => {
                                    
                             </Para>)}
 
-                            {["Para97", "Para98"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                <li>
-                                    <i>
-                                        {ctx.chapterFive.Fifth[item]}
-                                    </i>
-                                </li>
-                            </Para>)}    
+                             
 
-                            <Subtitle>
-                            {ctx.chapterFive.Fifth.Para99}
-                        </Subtitle>
-
-                        {["Para100", "Para101", "Para102"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                
-                                  {ctx.chapterFive.Fifth[item]}
-                                   
-                            </Para>)}
+                     
 
                     </div>
                 </div>

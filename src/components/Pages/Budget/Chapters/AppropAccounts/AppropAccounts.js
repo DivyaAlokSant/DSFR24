@@ -10,6 +10,7 @@ import Table5 from "../../../Tables/Chapter3/Table5";
 import Table6 from "../../../Tables/Chapter3/Table6";
 import Table5kan from '../../../Tables/Chapter3kan/Table5'
 import Table6kan from '../../../Tables/Chapter3kan/Table6'
+import Subtitle from  "../../../../Subtitle/Subtitle"
 const AppropAccounts = () => {
   const ctx = useContext(MyContext);
   console.log(ctx.chapter3kannada);
@@ -30,12 +31,13 @@ const AppropAccounts = () => {
               {ctx.chapterThree.Profile.Para34.substring(867, 875)}
               <span className="tooltiptext">
                 Finance Accounts provides broad perspective of finances of GoK during the financial year which is dealt in the Chapter 1 and 2 of this Report.              </span>
-              <sup>22</sup>
+              <sup>21</sup>
             </span>
 
             {ctx.chapterThree.Profile.Para34.substring(875,)}
+            <Subtitle>{ctx.chapterThree.Profile.Para35}</Subtitle>
           </Para>
-          {["Para35", "Para36"].map(
+          {["Para36"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
@@ -50,7 +52,8 @@ const AppropAccounts = () => {
               Source: Appropriation Accounts
             </i>
           </h4>
-          {["Para37", "Para38", "Para39"].map(
+          <Subtitle>{ctx.chapterThree.Profile.Para38}</Subtitle>
+          {[  "Para39"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
@@ -69,6 +72,29 @@ const AppropAccounts = () => {
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
+          <Subtitle>{ctx.chapterThree.Profile.Para39b}</Subtitle>
+          {["Para39c"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+            )
+          )}
+          <Subtitle>{ctx.chapterThree.Profile.Para39d}</Subtitle>
+          {["Para39e","Para39f","Para39g","Para39h"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+            )
+          )}
+          <Subtitle>{ctx.chapterThree.Profile.Para39i}</Subtitle>
+          {["Para39j","Para39k","Para39l","Para39m"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+            )
+          )}
+
+
+          
+          
+          
           {/* <Para>{ctx.chapterThree.Introduction.Para1}</Para> */}
 
         </div>

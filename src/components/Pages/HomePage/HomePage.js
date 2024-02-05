@@ -55,13 +55,13 @@ const HomePage = () => {
         <div>
           Digital State Finance Audit Report of the
           Comptroller and Auditor General of India
-          for the year ended March 2022
+          for the year ended March 2023
         </div>
         <div className='gradient__text'>
           Government of Karnataka
         </div>
         <div className='gradient__text'>
-          Report No. 1 of the year 2022
+          Report No. 1 of the year 2024
         </div>
         <div>
 

@@ -8,6 +8,7 @@ import Title from "../../../../Title/Title";
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton"
 import Table1 from "../../../Tables/Chapter5/Table1";
 import Table1kan from "../../../Tables/Chapter5kan/Table1";
+import Subtitle from "./../../../../Subtitle/Subtitle"
 // import Table1 from '../../../Tables/Chapter4/Table1'
 
 
@@ -27,40 +28,22 @@ const Spse = () => {
                             {ctx.chapterFive.Fifth.Para7}
                         </Title>
 
-                        <Para>
-                            {ctx.chapterFive.Fifth.Para8.substring(0, 322)}
+                        <Subtitle>
+                            {ctx.chapterFive.Fifth.Para8}                      
+                     
 
-                            <span className="tooltip">
-                                {ctx.chapterFive.Fifth.Para8.substring(323, 324)}
-                                <span className="tooltiptext">
-                                {ctx.chapterFive.Fifth.Para15}
-                                </span>
-                                <sup>24</sup>
-                            </span>
+                        </Subtitle>  
+                        {["Para8a"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                
+                                        {ctx.chapterFive.Fifth[item]}
+                                   
+                            </Para>)}
+                            <Subtitle>
+                            5.3.2  Contribution of SPSEs to GSDP of the State                    
+                     
 
-                            {ctx.chapterFive.Fifth.Para8.substring(323, 372)}
-
-                            <span className="tooltip">
-                                {ctx.chapterFive.Fifth.Para8.substring(373, 374)}
-                                <span className="tooltiptext">
-                                {ctx.chapterFive.Fifth.Para16}
-                                </span>
-                                <sup>25</sup>
-                            </span>
-
-                            {ctx.chapterFive.Fifth.Para8.substring(373,403)}
-
-                            <span className="tooltip">
-                                {ctx.chapterFive.Fifth.Para8.substring(404, 405)}
-                                <span className="tooltiptext">
-                                {ctx.chapterFive.Fifth.Para17}
-                                </span>
-                                <sup>26</sup>
-                            </span>
-
-                            {ctx.chapterFive.Fifth.Para8.substring(403,)}
-
-                        </Para>  
+                        </Subtitle>  
 
 
                         {["Para10"].map((item, ind) =>

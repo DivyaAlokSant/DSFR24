@@ -27,9 +27,15 @@ const Performance = () => {
                         <Para>
                               {ctx.chapterFive.Fifth.Para74}
                         </Para>  
-                        <Para>
+                        <Title>
                               {ctx.chapterFive.Fifth.Para75}
-                        </Para> 
+                        </Title> 
+                        <Para>
+                              {ctx.chapterFive.Fifth.Para75a}
+                        </Para>
+                        <Para>
+                              {ctx.chapterFive.Fifth.Para75b}
+                        </Para>
                     </div>
                 </div>
                 : <div>

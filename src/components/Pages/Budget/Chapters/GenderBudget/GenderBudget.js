@@ -35,6 +35,11 @@ const GenderBudget = () => {
               Source: Gender Budget
             </i>
           </h4>
+          {["Para11a","Para11b"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+            )
+          )}
 
         </div>
       </div>

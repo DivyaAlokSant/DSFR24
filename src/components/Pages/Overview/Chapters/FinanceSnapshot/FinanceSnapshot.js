@@ -32,20 +32,20 @@ const FinanceSnapshot = () => {
                             ₹ in crore
                         </h3>
                         <Table2 />
-                        <h4 className='footnote'>
+                        {/* <h4 className='footnote'>
                             <i>
                                 {ctx.tables1.T2F1}
                                 <br></br>
                                 {ctx.tables1.T2F2}
                                 <br></br>
-                                <br></br>
+                                
                                 {ctx.tables1.T2F3}
                                 <br></br>
                                 {ctx.tables1.T2F4.substring(0, 97)}
                                 <br></br>
                                 ^^ Effective Public Debt Receipts for the year 2020-21 and 2021-22 would be ` 72,121 crore and `62,532 crore respectively, as the Department of Expenditure, GoI had decided that GST compensation of `12,407 crore in 2020-21 and `18,109 crore in 2021-22 given to the State as back-to-back loan under Debt Receipts would not be treated as debt of the State for any norms which may be prescribed by the Finance Commission.
                             </i>
-                        </h4>
+                        </h4> */}
 
                         {["Para40a", "Para41", "Para42"].map((item, ind) =>
                             <Para key={ind / 10}>

@@ -63,9 +63,19 @@ const Investment = () => {
                         <Subtitle>
                             {ctx.chapterFive.Fifth.Para22}
                         </Subtitle>
-                        <Para>
+                        <Subtitle>
                               {ctx.chapterFive.Fifth.Para23}
+                        </Subtitle>
+                        <Para>
+                              {ctx.chapterFive.Fifth.Para23a}
                         </Para>
+                        <Subtitle>
+                              {ctx.chapterFive.Fifth.Para23b}
+                        </Subtitle>
+                        <Para>
+                              {ctx.chapterFive.Fifth.Para23c}
+                        </Para>
+
                         <Subtitle>
                             {ctx.chapterFive.Fifth.Para24}
                         </Subtitle>

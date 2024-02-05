@@ -23,6 +23,7 @@ export const CustomBarhChart = (props) => {
           yref: "paper",
           x: 0.50,
           y: 0.9,
+          labels:["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
           sizex: 0.7,
           sizey: 0.7,
           opacity: 0.1,
@@ -38,7 +39,7 @@ export const CustomBarhChart = (props) => {
         legend: {
           bgcolor: "#ffffff00",
           bordercolor: "#ffffff00",
-          borderwidth: 0.6,
+          borderwidth: 0.3,
           font: {
             family: "Open Sans",
             size: 10,
@@ -79,12 +80,14 @@ export const CustomBarhChart = (props) => {
           // tickmode:'linear',
           dtick: props.step ? props.step : 10,
           tick0: 0,
+          
           tickformat: ',g',
           ticks: "inside"
         }
       }}
       useResizeHandler
       className="chart"
+      
     />
   );
 }

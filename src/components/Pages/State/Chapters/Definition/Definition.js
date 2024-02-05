@@ -43,10 +43,14 @@ const Definition = () => {
                                 {ctx.chapterFive.Fifth.Para4.substring(27, 28)}
                                 <span className="tooltiptext">
                                 Companies (Removal of Difficulties) Seventh Order, 2014 issued by Ministry of Corporate Affairs vide Gazette Notification dated 4 September 2014.</span>
-                                <sup>23</sup>
+                                <sup>30</sup>
                             </span>
 
                             {ctx.chapterFive.Fifth.Para4.substring(26,)}
+                            {["Para4a"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapterFive.Fifth[item]}
+                            </Para>)}
                         </Para>    
 
                     </div>

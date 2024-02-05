@@ -33,13 +33,27 @@ const BudgetProcess = () => {
           <FloatingActionButtons back="/budget/introduction" forward="/budget/gender-budget" />
 
           <Title>{ctx.chapterThree.Profile.Para1}</Title>
-          {["Para2", "Para3", "Para4", "Para5", "Para6", "Para7"].map(
+          <Para>
+                            {ctx.chapterThree.Profile.Para1a.substring(0, 332)}
+
+                            <span className="tooltip">
+                                {ctx.chapterThree.Profile.Para1a.substring(332, 337)}
+                                <span className="tooltiptext">
+                                      Charged Expenditure: Certain categories of expenditure (e.g. salaries of Constitutional authorities, loan repayments, etc.) constitute a charge on the Consolidated Fund of the State and are not subject to vote by the Legislature. Voted Expenditure: All other expenditure is voted by the Legislature.
+                                </span>
+                                <sup>20</sup>
+                            </span>
+                            {ctx.chapterThree.Profile.Para1a.substring(337,)}
+
+                        </Para>
+          {["Para2", "Para3", "Para4", "Para5","Para6"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
              {/* <Para>{ctx.chapterThree.Introduction.Para1}</Para> */}
 
+         
              <Title>
              Chart 3.1 Summary of Budget and Expenditure of Karnataka for 2021-22                  
                         </Title>
@@ -48,7 +62,11 @@ const BudgetProcess = () => {
           </h3>
                         <ImageComponent flex="2" aspectRatio = "2" resizeMode = 'contain' src={c31} color ="#ffffff00" />
                        
-             
+                        {["Para6a","Para6b"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+            )
+          )}  
 
         </div>
       </div>

@@ -52,7 +52,7 @@ const Profile = () => {
                             <span className="tooltip">
                                 {ctx.chapterOne.Profile.para2.substring(304, 309)}
                                 <span className="tooltiptext">
-                                As per Economic Survey of India 2021-22.
+                                As per Economic Survey of India 2022-23.
                                 </span>
                                 <sup>1</sup>
                             </span>
@@ -88,9 +88,9 @@ const Profile = () => {
 
                         </Para> */}
 
-                        <Title>
+                        <Para>
                             {ctx.chapterOne.Profile.para6}
-                        </Title>
+                        </Para>
                         {["para7", "para8"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterOne.Profile[item]}
@@ -104,9 +104,15 @@ const Profile = () => {
                             <i>
                                 {ctx.tables1.T1F1} <br></br>
                                 {ctx.tables1.T1F2}<br></br>
-                                {ctx.tables1.T1F2a}
+                                {ctx.tables1.T1F2a}<br></br>
+                                {ctx.tables1.T1F2b}<br></br>
+                                {ctx.tables1.T1F2c}<br></br>
+                                {ctx.tables1.T1F2d}<br></br>
                             </i>
                         </h4>
+                        <Para>
+                            {ctx.chapterOne.Profile.para8a}
+                        </Para>
                         <Title>
                                 Chart 1.1: Growth of India’s GDP and State’s GSDP
                         </Title>
@@ -130,8 +136,13 @@ const Profile = () => {
                                 {ctx.chapterOne.Profile[item]}
                             </Para>
                         )}
+                          {["Para10"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapterOne.Profile[item]}
+                            </Para>
+                        )}
 
-                        <Para>
+                        {/* <Para>
                             {ctx.chapterOne.Profile.Para10.substring(0, 165)}
 
                             <span className="tooltip">
@@ -143,9 +154,9 @@ const Profile = () => {
                             </span>
                             {ctx.chapterOne.Profile.Para10.substring(174,)}
 
-                        </Para>
-                        <Title>
-                           Chart 1.2: Change in Sectoral contribution to GSVA (2017-18 and 2021-22)
+                        </Para> */}
+                         <Title>
+                         Chart 1.2: Sectoral growth in GSDP
                         </Title>
                         <ImageComponent flex="2" aspectRatio = "2" resizeMode = 'contain' src={c2} color ="#ffffff00" />
                         <Chart2 />
@@ -160,7 +171,7 @@ const Profile = () => {
                             {ctx.chapterOne.Profile.Para11}
                         </Para>
                         <Title>
-                        Chart 1.3: Sectoral growth in GSDP
+                        Chart 1.2: Sectoral growth in GSDP
                         </Title>
                         <ImageComponent flex="2" aspectRatio = "2" resizeMode = 'contain' src={c3} color ="#ffffff00" />
                         
@@ -186,7 +197,7 @@ const Profile = () => {
                             <i>
                                 Source: Directorate of Economics and Statistics, Government of Karnataka
                             </i>
-                        </h4>
+                        </h4> */
                     </div>
                 </div>
                 : <div>

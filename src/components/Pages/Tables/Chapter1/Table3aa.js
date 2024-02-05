@@ -11,15 +11,15 @@ import { styles } from "../helpers";
 
 const columns = [
   {
-    name: "Year",
-    selector: "Year",
+    name: "Fiscal Variables",
+    selector: "Fiscal Variables",
     grow: 1.2,
-    cell: column =>
-    (<div data-tag="allowColumnEvents">
-      <div style={{ fontWeight: "bold", color: "#467880" }}>
-        {column.Year}
-      </div>
-    </div>)
+    // cell: column =>
+    // (<div data-tag="allowColumnEvents">
+    //   <div style={{ fontWeight: "bold", color: "#467880" }}>
+    //     {column.Year}
+    //   </div>
+    // </div>)
   },
  
     // conditionalCellStyles: [
@@ -37,20 +37,20 @@ const columns = [
   
  
   {
-    name: "2018-19",
-    selector: "2018-19",
+    name: "Targets as prescribed by 15th FC",
+    selector: "Targets as prescribed by 15th FC",
     sortable: true,
     
   },
   {
-    name: "2019-20",
-    selector: "2019-20",
+    name: "Targets in the Budget",
+    selector: "Targets in the Budget",
     sortable: true,
     
   },
   {
-    name: "2020-21",
-    selector: "2020-21",
+    name: "Actuals*",
+    selector: "Actuals*",
     sortable: true,
    
     // conditionalCellStyles: [
@@ -67,14 +67,14 @@ const columns = [
     // ]
   },
   {
-    name: "2021-22",
-    selector: "2021-22",
+    name: "Percentage variation of actual over",
+    selector: "Percentage variation of actual over",
     sortable: true,
     
   },
   {
-    name: "2022-23",
-    selector: "2022-23",
+    name: "",
+    selector: "1",
     sortable: true,
     
   },
@@ -140,7 +140,7 @@ const columns = [
 
 const customStyles = styles
 
-const Table1 = () => {
+const Table3aa = () => {
 
   const ctx = useContext(MyContext)
 
@@ -152,10 +152,10 @@ const Table1 = () => {
       style={{ margin: "40px 0 40px 0" }} >
       <Card>
         <DataTable
-          title={ctx.tables1.T1H1}
+          title={ctx.tables1.t3aah1}
           
           columns={columns}
-          data={ctx.tables1.Table1}
+          data={ctx.tables1.Table3aa}
           defaultSortField="title"
           sortIcon={<SortIcon />}
           customStyles={customStyles}
@@ -169,4 +169,4 @@ const Table1 = () => {
   );
 }
 
-export default Table1;
+export default Table3aa;

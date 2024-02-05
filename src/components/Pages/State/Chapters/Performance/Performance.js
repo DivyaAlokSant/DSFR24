@@ -32,23 +32,7 @@ const Performance = () => {
                         <Para>
                               {ctx.chapterFive.Fifth.Para50}
                         </Para>
-                        <Subtitle>
-                            {ctx.chapterFive.Fifth.Para51}
-                        </Subtitle>
-                        <Para>
-                            {ctx.chapterFive.Fifth.Para52.substring(0, 212)}
-
-                            <span className="tooltip">
-                                {ctx.chapterFive.Fifth.Para52.substring(213, 214)}
-                                <span className="tooltiptext">
-                                {ctx.chapterFive.Fifth.Para52s}
-                                </span>
-                                <sup>34</sup>
-                            </span>
-
-                            {ctx.chapterFive.Fifth.Para52.substring(213,)}
-                        </Para>
-
+                        
                         <Table8 />
                         <h4 className='footnote'>
                                 <i>
@@ -58,24 +42,7 @@ const Performance = () => {
                                 </i>
                             </h4>
 
-                        <Para>
-                              {ctx.chapterFive.Fifth.Para53}
-                        </Para>
-                        <Subtitle>
-                            {ctx.chapterFive.Fifth.Para54}
-                        </Subtitle>
-                        {["Para55", "Para56", "Para57"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                
-                                        {ctx.chapterFive.Fifth[item]}
-                                   
-                        </Para>)}
-
-                        <Table9 />
-                        
-                        <Para>
-                              {ctx.chapterFive.Fifth.Para58}
-                        </Para>    
+                       
                     </div>
                 </div>
                 : <div>

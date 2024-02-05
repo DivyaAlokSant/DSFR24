@@ -10,14 +10,14 @@ import { styles } from "../helpers";
 const columns = [
     {
         name: " ",
-        selector: "Sl no",
+        selector: "Liabilities",
         grow: 0,
         wrap: true,
         width:'35px',
     },
     {
         name: "",
-        selector: "2",
+        selector: "8",
         grow: 0.35,
         wrap: true,
         conditionalCellStyles: [
@@ -34,38 +34,38 @@ const columns = [
         ]
     },
     {
-        name: "Liabilities 2020-21",
-        selector: "Liabilities 2020-21",
+        name: "",
+        selector: "__1",
         grow: 0.2,
         wrap: true,
         
     },
     {
-        name: "Liabilities 2021-22",
-        selector: "Liabilities 2021-22",
+        name: "",
+        selector: "__2",
         grow:0.2,
         wrap: true,
        
     },
     
     {
-        name: "Percent Increase",
-        selector: "Per cent increase",
+        name: "",
+        selector: "__3",
         // grow: 0.05,
         width:'150px',
         wrap: true,
         
     },
     {
-        name: " ",
-        selector: "Sl no__1",
+        name: "Assets",
+        selector: "Assets",
         grow: 0,
         wrap: true,
         width:'35px'
     },
     {
         name: "",
-        selector: "4",
+        selector: "__4",
         grow: 0.35,
         wrap: true,
         conditionalCellStyles: [
@@ -82,23 +82,23 @@ const columns = [
         ]
     },
     {
-        name: "Assets 2020-21",
-        selector: "Assets 2020-21",
+        name: "",
+        selector: "__5",
         grow: 0.2,
         wrap: true,
         
     },
     {
-        name: "Assets 2021-22",
-        selector: "Assets 2021-22",
+        name: "",
+        selector: "__6",
         grow: 0.2,
         wrap: true,
         
     },
   
     {
-        name: "Percent Increase",
-        selector: "Per cent increase__1",
+        name: "",
+        selector: "__7",
         grow:0.05,
         wrap: true,
        

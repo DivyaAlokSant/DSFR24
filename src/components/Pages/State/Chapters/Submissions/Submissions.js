@@ -45,7 +45,7 @@ const Submissions = () => {
                             {ctx.chapterFive.Fifth.Para78.substring(186,)}
                         </Para>
 
-                        {["Para79", "Para81"].map((item, ind) =>
+                        {["Para79","Para80", "Para81"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 
                                         {ctx.chapterFive.Fifth[item]}
@@ -81,12 +81,24 @@ const Submissions = () => {
                         <Para>
                               {ctx.chapterFive.Fifth.Para85}
                         </Para>
+                        <Para>
+                              {ctx.chapterFive.Fifth.Para85a}
+                        </Para>
+                        <Para>
+                              {ctx.chapterFive.Fifth.Para85b}
+                        </Para>
+                        
+                        
+
 
                         <Subtitle>
                             {ctx.chapterFive.Fifth.Para86}
                         </Subtitle>
                         <Para>
                               {ctx.chapterFive.Fifth.Para87}
+                        </Para>
+                        <Para>
+                              {ctx.chapterFive.Fifth.Para87a}
                         </Para>
 
                     </div>

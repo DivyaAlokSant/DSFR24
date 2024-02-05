@@ -12,7 +12,7 @@ import c43 from '../../../../../Images/c43.png'
 import k43 from '../../../../../Images/k43.png'
 import ImageComponent from 'material-ui-image'
 import { getFirebase } from '../../../../../firebase/firebase'
-
+import { Chart3 as Chart3Chap4 } from '../../../Charts/Chap4Charts'
 const NonReconciliation = () => {
 
     const ctx = useContext(MyContext)
@@ -47,6 +47,8 @@ const NonReconciliation = () => {
                        <ImageComponent flex="4" aspectRatio = "4" resizeMode = 'contain' src={c43} color ="#ffffff00" />
 <h4>Source- Finance Accounts</h4>
 <h4> * Excludes loans and advances </h4>
+
+<Chart3Chap4 />
                         <Para>
                             {ctx.chapterFour.Third.Para25a}
                         </Para>
