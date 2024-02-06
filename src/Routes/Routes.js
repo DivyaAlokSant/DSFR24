@@ -64,8 +64,10 @@ import Mandate from '../components/Pages/State/Chapters/Mandate/Mandate';
 
 import Spse from '../components/Pages/State/Chapters/Spse/Spse';
 import Investment from '../components/Pages/State/Chapters/Investment/Investment';
-import Returns from '../components/Pages/State/Chapters/Returns/Returns';import Debt from '../components/Pages/State/Chapters/Debt/Debt';
-import Performance from '../components/Pages/State/Chapters/Performance/Performance';import Loss from '../components/Pages/State/Chapters/Loss/Loss';
+import Returns from '../components/Pages/State/Chapters/Returns/Returns';
+import Debt from '../components/Pages/State/Chapters/Debt/Debt';
+import Performance from '../components/Pages/State/Chapters/Performance/Performance';
+import Loss from '../components/Pages/State/Chapters/Loss/Loss';
 import Auditt from '../components/Pages/State/Chapters/Auditt/Auditt';
 import Appointment from '../components/Pages/State/Chapters/Appointment/Appointment';
 import Submissions from '../components/Pages/State/Chapters/Submissions/Submissions';

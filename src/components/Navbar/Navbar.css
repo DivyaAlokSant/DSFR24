@@ -47,7 +47,7 @@ body {
 
 .App .Navbar h2:before {
   /* with a pseudo element include a string, which is hidden by default below the header, to the left of the page  */
-  content: 'State Finance Audit Report 2019-20';
+  content: 'State Finance Audit Report 2022-23';
   white-space: nowrap;
   font-size: 1.8rem;
   position: absolute;
@@ -57,7 +57,7 @@ body {
   top: 0.25rem;
   color: var(--color-txt);
   /* transition for the transform property, to translate the string into view and to the right of the header */
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
   /* z-index to have the pseudo element below the header itself */
   z-index: -5;
   }
