@@ -21,9 +21,8 @@ const columns = [
         grow: 2,
         conditionalCellStyles: [
             {
-                when: row => row["Fiscal Variables"] === 'Fiscal Deficit (-)/ Surplus (+)' 
-                || row["Fiscal Variables"] === 'Revenue Deficit (-)/Surplus (+) (5-6)'
-                || row["Fiscal Variables"] === 'GSDP',
+                when: row => row["Fiscal Variables"] === 'Revenue Receipts (1+2+3+4)' 
+                || row["Fiscal Variables"] === 'Revenue Deficit (-) / Surplus (+) (5-6)',
                 style: {
                     backgroundColor: 'rgba(63, 195, 128, 0.5)',
                     color: 'white',
@@ -36,18 +35,18 @@ const columns = [
         ]
     },
     {
-        name: "Projection as per MTFP",
+        name: "Projection as per MTFP 2021-25",
         selector: "Projection as per MTFP",
         wrap: true
         
     },
     {
-        name: "Actuals",
+        name: "Actuals (2022-23)",
         selector: "Actuals",
         wrap: true
     },  
     {
-        name: "Variation",
+        name: "Variation (in per cent)",
         selector: "Variation",
         wrap: true
         
@@ -65,7 +64,7 @@ const Table6 = () => {
         <div className="App" style={{ margin: "40px 0 40px 0" }} >
             <Card>
                 <DataTable
-                    title="Table 1.6: Actuals vis-à-vis projection in MTFP for 2021-22"
+                    title="Table 1.7: Actuals vis-à-vis projection in MTFP for 2021-22"
                     columns={columns}
                     data={ctx.tables1.Table6}
                     customStyles={customStyles}

@@ -83,17 +83,14 @@ const FiscalSituation = () => {
                                 {ctx.chapterOne.Profile[item]}
                             </Para>
                         )}
-     <h3 className='headnote'>
+                        <h3 className='headnote'>
                             ₹ In crore
                         </h3>
                         <Table6 />
                         <h4 className='footnote'>
                             <i>
-                                {ctx.tables1.T6F1} and MTFP 2019-23
-                                <br></br>
-                                *Effective total debt would be `4,59,740 crore as the Department of Expenditure, GoI had decided that GST compensation of `12,407 and `18,109 crore given to the State as back-to-back loan during 2020-21 and 2021-22 respectively under Debt Receipt would not be treated as debt of the State for any norms which may be prescribed by the Finance Commission and therefore, the effective variation would be 7.65 per cent.
-                                <br></br>
-                                **The back-to-back Loan (`30,516 crore) received during 2020-21 and 2021-22 from GoI in lieu of GST compensation has not been considered as Debt for working out the indicator.                            </i>
+                                {ctx.tables1.T6F1} 
+                            </i>
                         </h4>
                  
                         {["Para64"].map((item, ind) =>

@@ -15,7 +15,7 @@ import Chart1Kan from '../../../Charts/ChartsKan/Charts'
 const Introduction = () => {
    
     const ctx = useContext(MyContext)
-    console.log(ctx.chapter3kannada);
+    //console.log(ctx.chapter3kannada);
     return (
         ctx.langPref
             ? (ctx.chapterOne

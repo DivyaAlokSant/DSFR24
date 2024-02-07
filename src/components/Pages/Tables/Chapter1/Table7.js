@@ -21,10 +21,10 @@ const columns = [
         grow: 2,
     },
     {
-        name: "Revenue Deficit",
-        selector: "Revenue Deficit",
+        name: "Revenue Surplus",
+        selector: "Revenue Surplus",
         wrap: true,
-        format: data => data["Revenue Deficit"].toLocaleString('en-IN')
+        format: data => data["Revenue Surplus"].toLocaleString('en-IN')
     },
     {
         name: "Revenue Deficit",
@@ -71,7 +71,7 @@ const Table7 = () => {
         <div className="App" style={{ margin: "40px 0 40px 0" }} >
             <Card>
                 <DataTable
-                    title="Table 1.7: Impact of certain transactions during 2020-21"
+                    title="Table 1.8: Impact of certain transactions during 2020-21"
                     columns={columns}
                     data={ctx.tables1.Table7}
                     customStyles={customStyles}

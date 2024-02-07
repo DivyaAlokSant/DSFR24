@@ -18,7 +18,20 @@ const columns = [
         name: "KFRA Target",
         selector: "KFRA target",
         wrap: true,
+        width: '150px',
         format: data => data["KFRA target"].toLocaleString('en-IN')
+    },
+    {
+        name: "Achievement",
+        selector: "Achievement",
+        wrap: true,
+        format: data => data["Achievement"].toLocaleString('en-IN')
+    },
+    {
+        name: "Achievement",
+        selector: "1",
+        wrap: true,
+        format: data => data["1"].toLocaleString('en-IN')
     },
     {
         name: "Achievement",
@@ -27,12 +40,7 @@ const columns = [
         format: data => data["2"].toLocaleString('en-IN')
     },
   
-    {
-        name: "Achievement",
-        selector: "Achievement",
-        wrap: true,
-        format: data => data["Achievement"].toLocaleString('en-IN')
-    },
+    
     {
         name: "Achievement",
         selector: "3",
@@ -45,12 +53,7 @@ const columns = [
         wrap: true,
         format: data => data["4"].toLocaleString('en-IN')
     },
-    {
-        name: "Achievement",
-        selector: "1",
-        wrap: true,
-        format: data => data["1"].toLocaleString('en-IN')
-    },
+    
 ];
 
 const conditionalRowStyles = [
@@ -72,7 +75,7 @@ const Table5 = () => {
         <div className="App" style={{ margin: "40px 0 40px 0" }} >
             <Card>
                 <DataTable
-                    title="Table 1.5: Compliance with provisions of KFRA"
+                    title="Table 1.6: Compliance with provisions of KFRA"
                     columns={columns}
                     data={ctx.tables1.Table5}
                     customStyles={customStyles}

@@ -34,8 +34,8 @@ const Table1 = () => {
     <div className="App" style={{ margin: "40px 0 40px 0" }} >
       <Card>
         <DataTable
-          title="Table 2.1: Changes in key fiscal aggregates during 2021-22
-          compared to 2020-21"
+          title="Table 2.1: Changes in key fiscal aggregates during 2022-23
+          compared to 2021-22"
           columns={columns}
           data={ctx.tables2.Table1}
           defaultSortField="title"

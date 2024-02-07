@@ -9,16 +9,17 @@ import { styles } from "../helpers";
 
 const columns = [
     {
-        name: " ",
+        name: "Liabilities",
         selector: "Liabilities",
         grow: 0,
         wrap: true,
-        width:'35px',
+        width:'150px',
     },
     {
-        name: "",
+        name: "Liabilities",
         selector: "8",
         grow: 0.35,
+        width:'150px',
         wrap: true,
         conditionalCellStyles: [
             {
@@ -34,7 +35,7 @@ const columns = [
         ]
     },
     {
-        name: "",
+        name: "Liabilites",
         selector: "__1",
         grow: 0.2,
         wrap: true,
@@ -52,7 +53,7 @@ const columns = [
         name: "",
         selector: "__3",
         // grow: 0.05,
-        width:'150px',
+        width:'100px',
         wrap: true,
         
     },
@@ -61,13 +62,14 @@ const columns = [
         selector: "Assets",
         grow: 0,
         wrap: true,
-        width:'35px'
+        width:'150px'
     },
     {
-        name: "",
+        name: "Assets",
         selector: "__4",
         grow: 0.35,
         wrap: true,
+        width: '150px',
         conditionalCellStyles: [
             {
                 when: row => row["4"] === 'Total',
@@ -82,14 +84,14 @@ const columns = [
         ]
     },
     {
-        name: "",
+        name: "Assets",
         selector: "__5",
         grow: 0.2,
         wrap: true,
         
     },
     {
-        name: "",
+        name: "Assets",
         selector: "__6",
         grow: 0.2,
         wrap: true,
@@ -97,7 +99,7 @@ const columns = [
     },
   
     {
-        name: "",
+        name: "Assets",
         selector: "__7",
         grow:0.05,
         wrap: true,

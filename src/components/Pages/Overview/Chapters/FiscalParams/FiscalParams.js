@@ -80,8 +80,8 @@ const FiscalParams = () => {
                         <h4>
                         Source: Directorate of Economics and Statistics, GoK, and Finance Accounts 
                         </h4>
-                        <Chart5 />
-                        <Chart6 />
+                        {/* <Chart5 />
+                        <Chart6 /> */}
 
                         <Para>
                             {ctx.chapterOne.Profile.Para51}

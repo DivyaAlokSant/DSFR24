@@ -36,8 +36,7 @@ const AssetsSnapshot = () => {
                             <i>
                                 {ctx.tables1.T3F1}
                                 <br></br>
-                                * Effective Loans and Advances for GoI would be `14,869 crore as the Department of Expenditure, GoI had decided that GST compensation of `12,407 and `18,109 crore given to the state as back-to-back loan during 2020-21 and 2021-22 respectively under Debt Receipt would not be treated as debt of the State for any norms which may be prescribed by the Finance Commission.
-                            </i>
+                                </i>
                         </h4>
                         {["Para45"].map((item, ind) =>
                             <Para key={ind / 10}>

@@ -38,12 +38,6 @@ const Profile = () => {
                             1.2 Profile of the state
                         </Title>
 
-
-                        <Title>
-                            {ctx.chapterOne.Profile.para1}
-                        </Title>
-
-
                         <Para>
                             {ctx.chapterOne.Profile.para2.substring(0, 304)}
 
@@ -167,37 +161,15 @@ const Profile = () => {
                                 
                             </i>
                         </h4>
-                        <Para>
-                            {ctx.chapterOne.Profile.Para11}
-                        </Para>
+                        
                         <Title>
                         Chart 1.2: Sectoral growth in GSDP
                         </Title>
                         <ImageComponent flex="2" aspectRatio = "2" resizeMode = 'contain' src={c3} color ="#ffffff00" />
-                        
-                        <Chart3 />
-
-                        <h4 className='footnote'>
-                            <i>
-                            Source: Directorate of Economics and Statistics, GoK
-                            </i>
-                        </h4>
-                        {["Para12", "Para13", "Para14"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterOne.Profile[item]}
-                            </Para>
-                        )}
-                        <Title>
-                        Chart 1.4: Sectoral contribution to GSDP during 2021-22
-                        </Title>
-                     <ImageComponent flex="2" aspectRatio = "2" resizeMode = 'contain' src={c4} color ="#ffffff00" />
-
-                        <Chart4 />
-                        <h4 className='footnote'>
-                            <i>
-                                Source: Directorate of Economics and Statistics, Government of Karnataka
-                            </i>
-                        </h4> */
+                        <Para>
+                            {ctx.chapterOne.Profile.Para11}
+                        </Para>
+                       
                     </div>
                 </div>
                 : <div>

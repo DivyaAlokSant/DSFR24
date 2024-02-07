@@ -714,121 +714,100 @@
 			  ],
             "Table6": [
                 {
-                    "Sl No": "",
-                    "Fiscal Variables": "",
-                    "Projection as per MTFP": "2019-23",
-                    "Actuals": "(2021-22)",
-                    "Variation": "(in per cent)"
+                  "Sl No": 1,
+                  "Fiscal Variables": "Own Tax Revenue",
+                  "Projection as per MTFP": "1,30,535",
+                  "Actuals": "1,43,702",
+                  "Variation": 10.09
                 },
                 {
-                    "Sl No": "1",
-                    "Fiscal Variables": "Own Tax Revenue",
-                    "Projection as per MTFP": "1,46,600",
-                    "Actuals": "1,20,739",
-                    "Variation": "(-)17.64"
+                  "Sl No": 2,
+                  "Fiscal Variables": "Non-Tax Revenue",
+                  "Projection as per MTFP": "8,589",
+                  "Actuals": "13,914",
+                  "Variation": 62
                 },
                 {
-                    "Sl No": "2",
-                    "Fiscal Variables": "Non-Tax Revenue",
-                    "Projection as per MTFP": "8,078",
-                    "Actuals": "11,777",
-                    "Variation": "45.79"
+                  "Sl No": 3,
+                  "Fiscal Variables": "Share of Central Taxes",
+                  "Projection as per MTFP": "26,719",
+                  "Actuals": "34,596",
+                  "Variation": 29.48
                 },
                 {
-                    "Sl No": "3",
-                    "Fiscal Variables": "Share of Central Taxes",
-                    "Projection as per MTFP": "31,164",
-                    "Actuals": "33,284",
-                    "Variation": "6.8"
+                  "Sl No": 4,
+                  "Fiscal Variables": "Grants-in-aid from GoI",
+                  "Projection as per MTFP": "14,073",
+                  "Actuals": "36,868",
+                  "Variation": 161.98
                 },
                 {
-                    "Sl No": "4",
-                    "Fiscal Variables": "Grants-in-aid from GoI",
-                    "Projection as per MTFP": "15,843",
-                    "Actuals": "29,962",
-                    "Variation": "89.12"
+                  "Sl No": 5,
+                  "Fiscal Variables": "Revenue Receipts (1+2+3+4)",
+                  "Projection as per MTFP": "1,79,916",
+                  "Actuals": "2,29,080",
+                  "Variation": 27.33
                 },
                 {
-                    "Sl No": "5",
-                    "Fiscal Variables": "Revenue Receipts (1+2+3+4)",
-                    "Projection as per MTFP": "2,01,686",
-                    "Actuals": "1,95,762",
-                    "Variation": "(-)2.94"
+                  "Sl No": 6,
+                  "Fiscal Variables": "Revenue Expenditure",
+                  "Projection as per MTFP": "2,08,004",
+                  "Actuals": "2,15,584",
+                  "Variation": 3.64
                 },
                 {
-                    "Sl No": "6",
-                    "Fiscal Variables": "Revenue Expenditure",
-                    "Projection as per MTFP": "2,00,713",
-                    "Actuals": "2,09,428",
-                    "Variation": "4.34"
+                  "Sl No": 7,
+                  "Fiscal Variables": "Total Debt",
+                  "Projection as per MTFP": "5,12,585",
+                  "Actuals": "5,53,363",
+                  "Variation": 7.95
                 },
                 {
-                    "Sl No": "7",
-                    "Fiscal Variables": "Total Debt",
-                    "Projection as per MTFP": "4,27,056",
-                    "Actuals": "4,90,256",
-                    "Variation": "14.80*"
+                  "Sl No": 8,
+                  "Fiscal Variables": "GSDP",
+                  "Projection as per MTFP": "18,85,750",
+                  "Actuals": "21,81,217",
+                  "Variation": 15.67
                 },
                 {
-                    "Sl No": "8",
-                    "Fiscal Variables": "GSDP ",
-                    "Projection as per MTFP": "20,12,532",
-                    "Actuals": "17,21,336",
-                    "Variation": "(-)14.47"
+                  "Sl No": 9,
+                  "Fiscal Variables": "Revenue Deficit",
+                  "Projection as per MTFP": "(-)28,088",
+                  "Actuals": "13,496",
+                  "Variation": 148.04
                 },
                 {
-                    "Sl No": "9",
-                    "Fiscal Variables": "Revenue Deficit ",
-                    "Projection as per MTFP": "973",
-                    "Actuals": "(-)13,666",
-                    "Variation": "(-)1,304.62"
+                  "Sl No": "",
+                  "Fiscal Variables": "(-) / Surplus (+) (5-6)",
+                  "Projection as per MTFP": "",
+                  "Actuals": "",
+                  "Variation": ""
                 },
                 {
-                    "Sl No": "",
-                    "Fiscal Variables": "(-) / Surplus (+) (5-6)",
-                    "Projection as per MTFP": "",
-                    "Actuals": "",
-                    "Variation": ""
+                  "Sl No": 10,
+                  "Fiscal Variables": "Fiscal Deficit (-)/ Surplus (+)",
+                  "Projection as per MTFP": "(-)54,687",
+                  "Actuals": "(-)46,623",
+                  "Variation": "(-)14.74"
                 },
                 {
-                    "Sl No": "10",
-                    "Fiscal Variables": "Fiscal Deficit (-)/ Surplus (+)",
-                    "Projection as per MTFP": "58,363",
-                    "Actuals": "66,036",
-                    "Variation": "13.15"
+                  "Sl No": 11,
+                  "Fiscal Variables": "Debt-GSDP ratio (per cent)",
+                  "Projection as per MTFP": 27.18,
+                  "Actuals": 23.97,
+                  "Variation": 3.21
                 },
                 {
-                    "Sl No": "",
-                    "Fiscal Variables": "",
-                    "Projection as per MTFP": "",
-                    "Actuals": "",
-                    "Variation": ""
-                },
-                {
-                    "Sl No": "11",
-                    "Fiscal Variables": "Debt-GSDP ratio ",
-                    "Projection as per MTFP": "21.22",
-                    "Actuals": "26.71**",
-                    "Variation": "5.49"
-                },
-                {
-                    "Sl No": "",
-                    "Fiscal Variables": "(per cent)",
-                    "Projection as per MTFP": "",
-                    "Actuals": "",
-                    "Variation": ""
-                },
-                {
-                    "Sl No": "12",
-                    "Fiscal Variables": "GSDP growth rate at current prices (per cent)",
-                    "Projection as per MTFP": "11.5",
-                    "Actuals": "(-)0.56",
-                    "Variation": "10.94"
+                  "Sl No": 12,
+                  "Fiscal Variables": "GSDP growth rate at current prices (per cent)",
+                  "Projection as per MTFP": 10.8,
+                  "Actuals": 11.13,
+                  "Variation": 0.33
                 }
-            ],
+              ],
             "T2F1a": "* Effective total debt would be ₹403,519 crore as the Department of Expenditure, GoI had decided that GST compensation of ₹12,407 crore given to the state as back-to-back loan under Debt Receipt would not be treated as debt of the state for any norms which may be prescribed by the Finance Commission and therefore, the effective variation would be 6.59 per cent.",
             "T4H2": "(₹ in crore)",
-            "T2F1": "Source: Finance Accounts, Annual Financial Statement and MTFP 2019-23",
+            "T2F1": "*Source: Finance Accounts, Annual Financial Statement and Overview of Budget 2022-23",
             "T7H2": "(₹ in crore)",
             "T3H2": "(₹ in crore)",
             "T5H1": "Compliance with targets of KFRA",
@@ -838,8 +817,11 @@
             "T1F2b":"$ GSVA figures as per Directorate of Economics and Statistics, Karnataka.",
 			"T1F2c":"@ Per Capita GSDP (2018-19 to 2021-22) as per Economic Survey 2022-23, GoK and the per capita GSDP for the year 2022-23 has been worked out based on the projected population of the state of 6.75crore as per Economic survey of Karnataka 2022-23.",
 			"T1F2d":"a. The per capita GDP for the years 2018-19 to 2021-22 have been worked out taking in the population figures from Economic Survey 2022-23, GoI.",
-			"T2F2": "*Tax Revenue Includes Major Heads 0005 – Central Goods and Service Tax (₹9,158.36 crore), 0006 – State Goods and Service Tax (₹49,929.02 crore) and 0008 – Integrated Goods and Service Tax (Nil). ",
-            "T2F3": "# Includes Interest on Off Budget borrowings.",
+			"T2F2": "Tax Revenue Includes Major Heads 0005 – Central Goods and Service Tax (₹9,786.19 crore), 0006 – State Goods and Service Tax (₹ 61,403.30 crore including advance apportionment of IGST of ₹2,089.65 crore) and 0008 – Integrated Goods and Service Tax (Nil).",
+            "T2F3": "# Includes Interest amounting to ₹1,216.04 crore on Off Budget borrowings.",
+            "T2F4": "^includes compensation of ₹8,976.43 crore for loss of revenue arising out of implementation of GST",
+            "T2F5": "^^ Effective Public Debt Receipts for the year 2021-22 would be ₹62,532 crore , as the Department of Expenditure, GoI had decided that GST compensation of ₹18,109 crore in 2021-22 given to the State as back-to-back loan under Debt Receipts would not be treated as debt of the State for any norms which may be prescribed by the Finance Commission.",
+            
             "Tablee4": [
                 {
                     "Sl": "",
@@ -26594,6 +26576,8 @@
                     "__2": 12.12
                 }
             ],
+            "T1H1": "Table 1.1 Trends in GSDP/GSVA compared to the GDP/GVA (at current prices)",
+            "T1H2": "",
             "Table1": [
 				{
 				  "Year": "INDIA",
@@ -26697,78 +26681,79 @@
             "T4F1": "Source: Finance Accounts",
             "Table5": [
                 {
-                    "1": "2021-22",
-                    "2": "2017-18",
-                    "3": "2019-20",
-                    "4": "2020-21",
-                    "KFRA target": "",
-                    "Fiscal Parameters": "",
-                    "Achievement": "2018-19"
+                  "1": "2019-20",
+                  "2": "2020-21",
+                  "3": "2021-22",
+                  "4": "2022-23",
+                  "Fiscal Parameters": "",
+                  "KFRA target": "",
+                  "Achievement": "2018-19"
                 },
                 {
-                    "1": "(-)13,666",
-                    "2": 4518,
-                    "3": 1185,
-                    "4": "(-)19338",
-                    "Fiscal Parameters": "Revenue Surplus/Deficit  (₹ in crore)",
-                    "KFRA target": "To maintain Revenue Surplus up to 2019-20.",
-                    "Achievement": 679
+                  "1": "1,185",
+                  "2": "(-)19,338",
+                  "3": "(-)13,666",
+                  "4": "13,496",
+                  "Fiscal Parameters": "Revenue Surplus/Deficit",
+                  "KFRA target": "To maintain Revenue Surplus up to 2019-20.",
+                  "Achievement": 679
                 },
                 {
-                    "1": "State saw Revenue Deficit",
-                    "2": "✓",
-                    "3": "✓",
-                    "4": "State saw Revenue Deficit.",
-                    "Achievement": "✓",
-                    "KFRA target": "Revenue Surplus may not be attained during 2020-21 & 2021-22 due to covid 19 and slow recovery of the economy respectively.",
-                    "Fiscal Parameters": ""
+                  "1": "√",
+                  "2": "State saw Revenue Deficit",
+                  "3": "",
+                  "4": "State achieved Revenue Surplus",
+                  "Fiscal Parameters": "(₹ in crore)",
+                  "KFRA target": "Revenue Surplus may not be attained during 2020-21 due to covid 19 & in 2021-22 and 2022-23 Revenue Deficit would arise and slow recovery of the economy.",
+                  "Achievement": "√"
                 },
                 {
-                    "1": 66036,
-                    "2": 31101,
-                    "3": 38166,
-                    "4": 67098,
-                    "KFRA target": "",
-                    "Achievement": 38442,
-                    "Fiscal Parameters": "Fiscal Deficit  (as percentage of GSDP)"
+                  "1": 2.36,
+                  "2": 3.88,
+                  "3": 3.84,
+                  "4": 2.14,
+                  "Fiscal Parameters": "Fiscal Deficit (as percentage of GSDP)",
+                  "KFRA target": "3.00 per cent (upto 2019-20)",
+                  "Achievement": 2.6
                 },
                 {
-                    "1": "(3.84)",
-                    "2": "(2.33)",
-                    "3": "(2.36)",
-                    "4": "(3.88)",
-                    "Fiscal Parameters": "",
-                    "KFRA target": "3.00 per cent (upto 2019-20)",
-                    "Achievement": "(2.60)"
+                  "1": "-38,166",
+                  "2": "-67,098",
+                  "3": "-66,036",
+                  "4": "-46,623",
+                  "Fiscal Parameters": "",
+                  "KFRA target": "",
+                  "Achievement": "-38,442"
+                },
+                
+                {
+                  "1": "√",
+                  "2": "√",
+                  "3": "√",
+                  "4": "√",
+                  "Fiscal Parameters": "",
+                  "KFRA target": "5.00 per cent (2020-21, 4.00 per cent  (2021-22) and 3.5 per cent (2022-23)",
+                  "Achievement": "√"
                 },
                 {
-                    "1": "✓",
-                    "2": "✓",
-                    "3": "✓",
-                    "4": "✓",
-                    "KFRA target": "5.00 per cent (2020-21 and 4.00 per cent  (2021-22)",
-                    "Fiscal Parameters": "",
-                    "Achievement": "✓"
+                  "1": 20.95,
+                  "2": 24.83,
+                  "3": 23.42,
+                  "4": 23.97,
+                  "Fiscal Parameters": "Ratio of total outstanding debt to GSDP",
+                  "KFRA target": "25.00 per cent (up to 2022-23) Debt to GSDP ratio may increase (2021-22 and 2022-23)",
+                  "Achievement": 19.28
                 },
                 {
-                    "1": "26.71*",
-                    "2": 18.47,
-                    "3": 20.89,
-                    "4": "24.03",
-                    "Achievement": 19.32,
-                    "KFRA target": "25.00 per cent (up to 2021-22) Debt to GSDP ratio may increase (2021-22)",
-                    "Fiscal Parameters": "Ratio of total outstanding debt to GSDP"
-                },
-                {
-                    "1": "The Ratio exceeded",
-                    "2": "✓",
-                    "3": "✓",
-                    "4": "✓",
-                    "Achievement": "✓",
-                    "KFRA target": "",
-                    "Fiscal Parameters": "(in per cent)"
+                  "1": "√",
+                  "2": "√",
+                  "3": "√",
+                  "4": "√",
+                  "Fiscal Parameters": "(in per cent)",
+                  "KFRA target": "",
+                  "Achievement": "√"
                 }
-            ],
+              ],
             "T2H2": "(₹ in crore)",
             "T3H1": "Summarised position of Assets and Liabilities",
             "T6H2": "(₹ in crore)",
@@ -27073,19 +27058,7 @@
 				  "__4": "",
 				  "__5": "2021-22",
 				  "__6": "2022-23",
-				  "__7": "Per cent increase/"
-				},
-				{
-				  "Liabilities": "",
-				  "8": "",
-				  "__1": "",
-				  "__2": "",
-				  "__3": "",
-				  "Assets": "",
-				  "__4": "",
-				  "__5": "",
-				  "__6": "",
-				  "__7": "decrease"
+				  "__7": "Per cent increase/decrease"
 				},
 				{
 				  "Liabilities": "Consolidated Fund",
@@ -27244,77 +27217,95 @@
 				  "__7": 14.41
 				}
 			  ],
+            "T3F1": "* Effective Loans and Advances for GoI would be `14,869 crore as the Department of Expenditure, GoI had decided that GST compensation of `12,407 and `18,109 crore given to the state as back-to-back loan during 2020-21 and 2021-22 respectively under Debt Receipt would not be treated as debt of the State for any norms which may be prescribed by the Finance Commission",
             "T4F3": "The ratio of total outstanding Debt to GSDP (22.37 per cent) has been arrived at after excluding GST compensation of ₹12,407 crore given to the state as back-to-back loan under Debt Receipts form the total outstanding liabilities as the Department of Expenditure, GoI had decided that it would not be treated as debt of the state for any norms which may be prescribed by the Finance Commission.",
             "T6F2": "*The back-to-back Loan (₹ 12,407 crore) received from GoI in lieu of GST compensation has not been considered as Debt for working out the indicator.",
             "T5F1": "* The back-to-back Loan (₹ 30,516 crore) received from GoI during 2020-21 and 2021-22 in lieu of GST compensation has not been considered as Debt for working out the indicator.",
             "T1F1": " Source: *All India GDP (2018-19 to 2022-23) figures as per Economic Survey 2022-23, GoK. ",
             "T7H1": "Impact of certain major transactions during 2020-21",
+            "T7F1": "Source: Notes to Accounts 2022-23 and Post audit analysis",
             "Table7": [
-                {
-                    "1": "Under-statement",
-                    "2": "Under-statement",
-                    "Fiscal Deficit": "Over-statement",
-                    "Sl No": "",
-                    "Nature of transaction": "",
-                    "Revenue Deficit": "Over- statement"
-                },
-                {
-                    "1": "187.98",
-                    "2": "",
-                    "Nature of transaction": "Booking of capital expenditure instead of revenue expenditure",
-                    "Revenue Deficit": "-",
-                    "Fiscal Deficit": "",
-                    "Sl No": 1
-                },
-                {
-                    "1": "81.00",
-                    "2": "",
-                    "Sl No": "1a",
-                    "Fiscal Deficit": "",
-                    "Revenue Deficit": "-",
-                    "Nature of transaction": "Booking of capital expenditure instead of revenue expenditure (Grants in Aid)"
-                },
-                {
-                    "1": "",
-                    "2": "",
-                    "Fiscal Deficit": "",
-                    "Revenue Deficit": "47.57",
-                    "Sl No": 2,
-                    "Nature of transaction": "Booking of Revenue expenditure instead of Capital expenditure"
-                },
-                {
-                    "1": 13.84,
-                    "2": 13.84,
-                    "Nature of transaction": "Non-transfer of receipts under Green Tax Cess to Reserve Fund",
-                    "Revenue Deficit": "-",
-                    "Sl No": 3,
-                    "Fiscal Deficit": ""
-                },
-                {
-                    "1": 91.31,
-                    "2": 91.31,
-                    "Nature of transaction": "Non-transfer of receipts under Road Safety Cess",
-                    "Revenue Deficit": "",
-                    "Fiscal Deficit": "",
-                    "Sl No": 4
-                },
-                {
-                    "1": "",
-                    "2": "",
-                    "Fiscal Deficit": "",
-                    "Revenue Deficit": "5.02",
-                    "Sl No": 5,
-                    "Nature of transaction": "Interest Adjustment"
-                },
-                {
-                    "1": 374.13,
-                    "2": 105.15,
-                    "Revenue Deficit": "52.59",
-                    "Sl No": "Total",
-                    "Nature of transaction": "",
-                    "Fiscal Deficit": ""
-                }
-            ]
+  {
+    "1": "Under-statement",
+    "2": "Under-statement",
+    "Sl No": "",
+    "Nature of transaction": "",
+    "Revenue Surplus": "Over- statement",
+    "Fiscal Deficit": "Over-statement"
+  },
+  {
+    "1": "",
+    "2": "",
+    "Sl No": 1,
+    "Nature of transaction": "Booking of capital expenditure instead of revenue expenditure",
+    "Revenue Surplus": 1.1,
+    "Fiscal Deficit": ""
+  },
+  {
+    "1": "",
+    "2": "",
+    "Sl No": "1a",
+    "Nature of transaction": "Booking of capital expenditure instead of revenue expenditure (Grants in Aid)",
+    "Revenue Surplus": 50,
+    "Fiscal Deficit": ""
+  },
+  {
+    "1": 0.75,
+    "2": "",
+    "Sl No": 2,
+    "Nature of transaction": "Booking of Revenue expenditure instead of Capital expenditure",
+    "Revenue Surplus": "",
+    "Fiscal Deficit": ""
+  },
+  {
+    "1": "",
+    "2": 14.94,
+    "Sl No": 3,
+    "Nature of transaction": "Non-transfer of receipts under Green Tax Cess to Reserve Fund",
+    "Revenue Surplus": 14.94,
+    "Fiscal Deficit": ""
+  },
+  {
+    "1": 22.83,
+    "2": "",
+    "Sl No": 4,
+    "Nature of transaction": "Non-transfer of expenditure under Green Tax Cess to Reserve Fund",
+    "Revenue Surplus": "",
+    "Fiscal Deficit": 22.83
+  },
+  {
+    "1": "",
+    "2": 70.09,
+    "Sl No": 4,
+    "Nature of transaction": "Non-transfer of receipts under Road Safety Cess",
+    "Revenue Surplus": 70.09,
+    "Fiscal Deficit": ""
+  },
+  {
+    "1": "",
+    "2": 84.66,
+    "Sl No": 5,
+    "Nature of transaction": "Non payment of Interest in respect of Karnataka Group Insurance Department (KGID)",
+    "Revenue Surplus": 84.66,
+    "Fiscal Deficit": ""
+  },
+  {
+    "1": "",
+    "2": 17.94,
+    "Sl No": 6,
+    "Nature of transaction": "Non payment of interest in respect of State Disaster Response Fund/ State Disaster Mitigation Fund",
+    "Revenue Surplus": 17.94,
+    "Fiscal Deficit": ""
+  },
+  {
+    "1": 23.58,
+    "2": 187.63,
+    "Sl No": "Total",
+    "Nature of transaction": "",
+    "Revenue Surplus": 238.73,
+    "Fiscal Deficit": 22.83
+  }
+]
         },
         "Charts": {
             "C6H2": "(₹ in crore)",
@@ -27496,36 +27487,7 @@
             "C1F1": "Source: Directorate of Economics and Statistics, Government of Karnataka Sectoral contribution to GSDP"
         },
         "Profile": {
-            "para1a": "The  development indicators relating to the major infrastructures are as follows:",
-            "para1b": "(i) Surfaced roads per 100 sq. km (2021-2022) is 46.97 km.",
-            "para1c": "(ii) Unsurfaced roads per 100 sq. km (2021-22) is 0.65 km.",
-            "para1d": "(iii) Percentage of households with electricity (2021-22) is 99.10.",
-            "para1e": "(iv) Grossed cropped area (2021-22) is 138.31 hectares",
-            "para1f": "(v) Number of Primary schools (2021-22) is 65,029.",
-            "para1g": "(vi) Number of Primary health centers is 2,359.",
-            "para1h": "1. Road Statistics 2021-22, Public Works Department (GOK).",
-            "para1i": "2. Road Statistics 2021-22, Public Works Department (GOK).",
-            "para1j": "3. Economic Survey, Government of Karnataka 2021-22,  Table 1.21",
-            "para1k": "4. Economic Survey, Government of Karnataka 2021-22, Page 189, Para 7.5.1.",
-            "para1l": "5. Economic Survey, Government of Karnataka 2021-22, Page 401, Table 12.8.",
-            "para1m": "6. Economic Survey, Government of Karnataka 2021-22, Page 389",
-            "para1n": "Note: All India average of General Category States has been calculated on the basis of figures provided by 16 General Category States such as Andhra Pradesh including Telangana, Bihar, Chhattisgarh, Gujarat, Haryana, Jharkhand, Karnataka, Kerala, Madhya Pradesh, Maharashtra, Odisha, Punjab, Rajasthan, Tamilnadu, Uttar Pradesh and West Bengal.",
-            "para1ak": "ಪ್ರಮುಖ ಮೂಲಭೂತ ಸೌಕರ್ಯಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಅಭಿವೃದ್ಧಿ ಸೂಚಕಗಳು",
-            "para1bk": "(i) ನಯಮೇಲ್ಮೈ ರಸ್ತೆಗಳು (2021-22) - 100 ಚ.ಕೀ.ಮೀ 46.97 ಕಿ.ಮೀ.",
-            "para1ck": "(ii) ಒರಟುಮೇಲ್ಮೈ ರಸ್ತೆಗಳು (2021-22) - 100 ಚ.ಕೀ.ಮೀ 0.65 ಕಿ.ಮೀ.",
-            "para1dk": "(iii) ವಿದ್ಯುದೀಕರಣವಾದ ಹಳ್ಳಿಗಳು ಶೇಕಡ (2021-22) – 99.10.  ",
-            "para1ek": "(iv) ಒಟ್ಟಾರೆ ಕೃಷಿ ಪ್ರದೇಶ (2021-22) –138.31 ಹೆಕ್ಟೇರುಗಳು",
-            "para1fk": "(v) ಪ್ರಾಥಮಿಕ ಶಾಲೆಗಳು (2021-22ರಲ್ಲಿದ್ಧಂತೆ) –65,029.",
-            "para1gk": "(vi) ಪ್ರಾಥಮಿಕ ಆರೋಗ್ಯ ಕೇಂದ್ರಗಳ ಸಂಖ್ಯೆ - 2,359.",
-            "para1hk": "1. ಆರ್ಥಿಕ ಸಮೀಕ್ಷೆ, ಕರ್ನಾಟಕ ಸರ್ಕಾರ 2021-22",
-            "para1ik": "2. ಆರ್ಥಿಕ ಸಮೀಕ್ಷೆ, (ಭಾರತ ಸರ್ಕಾರ) 2021-22, ಸಂಪುಟ II ಪುಟ ಎ 168-169, ಕೋಷ್ಟಕ 9.8.",
-            "para1jk": "3. ಆರ್ಥಿಕ ಸಮೀಕ್ಷೆ, (ಭಾರತ ಸರ್ಕಾರ) 2021-22, ಸಂಪುಟ II ಪುಟ ಎ 164, ಕೋಷ್ಟಕ 9.4.",
-            "para1kk": "4. ಆರ್ಥಿಕ ಸಮೀಕ್ಷೆ, (ಭಾರತ ಸರ್ಕಾರ) 2021-22, ಸಂಪುಟ II ಪುಟ ಎ 160, ಕೋಷ್ಟಕ 9.1.",
-            "para1lk": "5. ಆರ್ಥಿಕ ಸಮೀಕ್ಷೆ, (ಭಾರತ ಸರ್ಕಾರ) 2021-22ಪುಟ 514, ಕೋಷ್ಟಕ 12.104.",
-            "para1mk": "6. ಆರ್ಥಿಕ ಸಮೀಕ್ಷೆ (ಕರ್ನಾಟಕ ಸರ್ಕಾರ) 2021-22",
-            "para1nk": "7. ಭಾರತ ಜನಗಣತಿ ೨೦೦೧ (ಜನಸಂಖ್ಯಾ ಪ್ರಕ್ಷೇಪಣೆ ೨೦೦೧-೨೦೨೬, ಕೋಷ್ಟಕ ೧೪, ಪುಟ ೧೦೪ ರಿಂದ ೧೧೫)",
-            "para1ok": "ಟಿಪ್ಪಣಿ: ಸಾಮಾನ್ಯ ವರ್ಗ ರಾಜ್ಯಗಳ ಅಖಿಲ ಭಾರತ ಸರಾಸರಿಯನ್ನು ೧೬ ಸಾಮಾನ್ಯವರ್ಗದ ರಾಜ್ಯಗಳು ಒದಗಿಸಿದ ಅಂಕಿಸಂಖ್ಯೆಗಳ ಆಧಾರದ ಮೇರೆಗೆ ಲೆಕ್ಕ ಹಾಕಲಾಗಿದೆ – ತೆಲಂಗಾಣ ಸೇರಿದಂತೆ ಆಂಧ್ರಪ್ರದೇಶ, ಬಿಹಾರ, ಛತ್ತೀಸಗಡ, ಗುಜರಾತ್‌, ಹರಿಯಾಣ, ಜಾರ್ಖಂಡ್‌, ಕರ್ನಾಟಕ, ಕೇರಳ, ಮಧ್ಯಪ್ರದೇಶ, ಮಹಾರಾಷ್ಟ್ರ, ಒಡಿಶಾ, ಪಂಜಾಬ್‌, ರಾಜಾಸ್ಥಾನ, ತಮಿಳುನಾಡು, ಉತ್ತರಪ್ರದೇಶ ಹಾಗೂ ಪಶ್ಚಿಮ ಬಂಗಾಳ.",
-            "para1": "Social Indicators",
+            "para1": "",
             "Para10": "The trend in Sectorial growth in GSDP for the period 2018-19 to 2022-23 is indicated in Chart 1.2. From the Chart, it can be seen that the growth rate in Agricultural sector which was on an increasing trend since 2018-19 decreased in 2021-22. During 2022-23, it further decreased by almost 50 per cent when compared to the previous year. Meanwhile the growth rate under Industry and Service sectors which were in decreasing trend had decreased drastically and both showed a negative growth rate during 2020-21. It rebounded back in 2021-22.",
             "Para11": "The significant growth seen in Industries and Services sector during 2021-22 which was attributed to recovery of economic activity post Covid-19 pandemic, as per the advance estimate, further saw a steep decline during 2022-23. The reasons for the decline in the Agricultural, Industries and Service sectors were mainly attributed to Crop sub-sector, Fishing and Forestry & Logging, Mining and Quarry and Restaurant and Air Transport sub-sectors respectively.",
             "Para12": "The decline in growth rate in Agriculture Sector was mainly due to decline in the growth rate in Livestock, Forestry & Logging and also lower rate in crop                      sector due to failure of food grain production caused by the floods in Karnataka.  The increase in the growth rate in Construction and Air Transport sectors contributed to the overall increase in the Industrial and Service sectors respectively when compared to previous year (2020-21). The sectoral contribution to GSDP of the State during 2021-22 is given in Chart 1.4.",
@@ -28670,7 +28632,7 @@
         "Para17": "State’s performance in mobilization of additional resources should be assessed in terms of its own resources comprising revenue from its own-Tax and non-Tax sources.",
         "Para18": "Gross collections in respect of major Tax and non-Tax revenue and their relative share in GSDP during 2017-22 are given in Appendix 2.2.",
         "Para19": "a) Own Tax Revenue",
-        "Para2": "Table 2.1 presents a bird’s eye view of the major changes in key fiscal aggregates of the State during 2021-22, vis-à-vis the previous year (2020-21).  Details are given in Appendix 2.1. The details of receipts and disbursement for 2021-22 as well as the overall fiscal position during preceding four years are shown in Appendix 2.2.",
+        "Para2": "Table 2.1 presents a bird’s eye view of the major changes in key fiscal aggregates of the State during 2022-23, vis-à-vis the previous year (2021-22). Details are given in Appendix 2.1. The details of receipts and disbursement for 2022-23 as well as the overall fiscal position during preceding four years are shown in Appendix 2.2.",
         "Para21": "Trends of own-Tax Revenue of the State during the five-year period 2017-18 to 2021-22 are given in Chart 2.6.",
         "Para22": "Own-Tax Revenue of the State increased by ₹33,609 crore from ₹87,130 crore in 2017-18 to ₹1,20,739 crore in 2021-22. The growth rate of own-Tax Revenue which was negative during 2020-21 due to COVID 19 Pandemic imposed lockdown, increased during 2021-22. This resulted in a positive growth rate of own-Tax Revenue. During the current year, the major contributors of Tax Revenue were Goods and Service Tax (41 per cent), State Excise (22 per cent), Taxes on Sales, Trade etc., (16 per cent) and Stamps and Registration Fees (12 per cent).",
         "Para23": "The Fiscal Management Review Committee (FMRC) (February 2022) constituted under the Chairmanship of Chief Secretary while reviewing the fiscal position of the State, acknowledged the improvement in GST collection of the State in 2021-22. It further noticed that the GST collections has shown huge increase since the enactment of the Act. The Committee advised to adopt the IT Services and to undertake necessary Tax reforms in other Tax Departments to further mobilize the Tax revenues.",
@@ -31905,90 +31867,98 @@
             "T19H1": "Financial Assistance to Local Bodies",
             "Table1": [
                 {
-                    "Type": "Revenue Receipts",
-                    "Increase": "Revenue Receipts of the State increased by 24.92 per cent"
+                  "Type": "Revenue Receipts",
+                  "Increase": "ü  Revenue Receipts of the State increased by 17.02 per cent."
                 },
                 {
-                    "Increase": "Own-Tax Receipts of the State increased by 24.41 per cent.",
-                    "Type": ""
+                  "Type": "",
+                  "Increase": "ü  Own-Tax Receipts of the State increased by 19.02 per cent."
                 },
                 {
-                    "Increase": "Own non-Tax Receipts increased by 49.19 per cent.",
-                    "Type": ""
+                  "Type": "",
+                  "Increase": "ü  Own non-Tax Receipts increased by 18.15 per cent."
                 },
                 {
-                    "Type": "",
-                    "Increase": "State’s share of Union Taxes and Duties increased by 53.42 per cent."
+                  "Type": "",
+                  "Increase": "ü  State’s share of Union Taxes and Duties increased by 3.94 per cent."
                 },
                 {
-                    "Increase": "Grants-in-Aid from GoI decreased marginally by 0.38 per cent.",
-                    "Type": ""
+                  "Type": "",
+                  "Increase": "ü  Grants-in-Aid from GoI increased by 23.05 per cent."
                 },
                 {
-                    "Type": "Revenue Expenditure",
-                    "Increase": "Revenue Expenditure increased by 18.96 per cent."
+                  "Type": "Revenue Expenditure",
+                  "Increase": "ü  Revenue Expenditure increased by 2.94 per cent."
                 },
                 {
-                    "Type": "",
-                    "Increase": "Revenue Expenditure on General Services increased by 13.91 per cent."
+                  "Type": "",
+                  "Increase": "ü  Revenue Expenditure on General Services increased by 14.60 per cent."
                 },
                 {
-                    "Increase": "Revenue Expenditure on Social Services increased by 29.29 per cent.",
-                    "Type": ""
+                  "Type": "",
+                  "Increase": "ü  Revenue Expenditure on Social Services increased by 1.51 per cent."
                 },
                 {
-                    "Type": "",
-                    "Increase": "Revenue Expenditure on Economic Services increased by 12.51 per cent."
+                  "Type": "",
+                  "Increase": "ü  Revenue Expenditure on Economic Services decreased by 5.38 per cent."
                 },
                 {
-                    "Type": "",
-                    "Increase": "Expenditure on Grants-in-aid increased by 16.46 per cent."
+                  "Type": "",
+                  "Increase": "ü  Expenditure on Grants-in-aid decreased by 14.42 per cent."
                 },
                 {
-                    "Type": "Capital Expenditure",
-                    "Increase": "Capital Expenditure increased by 5.44 per cent."
+                  "Type": "Capital Receipts",
+                  "Increase": "ü  Debt Capital Receipts decreased 44.76 per cent."
                 },
                 {
-                    "Type": "",
-                    "Increase": "Capital Expenditure on General Services decreased by 22.06 per cent."
+                  "Type": "",
+                  "Increase": "ü  Non-debt Capital Receipts increased 261 per cent."
                 },
                 {
-                    "Type": "",
-                    "Increase": "Capital Expenditure on Social Services increased by 14.56 per cent."
+                  "Type": "Capital Expenditure",
+                  "Increase": "ü  Capital Expenditure increased by 19.79 per cent."
                 },
                 {
-                    "Increase": "Capital Expenditure on Economic Services increased by 3.22 per cent.",
-                    "Type": ""
+                  "Type": "",
+                  "Increase": "ü  Capital Expenditure on General Services increased by 75.74 per cent."
                 },
                 {
-                    "Increase": "Recoveries of Loans and Advances decreased by 52.96 per cent.",
-                    "Type": "Loans and Advances"
+                  "Type": "",
+                  "Increase": "ü  Capital Expenditure on Social Services decreased by 5.68 per cent."
                 },
                 {
-                    "Type": "",
-                    "Increase": "Disbursement of Loans and Advances increased by 57.70 per cent."
+                  "Type": "",
+                  "Increase": "ü  Capital Expenditure on Economic Services increased by 28.23 per cent."
                 },
                 {
-                    "Increase": "Public Debt Receipts decreased by 4.60 per cent.",
-                    "Type": "Public Debt"
+                  "Type": "Loans and Advances",
+                  "Increase": "ü  Recoveries of Loans and Advances increased by 276.38 per cent."
                 },
                 {
-                    "Type": "",
-                    "Increase": "Repayment of Public Debt increased by 26.83 per cent."
+                  "Type": "",
+                  "Increase": "ü  Disbursement of Loans and Advances decreased by 22.78 per cent."
                 },
                 {
-                    "Type": "Public Account",
-                    "Increase": "Public Account Receipts increased by 20.50 per cent."
+                  "Type": "Public Debt",
+                  "Increase": "ü  Public Debt Receipts decreased by 44.76 per cent."
                 },
                 {
-                    "Type": "",
-                    "Increase": "Disbursement of Public Account increased by 17.62 per cent."
+                  "Type": "",
+                  "Increase": "ü  Repayment of Public Debt increased by 14.10 per cent."
                 },
                 {
-                    "Type": "Cash Balance",
-                    "Increase": "Cash Balance (including investment of Earmarked funds and deposits with RBI) increased by ₹16,6269.18 crore (34.51 per cent)"
+                  "Type": "Public Account",
+                  "Increase": "ü  Public Account Receipts increased by 12.16 per cent."
+                },
+                {
+                  "Type": "",
+                  "Increase": "ü  Disbursement of Public Account increased by 5.40 per cent."
+                },
+                {
+                  "Type": "Cash Balance",
+                  "Increase": "ü  Cash Balance (including investment of Earmarked funds and deposits with RBI) increased by ₹20,217 crore (31.8 per cent)."
                 }
-            ],
+              ],
             "T3H2": "(₹ in crore)",
             "Table11": [
                 {
@@ -45951,10 +45921,20 @@
         "para54": "The Return on Capital, which measures a company’s profitability and the efficiency with which its capital is employed decreased from 3.61 per cent in 2019-20 to 1.18 per cent during 2021-22. In 2022-23, it once again increased to 4.71 per cent.",
         "para55": "As on 31 March 2023, 60 SPSEs had accumulated losses. Out of this, the net worth of 40 SPSEs had been completely eroded by accumulated losses and their net worth was either zero or in negative.",
         "para56": "SPSEs were not adhering to the prescribed timeline regarding submission of their Financial Statement as per the Companies Act, 2013. As a result, 233 accounts of 96 Government companies were in arrears. Also, accounts of 2022-23 in respect of all six statutory corporations were in arrears.",
-        "para57": "",
-        "para58": "",
-        "para59": "",
-        
+        "para57": "Recommendations:",
+        "para58": "Delay in submission of accounts would attract levy of fines and/or imprisonment as per the provisions of section 129(7) of the Companies Act, 2013. Hence, the Government must fix responsibility on the concerned Chief Executive Officers/Chief Managing Directors for such delays.",
+        "para59": "The State Government must reiterate its directives for dividend payout to all profit earning SPSEs to ensure its compliance and improve its Return on Equity (RoE).",
+        "para60": "The non-working SPSEs are neither contributing to the State economy nor meeting the intended objectives. Hence, the State Government must expedite the liquidation process in respect of all non-working SPSEs.",
+        "para61": "",
+        "para62": "",
+        "para63": "",
+        "para64": "",
+        "para65": "",
+        "para66": "",
+        "para67": "",
+        "para68": "",
+        "para69": "",
+
         "para2": "The Government of Karnataka prioritised fiscal reforms and consolidation by enacting the first Medium Term Fiscal Plan (MTFP) for the period 2000-05, based on the parameters of fiscal correction laid down by the Eleventh Finance Commission (EFC).  MTFP became a rolling annual document and the fiscal targets and policies set out in MTFP were dovetailed with the annual budgetary exercise.  Karnataka was the first State to enact (September 2002) the Karnataka Fiscal Responsibility Act (KFRA), providing statutory backing to MTFP.  The KFRA aims at ensuring fiscal stability and sustainability, enhancing the scope for improving social and physical infrastructure and human development by achieving revenue surplus, reducing fiscal deficit, removing impediments for effective conduct of fiscal policy and prudent debt management through limits on borrowings, debt and deficits and greater transparency in fiscal operations by the use of medium-term fiscal framework.",
         "para3": "The Report",
         "para5": "Chapter 1 - Overview: ",

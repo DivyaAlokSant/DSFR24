@@ -135,6 +135,16 @@ const Overview = () => {
                                 {ctx.execsummary[item]}
                             </Para>
                         )}
+                        <Subtitle><i>{ctx.execsummary.para57}</i></Subtitle>
+                        {['para58','para59','para60'].map((item, ind) =>
+                            <Para key={ind / 10}>
+                            <li>
+                                <i> 
+                                {ctx.execsummary[item]}
+                                </i>
+                            </li>
+                            </Para>
+                        )}
 
 
                     </div>
