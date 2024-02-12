@@ -25,6 +25,12 @@ import Table9 from '../../../Tables/Chapter2/Table9'
 import Table10 from '../../../Tables/Chapter2/Table10'
 import Table11 from '../../../Tables/Chapter2/Table11'
 import Table12 from '../../../Tables/Chapter2/Table12'
+import Table13 from '../../../Tables/Chapter2/Table13'
+import Table14 from '../../../Tables/Chapter2/Table14'
+import Table15 from '../../../Tables/Chapter2/Table15'
+import Table16 from '../../../Tables/Chapter2/Table16'
+import Table17 from '../../../Tables/Chapter2/Table17'
+
 import {
 
     Chart2 as Chrt2, Chart3 as Chrt3, Chart4 as Chrt4,
@@ -32,6 +38,7 @@ import {
 import Table5 from '../../../Tables/Chapter2/Table5'
 import Table6 from '../../../Tables/Chapter2/Table6'
 import Table7 from '../../../Tables/Chapter2/Table7'
+import Table8 from '../../../Tables/Chapter2/Table8'
 import Subtitle from '../../../../Subtitle/Subtitle'
 
 import { getFirebase } from '../../../../../firebase/firebase'
@@ -44,6 +51,7 @@ import Table9kan from '../../../Tables/Chapter2kan/Table9'
 import Table10kan from '../../../Tables/Chapter2kan/Table10'
 import Table11kan from '../../../Tables/Chapter2kan/Table11'
 import Table12kan from '../../../Tables/Chapter2kan/Table12'
+import Table4 from '../../../Tables/Chapter2/Table4'
 const Resources = () => {
 
     const ctx = useContext(MyContext)
@@ -98,20 +106,12 @@ const Resources = () => {
                         <ImageComponent src={c23} alt="chart23" aspectRatio={1 / 0.8} />
                         <h3>
                             <i>
-                            * Effective Debt Receipts would be ₹62,532 crore as the Department of Expenditure, GoI had decided that GST compensation of ₹18,109 crore given to the state as back-to-back loan under Debt Receipts would not be treated as debt of the State for any norms which may be prescribed by the Finance Commission and thus, the effective Capital Receipts stand at ₹62,665 crore and effective Total Receipts stand at ₹2,73,644 crore.               
+                            Source: Finance Accounts
                             </i>
                         </h3>
-                        {["Para10a"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterTwo.Profile[item]}
-                            </Para>)}
+                      
 
-                        <Para>
-                            {ctx.chapterTwo.Para9a}
-                        </Para>
-                        <Para>
-                            {ctx.chapterTwo.Para9b}
-                        </Para>
+                        
                         <Subtitle>
                             {ctx.chapterTwo.Para10}
                         </Subtitle>
@@ -146,7 +146,7 @@ const Resources = () => {
                         <Para>
                             {ctx.chapterTwo.Para11}
                         </Para>
-                        {["Para12", "Para13", "Para14", "Para15"].map((item, ind) =>
+                        {["Para12", "Para13", "Para14", "Para15", "Para15a", "Para15b"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 <li>
                                     {ctx.chapterTwo[item]}
@@ -174,10 +174,13 @@ const Resources = () => {
                         </h4> */}
                         <ImageComponent src={c26} alt="chart23" aspectRatio={1 / 0.5} />
                         <Para>
-                        The component wise details of State’s own-Tax Revenue collected during 2017-18 to 2021-22 are given in Table 2.4.
+                        {ctx.chapterTwo.Para21a}
                         </Para>
                         <ImageComponent src={t24} alt="table24" aspectRatio={1 / 0.6} />
-                        {["Para22", "Para23"].map((item, ind) =>
+                        
+                        <Table4 />
+                        
+                        {["Para22"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)}
@@ -196,10 +199,7 @@ const Resources = () => {
                                 Source: Finance Accounts
                             </i>
                         </h4>
-                        {["Para26"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterTwo[item]}
-                            </Para>)}
+                      
 
                         <Para>
                             {ctx.chapterTwo.Para27.substring(0, 356)}
@@ -207,7 +207,7 @@ const Resources = () => {
                             <span className="tooltip">
                                 {ctx.chapterTwo.Para27.substring(356, 358)}
                                 <span className="tooltiptext">
-                                    Under Major Heads 0005 – CGST (₹6,236.01 crore), 0006 – SGST (₹37,711.18 crore) and 0008 – IGST (Nil).
+                                Under Major Heads 0005 – CGST (₹9,786.19 crore), 0006 – SGST (₹61,403.30 crore) and 0008 – IGST (Nil).
                                 </span>
                                 <sup>7</sup>
                             </span>
@@ -219,192 +219,264 @@ const Resources = () => {
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)}
+                            
+                        {["Para28a","Para28b","Para28c"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                            <li> 
+                                {ctx.chapterTwo[item]}
+                            </li>
+                            </Para>)}
+                        <Para>
+                            {ctx.chapterTwo.Para28d}
+                        </Para>    
+                        
                         <Subtitle>
                             {ctx.chapterTwo["Para29"]}
                         </Subtitle>
-                        {["Para30", "Para31", "Para31a", "Para32"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterTwo[item]}
-                            </Para>)}
-                        <ImageComponent src={t26} alt="chart23" aspectRatio={1 / 0.6} />
                         <Para>
-                            {ctx.chapterTwo.Para33}
+                            {ctx.chapterTwo.Para30}
                         </Para>
                         <Subtitle>
-                            {ctx.chapterTwo["Para34"]}
+                            {ctx.chapterTwo["Para31"]}
                         </Subtitle>
-                        {["Para35"].map((item, ind) =>
+                        <Para>
+                            {ctx.chapterTwo.Para32}
+                        </Para>
+                        <Table6 />
+                        <Subtitle>
+                            {ctx.chapterTwo.Para33}
+                        </Subtitle>
+                        <Para>
+                            {ctx.chapterTwo.Para34}
+                        </Para>
+                        <Para>
+                            {ctx.chapterTwo.Para35}
+                        </Para>
+
+                        <Table7 />
+                        <h4 className='footnote'>
+                            <i>
+                            Source: Departmental information
+                            </i>
+                        </h4>
+
+                        <Subtitle>
+                            {ctx.chapterTwo["Para36"]}
+                        </Subtitle>
+                        {["Para37", "Para37a"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)}
+                        <Table8 />  
+                        <h4 className='footnote'>
+                            <i>
+                            Source: Departmental information
+                            </i>
+                        </h4> 
+                         
+                        <Para>
+                            {ctx.chapterTwo.Para38}
+                        </Para>
+                        <Subtitle>
+                            {ctx.chapterTwo["Para39"]}
+                        </Subtitle>
+                        {["Para40", "Para41", "Para42"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapterTwo[item]}
+                            </Para>)}
+                        {["Para43", "Para44"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                <li>
+                                {ctx.chapterTwo[item]}
+                                </li>
+                            </Para>)}
+
+                        <Para>
+                            {ctx.chapterTwo["Para45"]}
+                        </Para>
                         <div style={{
                             backgroundColor: "#ac8",
                             fontSize: "18px",
                             padding:"5px 5px 5px 20px",
-                            borderRadius:"5px"
-                        }}>
-                            <p>
-                                {ctx.chapterTwo["Para36"]}
-                            </p>
+                            borderRadius:"5px",
+                            textAlign: 'center'
+                            }}>
+                            <Subtitle>
+                            {ctx.chapterTwo["Para46"]}
+                            </Subtitle>    
+                            <Subtitle>
+                            {ctx.chapterTwo["Para47"]}
+                            </Subtitle>
+                            {["Para48", "Para49"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapterTwo[item]}
+                            </Para>)}
                         </div>
-                        <Table6/>
+                        <Table9 /> 
                         <Para>
-                            {ctx.chapterTwo.Para37.substring(0, 410)}
-
-                            <span className="tooltip">
-                                {ctx.chapterTwo.Para37.substring(411, 412)}
-                                <span className="tooltiptext">
-                                •	  Grey Grantie: 867 Metric Ton(MT) * `350 PMT= 	₹3,03,450
-                                •	Building Stone:187334 MT *  `60 PMT=		₹ 1,12,40,040
-                                •	Ordinary sand: 4573 MT*  `60 PMT=		₹2,74,380 
-                                    Total						₹1,18,17,870
-                                </span>
-                             <sup>8</sup>
-                            </span>
-
-                            {ctx.chapterTwo.Para37.substring(411,)}
+                            {ctx.chapterTwo["Para50"]}
                         </Para>
-                        {["Para37a"].map((item, ind) =>
+
+                        {["Para51", "Para52"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
-                            </Para>)}
+                            </Para>)}    
+
+                        
+                        {["Para53", "Para54"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapterTwo[item]}
+                            </Para>)}     
+
                         <Subtitle>
-                            {ctx.chapterTwo["Para38"]}
+                            {ctx.chapterTwo.Para55}
                         </Subtitle>
                         <Para>
-                            {ctx.chapterTwo["Para39"]}
-                        </Para>
-                        <h3 className='headnote'>
-                            ₹ In crore
-                        </h3>
-                        <Table7 />
-                        <h4 className='footnote'>
-                            <i>
-                                Source: Finance Accounts
-                            </i>
-                        </h4>
-                        <Para>
-                            {ctx.chapterTwo.Para40.substring(0, 270)}
+                            {ctx.chapterTwo.Para56}
+                        </Para>     
 
-                            <span className="tooltip">
-                                {ctx.chapterTwo.Para40.substring(270, 280)}
-                                <span className="tooltiptext">
-                                    Out of the total devolution of ₹21,694.11 crore, the share of Corporation Tax 3.70 per cent, Customs Duty 3.52 per cent, Union Excise Duties 3.58 per cent, Income tax 3.71 per cent, Service Tax 4.54 per cent, CGST was 3.53 per cent and Other Taxes and Duties was at 4.80 per cent.                                
-                                    </span>
-                                <sup>9</sup>
-                            </span>
-
-                            {ctx.chapterTwo.Para40.substring(280,)}
-                        </Para>
+                        <Table10 />     
+                        
                         <Subtitle>
-                            {ctx.chapterTwo["Para42"]}
+                            {ctx.chapterTwo.Para57}
                         </Subtitle>
                         <Para>
-                            {ctx.chapterTwo["Para43"]}
-                        </Para>
-                        <h3 className='headnote'>
-                            ₹ In crore
-                        </h3>
-                        <Table9 />
-                        <h4 className='footnote'>
-                            
-                                Source: Finance Accounts
-                                <br></br>
-                                [10]It includes Grants towards contribution to National Disaster Response Fund and Compensation for loss of revenue arising out of implementation of GST.
-                            
-                        </h4>
-                        {["Para44", "Para45", "Para46", "Para47", "Para48", "Para49", "Para50", "Para51", "Para52"].map((item, ind) =>
+                            {ctx.chapterTwo.Para58}
+                        </Para>   
+
+                        <Table11 />    
+
+                        {["Para59", "Para60"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
-                            </Para>)}
+                            </Para>)}  
                         <Subtitle>
-                            {ctx.chapterTwo["Para53"]}
-                        </Subtitle>    
-                        <Para>
-                            {ctx.chapterTwo["Para53a"]}
-                        </Para>
-                        <Subtitle>
-                            {ctx.chapterTwo["Para54a"]}
-                        </Subtitle>    
-                        <Para>
-                            {ctx.chapterTwo["Para54"]}
-                        </Para>
-                        <h3 className='headnote'>
-                            ₹ In crore
-                        </h3>
-                        <Table10 />
-                        <h4 className='footnote'>
                             <i>
-                                Source: XV FC Report and Finance Accounts
+                            {ctx.chapterTwo.Para61}
                             </i>
-                        </h4>
+                        </Subtitle>
+                        <Para>
+                            {ctx.chapterTwo.Para62}
+                        </Para>     
 
-
-                        {["Para55", "Para56"].map((item, ind) =>
+                        <Subtitle>
+                            {ctx.chapterTwo.Para63}
+                        </Subtitle>
+                        {["Para64", "Para65"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
-                            </Para>)}
-                        <Subtitle>
-                            {ctx.chapterTwo["Para57"]}
-                        </Subtitle>    
+                            </Para>)} 
+
+                        <Table12/>    
+
                         <Para>
-                            {ctx.chapterTwo["Para58"]}
+                            {ctx.chapterTwo.Para66}
+                        </Para>
+
+                        <Table13/>  
+
+                        <Para>
+                            {ctx.chapterTwo.Para67}
+                        </Para>   
+
+                        <Subtitle>
+                            {ctx.chapterTwo.Para68}
+                        </Subtitle>
+                          
+                        <Para>
+                            {ctx.chapterTwo.Para69}
+                        </Para>    
+                        
+                        <Table14/>     
+
+                        <Para>
+                            {ctx.chapterTwo.Para70}
+                        </Para>    
+
+                        <Subtitle>
+                            {ctx.chapterTwo.Para71}
+                        </Subtitle>
+                          
+                        <Para>
+                            {ctx.chapterTwo.Para72}
+                        </Para>      
+
+                        {["Para73", "Para74", "Para75","Para76",].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                <li>    
+                                {ctx.chapterTwo[item]}
+                                </li>
+                            </Para>)}    
+
+                        <Para>
+                            {ctx.chapterTwo.Para77}
+                        </Para>  
+
+                        <Table15 />   
+
+                        <Subtitle>
+                            {ctx.chapterTwo.Para78}
+                        </Subtitle>
+                          
+                        <Para>
+                            {ctx.chapterTwo.Para79}
+                        </Para> 
+
+                        <Subtitle>
+                            {ctx.chapterTwo.Para80}
+                        </Subtitle>
+                          
+                        <Para>
+                            {ctx.chapterTwo.Para81}
                         </Para> 
                         <Subtitle>
-                            {ctx.chapterTwo["Para58a"]}
-                        </Subtitle>    
-                        <Para>
-                            {ctx.chapterTwo["Para58b"]}
-                        </Para>   
-                        <Subtitle>
-                            {ctx.chapterTwo["Para59"]}
+                            {ctx.chapterTwo.Para82}
                         </Subtitle>
+                          
                         <Para>
-                            {ctx.chapterTwo["Para60"]}
-                        </Para>
-                        <h3 className='headnote'>
-                            ₹ In crore
-                        </h3>
-                        <Table11 />
+                            {ctx.chapterTwo.Para83}
+                        </Para> 
+                        <Subtitle>
+                            {ctx.chapterTwo.Para84}
+                        </Subtitle>
+                          
+                        <Para>
+                            {ctx.chapterTwo.Para85}
+                        </Para> 
+                            
+                        <Table16 />    
                         <h4 className='footnote'>
                             <i>
-                                Source: Finance Accounts
+                                {ctx.tables2.T16f1} <br></br> 
+                                {ctx.tables2.T16f2} <br></br>
+                                {ctx.tables2.T16f3} 
+                            
                             </i>
                         </h4>
-                        {["Para60a", "Para61"].map((item, ind) =>
+
+
+                        {["Para86", "Para87"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
-                            </Para>)}
-                        <Para>
-                            {ctx.chapterTwo.Para62.substring(0, 189)}
+                            </Para>)}     
 
-                            <span className="tooltip">
-                                {ctx.chapterTwo.Para62.substring(189, 194)}
-                                <span className="tooltiptext">
-                                    Other loans include back-to-back external loans
-                                </span>
-                                <sup>11</sup>
-                            </span>
-
-                            {ctx.chapterTwo.Para62.substring(194,)}
-                        </Para>
                         <Subtitle>
-                            {ctx.chapterTwo["Para63"]}
+                            {ctx.chapterTwo.Para88}
                         </Subtitle>
+                          
                         <Para>
-                            {ctx.chapterTwo["Para64"]}
-                        </Para>
-                       
-                        <Table12 />
+                            {ctx.chapterTwo.Para89}
+                        </Para>    
+                        <Table17 />
                         <h4 className='footnote'>
                             <i>
-                                Source: XV FC Report and Finance Accounts
+                            Source: XV FC Report and Finance Accounts. <br></br>
                             </i>
                         </h4>
-                        {["Para65"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterTwo[item]}
-                            </Para>)}
+                        <Para>
+                            {ctx.chapterTwo.Para90}
+                        </Para>      
+
 
                     </div>
                 </div>

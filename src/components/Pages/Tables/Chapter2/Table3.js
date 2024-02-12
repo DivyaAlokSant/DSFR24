@@ -28,13 +28,7 @@ const columns = [
       },
     ]
   },
-  {
-    name: "2017-18",
-    selector: "2017 18",
-    // grow: 0.05,
-    wrap: true,
-    format: data => data["2017 18"].toLocaleString('en-IN')
-  },
+  
   {
     name: "2018-19",
     selector: "2018 19",
@@ -66,6 +60,13 @@ const columns = [
     // width:'110px',
     wrap: true,
     format: data => data["2021 22"].toLocaleString('en-IN')
+  },
+  {
+    name: "2022-23",
+    selector: "2022 23",
+    // grow: 0.05,
+    wrap: true,
+    format: data => data["2022 23"].toLocaleString('en-IN')
   }
 ];
 

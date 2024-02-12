@@ -36,8 +36,6 @@ const  SourcesApplication = () => {
                         <h4 className='footnote'>
                             <i>
                                 Source: Finance Accounts
-                                <br></br>
-                                * Effective Public Debt Receipts (Net) would be ₹`61,105 crore in 2020-21 and ₹`48,560 crore in 2021-22 as the Department of Expenditure, GoI had decided that GST compensation of ₹12,407 crore in 2020-21 and ₹18,109 crore in 2021-22 given to the State as back-to-back loan under Debt Receipts would not be treated as debt of the state for any norms which may be prescribed by the Finance Commission
                             </i>
                         </h4>
                         {/* <Chart11a />

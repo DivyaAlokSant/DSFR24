@@ -9,43 +9,38 @@ import { styles } from "../helpers";
 
 const columns = [
     {
-        name: "",
+        name: "Year",
         selector: "0",
         // grow: ,
         wrap: true,
-        // width:'35px',
+        width:'90px',
     },
     {
-        name: "XV FC assessment",
-        selector: "XV FC assessment",
+        name: "Finance Commission projections",
+        selector: "Finance Commission projections",
         // grow:0.05,
         wrap: true,
-        format: data => data["XV FC assessment"].toLocaleString('en-IN')
+        width:'250px',
+        format: data => data["Finance Commission projections"].toLocaleString('en-IN')
     },
     {
-        name: "Budget Estimates",
-        selector: "Budget Estimates",
+        name: "Projections in FCR",
+        selector: "Projections in FCR",
         // grow:0.05,
         wrap: true,
-        format: data => data["Budget Estimates"].toLocaleString('en-IN')
+        format: data => data["Projections in FCR"].toLocaleString('en-IN')
     },
     {
-        name: "Actual",
-        selector: "Actual",
+        name: "Actual tax devolution",
+        selector: "Actual tax devolution",
         wrap: true,
-        format: data => data["Actual"].toLocaleString('en-IN')
+        format: data => data["Actual tax devolution"].toLocaleString('en-IN')
     },
     {
-        name: "Percentage variation of actual over",
-        selector: "Percentage variation of actual over",
+        name: "Difference",
+        selector: "Difference",
         wrap: true,
-        // format: data => data["Percentage variation of actual over"].toLocaleString('en-IN')
-    },
-    {
-        name: "",
-        selector: "1",
-        wrap: true,
-        format: data => data["1"].toLocaleString('en-IN')
+        format: data => data["Difference"].toLocaleString('en-IN')
     }
 ];
 
@@ -62,7 +57,7 @@ const Table12  = () => {
         <div className="App" style={{ margin: "40px 0 40px 0" }} >
             <Card>
                 <DataTable
-                    title="Table 2.12: Tax and non-tax receipts vis-à-vis projections during 2021-22"
+                    title="Table 2.13: State’s share in union taxes and duties: Actual devolution vis-à-vis Finance Commission Projections"
                     columns={columns}
                     data={ctx.tables2.Table12  }
                     customStyles={customStyles}

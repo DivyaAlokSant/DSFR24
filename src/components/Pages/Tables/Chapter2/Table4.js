@@ -17,27 +17,27 @@ const columns = [
     },
     
     {
-        name: "2018 19",
-        selector: "2018 19",
+        name: "2021 22",
+        selector: "2021 22",
         // grow:0.05,
         wrap: true,
-        format: data => data["2018 19"].toLocaleString('en-IN')
+        format: data => data["2021 22"].toLocaleString('en-IN')
     },
     {
-        name: "2019 20",
-        selector: "2019 20",
+        name: "2022 23",
+        selector: "2022 23",
         // grow: 0.05,
         // width:'110px',
         wrap: true,
-        format: data => data["2019 20"].toLocaleString('en-IN')
+        format: data => data["2022 23"].toLocaleString('en-IN')
     },
     {
         name: "Increase/ Decrease",
-        selector: "Increase or Decrease",
+        selector: "Increase/ Decrease",
         // grow: 0.05,
         // width:'110px',
         wrap: true,
-        format: data => data["Increase or Decrease"].toLocaleString('en-IN')
+        format: data => data["Increase/ Decrease"].toLocaleString('en-IN')
     },
     
 ];
@@ -52,9 +52,9 @@ const Table4 = () => {
         <div className="App" style={{ margin: "40px 0 40px 0" }} >
             <Card>
                 <DataTable
-                    title="Table 2.4: Components of State’s own tax revenue during 2015-20"
+                    title="Table 2.5: SGST receipts of Government of Karnataka"
                     columns={columns}
-                    data={ctx.reportData.Chap2Tables.Table4}
+                    data={ctx.tables2.Table4}
                     customStyles={customStyles}
                     striped
                     // conditionalRowStyles={conditionalRowStyles}

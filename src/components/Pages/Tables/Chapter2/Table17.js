@@ -9,68 +9,68 @@ import { styles } from "../helpers";
 
 const columns = [
   {
-    name: "Components",
-    selector: "Components",
+    name: "",
+    selector: "0",
     // grow: ,
     wrap: true,
     // width:'35px',
   },
   {
-    name: "2017 18",
-    selector: "2017 18",
+    name: "XV FC assessment",
+    selector: "XV FC assessment",
     // grow: 0.05,
     // width:'110px',
     wrap: true,
-    format: data => data["2017 18"].toLocaleString('en-IN')
+    format: data => data["XV FC assessment"].toLocaleString('en-IN')
   },
   {
-    name: "2018 19",
-    selector: "2018 19",
+    name: "Budget Estimates",
+    selector: "Budget Estimates",
     // grow: 0.05,
     // width:'110px',
     wrap: true,
-    format: data => data["2018 19"].toLocaleString('en-IN')
+    format: data => data["Budget Estimates"].toLocaleString('en-IN')
   },
   {
-    name: "2019 20",
-    selector: "2019 20",
+    name: "Actual",
+    selector: "Actual",
     // grow: 0.05,
     // width:'110px',
     wrap: true,
-    format: data => data["2019 20"].toLocaleString('en-IN')
+    format: data => data["Actual"].toLocaleString('en-IN')
   },
   {
-    name: "2020 21",
-    selector: "2020 21",
+    name: "Percentage variation of actual over",
+    selector: "Percentage variation of actual over",
     // grow:0.05,
     wrap: true,
-    format: data => data["2020 21"].toLocaleString('en-IN')
+    format: data => data["Percentage variation of actual over"].toLocaleString('en-IN')
   },
   {
-    name: "2021 22",
-    selector: "2021 22",
+    name: "",
+    selector: "1",
     // grow: 0.05,
     // width:'110px',
     wrap: true,
-    format: data => data["2021 22"].toLocaleString('en-IN')
+    format: data => data["1"].toLocaleString('en-IN')
   }
 ];
 
-const conditionalRowStyles = [
-  {
-    when: row => row["Components"] === 'As percentage of Revenue Expenditure (RE)'
-      || row["Components"] === "As percentage of Revenue Receipts (RR)",
-    style: {
-      backgroundColor: 'rgba(153, 165, 128, 0.9)',
-    }
-  },
-  {
-    when: row => row["Components"] === 'Total',
-    style: {
-      backgroundColor: 'rgba(53, 65, 128, 0.9)',
-    }
-  }
-]
+// const conditionalRowStyles = [
+//   {
+//     when: row => row["Components"] === 'As percentage of Revenue Expenditure (RE)'
+//       || row["Components"] === "As percentage of Revenue Receipts (RR)",
+//     style: {
+//       backgroundColor: 'rgba(153, 165, 128, 0.9)',
+//     }
+//   },
+//   {
+//     when: row => row["Components"] === 'Total',
+//     style: {
+//       backgroundColor: 'rgba(53, 65, 128, 0.9)',
+//     }
+//   }
+// ]
 
 const customStyles = styles;
 
@@ -82,15 +82,15 @@ const Table17 = () => {
     <div className="App" style={{ margin: "40px 0 40px 0" }} >
       <Card>
         <DataTable
-          title="Table 2.17: Components of Committed Expenditure"
+          title="Table 2.18: Tax and non-Tax receipts vis-à-vis projections during 2022-23"
           columns={columns}
           data={ctx.tables2.Table17}
           customStyles={customStyles}
           striped
           highlightOnHover
           pointerOnHover
-          conditionalRowStyles={conditionalRowStyles}
-          pagination
+         // conditionalRowStyles={conditionalRowStyles}
+          //pagination
         />
       </Card>
     </div>

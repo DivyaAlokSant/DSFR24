@@ -9,22 +9,14 @@ import { styles } from "../helpers";
 
 const columns = [
     {
-        name: "Parameters",
-        selector: "Parameters",
+        name: "Head",
+        selector: "Head",
         // grow: ,
         wrap: true,
-        // width:'35px',
+        width:'200px',
     },
     {
-        name: "2017 18",
-        selector: "2017 18",
-        // grow: 0.05,
-        // width:'110px',
-        wrap: true,
-        format: data => data["2017 18"].toLocaleString('en-IN')
-    },
-    {
-        name: "2018 19",
+        name: "2018-19",
         selector: "2018 19",
         // grow: 0.05,
         // width:'110px',
@@ -32,7 +24,7 @@ const columns = [
         format: data => data["2018 19"].toLocaleString('en-IN')
     },
     {
-        name: "2019 20",
+        name: "2019-20",
         selector: "2019 20",
         // grow: 0.05,
         // width:'110px',
@@ -40,20 +32,28 @@ const columns = [
         format: data => data["2019 20"].toLocaleString('en-IN')
     },
     {
-        name: "2020 21",
+        name: "2020-21",
         selector: "2020 21",
         // grow:0.05,
         wrap: true,
         format: data => data["2020 21"].toLocaleString('en-IN')
     },
     {
-        name: "2021 22",
+        name: "2021-22",
         selector: "2021 22",
         // grow: 0.05,
         // width:'110px',
         wrap: true,
         format: data => data["2021 22"].toLocaleString('en-IN')
     },
+    {
+        name: "2022-23",
+        selector: "2022 23",
+        // grow: 0.05,
+        // width:'110px',
+        wrap: true,
+        format: data => data["2022 23"].toLocaleString('en-IN')
+    }
 ];
 
 
@@ -69,7 +69,7 @@ const Table14 = () => {
         <div className="App" style={{ margin: "40px 0 40px 0" }} >
             <Card>
                 <DataTable
-                    title="Table 2.14: Revenue Expenditure – Basic Parameters"
+                    title="Table 2.15: Grants-in-aid from GoI"
                     columns={columns}
                     data={ctx.tables2.Table14}
                     customStyles={customStyles}

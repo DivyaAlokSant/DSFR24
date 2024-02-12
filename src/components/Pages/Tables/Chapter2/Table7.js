@@ -9,46 +9,62 @@ import { styles } from "../helpers";
 
 const columns = [
     {
-        name: "Head",
-        selector: "Head",
+        name: "Sr No",
+        selector: "Sr No",
         // grow: ,
         wrap: true
     },
     {
-        name: "2017 18",
-        selector: "2017 18",
+        name: "Head of Revenue",
+        selector: "Head of Revenue",
         // grow: 0.05,
         // width:'110px',
         wrap: true,
         //format: data => data["2017 18"].toLocaleString('en-IN',{ style: 'currency', currency: 'INR' })
     },
     {
-        name: "2018 19",
-        selector: "2018 19",
+        name: "Cases pending at the beginning of 2022-23",
+        selector: "Cases pending at the beginning of 2022-23",
         // grow: 0.05,
         // width:'110px',
         wrap: true,
         //format: data => data["2018 19"].toLocaleString('en-IN',{ style: 'currency', currency: 'INR' })
     },
     {
-        name: "2019 20",
-        selector: "2019 20",
+        name: "New cases due for assessment during 2022-23",
+        selector: "New cases due for assessment during 2022-23",
         // grow: 0.05,
         // width:'110px',
         wrap: true,
         //format: data => data["2019 20"].toLocaleString('en-IN',{ style: 'currency', currency: 'INR' })
     },
     {
-        name: "2020 21",
-        selector: "2020 21",
+        name: "Total cases due for assessment",
+        selector: "Total cases due for assessment",
         // grow: 0.05,
         // width:'110px',
         wrap: true,
         //format: data => data["2020 21"].toLocaleString('en-IN')
     },
     {
-        name: "2021 22",
-        selector: "2021 22",
+        name: "Cases disposed of during 2022-23",
+        selector: "Cases disposed of during 2022-23",
+        // grow: 0.05,
+        // width:'110px',
+        wrap: true,
+        //format: data => data["2021 22"].toLocaleString('en-IN',{ style: 'currency', currency: 'INR' })
+    },
+    {
+        name: "Balance at the end of the year",
+        selector: "Balance at the end of the year",
+        // grow: 0.05,
+        // width:'110px',
+        wrap: true,
+        //format: data => data["2021 22"].toLocaleString('en-IN',{ style: 'currency', currency: 'INR' })
+    },
+    {
+        name: "Percentage of disposal",
+        selector: "Percentage of disposal",
         // grow: 0.05,
         // width:'110px',
         wrap: true,
@@ -58,9 +74,9 @@ const columns = [
 
 const conditionalRowStyles = [
   {
-      when: row => row["Head"] === 'Total',
+      when: row => row["Sr No"] === '',
       style: {
-          backgroundColor: 'rgba(153, 165, 128, 0.9)',
+          backgroundColor: 'rgba(255, 127, 80, 1 )',
       },
   }
 ]
@@ -75,7 +91,7 @@ const Table7 = () => {
         <div className="App" style={{ margin: "40px 0 40px 0" }} >
             <Card>
                 <DataTable
-                    title="Table 2.8: Trends in Central Tax transfers"
+                    title="Table 2.7 Arrears of assessment                      "
                     columns={columns}
                     data={ctx.tables2.Table7}
                     customStyles={customStyles}

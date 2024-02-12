@@ -8,50 +8,35 @@ import { styles } from "../helpers";
 
 const columns = [
     {
-        name: "Head",
-        selector: "Head",
+        name: "Sr No",
+        selector: "Sr No",
         // grow: ,
         wrap: true,
-        // width:'35px',
+        width:'50px',
     },
     {
-        name: "2017 18",
-        selector: "2017 18",
+        name: "Year",
+        selector: "Year",
         // grow: 0.05,
         // width:'110px',
         wrap: true,
-        format: data => data["2017 18"].toLocaleString('en-IN')
+        format: data => data["Year"].toLocaleString('en-IN')
     },
     {
-        name: "2018 19",
-        selector: "2018 19",
+        name: "Tuition Fee",
+        selector: "Tuition Fee",
         // grow: 0.05,
         // width:'110px',
         wrap: true,
-        format: data => data["2018 19"].toLocaleString('en-IN')
+        format: data => data["Tuition Fee"].toLocaleString('en-IN')
     },
     {
-        name: "2019 20",
-        selector: "2019 20",
+        name: "Tuition Fee",
+        selector: "1",
         // grow: 0.05,
         // width:'110px',
         wrap: true,
-        format: data => data["2019 20"].toLocaleString('en-IN')
-    },
-    {
-        name: "2020 21",
-        selector: "2020 21",
-        // grow:0.05,
-        wrap: true,
-        format: data => data["2020 21"].toLocaleString('en-IN')
-    },
-    {
-        name: "2021 22",
-        selector: "2021 22",
-        // grow: 0.05,
-        // width:'110px',
-        wrap: true,
-        format: data => data["2021 22"].toLocaleString('en-IN')
+        format: data => data["1"].toLocaleString('en-IN')
     }
 ];
 
@@ -74,7 +59,7 @@ const Table9 = () => {
         <div className="App" style={{ margin: "40px 0 40px 0" }} >
             <Card>
                 <DataTable
-                    title="Table 2.9: Grants-in-aid from GOI"
+                    title="Table 2.9:- Details of tuition fee remitted and short remittance by the colleges"
                     columns={columns}
                     data={ctx.tables2.Table9}
                     customStyles={customStyles}

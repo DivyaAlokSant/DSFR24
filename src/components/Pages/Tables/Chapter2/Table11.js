@@ -9,52 +9,24 @@ import { styles } from "../helpers";
 
 const columns = [
     {
-        name: "Sources of State's Receipts",
-        selector: "Sources",
-        // grow: ,
+        name: "Year",
+        selector: "Year",
         wrap: true,
-        // width:'35px',
-    },
-    {
-        name: "2017-18",
-        selector: "2017 18",
-        // grow: 0.05,
-        // width:'110px',
+        width:"80px"
+      },
+      {
+        name: "Details",
+        selector: "Details",
         wrap: true,
-        format: data => data["2017 18"].toLocaleString('en-IN')
-    },
-    {
-        name: "2018-19",
-        selector: "2018 19",
-        // grow: 0.05,
-        // width:'110px',
+        //format: data => data["Details"].toLocaleString('en-IN')
+      },
+      {
+        name: "Amount (in crore)",
+        selector: "1",
         wrap: true,
-        format: data => data["2018 19"].toLocaleString('en-IN')
-    },
-    {
-        name: "2019-20",
-        selector: "2019 20",
-        // grow: 0.05,
-        // width:'110px',
-        wrap: true,
-        format: data => data["2019 20"].toLocaleString('en-IN')
-    },
-    {
-      name: "2020-21",
-      selector: "2020 21",
-      // grow:0.05,
-      wrap: true,
-      format: data => data["2020 21"].toLocaleString('en-IN')
-  },
-  {
-    name: "2021-22",
-    selector: "2021 22",
-    // grow: 0.05,
-    // width:'110px',
-    wrap: true,
-    sortable:true,
-    format: data => data["2021 22"].toLocaleString('en-IN')
-}
+        width:"120px",
+        format: data => data["1"].toLocaleString('en-IN')
+      }
 ];
 
 
@@ -68,7 +40,7 @@ const Table11 = () => {
         <div className="App" style={{ margin: "40px 0 40px 0" }} >
             <Card>
                 <DataTable
-                    title="Table 2.11: Trends in growth and composition of capital receipts"
+                    title="Table 2.12:  Loss of revenue"
                     columns={columns}
                     data={ctx.tables2.Table11}
                     customStyles={customStyles}

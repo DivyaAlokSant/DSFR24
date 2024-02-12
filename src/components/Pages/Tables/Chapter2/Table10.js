@@ -15,73 +15,17 @@ const columns = [
     width:"80px"
   },
   {
-    name: "Type of Grant",
-    selector: "Type of Grant",
+    name: "Details",
+    selector: "Details",
     wrap: true,
-    format: data => data["Type of Grant"].toLocaleString('en-IN')
+    //format: data => data["Details"].toLocaleString('en-IN')
   },
   {
-    name: "",
+    name: "Amount of under statement",
     selector: "1",
     wrap: true,
     width:"120px",
     format: data => data["1"].toLocaleString('en-IN')
-  },
-  {
-    name: "RLB",
-    selector: "RLB",
-    wrap: true,
-    width:"80px",
-    format: data => data["RLB"].toLocaleString('en-IN')
-  },
-  {
-    name: "",
-    selector: "2",
-    wrap: true,
-    width:"90px",
-    format: data => data["2"].toLocaleString('en-IN')
-  },
-  {
-    name: "",
-    selector: "3",
-    wrap: true,
-    width:"120px",
-    format: data => data["3"].toLocaleString('en-IN')
-  },
-  {
-    name: "ULBs",
-    selector: "ULBs",
-    wrap: true,
-    width:"80px",
-    format: data => data["ULBs"].toLocaleString('en-IN')
-  },
-  {
-    name: "",
-    selector: "4",
-    wrap: true,
-    width:"90px",
-    format: data => data["4"].toLocaleString('en-IN')
-  },
-  {
-    name: "",
-    selector: "5",
-    wrap: true,
-    width:"120px",
-    format: data => data["5"].toLocaleString('en-IN')
-  },
-  {
-    name: "SDRMF",
-    selector: "SDRMF",
-    wrap: true,
-    width:"80px",
-    format: data => data["SDRMF"].toLocaleString('en-IN')
-  },
-  {
-    name: "",
-    selector: "6",
-    wrap: true,
-    // width:"80px",
-    format: data => data["6"].toLocaleString('en-IN')
   }
 ];
 
@@ -106,7 +50,7 @@ const Table10 = () => {
     <div className="App" style={{ margin: "40px 0 40px 0" }} >
       <Card>
         <DataTable
-          title="Table 2.10: Recommended and actual release of grants during 2020-21"
+          title="Table 2.11: Loss of Revenue on account of under assessment"
           columns={columns}
           data={ctx.tables2.Table10}
           customStyles={customStyles}
