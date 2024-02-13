@@ -90,16 +90,18 @@ const Application = () => {
                     <Navbar />
                     <div className="contentwrapper" id="home">
                         <FloatingActionButtons back="/finances/resources" forward="/finances/publicaccount" />
-                        <Title>{ctx.chapterTwo.Para67}</Title>
-                        {["Para68", "Para69"].map((item, ind) =>
+                        <Title>{ctx.chapterTwo.Para91}</Title>
+                        {["Para92", "Para93"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)}
                         <Subtitle>
-                            {ctx.chapterTwo["Para70"]}
+                            <i>
+                            {ctx.chapterTwo["Para94"]}
+                            </i>
                         </Subtitle>
                         <Para>
-                            {ctx.chapterTwo["Para71"]}
+                            {ctx.chapterTwo["Para95"]}
                         </Para>
                         <h3 className='headnote'>
                             ₹ In crore
@@ -111,7 +113,7 @@ const Application = () => {
                             </i>
                         </h4>
                         <Para>
-                            {ctx.chapterTwo.Para72}
+                            {ctx.chapterTwo.Para96}
                         </Para>
                         {/* <Chart7 />
                         <h4 className='footnote'>
@@ -121,7 +123,7 @@ const Application = () => {
                         </h4> */}
                          <ImageComponent src={c27} alt="chart23" aspectRatio={1 / 0.5} />
                         <Para>
-                            {ctx.chapterTwo.Para73}
+                            {ctx.chapterTwo.Para97}
                         </Para>
                         {/* <Chart8 />
                         <h4 className='footnote'>
@@ -130,14 +132,14 @@ const Application = () => {
                             </i>
                         </h4> */}
                          <ImageComponent  src={c28} alt="chart23" aspectRatio={1 / 0.5} />
-                        {["Para74"].map((item, ind) =>
+                        {["Para98"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)}
                         <Subtitle>
-                            {ctx.chapterTwo["Para75"]}
+                            {ctx.chapterTwo["Para99"]}
                         </Subtitle>
-                        {["Para76", "Para77", "Para78"].map((item, ind) =>
+                        {["Para100", "Para101", "Para102"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)}
@@ -151,7 +153,7 @@ const Application = () => {
                             </i>
                         </h4>
                         <Para>
-                            {ctx.chapterTwo.Para79}
+                            {ctx.chapterTwo.Para103}
                         </Para>
                         {/* <Chart9 />
                         <h4 className='footnote'>
@@ -160,15 +162,15 @@ const Application = () => {
                             </i>
                         </h4> */}
                          <ImageComponent  src={c29} alt="chart23" aspectRatio={1 / 0.5} />
-                        {["Para80"].map((item, ind) =>
+                        {["Para104"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)}
                         <Subtitle>
-                            {ctx.chapterTwo.Para81}
+                            {ctx.chapterTwo.Para105}
                         </Subtitle>
                         <Para>
-                            {ctx.chapterTwo.Para82}
+                            {ctx.chapterTwo.Para106}
                         </Para>
                         <h3 className='headnote'>
                             ₹ In crore
@@ -179,15 +181,24 @@ const Application = () => {
                                 Source: Finance Accounts
                             </i>
                         </h4>
-                        {["Para83"].map((item, ind) =>
+                        {["Para107", "Para108"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)}
+                            
+                        {["Para109", "Para110", "Para111", "Para112", "Para113", "Para114"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                <li>
+                                {ctx.chapterTwo[item]}
+                                </li>
+                            </Para>)}
+
+                            
                         <Subtitle>
-                            {ctx.chapterTwo.Para84}
+                            {ctx.chapterTwo.Para115}
                         </Subtitle>
                         <Para>
-                            {ctx.chapterTwo.Para85}
+                            {ctx.chapterTwo.Para116}
                         </Para>
                         <h3 className='headnote'>
                             ₹ In crore
@@ -200,614 +211,30 @@ const Application = () => {
                                 *Includes object heads Consolidated Salary, pay of officers, pay of staff, Interim Relief, Dearness Allowance, Other allowances, medical allowance and reimbursement of medical expenses
                             </i>
                         </h4>
-                        {["Para86"].map((item, ind) =>
+                        {["Para117"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)}
                         <Subtitle>
-                            {ctx.chapterTwo.Para87}
+                            {ctx.chapterTwo.Para118}
                         </Subtitle>
-                        {["Para88"].map((item, ind) =>
+                        {["Para119","Para121"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)}
 
-                        <Para>
-                            {ctx.chapterTwo.Para89.substring(0, 283)}
-
-                            <span className="tooltip">
-                                {ctx.chapterTwo.Para89.substring(283, 285)}
-                                <span className="tooltiptext">
-                                The KFRC-2 was established for periodic recommendation for restricting of department and rationalization of Staff strength at all levels of Government identification of unnecessary cadre/staffs in Departments and possibility of merging of departments due to use of technology.
-                                </span>
-                                <sup>12</sup>
-                            </span>
-
-                            {ctx.chapterTwo.Para89.substring(284,)}
-                        </Para>
-
-                        <h3 className='headnote'>
-                            ₹ In crore
-                        </h3>
-                        <Table17 />
-                        <h4>
-                            <i>
-                                Source: Finance Accounts
-                                <br></br>
-                                #includes interest on off-budget borrowings.
-                                <br />
-                                @excludes subsidies in the form of financial assistance
-                                <br></br>
-                                *includes non-salary component of PRIs and other expenditure related to PRIs and ULBs
-                                <br></br>
-                            </i>
-                        </h4>
-                    
-                       
-                        <ImageComponent  src={c210} alt="chart23" aspectRatio={1 / 0.5} />
-                        {["Para90"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterTwo[item]}
-                            </Para>)}
-                        <Subtitle>
-                            {ctx.chapterTwo.Para91}
-                        </Subtitle>
-                        <Para>
-                            {ctx.chapterTwo.Para92}
-                        </Para>
-                        <Para>
-                            {ctx.chapterTwo.Para93}
-                        </Para>
-                        <Subtitle>
-                            {ctx.chapterTwo.Para94}
-                        </Subtitle>
-                        {["Para95", "Para96", "Para97", "Para98"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterTwo[item]}
-                            </Para>)}
-                        {["Para99", "Para100"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                <li>
-                                    {ctx.chapterTwo[item]}
-                                </li>
-                            </Para>)}
-                        <Para>
+                        {["Para122", "Para123","Para124","Para125","Para126","Para127"].map((item, ind) =>
+                        <Para key={ind / 10}>
                             <li>
-                                {ctx.chapterTwo.Para101.substring(0, 56)}
-
-                                <span className="tooltip">
-                                    {ctx.chapterTwo.Para101.substring(56, 63)}
-                                    <span className="tooltiptext">
-                                        Refers to the contribution the employee had to make from the date of his entry into service to the date of implementation of the scheme.
-                                    </span>
-                                    <sup>13</sup>
-                                </span>
-
-                                {ctx.chapterTwo.Para101.substring(63,)}
+                            {ctx.chapterTwo[item]}
                             </li>
-                        </Para>
-                        {["Para102"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                <li>
-                                    {ctx.chapterTwo[item]}
-                                </li>
-                            </Para>)}
-                        {["Para103"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterTwo[item]}
-                            </Para>)}
-                        {["Para104", "Para104a", "Para104b", "Para104c", "Para104d"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                <li>
-                                    {ctx.chapterTwo[item]}
-                                </li>
-                            </Para>)}        
-                        <Subtitle>
-                            {ctx.chapterTwo.Para105}
-                        </Subtitle>
-                        <Para>
-                            {ctx.chapterTwo.Para106}
-                        </Para>
-                        <Para>
-                            {ctx.chapterTwo.Para107}
-                        </Para>
-                        <Subtitle>
-                            {ctx.chapterTwo.Para108}
-                        </Subtitle>
-                        <Para>
-                            {ctx.chapterTwo.Para109}
-                        </Para>
-
-                        <h3 className='headnote'>
-                            ₹ In crore
-                        </h3>
-                        <Table18 />
-                        <h4>
-                            <i>
-                                Source: Finance Accounts
-                            </i>
-                        </h4>
-                        <Para>
-                            {ctx.chapterTwo.Para110}
-                        </Para>
-                        {/* <Chart11 />
-                        <h4>
-                            <i>
-                                Source: Finance Accounts
-                            </i>
-                        </h4> */}
-                         <ImageComponent  src={c211} alt="chart23" aspectRatio={1 / 0.5} />
-                        {["Para111"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                <li>
-                                    {ctx.chapterTwo[item]}
-                                </li>
-                                </Para>)}    
-                        <Para>
-                            
-                                {ctx.chapterTwo.Para112.substring(0, 69)}
-
-                                <span className="tooltip">
-                                    {ctx.chapterTwo.Para112.substring(69, 77)}
-                                    <span className="tooltiptext">
-                                        Explicit subsidy is that which provides for expenditure in the form of a subsidy or interest subvention for certain schemes of the Government. It was stressed that the challenge lies in
-                                        ensuring that these subsidies do not become a permanent source of additional support and thereby deter these sectors from undertaking reforms.
-                                    </span>
-                                    <sup>14</sup>
-                                </span>
-
-                                {ctx.chapterTwo.Para112.substring(77,)}
-                            
-                        </Para>
-                        {["Para113"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterTwo[item]}
-                            </Para>)}
-                        <Subtitle>
-                            {ctx.chapterTwo.Para115}
-                        </Subtitle>
-                        {["Para114"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                <li>
-                                    {ctx.chapterTwo[item]}
-                                </li>
-                                </Para>)}
-                        <Para>
-                            {ctx.chapterTwo.Para116}
-                        </Para>
-                        <h3 className='headnote'>
-                            ₹ In crore
-                        </h3>
-                        <Table19 />
-                        <h4>
-                            <i>
-                                Source: Finance Accounts
-                            </i>
-                        </h4>
-
-                        {["Para117", "Para118", "Para119"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterTwo[item]}
-                            </Para>)}
-                        {["Para119a"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                <li>
-                                    {ctx.chapterTwo[item]}
-                                </li>
-                            </Para>)}    
-                        {["Para120"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterTwo[item]}
-                            </Para>)}    
-                        <h3 className='headnote'>
-                            ₹ In crore
-                        </h3>
-                        <Table20 />
-                        <h4>
-                            <i>
-                                Source: Finance Accounts
-                            </i>
-                        </h4>
-                        {["Para120a", "Para120b", "Para120c"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterTwo[item]}
-                            </Para>)}
-                        <Table20a/>    
-                        <Para>
-                            {ctx.chapterTwo.Para120d}
-                        </Para>
-                        {["Para120e", "Para120f", "Para120g", "Para120h"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                <li>
-                                    {ctx.chapterTwo[item]}
-                                </li>
-                            </Para>)} 
-                        {["Para120i"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterTwo[item]}
-                            </Para>)}
-                        <h3 className='headnote'>
-                            ₹ In crore
-                        </h3>    
-                        <Table20b/>
-                        <h4>
-                            <i>
-                                
-                                *The cess and collection charges have not been considered for calculating NLNORR. Further, the compensation received as back-to-back loans during 2020-21 and 2021-22 has not been considered.
-                                <br></br>
-                                # Devolutions from XIII, XIV and XV Finance Commission has not been included.
-                            </i>
-                        </h4>    
-                        <Para>
-                            {ctx.chapterTwo.Para120j}
-                        </Para>        
-                        <Subtitle>
-                            {ctx.chapterTwo.Para120k}
-                        </Subtitle>
-                        {["Para120l", "Para120m"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterTwo[item]}
-                            </Para>)}
-                            <h3 className='headnote'>
-                            ₹ In crore
-                        </h3>    
-                        <Table20c/>
-                        <h4>
-                            <i>
-                            Source: Information furnished by HFW/ME
-                            </i>
-                        </h4>    
-                        <Para>
-                            {ctx.chapterTwo.Para120n}
-                        </Para>      
-                        <Subtitle>
-                            {ctx.chapterTwo.Para121}
-                        </Subtitle>
-                        {["Para122", "Para123"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterTwo[item]}
-                            </Para>)}
-                        {/* <Chart12 />
-                        <h4>
-                            <i>
-                                Source: Finance Accounts
-                            </i>
-                        </h4> */}
-                         <ImageComponent  src={c212a} alt="chart23" aspectRatio={1 / 0.5} />
-                        <Para>
-                            {ctx.chapterTwo.Para125}
-                        </Para>
-                        <h3 className='headnote'>
-                            ₹ In crore
-                        </h3>
-                        <Table21 />
-                        <h4>
-                            <i>
-                                Source: Finance Accounts
-                            </i>
-                        </h4>
-                        {["Para126"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterTwo[item]}
-                            </Para>)}
-                        <div style={{
-                            backgroundColor: "#ac8",
-                            fontSize: "18px",
-                            padding: "5px 5px 5px 20px",
-                            borderRadius: "5px"
-                        }}>
-                            <p>
-                                {ctx.chapterTwo["Para130"]}
-                            </p>
-                        </div>
-                        <Subtitle>
-                            {ctx.chapterTwo["Para131"]}
-                        </Subtitle>
-                        <Para>
-                            {ctx.chapterTwo["Para132"]}
-                        </Para>
-                        <Subtitle>
-                            {ctx.chapterTwo["Para133"]}
-                        </Subtitle>
-                        <Para>
-                            
-                                {ctx.chapterTwo.Para134.substring(0, 69)}
-
-                                <span className="tooltip">
-                                    {ctx.chapterTwo.Para134.substring(69, 71)}
-                                    <span className="tooltiptext">
-                                        Includes investment of ₹68 crore in 16 non-working Government Companies.
-                                    </span>
-                                    <sup>15</sup>
-                                </span>
-                                {ctx.chapterTwo.Para134.substring(71, 643)}
-                                <span className='tooltip'>
-                                    {ctx.chapterTwo.Para134.substring(643,)}
-                                    <span className='tooltiptext'>
-                                    Irrigation (`36,779.37 crore), Power (`12,025.66 crore), Infrastructure (`4,933.65 crore), Finance (`3,641.80 crore), Transport (`1,670.21 crore), Housing (`1,450.97 crore), Industries (`1,288.27 crore) and Other sectors (`8,836.50 crore).
-                                    </span>
-                                    <sup>16</sup>
-                                </span>
-                            
-                        </Para>
-                        {["Para135", "Para136", "Para137",].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterTwo[item]}
-                            </Para>)}
-                        <h3 className='headnote'>
-                            ₹ In crore
-                        </h3>
-                        <Table22 />
-                        <h4>
-                            <i>
-                                Source: Finance Accounts
-                            </i>
-                        </h4>
-                        {["Para138", "Para139", "Para140", "Para141"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterTwo[item]}
-                            </Para>)}
-                        <h3 className='headnote'>
-                            ₹ In crore
-                        </h3>    
-                        <Table23 />
-                        <h4>
-                            <i>
-                                Source: Finance Accounts
-                            </i>
-                        </h4>
-                        {["Para142", "Para143", "Para144"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterTwo[item]}
-                            </Para>)}
-                        
-                        <Subtitle>
-                            {ctx.chapterTwo["Para147"]}
-                        </Subtitle>
-                        <Para>
-                            {ctx.chapterTwo["Para148"]}
-                        </Para>
-                        <h3 className='headnote'>
-                            ₹ In crore
-                        </h3>
-                        <Table24 />
-                        <h4>
-                            <i>
-                                Source: Finance Accounts
-                            </i>
-                        </h4>
-                        {["Para149", "Para150", "Para151", "Para151a", "Para152"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                <li>
-                                    {ctx.chapterTwo[item]}
-                                </li>
-                            </Para>)}
-
-                        <Para>
-                            <li>
-                                {ctx.chapterTwo.Para153.substring(0, 243)}
-
-                                <span className="tooltip">
-                                    {ctx.chapterTwo.Para153.substring(243, 246)}
-                                    <span className="tooltiptext">
-                                    In 2020-21, eight out of 842 institutions have furnished the information</span>
-                                    <sup>17</sup>
-                                </span>
-
-                                {ctx.chapterTwo.Para153.substring(246,)}
-                            </li>
-                        </Para>
-                        {["Para154"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                <li>
-                                    {ctx.chapterTwo[item]}
-                                </li>
-                            </Para>)}
-                        {["Para155"].map((item, ind) =>
+                        </Para>)}
+                        {["Para128","Para129","Para130"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)}
 
-                        <h3 className='headnote'>
-                            (Amount in ₹)
-                        </h3>    
-                        <Table25a/>    
-                        <Para>
-                            {ctx.chapterTwo.Para156}
-                        </Para>    
-                        <Subtitle>
-                            {ctx.chapterTwo.Second.para1h1}
-                        </Subtitle>
-                        <Para>
-                            {ctx.chapterTwo.Second.para1}
-                        </Para>
-                        {/* <ImageComponent src={url} alt="table2543" aspectRatio={1 / 0.25} /> */}
-
-                        {/* <Para>
-                            <li>
-                                {ctx.chapterTwo.para2.substring(0, 70)}
-                                <span className="tooltip">
-                                    {ctx.chapterTwo.para2.substring(70, 83)}
-                                    <span className="tooltiptext">
-                                        Latest finalized accounts as of November 2021
-                                    </span>
-                                    <sup>19</sup>
-                                </span>
-
-                                {ctx.chapterTwo.para2.substring(83,)}
-                            </li>
-                        </Para> */}
-                       
-                       <h3 className='headnote'>
-                            ₹ In crore
-                        </h3>
-                        <Table25 />
-                        <h4>
-                            <i>
-                                Source: Finance Accounts
-                            </i>
-                        </h4>
-                        <h3 className='headnote'>
-                            ₹ In crore
-                        </h3>
-                        <Table26 />
-                        <h4>
-                            <i>
-                                Source: Finance Accounts
-                            </i>
-                        </h4>
-                        
-                        {["para2","para3", "para4"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterTwo.Second[item]}
-                            </Para>)}    
-
-                        
-                        {/* <h3 className='headnote'>
-                            ₹ In crore
-                        </h3>
-                        <Table24b /> */}
-                        {/* <Para>
-                            <li>
-                                {ctx.chapterTwo.para4.substring(0, 121)}
-                                <span className="tooltip">
-                                    {ctx.chapterTwo.para4.substring(121, 125)}
-                                    <span className="tooltiptext">
-                                        Equity: Karnataka Neeravari Nigam Limited, Cauvery Neeravari Nigama Limited, Vishveswaraya Jala Nigam Limited, Rail Infrastructure Development Corporation (Karnataka) Limited, Karnataka Power Transmission corporation limited and Krishna Bhagya Jala Nigam Limited,
-                                        Loans Mangalore electricity Supply Company limited, Cauvery Neeravari Nigam Limited and KPC Gas Power Corporation limited.
-                                        Guarantees Raichur power Company Limited, Mangalore electricity Supply Company limited KPC Gas Power Corporation limited.
-                                    </span>
-                                    <sup>20</sup>
-                                </span>
-
-                                {ctx.chapterTwo.para4.substring(125,)}
-                            </li>
-                        </Para>
-                        <Para>
-                            {ctx.chapterTwo.para5}
-                        </Para>
-                        <Para>
-                            <li>
-                                {ctx.chapterTwo.para6.substring(0, 39)}
-                                <span className="tooltip">
-                                    {ctx.chapterTwo.para6.substring(39, 43)}
-                                    <span className="tooltiptext">
-                                        Statutory corporations-6, Working Government companies -105, Non-working Government companies-13
-                                    </span>
-                                    <sup>21</sup>
-                                </span>
-
-                                {ctx.chapterTwo.para6.substring(43,)}
-                            </li>
-                        </Para>
-                        {["para7", "para8", "para9"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterTwo[item]}
-                            </Para>)}
-                        <Para>
-                            <li>
-                                {ctx.chapterTwo.para10.substring(0, 39)}
-                                <span className="tooltip">
-                                    {ctx.chapterTwo.para10.substring(39,)}
-                                    <span className="tooltiptext">
-                                        For the purpose of paragraphs(iii),(v) and (vi), subsidiaries companies were also considered during 2019-20 and 2020-21.
-                                    </span>
-                                    <sup>22</sup>
-                                </span>
-
-                            </li>
-                        </Para>
-                        <Para>
-                            {ctx.chapterTwo.para11}
-                        </Para>
-                        <Para>
-                            <li>
-                                {ctx.chapterTwo.para12.substring(0, 73)}
-                                <span className="tooltip">
-                                    {ctx.chapterTwo.para12.substring(73, 83)}
-                                    <span className="tooltiptext">
-                                        Measures the profit or loss made in a fixed year relating to the amount of money invested in the form of equity and long-term loans and is expressed as a percentage of profit to total investment                                    </span>
-                                    <sup>23</sup>
-                                </span>
-
-                                {ctx.chapterTwo.para12.substring(83, 95)}
-                                <span className="tooltip">
-                                    {ctx.chapterTwo.para12.substring(95, 101)}
-                                    <span className="tooltiptext">
-                                        Measure of performance calculated by dividing net profit by shareholder’s funds                                    </span>
-                                    <sup>24</sup>
-                                </span>
-                                {ctx.chapterTwo.para12.substring(101, 125)}
-
-                                <span className="tooltip">
-                                    {ctx.chapterTwo.para12.substring(125, 133)}
-                                    <span className="tooltiptext">
-                                        Financial ratio that measures the company’s profitability and the efficiency with which its capital is used and is calculated by dividing the company’s earnings before interest and taxes by capital employed.                                    </span>
-                                    <sup>25</sup>
-                                </span>
-
-                            </li>
-                        </Para>
-                        {["para13", "para14", "para15", "para16",
-                            "para17", "para18", "para19", "para20", "para21", "para22",
-                            "para23", "para24", "para25", "para26", "para27", "para28",
-                            "para29", "para30", "para31", "para32"].map((item, ind) =>
-                                <Para key={ind / 10}>
-                                    {ctx.chapterTwo[item]}
-                                </Para>)}
-                        <Para>
-                            <li>
-                                {ctx.chapterTwo.para33.substring(0, 317)}
-                                <span className="tooltip">
-                                    {ctx.chapterTwo.para33.substring(317, 319)}
-                                    <span className="tooltiptext">
-                                        The Ministry of Corporate Affairs has given general extension of time for finalisation of accounts  by SPSUs upto November 2021.
-                                    </span>
-                                    <sup>26</sup>
-                                </span>
-                                {ctx.chapterTwo.para33.substring(319,)}
-
-                            </li>
-                        </Para>
-
-                        
-                        <Subtitle>
-                            {ctx.chapterTwo.Second.para1h1}
-                        </Subtitle>
-                        <Para>
-                            {ctx.chapterTwo.Second.para1}
-                        </Para>
-                        {["para2", "para3", "para4", "para5"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterTwo.Second[item]}
-                            </Para>)} */}
-                            
-                        <Subtitle>
-                            {ctx.chapterTwo.Second.para6}
-                        </Subtitle>
-                        <Para>
-                            {ctx.chapterTwo.Second.para7}
-                        </Para>
-                        <h3 className='headnote'>
-                            ₹ In crore
-                        </h3>
-                        <Table27 />
-                        <h4>
-                            <i>
-                                Source: Finance Accounts
-                                <br></br>
-                                AE: Aggregate Expenditure, CE: Capital Expenditure, DE: Development Expenditure (includes total expenditure under social and economic sectors)
-                            </i>
-                        </h4>
-                        <Para>
-                            {ctx.chapterTwo.Second.para8}
-                        </Para>
-                        {["para9", "para10", "para11", "para12", "para13"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                <li>
-                                {ctx.chapterTwo.Second[item]}
-                                </li>
-                            </Para>)}      
+                             
           </div>
                 </div>
                 : <div>
