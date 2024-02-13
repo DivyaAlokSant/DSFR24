@@ -64,7 +64,7 @@ const PublicAccount = () => {
                         <h3 className='headnote'>
                             ₹ In crore
                         </h3>
-                        {/* <Chart13 /> */}
+                       
                         <ImageComponent  src={c213} alt="chart23" aspectRatio={1 / 0.5} />
                         <h4 className='footnote'>
                             <i>
