@@ -36,93 +36,155 @@ const PublicAccount = () => {
                     <Navbar />
                     <div className="contentwrapper" id="home">
                         <FloatingActionButtons back="/finances/application" forward="/finances/debtmanagement" />
-                        <Title>{ctx.chapterTwo.Second.para14}</Title>
+                        <Title>{ctx.chapterTwo.para213}</Title>
 
-                        {["para15"].map((item, ind) =>
+                        {["para214"].map((item, ind) =>
                             <Para key={ind / 10}>
-                                {ctx.chapterTwo.Second[item]}
+                                {ctx.chapterTwo[item]}
                             </Para>)}
                         <Subtitle>
-                            {ctx.chapterTwo.Second["para16"]}
+                            <i>
+                            {ctx.chapterTwo["para215"]}
+                            </i>
                         </Subtitle>
-                        {["para17"].map((item, ind) =>
+                        {["para216"].map((item, ind) =>
                             <Para key={ind / 10}>
-                                {ctx.chapterTwo.Second[item]}
+                                {ctx.chapterTwo[item]}
                             </Para>)}
-                        <h3 className='headnote'>
-                            ₹ In crore
-                        </h3>
-                        <Table28 />
-                        <h4 className='footnote'>
+                        {["para217"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapterTwo[item]}
+                            </Para>)}
+                        <Subtitle>
                             <i>
-                                Source: Finance Accounts
-                                <br></br>
-                                Note: +ve denotes debit balance and –ve denotes credit balances
+                            {ctx.chapterTwo["para218"]}
                             </i>
-                        </h4>
+                        </Subtitle>
+                        {["para219","para220"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapterTwo[item]}
+                            </Para>)}
+                        <Subtitle>
+                            
+                            {ctx.chapterTwo["para221"]}
+                        
+                        </Subtitle>
+                        {["para222"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapterTwo[item]}
+                            </Para>)}
+                        <Subtitle>
+                            
+                            {ctx.chapterTwo["para223"]}
+                        
+                        </Subtitle>  
+                        {["para224","para225","para226"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapterTwo[item]}
+                            </Para>)} 
+                            <Subtitle>
+                            
+                            {ctx.chapterTwo["para227"]}
+                        
+                        </Subtitle> 
+                        {["para228","para229","para230","para231"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapterTwo[item]}
+                            </Para>)}  
+                        <Subtitle>
+                            
+                            {ctx.chapterTwo["para232"]}
+                        
+                        </Subtitle>
+                        {["para233","para234","para235"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapterTwo[item]}
+                            </Para>)}   
+                        <Subtitle>
+                            
+                            {ctx.chapterTwo["para236"]}
+                        
+                        </Subtitle> 
+                        {["para237","para238","para240","para241","para242"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapterTwo[item]}
+                            </Para>)}   
+                            
+                        <Subtitle>
+                            
+                            {ctx.chapterTwo["para243"]}
+                        
+                        </Subtitle> 
+                        {["para244","para245","para246","para247","para248","para249"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapterTwo[item]}
+                            </Para>)}   
+                        <Subtitle>
+                            
+                            {ctx.chapterTwo["para250"]}
+                        
+                        </Subtitle> 
+                        {["para251","para252","para253","para254","para255"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapterTwo[item]}
+                            </Para>)}   
+                        <Subtitle>
+                            
+                            {ctx.chapterTwo["para256"]}
+                        
+                        </Subtitle> 
+                        {["para257","para258","para259","para260"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapterTwo[item]}
+                            </Para>)} 
+                        <Subtitle>
+                            
+                            {ctx.chapterTwo["para261"]}
+                        
+                        </Subtitle> 
+                        {["para262","para263"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapterTwo[item]}
+                            </Para>)}  
+                        <Subtitle>
+                           <i>
+                            {ctx.chapterTwo["para261"]}
+                            </i> 
+                        </Subtitle> 
+                        {["para265","para266","para267"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapterTwo[item]}
+                            </Para>)}  
+                        <Subtitle>
+                           <i>
+                            {ctx.chapterTwo["para268"]}
+                            </i> 
+                        </Subtitle> 
+                        {["para269","para270"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapterTwo[item]}
+                            </Para>)}  
+                        <Subtitle>
+                           <i>
+                            {ctx.chapterTwo["para271"]}
+                            </i> 
+                        </Subtitle>
+                        {["para272","para273","para274","para275","para276","para277","para278","para279","para280"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapterTwo[item]}
+                            </Para>)}   
+                        <Subtitle>
+                           
+                            {ctx.chapterTwo["para281"]}
+                            
+                        </Subtitle>
+                        {["para282","para283","para284"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapterTwo[item]}
+                            </Para>)}  
+                            
 
-                        <h3 className='headnote'>
-                            ₹ In crore
-                        </h3>
-                       
-                        <ImageComponent  src={c213} alt="chart23" aspectRatio={1 / 0.5} />
-                        <h4 className='footnote'>
-                            <i>
-                                Source: Finance Accounts
-                            </i>
-                        </h4>
-
-                        {["para18", , "para19", "para19a", "Para20", "para21",
-                            "para22", "para23", "para26"].map((item, ind) =>
-                                <Para key={ind / 10}>
-                                    {ctx.chapterTwo.Second[item]}
-                                </Para>)}
-                        <Para>
-                            <li>
-                                {ctx.chapterTwo.Second.para27.substring(0, 113)}
-                                <span className="tooltip">
-                                    {ctx.chapterTwo.Second.para27.substring(113, 122)}
-                                    <span className="tooltiptext">
-                                        Green Tax Cess is cess on old vehicles which have completed fifteen years in respect of two
-                                        wheelers and non-transport vehicles and seven years in respect of transport vehicles at the time of renewal of Certificate of Registration in addition to the tax levied at the rates specified for the purpose of implementation of various measures to control air pollution.
-                                    </span>
-                                    <sup>27</sup>
-                                </span>
-                                {ctx.chapterTwo.Second.para27.substring(122,)}
-
-                            </li>
-                        </Para>
-
-                        {["para28", "para29", "Para29a", "Para29b", "para30", "para31",
-                            "para32", "para33", "para34", "para35", "para36",
-                            "para37", "para38", "para39",  "para40",
-                            "para41", "para42", "para43"].map((item, ind) =>
-                                <Para key={ind / 10}>
-                                    {ctx.chapterTwo.Second[item]}
-                                </Para>)}
-                        <h3 className='headnote'>
-                            ₹ In crore
-                        </h3>
-                        <Table29 />
-                        <h4 className='footnote'>
-                            <i>
-                                Source: XV Finance Commission and NTA 2020-21
-                            </i>
-                        </h4>
-
-                        {["para44", "para44a", "para44b", "para44c", "para44d", "para44e", "para44f", "para45", "para46",                            "para48", "para49", "para50", "para51",
-                            "para52", "para53", "para54", "para54a", "para54b"].map((item, ind) =>
-                                <Para key={ind / 10}>
-                                    {ctx.chapterTwo.Second[item]}
-                                </Para>)}
-                        <Para>
-                            {ctx.chapterTwo.Second.para54c}
-                        </Para>
-                        <Table29a/>        
-                         {["para54d", "para54e"].map((item, ind) =>
-                                <Para key={ind / 10}>
-                                    {ctx.chapterTwo.Second[item]}
-                                </Para>)}               
+                                       
                     </div>
                 </div>
                 : <div>
