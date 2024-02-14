@@ -9,19 +9,11 @@ import { styles } from "../helpers";
 
 const columns = [
     {
-        name: "",
-        selector: "1",
-        // grow: ,
+        name: "Subsidiy and its Parameters",
+        selector: "Subsidies and its Parameters",
+        grow:1.5 ,
         wrap: true,
         // width:'35px',
-    },
-    {
-        name: "2017 18",
-        selector: "2017 18",
-        // grow: 0.05,
-        // width:'110px',
-        wrap: true,
-        format: data => data["2017 18"].toLocaleString('en-IN')
     },
     {
         name: "2018 19",
@@ -53,7 +45,15 @@ const columns = [
         // width:'110px',
         wrap: true,
         format: data => data["2021 22"].toLocaleString('en-IN')
-    }
+    },
+    {
+        name: "2022 23",
+        selector: "2022 23",
+        // grow: 0.05,
+        // width:'110px',
+        wrap: true,
+        format: data => data["2022 23"].toLocaleString('en-IN')
+    },
 ];
 
 
@@ -67,7 +67,7 @@ const Table18 = () => {
         <div className="App" style={{ margin: "40px 0 40px 0" }} >
             <Card>
                 <DataTable
-                    title="Table 2.18: Expenditure on subsidies during 2017-18 to 2021-22"
+                    title="Table 2.24   Expenditure on subsidies during 2018-2023"
                     columns={columns}
                     data={ctx.tables2.Table18}
                     customStyles={customStyles}

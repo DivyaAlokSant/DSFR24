@@ -31031,30 +31031,70 @@
             "T17F3": "@excludes subsidies in the form of financial assistance",
             "Table18": [
                 {
-                    "1": "Subsidies(₹ in crore)",
-                    "2019 20": 17534,
-                    "2018 19": 15400,
-                    "2021 22": 28219,
-                    "2017 18": 14148,
-                    "2020 21": 18432
+                  "Subsidies and its Parameters": "Subsidies (₹ in crore)",
+                  "2018 19": "15,400",
+                  "2019 20": "17,534",
+                  "2020 21": "18,432",
+                  "2021 22": "28,219",
+                  "2022 23": "22,754"
                 },
                 {
-                    "1": "Subsidies as per cent of Revenue Receipts",
-                    "2018 19": 9.33,
-                    "2020 21": 11.76,
-                    "2017 18": 9.62,
-                    "2019 20": 9.99,
-                    "2021 22": 14.41
+                  "Subsidies and its Parameters": "Power Subsidy (₹ in crore)",
+                  "2018 19": "7,593",
+                  "2019 20": "9,110",
+                  "2020 21": "9,139",
+                  "2021 22": "14,736",
+                  "2022 23": "11,512"
                 },
                 {
-                    "1": "Subsidies as per cent of Revenue Expenditure",
-                    "2021 22": 13.47,
-                    "2019 20": 10.06,
-                    "2020 21": 10.47,
-                    "2018 19": 9.37,
-                    "2017 18": 9.93
+                  "Subsidies and its Parameters": "Subsidy on Food and Supplies (₹ in crore)",
+                  "2018 19": "2,404",
+                  "2019 20": "2,692",
+                  "2020 21": "2,324",
+                  "2021 22": "6,057",
+                  "2022 23": "2,015"
+                },
+                {
+                  "Subsidies and its Parameters": "Subsidies on others (₹ in crore)",
+                  "2018 19": "5,403",
+                  "2019 20": "5,732",
+                  "2020 21": "6,969",
+                  "2021 22": "7,426",
+                  "2022 23": "9,227"
+                },
+                {
+                  "Subsidies and its Parameters": "Subsidies as percentage of Revenue Receipts",
+                  "2018 19": 9.33,
+                  "2019 20": 9.99,
+                  "2020 21": 11.76,
+                  "2021 22": 14.41,
+                  "2022 23": 9.93
+                },
+                {
+                  "Subsidies and its Parameters": "Subsidies as percentage of Revenue Expenditure",
+                  "2018 19": 9.37,
+                  "2019 20": 10.06,
+                  "2020 21": 10.47,
+                  "2021 22": 13.47,
+                  "2022 23": 10.55
+                },
+                {
+                  "Subsidies and its Parameters": "Subsidies as percentage of Total Expenditure",
+                  "2018 19": 7.57,
+                  "2019 20": 8.2,
+                  "2020 21": 8.22,
+                  "2021 22": 10.79,
+                  "2022 23": 8.24
+                },
+                {
+                  "Subsidies and its Parameters": "Power subsidy as percentage to total subsidy",
+                  "2018 19": 49.31,
+                  "2019 20": 51.96,
+                  "2020 21": 49.58,
+                  "2021 22": 52.22,
+                  "2022 23": 50.59
                 }
-            ],
+              ],
             "T20H1": "Financial Assistance to Other institutions",
             "Table33": {
                 "t33h1": "    Table 2.32: Components of fiscal deficit and its financing pattern",
@@ -32417,30 +32457,127 @@
             "T16F1": "Source: Finance Accounts",
             "Table19": [
                 {
-                    "2021 22": 39835.19,
-                    "2018 19": 35897.61,
-                    "2020 21": 38106.18,
-                    "2019 20": 38049.61,
-                    "2017 18": 31054.63,
-                    "Name of the Institution": "Panchayat Raj Institutions"
+                  "Institutions": "Local Bodies",
+                  "2018 19": "",
+                  "2019 20": "",
+                  "2020 21": "",
+                  "2021 22": "",
+                  "2022 23": ""
                 },
                 {
-                    "2021 22": 6615.83,
-                    "Name of the Institution": "Urban Local Bodies",
-                    "2017 18": 6489.76,
-                    "2020 21": 5681.04,
-                    "2019 20": 6424.72,
-                    "2018 19": 5425.31
+                  "Institutions": "Municipal Corporations and Municipalities",
+                  "2018 19": "5,425.31",
+                  "2019 20": "6,424.72",
+                  "2020 21": "5,681.04",
+                  "2021 22": "6,615.83",
+                  "2022 23": "5,661.86"
                 },
                 {
-                    "2017 18": 37544.39,
-                    "2020 21": 43787.22,
-                    "Name of the Institution": "Total",
-                    "2019 20": 44474.33,
-                    "2018 19": 41322.92,
-                    "2021 22": 46451.02
+                  "Institutions": "Panchayati Raj Institutions",
+                  "2018 19": "35,897.61",
+                  "2019 20": "38,049.61",
+                  "2020 21": "38,106.18",
+                  "2021 22": "39,835.19",
+                  "2022 23": "44,947.51"
+                },
+                {
+                  "Institutions": "Total(A)",
+                  "2018 19": "41,332.92",
+                  "2019 20": "44,474.33",
+                  "2020 21": "43,787.22",
+                  "2021 22": "46,451.02",
+                  "2022 23": "50,609.37"
+                },
+               
+                {
+                  "Institutions": "Others",
+                  "2018 19": "",
+                  "2019 20": "",
+                  "2020 21": "",
+                  "2021 22": "",
+                  "2022 23": ""
+                },
+                {
+                  "Institutions": "Educational Institutions (Sided Schools, Colleges, Universities, etc.)",
+                  "2018 19": "1,081.29",
+                  "2019 20": "1,405.90",
+                  "2020 21": "1,140.43",
+                  "2021 22": "1,134.75",
+                  "2022 23": "1,217.01"
+                },
+                {
+                  "Institutions": "Development Authorities",
+                  "2018 19": "1,848.83",
+                  "2019 20": 184.66,
+                  "2020 21": "1,864.88",
+                  "2021 22": "2,564.04",
+                  "2022 23": "2,586.85"
+                },
+                {
+                  "Institutions": "Other Institutions",
+                  "2018 19": "6,349.52",
+                  "2019 20": "6,848.00",
+                  "2020 21": "6,978.06",
+                  "2021 22": "7,432.23",
+                  "2022 23": "8,294.53"
+                },
+                {
+                  "Institutions": "Total (B)",
+                  "2018 19": "9,279.64",
+                  "2019 20": "10,128.56",
+                  "2020 21": "9,983.37",
+                  "2021 22": "11,131.02",
+                  "2022 23": "12,098.39"
+                },
+                {
+                  "Institutions": "Total (A+B)",
+                  "2018 19": "5,06,202.56",
+                  "2019 20": "54,602.89",
+                  "2020 21": "53,770.59",
+                  "2021 22": "57,582.04",
+                  "2022 23": "62,707.76"
+                },
+                {
+                  "Institutions": "GIA on Salary",
+                  "2018 19": "4,308.06",
+                  "2019 20": "5,282.39",
+                  "2020 21": "4,883.45",
+                  "2021 22": "4,919.17",
+                  "2022 23": "5,037.84"
+                },
+                {
+                  "Institutions": "GIA for creation of Capital assets",
+                  "2018 19": "2,731.81",
+                  "2019 20": "2,724.70",
+                  "2020 21": "1,862.66",
+                  "2021 22": "1,815.24",
+                  "2022 23": "2,722.46"
+                },
+                {
+                  "Institutions": "GIA for non-salary",
+                  "2018 19": 674.99,
+                  "2019 20": 747.57,
+                  "2020 21": 955.47,
+                  "2021 22": "1,066.21",
+                  "2022 23": "1,299.51"
+                },
+                {
+                  "Institutions": "Revenue Expenditure",
+                  "2018 19": "1,64,300.00",
+                  "2019 20": "1,74,258.00",
+                  "2020 21": "1,76,054.00",
+                  "2021 22": "2,09,428.00",
+                  "2022 23": "2,15,584.00"
+                },
+                {
+                  "Institutions": "Assistance as percentage of Revenue Expenditure",
+                  "2018 19": 30.8,
+                  "2019 20": 31.33,
+                  "2020 21": 30.54,
+                  "2021 22": 27.49,
+                  "2022 23": 29.09
                 }
-            ],
+              ],
             "T14H1": "Revenue expenditure – Basic parameters",
             "table2.28": {
                 "t28h2": "(in per cent)",
