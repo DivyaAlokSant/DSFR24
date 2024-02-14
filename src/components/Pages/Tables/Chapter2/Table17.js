@@ -9,50 +9,50 @@ import { styles } from "../helpers";
 
 const columns = [
   {
-    name: "",
-    selector: "0",
-    // grow: ,
-    wrap: true,
-    // width:'35px',
+      name: "Components of Committed Expenditure",
+      selector: "Components of Committed Expenditure",
+      // grow: ,
+      wrap: true,
+      width:'200px',
   },
   {
-    name: "XV FC assessment",
-    selector: "XV FC assessment",
-    // grow: 0.05,
-    // width:'110px',
-    wrap: true,
-    format: data => data["XV FC assessment"].toLocaleString('en-IN')
+      name: "2018-19",
+      selector: "2018 19",
+      // grow: 0.05,
+      // width:'110px',
+      wrap: true,
+      format: data => data["2018 19"].toLocaleString('en-IN')
   },
   {
-    name: "Budget Estimates",
-    selector: "Budget Estimates",
-    // grow: 0.05,
-    // width:'110px',
-    wrap: true,
-    format: data => data["Budget Estimates"].toLocaleString('en-IN')
+      name: "2019-20",
+      selector: "2019 20",
+      // grow: 0.05,
+      // width:'110px',
+      wrap: true,
+      format: data => data["2019 20"].toLocaleString('en-IN')
   },
   {
-    name: "Actual",
-    selector: "Actual",
-    // grow: 0.05,
-    // width:'110px',
-    wrap: true,
-    format: data => data["Actual"].toLocaleString('en-IN')
+      name: "2020-21",
+      selector: "2020 21",
+      // grow:0.05,
+      wrap: true,
+      format: data => data["2020 21"].toLocaleString('en-IN')
   },
   {
-    name: "Percentage variation of actual over",
-    selector: "Percentage variation of actual over",
-    // grow:0.05,
-    wrap: true,
-    format: data => data["Percentage variation of actual over"].toLocaleString('en-IN')
+      name: "2021-22",
+      selector: "2021 22",
+      // grow: 0.05,
+      // width:'110px',
+      wrap: true,
+      format: data => data["2021 22"].toLocaleString('en-IN')
   },
   {
-    name: "",
-    selector: "1",
-    // grow: 0.05,
-    // width:'110px',
-    wrap: true,
-    format: data => data["1"].toLocaleString('en-IN')
+      name: "2022-23",
+      selector: "2022 23",
+      // grow: 0.05,
+      // width:'110px',
+      wrap: true,
+      format: data => data["2022 23"].toLocaleString('en-IN')
   }
 ];
 
@@ -82,7 +82,7 @@ const Table17 = () => {
     <div className="App" style={{ margin: "40px 0 40px 0" }} >
       <Card>
         <DataTable
-          title="Table 2.18: Tax and non-Tax receipts vis-à-vis projections during 2022-23"
+          title="Table 2.23: Components of Committed Expenditure"
           columns={columns}
           data={ctx.tables2.Table17}
           customStyles={customStyles}
