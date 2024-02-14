@@ -47,7 +47,17 @@ const Dsa = () => {
                     <div className="contentwrapper" id="home">
                         <FloatingActionButtons back="/finances/debtmanagement" forward="/finances/conclusion" />
                         <Title>{ctx.chapterTwo.para308}</Title>
-                        {["para309","para310","para311","para312","para313","para314","para315","para316","para317","para318","para319","para320","para321","para322","para323"].map((item, ind) =>
+                        {["para309","para310","para311","para312","para313"].map((item, ind) =>
+                           <Para key={ind / 10}>
+                               {ctx.chapterTwo[item]}
+                           </Para>)}  
+                        {["para314","para315","para316","para317","para318","para319"].map((item, ind) =>
+                           <Para key={ind / 10}>
+                           <li>
+                               {ctx.chapterTwo[item]}
+                            </li>
+                           </Para>)}  
+                           {["para319","para320","para321","para322","para323"].map((item, ind) =>
                            <Para key={ind / 10}>
                                {ctx.chapterTwo[item]}
                            </Para>)}  
@@ -78,8 +88,94 @@ const Dsa = () => {
                            <Para key={ind / 10}>
                                {ctx.chapterTwo[item]}
                            </Para>)}  
-                            
-                            
+                    <Subtitle>
+                         
+                            {ctx.chapterTwo["para345"]}
+                       
+                    </Subtitle>
+                    <Subtitle>
+                           <i>
+                            {ctx.chapterTwo["para346"]}
+                            </i> 
+                    </Subtitle>
+                    {["para347"].map((item, ind) =>
+                           <Para key={ind / 10}>
+                               {ctx.chapterTwo[item]}
+                           </Para>)}  
+                    <Subtitle>
+                           <i>
+                            {ctx.chapterTwo["para348"]}
+                            </i> 
+                    </Subtitle>
+                    <Subtitle>
+                           <i>
+                            {ctx.chapterTwo["para349"]}
+                            </i> 
+                    </Subtitle>
+                    {["para350","para351"].map((item, ind) =>
+                           <Para key={ind / 10}>
+                               {ctx.chapterTwo[item]}
+                           </Para>)}  
+                    <Subtitle>
+                           <i>
+                            {ctx.chapterTwo["para352"]}
+                            </i> 
+                    </Subtitle>
+                    <Subtitle>
+                           <i>
+                            {ctx.chapterTwo["para353"]}
+                            </i> 
+                    </Subtitle>
+                    {["para354","para355"].map((item, ind) =>
+                           <Para key={ind / 10}>
+                               {ctx.chapterTwo[item]}
+                           </Para>)}  
+                  
+                           
+                           {["para356","para357"].map((item, ind) =>
+                           <Subtitle key={ind / 10}>
+                            <i>
+                               {ctx.chapterTwo[item]}
+                            </i>
+                           </Subtitle>)}  
+                                                   
+                    
+                    <Subtitle>
+                           <i>
+                            {ctx.chapterTwo["para358"]}
+                            </i> 
+                    </Subtitle>
+                    {["para359"].map((item, ind) =>
+                           <Para key={ind / 10}>
+                               {ctx.chapterTwo[item]}
+                           </Para>)}  
+                    <Subtitle>
+                           <i>
+                            {ctx.chapterTwo["para360"]}
+                            </i> 
+                    </Subtitle>
+                    {["para361"].map((item, ind) =>
+                           <Para key={ind / 10}>
+                               {ctx.chapterTwo[item]}
+                           </Para>)}  
+                           
+                    <Subtitle>
+                           <i>
+                            {ctx.chapterTwo["para362"]}
+                            </i> 
+                    </Subtitle>
+                    {["para363"].map((item, ind) =>
+                           <Para key={ind / 10}>
+                               {ctx.chapterTwo[item]}
+                           </Para>)}  
+                    <Subtitle>
+                           <i>
+                            {ctx.chapterTwo["para364"]}
+                            </i> 
+                    </Subtitle>
+                           
+                  
+
 
                        
 
