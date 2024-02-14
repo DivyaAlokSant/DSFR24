@@ -9,8 +9,8 @@ import { styles } from "../helpers";
 
 const columns = [
     {
-        name: "Head",
-        selector: "Head",
+        name: "Parameters",
+        selector: "Parameters",
         // grow: ,
         wrap: true,
         width:'200px',
@@ -69,7 +69,7 @@ const Table14 = () => {
         <div className="App" style={{ margin: "40px 0 40px 0" }} >
             <Card>
                 <DataTable
-                    title="Table 2.15: Grants-in-aid from GoI"
+                    title="Table 2.20: Revenue Expenditure – Basic parameters"
                     columns={columns}
                     data={ctx.tables2.Table14}
                     customStyles={customStyles}

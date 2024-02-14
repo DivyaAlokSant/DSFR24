@@ -9,50 +9,34 @@ import { styles } from "../helpers";
 
 const columns = [
     {
-        name: "Sources of State’s Receipts",
-        selector: "0",
+        name: "Head",
+        selector: "Head",
         grow: 1.5,
         wrap: true,
         //width:'200px',
     },
     {
-        name: "2018-19",
-        selector: "2018 19",
+        name: "Budget 2022-23",
+        selector: "Budget 2022 23",
         // grow: 0.05,
         // width:'110px',
         wrap: true,
-        format: data => data["2018 19"].toLocaleString('en-IN')
+        format: data => data["Budget 2022 23"].toLocaleString('en-IN')
     },
     {
-        name: "2019-20",
-        selector: "2019 20",
+        name: "Expenditure",
+        selector: "Expenditure",
         // grow: 0.05,
         // width:'110px',
         wrap: true,
-        format: data => data["2019 20"].toLocaleString('en-IN')
+        format: data => data["Expenditure"].toLocaleString('en-IN')
     },
     {
-        name: "2020-21",
-        selector: "2020 21",
+        name: "Utilisation percentage",
+        selector: "Utilisation percentage",
         // grow:0.05,
         wrap: true,
-        format: data => data["2020 21"].toLocaleString('en-IN')
-    },
-    {
-        name: "2021-22",
-        selector: "2021 22",
-        // grow: 0.05,
-        // width:'110px',
-        wrap: true,
-        format: data => data["2021 22"].toLocaleString('en-IN')
-    },
-    {
-        name: "2022-23",
-        selector: "2022 23",
-        // grow: 0.05,
-        // width:'110px',
-        wrap: true,
-        format: data => data["2022 23"].toLocaleString('en-IN')
+        format: data => data["Utilisation percentage"].toLocaleString('en-IN')
     }
 ];
 
@@ -66,7 +50,7 @@ const Table16 = () => {
         <div className="App" style={{ margin: "40px 0 40px 0" }} >
             <Card>
                 <DataTable
-                    title="Table 2.17: Trends in growth and composition of Capital Receipts"
+                    title="Table 2.22: Object Head-wise expenditure vis-à-vis budget authorization"
                     columns={columns}
                     data={ctx.tables2.Table16}
                     customStyles={customStyles}
