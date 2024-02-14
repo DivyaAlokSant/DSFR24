@@ -46,128 +46,44 @@ const Dsa = () => {
                     <Navbar />
                     <div className="contentwrapper" id="home">
                         <FloatingActionButtons back="/finances/debtmanagement" forward="/finances/conclusion" />
-                        <Title>{ctx.chapterTwo.Second.para79}</Title>
+                        <Title>{ctx.chapterTwo.para308}</Title>
+                        {["para309","para310","para311","para312","para313","para314","para315","para316","para317","para318","para319","para320","para321","para322","para323"].map((item, ind) =>
+                           <Para key={ind / 10}>
+                               {ctx.chapterTwo[item]}
+                           </Para>)}  
+                    <Subtitle>
+                           <i>
+                            {ctx.chapterTwo["para324"]}
+                            </i> 
+                    </Subtitle>
+                    {["para325","para326"].map((item, ind) =>
+                           <Para key={ind / 10}>
+                               {ctx.chapterTwo[item]}
+                           </Para>)}  
+                    <Subtitle>
+                           <i>
+                            {ctx.chapterTwo["para327"]}
+                            </i> 
+                    </Subtitle>
+                    {["para328","para329","para330","para331"].map((item, ind) =>
+                           <Para key={ind / 10}>
+                               {ctx.chapterTwo[item]}
+                           </Para>)}  
+                    <Subtitle>
+                           <i>
+                            {ctx.chapterTwo["para332"]}
+                            </i> 
+                    </Subtitle>
+                    {["para333","para334","para335","para336","para337","para338","para339","para340","para341","para342","para343","para344"].map((item, ind) =>
+                           <Para key={ind / 10}>
+                               {ctx.chapterTwo[item]}
+                           </Para>)}  
+                            
+                            
 
-                        {["para80", "para81", "para82"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterTwo.Second[item]}
-                            </Para>)}
-                        <h3 className='headnote'>
-                            ₹ In crore
-                        </h3>
-                        <Table35 />
-                        <h6>*Outstanding Public Debt is the sum of outstanding balances under the heads 6003-Internal Debt and 6004-Loans and Advances from Government of India.
-                            <br></br>
-                            #Net debt available to the State Government is calculated as excess of Public Debt receipts over Public Debt repayment and interest payments on Public Debt and does not include back-to-back loans received from GoI as GST compensation.
-                            <br></br>
-                            ^The back-to-back Loan (₹ 30,516 crore) received from GoI in lieu of GST compensation has not been considered as Debt for working out the indicator.
-                            <br></br>
-                            ** Includes `30,516 crore of back to back loans received in lieu of GST compensation during 2020-21 and 2021-22.
-                            <br></br>
-                            Quantum Spread is Interest Spread as percentage of debt stock.  Interest Spread is the difference of rate of growth of GSDP and Average interest rate on Outstanding public debt. If the Quantum Spread together with primary deficit is zero, debt-GSDP ratio would be constant, or debt would stabilize eventually. If it is negative, debt-GSDP would be rising and in case if it is positive, debt-GSDP would eventually tally.
-                            </h6>
-                        {["para83", "para84"].map((item, ind) =>
-                                <Para key={ind / 10}>
-                                    {ctx.chapterTwo.Second[item]}
-                                </Para>)}
-                        {["para85", "para86"].map((item, ind) =>
-                                <Para key={ind / 10}>
-                                    <li>
-                                    {ctx.chapterTwo.Second[item]}
-                                    </li>
-                                </Para>)}   
-                                <Para>    
-                                    {ctx.chapterTwo.Second.para87}
-                                </Para>    
-                        {["para88", "para89", "para90", "para91", "para92", "para93"].map((item, ind) =>
-                                <Para key={ind / 10}>
-                                    <li>
-                                    {ctx.chapterTwo.Second[item]}
-                                    </li>
-                                </Para>)}    
+                       
 
-                        <Subtitle>
-                            {ctx.chapterTwo.Second["para95"]}
-                        </Subtitle>
-                        <Para>
-                            {ctx.chapterTwo.Second["para96"]}
-                        </Para>
-                        <h3 className='headnote'>
-                            ₹ In crore
-                        </h3>
-                        <Table37 />
-                        {["para97", "para98"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterTwo.Second[item]}
-                            </Para>)}
-                            <Subtitle>
-                            {ctx.chapterTwo.Second["para99"]}
-                        </Subtitle>
-                        <Para>
-                        {ctx.chapterTwo.Second["para100"]}
-                        </Para>
-                        <h3 className='headnote'>
-                            ₹ In crore
-                        </h3>
-                        <Table38 />
-                        <Para>
-                                {ctx.chapterTwo.Second.para101.substring(0,)}
-                                <span className="tooltip">
-                                    <span className="tooltiptext">
-                                    Irrigation (`14,495 crore), Co-operation (`1,208 crore), Finance (`1,026 crore), Power (`12,970 crore), Housing (`2,003 crore), Transport (`608 crore) and other sectors (`785 crore)
-                                        </span>
-                                    <sup>29</sup>
-                                </span>
-
-                       </Para>
-
-                        {["para102", "para103"].map((item, ind) =>
-                                <Para key={ind / 10}>
-                                    {ctx.chapterTwo.Second[item]}
-                                </Para>)}
-                                <Subtitle>
-                                {ctx.chapterTwo.Second["para107"]}
-                                </Subtitle>
-                            <Para>
-                                   {ctx.chapterTwo.Second["para108"]}
-                            </Para>
                         
-                        {["para109", "para110", "para111"].map((item, ind) =>
-                                <Para key={ind / 10}>
-                                  <li>  
-                                    {ctx.chapterTwo.Second[item]}
-                                  </li>
-                                </Para>)}
-                        <h3 className='headnote'>
-                            ₹ In crore
-                        </h3>
-                        <Table39 />
-                        {["para112", "para113", "para114", "para115"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterTwo.Second[item]}
-                            </Para>)}
-                        <h3 className='headnote'>
-                            ₹ In crore
-                        </h3>
-                        <Table40 />
-                        {["para116", "para117"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterTwo.Second[item]}
-                            </Para>)}
-                        {/* <Chart17 /> */}
-                        <ImageComponent  src={c218} alt="chart23" aspectRatio={1 / 0.5} />
-                        {["para118", "para119"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterTwo.Second[item]}
-                            </Para>)}
-                        {/* <Chart18 />
-                        <Chart19 /> */}
-                        <ImageComponent  src={c219} alt="chart23" aspectRatio={1 / 0.6} />
-                        <ImageComponent  src={c220} alt="chart23" aspectRatio={1 / 0.7} />
-                        {["para120", "para121"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterTwo.Second[item]}
-                            </Para>)}
 
                     </div>
                 </div>

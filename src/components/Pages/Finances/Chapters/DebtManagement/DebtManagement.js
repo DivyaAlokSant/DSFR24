@@ -53,7 +53,44 @@ const DebtManagement = () => {
                            <Para key={ind / 10}>
                                {ctx.chapterTwo[item]}
                            </Para>)}  
-                            
+                    <Subtitle>
+                          <i> 
+                           {ctx.chapterTwo["para285"]}
+                           </i> 
+                    </Subtitle>
+                    {["para286","para287","para288","para289","para290"].map((item, ind) =>
+                           <Para key={ind / 10}>
+                               {ctx.chapterTwo[item]}
+                           </Para>)}  
+                    <Subtitle>
+                           
+                           {ctx.chapterTwo["para291"]}
+                           
+                    </Subtitle>
+                    {["para292","para293","para294","para294","para295","para296","para297","para298","para299","para300"].map((item, ind) =>
+                           <Para key={ind / 10}>
+                               {ctx.chapterTwo[item]}
+                           </Para>)}  
+                    <Subtitle>
+                         <i> 
+                           {ctx.chapterTwo["para301"]}
+                        </i> 
+                    </Subtitle>
+                    {["para302","para303","para304"].map((item, ind) =>
+                           <Para key={ind / 10}>
+                               {ctx.chapterTwo[item]}
+                           </Para>)}
+                    <Subtitle>
+                         <i> 
+                           {ctx.chapterTwo["para305"]}
+                        </i> 
+                    </Subtitle>
+                    {["para306","para307"].map((item, ind) =>
+                           <Para key={ind / 10}>
+                               {ctx.chapterTwo[item]}
+                           </Para>)}
+
+                    
                         
                     </div>
                 </div>
