@@ -32238,38 +32238,90 @@
             "T21F1": "Source: Finance Accounts",
             "Table20": [
                 {
-                    "2019 20": 1405.9,
-                    "2020 21": 1140.43,
-                    "Name of the Institution": "Educational Institutions (including Universities)",
-                    "2018 19": 1081.29,
-                    "2021 22": 1134.75,
-                    "2017 18": 1293.7
+                  "1": 2899.46,
+                  "Major Heads of Account": "5054-Capital Outlay on Roads and Bridges",
+                  "2021 22": "9,806.83",
+                  "2022 23": "12,706.29",
+                  "Variation in percentage": 29.57
                 },
                 {
-                    "2019 20": 1275.78,
-                    "2018 19": 1477.76,
-                    "2021 22": 1405.67,
-                    "2020 21": 1186.04,
-                    "Name of the Institution": "Co-operative Societies and Co-operative Institutions",
-                    "2017 18": 1191.32
+                  "1": 1627.51,
+                  "Major Heads of Account": "4701-Capital Outlay on Medium Irrigation",
+                  "2021 22": "16,361.95",
+                  "2022 23": "17,989.46",
+                  "Variation in percentage": 9.95
                 },
                 {
-                    "2017 18": 7067.08,
-                    "2020 21": 7656.9,
-                    "2021 22": 8590.6,
-                    "Name of the Institution": "Other institutions and bodies (including PSUs, NGOs &Statutory Bodies)",
-                    "2019 20": 7446.88,
-                    "2018 19": 6720.59
+                  "1": 1277.35,
+                  "Major Heads of Account": "4217-Capital Outlay on Urban Development",
+                  "2021 22": "4,541.04",
+                  "2022 23": "5,818.39",
+                  "Variation in percentage": 28.13
                 },
                 {
-                    "2018 19": 9279.64,
-                    "2019 20": 10128.56,
-                    "Name of the Institution": "Total",
-                    "2020 21": 9983.37,
-                    "2021 22": 11131.02,
-                    "2017 18": 9552.1
+                  "1": 1088.16,
+                  "Major Heads of Account": "5055-Capital Outlay on Road Transport",
+                  "2021 22": 312.72,
+                  "2022 23": "1,400.88",
+                  "Variation in percentage": 347.97
+                },
+                {
+                  "1": 535.06,
+                  "Major Heads of Account": "4702-Capital Outlay on Minor Irrigation",
+                  "2021 22": "2,512.53",
+                  "2022 23": "3,047.59",
+                  "Variation in percentage": 21.3
+                },
+                {
+                  "1": 524,
+                  "Major Heads of Account": "4801-Capital Outlay on Power Projects",
+                  "2021 22": 200,
+                  "2022 23": 724,
+                  "Variation in percentage": 262
+                },
+                {
+                  "1": 362.21,
+                  "Major Heads of Account": "4225-Capital Outlay on Welfare of Scheduled Castes, Scheduled Tribes, Other Backward Classes and Minorities",
+                  "2021 22": "1,952.86",
+                  "2022 23": "2,315.07",
+                  "Variation in percentage": 18.55
+                },
+                {
+                  "1": 258.81,
+                  "Major Heads of Account": "4059-Capital Outlay on Public Works",
+                  "2021 22": 778.26,
+                  "2022 23": "1,037.07",
+                  "Variation in percentage": 33.25
+                },
+                {
+                  "1": "(-)0.49",
+                  "Major Heads of Account": "4711-Capital Outlay on Flood Control Projects",
+                  "2021 22": 142.09,
+                  "2022 23": 141.6,
+                  "Variation in percentage": "(-)0.34"
+                },
+                {
+                  "1": "(-)44.06",
+                  "Major Heads of Account": "4202-Capital Outlay on Education, Sports, Art and Culture",
+                  "2021 22": "1,634.07",
+                  "2022 23": "1,590.01",
+                  "Variation in percentage": "(-)2.70"
+                },
+                {
+                  "1": "(-)1055.87",
+                  "Major Heads of Account": "4215-Capital Outlay on Water Supply and Sanitation",
+                  "2021 22": "1,967.79",
+                  "2022 23": 911.92,
+                  "Variation in percentage": "(-)53.66"
+                },
+                {
+                  "1": "(-)1344.58",
+                  "Major Heads of Account": "4210-Capital Outlay on Medical and Public Health",
+                  "2021 22": "2,574.84",
+                  "2022 23": "1,230.26",
+                  "Variation in percentage": "(-)52.22"
                 }
-            ],
+              ],
             "Table20a": [
                 {
                     "Details": "Date of Constitution",
@@ -32364,90 +32416,46 @@
             "T5H2": "(₹ in crore)",
             "Table21": [
                 {
-                    "Major Heads of Account": "4059-Capital Outlay on Public Works",
-                    "2020 21": 838.53,
-                    "2021 22": 778.26,
-                    "Increase Decrease (In crore )": "(-)60.27",
-                    "Variation in percentage": "(-)7.19"
+                  "": "Investments as at the end of the year (₹ in crore)",
+                  "2018 19": "66,518.28",
+                  "2019 20": "67,816.71",
+                  "2020 21": "68,256.68",
+                  "2021 22": "70,657.43",
+                  "2022 23": "72,799.77"
                 },
                 {
-                    "Major Heads of Account": "4202-Capital Outlay on Education, Sports, Art and Culture",
-                    "2020 21": "1,167.87",
-                    "2021 22": "1,634.07",
-                    "Increase Decrease (In crore )": 466.2,
-                    "Variation in percentage": 39.92
+                  "": "Return (₹ in crore)",
+                  "2018 19": 38.3,
+                  "2019 20": 53.64,
+                  "2020 21": 80.7,
+                  "2021 22": 349.77,
+                  "2022 23": 425.23
                 },
                 {
-                    "Major Heads of Account": "4210-Capital Outlay on Medical and Public Health",
-                    "2020 21": "2,099.44",
-                    "2021 22": "2,574.84",
-                    "Increase Decrease (In crore )": 475.4,
-                    "Variation in percentage": 22.64
+                  "": "Return (in per cent)",
+                  "2018 19": 0.1,
+                  "2019 20": 0.1,
+                  "2020 21": 0.12,
+                  "2021 22": 0.49,
+                  "2022 23": 0.58
                 },
                 {
-                    "Major Heads of Account": "4215-Capital Outlay on Water Supply and Sanitation",
-                    "2020 21": "3,211.90",
-                    "2021 22": "1,967.79",
-                    "Increase Decrease (In crore )": "(-)1,244.11",
-                    "Variation in percentage": "(-)38.73"
+                  "": "Average rate of interest on Government borrowings (per cent)",
+                  "2018 19": 6.25,
+                  "2019 20": 6.39,
+                  "2020 21": 6.22,
+                  "2021 22": 6,
+                  "2022 23": 5.7
                 },
                 {
-                    "Major Heads of Account": "4217-Capital Outlay on Urban Development",
-                    "2020 21": "3,332.11",
-                    "2021 22": "4,541.04",
-                    "Increase Decrease (In crore )": "1,208.93",
-                    "Variation in percentage": 36.28
-                },
-                {
-                    "Major Heads of Account": "4225-Capital Outlay on Welfare of Scheduled Castes, Scheduled Tribes, Other Backward Classes and Minorities",
-                    "2020 21": "1,163.80",
-                    "2021 22": "1,952.86",
-                    "Increase Decrease (In crore )": 789.06,
-                    "Variation in percentage": 67.8
-                },
-                {
-                    "Major Heads of Account": "4701-Capital Outlay on Medium Irrigation",
-                    "2020 21": "14,993.82",
-                    "2021 22": "16,361.95",
-                    "Increase Decrease (In crore )": "1,368.13",
-                    "Variation in percentage": 9.12
-                },
-                {
-                    "Major Heads of Account": "4702-Capital Outlay on Minor Irrigation",
-                    "2020 21": "2,585.90",
-                    "2021 22": "2,512.53",
-                    "Increase Decrease (In crore )": "(-)73.37",
-                    "Variation in percentage": "(-)2.84"
-                },
-                {
-                    "Major Heads of Account": "4711-Capital Outlay on Flood Control Projects",
-                    "2020 21": 157.74,
-                    "2021 22": 142.09,
-                    "Increase Decrease (In crore )": "(-)15.65",
-                    "Variation in percentage": "(-)9.92"
-                },
-                {
-                    "Major Heads of Account": "4801-Capital Outlay on Power Projects",
-                    "2020 21": 650.12,
-                    "2021 22": 200,
-                    "Increase Decrease (In crore )": "(-)450.12",
-                    "Variation in percentage": "(-)69.24"
-                },
-                {
-                    "Major Heads of Account": "5054-Capital Outlay on Roads and Bridges",
-                    "2020 21": "10,548.97",
-                    "2021 22": "9,806.83",
-                    "Increase Decrease (In crore )": "(-)742.14",
-                    "Variation in percentage": "(-)7.04"
-                },
-                {
-                    "Major Heads of Account": "5055-Capital Outlay on Road Transport",
-                    "2020 21": 368.59,
-                    "2021 22": 312.72,
-                    "Increase Decrease (In crore )": "(-)55.87",
-                    "Variation in percentage": "(-)15.16"
+                  "": "Difference between interest rate and return on investment (per cent)",
+                  "2018 19": 6.15,
+                  "2019 20": 6.29,
+                  "2020 21": 6.1,
+                  "2021 22": 5.51,
+                  "2022 23": 5.12
                 }
-            ],
+              ],
             "T16H1": "Object Head-wise expenditure vis-à-vis budget authorization",
             "T3F1": "Source: Finance Accounts and Economic Survey of GoK",
             "T21H1": "Capital Outlay during 2020-21 compared to 2019-20",

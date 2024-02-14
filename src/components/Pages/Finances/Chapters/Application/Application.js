@@ -361,7 +361,17 @@ const Application = () => {
                         </Subtitle>  
                         <Para >
                             {ctx.chapterTwo.Para168}
-                        </Para>     
+                        </Para>  
+
+                        <h3 className='headnote'>
+                            ₹ In crore
+                        </h3>
+                        <Table20 />
+                        <h4>
+                            <i>
+                                Source: Finance Accounts
+                            </i>
+                        </h4>
                          
                         <Para >
                             {ctx.chapterTwo.Para169}
@@ -400,7 +410,19 @@ const Application = () => {
                         <Para >
                             
                             {ctx.chapterTwo.Para178}
-                        </Para>    
+                        </Para>   
+
+                        <h3 className='headnote'>
+                            ₹ In crore
+                        </h3>
+                        <Table21 />
+                        <h4>
+                            <i>
+                                Source: Finance Accounts
+                            </i>
+                        </h4>    
+
+
                         {["Para179","Para180","Para181"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
@@ -887,6 +909,9 @@ const Application = () => {
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
                         </Para>)}
+
+
+
                         <Subtitle>
                             <i>
                             {ctx.chapter2kannada.Content.para179}
