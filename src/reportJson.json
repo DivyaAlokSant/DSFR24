@@ -29089,83 +29089,72 @@
                 ]
             },
             "Table 2.32": "Entity-wise position of off-budget borrowings",
-            "Table32": {
-                "t32h1": "(₹ in crore)",
-                "t32": [
-                    {
-                        "CompanyCorporationBoard": "",
-                        "Outstandingborrowing": "",
-                        "Borrowings2020 21": "",
-                        "Repayment2021 22": "Principal",
-                        "Repayment": "Interest",
-                        "Closing Balance": ""
-                    },
-                    {
-                        "CompanyCorporationBoard": "Krishna Bhagya Jala Nigam Limited",
-                        "Outstandingborrowing": "7,601.86",
-                        "Borrowings2020 21": 500,
-                        "Repayment2021 22": "1,849.72",
-                        "Repayment": 535.01,
-                        "Closing Balance": "6,252.14"
-                    },
-                    {
-                        "CompanyCorporationBoard": "Karnataka Neeravari Nigam Limited",
-                        "Outstandingborrowing": "3,723.55",
-                        "Borrowings2020 21": "1,150.00",
-                        "Repayment2021 22": "1,200.74",
-                        "Repayment": 259.02,
-                        "Closing Balance": "3,672.81"
-                    },
-                    {
-                        "CompanyCorporationBoard": "Karnataka Road Development Corporation Limited",
-                        "Outstandingborrowing": 211.74,
-                        "Borrowings2020 21": 200,
-                        "Repayment2021 22": 18.5,
-                        "Repayment": 13.6,
-                        "Closing Balance": 393.24
-                    },
-                    {
-                        "CompanyCorporationBoard": "Rajiv Gandhi Rural Housing Corporation Limited",
-                        "Outstandingborrowing": "1,490.79",
-                        "Borrowings2020 21": 0,
-                        "Repayment2021 22": 263.07,
-                        "Repayment": 113.78,
-                        "Closing Balance": "1,227.72"
-                    },
-                    {
-                        "CompanyCorporationBoard": "Cauvery Neeravari Nigam Limited",
-                        "Outstandingborrowing": "2,785.00",
-                        "Borrowings2020 21": 250,
-                        "Repayment2021 22": 267.5,
-                        "Repayment": 196.66,
-                        "Closing Balance": "2,767.50"
-                    },
-                    {
-                        "CompanyCorporationBoard": "Visvesvaraya Jala Nigam Limited",
-                        "Outstandingborrowing": "1,951.43",
-                        "Borrowings2020 21": 250,
-                        "Repayment2021 22": 394.28,
-                        "Repayment": 131.3,
-                        "Closing Balance": "1,807.15"
-                    },
-                    {
-                        "CompanyCorporationBoard": "Skill Development",
-                        "Outstandingborrowing": 657,
-                        "Borrowings2020 21": 0,
-                        "Repayment2021 22": 95.46,
-                        "Repayment": 42.89,
-                        "Closing Balance": 561.54
-                    },
-                    {
-                        "CompanyCorporationBoard": "Total",
-                        "Outstandingborrowing": "18,421.37",
-                        "Borrowings2020 21": "2,350.00",
-                        "Repayment2021 22": "4,089.27",
-                        "Repayment": "1,292.26",
-                        "Closing Balance": "16,682.10"
-                    }
-                ]
-            },
+            "Table32": [
+                {
+                  "Company/ Corporation/ Board": "Krishna Bhagya Jala Nigam Limited",
+                  "Outstanding off budget borrowing": "6,252.14",
+                  "Borrowings during 2022 23": 850,
+                  "Principal Repayment during 2022 23": "1,450.70",
+                  "Intrest Repayment during 2022 23": 455.26,
+                  "Closing Balance": "5,651.44"
+                },
+                {
+                  "Company/ Corporation/ Board": "Karnataka Neeravari Nigam Limited",
+                  "Outstanding off budget borrowing": "3,672.81",
+                  "Borrowings during 2022 23": "1,500.00",
+                  "Principal Repayment during 2022 23": 767.43,
+                  "Intrest Repayment during 2022 23": 269.38,
+                  "Closing Balance": "4,405.38"
+                },
+                {
+                  "Company/ Corporation/ Board": "Karnataka Road Development Corporation Limited",
+                  "Outstanding off budget borrowing": 393.24,
+                  "Borrowings during 2022 23": 379,
+                  "Principal Repayment during 2022 23": 29.69,
+                  "Intrest Repayment during 2022 23": 42.47,
+                  "Closing Balance": 742.55
+                },
+                {
+                  "Company/ Corporation/ Board": "Rajiv Gandhi Rural Housing Corporation Limited",
+                  "Outstanding off budget borrowing": "1,227.72",
+                  "Borrowings during 2022 23": 0,
+                  "Principal Repayment during 2022 23": 263.11,
+                  "Intrest Repayment during 2022 23": 90.77,
+                  "Closing Balance": 964.61
+                },
+                {
+                  "Company/ Corporation/ Board": "Cauvery Neeravari Nigam Limited",
+                  "Outstanding off budget borrowing": "2,767.50",
+                  "Borrowings during 2022 23": 400,
+                  "Principal Repayment during 2022 23": 367.5,
+                  "Intrest Repayment during 2022 23": 201.18,
+                  "Closing Balance": "2,800.00"
+                },
+                {
+                  "Company/ Corporation/ Board": "Visvesvaraya Jala Nigam Limited",
+                  "Outstanding off budget borrowing": "1,807.15",
+                  "Borrowings during 2022 23": 900,
+                  "Principal Repayment during 2022 23": 433.06,
+                  "Intrest Repayment during 2022 23": 128.4,
+                  "Closing Balance": "2,274.09"
+                },
+                {
+                  "Company/ Corporation/ Board": "Skill Development",
+                  "Outstanding off budget borrowing": 561.54,
+                  "Borrowings during 2022 23": 0,
+                  "Principal Repayment during 2022 23": 93.98,
+                  "Intrest Repayment during 2022 23": 28.58,
+                  "Closing Balance": 467.56
+                },
+                {
+                  "Company/ Corporation/ Board": "Total",
+                  "Outstanding off budget borrowing": "16,682.10",
+                  "Borrowings during 2022 23": "4,029.00",
+                  "Principal Repayment during 2022 23": "3,405.47",
+                  "Intrest Repayment during 2022 23": "1,216.04",
+                  "Closing Balance": "17,305.63"
+                }
+              ],
             "Table26": {
                 "t26": [
                     {
@@ -29559,120 +29548,16 @@
                 ]
             },
             "T9F2": "There are no figures since the nomenclature of plan and non-plan grants was removed with effect from the year 2017-18 and replaced by Grants for CSS, Finance Commission Grants and Other Grants to States",
-            "Table31": {
-                "t31": [
-                    {
-                        "Type": "Outstanding Overall Debt",
-                        "From": "",
-                        "2017 18": "2,46,231",
-                        "2018 19": "2,85,238",
-                        "2019 20": "3,37,520",
-                        "2020 21": "4,15,926",
-                        "2021 22": "4,90,256"
-                    },
-                    {
-                        "Type": "Public Debt",
-                        "From": "Internal Debt",
-                        "2017 18": "1,48,581",
-                        "2018 19": "1,79,309",
-                        "2019 20": "2,20,337",
-                        "2020 21": "2,81,140",
-                        "2021 22": "3,29,042"
-                    },
-                    {
-                        "Type": "",
-                        "From": "GOI Loans",
-                        "2017 18": "14,555",
-                        "2018 19": "14,657",
-                        "2019 20": "13,908",
-                        "2020 21": "26,617",
-                        "2021 22": "45,385*"
-                    },
-                    {
-                        "Type": "Liabilities on Public Account",
-                        "From": "",
-                        "2017 18": "69,922",
-                        "2018 19": "76,410",
-                        "2019 20": "85,172",
-                        "2020 21": "89,748",
-                        "2021 22": "99,147"
-                    },
-                    {
-                        "Type": "Off-budget Borrowings",
-                        "From": "",
-                        "2017 18": "13,173",
-                        "2018 19": "14,862",
-                        "2019 20": "18,103",
-                        "2020 21": "18,421",
-                        "2021 22": "16,682"
-                    },
-                    {
-                        "Type": "Rate of growth of Outstanding debt (percentage)",
-                        "From": "",
-                        "2017 18": 11.26,
-                        "2018 19": 15.84,
-                        "2019 20": 18.33,
-                        "2020 21": 23.23,
-                        "2021 22": 10.53
-                    },
-                    {
-                        "Type": "GSDP",
-                        "From": "",
-                        "2017 18": "13,33,240",
-                        "2018 19": "14,76,496",
-                        "2019 20": "16,15,457",
-                        "2020 21": "17,30,991",
-                        "2021 22": "17,21,336"
-                    },
-                    {
-                        "Type": "Debt/GSDP (per cent)",
-                        "From": "",
-                        "2017 18": 18.46,
-                        "2018 19": 19.32,
-                        "2019 20": 20.89,
-                        "2020 21": 24.03,
-                        "2021 22": "26.71*"
-                    },
-                    {
-                        "Type": "Total Debt Receipts",
-                        "From": "",
-                        "2017 18": "25,122",
-                        "2018 19": "41,914",
-                        "2019 20": "50,459",
-                        "2020 21": "84,528",
-                        "2021 22": "80,641"
-                    },
-                    {
-                        "Type": "Total Debt Repayments",
-                        "From": "",
-                        "2017 18": "8,269",
-                        "2018 19": "11,083",
-                        "2019 20": "10,180",
-                        "2020 21": "11,016",
-                        "2021 22": "13,972"
-                    },
-                    {
-                        "Type": "Total Debt available",
-                        "From": "",
-                        "2017 18": "16,853",
-                        "2018 19": "30,831",
-                        "2019 20": "40,279",
-                        "2020 21": "73,512",
-                        "2021 22": "66,669"
-                    },
-                    {
-                        "Type": "Ratio of Debt Redemption",
-                        "From": "",
-                        "2017 18": 79.97,
-                        "2018 19": 57.54,
-                        "2019 20": 51.17,
-                        "2020 21": 35.63,
-                        "2021 22": 53.84
-                    }
-                ],
-                "t31h1": "Table 2.30: Component wise debt trends",
-                "t31h2": "(₹ in crore)"
-            },
+            "Table31": [
+                {
+                  "Year": "OBB",
+                  "2018 19": "3,523.65",
+                  "2019 20": "4,435.49",
+                  "2020 21": "3,045.10",
+                  "2021 22": "2,350.00",
+                  "2022 23": "4,029.00"
+                }
+              ],
             "table2.40": {
                 "t2.40h2": "(₹ in crore)",
                 "t2.40h1": "Table 2.40: Cash Balances and their investment",
@@ -29759,130 +29644,125 @@
                     }
                 ]
             },
-            "Table29": {
-                "t29h2": "(₹ in crore)",
-                "t29": [
-                    {
-                        "Sector": "I. Small Savings, Provident Funds, etc.",
-                        "Sub Sector": "Small Savings, Provident Funds, etc.",
-                        "2017 18": "2,811",
-                        "2018 19": "3,292",
-                        "2019 20": "4,156",
-                        "2020 21": "3,632",
-                        "2021 22": "3,522"
-                    },
-                    {
-                        "Sector": "J. Reserve Funds",
-                        "Sub Sector": "(a) Reserve Funds bearing Interest",
-                        "2017 18": "(-) 1,194",
-                        "2018 19": 393,
-                        "2019 20": 839,
-                        "2020 21": "(-)99",
-                        "2021 22": "(-)46"
-                    },
-                    {
-                        "Sector": "",
-                        "Sub Sector": "(b) Reserve Funds not bearing Interest",
-                        "2017 18": "4,212",
-                        "2018 19": "2,804",
-                        "2019 20": "3,889",
-                        "2020 21": "6,374",
-                        "2021 22": "9,219"
-                    },
-                    {
-                        "Sector": "K. Deposits and Advances",
-                        "Sub Sector": "(a) Deposits bearing Interest",
-                        "2017 18": "(-) 3",
-                        "2018 19": 62,
-                        "2019 20": 99,
-                        "2020 21": 16,
-                        "2021 22": "(-)18"
-                    },
-                    {
-                        "Sector": "",
-                        "Sub Sector": "(b) Deposits not bearing Interest",
-                        "2017 18": "1,837",
-                        "2018 19": "3,006",
-                        "2019 20": "3,074",
-                        "2020 21": "(-)702",
-                        "2021 22": "2,826"
-                    },
-                    {
-                        "Sector": "",
-                        "Sub Sector": "(c) Advances",
-                        "2017 18": "-",
-                        "2018 19": "-",
-                        "2019 20": "-",
-                        "2020 21": "-",
-                        "2021 22": "-"
-                    },
-                    {
-                        "Sector": "L. Suspense and Miscellaneous",
-                        "Sub Sector": "(a) Suspense",
-                        "2017 18": 17,
-                        "2018 19": "(-) 15",
-                        "2019 20": 178,
-                        "2020 21": "(-)242",
-                        "2021 22": "(-)60"
-                    },
-                    {
-                        "Sector": "",
-                        "Sub Sector": "(b) Other Accounts",
-                        "2017 18": "(-) 1,526",
-                        "2018 19": "(-) 6,072",
-                        "2019 20": "(-) 1,542",
-                        "2020 21": "(-)2,679",
-                        "2021 22": "(-)93"
-                    },
-                    {
-                        "Sector": "",
-                        "Sub Sector": "(c) Accounts with Governments of Foreign Countries",
-                        "2017 18": "-",
-                        "2018 19": "-",
-                        "2019 20": "-",
-                        "2020 21": "-",
-                        "2021 22": "-"
-                    },
-                    {
-                        "Sector": "",
-                        "Sub Sector": "(d) Miscellaneous",
-                        "2017 18": "-",
-                        "2018 19": "-",
-                        "2019 20": "-",
-                        "2020 21": "-",
-                        "2021 22": "-"
-                    },
-                    {
-                        "Sector": "M. Remittances",
-                        "Sub Sector": "(a) Money Orders and other remittances",
-                        "2017 18": "(-) 51",
-                        "2018 19": "(-) 81",
-                        "2019 20": "(-) 263",
-                        "2020 21": "(-)53",
-                        "2021 22": "-"
-                    },
-                    {
-                        "Sector": "",
-                        "Sub Sector": "(b) Inter-Governmental Adjustment Account",
-                        "2017 18": "(-) 25",
-                        "2018 19": 42,
-                        "2019 20": "(-) 84",
-                        "2020 21": 17,
-                        "2021 22": "(-)133"
-                    },
-                    {
-                        "Sector": "Total",
-                        "Sub Sector": "",
-                        "2017 18": "6,078",
-                        "2018 19": "3,431",
-                        "2019 20": "10,346",
-                        "2020 21": "6,264",
-                        "2021 22": "15,217"
-                    }
-                ],
-                "t29h1": "Table 2.28: Component-wise net balances in Public Account as of 31 March of the year",
-                "t29f1": "Note: +ve denotes debit balance and –ve denotes credit balances"
-            },
+            "Table28": [
+                {
+                  "Sector": "I. Small Savings, Provident Funds, etc.",
+                  "Sub Sector": "Small Savings, Provident Funds, etc.",
+                  "2018 19": "3,292",
+                  "2019 20": "4,156",
+                  "2020 21": "3,632",
+                  "2021 22": "3,522",
+                  "2022 23": "3,403"
+                },
+                {
+                  "Sector": "J. Reserve Funds",
+                  "Sub Sector": "(a) Reserve Funds bearing Interest",
+                  "2018 19": 393,
+                  "2019 20": 839,
+                  "2020 21": "(-)99",
+                  "2021 22": "(-)46",
+                  "2022 23": "(-)141"
+                },
+                {
+                  "Sector": "",
+                  "Sub Sector": "(b) Reserve Funds not bearing Interest",
+                  "2018 19": "2,804",
+                  "2019 20": "3,889",
+                  "2020 21": "6,374",
+                  "2021 22": "9,219",
+                  "2022 23": "7,422"
+                },
+                {
+                  "Sector": "K. Deposits and Advances",
+                  "Sub Sector": "(a) Deposits bearing Interest",
+                  "2018 19": 62,
+                  "2019 20": 99,
+                  "2020 21": 16,
+                  "2021 22": "(-)18",
+                  "2022 23": 51
+                },
+                {
+                  "Sector": "",
+                  "Sub Sector": "(b) Deposits not bearing Interest",
+                  "2018 19": "3,006",
+                  "2019 20": "3,074",
+                  "2020 21": "(-)702",
+                  "2021 22": "2,826",
+                  "2022 23": "26,141"
+                },
+                {
+                  "Sector": "",
+                  "Sub Sector": "(c) Advances",
+                  "2018 19": "-",
+                  "2019 20": "-",
+                  "2020 21": "-",
+                  "2021 22": "-",
+                  "2022 23": "-"
+                },
+                {
+                  "Sector": "L. Suspense and Miscellaneous",
+                  "Sub Sector": "(a) Suspense",
+                  "2018 19": "(-) 15",
+                  "2019 20": 178,
+                  "2020 21": "(-)242",
+                  "2021 22": "(-)60",
+                  "2022 23": "(-)72"
+                },
+                {
+                  "Sector": "",
+                  "Sub Sector": "(b) Other Accounts",
+                  "2018 19": "(-) 6,072",
+                  "2019 20": "(-) 1,542",
+                  "2020 21": "(-)2,679",
+                  "2021 22": "(-)93",
+                  "2022 23": "1,268"
+                },
+                {
+                  "Sector": "",
+                  "Sub Sector": "(c) Accounts with Governments of Foreign Countries",
+                  "2018 19": "-",
+                  "2019 20": "-",
+                  "2020 21": "-",
+                  "2021 22": "-",
+                  "2022 23": "-"
+                },
+                {
+                  "Sector": "",
+                  "Sub Sector": "(d) Miscellaneous",
+                  "2018 19": "-",
+                  "2019 20": "-",
+                  "2020 21": "-",
+                  "2021 22": "-",
+                  "2022 23": "-"
+                },
+                {
+                  "Sector": "M. Remittances",
+                  "Sub Sector": "(a) Money Orders and other remittances",
+                  "2018 19": "(-) 81",
+                  "2019 20": "(-) 263",
+                  "2020 21": "(-)53",
+                  "2021 22": "-",
+                  "2022 23": "(-)0.01"
+                },
+                {
+                  "Sector": "",
+                  "Sub Sector": "(b) Inter-Governmental Adjustment Account",
+                  "2018 19": 42,
+                  "2019 20": "(-) 84",
+                  "2020 21": 17,
+                  "2021 22": "(-)133",
+                  "2022 23": 159
+                },
+                {
+                  "Sector": "Total",
+                  "Sub Sector": "",
+                  "2018 19": "3,431",
+                  "2019 20": "10,346",
+                  "2020 21": "6,264",
+                  "2021 22": "15,217",
+                  "2022 23": "38,232"
+                }
+              ],
             "Table14": [
                 {
                   "Parameters": "Total Expenditure (TE)",
@@ -31096,183 +30976,58 @@
                 }
               ],
             "T20H1": "Financial Assistance to Other institutions",
-            "Table33": {
-                "t33h1": "    Table 2.32: Components of fiscal deficit and its financing pattern",
-                "t33h2": "(₹ in crore)",
-                "t33": [
-                    {
-                        "Sl": "No.",
-                        "Particulars": "Composition of Fiscal Deficit",
-                        "2017 18": "(-)31,101",
-                        "2018 19": "(-)38,442",
-                        "2019 20": "(-)38,166",
-                        "2020 21": "(-)67,098",
-                        "2021 22": "(-)66,036"
-                    },
-                    {
-                        "Sl": 1,
-                        "Particulars": "Revenue Surplus/Deficit",
-                        "2017 18": "4,518",
-                        "2018 19": 679,
-                        "2019 20": "1,185",
-                        "2020 21": "(-)19,338",
-                        "2021 22": "(-)13,666"
-                    },
-                    {
-                        "Sl": 2,
-                        "Particulars": "Net Capital Outlay",
-                        "2017 18": "30,663",
-                        "2018 19": "34,665",
-                        "2019 20": "35,485",
-                        "2020 21": "45,361",
-                        "2021 22": "47,868"
-                    },
-                    {
-                        "Sl": 3,
-                        "Particulars": "Net Loans and Advances",
-                        "2017 18": "4,956",
-                        "2018 19": "4,456",
-                        "2019 20": "3,866",
-                        "2020 21": "2,399",
-                        "2021 22": "4,082"
-                    },
-                    {
-                        "Sl": 4,
-                        "Particulars": "Appropriation to Contingency Fund",
-                        "2017 18": "-",
-                        "2018 19": "-",
-                        "2019 20": "-",
-                        "2020 21": "-",
-                        "2021 22": 420
-                    },
-                    {
-                        "Sl": "Financing pattern of Fiscal Deficit*",
-                        "Particulars": "",
-                        "2017 18": "",
-                        "2018 19": "",
-                        "2019 20": "",
-                        "2020 21": "",
-                        "2021 22": ""
-                    },
-                    {
-                        "Sl": 1,
-                        "Particulars": "Market Borrowings",
-                        "2017 18": "17,348",
-                        "2018 19": "32,183",
-                        "2019 20": "42,499",
-                        "2020 21": "61,900",
-                        "2021 22": "49,000"
-                    },
-                    {
-                        "Sl": 2,
-                        "Particulars": "Loans from GoI",
-                        "2017 18": 761,
-                        "2018 19": 103,
-                        "2019 20": "(-)749",
-                        "2020 21": "12,709",
-                        "2021 22": "18,767"
-                    },
-                    {
-                        "Sl": 3,
-                        "Particulars": "Special Securities issued to NSSF",
-                        "2017 18": "(-)1,573",
-                        "2018 19": "(-)1,595",
-                        "2019 20": "(-)1,628",
-                        "2020 21": "(-)1,628",
-                        "2021 22": "(-)1,628"
-                    },
-                    {
-                        "Sl": 4,
-                        "Particulars": "Loans from Financial Institutions",
-                        "2017 18": 316,
-                        "2018 19": 141,
-                        "2019 20": 156,
-                        "2020 21": 531,
-                        "2021 22": 529
-                    },
-                    {
-                        "Sl": 5,
-                        "Particulars": "Small Savings, PF etc.",
-                        "2017 18": "2,812",
-                        "2018 19": "3,292",
-                        "2019 20": "4,156",
-                        "2020 21": "3,632",
-                        "2021 22": "3,522"
-                    },
-                    {
-                        "Sl": 6,
-                        "Particulars": "Deposits and Advances",
-                        "2017 18": "1,833",
-                        "2018 19": "3,068",
-                        "2019 20": "3,174",
-                        "2020 21": "(-)685",
-                        "2021 22": "2,808"
-                    },
-                    {
-                        "Sl": 7,
-                        "Particulars": "Suspense and Miscellaneous",
-                        "2017 18": "(-)1,509",
-                        "2018 19": "(-)6,087",
-                        "2019 20": "(-)1,364",
-                        "2020 21": "(-)2,921",
-                        "2021 22": "(-)153"
-                    },
-                    {
-                        "Sl": 8,
-                        "Particulars": "Remittances",
-                        "2017 18": "(-)76",
-                        "2018 19": "(-)40",
-                        "2019 20": "(-)347",
-                        "2020 21": "(-)35",
-                        "2021 22": "(-)133"
-                    },
-                    {
-                        "Sl": 9,
-                        "Particulars": "Reserve Funds",
-                        "2017 18": "3,019",
-                        "2018 19": "3,197",
-                        "2019 20": "4,728",
-                        "2020 21": "6,275",
-                        "2021 22": "9,173"
-                    },
-                    {
-                        "Sl": 10,
-                        "Particulars": "Overall Deficit",
-                        "2017 18": "22,931",
-                        "2018 19": "34,262",
-                        "2019 20": "50,625",
-                        "2020 21": "79,778",
-                        "2021 22": "81,885"
-                    },
-                    {
-                        "Sl": 11,
-                        "Particulars": "Appropriation to Contingency Fund",
-                        "2017 18": "-",
-                        "2018 19": "-",
-                        "2019 20": "-",
-                        "2020 21": "-",
-                        "2021 22": 420
-                    },
-                    {
-                        "Sl": 12,
-                        "Particulars": "Increase(-)/Decrease(+) in cash balance",
-                        "2017 18": "8,170",
-                        "2018 19": "4,180",
-                        "2019 20": "(-)12,459",
-                        "2020 21": "(-)12,680",
-                        "2021 22": "(-)16,269"
-                    },
-                    {
-                        "Sl": 13,
-                        "Particulars": "Gross Fiscal Deficit",
-                        "2017 18": "31,101",
-                        "2018 19": "38,442",
-                        "2019 20": "38,166",
-                        "2020 21": "67,098",
-                        "2021 22": "66,036"
-                    }
-                ]
-            },
+            "Table33": [
+                {
+                  "1": "41,966",
+                  "2": 2.6,
+                  "3": 2.84,
+                  "4": 19.28,
+                  "Year": "2018-19",
+                  "GSDP": "14,79,391",
+                  "Off Budget Borrowing": "3,523.65",
+                  "Fiscal Deficit": "38,442"
+                },
+                {
+                  "1": "42,601",
+                  "2": 2.37,
+                  "3": 2.64,
+                  "4": 20.95,
+                  "Year": "2019-20",
+                  "GSDP": "16,11,134",
+                  "Off Budget Borrowing": "4,435.49",
+                  "Fiscal Deficit": "38,166"
+                },
+                {
+                  "1": "70,143",
+                  "2": 4.13,
+                  "3": 4.32,
+                  "4": 24.83,
+                  "Year": "2020-21",
+                  "GSDP": "16,25,073",
+                  "Off Budget Borrowing": "3,045.10",
+                  "Fiscal Deficit": "67,098"
+                },
+                {
+                  "1": "68,386",
+                  "2": 3.36,
+                  "3": 3.48,
+                  "4": 23.42,
+                  "Year": "2021-22",
+                  "GSDP": "19,62,725",
+                  "Off Budget Borrowing": "2,350.00",
+                  "Fiscal Deficit": "66,036"
+                },
+                {
+                  "1": 50652,
+                  "2": 2.14,
+                  "3": 2.32,
+                  "4": 23.97,
+                  "Year": "2022-23",
+                  "GSDP": "21,81,217",
+                  "Off Budget Borrowing": "4,029.00",
+                  "Fiscal Deficit": "46,623"
+                }
+              ],
             "T12H1": "Tax and non-tax receipts vis-à-vis projections during 2020-21",
             "T10H2": "(₹ in crore)",
             "Table25": {
@@ -31313,67 +31068,144 @@
             "T24H1": "Quantum of loans disbursed and recovered during the last five years",
             "T12F1": "Source: XV FC Report and Finance Accounts",
             "T18F2": "* Effective Loans and Advances for GoI would be ₹ 14,210 crore as the Department of Expenditure, GoI had decided that GST compensation of ₹ 12,407 crore given to the state as back-to- back loan under Debt Receipt would not be treated as debt of the state for any norms which may be prescribed by the Finance Commission.",
-            "Table30": {
-                "t30h1": "Table 2.29: Details of expenditure/receipts under SDRF/SDMF",
-                "t30": [
-                    {
-                        "Fund": "",
-                        "Minor Head of Account": "Opening Balance",
-                        "Expenditure during 2021 22": 2.42
-                    },
-                    {
-                        "Fund": "05-State Disaster Response Fund",
-                        "Minor Head of Account": "Transfers to Reserve Funds and Deposit Accounts – SDRF",
-                        "Expenditure during 2021 22": 843.2
-                    },
-                    {
-                        "Fund": "",
-                        "Minor Head of Account": "Transfers to Reserve Funds and Deposit Accounts – NDRF",
-                        "Expenditure during 2021 22": "1,623.30"
-                    },
-                    {
-                        "Fund": "",
-                        "Minor Head of Account": "Deduct-Amount met from-SDRF",
-                        "Expenditure during 2021 22": "(-)843.20"
-                    },
-                    {
-                        "Fund": "",
-                        "Minor Head of Account": "Deduct-Amount met from-NDRF",
-                        "Expenditure during 2021 22": "(-)1,623.30"
-                    },
-                    {
-                        "Fund": "",
-                        "Minor Head of Account": "Transfers of interest in respect of unutilised amount under SDRF during 2017-18",
-                        "Expenditure during 2021 22": "-"
-                    },
-                    {
-                        "Fund": "",
-                        "Minor Head of Account": "Closing Balance",
-                        "Expenditure during 2021 22": 2.42
-                    },
-                    {
-                        "Fund": "10-State Disaster Mitigation Fund",
-                        "Minor Head of Account": "Opening Balance",
-                        "Expenditure during 2021 22": 26.3
-                    },
-                    {
-                        "Fund": "",
-                        "Minor Head of Account": "Transfers to Reserve Funds and Deposit Accounts – SDMF",
-                        "Expenditure during 2021 22": 210.8
-                    },
-                    {
-                        "Fund": "",
-                        "Minor Head of Account": "Deduct-Amount met from-SDMF",
-                        "Expenditure during 2021 22": "-"
-                    },
-                    {
-                        "Fund": "",
-                        "Minor Head of Account": "Closing Balance",
-                        "Expenditure during 2021 22": 237.1
-                    }
-                ],
-                "t30h2": "(₹ in crore)"
-            },
+            "Table30": [
+                {
+                  "Component of fiscal liability": "Outstanding Total Liability",
+                  "2018 19": "2,85,238",
+                  "2019 20": "3,37,520",
+                  "2020 21": "4,15,926*",
+                  "2021 22": "4,90,256*",
+                  "2022 23": "5,53,363*"
+                },
+                {
+                  "Component of fiscal liability": "Public Debit",
+                  "2018 19": "",
+                  "2019 20": "",
+                  "2020 21": "",
+                  "2021 22": "",
+                  "2022 23": ""
+                },
+                {
+                  "Component of fiscal liability": "Internal Debt",
+                  "2018 19": "1,79,309",
+                  "2019 20": "2,20,337",
+                  "2020 21": "2,81,140",
+                  "2021 22": "3,29,042",
+                  "2022 23": "3,53,894"
+                },
+                {
+                  "Component of fiscal liability": "Loans from GoI",
+                  "2018 19": "14,657",
+                  "2019 20": "13,908",
+                  "2020 21": "26,617^",
+                  "2021 22": "45,385^",
+                  "2022 23": "49,139^"
+                },
+                {
+                  "Component of fiscal liability": "Public Account Liabilities",
+                  "2018 19": "76,410",
+                  "2019 20": "85,172",
+                  "2020 21": "89,748",
+                  "2021 22": "99,147",
+                  "2022 23": "1,33,024"
+                },
+                {
+                  "Component of fiscal liability": "Small Saving, Provident Funds, etc.",
+                  "2018 19": "31,023",
+                  "2019 20": "35,179",
+                  "2020 21": "38,811",
+                  "2021 22": "42,333",
+                  "2022 23": "45,736"
+                },
+                {
+                  "Component of fiscal liability": "Reserve Funds bearing Interest",
+                  "2018 19": 435,
+                  "2019 20": "1,273",
+                  "2020 21": "1,175",
+                  "2021 22": "1,129",
+                  "2022 23": 988
+                },
+                {
+                  "Component of fiscal liability": "Reserve Funds not bearing Interest",
+                  "2018 19": "16,566",
+                  "2019 20": "17,160",
+                  "2020 21": "18,888",
+                  "2021 22": "22,003",
+                  "2022 23": "26,425"
+                },
+                {
+                  "Component of fiscal liability": "Deposits bearing Interest",
+                  "2018 19": 402,
+                  "2019 20": 502,
+                  "2020 21": 518,
+                  "2021 22": 500,
+                  "2022 23": 551
+                },
+                {
+                  "Component of fiscal liability": "Deposits not bearing Interest",
+                  "2018 19": "27,984",
+                  "2019 20": "31,058",
+                  "2020 21": "30,356",
+                  "2021 22": "33,182",
+                  "2022 23": "59,324"
+                },
+                {
+                  "Component of fiscal liability": "Rate of growth of outstanding total liability (per cent)",
+                  "2018 19": 15.84,
+                  "2019 20": 18.33,
+                  "2020 21": 23.23,
+                  "2021 22": 10.53,
+                  "2022 23": 12.87
+                },
+                {
+                  "Component of fiscal liability": "Gross State Domestic Product (GSDP)",
+                  "2018 19": "14,79,391",
+                  "2019 20": "16,11,134",
+                  "2020 21": "16,25,073",
+                  "2021 22": "19,62,725",
+                  "2022 23": "21,81,217"
+                },
+                {
+                  "Component of fiscal liability": "Liability / GSDP (per cent)",
+                  "2018 19": 19.28,
+                  "2019 20": 20.95,
+                  "2020 21": 24.83,
+                  "2021 22": 23.42,
+                  "2022 23": 23.97
+                },
+                {
+                  "Component of fiscal liability": "Total Receipts",
+                  "2018 19": "41,914",
+                  "2019 20": "50,459",
+                  "2020 21": "84,528",
+                  "2021 22": "80,641",
+                  "2022 23": "44,549"
+                },
+                {
+                  "Component of fiscal liability": "Total Repayments",
+                  "2018 19": "11,083",
+                  "2019 20": "10,180",
+                  "2020 21": "11,016",
+                  "2021 22": "13,972",
+                  "2022 23": "15,942"
+                },
+                {
+                  "Component of fiscal liability": "Net funds available",
+                  "2018 19": "30,831",
+                  "2019 20": "40,279",
+                  "2020 21": "73,512",
+                  "2021 22": "66,669",
+                  "2022 23": "28,607"
+                },
+                {
+                  "Component of fiscal liability": "Repayments / Receipts (per cent)",
+                  "2018 19": 26.44,
+                  "2019 20": 20.17,
+                  "2020 21": 13.03,
+                  "2021 22": 17.33,
+                  "2022 23": 35.79
+                }
+              ],
             "T4H2": "(₹ in crore)",
             "T19H2": "(₹ in crore)",
             "T15H1": "Variation in Revenue expenditure during 2020-21 compared to 2019-20",
@@ -31693,7 +31525,7 @@
             "T1H1": "Changes in key fiscal aggregates during 2020-21 compared to 2019-20",
             "T16H2": "(₹ in crore)",
             "T17F1": "Source: Finance Accounts",
-            "Table28": {
+            "Table28a": {
                 "t28": [
                     {
                         "ratio": "GCS",
@@ -31901,6 +31733,71 @@
                   "Details": ""
                 }
               ],
+
+              "Table29":[
+               
+                {
+                  "Fund": "",
+                  "Minor Head of Account": "Opening Balance",
+                  "Expenditure during 2022 23": 2.42
+                },
+                {
+                  "Fund": "05-State Disaster Response Fund",
+                  "Minor Head of Account": "Transfers to Reserve Funds and Deposit Accounts – SDRF",
+                  "Expenditure during 2022 23": 885.34
+                },
+                {
+                  "Fund": "",
+                  "Minor Head of Account": "Transfers to Reserve Funds and Deposit Accounts – NDRF",
+                  "Expenditure during 2022 23": 939.83
+                },
+                {
+                  "Fund": "",
+                  "Minor Head of Account": "Deduct-Amount met from-SDRF",
+                  "Expenditure during 2022 23": "(-)798.56"
+                },
+                {
+                  "Fund": "",
+                  "Minor Head of Account": "Deduct-Amount met from-NDRF",
+                  "Expenditure during 2022 23": "(-)939.83"
+                },
+                {
+                  "Fund": "",
+                  "Minor Head of Account": "Transfers of interest in respect of unutilised amount under SDRF during 2021-22.",
+                  "Expenditure during 2022 23": "-"
+                },
+                {
+                  "Fund": "",
+                  "Minor Head of Account": "Closing Balance",
+                  "Expenditure during 2022 23": 89.2
+                },
+                {
+                  "Fund": "10-State Disaster Mitigation Fund",
+                  "Minor Head of Account": "Opening Balance",
+                  "Expenditure during 2022 23": 237.1
+                },
+                {
+                  "Fund": "",
+                  "Minor Head of Account": "Transfers to Reserve Funds and Deposit Accounts – SDMF",
+                  "Expenditure during 2022 23": "-"
+                },
+                {
+                  "Fund": "",
+                  "Minor Head of Account": "Deduct-Amount met from-SDMF",
+                  "Expenditure during 2022 23": "-"
+                },
+                {
+                  "Fund": "",
+                  "Minor Head of Account": "Transfers of interest in respect of unutilised amount under SDMF during 2021-22.",
+                  "Expenditure during 2022 23": "-"
+                },
+                {
+                  "Fund": "",
+                  "Minor Head of Account": "Closing Balance",
+                  "Expenditure during 2022 23": 237.1
+                }
+              ],   
+
             "Table29a": [
                 {
                     "Year": "2019-20",

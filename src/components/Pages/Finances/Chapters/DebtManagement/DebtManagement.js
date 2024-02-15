@@ -58,19 +58,68 @@ const DebtManagement = () => {
                            {ctx.chapterTwo["para285"]}
                            </i> 
                     </Subtitle>
-                    {["para286","para287","para288","para289","para290"].map((item, ind) =>
+                    {["para286","para287"].map((item, ind) =>
                            <Para key={ind / 10}>
                                {ctx.chapterTwo[item]}
                            </Para>)}  
+
+                        <h3 className='headnote'>
+                            ₹ In crore
+                        </h3>
+                        <Table30 />
+                        <h4 className='footnote'>
+                            <i>
+                            Source: Finance Accounts<br></br>
+                            ^ Effective Loans and Advances for GoI would be₹14,210 crore as on year ending 2020-21, ₹14,869 crore as on year ending 2021-22 and ₹18,623 crore as on year ending 2022-23 as the Department of Expenditure, GoI had decided that GST compensation of ₹12,407 crore and ₹18,109 crore given to the State as back-to-back loan during 2020-21 and 2021-22 respectively under Debt Receipt would not be treated as debt of the State for any norms which may be prescribed by the Finance Commission.<br></br>
+                            * Effective Outstanding Fiscal Liabilities would be ₹4,03,519 crore, ₹4,59,740 crore and ₹5,22,847 crore as the Department of Expenditure, GoI had decided that GST compensation of ₹12,407 crore in 2020-21 and ₹ 18,109 crore in 2021-22 given to the state as back-to-back loan under Debt Receipts respectively would not be treated as debt of the state for any norms which may be prescribed by the Finance Commission.
+                            </i>
+                        </h4>
+
+                           
+                    {[,"para288","para289","para290"].map((item, ind) =>
+                           <Para key={ind / 10}>
+                               {ctx.chapterTwo[item]}
+                           </Para>)}
                     <Subtitle>
                            
                            {ctx.chapterTwo["para291"]}
                            
                     </Subtitle>
-                    {["para292","para293","para294","para294","para295","para296","para297","para298","para299","para300"].map((item, ind) =>
+                    {["para292","para293"].map((item, ind) =>
                            <Para key={ind / 10}>
                                {ctx.chapterTwo[item]}
                            </Para>)}  
+
+                    <h3 className='headnote'>
+                            ₹ In crore
+                    </h3>
+                        <Table31 />
+                    
+                    <Para >
+                        {ctx.chapterTwo.para294}
+                    </Para>
+
+                    <h3 className='headnote'>
+                            ₹ In crore
+                    </h3>
+                        <Table32 />
+                    <h4 className='footnote'>
+                            <i>
+                            Source: Finance Accounts<br></br>
+                            </i>
+                    </h4>
+
+                    {["para295","para296"].map((item, ind) =>
+                           <Para key={ind / 10}>
+                               {ctx.chapterTwo[item]}
+                           </Para>)} 
+
+                      <Table33 />     
+
+                    {["para297","para298","para299","para300"].map((item, ind) =>
+                           <Para key={ind / 10}>
+                               {ctx.chapterTwo[item]}
+                           </Para>)}         
                     <Subtitle>
                          <i> 
                            {ctx.chapterTwo["para301"]}
