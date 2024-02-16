@@ -26,6 +26,8 @@ import Table33 from '../../../Tables/Chapter2/Table33'
 import Table33a from '../../../Tables/Chapter2/Table33a'
 import Table33kan from '../../../Tables/Chapter2kan/Table33'
 import Table34 from '../../../Tables/Chapter2/Table34'
+import Table35 from '../../../Tables/Chapter2/Table35'
+import Table36 from '../../../Tables/Chapter2/Table36'
 import Table34kan from '../../../Tables/Chapter2kan/Table34'
 import Table35kan from '../../../Tables/Chapter2kan/Table35'
 import Table36kan from '../../../Tables/Chapter2kan/Table36'
@@ -125,7 +127,37 @@ const DebtManagement = () => {
                            {ctx.chapterTwo["para301"]}
                         </i> 
                     </Subtitle>
-                    {["para302","para303","para304"].map((item, ind) =>
+                    <Para >
+                        {ctx.chapterTwo.para302}
+                    </Para>
+
+                    <h3 className='headnote'>
+                            ₹ In crore
+                    </h3>
+                        <Table34 />
+                    <h4 className='footnote'>
+                            <i>
+                            Source: Finance Accounts<br></br>
+                            *All these figures are net disbursement/outflows during the year.<br></br>
+                            ^ The effective Loans and Advances from GoI would be₹1,707 crore and ₹2,070 crore by deducting the GST compensation of 12,407 crore for 2020-21 and ₹18,109 crore for 2021-22 received as back to back loans.
+                            </i>
+                    </h4>
+
+                    <Para >
+                            {ctx.chapterTwo.para303}
+                    </Para>
+
+                    <h3 className='headnote'>
+                            ₹ In crore
+                    </h3>
+                        <Table35 />
+                    <h4 className='footnote'>
+                            <i>
+                            Source: Finance Accounts<br></br>
+                            </i>
+                    </h4>
+
+                    {["para304"].map((item, ind) =>
                            <Para key={ind / 10}>
                                {ctx.chapterTwo[item]}
                            </Para>)}
@@ -134,10 +166,23 @@ const DebtManagement = () => {
                            {ctx.chapterTwo["para305"]}
                         </i> 
                     </Subtitle>
-                    {["para306","para307"].map((item, ind) =>
-                           <Para key={ind / 10}>
-                               {ctx.chapterTwo[item]}
-                           </Para>)}
+                    <Para >
+                            {ctx.chapterTwo.para306}
+                    </Para>
+
+                    <h3 className='headnote'>
+                            ₹ In crore
+                    </h3>
+                        <Table36 />
+                    <h4 className='footnote'>
+                            <i>
+                            Source: Finance Accounts<br></br>
+                            </i>
+                    </h4>
+
+                    <Para >
+                            {ctx.chapterTwo.para307}
+                    </Para>
 
                     
                         

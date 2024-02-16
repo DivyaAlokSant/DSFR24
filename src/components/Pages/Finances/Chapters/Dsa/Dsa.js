@@ -13,9 +13,8 @@ import k219 from '../../../../../Images/k219.png'
 import c220 from '../../../../../Images/c220.png'
 import k220 from '../../../../../Images/k220.png'
 import ImageComponent from 'material-ui-image'
-import Table35 from '../../../Tables/Chapter2/Table35'
+
 import Table35kan from '../../../Tables/Chapter2kan/Table35'
-import Table36kan from '../../../Tables/Chapter2kan/Table36'
 import Table37 from '../../../Tables/Chapter2/Table37'
 import Table37kan from '../../../Tables/Chapter2kan/Table37'
 import Table3೭kan from '../../../Tables/Chapter2kan/Table3೭'
@@ -47,20 +46,52 @@ const Dsa = () => {
                     <div className="contentwrapper" id="home">
                         <FloatingActionButtons back="/finances/debtmanagement" forward="/finances/conclusion" />
                         <Title>{ctx.chapterTwo.para308}</Title>
-                        {["para309","para310","para311","para312","para313"].map((item, ind) =>
+                        {["para309","para310","para311","para312"].map((item, ind) =>
                            <Para key={ind / 10}>
                                {ctx.chapterTwo[item]}
                            </Para>)}  
+
+                          
+                        <Table37 />
+                    <h4 className='footnote'>
+                            <i>
+                            Source: Finance Accounts<br></br>
+                            *The net public debt is ₹4,03,023.00 crore after taking into account the miscellaneous amount of (-)₹422.70 crore.
+                            <br></br>
+                            *Outstanding Public Debt is the sum of outstanding balances under the heads 6003-Internal Debt and 6004-Loans and Advances from Government of India and Off-Budget borrowings.
+                                #For the years 2020-21 and 2021-22, Net debt available to the State Government is calculated as excess of Public Debt receipts over Public Debt repayment and interest payments on Public Debt and does not include back-to-back loans received from GoI as GST compensation.  
+                                <br></br>
+                                ^The back-to-back Loan (₹ 30,516 crore) received from GoI in lieu of GST compensation has not been considered as Debt for working out the indicator.
+                                <br></br>
+                                ** Effective Outstanding Public Debt would be ₹3,13,771 crore, ₹3,60,593 crore and ₹3,89,823 crore as the Department of Expenditure, GoI had decided that GST compensation of ₹12,407 crore in 2020-21 and ₹ 18,109 crore in 2021-22 given to the state as back-to-back loan under Debt Receipts respectively would not be treated as debt of the state for any norms which may be prescribed by the Finance Commission.   
+                                <br></br>
+                                ## Quantum Spread is Interest Spread as percentage of debt stock.  Interest Spread is the difference of rate of growth of GSDP and Average interest rate on Outstanding public debt. If the Quantum Spread together with primary deficit is zero, debt-GSDP ratio would be constant, or debt would stabilize eventually. If it is negative, debt-GSDP would be rising and in case if it is positive, debt-GSDP would eventually tally.      
+                            
+                            </i>
+                    </h4>
+
+                           <Para >
+                               {ctx.chapterTwo["para313"]}
+                           </Para>   
                         {["para314","para315","para316","para317","para318","para319"].map((item, ind) =>
                            <Para key={ind / 10}>
                            <li>
                                {ctx.chapterTwo[item]}
                             </li>
                            </Para>)}  
-                           {["para319","para320","para321","para322","para323"].map((item, ind) =>
+                           {["para319","para320","para321"].map((item, ind) =>
                            <Para key={ind / 10}>
                                {ctx.chapterTwo[item]}
                            </Para>)}  
+
+                           <Table38 />
+
+                        {["para322","para323"].map((item, ind) =>
+                           <Para key={ind / 10}>
+                               {ctx.chapterTwo[item]}
+                           </Para>)}  
+
+                           
                     <Subtitle>
                            <i>
                             {ctx.chapterTwo["para324"]}

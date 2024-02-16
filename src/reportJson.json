@@ -28984,110 +28984,179 @@
                     "ODGSDP": 26.71
                 }
             ],
-            "Table34": {
-                "t34h2": "(₹ in crore)",
-                "t34h1": "Table 2.33: Receipts and Disbursements under components financing the fiscal deficit during 2020-21",
-                "t34": [
-                    {
-                        "Sl No": 1,
-                        "Particulars": "Market Borrowings",
-                        "Receipt": "58,999.96",
-                        "Disbursement": "10,000.00",
-                        "Net": "48,999.96"
-                    },
-                    {
-                        "Sl No": 2,
-                        "Particulars": "Loans from GoI",
-                        "Receipt": "20,179.38",
-                        "Disbursement": "1,411.75",
-                        "Net": "18,767.63"
-                    },
-                    {
-                        "Sl No": 3,
-                        "Particulars": "Special Securities issued to NSSF",
-                        "Receipt": "-",
-                        "Disbursement": "1,627.92",
-                        "Net": "(-)1,627.92"
-                    },
-                    {
-                        "Sl No": 4,
-                        "Particulars": "Ways and Means advances from RBI",
-                        "Receipt": "-",
-                        "Disbursement": "-",
-                        "Net": "-"
-                    },
-                    {
-                        "Sl No": 5,
-                        "Particulars": "Loans from Financial Institutions",
-                        "Receipt": "1,461.46",
-                        "Disbursement": 931.88,
-                        "Net": 529.58
-                    },
-                    {
-                        "Sl No": 6,
-                        "Particulars": "Small Savings, PF etc.",
-                        "Receipt": "8,881.95",
-                        "Disbursement": "5,360.16",
-                        "Net": "3,521.79"
-                    },
-                    {
-                        "Sl No": 7,
-                        "Particulars": "Deposits and Advances",
-                        "Receipt": "73,546.49",
-                        "Disbursement": "70,738.26",
-                        "Net": "2,808.23"
-                    },
-                    {
-                        "Sl No": 8,
-                        "Particulars": "Suspense  and Miscellaneous",
-                        "Receipt": "2,33,480.36",
-                        "Disbursement": "2,33,633.44",
-                        "Net": "(-)153.08"
-                    },
-                    {
-                        "Sl No": 9,
-                        "Particulars": "Remittances",
-                        "Receipt": "(-)1.09",
-                        "Disbursement": 131.82,
-                        "Net": "(-)132.91"
-                    },
-                    {
-                        "Sl No": 10,
-                        "Particulars": "Reserve Fund",
-                        "Receipt": "12,405.51",
-                        "Disbursement": "3,232.74",
-                        "Net": "9,172.77"
-                    },
-                    {
-                        "Sl No": 11,
-                        "Particulars": "Overall Deficit",
-                        "Receipt": "4,08,954.02",
-                        "Disbursement": "3,27,067.97",
-                        "Net": "81,886.05"
-                    },
-                    {
-                        "Sl No": 12,
-                        "Particulars": "Increase/Decrease in cash balance",
-                        "Receipt": "47,143.18",
-                        "Disbursement": "63,412.36",
-                        "Net": "(-)16,269.18"
-                    },
-                    {
-                        "Sl No": 13,
-                        "Particulars": "Appropriation to Contingency Fund",
-                        "Receipt": 420,
-                        "Disbursement": "-",
-                        "Net": 420
-                    },
-                    {
-                        "Sl No": 14,
-                        "Particulars": "Gross Fiscal Deficit",
-                        "Receipt": "4,56,517.20",
-                        "Disbursement": "3,90,480.33",
-                        "Net": "66,036.87"
-                    }
-                ]
-            },
+            "Table34": [
+                {
+                  "Sl No": "",
+                  "Particulars": "Composition of Fiscal Deficit",
+                  "2018 19": "(-)38,442",
+                  "2019 20": "(-)38,166",
+                  "2020 21": "(-)67,098",
+                  "2021 22": "(-)66,036",
+                  "2022 23": "(-)46,623"
+                },
+                {
+                  "Sl No": 1,
+                  "Particulars": "Revenue Surplus/Deficit",
+                  "2018 19": 679,
+                  "2019 20": "1,185",
+                  "2020 21": "(-)19,338",
+                  "2021 22": "(-)13,666",
+                  "2022 23": "13,496"
+                },
+                {
+                  "Sl No": 2,
+                  "Particulars": "Net Capital Outlay",
+                  "2018 19": "34,665",
+                  "2019 20": "35,485",
+                  "2020 21": "45,361",
+                  "2021 22": "47,868",
+                  "2022 23": "57,347"
+                },
+                {
+                  "Sl No": 3,
+                  "Particulars": "Net Loans and Advances",
+                  "2018 19": "4,456",
+                  "2019 20": "3,866",
+                  "2020 21": "2,399",
+                  "2021 22": "4,082",
+                  "2022 23": "2,772"
+                },
+                {
+                  "Sl No": 4,
+                  "Particulars": "Appropriation to Contingency Fund",
+                  "2018 19": "-",
+                  "2019 20": "-",
+                  "2020 21": "-",
+                  "2021 22": 420,
+                  "2022 23": ""
+                },
+                {
+                  "Sl No": "",
+                  "Particulars": "",
+                  "2018 19": "",
+                  "2019 20": "",
+                  "2020 21": "",
+                  "2021 22": "",
+                  "2022 23": ""
+                },
+                {
+                  "Sl No": 1,
+                  "Particulars": "Market Borrowings",
+                  "2018 19": "32,183",
+                  "2019 20": "42,499",
+                  "2020 21": "61,900",
+                  "2021 22": "49,000",
+                  "2022 23": "26,000"
+                },
+                {
+                  "Sl No": 2,
+                  "Particulars": "Loans from GoI",
+                  "2018 19": 103,
+                  "2019 20": "(-)749",
+                  "2020 21": "12,709^",
+                  "2021 22": "18,767^",
+                  "2022 23": "3,755"
+                },
+                {
+                  "Sl No": 3,
+                  "Particulars": "Special Securities issued to NSSF",
+                  "2018 19": "(-)1,595",
+                  "2019 20": "(-)1,628",
+                  "2020 21": "(-)1,628",
+                  "2021 22": "(-)1,628",
+                  "2022 23": "(-)1,627"
+                },
+                {
+                  "Sl No": 4,
+                  "Particulars": "Loans from Financial Institutions",
+                  "2018 19": 141,
+                  "2019 20": 156,
+                  "2020 21": 531,
+                  "2021 22": 529,
+                  "2022 23": 480
+                },
+                {
+                  "Sl No": 5,
+                  "Particulars": "Small Savings, PF etc.",
+                  "2018 19": "3,292",
+                  "2019 20": "4,156",
+                  "2020 21": "3,632",
+                  "2021 22": "3,522",
+                  "2022 23": "3,403"
+                },
+                {
+                  "Sl No": 6,
+                  "Particulars": "Deposits and Advances",
+                  "2018 19": "3,068",
+                  "2019 20": "3,174",
+                  "2020 21": "(-)685",
+                  "2021 22": "2,808",
+                  "2022 23": "26,192"
+                },
+                {
+                  "Sl No": 7,
+                  "Particulars": "Suspense and Miscellaneous",
+                  "2018 19": "(-)6,087",
+                  "2019 20": "(-)1,364",
+                  "2020 21": "(-)2,921",
+                  "2021 22": "(-)153",
+                  "2022 23": "1,196"
+                },
+                {
+                  "Sl No": 8,
+                  "Particulars": "Remittances",
+                  "2018 19": "(-)40",
+                  "2019 20": "(-)347",
+                  "2020 21": "(-)35",
+                  "2021 22": "(-)133",
+                  "2022 23": 159
+                },
+                {
+                  "Sl No": 9,
+                  "Particulars": "Reserve Funds",
+                  "2018 19": "3,197",
+                  "2019 20": "4,728",
+                  "2020 21": "6,275",
+                  "2021 22": "9,173",
+                  "2022 23": "7,282"
+                },
+                {
+                  "Sl No": 10,
+                  "Particulars": "Overall Deficit",
+                  "2018 19": "34,262",
+                  "2019 20": "50,625",
+                  "2020 21": "79,778",
+                  "2021 22": "81,885",
+                  "2022 23": "66,840"
+                },
+                {
+                  "Sl No": 11,
+                  "Particulars": "Appropriation to Contingency Fund",
+                  "2018 19": "-",
+                  "2019 20": "-",
+                  "2020 21": "-",
+                  "2021 22": 420,
+                  "2022 23": ""
+                },
+                {
+                  "Sl No": 12,
+                  "Particulars": "Increase (-)/Decrease (+) in cash balance",
+                  "2018 19": "4,180",
+                  "2019 20": "(-)12,459",
+                  "2020 21": "(-)12,680",
+                  "2021 22": "(-)16,269",
+                  "2022 23": "(-)20,217"
+                },
+                {
+                  "Sl No": 13,
+                  "Particulars": "Gross Fiscal Deficit",
+                  "2018 19": "38,442",
+                  "2019 20": "38,166",
+                  "2020 21": "67,098",
+                  "2021 22": "66,036",
+                  "2022 23": "46,623"
+                }
+              ],
             "Table 2.32": "Entity-wise position of off-budget borrowings",
             "Table32": [
                 {
@@ -29231,120 +29300,106 @@
             "T17F2": "#includes interest on off-budget borrowings",
             "T15F1": "Source: Finance Accounts",
             "T8H1": "Grants-in-aid from GoI",
-            "Table35": {
-                "t2.35h1": "Table 2.34: Maturity profile of Public Debt",
-                "t2.35h2": "(₹ in crore)",
-                "t35": [
-                    {
-                        "1": "Interest",
-                        "2": "Total",
-                        "Year of Maturity": "",
-                        "Amount": "Public Debt"
-                    },
-                    {
-                        "1": "24,887.71",
-                        "2": "37,968.40",
-                        "Year of Maturity": "2022-23",
-                        "Amount": "13,080.69"
-                    },
-                    {
-                        "1": "23,625.71",
-                        "2": "45,063.44",
-                        "Year of Maturity": "2023-24",
-                        "Amount": "21,437.73"
-                    },
-                    {
-                        "1": "21,683.72",
-                        "2": "43,279.86",
-                        "Year of Maturity": "2024-25",
-                        "Amount": "21,596.14"
-                    },
-                    {
-                        "1": "20,134.01",
-                        "2": "44,036.76",
-                        "Year of Maturity": "2025-26",
-                        "Amount": "23,902.75"
-                    },
-                    {
-                        "1": "18,211.47",
-                        "2": "49,374.84",
-                        "Year of Maturity": "2026-27",
-                        "Amount": "31,163.37"
-                    },
-                    {
-                        "1": "15,819.11",
-                        "2": "47,284.87",
-                        "Year of Maturity": "2027-28",
-                        "Amount": "31,465.76"
-                    },
-                    {
-                        "1": "13,562.48",
-                        "2": "44,506.04",
-                        "Year of Maturity": "2028-29",
-                        "Amount": "30,943.56"
-                    },
-                    {
-                        "1": "11,102.86",
-                        "2": "42,662.64",
-                        "Year of Maturity": "2029-30",
-                        "Amount": "31,559.78"
-                    },
-                    {
-                        "1": "8,518.17",
-                        "2": "39,199.76",
-                        "Year of Maturity": "2030-31",
-                        "Amount": "30,681.59"
-                    },
-                    {
-                        "1": "6,693.61",
-                        "2": "32,618.28",
-                        "Year of Maturity": "2031-32",
-                        "Amount": "25,924.67"
-                    },
-                    {
-                        "1": "4,978.61",
-                        "2": "16,241.89",
-                        "Year of Maturity": "2032-33",
-                        "Amount": "11,263.28"
-                    },
-                    {
-                        "1": "4,201.93",
-                        "2": "16,928.03",
-                        "Year of Maturity": "2033-34",
-                        "Amount": "12,726.10"
-                    },
-                    {
-                        "1": "3,301.85",
-                        "2": "14,519.30",
-                        "Year of Maturity": "2034-35",
-                        "Amount": "11,217.45"
-                    },
-                    {
-                        "1": "2,502.41",
-                        "2": "10,683.84",
-                        "Year of Maturity": "2035-36",
-                        "Amount": "8,181.43"
-                    },
-                    {
-                        "1": "1,955.04",
-                        "2": "10,012.55",
-                        "Year of Maturity": "2036-37",
-                        "Amount": "8,057.51"
-                    },
-                    {
-                        "1": "2,367.87",
-                        "2": "63,592.89",
-                        "Year of Maturity": "2037-38 on wards",
-                        "Amount": "61,225.02"
-                    },
-                    {
-                        "1": "1,83,546.56",
-                        "2": "5,57,973.39",
-                        "Year of Maturity": "Total",
-                        "Amount": "3,74,426.83"
-                    }
-                ]
-            },
+            "Table35": [
+                {
+                  "Sl No": 1,
+                  "Particulars": "Market Borrowings",
+                  "Receipt": 36000,
+                  "Disbursement": 10000,
+                  "Net": 26000
+                },
+                {
+                  "Sl No": 2,
+                  "Particulars": "Loans from GoI",
+                  "Receipt": 5266,
+                  "Disbursement": 1511,
+                  "Net": 3755
+                },
+                {
+                  "Sl No": 3,
+                  "Particulars": "Special Securities issued to NSSF",
+                  "Receipt": 0,
+                  "Disbursement": 1628,
+                  "Net": "(-)1628"
+                },
+                {
+                  "Sl No": 4,
+                  "Particulars": "Ways and Means advances from RBI",
+                  "Receipt": 1798,
+                  "Disbursement": 1798,
+                  "Net": 0
+                },
+                {
+                  "Sl No": 5,
+                  "Particulars": "Loans from Financial Institutions",
+                  "Receipt": 1485,
+                  "Disbursement": 1005,
+                  "Net": 480
+                },
+                {
+                  "Sl No": 6,
+                  "Particulars": "Small Savings, PF etc.",
+                  "Receipt": 9192,
+                  "Disbursement": 5789,
+                  "Net": 3403
+                },
+                {
+                  "Sl No": 7,
+                  "Particulars": "Deposits and Advances",
+                  "Receipt": 101650,
+                  "Disbursement": 75458,
+                  "Net": 26192
+                },
+                {
+                  "Sl No": 8,
+                  "Particulars": "Suspense and Miscellaneous",
+                  "Receipt": 247324,
+                  "Disbursement": 246128,
+                  "Net": 1196
+                },
+                {
+                  "Sl No": 9,
+                  "Particulars": "Remittances",
+                  "Receipt": 0,
+                  "Disbursement": "(-)159",
+                  "Net": 159
+                },
+                {
+                  "Sl No": 10,
+                  "Particulars": "Reserve Fund",
+                  "Receipt": 10069,
+                  "Disbursement": 2787,
+                  "Net": 7282
+                },
+                {
+                  "Sl No": 11,
+                  "Particulars": "Overall Deficit",
+                  "Receipt": 412785,
+                  "Disbursement": 345945,
+                  "Net": 66839
+                },
+                {
+                  "Sl No": 12,
+                  "Particulars": "Increase/Decrease in cash balance",
+                  "Receipt": 63412,
+                  "Disbursement": 83629,
+                  "Net": "(-)20216"
+                },
+                {
+                  "Sl No": 13,
+                  "Particulars": "Appropriation to Contingency Fund",
+                  "Receipt": 0,
+                  "Disbursement": 0,
+                  "Net": 0
+                },
+                {
+                  "Sl No": 14,
+                  "Particulars": "Gross Fiscal Deficit",
+                  "Receipt": 476197,
+                  "Disbursement": 429574,
+                  "Net": 46623
+                }
+              ],
             "T3H1": "Trends and growth in Revenue Receipts",
             "Table40": {
                 "t40": [
@@ -30323,118 +30378,110 @@
             "T7H2": "(₹ in crore)",
             "T17H1": "Components of Committed Expenditure",
             "Table 2.31": "Entity-wise position of off-budget borrowings",
-            "Table36": {
-                "t2.36f3": "^The back to back Loan(₹ 12,407 crore) received from GoI in lieu of GST compensation has not been  considered as Debt for working out the debt-GSDP ratio.Effective outstanding public debt would be ₹2,95,351 crore as the Department of Expenditure, GoI had decided that GST compensation of ₹12,407 crore given to the State as back-to-back loan under debt receipts would not be treated as debt of the State for any norms which may be prescribed by the Finance Commission. ",
-                "t2.36h1": "Table 2.35: Trends in Debt Sustainability indicators.",
-                "t36": [
-                    {
-                        "Debt Sustainability Indicators": "Outstanding Public Debt*  (₹ in crore)",
-                        "2017 18": "1,63,136",
-                        "2018 19": "1,93,966",
-                        "2019 20": "2,34,245",
-                        "2020 21": "3,07,758",
-                        "2021 22": "3,74,427**"
-                    },
-                    {
-                        "Debt Sustainability Indicators": "Rate of growth of Outstanding Public Debt (per cent)",
-                        "2017 18": 11.52,
-                        "2018 19": 18.9,
-                        "2019 20": 20.77,
-                        "2020 21": 31.38,
-                        "2021 22": 11.75
-                    },
-                    {
-                        "Debt Sustainability Indicators": "GSDP (₹ in crore)",
-                        "2017 18": "13,33,240",
-                        "2018 19": "14,76,496",
-                        "2019 20": "16,15,457",
-                        "2020 21": "17,30,991",
-                        "2021 22": "17,21,336"
-                    },
-                    {
-                        "Debt Sustainability Indicators": "Rate of growth of GSDP (per cent)",
-                        "2017 18": 10.4,
-                        "2018 19": 10.74,
-                        "2019 20": 9.41,
-                        "2020 21": 7.15,
-                        "2021 22": "(-)0.56"
-                    },
-                    {
-                        "Debt Sustainability Indicators": "Debt/GSDP (per cent)",
-                        "2017 18": 10.4,
-                        "2018 19": 10.74,
-                        "2019 20": 9.41,
-                        "2020 21": 7.15,
-                        "2021 22": 19.98
-                    },
-                    {
-                        "Debt Sustainability Indicators": "Fiscal Deficit/GSDP (per cent)",
-                        "2017 18": 2.33,
-                        "2018 19": 2.6,
-                        "2019 20": 2.36,
-                        "2020 21": 3.88,
-                        "2021 22": 3.84
-                    },
-                    {
-                        "Debt Sustainability Indicators": "Interest Payment (₹ in crore)",
-                        "2017 18": "14,973",
-                        "2018 19": "16,614",
-                        "2019 20": "19,903",
-                        "2020 21": "23,433",
-                        "2021 22": "26,276"
-                    },
-                    {
-                        "Debt Sustainability Indicators": "Average interest rate on Outstanding public   debt (per cent)",
-                        "2017 18": 7.64,
-                        "2018 19": 7.3,
-                        "2019 20": 7.3,
-                        "2020 21": 7.05,
-                        "2021 22": 6.74
-                    },
-                    {
-                        "Debt Sustainability Indicators": "Interest payments to Revenue Receipts percentage",
-                        "2017 18": 10.18,
-                        "2018 19": 10.07,
-                        "2019 20": 11.34,
-                        "2020 21": 14.95,
-                        "2021 22": 13.42
-                    },
-                    {
-                        "Debt Sustainability Indicators": "Percentage of Debt repayment to Debt Receipt",
-                        "2017 18": 32.92,
-                        "2018 19": 26.44,
-                        "2019 20": 20.17,
-                        "2020 21": 13.03,
-                        "2021 22": 22.34
-                    },
-                    {
-                        "Debt Sustainability Indicators": "Net Debt available to the State (₹ in crore)",
-                        "2017 18": "16,853",
-                        "2018 19": "30,831",
-                        "2019 20": "40,279",
-                        "2020 21": "41,946",
-                        "2021 22": "26,593#"
-                    },
-                    {
-                        "Debt Sustainability Indicators": "Net Debt available as per cent to Debt Receipts",
-                        "2017 18": 67.08,
-                        "2018 19": 73.56,
-                        "2019 20": 79.82,
-                        "2020 21": 58.16,
-                        "2021 22": 42.53
-                    },
-                    {
-                        "Debt Sustainability Indicators": "Debt Stabilisation (Quantum Spread + Primary Deficit)",
-                        "2017 18": "(-)11,121.33",
-                        "2018 19": "(-)13,680.96",
-                        "2019 20": "(-)13,635.33",
-                        "2020 21": "(-)32,368.09",
-                        "2021 22": "(-)64,865.50"
-                    }
-                ],
-                "t2.36f2": "#Net debt available to the State Government is calculated as excess of Public Debt receipts over Public Debt repayment and interest payments on Public Debt  and does not include back-to-back loans received from GoI as GST compensation",
-                "t2.36f1": "*Outstanding Public Debt is the sum of outstanding balances under the heads 6003-Internal Debt and 6004-Loans and Advances from Government of India."
-            },
+            "Table36": [
+                {
+                  "Year of Maturity": "2023-24",
+                  "Public Debt": "21,187.40",
+                  "Interest": "26,236.61",
+                  "Total": "47,424.01"
+                },
+                {
+                  "Year of Maturity": "2024-25",
+                  "Public Debt": "23,596.15",
+                  "Interest": "24,373.72",
+                  "Total": "47,969.87"
+                },
+                {
+                  "Year of Maturity": "2025-26",
+                  "Public Debt": "24,040.48",
+                  "Interest": "22,709.41",
+                  "Total": "46,749.89"
+                },
+                {
+                  "Year of Maturity": "2026-27",
+                  "Public Debt": "31,454.25",
+                  "Interest": "20,795.85",
+                  "Total": "52,250.10"
+                },
+                {
+                  "Year of Maturity": "2027-28",
+                  "Public Debt": "31,756.65",
+                  "Interest": "18,407.84",
+                  "Total": "50,164.49"
+                },
+                {
+                  "Year of Maturity": "2028-29",
+                  "Public Debt": "31,236.92",
+                  "Interest": "16,152.14",
+                  "Total": "47,389.06"
+                },
+                {
+                  "Year of Maturity": "2029-30",
+                  "Public Debt": "31,850.66",
+                  "Interest": "13,690.81",
+                  "Total": "45,541.47"
+                },
+                {
+                  "Year of Maturity": "2030-31",
+                  "Public Debt": "30,834.74",
+                  "Interest": "11,104.27",
+                  "Total": "41,939.01"
+                },
+                {
+                  "Year of Maturity": "2031-32",
+                  "Public Debt": "27,932.78",
+                  "Interest": "9,287.29",
+                  "Total": "37,220.07"
+                },
+                {
+                  "Year of Maturity": "2032-33",
+                  "Public Debt": "19,271.39",
+                  "Interest": "7,423.25",
+                  "Total": "26,694.64"
+                },
+                {
+                  "Year of Maturity": "2033-34",
+                  "Public Debt": "12,734.21",
+                  "Interest": "6,038.88",
+                  "Total": "18,773.09"
+                },
+                {
+                  "Year of Maturity": "2034-35",
+                  "Public Debt": "15,225.57",
+                  "Interest": "5,138.91",
+                  "Total": "20,364.48"
+                },
+                {
+                  "Year of Maturity": "2035-36",
+                  "Public Debt": "8,189.55",
+                  "Interest": "4,032.73",
+                  "Total": "12,222.28"
+                },
+                {
+                  "Year of Maturity": "2036-37",
+                  "Public Debt": "8,065.63",
+                  "Interest": "3,484.94",
+                  "Total": "11,550.57"
+                },
+                {
+                  "Year of Maturity": "2037-38",
+                  "Public Debt": "14,563.57",
+                  "Interest": "2,911.92",
+                  "Total": "17,475.49"
+                },
+                {
+                  "Year of Maturity": "2038-39 on wards",
+                  "Public Debt": "71,515.74",
+                  "Interest": "4,798.38",
+                  "Total": "76,314.12"
+                },
+                {
+                  "Year of Maturity": "Total",
+                  "Public Debt": "4,03,455.70*",
+                  "Interest": "1,96,587.00",
+                  "Total": "6,00,042.64"
+                }
+              ],
             "Table3": [
                 {
                   "Parameters": "Revenue Receipts (RR)",
@@ -30624,57 +30671,128 @@
                 }
               ],  
             "T18F1": "Source: Finance Accounts",
-            "Table37": {
-                "t2.37h2": "(₹ in crore)",
-                "t37": [
-                    {
-                        "2021 22": 80641,
-                        "YearParticulars": "Total Borrowings",
-                        "2017 18": 25122,
-                        "2019 20": 50459,
-                        "2020 21": 84528,
-                        "SlNo": 1,
-                        "2018 19": 41914
-                    },
-                    {
-                        "2021 22": 13972,
-                        "YearParticulars": "Repayment of earlier borrowings (Principal)",
-                        "2017 18": 8269,
-                        "2020 21": 11016,
-                        "SlNo": 2,
-                        "2018 19": 11083,
-                        "2019 20": 10180
-                    },
-                    {
-                        "YearParticulars": "Net Capital Outlay",
-                        "2021 22": 47868,
-                        "2017 18": 30663,
-                        "2019 20": 35485,
-                        "2020 21": 45361,
-                        "SlNo": 3,
-                        "2018 19": 34665
-                    },
-                    {
-                        "SlNo": 4,
-                        "YearParticulars": "Net Loans and Advances",
-                        "2021 22": 4082,
-                        "2020 21": 2399,
-                        "2019 20": 3866,
-                        "2018 19": 4456,
-                        "2017 18": 4956
-                    },
-                    {
-                        "2017 18": -18766,
-                        "YearParticulars": "Net availability of borrowed funds(5=1-2-3-4)",
-                        "2018 19": -8290,
-                        "2021 22": 14719,
-                        "2019 20": 928,
-                        "2020 21": 25752,
-                        "SlNo": 5
-                    }
-                ],
-                "t2.37h1": "Table 2.36:  Utilisation of borrowed funds"
-            },
+            "Table37": [
+                {
+                  "dsa": "Outstanding Public Debt* (as on 31st March of the year)",
+                  "2018 19": "2,08,828",
+                  "2019 20": "2,52,348",
+                  "2020 21": "3,26,178**",
+                  "2021 22": "3,91,109**",
+                  "2022 23": "4,20,339**"
+                },
+                {
+                  "dsa": "Rate of Growth of Outstanding Public Debt",
+                  "2018 19": 18.08,
+                  "2019 20": 20.84,
+                  "2020 21": 29.26,
+                  "2021 22": 19.91,
+                  "2022 23": 7.47
+                },
+                {
+                  "dsa": "GSDP",
+                  "2018 19": "14,79,391",
+                  "2019 20": "16,11,134",
+                  "2020 21": "16,25,073",
+                  "2021 22": "19,62,725",
+                  "2022 23": "21,81,217"
+                },
+                {
+                  "dsa": "Rate of Growth of GSDP",
+                  "2018 19": 10.96,
+                  "2019 20": 8.91,
+                  "2020 21": 0.87,
+                  "2021 22": 20.78,
+                  "2022 23": 11.13
+                },
+                {
+                  "dsa": "Public Debt/GSDP (percentage)",
+                  "2018 19": 14.12,
+                  "2019 20": 15.66,
+                  "2020 21": 20.07,
+                  "2021 22": 19.93,
+                  "2022 23": 19.27
+                },
+                {
+                  "dsa": "Average interest rate on Public Debt (per cent)",
+                  "2018 19": 7.39,
+                  "2019 20": 7.44,
+                  "2020 21": 7.15,
+                  "2021 22": 6.49,
+                  "2022 23": 6.53
+                },
+                {
+                  "dsa": "Interest Payment on Public Debt",
+                  "2018 19": "14,256",
+                  "2019 20": "17,153",
+                  "2020 21": "20,671",
+                  "2021 22": "23,259",
+                  "2022 23": "26,475"
+                },
+                {
+                  "dsa": "Revenue deficit/surplus without Interest payment^^",
+                  "2018 19": "14,935",
+                  "2019 20": "18,338",
+                  "2020 21": "1,333",
+                  "2021 22": 9593,
+                  "2022 23": "39,944"
+                },
+                {
+                  "dsa": "Revenue Deficit due to interest payments",
+                  "2018 19": 679,
+                  "2019 20": "1,185",
+                  "2020 21": "(-)19,338",
+                  "2021 22": "(-)13,666",
+                  "2022 23": "13,496"
+                },
+                {
+                  "dsa": "Percentage of Interest payment to Revenue Receipts",
+                  "2018 19": 8.64,
+                  "2019 20": 9.78,
+                  "2020 21": 13.19,
+                  "2021 22": 11.88,
+                  "2022 23": 11.56
+                },
+                {
+                  "dsa": "Percentage of Debt Repayment to Debt Receipts",
+                  "2018 19": 27.34,
+                  "2019 20": 20.72,
+                  "2020 21": 18.28,
+                  "2021 22": 27.84,
+                  "2022 23": 39.83
+                },
+                {
+                  "dsa": "Net Debt available to the State#",
+                  "2018 19": "33,016",
+                  "2019 20": "43,520",
+                  "2020 21": "40,752",
+                  "2021 22": "23,562",
+                  "2022 23": "29,231"
+                },
+                {
+                  "dsa": "Net Debt available as per cent to Debt Receipts",
+                  "2018 19": 20.01,
+                  "2019 20": 24.81,
+                  "2020 21": 54.22,
+                  "2021 22": 36.32,
+                  "2022 23": 12.76
+                },
+                {
+                  "dsa": "Primary deficit (-) / Primary surplus (+)",
+                  "2018 19": "(-)21,828",
+                  "2019 20": "(-)18,263",
+                  "2020 21": "(-)43,665",
+                  "2021 22": "(-)39,760",
+                  "2022 23": "(-)16,980"
+                },
+                {
+                  "dsa": "Debt Stabilization (quantum spreads## + Primary Deficit)",
+                  "2018 19": "(-)14,373",
+                  "2019 20": "(-)14,553",
+                  "2020 21": "(-)64,149",
+                  "2021 22": "(+)16,129",
+                  "2022 23": "(-)2,356"
+                }
+              ],
             "T23H1": "Investments made in loss making Companies",
             "Table24": [
                 {
@@ -31375,28 +31493,18 @@
             "T11H2": "(₹ in crore)",
             "T5H1": "SGST receipts of Government of Karnataka",
             "T15H2": "(₹ in crore)",
-            "Table38": {
-                "t2.38h2": "(₹ in crore)",
-                "t38": [
-                    {
-                        "2021 22": 49467,
-                        "2020 21": 45104,
-                        "2019 20": 35694,
-                        "Guarantees": "Maximum amount guaranteed to the end of 31 March of the year",
-                        "2017 18": 24025,
-                        "2018 19": 30719
-                    },
-                    {
-                        "2018 19": 24091,
-                        "2020 21": 32733,
-                        "Guarantees": "Outstanding amount of guarantees including interest at the end of the year",
-                        "2021 22": 33192,
-                        "2017 18": 18416,
-                        "2019 20": 26830
-                    }
-                ],
-                "t2.38h1": "Table 2.37: Guarantees given by the State Government"
-            },
+            "Table38": [
+                {
+                  "1": "g-r > 0 (strong economic growth)",
+                  "2": "Public debt as a percentage of GSDP tends towards a stable value and is therefore sustainable. Depending on the stock of debt, it will either increase or decrease in time to reach a stable level greater than zero.",
+                  "3": "Public debt as a percentage of GSDP should converge to a stable level less than zero leading to public savings"
+                },
+                {
+                  "1": "g-r < 0 (slow economic growth)",
+                  "2": "Public debt as a percentage of GSDP will increase indefinitely, without converging to a stable level",
+                  "3": "Undefined situation"
+                }
+              ],
             "table2.32": {
                 "t2.32": [
                     {

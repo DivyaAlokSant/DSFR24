@@ -9,26 +9,11 @@ import { styles } from "../helpers";
 
 const columns = [
     {
-        name: "Sl.No.",
-        selector: "SlNo",
-        grow: 0.1,
+        name: "Debt Sustainability Indicators ",
+        selector: "dsa",
+        grow: 1.5,
         wrap: true,
-        // width:'35px',
-    },
-    {
-        name: "Year/Particulars",
-        selector: "YearParticulars",
-        // grow: ,
-        wrap: true,
-        // width:'35px',
-    },
-    {
-        selector: "2017 18",
-        name: "2017 18",
-        // grow: 0.05,
-        // width:'110px',
-        wrap: true,
-        format: data => data["2017 18"].toLocaleString('en-IN')
+        width:'200px',
     },
     {
         name: "2018 19",
@@ -60,6 +45,14 @@ const columns = [
         // width:'110px',
         wrap: true,
         format: data => data["2021 22"].toLocaleString('en-IN')
+    },
+    {
+        selector: "2022 23",
+        name: "2022 23",
+        // grow: 0.05,
+        // width:'110px',
+        wrap: true,
+        format: data => data["2022 23"].toLocaleString('en-IN')
     }
 ];
 
@@ -74,9 +67,9 @@ const Table37 = () => {
         <div className="App" style={{ margin: "40px 0 40px 0" }} >
             <Card>
                 <DataTable
-                    title="Table 2.38:  Utilisation of borrowed funds(in crore)"
+                    title="Table 2.42: Trends in Debt Sustainability indicators"
                     columns={columns}
-                    data={ctx.tables2.Table37 ? ctx.tables2.Table37.t37 : ""}
+                    data={ctx.tables2.Table37 }
                     customStyles={customStyles}
                     striped
                     highlightOnHover

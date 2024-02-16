@@ -8,53 +8,46 @@ import { styles } from "../helpers";
 
 
 const columns = [
+  
     {
-        name: "Debt Sustainability Indicators",
-        selector: "Debt Sustainability Indicators",
-        // grow: ,
+        name: "Sl.No.",
+        selector: "Sl No",
         wrap: true,
-        // width:'35px',
+        width:'50px',
+        format: data => data["Sl No"].toLocaleString('en-IN')
     },
     {
-        selector: "2017 18",
-        name: "2017 18",
-        // grow: 0.05,
-        // width:'110px',
-        wrap: true,
-        format: data => data["2017 18"].toLocaleString('en-IN')
+      name: "Particulars",
+      selector: "Particulars",
+      wrap: true,
+      grow: 1.5,
+      width:'200px',
+      format: data => data["Particulars"].toLocaleString('en-IN')
     },
     {
-        name: "2018 19",
-        selector: "2018 19",
-        // grow: 0.05,
-        // width:'110px',
-        wrap: true,
-        format: data => data["2018 19"].toLocaleString('en-IN')
+      name: "Receipts",
+      selector: "Receipt",
+      // grow: 0.05,
+      // width:'110px',
+      wrap: true,
+      format: data => data["Receipt"].toLocaleString('en-IN')
     },
     {
-        name: "2019 20",
-        selector: "2019 20",
-        // grow: 0.05,
-        // width:'110px',
-        wrap: true,
-        format: data => data["2019 20"].toLocaleString('en-IN')
+      name: "Disbursement",
+      selector: "Disbursement",
+      // grow: 0.05,
+      // width:'110px',
+      wrap: true,
+      format: data => data["Disbursement"].toLocaleString('en-IN')
     },
     {
-        name: "2020 21",
-        selector: "2020 21",
-        // grow:0.05,
-        wrap: true,
-        format: data => data["2020 21"].toLocaleString('en-IN')
-    },
-    {
-        name: "2021 22",
-        selector: "2021 22",
-        // grow: 0.05,
-        // width:'110px',
-        wrap: true,
-        format: data => data["2021 22"].toLocaleString('en-IN')
-    }
-];
+      name: "Net",
+      selector: "Net",
+      // grow:0.05,
+      wrap: true,
+      format: data => data["Net"].toLocaleString('en-IN')
+  }
+  ];
 
 const customStyles = styles;
 
@@ -66,9 +59,9 @@ const Table35 = () => {
         <div className="App" style={{ margin: "40px 0 40px 0" }} >
             <Card>
                 <DataTable
-                    title="Table 2.35: Trends in Debt Sustainability indicators"
+                    title="Table 2.40: Receipts and Disbursements under components financing the fiscal deficit during 2022-23"
                     columns={columns}
-                    data={ctx.tables2.Table36 ? ctx.tables2.Table36.t36 : ""}
+                    data={ctx.tables2.Table35}
                     customStyles={customStyles}
                     striped
                     // conditionalRowStyles={conditionalRowStyles}

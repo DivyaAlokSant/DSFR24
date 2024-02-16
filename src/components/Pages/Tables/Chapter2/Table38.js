@@ -9,50 +9,27 @@ import { styles } from "../helpers";
 
 const columns = [
     {
-        name: "Guarantees",
-        selector: "Guarantees",
+        name: "g-r (g: real economic growth rate; r: real interest rate), called Domar gap",
+        selector: "1",
         // grow: ,
         wrap: true,
         // width:'35px',
     },
     {
-        name: "2017 18",
-        selector: "2017 18",
+        name: "s<0 (primary deficit)",
+        selector: "2",
         // grow: 0.05,
         // width:'110px',
         wrap: true,
-        format: data => data["2017 18"].toLocaleString('en-IN')
+        format: data => data["2"].toLocaleString('en-IN')
     },
     {
-        name: "2018 19",
-        selector: "2018 19",
+        name: "s>0(primary surplus)",
+        selector: "3",
         // grow: 0.05,
         // width:'110px',
         wrap: true,
-        format: data => data["2018 19"].toLocaleString('en-IN')
-    },
-    {
-        name: "2019 20",
-        selector: "2019 20",
-        // grow: 0.05,
-        // width:'110px',
-        wrap: true,
-        format: data => data["2019 20"].toLocaleString('en-IN')
-    },
-    {
-        name: "2020 21",
-        selector: "2020 21",
-        // grow:0.05,
-        wrap: true,
-        format: data => data["2020 21"].toLocaleString('en-IN')
-    },
-    {
-        name: "2021 22",
-        selector: "2021 22",
-        // grow: 0.05,
-        // width:'110px',
-        wrap: true,
-        format: data => data["2021 22"].toLocaleString('en-IN')
+        format: data => data["3"].toLocaleString('en-IN')
     }
 ];
 
@@ -66,9 +43,9 @@ const Table38 = () => {
         <div className="App" style={{ margin: "40px 0 40px 0" }} >
             <Card>
                 <DataTable
-                    title="Table 2.39: Guarantees given by the State Government"
+                    title="Table 2.43: The dynamics of public debt depending on the interest rate, the growth rate of GDP and the primary budget balance"
                     columns={columns}
-                    data={ctx.tables2.Table38 ? ctx.tables2.Table38.t38 : ""}
+                    data={ctx.tables2.Table38 }
                     customStyles={customStyles}
                     striped
                     // conditionalRowStyles={conditionalRowStyles}
