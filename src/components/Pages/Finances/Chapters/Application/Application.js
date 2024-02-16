@@ -435,6 +435,17 @@ const Application = () => {
                         <Para >                            
                             {ctx.chapterTwo.Para183}
                         </Para> 
+                        <h3 className='headnote'>
+                            ₹ In crore
+                        </h3>
+                        <Table22 />
+                        <h4>
+                            <i>
+                                Source: Finance Accounts
+                            </i>
+                        </h4>    
+
+
                         {["Para184","Para185","Para186","Para187","Para188"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}

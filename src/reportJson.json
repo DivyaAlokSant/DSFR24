@@ -30294,46 +30294,102 @@
               ],
             "Table22": [
                 {
-                    "2017 18": 65145.88,
-                    "2020 21": 68256.68,
-                    "2021 22": 70657.43,
-                    "2018 19": 66518.28,
-                    "Type": "Investments at the end of the year (₹ in crore)",
-                    "2019 20": 67816.71
+                  "123": 881.55,
+                  "456": "1,068.00",
+                  "789": "1,068",
+                  "101112": "1,919.66",
+                  "131415": 593.91,
+                  "abc": "North Western Karnataka Road Transport Corporation (NWKRTC)"
                 },
                 {
-                    "2018 19": 38.3,
-                    "2021 22": 349.77,
-                    "2019 20": 53.64,
-                    "Type": "Return (₹ in crore)",
-                    "2017 18": 78.83,
-                    "2020 21": 80.7
+                  "123": 610.65,
+                  "456": 699.92,
+                  "789": 699.92,
+                  "101112": "1,112.19",
+                  "131415": 575.76,
+                  "abc": "Kalyana Karnataka Road Transport Corporation (KKRTC)"
                 },
                 {
-                    "Type": "Return (in per cent)",
-                    "2021 22": 0.49,
-                    "2020 21": 0.12,
-                    "2018 19": 0.1,
-                    "2017 18": 0.12,
-                    "2019 20": 0.1
+                  "123": 386.17,
+                  "456": 361.35,
+                  "789": 318.46,
+                  "101112": 251.85,
+                  "131415": "1,383.01",
+                  "abc": "Karnataka State Financial Corporation Limited (KSFC)"
                 },
                 {
-                    "2017 18": 6.4,
-                    "2019 20": 6.39,
-                    "Type": "Average rate of interest on Government borrowings (per cent)",
-                    "2018 19": 6.25,
-                    "2021 22": 6,
-                    "2020 21": 6.22
+                  "123": "",
+                  "456": "",
+                  "789": "",
+                  "101112": "",
+                  "131415": "",
+                  "abc": "Government Companies"
                 },
                 {
-                    "2017 18": 6.3,
-                    "2019 20": 6.29,
-                    "2021 22": 5.51,
-                    "2018 19": 6.15,
-                    "2020 21": 6.1,
-                    "Type": "Difference between interest rate and return on investment (per cent)"
+                  "123": "2,811.73",
+                  "456": "2,946.51",
+                  "789": "3,419.93",
+                  "101112": 34.7,
+                  "131415": "23,745.34",
+                  "abc": "Krishna Bhagya Jala Nigama Limited (KBJNL)"
+                },
+                {
+                  "123": "4,469.21",
+                  "456": "5,149.92",
+                  "789": "6,333.94",
+                  "101112": "7,512.32",
+                  "131415": "13,034.03",
+                  "abc": "Karnataka Neeravari Nigama Limited (KNNL)"
+                },
+                {
+                  "123": 460.89,
+                  "456": 460.89,
+                  "789": 463.89,
+                  "101112": 504.02,
+                  "131415": 335.78,
+                  "abc": "Mysore Sugar Company Limited (Mysugar)"
+                },
+                {
+                  "123": 425.95,
+                  "456": 425.95,
+                  "789": 519.5,
+                  "101112": 51.95,
+                  "131415": 237.37,
+                  "abc": "Mysore Paper Mills Limited (MPM)"
+                },
+                {
+                  "123": "1,955.76",
+                  "456": "2,637.98",
+                  "789": "5,128.24",
+                  "101112": "6,421.87",
+                  "131415": "1,359.77",
+                  "abc": "Hubli Electricity Supply Company Limited (HESCOM)"
+                },
+                {
+                  "123": "1,002.44",
+                  "456": "1,995.03",
+                  "789": "3,112.65",
+                  "101112": "3,101.41",
+                  "131415": "1,049.55",
+                  "abc": "Gulbarga Electricity Supply Company Limited (GESCOM)"
+                },
+                {
+                  "123": 875.74,
+                  "456": "1,242.37",
+                  "789": "1,965.56",
+                  "101112": "2,388.40",
+                  "131415": 896.49,
+                  "abc": "Chamundeswari Electricity Supply Company Limited (CESCOM)"
+                },
+                {
+                  "123": "13,880.09",
+                  "456": "16,987.92",
+                  "789": "23,030.09",
+                  "101112": "23,298.37",
+                  "131415": "43,211.01",
+                  "abc": "Total"
                 }
-            ],
+              ],
             "table2.41": {
                 "t2.41": [
                     {
@@ -32421,7 +32477,7 @@
             "T5H2": "(₹ in crore)",
             "Table21": [
                 {
-                  "": "Investments as at the end of the year (₹ in crore)",
+                  "abc": "Investments as at the end of the year (₹ in crore)",
                   "2018 19": "66,518.28",
                   "2019 20": "67,816.71",
                   "2020 21": "68,256.68",
@@ -32429,7 +32485,7 @@
                   "2022 23": "72,799.77"
                 },
                 {
-                  "": "Return (₹ in crore)",
+                  "abc": "Return (₹ in crore)",
                   "2018 19": 38.3,
                   "2019 20": 53.64,
                   "2020 21": 80.7,
@@ -32437,7 +32493,7 @@
                   "2022 23": 425.23
                 },
                 {
-                  "": "Return (in per cent)",
+                  "abc": "Return (in per cent)",
                   "2018 19": 0.1,
                   "2019 20": 0.1,
                   "2020 21": 0.12,
@@ -32445,7 +32501,7 @@
                   "2022 23": 0.58
                 },
                 {
-                  "": "Average rate of interest on Government borrowings (per cent)",
+                  "abc": "Average rate of interest on Government borrowings (per cent)",
                   "2018 19": 6.25,
                   "2019 20": 6.39,
                   "2020 21": 6.22,
@@ -32453,14 +32509,14 @@
                   "2022 23": 5.7
                 },
                 {
-                  "": "Difference between interest rate and return on investment (per cent)",
+                  "abc": "Difference between interest rate and return on investment (per cent)",
                   "2018 19": 6.15,
                   "2019 20": 6.29,
                   "2020 21": 6.1,
                   "2021 22": 5.51,
                   "2022 23": 5.12
                 }
-              ],
+            ],
             "T16H1": "Object Head-wise expenditure vis-à-vis budget authorization",
             "T3F1": "Source: Finance Accounts and Economic Survey of GoK",
             "T21H1": "Capital Outlay during 2020-21 compared to 2019-20",
