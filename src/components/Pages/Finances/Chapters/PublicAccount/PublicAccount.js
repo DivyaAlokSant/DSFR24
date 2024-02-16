@@ -175,13 +175,13 @@ const PublicAccount = () => {
                             </Para>)}   
                         <Subtitle>
                            
-                            {ctx.chapterTwo["para281"]}
-                            
-                        </Subtitle>
-                        {["para282","para283","para284"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterTwo[item]}
-                            </Para>)}  
+                           {ctx.chapterTwo["para281"]}
+                           
+                       </Subtitle>
+                       {["para282","para283","para284"].map((item, ind) =>
+                           <Para key={ind / 10}>
+                               {ctx.chapterTwo[item]}
+                           </Para>)}  
                             
 
                                        

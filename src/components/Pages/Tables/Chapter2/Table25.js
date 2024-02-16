@@ -9,18 +9,19 @@ import { styles } from "../helpers";
 
 const columns = [
     {
-        name: "To the end of the Year",
-        selector: "To the end of the Year",
+        name: "Works under",
+        selector: "1",
         // grow: ,
         wrap: true,
+        //format: data => data["1"].toLocaleString('en-IN')
         // width:'35px',
     },
     {
         name: "No of incomplete projects",
-        selector: "No of incomplete projects",
+        selector: "2",
         // grow:0.05,
         wrap: true,
-        format: data => data["No of incomplete projects"].toLocaleString('en-IN')
+        //format: data => data["No of incomplete projects"].toLocaleString('en-IN')
     },
     {
         name: "Estimated cost",
@@ -28,7 +29,7 @@ const columns = [
         // grow: 0.05,
         // width:'110px',
         wrap: true,
-        format: data => data["Estimated cost"].toLocaleString('en-IN')
+        //format: data => data["Estimated cost"].toLocaleString('en-IN')
     },
     {
         name: "Expenditure",
@@ -36,7 +37,7 @@ const columns = [
         // grow: 0.05,
         // width:'110px',
         wrap: true,
-        format: data => data["Expenditure"].toLocaleString('en-IN')
+        //format: data => data["Expenditure"].toLocaleString('en-IN')
     }
 ];
 
@@ -59,12 +60,10 @@ const Table25    = () => {
         <div className="App" style={{ margin: "40px 0 40px 0" }} >
             <Card>
                 <DataTable
-                    title="Table 2.26: Age profile of incomplete projects 
-                    which are more than one crore as on
-                    31 March 2022
-                    "
+                    title="Table 2.31 Department wise profile of incomplete projects which are more than one crore as on 31 March 2023"
+                 
                     columns={columns}
-                    data={ctx.tables2.Table26 ? ctx.tables2.Table26.t26 : ""}
+                    data={ctx.tables2.Table25}
                     customStyles={customStyles}
                     striped
                     conditionalRowStyles={conditionalRowStyles}

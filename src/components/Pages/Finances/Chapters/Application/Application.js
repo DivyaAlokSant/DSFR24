@@ -444,6 +444,15 @@ const Application = () => {
                                 Source: Finance Accounts
                             </i>
                         </h4>    
+                        <h3 className='headnote'>
+                            ₹ In crore
+                        </h3>
+                        <Table23 />
+                        <h4>
+                            <i>
+                                Source: Finance Accounts
+                            </i>
+                        </h4>    
 
 
                         {["Para184","Para185","Para186","Para187","Para188"].map((item, ind) =>
@@ -456,6 +465,11 @@ const Application = () => {
                         <Para >                            
                             {ctx.chapterTwo.Para190}
                         </Para> 
+                        <h3 className='headnote'>
+                            ₹ In crore
+                        </h3>
+                        
+                       
                         {["Para191","Para192","Para193","Para194","Para195","Para196","Para197"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 <li>
@@ -468,6 +482,27 @@ const Application = () => {
                         <Para >                            
                             {ctx.chapterTwo.Para199}
                         </Para> 
+                        <Table24 />
+                        <h4>
+                            <i>
+                                Source: Finance Accounts
+                            </i>
+                        </h4>    
+                        <h3 className='headnote'>
+                            ₹ In crore
+                        </h3>
+                        <Table25 />
+                        <h4>
+                            <i>
+                                Source: Finance Accounts
+                            </i>
+                        </h4>    
+                        <h3 className='headnote'>
+                            ₹ In crore
+                        </h3>
+
+
+
                         {["Para200","Para201","Para202"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}                            
