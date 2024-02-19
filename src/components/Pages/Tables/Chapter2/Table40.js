@@ -11,41 +11,49 @@ const columns = [
     {
         name: "Year",
         selector: "Year",
-        // grow: ,
+        grow: 1.5,
         wrap: true,
-        // width:'35px',
+        width:'200px',
     },
     {
-        name: "Opening Balance",
-        selector: "Opening Balance",
+        name: "2018 19",
+        selector: "2018 19",
+        // grow: 0.05,
+        // width:'110px',
+        wrap: true,
+        format: data => data["2018 19"].toLocaleString('en-IN')
+    },
+    {
+        name: "2019 20",
+        selector: "2019 20",
+        // grow: 0.05,
+        // width:'110px',
+        wrap: true,
+        format: data => data["2019 20"].toLocaleString('en-IN')
+    },
+    {
+        name: "2020 21",
+        selector: "2020 21",
         // grow:0.05,
         wrap: true,
-        format: data => data["Opening Balance"].toLocaleString('en-IN')
+        format: data => data["2020 21"].toLocaleString('en-IN')
     },
     {
-        name: "Closing Balance",
-        selector: "Closing Balance",
+        name: "2021 22",
+        selector: "2021 22",
         // grow: 0.05,
         // width:'110px',
         wrap: true,
-        format: data => data["Closing Balance"].toLocaleString('en-IN')
+        format: data => data["2021 22"].toLocaleString('en-IN')
     },
     {
-        name: "IncreaseDecrease",
-        selector: "IncreaseDecrease",
+        selector: "2022 23",
+        name: "2022 23",
         // grow: 0.05,
         // width:'110px',
         wrap: true,
-        format: data => data["IncreaseDecrease"].toLocaleString('en-IN')
-    },
-    {
-        name: "Interest earned",
-        selector: "Interest earned",
-        // grow: 0.05,
-        // width:'110px',
-        wrap: true,
-        format: data => data["Interest earned"].toLocaleString('en-IN')
-    },
+        format: data => data["2022 23"].toLocaleString('en-IN')
+    }
 ];
 
 const customStyles = styles;
@@ -58,9 +66,9 @@ const Table40 = () => {
         <div className="App" style={{ margin: "40px 0 40px 0" }} >
             <Card>
                 <DataTable
-                    title="Table 2.41: Cash Balance Investment Account (Major Head-8673)"
+                    title="Table 2.45:  Utilisation of borrowed funds"
                     columns={columns}
-                    data={ctx.tables2.Table41 ? ctx.tables2.Table41.t41 : ""}
+                    data={ctx.tables2.Table40}
                     customStyles={customStyles}
                     striped
                     // conditionalRowStyles={conditionalRowStyles}

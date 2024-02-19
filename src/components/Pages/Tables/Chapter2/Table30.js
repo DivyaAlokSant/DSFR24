@@ -9,27 +9,14 @@ import { styles } from "../helpers";
 
 const columns = [
   {
-    name: "Type",
-    selector: "Type",
-    // grow: ,
+    name: "Component of fiscal liability",
+    selector: "Component of fiscal liability",
+    grow:1.5 ,
     wrap: true,
-    // width:'35px',
+    width:'200px',
   },
-  {
-    name: "From",
-    selector: "From",
-    // grow: ,
-    wrap: true,
-    // width:'35px',
-  },
-  {
-    name: "2017 18",
-    selector: "2017 18",
-    // grow: 0.05,
-    // width:'110px',
-    wrap: true,
-    format: data => data["2017 18"].toLocaleString('en-IN')
-  },
+  
+  
   {
     name: "2018 19",
     selector: "2018 19",
@@ -60,6 +47,14 @@ const columns = [
   // width:'110px',
   wrap: true,
   format: data => data["2021 22"].toLocaleString('en-IN')
+},
+{
+  name: "2022 23",
+  selector: "2022 23",
+  // grow: 0.05,
+  // width:'110px',
+  wrap: true,
+  format: data => data["2022 23"].toLocaleString('en-IN')
 }
 ];
 
@@ -75,7 +70,7 @@ const Table30 = () => {
         <DataTable
           title="Table 2.32: Component wise debt trends"
           columns={columns}
-          data={ctx.tables2.Table31.t31}
+          data={ctx.tables2.Table30}
           customStyles={customStyles}
           striped
           // conditionalRowStyles={conditionalRowStyles}

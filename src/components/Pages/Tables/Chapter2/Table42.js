@@ -9,33 +9,33 @@ import { styles } from "../helpers";
 
 const columns = [
     {
-        name: "g-r (g: real economic growth rate; r: real interest rate), called Domar gap",
+        name: "",
         selector: "1",
-        // grow: ,
+        grow: 1.5,
         wrap: true,
-        // width:'35px',
+        width:'200px',
     },
     {
-        name: "s<0 (primary deficit)",
-        selector: "2",
+        name: "Opening balance as on 1 April 2022",
+        selector: "Opening balance as on 1 April 2022",
         // grow: 0.05,
         // width:'110px',
         wrap: true,
-        format: data => data["2"].toLocaleString('en-IN')
+        format: data => data["Opening balance as on 1 April 2022"].toLocaleString('en-IN')
     },
     {
-        name: "s>0(primary surplus)",
-        selector: "3",
+        name: "Closing balance as on 31 March 2023",
+        selector: "Closing balance as on 31 March 2023",
         // grow: 0.05,
         // width:'110px',
         wrap: true,
-        format: data => data["3"].toLocaleString('en-IN')
+        format: data => data["Closing balance as on 31 March 2023"].toLocaleString('en-IN')
     }
 ];
 
 const customStyles = styles;
 
-const Table38 = () => {
+const Table42 = () => {
 
     const ctx = useContext(MyContext)
 
@@ -43,9 +43,9 @@ const Table38 = () => {
         <div className="App" style={{ margin: "40px 0 40px 0" }} >
             <Card>
                 <DataTable
-                    title="Table 2.43: The dynamics of public debt depending on the interest rate, the growth rate of GDP and the primary budget balance"
+                    title="Table 2.47: Cash Balances and their investment"
                     columns={columns}
-                    data={ctx.tables2.Table38 }
+                    data={ctx.tables2.Table42}
                     customStyles={customStyles}
                     striped
                     // conditionalRowStyles={conditionalRowStyles}
@@ -58,4 +58,4 @@ const Table38 = () => {
     );
 }
 
-export default Table38;
+export default Table42;

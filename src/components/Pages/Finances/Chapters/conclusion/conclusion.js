@@ -22,10 +22,10 @@ const Conclusion = () => {
                     <div className="contentwrapper" id="home">
                         <FloatingActionButtons back="/finances/dsa" forward="/budget" />
                         <Title>
-                            {ctx.chapterTwo.Second.para124}
+                            {ctx.chapterTwo.para124}
                         </Title>
                         <Subtitle>
-                            {ctx.chapterTwo.Second.para125}
+                            {ctx.chapterTwo.para125}
                         </Subtitle>
                         <Para>
                             {ctx.chapterTwo.Second.para126}

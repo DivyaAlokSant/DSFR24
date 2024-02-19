@@ -9,33 +9,49 @@ import { styles } from "../helpers";
 
 const columns = [
     {
-        name: "g-r (g: real economic growth rate; r: real interest rate), called Domar gap",
+        name: "Year",
+        selector: "Year",
+        //grow: 1.5,
+        wrap: true,
+        //width:'200px',
+    },
+    {
+        name: "Opening balance",
+        selector: "Opening Balance",
+        // grow: 0.05,
+        // width:'110px',
+        wrap: true,
+        format: data => data["Opening Balance"].toLocaleString('en-IN')
+    },
+    {
+        name: "Closing balance ",
+        selector: "Closing Balance ",
+        // grow: 0.05,
+        // width:'110px',
+        wrap: true,
+        format: data => data["Closing Balance"].toLocaleString('en-IN')
+    },
+    {
+        name: "Increase (+)/ Decrease (-)",
         selector: "1",
-        // grow: ,
-        wrap: true,
-        // width:'35px',
-    },
-    {
-        name: "s<0 (primary deficit)",
-        selector: "2",
         // grow: 0.05,
         // width:'110px',
         wrap: true,
-        format: data => data["2"].toLocaleString('en-IN')
+        format: data => data["1"].toLocaleString('en-IN')
     },
     {
-        name: "s>0(primary surplus)",
-        selector: "3",
+        name: "Interest earned",
+        selector: "Interest earned",
         // grow: 0.05,
         // width:'110px',
         wrap: true,
-        format: data => data["3"].toLocaleString('en-IN')
+        format: data => data["Interest earned"].toLocaleString('en-IN')
     }
 ];
 
 const customStyles = styles;
 
-const Table38 = () => {
+const Table43 = () => {
 
     const ctx = useContext(MyContext)
 
@@ -43,9 +59,9 @@ const Table38 = () => {
         <div className="App" style={{ margin: "40px 0 40px 0" }} >
             <Card>
                 <DataTable
-                    title="Table 2.43: The dynamics of public debt depending on the interest rate, the growth rate of GDP and the primary budget balance"
+                    title="Table 2.48: Cash Balance Investment Account (Major Head-8673)"
                     columns={columns}
-                    data={ctx.tables2.Table38 }
+                    data={ctx.tables2.Table43}
                     customStyles={customStyles}
                     striped
                     // conditionalRowStyles={conditionalRowStyles}
@@ -58,4 +74,4 @@ const Table38 = () => {
     );
 }
 
-export default Table38;
+export default Table43;

@@ -8,57 +8,49 @@ import { styles } from "../helpers";
 
 const columns = [
   {
-    name: "Sl. No.",
-    selector: "Sl",
-    grow: 0.1,
+    name: "Company/ Corporation/ Board",
+    selector: "Company/ Corporation/ Board",
+    grow: 1.5,
+    wrap: true,
+    width:'200px',
+  },
+  {
+    name: "Outstanding off budget borrowing",
+    selector: "Outstanding off budget borrowing",
+    //grow: 2,
     wrap: true,
     // width:'35px',
   },
   {
-    name: "Particulars",
-    selector: "Particulars",
-    grow: 2,
-    wrap: true,
-    // width:'35px',
-  },
-  {
-    name: "2017 18",
-    selector: "2017 18",
+    name: "Borrowings during 2022-23",
+    selector: "Borrowings during 2022 23",
     // grow: 0.05,
     // width:'110px',
     wrap: true,
-    format: data => data["2017 18"].toLocaleString('en-IN')
+    format: data => data["Borrowings during 2022 23"].toLocaleString('en-IN')
   },
   {
-    name: "2018 19",
-    selector: "2018 19",
+    name: "Principal Repayment during 2022 23",
+    selector: "Principal Repayment during 2022 23",
     // grow: 0.05,
     // width:'110px',
     wrap: true,
-    format: data => data["2018 19"].toLocaleString('en-IN')
+    format: data => data["Principal Repayment during 2022 23"].toLocaleString('en-IN')
   },
   {
-    name: "2019 20",
-    selector: "2019 20",
+    name: "Intrest Repayment during 2022 23",
+    selector: "Intrest Repayment during 2022 23",
     // grow: 0.05,
     // width:'110px',
     wrap: true,
-    format: data => data["2019 20"].toLocaleString('en-IN')
+    format: data => data["Intrest Repayment during 2022 23"].toLocaleString('en-IN')
   },
   {
-    name: "2020 21",
-    selector: "2020 21",
+    name: "Closing Balance",
+    selector: "Closing Balance",
     // grow:0.05,
     wrap: true,
-    format: data => data["2020 21"].toLocaleString('en-IN')
-  },
-  {
-    name: "2021 22",
-    selector: "2021 22",
-    // grow: 0.05,
-    // width:'110px',
-    wrap: true,
-    //format: data => data["2021 22"].toLocaleString('en-IN')
+    format: data => data["Closing Balance"].toLocaleString('en-IN')
   }
 ];
 
@@ -81,9 +73,9 @@ const Table32 = () => {
     <div className="App" style={{ margin: "40px 0 40px 0" }} >
       <Card>
         <DataTable
-          title="Table 2.34: Components of fiscal deficit and its financing pattern"
+          title="Table 2.37 (a): Entity-wise position of off-budget borrowings"
           columns={columns}
-          data={ctx.tables2.Table33 ? ctx.tables2.Table33.t33 : ""}
+          data={ctx.tables2.Table32}
           customStyles={customStyles}
           striped
           conditionalRowStyles={conditionalRowStyles}

@@ -27,7 +27,11 @@ const columns = [
         selector: "Expenditure during 2022 23",
         // grow:0.05,
         wrap: true,
+<<<<<<< HEAD
         //format: data => data["Expenditure during 2022 23"].toLocaleString('en-IN')
+=======
+        format: data => data["Expenditure during 2022 23"].toLocaleString('en-IN')
+>>>>>>> be6e59cdac09ac755415b31575bbe7415d379680
     }
 ];
 
