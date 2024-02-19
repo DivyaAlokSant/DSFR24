@@ -59,8 +59,8 @@ const columns = [
         // grow: 0.05,
         // width:'110px',
         wrap: true,
-<<<<<<< HEAD
-=======
+
+
         format: data => data["2021 22"].toLocaleString('en-IN')
     },
     {
@@ -69,7 +69,7 @@ const columns = [
         // grow: 0.05,
         // width:'110px',
         wrap: true,
->>>>>>> be6e59cdac09ac755415b31575bbe7415d379680
+
         format: data => data["2022 23"].toLocaleString('en-IN')
     }
 ];
@@ -95,12 +95,11 @@ const Table28 = () => {
                 <DataTable
                     title="Table 2.34: Component-wise net balances in Public Account as of 31 March of the year"
                     columns={columns}
-<<<<<<< HEAD
-                    
+                             
                     data={ctx.tables2.Table28.t28}
-=======
+
                     data={ctx.tables2.Table28}
->>>>>>> be6e59cdac09ac755415b31575bbe7415d379680
+
                     customStyles={customStyles}
                     striped
                     conditionalRowStyles={conditionalRowStyles}
