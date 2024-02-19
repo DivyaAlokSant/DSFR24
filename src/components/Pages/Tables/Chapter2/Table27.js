@@ -10,7 +10,7 @@ import { styles } from "../helpers";
 const columns = [
     {
         name: "",
-        selector: "ratio",
+        selector: "abc",
         wrap: true,
     },
     {
@@ -38,7 +38,7 @@ const columns = [
         format: data => data["EducationAE"].toLocaleString('en-IN')
     },
     {
-        name: "Health/AE",
+        name: "Health&Family Welfare/AE",
         selector: "HealthAE",
         wrap: true,
         format: data => data["HealthAE"].toLocaleString('en-IN')
@@ -55,9 +55,9 @@ const Table27 = () => {
         <div className="App" style={{ margin: "40px 0 40px 0" }} >
             <Card>
                 <DataTable
-                    title="Table 2.28: Fiscal priority of the States in 2021-22"
+                    title="Table 2.33: Fiscal priority of the States in 2022-23"
                     columns={columns}
-                    data={ctx.tables2.Table28 ? ctx.tables2.Table28.t28 : ""}
+                    data={ctx.tables2.Table27.t27}
                     customStyles={customStyles}
                     striped
                     highlightOnHover

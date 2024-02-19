@@ -29166,81 +29166,231 @@
                     }
                 ]
             },
-            "Table26": {
-                "t26": [
+            "Table26": 
+                [
                     {
-                        "To the end of the Year": "Up to 2012-13",
-                        "No of incomplete projects": 9,
-                        "Estimated cost": 17.68,
-                        "Expenditure": 14.78
+                      "123": "Estimated Cost",
+                      "456": "Estimated Cost",
+                      "789": "Estimated Cost",
+                      "xyz": "",
+                      "Department": "",
+                      "abc": "No.",
+                      "def": "No.",
+                      "In Pipeline": "No."
                     },
                     {
-                        "To the end of the Year": "2013-14",
-                        "No of incomplete projects": 5,
-                        "Estimated cost": 13.3,
-                        "Expenditure": 8.79
+                      "123": "",
+                      "456": "",
+                      "789": 117.72,
+                      "xyz": 1,
+                      "Department": "Energy",
+                      "abc": 1,
+                      "def": "",
+                      "In Pipeline": 1
                     },
                     {
-                        "To the end of the Year": "2014-15",
-                        "No of incomplete projects": 10,
-                        "Estimated cost": 21.44,
-                        "Expenditure": 20.61
+                      "123": "",
+                      "456": "",
+                      "789": 120,
+                      "xyz": 2,
+                      "Department": "Industries & Commerce",
+                      "abc": 3,
+                      "def": "",
+                      "In Pipeline": 3
                     },
                     {
-                        "To the end of the Year": "2015-16",
-                        "No of incomplete projects": 20,
-                        "Estimated cost": 189.33,
-                        "Expenditure": 97.51
+                      "123": "",
+                      "456": "",
+                      "789": 20,
+                      "xyz": 3,
+                      "Department": "Medical",
+                      "abc": 1,
+                      "def": "",
+                      "In Pipeline": 1
                     },
                     {
-                        "To the end of the Year": "2016-17",
-                        "No of incomplete projects": 48,
-                        "Estimated cost": 120.16,
-                        "Expenditure": 108.4
+                      "123": "",
+                      "456": "",
+                      "789": "30,504",
+                      "xyz": 4,
+                      "Department": "Urban Development",
+                      "abc": 3,
+                      "def": "",
+                      "In Pipeline": 3
                     },
                     {
-                        "To the end of the Year": "2017-18",
-                        "No of incomplete projects": 46,
-                        "Estimated cost": 254.71,
-                        "Expenditure": 216.61
+                      "123": "",
+                      "456": "",
+                      "789": 273.9,
+                      "xyz": 5,
+                      "Department": "Tourism",
+                      "abc": 3,
+                      "def": "",
+                      "In Pipeline": 3
                     },
                     {
-                        "To the end of the Year": "2018-19",
-                        "No of incomplete projects": 256,
-                        "Estimated cost": "1,430.18",
-                        "Expenditure": "1,037.89"
+                      "123": "",
+                      "456": 0,
+                      "789": "1,711.30",
+                      "xyz": 6,
+                      "Department": "Youth Empowerment & Sports",
+                      "abc": 10,
+                      "def": 1,
+                      "In Pipeline": 9
                     },
                     {
-                        "To the end of the Year": "2019-20",
-                        "No of incomplete projects": 328,
-                        "Estimated cost": "1,953.30",
-                        "Expenditure": "1,331.12"
+                      "123": "",
+                      "456": "",
+                      "789": 182,
+                      "xyz": 7,
+                      "Department": "Rural Development & Panchayat Raj",
+                      "abc": 1,
+                      "def": "",
+                      "In Pipeline": 1
                     },
                     {
-                        "To the end of the Year": "2020-21",
-                        "No of incomplete projects": 308,
-                        "Estimated cost": "1,353.35",
-                        "Expenditure": 939.65
+                      "123": "",
+                      "456": 0,
+                      "789": 10.82,
+                      "xyz": 8,
+                      "Department": "Fisheries",
+                      "abc": 9,
+                      "def": 5,
+                      "In Pipeline": 4
                     },
                     {
-                        "To the end of the Year": "2021-22",
-                        "No of incomplete projects": 178,
-                        "Estimated cost": 584.91,
-                        "Expenditure": 312.15
+                      "123": "",
+                      "456": "",
+                      "789": 155.63,
+                      "xyz": 9,
+                      "Department": "Food and Civil Supplies",
+                      "abc": 3,
+                      "def": "",
+                      "In Pipeline": 3
                     },
                     {
-                        "To the end of the Year": "Total",
-                        "No of incomplete projects": "1,208",
-                        "Estimated cost": "5,938.36",
-                        "Expenditure": "4,087.51"
+                      "123": "",
+                      "456": "",
+                      "789": "1,794.49",
+                      "xyz": 10,
+                      "Department": "Water Resources",
+                      "abc": 2,
+                      "def": "",
+                      "In Pipeline": 2
+                    },
+                    {
+                      "123": "",
+                      "456": 0,
+                      "789": 372.85,
+                      "xyz": 11,
+                      "Department": "Animal Husbandry",
+                      "abc": 8,
+                      "def": 2,
+                      "In Pipeline": 6
+                    },
+                    {
+                      "123": "",
+                      "456": 26.5,
+                      "789": 582,
+                      "xyz": 12,
+                      "Department": "Transport",
+                      "abc": 5,
+                      "def": 1,
+                      "In Pipeline": 4
+                    },
+                    {
+                      "123": "",
+                      "456": 40,
+                      "789": 250,
+                      "xyz": 13,
+                      "Department": "Horticulture",
+                      "abc": 5,
+                      "def": 2,
+                      "In Pipeline": 3
+                    },
+                    {
+                      "123": "",
+                      "456": "",
+                      "789": 0,
+                      "xyz": 14,
+                      "Department": "Forest, Ecology & Environment",
+                      "abc": 1,
+                      "def": "",
+                      "In Pipeline": 1
+                    },
+                    {
+                      "123": "",
+                      "456": 10,
+                      "789": "1,863.90",
+                      "xyz": 15,
+                      "Department": "Public Works Department",
+                      "abc": 6,
+                      "def": 1,
+                      "In Pipeline": 5
+                    },
+                    {
+                      "123": "",
+                      "456": "",
+                      "789": 14.51,
+                      "xyz": 16,
+                      "Department": "Kannada and Culture",
+                      "abc": 1,
+                      "def": "",
+                      "In Pipeline": 1
+                    },
+                    {
+                      "123": "",
+                      "456": "",
+                      "789": 150,
+                      "xyz": 17,
+                      "Department": "Sericulture",
+                      "abc": 1,
+                      "def": "",
+                      "In Pipeline": 1
+                    },
+                    {
+                      "123": "",
+                      "456": "",
+                      "789": 40,
+                      "xyz": 18,
+                      "Department": "Backward Classes",
+                      "abc": 1,
+                      "def": "",
+                      "In Pipeline": 1
+                    },
+                    {
+                      "123": "",
+                      "456": 0,
+                      "789": 887.5,
+                      "xyz": 19,
+                      "Department": "Infrastructure Development",
+                      "abc": 5,
+                      "def": 2,
+                      "In Pipeline": 3
+                    },
+                    {
+                      "123": "",
+                      "456": "",
+                      "789": 43.4,
+                      "xyz": 20,
+                      "Department": "Agriculture",
+                      "abc": 1,
+                      "def": "",
+                      "In Pipeline": 1
+                    },
+                    {
+                      "123": 0,
+                      "456": 76.5,
+                      "789": "39,094.02",
+                      "xyz": "",
+                      "Department": "Total",
+                      "abc": 70,
+                      "def": 14,
+                      "In Pipeline": 56
                     }
-                ],
-                "t26h2": " (₹in crore)",
-                "t26h1": "Table 2.25: Age profile of incomplete projects which are more than one crore as on 31 March 2021"
-            },
-            "T10H1": "Transfer of recommended and actual release of grants during 2020-21",
-            "T17F2": "#includes interest on off-budget borrowings",
-            "T15F1": "Source: Finance Accounts",
+                  ],
+              
+          "T15F1": "Source: Finance Accounts",
             "T8H1": "Grants-in-aid from GoI",
             "Table35": {
                 "t2.35h1": "Table 2.34: Maturity profile of Public Debt",
@@ -29522,41 +29672,75 @@
             },
             "T13H1": "Total expenditure – Trends and composition",
             "Table27": {
-                "t27h2": "(₹in crore)",
-                "t27h1": "Table 2.27: Department wise profile of incomplete projects which are more than one crore as on 31 March 2021",
+                "t27h2": "(in crore)",
+          
                 "t27f1": "AE: Aggregate Expenditure, CE: Capital Expenditure, DE: Development Expenditure (includes total expenditure under social and economic sectors)",
                 "t27": [
                     {
-                        "Works under": "Roads and Bridges",
-                        "No of incomplete projects": 928,
-                        "Estimated cost": "4,496.93",
-                        "Expenditure": "3,115.07"
+                      "abc": "GCS",
+                      "AEGSDP": 15.79,
+                      "CEAE": 15.22,
+                      "DEAE": 94.25,
+                      "EducationAE": 14.85,
+                      "HealthAE": 5.68
                     },
                     {
-                        "Works under": "Irrigation",
-                        "No of incomplete projects": 215,
-                        "Estimated cost": "1,267.62",
-                        "Expenditure": 834.68
+                      "abc": "Kerala",
+                      "AEGSDP": 15.6,
+                      "CEAE": 10.58,
+                      "DEAE": 49.38,
+                      "EducationAE": 14.02,
+                      "HealthAE": 6.43
                     },
                     {
-                        "Works under": "Buildings",
-                        "No of incomplete projects": 25,
-                        "Estimated cost": 106.11,
-                        "Expenditure": 93.9
+                      "abc": "Tamilnadu",
+                      "AEGSDP": 13.82,
+                      "CEAE": 14.32,
+                      "DEAE": 63.16,
+                      "EducationAE": 13.51,
+                      "HealthAE": 5.39
                     },
                     {
-                        "Works under": "Others",
-                        "No of incomplete projects": 40,
-                        "Estimated cost": 67.7,
-                        "Expenditure": 43.86
+                      "abc": "Andhra Pradesh",
+                      "AEGSDP": 15.96,
+                      "CEAE": 4.3,
+                      "DEAE": 68.93,
+                      "EducationAE": 12.35,
+                      "HealthAE": 5.46
                     },
                     {
-                        "Works under": "Total",
-                        "No of incomplete projects": "1,208",
-                        "Estimated cost": "5,938.36",
-                        "Expenditure": "4,087.51"
+                      "abc": "Telangana",
+                      "AEGSDP": 14.66,
+                      "CEAE": 20.32,
+                      "DEAE": 73.37,
+                      "EducationAE": 9.06,
+                      "HealthAE": 4.57
+                    },
+                    {
+                      "abc": "Maharashtra",
+                      "AEGSDP": 13.44,
+                      "CEAE": 13.99,
+                      "DEAE": 64.61,
+                      "EducationAE": 16.88,
+                      "HealthAE": 4.3
+                    },
+                    {
+                      "abc": "Madhya  Pradesh",
+                      "AEGSDP": 18.65,
+                      "CEAE": 18.97,
+                      "DEAE": "74,10",
+                      "EducationAE": 13.9,
+                      "HealthAE": 5.68
+                    },
+                    {
+                      "abc": "Karnataka",
+                      "AEGSDP": 12.32,
+                      "CEAE": 21.94,
+                      "DEAE": 71.35,
+                      "EducationAE": 11.56,
+                      "HealthAE": 4.54
                     }
-                ]
+                  ]
             },
             "T9F2": "There are no figures since the nomenclature of plan and non-plan grants was removed with effect from the year 2017-18 and replaced by Grants for CSS, Finance Commission Grants and Other Grants to States",
             "Table31": {
@@ -29759,130 +29943,70 @@
                     }
                 ]
             },
-            "Table29": {
-                "t29h2": "(₹ in crore)",
-                "t29": [
+            "Table29": 
+                [
                     {
-                        "Sector": "I. Small Savings, Provident Funds, etc.",
-                        "Sub Sector": "Small Savings, Provident Funds, etc.",
-                        "2017 18": "2,811",
-                        "2018 19": "3,292",
-                        "2019 20": "4,156",
-                        "2020 21": "3,632",
-                        "2021 22": "3,522"
+                      "abc": "",
+                      "Minor Head of Account": "Opening Balance",
+                      "Expenditure during 2022 23": 2.42
                     },
                     {
-                        "Sector": "J. Reserve Funds",
-                        "Sub Sector": "(a) Reserve Funds bearing Interest",
-                        "2017 18": "(-) 1,194",
-                        "2018 19": 393,
-                        "2019 20": 839,
-                        "2020 21": "(-)99",
-                        "2021 22": "(-)46"
+                      "abc": "05-State Disaster Response Fund",
+                      "Minor Head of Account": "Transfers to Reserve Funds and Deposit Accounts – SDRF",
+                      "Expenditure during 2022 23": 885.34
                     },
                     {
-                        "Sector": "",
-                        "Sub Sector": "(b) Reserve Funds not bearing Interest",
-                        "2017 18": "4,212",
-                        "2018 19": "2,804",
-                        "2019 20": "3,889",
-                        "2020 21": "6,374",
-                        "2021 22": "9,219"
+                      "abc": "05-State Disaster Response Fund",
+                      "Minor Head of Account": "Transfers to Reserve Funds and Deposit Accounts – NDRF",
+                      "Expenditure during 2022 23": 939.83
                     },
                     {
-                        "Sector": "K. Deposits and Advances",
-                        "Sub Sector": "(a) Deposits bearing Interest",
-                        "2017 18": "(-) 3",
-                        "2018 19": 62,
-                        "2019 20": 99,
-                        "2020 21": 16,
-                        "2021 22": "(-)18"
+                      "abc": "05-State Disaster Response Fund",
+                      "Minor Head of Account": "Deduct-Amount met from-SDRF",
+                      "Expenditure during 2022 23": "(-)798.56"
                     },
                     {
-                        "Sector": "",
-                        "Sub Sector": "(b) Deposits not bearing Interest",
-                        "2017 18": "1,837",
-                        "2018 19": "3,006",
-                        "2019 20": "3,074",
-                        "2020 21": "(-)702",
-                        "2021 22": "2,826"
+                      "abc": "05-State Disaster Response Fund",
+                      "Minor Head of Account": "Deduct-Amount met from-NDRF",
+                      "Expenditure during 2022 23": "(-)939.83"
                     },
                     {
-                        "Sector": "",
-                        "Sub Sector": "(c) Advances",
-                        "2017 18": "-",
-                        "2018 19": "-",
-                        "2019 20": "-",
-                        "2020 21": "-",
-                        "2021 22": "-"
+                      "abc": "05-State Disaster Response Fund",
+                      "Minor Head of Account": "Transfers of interest in respect of unutilised amount under SDRF during 2021-22.",
+                      "Expenditure during 2022 23": "-"
                     },
                     {
-                        "Sector": "L. Suspense and Miscellaneous",
-                        "Sub Sector": "(a) Suspense",
-                        "2017 18": 17,
-                        "2018 19": "(-) 15",
-                        "2019 20": 178,
-                        "2020 21": "(-)242",
-                        "2021 22": "(-)60"
+                      "abc": "05-State Disaster Response Fund",
+                      "Minor Head of Account": "Closing Balance",
+                      "Expenditure during 2022 23": 89.2
                     },
                     {
-                        "Sector": "",
-                        "Sub Sector": "(b) Other Accounts",
-                        "2017 18": "(-) 1,526",
-                        "2018 19": "(-) 6,072",
-                        "2019 20": "(-) 1,542",
-                        "2020 21": "(-)2,679",
-                        "2021 22": "(-)93"
+                      "abc": "10-State Disaster Mitigation Fund",
+                      "Minor Head of Account": "Opening Balance",
+                      "Expenditure during 2022 23": 237.1
                     },
                     {
-                        "Sector": "",
-                        "Sub Sector": "(c) Accounts with Governments of Foreign Countries",
-                        "2017 18": "-",
-                        "2018 19": "-",
-                        "2019 20": "-",
-                        "2020 21": "-",
-                        "2021 22": "-"
+                      "abc": "10-State Disaster Mitigation Fund",
+                      "Minor Head of Account": "Transfers to Reserve Funds and Deposit Accounts – SDMF",
+                      "Expenditure during 2022 23": "-"
                     },
                     {
-                        "Sector": "",
-                        "Sub Sector": "(d) Miscellaneous",
-                        "2017 18": "-",
-                        "2018 19": "-",
-                        "2019 20": "-",
-                        "2020 21": "-",
-                        "2021 22": "-"
+                      "abc": "10-State Disaster Mitigation Fund",
+                      "Minor Head of Account": "Deduct-Amount met from-SDMF",
+                      "Expenditure during 2022 23": "-"
                     },
                     {
-                        "Sector": "M. Remittances",
-                        "Sub Sector": "(a) Money Orders and other remittances",
-                        "2017 18": "(-) 51",
-                        "2018 19": "(-) 81",
-                        "2019 20": "(-) 263",
-                        "2020 21": "(-)53",
-                        "2021 22": "-"
+                      "abc": "10-State Disaster Mitigation Fund",
+                      "Minor Head of Account": "Transfers of interest in respect of unutilised amount under SDMF during 2021-22.",
+                      "Expenditure during 2022 23": "-"
                     },
                     {
-                        "Sector": "",
-                        "Sub Sector": "(b) Inter-Governmental Adjustment Account",
-                        "2017 18": "(-) 25",
-                        "2018 19": 42,
-                        "2019 20": "(-) 84",
-                        "2020 21": 17,
-                        "2021 22": "(-)133"
-                    },
-                    {
-                        "Sector": "Total",
-                        "Sub Sector": "",
-                        "2017 18": "6,078",
-                        "2018 19": "3,431",
-                        "2019 20": "10,346",
-                        "2020 21": "6,264",
-                        "2021 22": "15,217"
+                      "abc": "",
+                      "Minor Head of Account": "Closing Balance",
+                      "Expenditure during 2022 23": 237.1
                     }
-                ],
-                "t29h1": "Table 2.28: Component-wise net balances in Public Account as of 31 March of the year",
-                "t29f1": "Note: +ve denotes debit balance and –ve denotes credit balances"
-            },
+                  ],
+                 
             "Table14": [
                 {
                   "Parameters": "Total Expenditure (TE)",
@@ -31689,70 +31813,123 @@
             "Table28": {
                 "t28": [
                     {
-                        "ratio": "GCS",
-                        "AEGSDP": 15.84,
-                        "CEAE": 14.41,
-                        "DEAE": 66.74,
-                        "EducationAE": 14.66,
-                        "HealthAE": 6.2
+                      "Sector": "I. Small Savings, Provident Funds, etc.",
+                      "Sub Sector": "Small Savings, Provident Funds, etc.",
+                      "2018 19": "3,292",
+                      "2019 20": "4,156",
+                      "2020 21": "3,632",
+                      "2021 22": "3,522",
+                      "2022 23": "3,403"
                     },
                     {
-                        "ratio": "Kerala",
-                        "AEGSDP": 18.1,
-                        "CEAE": 10.44,
-                        "DEAE": 50.95,
-                        "EducationAE": 15.27,
-                        "HealthAE": 7.32
+                      "Sector": "J. Reserve Funds",
+                      "Sub Sector": "(a) Reserve Funds bearing Interest",
+                      "2018 19": 393,
+                      "2019 20": 839,
+                      "2020 21": "(-)99",
+                      "2021 22": "(-)46",
+                      "2022 23": "(-)141"
                     },
                     {
-                        "ratio": "Tamilnadu",
-                        "AEGSDP": 14.27,
-                        "CEAE": 13.8,
-                        "DEAE": 64.22,
-                        "EducationAE": 13.02,
-                        "HealthAE": 6.45
+                      "Sector": "J. Reserve Funds",
+                      "Sub Sector": "(b) Reserve Funds not bearing Interest",
+                      "2018 19": "2,804",
+                      "2019 20": "3,889",
+                      "2020 21": "6,374",
+                      "2021 22": "9,219",
+                      "2022 23": "7,422"
                     },
                     {
-                        "ratio": "Andhra Pradesh",
-                        "AEGSDP": 14.78,
-                        "CEAE": 10.42,
-                        "DEAE": 66.69,
-                        "EducationAE": 14.39,
-                        "HealthAE": 6.34
+                      "Sector": "K. Deposits and Advances",
+                      "Sub Sector": "(a) Deposits bearing Interest",
+                      "2018 19": 62,
+                      "2019 20": 99,
+                      "2020 21": 16,
+                      "2021 22": "(-)18",
+                      "2022 23": 51
                     },
                     {
-                        "ratio": "Telangana",
-                        "AEGSDP": 15.17,
-                        "CEAE": 21.44,
-                        "DEAE": 73.91,
-                        "EducationAE": 8.14,
-                        "HealthAE": 4.19
+                      "Sector": "K. Deposits and Advances",
+                      "Sub Sector": "(b) Deposits not bearing Interest",
+                      "2018 19": "3,006",
+                      "2019 20": "3,074",
+                      "2020 21": "(-)702",
+                      "2021 22": "2,826",
+                      "2022 23": "26,141"
                     },
                     {
-                        "ratio": "Maharashtra",
-                        "AEGSDP": 12.43,
-                        "CEAE": 12.32,
-                        "DEAE": 62.06,
-                        "EducationAE": 17.13,
-                        "HealthAE": 5.3
+                      "Sector": "K. Deposits and Advances",
+                      "Sub Sector": "(c) Advances",
+                      "2018 19": "-",
+                      "2019 20": "-",
+                      "2020 21": "-",
+                      "2021 22": "-",
+                      "2022 23": "-"
                     },
                     {
-                        "ratio": "Madhya  Pradesh",
-                        "AEGSDP": 19.25,
-                        "CEAE": 19.53,
-                        "DEAE": 74.34,
-                        "EducationAE": 13.55,
-                        "HealthAE": 5.63
+                      "Sector": "L. Suspense and Miscellaneous",
+                      "Sub Sector": "(a) Suspense",
+                      "2018 19": "(-) 15",
+                      "2019 20": 178,
+                      "2020 21": "(-)242",
+                      "2021 22": "(-)60",
+                      "2022 23": "(-)72"
                     },
                     {
-                        "ratio": "Karnataka",
-                        "AEGSDP": 15.19,
-                        "CEAE": 19.92,
-                        "DEAE": 73.14,
-                        "EducationAE": 11.53,
-                        "HealthAE": 5.87
+                      "Sector": "L. Suspense and Miscellaneous",
+                      "Sub Sector": "(b) Other Accounts",
+                      "2018 19": "(-) 6,072",
+                      "2019 20": "(-) 1,542",
+                      "2020 21": "(-)2,679",
+                      "2021 22": "(-)93",
+                      "2022 23": "1,268"
+                    },
+                    {
+                      "Sector": "L. Suspense and Miscellaneous",
+                      "Sub Sector": "(c) Accounts with Governments of Foreign Countries",
+                      "2018 19": "-",
+                      "2019 20": "-",
+                      "2020 21": "-",
+                      "2021 22": "-",
+                      "2022 23": "-"
+                    },
+                    {
+                      "Sector": "L. Suspense and Miscellaneous",
+                      "Sub Sector": "(d) Miscellaneous",
+                      "2018 19": "-",
+                      "2019 20": "-",
+                      "2020 21": "-",
+                      "2021 22": "-",
+                      "2022 23": "-"
+                    },
+                    {
+                      "Sector": "M. Remittances",
+                      "Sub Sector": "(a) Money Orders and other remittances",
+                      "2018 19": "(-) 81",
+                      "2019 20": "(-) 263",
+                      "2020 21": "(-)53",
+                      "2021 22": "-",
+                      "2022 23": "(-)0.01"
+                    },
+                    {
+                      "Sector": "M. Remittances",
+                      "Sub Sector": "(b) Inter-Governmental Adjustment Account",
+                      "2018 19": 42,
+                      "2019 20": "(-) 84",
+                      "2020 21": 17,
+                      "2021 22": "(-)133",
+                      "2022 23": 159
+                    },
+                    {
+                      "Sector": "Total",
+                      "Sub Sector": "",
+                      "2018 19": "3,431",
+                      "2019 20": "10,346",
+                      "2020 21": "6,264",
+                      "2021 22": "15,217",
+                      "2022 23": "38,232"
                     }
-                ],
+                  ],
                 "t28h2": "(in per cent)",
                 "t28h1": "Table 2.27: Fiscal priority of the States in 2020-21"
             },

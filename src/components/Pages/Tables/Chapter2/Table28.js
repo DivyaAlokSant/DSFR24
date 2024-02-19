@@ -23,14 +23,6 @@ const columns = [
         // width:'35px',
     },
     {
-        name: "2017-18",
-        selector: "2017 18",
-        // grow: 0.05,
-        // width:'110px',
-        wrap: true,
-        format: data => data["2017 18"].toLocaleString('en-IN')
-    },
-    {
         name: "2018-19",
         selector: "2018 19",
         // grow: 0.05,
@@ -49,17 +41,25 @@ const columns = [
     {
         name: "2020-21",
         selector: "2020 21",
-        // grow:0.05,
+        // grow: 0.05,
+        // width:'110px',
         wrap: true,
         format: data => data["2020 21"].toLocaleString('en-IN')
     },
     {
         name: "2021-22",
         selector: "2021 22",
+        // grow:0.05,
+        wrap: true,
+        format: data => data["2021 22"].toLocaleString('en-IN')
+    },
+    {
+        name: "2022-23",
+        selector: "2022 23",
         // grow: 0.05,
         // width:'110px',
         wrap: true,
-        format: data => data["2021 22"].toLocaleString('en-IN')
+        format: data => data["2022 23"].toLocaleString('en-IN')
     }
 ];
 
@@ -82,9 +82,10 @@ const Table28 = () => {
         <div className="App" style={{ margin: "40px 0 40px 0" }} >
             <Card>
                 <DataTable
-                    title="Table 2.29: Component-wise net balances in Public Account as of 31 March of the year"
+                    title="Table 2.34: Component-wise net balances in Public Account as of 31 March of the year"
                     columns={columns}
-                    data={ctx.tables2.Table29 ? ctx.tables2.Table29.t29 : ""}
+                    
+                    data={ctx.tables2.Table28.t28}
                     customStyles={customStyles}
                     striped
                     conditionalRowStyles={conditionalRowStyles}

@@ -513,7 +513,16 @@ const Application = () => {
                         </Subtitle>    
                         <Para >                            
                             {ctx.chapterTwo.Para204}
-                        </Para>        
+                        </Para>   
+                        <Table26 />
+                        <h4>
+                            <i>
+                                Source:Department of Industries and Commerce
+                            </i>
+                        </h4>    
+                        <h3 className='headnote'>
+                            ₹ In crore
+                        </h3>   
 
                         <Subtitle>
                             {ctx.chapterTwo.Para205}
@@ -523,7 +532,17 @@ const Application = () => {
                         </Para> 
                         <Para >                            
                             {ctx.chapterTwo.Para207}
-                        </Para>        
+                        </Para> 
+                        <Table27 />
+                        <h4>
+                            <i>
+                                Source:Finance Accounts
+                            </i>
+                        </h4>    
+                        <h3 className='headnote'>
+                            ₹ in per cent
+                        </h3>   
+
                         {["Para208","Para209","Para210","Para211","Para212"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 <li>
