@@ -11,54 +11,47 @@ const columns = [
     {
         name: "Year",
         selector: "Year",
-        grow: 1.5,
+        //grow: 1.5,
         wrap: true,
-        width:'200px',
+        //width:'200px',
     },
     {
-        name: "2018 19",
-        selector: "2018 19",
+        name: "Opening balance",
+        selector: "Opening Balance",
         // grow: 0.05,
         // width:'110px',
         wrap: true,
-        format: data => data["2018 19"].toLocaleString('en-IN')
+        format: data => data["Opening Balance"].toLocaleString('en-IN')
     },
     {
-        name: "2019 20",
-        selector: "2019 20",
+        name: "Closing balance ",
+        selector: "Closing Balance ",
         // grow: 0.05,
         // width:'110px',
         wrap: true,
-        format: data => data["2019 20"].toLocaleString('en-IN')
+        format: data => data["Closing Balance"].toLocaleString('en-IN')
     },
     {
-        name: "2020 21",
-        selector: "2020 21",
-        // grow:0.05,
-        wrap: true,
-        format: data => data["2020 21"].toLocaleString('en-IN')
-    },
-    {
-        name: "2021 22",
-        selector: "2021 22",
+        name: "Increase (+)/ Decrease (-)",
+        selector: "1",
         // grow: 0.05,
         // width:'110px',
         wrap: true,
-        format: data => data["2021 22"].toLocaleString('en-IN')
+        format: data => data["1"].toLocaleString('en-IN')
     },
     {
-        selector: "2022 23",
-        name: "2022 23",
+        name: "Interest earned",
+        selector: "Interest earned",
         // grow: 0.05,
         // width:'110px',
         wrap: true,
-        format: data => data["2022 23"].toLocaleString('en-IN')
+        format: data => data["Interest earned"].toLocaleString('en-IN')
     }
 ];
 
 const customStyles = styles;
 
-const Table40 = () => {
+const Table43 = () => {
 
     const ctx = useContext(MyContext)
 
@@ -66,9 +59,9 @@ const Table40 = () => {
         <div className="App" style={{ margin: "40px 0 40px 0" }} >
             <Card>
                 <DataTable
-                    title="Table 2.45:  Utilisation of borrowed funds"
+                    title="Table 2.48: Cash Balance Investment Account (Major Head-8673)"
                     columns={columns}
-                    data={ctx.tables2.Table40}
+                    data={ctx.tables2.Table43}
                     customStyles={customStyles}
                     striped
                     // conditionalRowStyles={conditionalRowStyles}
@@ -81,4 +74,4 @@ const Table40 = () => {
     );
 }
 
-export default Table40;
+export default Table43;

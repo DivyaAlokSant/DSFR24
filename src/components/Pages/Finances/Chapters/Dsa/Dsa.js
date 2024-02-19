@@ -23,6 +23,9 @@ import Table38kan from '../../../Tables/Chapter2kan/Table38'
 import Table39 from '../../../Tables/Chapter2/Table39'
 import Table39kan from '../../../Tables/Chapter2kan/Table39'
 import Table40 from '../../../Tables/Chapter2/Table40'
+import Table41 from '../../../Tables/Chapter2/Table41'
+import Table42 from '../../../Tables/Chapter2/Table42'
+import Table43 from '../../../Tables/Chapter2/Table43'
 import Table40kan from '../../../Tables/Chapter2kan/Table40'
 import Table41kan from '../../../Tables/Chapter2kan/Table41'
 import {
@@ -85,8 +88,19 @@ const Dsa = () => {
                            </Para>)}  
 
                            <Table38 />
-
-                        {["para322","para323"].map((item, ind) =>
+                        <Para>
+                            {ctx.chapterTwo.para322}
+                        </Para>   
+                        <Table39 />
+                        <h4 className='footnote'>
+                            <i>
+                            •	Real economic growth rate has been calculated for real GSDP (i.e., at constant prices*).<br></br>
+                            •	Real interest rate is calculated as average interest rate on fiscal liabilities minus inflation. Average inflation** has been obtained from RBI<br></br>
+                            * Information furnished by Directorate of Economics and Statistics<br></br>
+                            ** As published by RBI on November 19, 2022 and Handbook on statistics of Indian States
+                            </i>
+                        </h4>
+                        {["para323"].map((item, ind) =>
                            <Para key={ind / 10}>
                                {ctx.chapterTwo[item]}
                            </Para>)}  
@@ -97,7 +111,22 @@ const Dsa = () => {
                             {ctx.chapterTwo["para324"]}
                             </i> 
                     </Subtitle>
-                    {["para325","para326"].map((item, ind) =>
+                    <Para >
+                        {ctx.chapterTwo["para325"]}
+                    </Para>
+
+                    <h4 className='headnote'>
+                            (₹ in crore)
+                        </h4>
+                    <Table40 />
+                        <h4 className='footnote'>
+                            <i>
+                            Source: Finance Accounts<br></br>
+                            * During 2020-21 and 2021-22, total borrowings are inclusive of Back to Back loan. GoI had decided that GST compensation of ₹12,407 crore and ₹18,109 crore given to the State as back-to-back loan during 2020-21 and 2021-22 respectively under Debt Receipt would not be treated as debt of the State for any norms which may be prescribed by the Finance Commission.
+                            </i>
+                        </h4>
+
+                    {["para326"].map((item, ind) =>
                            <Para key={ind / 10}>
                                {ctx.chapterTwo[item]}
                            </Para>)}  
@@ -106,7 +135,22 @@ const Dsa = () => {
                             {ctx.chapterTwo["para327"]}
                             </i> 
                     </Subtitle>
-                    {["para328","para329","para330","para331"].map((item, ind) =>
+                    <Para>
+                            {ctx.chapterTwo.para328}
+                    </Para>
+
+                    <h4 className='headnote'>
+                            (₹ in crore)
+                        </h4>
+                    <Table41 />
+                        <h4 className='footnote'>
+                            <i>
+                            Source: Finance Accounts<br></br>
+                            </i>
+                        </h4>
+
+
+                    {["para329","para330","para331"].map((item, ind) =>
                            <Para key={ind / 10}>
                                {ctx.chapterTwo[item]}
                            </Para>)}  
@@ -115,10 +159,44 @@ const Dsa = () => {
                             {ctx.chapterTwo["para332"]}
                             </i> 
                     </Subtitle>
-                    {["para333","para334","para335","para336","para337","para338","para339","para340","para341","para342","para343","para344"].map((item, ind) =>
+                    <Para>
+                            {ctx.chapterTwo.para333}
+                    </Para>
+                    {["para334","para335","para336"].map((item, ind) =>
                            <Para key={ind / 10}>
+                            <li>    
                                {ctx.chapterTwo[item]}
+                            </li>
                            </Para>)}  
+
+                        <h4 className='headnote'>
+                            (₹ in crore)
+                        </h4>
+                    <Table42 />
+                        <h4 className='footnote'>
+                            <i>
+                            Source: Finance Accounts<br></br>
+                            </i>
+                        </h4>
+                        {[,"para337","para338","para339","para339","para340","para341"].map((item, ind) =>
+                           <Para key={ind / 10}>
+                                {ctx.chapterTwo[item]}
+                            </Para>)}  
+                        
+                        <h4 className='headnote'>
+                            (₹ in crore)
+                        </h4>
+                            <Table43 />
+                        <h4 className='footnote'>
+                            <i>
+                            Source: Finance Accounts<br></br>
+                            </i>
+                        </h4>    
+                        {["para342","para343","para344"].map((item, ind) =>
+                           <Para key={ind / 10}>
+                                {ctx.chapterTwo[item]}
+                            </Para>)}     
+
                     <Subtitle>
                          
                             {ctx.chapterTwo["para345"]}

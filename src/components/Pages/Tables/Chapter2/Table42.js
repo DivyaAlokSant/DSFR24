@@ -9,56 +9,33 @@ import { styles } from "../helpers";
 
 const columns = [
     {
-        name: "Year",
-        selector: "Year",
+        name: "",
+        selector: "1",
         grow: 1.5,
         wrap: true,
         width:'200px',
     },
     {
-        name: "2018 19",
-        selector: "2018 19",
+        name: "Opening balance as on 1 April 2022",
+        selector: "Opening balance as on 1 April 2022",
         // grow: 0.05,
         // width:'110px',
         wrap: true,
-        format: data => data["2018 19"].toLocaleString('en-IN')
+        format: data => data["Opening balance as on 1 April 2022"].toLocaleString('en-IN')
     },
     {
-        name: "2019 20",
-        selector: "2019 20",
+        name: "Closing balance as on 31 March 2023",
+        selector: "Closing balance as on 31 March 2023",
         // grow: 0.05,
         // width:'110px',
         wrap: true,
-        format: data => data["2019 20"].toLocaleString('en-IN')
-    },
-    {
-        name: "2020 21",
-        selector: "2020 21",
-        // grow:0.05,
-        wrap: true,
-        format: data => data["2020 21"].toLocaleString('en-IN')
-    },
-    {
-        name: "2021 22",
-        selector: "2021 22",
-        // grow: 0.05,
-        // width:'110px',
-        wrap: true,
-        format: data => data["2021 22"].toLocaleString('en-IN')
-    },
-    {
-        selector: "2022 23",
-        name: "2022 23",
-        // grow: 0.05,
-        // width:'110px',
-        wrap: true,
-        format: data => data["2022 23"].toLocaleString('en-IN')
+        format: data => data["Closing balance as on 31 March 2023"].toLocaleString('en-IN')
     }
 ];
 
 const customStyles = styles;
 
-const Table40 = () => {
+const Table42 = () => {
 
     const ctx = useContext(MyContext)
 
@@ -66,9 +43,9 @@ const Table40 = () => {
         <div className="App" style={{ margin: "40px 0 40px 0" }} >
             <Card>
                 <DataTable
-                    title="Table 2.45:  Utilisation of borrowed funds"
+                    title="Table 2.47: Cash Balances and their investment"
                     columns={columns}
-                    data={ctx.tables2.Table40}
+                    data={ctx.tables2.Table42}
                     customStyles={customStyles}
                     striped
                     // conditionalRowStyles={conditionalRowStyles}
@@ -81,4 +58,4 @@ const Table40 = () => {
     );
 }
 
-export default Table40;
+export default Table42;
