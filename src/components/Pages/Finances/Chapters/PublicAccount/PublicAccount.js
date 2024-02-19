@@ -52,17 +52,6 @@ const PublicAccount = () => {
                                 {ctx.chapterTwo[item]}
                             </Para>)}
 
-<<<<<<< HEAD
-                            <Table28 />
-                        <h4>
-                            <i>
-                                Source:Finance Accounts
-                            </i>
-                        </h4>    
-                        <h3 className='headnote'>
-                            ₹ In crore
-                        </h3>   
-=======
                         <h3 className='headnote'>
                             ₹ In crore
                         </h3>
@@ -73,7 +62,6 @@ const PublicAccount = () => {
                             </i>
                         </h4>
 
->>>>>>> be6e59cdac09ac755415b31575bbe7415d379680
                         {["para217"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
@@ -139,7 +127,6 @@ const PublicAccount = () => {
                         
                         </Subtitle> 
                         {["para244","para245","para246","para247","para248"].map((item, ind) =>
-<<<<<<< HEAD
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)} 
@@ -154,8 +141,6 @@ const PublicAccount = () => {
                         </h3>   
 
                              {["para249"].map((item, ind) =>
-=======
->>>>>>> be6e59cdac09ac755415b31575bbe7415d379680
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)} 

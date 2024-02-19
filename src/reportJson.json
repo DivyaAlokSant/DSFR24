@@ -28651,87 +28651,6 @@
                 }
               ],
             "Table 2.32": "Entity-wise position of off-budget borrowings",
-<<<<<<< HEAD
-            "Table32": {
-                "t32h1": "(₹ in crore)",
-                "t32": [
-                    {
-                        "CompanyCorporationBoard": "",
-                        "Outstandingborrowing": "",
-                        "Borrowings2020 21": "",
-                        "Repayment2021 22": "Principal",
-                        "Repayment": "Interest",
-                        "Closing Balance": ""
-                    },
-                    {
-                        "CompanyCorporationBoard": "Krishna Bhagya Jala Nigam Limited",
-                        "Outstandingborrowing": "7,601.86",
-                        "Borrowings2020 21": 500,
-                        "Repayment2021 22": "1,849.72",
-                        "Repayment": 535.01,
-                        "Closing Balance": "6,252.14"
-                    },
-                    {
-                        "CompanyCorporationBoard": "Karnataka Neeravari Nigam Limited",
-                        "Outstandingborrowing": "3,723.55",
-                        "Borrowings2020 21": "1,150.00",
-                        "Repayment2021 22": "1,200.74",
-                        "Repayment": 259.02,
-                        "Closing Balance": "3,672.81"
-                    },
-                    {
-                        "CompanyCorporationBoard": "Karnataka Road Development Corporation Limited",
-                        "Outstandingborrowing": 211.74,
-                        "Borrowings2020 21": 200,
-                        "Repayment2021 22": 18.5,
-                        "Repayment": 13.6,
-                        "Closing Balance": 393.24
-                    },
-                    {
-                        "CompanyCorporationBoard": "Rajiv Gandhi Rural Housing Corporation Limited",
-                        "Outstandingborrowing": "1,490.79",
-                        "Borrowings2020 21": 0,
-                        "Repayment2021 22": 263.07,
-                        "Repayment": 113.78,
-                        "Closing Balance": "1,227.72"
-                    },
-                    {
-                        "CompanyCorporationBoard": "Cauvery Neeravari Nigam Limited",
-                        "Outstandingborrowing": "2,785.00",
-                        "Borrowings2020 21": 250,
-                        "Repayment2021 22": 267.5,
-                        "Repayment": 196.66,
-                        "Closing Balance": "2,767.50"
-                    },
-                    {
-                        "CompanyCorporationBoard": "Visvesvaraya Jala Nigam Limited",
-                        "Outstandingborrowing": "1,951.43",
-                        "Borrowings2020 21": 250,
-                        "Repayment2021 22": 394.28,
-                        "Repayment": 131.3,
-                        "Closing Balance": "1,807.15"
-                    },
-                    {
-                        "CompanyCorporationBoard": "Skill Development",
-                        "Outstandingborrowing": 657,
-                        "Borrowings2020 21": 0,
-                        "Repayment2021 22": 95.46,
-                        "Repayment": 42.89,
-                        "Closing Balance": 561.54
-                    },
-                    {
-                        "CompanyCorporationBoard": "Total",
-                        "Outstandingborrowing": "18,421.37",
-                        "Borrowings2020 21": "2,350.00",
-                        "Repayment2021 22": "4,089.27",
-                        "Repayment": "1,292.26",
-                        "Closing Balance": "16,682.10"
-                    }
-                ]
-            },
-            "Table26": 
-                [
-=======
             "Table32": [
                 {
                   "Company/ Corporation/ Board": "Krishna Bhagya Jala Nigam Limited",
@@ -28800,7 +28719,7 @@
               ],
             "Table26": {
                 "t26": [
->>>>>>> be6e59cdac09ac755415b31575bbe7415d379680
+
                     {
                       "123": "Estimated Cost",
                       "456": "Estimated Cost",
@@ -29296,7 +29215,7 @@
                     }
                 ]
             },
-<<<<<<< HEAD
+
             "Table29": 
                 [
                     {
@@ -29361,7 +29280,7 @@
                     }
                   ],
                  
-=======
+
             "Table28": [
                 {
                   "Sector": "I. Small Savings, Provident Funds, etc.",
@@ -29481,7 +29400,6 @@
                   "2022 23": "38,232"
                 }
               ],
->>>>>>> be6e59cdac09ac755415b31575bbe7415d379680
             "Table14": [
                 {
                   "Parameters": "Total Expenditure (TE)",
@@ -30832,38 +30750,6 @@
               ],
             "T12H1": "Tax and non-tax receipts vis-à-vis projections during 2020-21",
             "T10H2": "(₹ in crore)",
-<<<<<<< HEAD
-            "Table25": [
-                {
-                  "1": "Roads and Bridges",
-                  "2": "1,035",
-                  "Estimated cost": "4,785.22",
-                  "Expenditure": "3,014.85"
-                },
-                {
-                  "1": "Irrigation",
-                  "2": 361,
-                  "Estimated cost": "1,474.92",
-                  "Expenditure": "1,062.77"
-                },
-                {
-                  "1": "Buildings",
-                  "2": 193,
-                  "Estimated cost": 918.42,
-                  "Expenditure": 527.18
-                },
-                {
-                  "1": "Others",
-                  "2": 275,
-                  "Estimated cost": "1,297.84",
-                  "Expenditure": 916.79
-                },
-                {
-                  "1": "Total",
-                  "2": "1,864",
-                  "Estimated cost": "8,476.40",
-                  "Expenditure": "5,521.59"
-=======
             "Table25": {
                 "t25h1": "Table 2.24: Equity, loans and guarantees outstanding as per Finance Accounts vis-à-vis records of SPSUs ",
                 "t25h2": "(₹ in crore)",
@@ -31038,7 +30924,6 @@
                   "2020 21": 13.03,
                   "2021 22": 17.33,
                   "2022 23": 35.79
->>>>>>> be6e59cdac09ac755415b31575bbe7415d379680
                 }
               ],
             "T4H2": "(₹ in crore)",
