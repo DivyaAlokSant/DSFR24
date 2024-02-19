@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { MyContext } from "../../../../../Context/MyProvider";
 import Para from "../../../../Para/Para";
 import Title from "../../../../Title/Title";
+import Subtitle from "./../../../../Subtitle/Subtitle";
 import Navbar from "../../../../Navbar/Navbar";
 import { FaSpinner } from "react-icons/fa";
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton";
@@ -21,21 +22,6 @@ const GenderBudget = () => {
 
           <Title>{ctx.chapterThree.Profile.Para8}</Title>
           {["Para8a","Para9", "Para10", "Para11"].map(
-            (item, ind) => (
-              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
-            )
-          )}
-          <h3 className="headnote">
-            ₹ In crore
-          </h3>
-          <Table1 />
-          {/* <Para>{ctx.chapterThree.Introduction.Para1}</Para> */}
-          <h4 className="footnote">
-            <i>
-              Source: Gender Budget
-            </i>
-          </h4>
-          {["Para11a","Para11b"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
