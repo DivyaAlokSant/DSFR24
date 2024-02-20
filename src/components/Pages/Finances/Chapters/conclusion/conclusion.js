@@ -28,77 +28,77 @@ const Conclusion = () => {
                             {ctx.chapterTwo.para125}
                         </Subtitle>
                         <Para>
-                            {ctx.chapterTwo.Second.para126}
+                            {ctx.chapterTwo.para126}
                         </Para>
                         <Para>
                             <b><i>
-                                {ctx.chapterTwo.Second.para127}
+                                {ctx.chapterTwo.para127}
                             </i></b>
                         </Para>
                         <Subtitle>
-                            {ctx.chapterTwo.Second.para128}
+                            {ctx.chapterTwo.para128}
                         </Subtitle>
                         <Para>
-                            {ctx.chapterTwo.Second.para129}
+                            {ctx.chapterTwo.para129}
                         </Para>
                         <Para>
-                            {ctx.chapterTwo.Second.para130}
+                            {ctx.chapterTwo.para130}
                         </Para>
                         <Para>
                             <b><i>
-                                {ctx.chapterTwo.Second.para131}
+                                {ctx.chapterTwo.para131}
                             </i></b>
                         </Para>
                         <Subtitle>
-                            {ctx.chapterTwo.Second.para132}
+                            {ctx.chapterTwo.para132}
                         </Subtitle>
                         <Para>
-                            {ctx.chapterTwo.Second.para133}
+                            {ctx.chapterTwo.para133}
                         </Para>
                         <Para>
-                            {ctx.chapterTwo.Second.para134}
+                            {ctx.chapterTwo.para134}
                         </Para>
                         <Para>
                             <b><i>
-                                {ctx.chapterTwo.Second.para135}
+                                {ctx.chapterTwo.para135}
                             </i></b>
                         </Para>
                         <Para>
                             <b><i>
-                                {ctx.chapterTwo.Second.para136}
-                            </i></b>
-                        </Para>
-                        <Subtitle>
-                            {ctx.chapterTwo.Second.para137}
-                        </Subtitle>
-                        <Para>
-                            {ctx.chapterTwo.Second.para138}
-                        </Para>
-                        <Para>
-                            <b><i>
-                                {ctx.chapterTwo.Second.para139}
+                                {ctx.chapterTwo.para136}
                             </i></b>
                         </Para>
                         <Subtitle>
-                            {ctx.chapterTwo.Second.para140}
+                            {ctx.chapterTwo.para137}
                         </Subtitle>
                         <Para>
-                            {ctx.chapterTwo.Second.para141}
+                            {ctx.chapterTwo.para138}
                         </Para>
                         <Para>
                             <b><i>
-                                {ctx.chapterTwo.Second.para142}
+                                {ctx.chapterTwo.para139}
                             </i></b>
                         </Para>
                         <Subtitle>
-                            {ctx.chapterTwo.Second.para143}
+                            {ctx.chapterTwo.para140}
                         </Subtitle>
                         <Para>
-                            {ctx.chapterTwo.Second.para144}
+                            {ctx.chapterTwo.para141}
                         </Para>
                         <Para>
                             <b><i>
-                                {ctx.chapterTwo.Second.para145}
+                                {ctx.chapterTwo.para142}
+                            </i></b>
+                        </Para>
+                        <Subtitle>
+                            {ctx.chapterTwo.para143}
+                        </Subtitle>
+                        <Para>
+                            {ctx.chapterTwo.para144}
+                        </Para>
+                        <Para>
+                            <b><i>
+                                {ctx.chapterTwo.para145}
                             </i></b>
                         </Para>
 

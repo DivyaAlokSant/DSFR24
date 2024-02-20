@@ -95,10 +95,11 @@ const Table28 = () => {
                 <DataTable
                     title="Table 2.34: Component-wise net balances in Public Account as of 31 March of the year"
                     columns={columns}
-                             
+
+                    
                     data={ctx.tables2.Table28.t28}
 
-                    data={ctx.tables2.Table28}
+                    //data={ctx.tables2.Table28}
 
                     customStyles={customStyles}
                     striped

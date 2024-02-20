@@ -73,7 +73,7 @@ const PublicAccount = () => {
                             </i>
                         </h4>
 
- be6e59cdac09ac755415b31575bbe7415d379680
+
                         {["para217"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}

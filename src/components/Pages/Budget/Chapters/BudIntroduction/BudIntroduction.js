@@ -46,7 +46,7 @@ const BudIntroduction = () => {
       </div>
     ) : (
       <div>
-        <Navbar />
+        <Navbar/>
         <FaSpinner icon="spinner" className="spinner" />
       </div>
     )
