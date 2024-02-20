@@ -9,8 +9,8 @@ import { styles } from "../helpers";
 
 const columns = [
     {
-        name: "Fund",
-        selector: "Fund",
+        name: "",
+        selector: "abc",
         // grow: ,
         wrap: true,
         // width:'35px',
@@ -27,7 +27,11 @@ const columns = [
         selector: "Expenditure during 2022 23",
         // grow:0.05,
         wrap: true,
+
+        //format: data => data["Expenditure during 2022 23"].toLocaleString('en-IN')
+
         format: data => data["Expenditure during 2022 23"].toLocaleString('en-IN')
+
     }
 ];
 

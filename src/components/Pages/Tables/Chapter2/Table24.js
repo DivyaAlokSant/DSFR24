@@ -9,51 +9,38 @@ import { styles } from "../helpers";
 
 const columns = [
     {
-        name: "Account",
-        selector: "Account",
+        name: "To the end of the Year",
+        selector: "1",
         // grow: ,
         wrap: true,
+        //format: data => data["1"].toLocaleString('en-IN')
         // width:'35px',
     },
     {
-        name: "2017 18",
-        selector: "2017 18",
+        name: "No.of incomplete projects",
+        selector: "2",
         // grow: 0.05,
         // width:'110px',
         wrap: true,
-        format: data => data["2017 18"].toLocaleString('en-IN')
+        //format: data => data["2"].toLocaleString('en-IN')
     },
     {
-        name: "2018 19",
-        selector: "2018 19",
+        name: "Estimated cost",
+        selector: "3",
         // grow: 0.05,
         // width:'110px',
         wrap: true,
-        format: data => data["2018 19"].toLocaleString('en-IN')
+        //format: data => data["3"].toLocaleString('en-IN')
     },
     {
-        name: "2019 20",
-        selector: "2019 20",
+        name: "Expenditure",
+        selector: "4",
         // grow: 0.05,
         // width:'110px',
         wrap: true,
-        format: data => data["2019 20"].toLocaleString('en-IN')
+        //format: data => data["4"].toLocaleString('en-IN')
     },
-    {
-      name: "2020 21",
-      selector: "2020 21",
-      // grow:0.05,
-      wrap: true,
-      format: data => data["2020 21"].toLocaleString('en-IN')
-  },
-  {
-    name: "2021 22",
-    selector: "2021 22",
-    // grow: 0.05,
-    // width:'110px',
-    wrap: true,
-    format: data => data["2021 22"].toLocaleString('en-IN')
-}
+    
 ];
 
 
@@ -67,7 +54,7 @@ const Table24 = () => {
         <div className="App" style={{ margin: "40px 0 40px 0" }} >
             <Card>
                 <DataTable
-                    title="Table 2.24: Quantum of loans disbursed and recovered during the last five years"
+                    title="Table 2.30: Age profile of incomplete projects which are more than one crore as on 31 March 2023"
                     columns={columns}
                     data={ctx.tables2.Table24}
                     customStyles={customStyles}

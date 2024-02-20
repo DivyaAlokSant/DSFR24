@@ -9,33 +9,63 @@ import { styles } from "../helpers";
 
 const columns = [
     {
-        name: "Works under",
-        selector: "Works under",
+        name: "Sl.No.",
+        selector: "xyz",
         // grow: ,
         wrap: true,
         // width:'35px',
     },
     {
-        name: "No of incomplete projects",
-        selector: "No of incomplete projects",
+        name: "Department",
+        selector: "Department",
         // grow:0.05,
         wrap: true,
-        format: data => data["No of incomplete projects"].toLocaleString('en-IN')
+        format: data => data["Department"].toLocaleString('en-IN')
     },
     {
-        name: "Estimated cost",
-        selector: "Estimated cost",
+        name: "Total projects",
+        selector: "abc",
         wrap: true,
-        format: data => data["Estimated cost"].toLocaleString('en-IN')
+        format: data => data["abc"].toLocaleString('en-IN')
     },
     {
-        name: "Expenditure",
-        selector: "Expenditure",
+        name: "",
+        selector: "123",
+        wrap: true,
+        format: data => data["123"].toLocaleString('en-IN')
+    },
+    {
+        name: "Dropped projects",
+        selector: "def",
         // grow: 0.05,
         // width:'110px',
         wrap: true,
-        format: data => data["Expenditure"].toLocaleString('en-IN')
-    }
+        format: data => data["def"].toLocaleString('en-IN')
+    },
+    {
+        name: "",
+        selector: "456",
+        // grow: 0.05,
+        // width:'110px',
+        wrap: true,
+        format: data => data["456"].toLocaleString('en-IN')
+    },
+    {
+        name: "In Pipeline",
+        selector: "In Pipeline",
+        // grow: 0.05,
+        // width:'110px',
+        wrap: true,
+        format: data => data["In Pipeline"].toLocaleString('en-IN')
+    },
+    {
+        name: "",
+        selector: "789",
+        // grow: 0.05,
+        // width:'110px',
+        wrap: true,
+        format: data => data["789"].toLocaleString('en-IN')
+    },
 ];
 
 const conditionalRowStyles = [
@@ -58,12 +88,10 @@ const Table26    = () => {
         <div className="App" style={{ margin: "40px 0 40px 0" }} >
             <Card>
                 <DataTable
-                    title="Table 2.27: Department wise profile of 
-                    incomplete projects which are more than one 
-                    crore as on 31 March 2022
-                    "
+                    title="Table 2.32:Liabilities in Public Private Partnership as on 31st March 2023"
+                    
                     columns={columns}
-                    data={ctx.tables2.Table27 ? ctx.tables2.Table27.t27 : ""}
+                    data={ctx.tables2.Table26}
                     customStyles={customStyles}
                     striped
                     conditionalRowStyles={conditionalRowStyles}
