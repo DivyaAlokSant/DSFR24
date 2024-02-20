@@ -95,7 +95,70 @@ const Audit = () => {
         
         {ctx.chapterThree.Profile["para51"]}
        
-      </Subtitle>        
+      </Subtitle>
+      {["para52"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+            )
+          )}
+          
+          {["para53"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+            )
+          )} 
+          
+        
+          {["para54"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+            )
+          )} 
+        {["para55"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+            )
+          )}
+       {["para56"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+            )
+          )} 
+        <Subtitle>
+        
+        {ctx.chapterThree.Profile["para57"]}
+       
+      </Subtitle>
+      {["para58"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+            )
+          )} 
+        {["para59"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+            )
+          )}
+        <Subtitle>
+        
+        {ctx.chapterThree.Profile["para60"]}
+       
+      </Subtitle>
+      {["para61","para62"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+            )
+          )}
+      <Subtitle>
+        
+        {ctx.chapterThree.Profile["para63"]}
+       
+      </Subtitle>
+      {["para64","para65","para66","para67","para68","para69"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+            )
+          )}
         
 
         </div>
