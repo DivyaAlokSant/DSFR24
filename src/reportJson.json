@@ -29228,12 +29228,339 @@
                         "Closing Balance": 561.54
                     },
                     {
+<<<<<<< HEAD
                         "CompanyCorporationBoard": "Total",
                         "Outstandingborrowing": "18,421.37",
                         "Borrowings2020 21": "2,350.00",
                         "Repayment2021 22": "4,089.27",
                         "Repayment": "1,292.26",
                         "Closing Balance": "16,682.10"
+=======
+                        "To the end of the Year": "2020-21",
+                        "No of incomplete projects": 308,
+                        "Estimated cost": "1,353.35",
+                        "Expenditure": 939.65
+                    },
+                    {
+                        "To the end of the Year": "2021-22",
+                        "No of incomplete projects": 178,
+                        "Estimated cost": 584.91,
+                        "Expenditure": 312.15
+                    },
+                    {
+                        "To the end of the Year": "Total",
+                        "No of incomplete projects": "1,208",
+                        "Estimated cost": "5,938.36",
+                        "Expenditure": "4,087.51"
+                    }
+                ],
+                "t26h2": " (₹in crore)",
+                "t26h1": "Table 2.25: Age profile of incomplete projects which are more than one crore as on 31 March 2021"
+            },
+            "T10H1": "Transfer of recommended and actual release of grants during 2020-21",
+            "T17F2": "#includes interest on off-budget borrowings",
+            "T15F1": "Source: Finance Accounts",
+            "T8H1": "Grants-in-aid from GoI",
+            "Table35": [
+                {
+                  "Sl No": 1,
+                  "Particulars": "Market Borrowings",
+                  "Receipt": 36000,
+                  "Disbursement": 10000,
+                  "Net": 26000
+                },
+                {
+                  "Sl No": 2,
+                  "Particulars": "Loans from GoI",
+                  "Receipt": 5266,
+                  "Disbursement": 1511,
+                  "Net": 3755
+                },
+                {
+                  "Sl No": 3,
+                  "Particulars": "Special Securities issued to NSSF",
+                  "Receipt": 0,
+                  "Disbursement": 1628,
+                  "Net": "(-)1628"
+                },
+                {
+                  "Sl No": 4,
+                  "Particulars": "Ways and Means advances from RBI",
+                  "Receipt": 1798,
+                  "Disbursement": 1798,
+                  "Net": 0
+                },
+                {
+                  "Sl No": 5,
+                  "Particulars": "Loans from Financial Institutions",
+                  "Receipt": 1485,
+                  "Disbursement": 1005,
+                  "Net": 480
+                },
+                {
+                  "Sl No": 6,
+                  "Particulars": "Small Savings, PF etc.",
+                  "Receipt": 9192,
+                  "Disbursement": 5789,
+                  "Net": 3403
+                },
+                {
+                  "Sl No": 7,
+                  "Particulars": "Deposits and Advances",
+                  "Receipt": 101650,
+                  "Disbursement": 75458,
+                  "Net": 26192
+                },
+                {
+                  "Sl No": 8,
+                  "Particulars": "Suspense and Miscellaneous",
+                  "Receipt": 247324,
+                  "Disbursement": 246128,
+                  "Net": 1196
+                },
+                {
+                  "Sl No": 9,
+                  "Particulars": "Remittances",
+                  "Receipt": 0,
+                  "Disbursement": "(-)159",
+                  "Net": 159
+                },
+                {
+                  "Sl No": 10,
+                  "Particulars": "Reserve Fund",
+                  "Receipt": 10069,
+                  "Disbursement": 2787,
+                  "Net": 7282
+                },
+                {
+                  "Sl No": 11,
+                  "Particulars": "Overall Deficit",
+                  "Receipt": 412785,
+                  "Disbursement": 345945,
+                  "Net": 66839
+                },
+                {
+                  "Sl No": 12,
+                  "Particulars": "Increase/Decrease in cash balance",
+                  "Receipt": 63412,
+                  "Disbursement": 83629,
+                  "Net": "(-)20216"
+                },
+                {
+                  "Sl No": 13,
+                  "Particulars": "Appropriation to Contingency Fund",
+                  "Receipt": 0,
+                  "Disbursement": 0,
+                  "Net": 0
+                },
+                {
+                  "Sl No": 14,
+                  "Particulars": "Gross Fiscal Deficit",
+                  "Receipt": 476197,
+                  "Disbursement": 429574,
+                  "Net": 46623
+                }
+              ],
+            "T3H1": "Trends and growth in Revenue Receipts",
+            "Table40": {
+                "t40": [
+                    {
+                        "Accounts": "A. General Cash Balance",
+                        "Opening balance on 01-04-2021": "",
+                        "Closing balance on 31-03-2022": ""
+                    },
+                    {
+                        "Accounts": "Cash in treasuries",
+                        "Opening balance on 01-04-2021": "-",
+                        "Closing balance on 31-03-2022": "-"
+                    },
+                    {
+                        "Accounts": "Deposits with Reserve Bank of India",
+                        "Opening balance on 01-04-2021": "1,583.33",
+                        "Closing balance on 31-03-2022": "1,518.39"
+                    },
+                    {
+                        "Accounts": "Deposits with other Banks",
+                        "Opening balance on 01-04-2021": "-",
+                        "Closing balance on 31-03-2022": "-"
+                    },
+                    {
+                        "Accounts": "Remittances in transit – Local",
+                        "Opening balance on 01-04-2021": 0.01,
+                        "Closing balance on 31-03-2022": 0.01
+                    },
+                    {
+                        "Accounts": "Sub Total",
+                        "Opening balance on 01-04-2021": "1,583.34",
+                        "Closing balance on 31-03-2022": "1,518.40"
+                    },
+                    {
+                        "Accounts": "Investments held in Cash Balance Investment Account",
+                        "Opening balance on 01-04-2021": "21,744.33",
+                        "Closing balance on 31-03-2022": "31,973.89"
+                    },
+                    {
+                        "Accounts": "Total (A)",
+                        "Opening balance on 01-04-2021": "23,327.67",
+                        "Closing balance on 31-03-2022": "33,492.29"
+                    },
+                    {
+                        "Accounts": "B. Other Cash Balances and Investments",
+                        "Opening balance on 01-04-2021": "",
+                        "Closing balance on 31-03-2022": ""
+                    },
+                    {
+                        "Accounts": "Cash with departmental officers viz, PWP&IWT department officers, Forest department, DCs",
+                        "Opening balance on 01-04-2021": 2.09,
+                        "Closing balance on 31-03-2022": 2.09
+                    },
+                    {
+                        "Accounts": "Permanent Advances for contingent expenditure with departmental officers",
+                        "Opening balance on 01-04-2021": 3.18,
+                        "Closing balance on 31-03-2022": 3.55
+                    },
+                    {
+                        "Accounts": "Investment of Earmarked funds",
+                        "Opening balance on 01-04-2021": "23,810.24",
+                        "Closing balance on 31-03-2022": "29,914.43"
+                    },
+                    {
+                        "Accounts": "Total (B)",
+                        "Opening balance on 01-04-2021": "23,815.51",
+                        "Closing balance on 31-03-2022": "29,920.07"
+                    },
+                    {
+                        "Accounts": "Total (A+B)",
+                        "Opening balance on 01-04-2021": "47,143.18",
+                        "Closing balance on 31-03-2022": "63,412.36"
+                    },
+                    {
+                        "Accounts": "Interest realised",
+                        "Opening balance on 01-04-2021": 627.42,
+                        "Closing balance on 31-03-2022": 899.44
+                    }
+                ],
+                "t2.40h1": "Table 2.40: Cash Balances and their investment",
+                "t2.40h2": "(₹ in crore)",
+                "t2.40": [
+                    {
+                        "__1": "",
+                        "Opening balance on": "1-Apr-20",
+                        "Closing balance on": "31-Mar-21"
+                    },
+                    {
+                        "__1": "A. General Cash Balance",
+                        "Opening balance on": "",
+                        "Closing balance on": ""
+                    },
+                    {
+                        "__1": "Cash in treasuries",
+                        "Closing balance on": "",
+                        "Opening balance on": "-"
+                    },
+                    {
+                        "__1": "Deposits with Reserve Bank of India",
+                        "Closing balance on": "1,583.33",
+                        "Opening balance on": "1,659.20"
+                    },
+                    {
+                        "Opening balance on": "-",
+                        "Closing balance on": "-",
+                        "__1": "Deposits with other Banks"
+                    },
+                    {
+                        "__1": "Remittances in transit – Local",
+                        "Opening balance on": 0.01,
+                        "Closing balance on": 0.01
+                    },
+                    {
+                        "Closing balance on": "1,583.34",
+                        "__1": "Sub Total",
+                        "Opening balance on": "1,659.21"
+                    },
+                    {
+                        "Opening balance on": "13,634.21",
+                        "__1": "Investments held in Cash Balance Investment Account",
+                        "Closing balance on": "21,744.33"
+                    },
+                    {
+                        "Closing balance on": "23,327.67",
+                        "__1": "Total (A)",
+                        "Opening balance on": "15,293.42"
+                    },
+                    {
+                        "__1": "B. Other Cash Balances and Investments",
+                        "Closing balance on": "",
+                        "Opening balance on": ""
+                    },
+                    {
+                        "Closing balance on": 2.09,
+                        "Opening balance on": 2.09,
+                        "__1": "Cash with departmental officers viz, PWP&IWT department officers, Forest department, DCs"
+                    },
+                    {
+                        "__1": "Permanent Advances for contingent expenditure with departmental officers",
+                        "Closing balance on": 3.18,
+                        "Opening balance on": 2.18
+                    },
+                    {
+                        "Closing balance on": "23,810.24",
+                        "Opening balance on": "19,165.44",
+                        "__1": "Investment of Earmarked funds"
+                    },
+                    {
+                        "Opening balance on": "19,169.71",
+                        "__1": "Total (B)",
+                        "Closing balance on": "23,815.51"
+                    },
+                    {
+                        "Opening balance on": "34,463.13",
+                        "Closing balance on": "47,143.18",
+                        "__1": "Total (A+B)"
+                    },
+                    {
+                        "Closing balance on": 627.42,
+                        "__1": "Interest realised",
+                        "Opening balance on": 535.1
+                    }
+                ]
+            },
+            "T13H1": "Total expenditure – Trends and composition",
+            "Table27": {
+                "t27h2": "(₹in crore)",
+                "t27h1": "Table 2.27: Department wise profile of incomplete projects which are more than one crore as on 31 March 2021",
+                "t27f1": "AE: Aggregate Expenditure, CE: Capital Expenditure, DE: Development Expenditure (includes total expenditure under social and economic sectors)",
+                "t27": [
+                    {
+                        "Works under": "Roads and Bridges",
+                        "No of incomplete projects": 928,
+                        "Estimated cost": "4,496.93",
+                        "Expenditure": "3,115.07"
+                    },
+                    {
+                        "Works under": "Irrigation",
+                        "No of incomplete projects": 215,
+                        "Estimated cost": "1,267.62",
+                        "Expenditure": 834.68
+                    },
+                    {
+                        "Works under": "Buildings",
+                        "No of incomplete projects": 25,
+                        "Estimated cost": 106.11,
+                        "Expenditure": 93.9
+                    },
+                    {
+                        "Works under": "Others",
+                        "No of incomplete projects": 40,
+                        "Estimated cost": 67.7,
+                        "Expenditure": 43.86
+                    },
+                    {
+                        "Works under": "Total",
+                        "No of incomplete projects": "1,208",
+                        "Estimated cost": "5,938.36",
+                        "Expenditure": "4,087.51"
+>>>>>>> parent of be6e59c (chapter 2 tables completed, 2.5 still in development by Sai)
                     }
                 ]
             },
@@ -32036,6 +32363,7 @@
             "T11H2": "(₹ in crore)",
             "T5H1": "SGST receipts of Government of Karnataka",
             "T15H2": "(₹ in crore)",
+<<<<<<< HEAD
             "Table38": {
                 "t2.38h2": "(₹ in crore)",
                 "t38": [
@@ -32058,6 +32386,20 @@
                 ],
                 "t2.38h1": "Table 2.37: Guarantees given by the State Government"
             },
+=======
+            "Table38": [
+                {
+                  "1": "g-r > 0 (strong economic growth)",
+                  "2": "Public debt as a percentage of GSDP tends towards a stable value and is therefore sustainable. Depending on the stock of debt, it will either increase or decrease in time to reach a stable level greater than zero.",
+                  "3": "Public debt as a percentage of GSDP should converge to a stable level less than zero leading to public savings"
+                },
+                {
+                  "1": "g-r < 0 (slow economic growth)",
+                  "2": "Public debt as a percentage of GSDP will increase indefinitely, without converging to a stable level",
+                  "3": "Undefined situation"
+                }
+              ],
+>>>>>>> parent of be6e59c (chapter 2 tables completed, 2.5 still in development by Sai)
             "table2.32": {
                 "t2.32": [
                     {
