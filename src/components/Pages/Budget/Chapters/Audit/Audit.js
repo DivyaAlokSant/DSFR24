@@ -65,163 +65,38 @@ const Audit = () => {
         <div className="contentwrapper" id="home">
           <FloatingActionButtons back="/budget/appropaccounts" forward="/budget/outcome" />
 
-          <Title>{ctx.chapterThree.Profile.Para40}</Title>
-          {["Para41", "Para42", "Para43", "Para44", "Para45", "Para46",
-            "Para47", "Para48", "Para49", "Para50"].map(
-              (item, ind) => (
-                <Para key={ind / 10}>
-                  {ctx.chapterThree.Profile[item]}
-                </Para>
-              ))}
-          <Table7/>
-          <h4 className="footnote">
-            <i>
-              Source: Appropriation Accounts
-            </i>
-          </h4>
-          {["Para51", "Para52", "Para53", "Para54","Para55"].map(
-              (item, ind) => (
-                <Para key={ind / 10}>
-                  {ctx.chapterThree.Profile[item]}
-                </Para>
-              ))}
-             <Table7a />
-              {["Para56"].map(
+          <Title>{ctx.chapterThree.Profile.para43}</Title>
+          {["para44"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
-            ))
-          }
-          <Table7b />
-             {["Para57"].map(
-            (item, ind) => (
-              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
-            ))
-          }
-            <Table7c />
-           {["Para58"].map(
-            (item, ind) => (
-              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
-            ))
-          }
-          {["Para59", "Para60", "Para61"].map(
-            (item, ind) => (
-              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
-            ))
-          }
-          <h3 className="headnote">
-            ₹ In crore
-          </h3>
-          <Title>
-          Chart 3.2: Unnecessary/Excessive/Inadequate Supplementary provision*                 
-                        </Title>
-                        <h3 className="headnote">
-            ₹ In crore
-          </h3>
-         
-                        <ImageComponent flex="2" aspectRatio = "2" resizeMode = 'contain' src={c32} color ="#ffffff00" />
-          <h4>* Re-appropriation orders have not been considered for working out the unnecessary/ excessive/ inadequate supplementary provision.</h4>
-          {/* <Table8/> */}
-          {/* <h4>
-            <i>
-              Source
-              
-              
-              : Grant Register
-            </i>
-          </h4> */}
-          {["Para62", "Para63", "Para64","Para66", "Para67"].map(
-            (item, ind) => (
-              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
-            ))
-          }
-          
-
-          {["Para68","Para69"].map(
-            (item, ind) => (
-              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
-            ))
-          }
-          {["Para70"].map(
-            (item, ind) => (
-              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
-            ))
-          }
-
-          {["Para71", "Para72", "Para73", "Para74", "Para75", "Para76", "Para77", "Para78"].map(
-            (item, ind) => (
-              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
-            ))
-          }
-          {["Para79", "Para80", "Para81", "Para82", "Para83", "Para84", "Para85", "Para86", "Para87", "Para88", "Para89", "Para90", "Para91", "Para92", "Para93", "Para94", "Para95", "Para96", "Para97", "Para98", "Para99", "Para100"].map(
-            (item, ind) => (
-              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
-            ))
-          }
-          
-                        <ImageComponent flex="6" aspectRatio = "6" resizeMode = 'contain' src={c32a} color ="#ffffff00" />
-                        <h4>
-                        Source: Appropriation Accounts
-                        </h4>
-          {/* <Table9 /> */}
-          {["Para101", "Para102","Para103",].map(
-            (item, ind) => (
-              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
-            ))
-          }
-          <Title>
-          Chart 3.3:  Monthly Receipts and Disbursements during 2021-22 
-          </Title>
-           <h3 className="headnote">
-            ₹ In crore
-          </h3>
-          <ImageComponent flex="4" aspectRatio = "4" resizeMode = 'contain' src={c33} color ="#ffffff00" />
-                        <h4>
-                        Source: Monthly Civil Accounts	
-                        </h4>
-                           <h3 className="headnote">
-            ₹ In crore
-          </h3>
-          <Chart3Chap3 />
-          <h4 className="footnote">
-            <i>
-              Source: Monthly Civil Accounts
-            </i>
-          </h4> 
-             {["Para104", "Para105"].map(
-            (item, ind) => (
-              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
-            ))
-          }
-           <h3 className="headnote">
-            ₹ In crore
-          </h3>
-          <Table10 />
-          <h4 className="footnote">
-            <i>
-              Source: Monthly Civil Accounts
-            </i>
-          </h4>
-          {["Para106"].map(
-            (item, ind) => (
-              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
-            ))
-          }
-         
-
-
-         
-          {/* <h3 className="headnote">
-            ₹ In crore
-          </h3>
-          <Chart3Chap3 />
-          <h4 className="footnote">
-            <i>
-              Source: Monthly Civil Accounts
-            </i>
-          </h4> */}
+            )
+          )}  
+        <Subtitle>
+          <i>
+          {ctx.chapterThree.Profile["para45"]}
+          </i>
+        </Subtitle>
+        <Subtitle>
         
+          {ctx.chapterThree.Profile["para46"]}
          
-          
+        </Subtitle> 
+        {["para47","para48","para48a"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+            )
+          )}    
+        {["para48b","para49","para50"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+            )
+          )} 
+      <Subtitle>
+        
+        {ctx.chapterThree.Profile["para51"]}
+       
+      </Subtitle>        
+        
 
         </div>
       </div>

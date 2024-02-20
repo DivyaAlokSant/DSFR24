@@ -99,7 +99,7 @@ const Table28 = () => {
                     
                     data={ctx.tables2.Table28.t28}
 
-                    //data={ctx.tables2.Table28}
+                   
 
                     customStyles={customStyles}
                     striped
