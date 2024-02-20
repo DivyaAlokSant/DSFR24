@@ -10,7 +10,7 @@ import { styles } from "../helpers";
 const columns = [
     {
         name: "",
-        selector: "abc",
+        selector: "Fund",
         // grow: ,
         wrap: true,
         // width:'35px',
