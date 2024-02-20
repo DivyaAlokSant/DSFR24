@@ -31,13 +31,7 @@ const Budget = () => {
                                 {ctx.execsummary[item]}
                             </Para>
                         )}
-                        <Title >{ctx.execsummary.para32}</Title>
-                        {['para33', 'para34', 'para35', 'para36',
-                            'para37', 'para38', 'para39', 'para40'].map((item, ind) =>
-                                <Para key={ind / 10}>
-                                    {ctx.execsummary[item]}
-                                </Para>
-                            )}
+                        
 
                     </div>
                 </div>

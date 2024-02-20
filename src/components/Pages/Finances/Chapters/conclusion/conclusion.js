@@ -22,85 +22,32 @@ const Conclusion = () => {
                     <div className="contentwrapper" id="home">
                         <FloatingActionButtons back="/finances/dsa" forward="/budget" />
                         <Title>
-                            {ctx.chapterTwo.para124}
+                            {ctx.chapterTwo.para365}
                         </Title>
-                        <Subtitle>
-                            {ctx.chapterTwo.para125}
-                        </Subtitle>
                         <Para>
-                            {ctx.chapterTwo.para126}
+                            {ctx.chapterTwo.para366}
+                        </Para>
+                        <Para>
+                            {ctx.chapterTwo.para367}
                         </Para>
                         <Para>
                             <b><i>
-                                {ctx.chapterTwo.para127}
-                            </i></b>
-                        </Para>
-                        <Subtitle>
-                            {ctx.chapterTwo.para128}
-                        </Subtitle>
-                        <Para>
-                            {ctx.chapterTwo.para129}
-                        </Para>
-                        <Para>
-                            {ctx.chapterTwo.para130}
-                        </Para>
-                        <Para>
-                            <b><i>
-                                {ctx.chapterTwo.para131}
-                            </i></b>
-                        </Para>
-                        <Subtitle>
-                            {ctx.chapterTwo.para132}
-                        </Subtitle>
-                        <Para>
-                            {ctx.chapterTwo.para133}
-                        </Para>
-                        <Para>
-                            {ctx.chapterTwo.para134}
-                        </Para>
-                        <Para>
-                            <b><i>
-                                {ctx.chapterTwo.para135}
+                                {ctx.chapterTwo.para368}
                             </i></b>
                         </Para>
                         <Para>
-                            <b><i>
-                                {ctx.chapterTwo.para136}
-                            </i></b>
-                        </Para>
-                        <Subtitle>
-                            {ctx.chapterTwo.para137}
-                        </Subtitle>
-                        <Para>
-                            {ctx.chapterTwo.para138}
+                            {ctx.chapterTwo.para369}
                         </Para>
                         <Para>
-                            <b><i>
-                                {ctx.chapterTwo.para139}
-                            </i></b>
-                        </Para>
-                        <Subtitle>
-                            {ctx.chapterTwo.para140}
-                        </Subtitle>
-                        <Para>
-                            {ctx.chapterTwo.para141}
+                            {ctx.chapterTwo.para370}
                         </Para>
                         <Para>
-                            <b><i>
-                                {ctx.chapterTwo.para142}
-                            </i></b>
+                            {ctx.chapterTwo.para371}
                         </Para>
-                        <Subtitle>
-                            {ctx.chapterTwo.para143}
-                        </Subtitle>
-                        <Para>
-                            {ctx.chapterTwo.para144}
-                        </Para>
-                        <Para>
-                            <b><i>
-                                {ctx.chapterTwo.para145}
-                            </i></b>
-                        </Para>
+                        {["para372","para373","para374","para375","para376","para377","para378","para379","para380","para381","para382","para383"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapterTwo[item]}
+                            </Para>)}
 
                     </div>
                 </div>
