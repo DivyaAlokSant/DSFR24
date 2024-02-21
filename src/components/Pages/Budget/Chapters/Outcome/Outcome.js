@@ -35,122 +35,19 @@ const Outcome = () => {
         <div className="contentwrapper" id="home">
 
           <FloatingActionButtons back="/budget/audit" forward="/budget/conclusion" />
-          <Title>{ctx.chapterThree.Profile.Para120}</Title>
-          {["Para121", "Para122", "Para123", "Para124", "Para125", "Para126","Para126a",
-            "Para127", "Para128"].map(
-              (item, ind) => (
-                <Para key={ind / 10}>
-                  {ctx.chapterThree.Profile[item]}
-                </Para>
-              ))}
-
-          <h3 className="headnote">
-            ₹ In crore
-          </h3>
-          <Table11 />
-          <h4 className="footnote">
-            <i>
-              Source: Appropriation Accounts
-            </i>
-          </h4>
-          {["Para129", "Para130", "Para131"].map(
+          <Title>{ctx.chapterThree.Profile.para116}</Title>
+          {["para113","para115","para116","para117","para118","para119","para120"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
-            ))
-          }
-          <h3 className="headnote">
-            ₹ In crore
-          </h3>
-          <Table12 />
-          <h4 className="footnote">
-            <i>
-              Source: Appropriation Accounts
-            </i>
-          </h4>
-          {[,"Para132a","Para132", "Para133",].map(
-            (item, ind) => (
-              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
-            ))
-          }
-          <h3 className="headnote">
-            ₹ In crore
-          </h3>
-          <Table13 />
-          <h4 className="footnote">
-            <i>
-              Source: Grant Register
-            </i>
-          </h4>
-
-          {["Para134", "Para135", "Para136", "Para137"].map(
-            (item, ind) => (
-              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
-            ))
-          }
-
-          <h3 className="headnote">
-            ₹ In crore
-          </h3>
-          <Table14 />
-          <h4 className="footnote">
-            <i>
-            *  Savings have been worked on the Revised Estimate.
-            </i>
-          </h4>
-
-          {["Para138", "Para139", "Para140", "Para141", "Para142", "Para143", "Para144", "Para145", "Para146", "Para147", "Para148", "Para149", "Para151", "Para152", "Para153", "Para155", "Para156"].map(
-            (item, ind) => (
-              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
-            ))
-          }
-
-          <h3 className="headnote">
-            ₹ In crore
-          </h3>
-          <Table15 />
-          <h4 className="footnote">
-            <i>
-              Source: Appropriation Accounts
-            </i>
-          </h4>
-          {["Para157", "Para158", "Para159"].map(
-            (item, ind) => (
-              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
-            ))
-          }
-          <h3 className="headnote">
-            ₹ In crore
-          </h3>
-          <Table17 />
-          <h4 className="footnote">
-            <i>
-              Source: Grant Register
-            </i>
-            </h4>
+            )
+          )}
+      <Subtitle>
+        {ctx.chapterThree.Profile["para121"]}
+      </Subtitle>
+      <Subtitle>
+        {ctx.chapterThree.Profile["para121a"]}
+      </Subtitle>
           
-          {["Para160","Para161"].map(
-            (item, ind) => (
-              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
-            ))
-          }
-          <h3 className="headnote">
-            ₹ In crore
-          </h3>
-          <Table16 />
-          <h4 className="footnote">
-            <i>
-              Source: Grant Register
-            </i>
-          
-          {[ "Para163", "Para164","Para167", "Para168","Para168a","Para168b"].map(
-
-            (item, ind) => (
-              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
-            ))
-          }
-          
-          
-          </h4>
         </div>
       </div>
     ) 

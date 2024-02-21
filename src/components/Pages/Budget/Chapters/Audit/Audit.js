@@ -159,7 +159,138 @@ const Audit = () => {
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
+      <Subtitle>
         
+        {ctx.chapterThree.Profile["para70"]}
+       
+      </Subtitle>
+      {["para71"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+            )
+          )}
+        <Subtitle>
+        {ctx.chapterThree.Profile["para72"]}
+        </Subtitle>
+        <Subtitle>
+        {ctx.chapterThree.Profile["para73"]}
+        </Subtitle>
+        {["para74","para75","para77"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+            )
+          )}
+          {["para78"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+            )
+          )}
+        <Subtitle>
+        {ctx.chapterThree.Profile["para79"]}
+        </Subtitle>
+        {["para80","para81","para82","para83","para84","para85"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+            )
+          )}
+        <Subtitle>
+        {ctx.chapterThree.Profile["para86"]}
+        </Subtitle>
+        {["para87"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+            )
+          )}
+      <Subtitle>
+        {ctx.chapterThree.Profile["para88"]}
+      </Subtitle>
+      {["para89"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+            )
+          )}
+      {["para90"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+            )
+          )}
+      {["para91","para92","para93"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+            )
+          )}
+      <Subtitle>
+        {ctx.chapterThree.Profile["para94"]}
+      </Subtitle>
+      {["para95"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+            )
+          )}
+      <Subtitle>
+        {ctx.chapterThree.Profile["para96"]}
+      </Subtitle>
+      <Subtitle>
+        {ctx.chapterThree.Profile["para97"]}
+      </Subtitle>
+      {["para98","para99"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+            )
+          )}
+      {["para100"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+            )
+          )}
+      {["para101"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+            )
+          )}
+      {["para102"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+            )
+          )}
+      {["para103","para104"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+            )
+          )}
+      <Subtitle>
+        {ctx.chapterThree.Profile["para105"]}
+      </Subtitle>
+      {["para106","para107","para108"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+            )
+          )}
+      {["para109","para110"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+            )
+          )}
+      <Subtitle>
+        {ctx.chapterThree.Profile["para111"]}
+      </Subtitle>
+      {["para112"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+            )
+          )}
+      {["para113","para114"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+            )
+          )}
+      {["para115"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+            )
+          )}
+
+
 
         </div>
       </div>
