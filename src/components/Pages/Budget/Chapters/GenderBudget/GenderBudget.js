@@ -20,12 +20,18 @@ const GenderBudget = () => {
         <div className="contentwrapper" id="home">
           <FloatingActionButtons back="/budget/budget-process" forward="/budget/child-budget" />
 
-          <Title>{ctx.chapterThree.Profile.Para8}</Title>
-          {["Para8a","Para9", "Para10", "Para11"].map(
+          <Title>{ctx.chapterThree.Profile.para10}</Title>
+          {["para11","para12","para13","para14"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
+        {["para15","para16"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+            )
+          )}
+          
 
         </div>
       </div>
