@@ -28,6 +28,16 @@ const ChildBudget = () => {
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
+        {/* <Table2 /> */}
+        <h4>
+        <i>
+        Source: Grant Register and Child Budget Document
+        </i>
+        </h4>    
+        <h3 className='headnote'>
+          ₹ In crore
+        </h3>   
+
           {["para20","para21","para22","para23"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>

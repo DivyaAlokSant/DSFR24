@@ -26,6 +26,18 @@ const GenderBudget = () => {
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
+        <Table1 />
+        <h4>
+        <i>
+        Source: Grant Register and Gender Budget of the respective years
+        </i>
+        </h4>    
+        <h3 className='headnote'>
+          ₹ In crore
+        </h3>   
+
+
+
         {["para15","para16"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>

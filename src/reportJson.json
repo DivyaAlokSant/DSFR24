@@ -36798,51 +36798,72 @@
             "T16f1": "Source: Grant Register",
             "Table1": [
                 {
-                    "Total Category B allocation": 82156.54,
-                    "30% of Category B allocation": 24646.96,
-                    "Year": "2017-18",
-                    "Total Allocation": 194917.19,
-                    "Percentage of Category B to total allocation": 12.64,
-                    "Total Category A allocation": 5901.83,
-                    "Percentage of Category A to total allocation": 3.03
+                  "123": "",
+                  "456": "",
+                  "789": "",
+                  "Year": "",
+                  "xyz": "",
+                  "abc": "No. of Schemes",
+                  "abc1": "Allocation",
+                  "def": "No. of Schemes",
+                  "def1": "Allocation"
                 },
                 {
-                    "Total Allocation": 224110.77,
-                    "Total Category A allocation": 6049.41,
-                    "Year": "2018-19",
-                    "30% of Category B allocation": 28792.61,
-                    "Percentage of Category A to total allocation": 2.7,
-                    "Total Category B allocation": 95975.37,
-                    "Percentage of Category B to total allocation": 12.85
+                  "123": "25,124.98",
+                  "456": 2.09,
+                  "789": 11.21,
+                  "Year": "2018-19",
+                  "xyz": "2,24,110.77",
+                  "abc": 60,
+                  "abc1": "4,673.65",
+                  "def": 701,
+                  "def1": "83,749.92"
                 },
                 {
-                    "Total Allocation": 240745.86,
-                    "Percentage of Category B to total allocation": 15.06,
-                    "Year": "2019-20",
-                    "Total Category B allocation": 120868.97,
-                    "30% of Category B allocation": 36260.69,
-                    "Percentage of Category A to total allocation": 2.12,
-                    "Total Category A allocation": 5100.95
+                  "123": "31,737.12",
+                  "456": 2.17,
+                  "789": 13.18,
+                  "Year": "2019-20",
+                  "xyz": "2,40,745.86",
+                  "abc": 59,
+                  "abc1": "5,222.46",
+                  "def": 725,
+                  "def1": "1,05,790.40"
                 },
                 {
-                    "Total Category B allocation": 110170.2,
-                    "Total Allocation": 244733.57,
-                    "Percentage of Category A to total allocation": 1.93,
-                    "30% of Category B allocation": 33051.06,
-                    "Total Category A allocation": 4732.34,
-                    "Percentage of Category B to total allocation": 13.5,
-                    "Year": "2020-21"
+                  "123": "33,051.06",
+                  "456": 1.93,
+                  "789": 13.5,
+                  "Year": "2020-21",
+                  "xyz": "2,44,733.57",
+                  "abc": 63,
+                  "abc1": "4,732.34",
+                  "def": 890,
+                  "def1": "1,10,170.20"
                 },
                 {
-                    "Total Category B allocation": "1,30,178.14",
-                    "Percentage of Category A to total allocation": "2.15",
-                    "Total Allocation": "2,52,391.98",
-                    "Year": "2021-22",
-                    "30% of Category B allocation": "39,053.44",
-                    "Total Category A allocation": "5,415.17",
-                    "Percentage of Category B to total allocation": 15.47
+                  "123": "32,602.27",
+                  "456": 1.82,
+                  "789": 12.92,
+                  "Year": "2021-22",
+                  "xyz": "2,52,391.98",
+                  "abc": 58,
+                  "abc1": "4,585.66",
+                  "def": 818,
+                  "def1": "1,08,674.22"
+                },
+                {
+                  "123": "36,693.51",
+                  "456": 2.39,
+                  "789": 13.51,
+                  "Year": "2022-23",
+                  "xyz": "2,71,542.22",
+                  "abc": 71,
+                  "abc1": "6,495.24",
+                  "def": 781,
+                  "def1": "1,22,311.69"
                 }
-            ],
+              ],
             "T11h1": "Budget and Expenditure",
             "T16h2": "in crore",
             "Table17": [
@@ -37501,26 +37522,84 @@
             "T12h1": "Anticipated savings not surrendered/partially surrendered",
             "Table2": [
                 {
-                    "Classification": "100 per cent Child Centric Programme/Schemes",
-                    "Identification": "Child Centric Programme/Schemes",
-                    "Criteria": "Programme/Schemes that are exclusively designed, targeted or intended for benefiting children"
+                  "123": "2020-21",
+                  "456": "2021-22",
+                  "789": "2022-23",
+                  "Sl No.": "",
+                  "Category": "",
+                  "Allocation": "2020-21",
+                  "abc": "2021-22",
+                  "def": "2022-23",
+                  "Expenditure": "2020-21",
+                  "ghi": "2021-22",
+                  "jkl": "2022-23"
                 },
                 {
-                    "Classification": "Less than 100% Child Centric Programme/ Schemes",
-                    "Criteria": "Programme/Schemes that include children and other beneficiaries by design, targeting or intention",
-                    "Identification": ""
+                  "123": 4.86,
+                  "456": 4.91,
+                  "789": 6.19,
+                  "Sl No.": 1,
+                  "Category": "100% Child Centric Programme",
+                  "Allocation": "11,881.94",
+                  "abc": "12,402.13",
+                  "def": "16,798.52",
+                  "Expenditure": "10,321.61",
+                  "ghi": "12,071.41",
+                  "jkl": "16,604.33"
                 },
                 {
-                    "Classification": "100% Child Centric Programme/Schemes",
-                    "Identification": "Child Centric Non-Programme/Schemes",
-                    "Criteria": "Non-programme/ schemes that are  exclusively designed, targeted or intended for child beneficiaries"
+                  "123": 7.72,
+                  "456": 7.3,
+                  "789": 5.1,
+                  "Sl No.": 2,
+                  "Category": "Less than 100% Child Centric Programme",
+                  "Allocation": "18,892.79",
+                  "abc": "18,433.01",
+                  "def": "13,861.08",
+                  "Expenditure": "16,950.08",
+                  "ghi": "17,065.39",
+                  "jkl": "16,926.91"
                 },
                 {
-                    "Classification": "Less than 100% Child Centric Programme/ Schemes",
-                    "Criteria": "Non-programme/Schemes that include children and other beneficiaries by design, targeting or intention",
-                    "Identification": ""
+                  "123": 6.3,
+                  "456": 7.5,
+                  "789": 7.4,
+                  "Sl No.": 3,
+                  "Category": "100% Child Centric Non-programme",
+                  "Allocation": "15,421.42",
+                  "abc": "18,917.05",
+                  "def": "20,083.94",
+                  "Expenditure": "13,869.29",
+                  "ghi": "18,757.53",
+                  "jkl": "19,944.90"
+                },
+                {
+                  "123": 2,
+                  "456": 3.85,
+                  "789": 3.96,
+                  "Sl No.": 4,
+                  "Category": "Less than 100% Child Centric Non-programme",
+                  "Allocation": "4,888.13",
+                  "abc": "9,711.88",
+                  "def": "10,758.22",
+                  "Expenditure": "4,418.79",
+                  "ghi": "9,590.56",
+                  "jkl": "9,484.94"
+                },
+                {
+                  "123": 20.87,
+                  "456": 23.56,
+                  "789": 22.65,
+                  "Sl No.": "Total",
+                  "Category": "",
+                  "Allocation": "51,084.28",
+                  "abc": "59,464.07",
+                  "def": "61,501.76",
+                  "Expenditure": "45,559.77",
+                  "ghi": "57,483.89",
+                  "jkl": "62,961.08"
                 }
-            ],
+              ],
             "Table16": [
                 {
                     "Sl No": 1,
@@ -37891,7 +37970,7 @@
             "para113":"It was observed that the State Government incurred an expenditure of ₹55,356.61 crore constituting 19 per cent of the total expenditure of ₹2,97,325.39 crore (including public debt expenditure) during March 2023 alone.",
             "para114":"Major cases where more than 50 per cent of the total expenditure was incurred in March 2022 alone are detailed in Table 3.11.",
             "para115":"As seen from the table, a substantial quantum of 2401 – Crop Husbandryexpenditure was incurred by the Government at the fag end of the year indicating inadequate control over expenditure. ",
-            "para116":"3.7 Outcome of review of selected Grants2402 – Soil and Water Conservation",
+            "para116":"3.7 Outcome of review of selected",
             "para117":"Budgetary Procedures followed and methodology employed for control over 2406 – Forestry and Wildlifeexpenditure in the following two grants were reviewed.",
             "para118":"1. Grant No. 01 – Agriculture and Horticulture2406 – Forestry and Wildlife",
             "para119":"2. Grant No. 22 – Health and Family Welfare",
