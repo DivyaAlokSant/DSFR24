@@ -50,7 +50,7 @@ const Outcome = () => {
       </Subtitle>
       {["para121b","para122","para122a","para123","para124","para125","para126","para127","para128","para129","para130","para131","para132","para133","para134"].map(
             (item, ind) => (
-              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+              <Para key={ind / 10}  >{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
       <Subtitle>
