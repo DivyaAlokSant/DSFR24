@@ -28,125 +28,56 @@ const Investment = () => {
                     <div className="contentwrapper" id="home">
                         <FloatingActionButtons back="/State/Spse" forward="/State/Returns" />
 
-                        <Title>
-                            {ctx.chapterFive.Fifth.Para12}
-                        </Title>
                         <Subtitle>
-                            {ctx.chapterFive.Fifth.Para13}
-                        </Subtitle>
-                        <Para>
-                              {ctx.chapterFive.Fifth.Para14}
-                        </Para>
-                        <h3 className='headnote'>
-                            ₹ In crore
-                        </h3>
-                        <Table2 />
-
-                        <h4 className='footnote'>
-                            <i>
-                                Source: Latest Financial Statements of SPSEs.
-                                <br></br>
-                                Investment includes equity and long term loans.
-                            </i>
-                        </h4>
-
-                        <Para>
-                              {ctx.chapterFive.Fifth.Para19}
-                        </Para>    
-
-                        <Subtitle>
-                            {ctx.chapterFive.Fifth.Para20}
-                        </Subtitle>
-                        <Para>
-                              {ctx.chapterFive.Fifth.Para21}
-                        </Para>
-                        <Subtitle>
-                            {ctx.chapterFive.Fifth.Para22}
+                            {ctx.chapterFive.para16}
                         </Subtitle>
                         <Subtitle>
-                              {ctx.chapterFive.Fifth.Para23}
+                            {ctx.chapterFive.para17}
                         </Subtitle>
-                        <Para>
-                              {ctx.chapterFive.Fifth.Para23a}
-                        </Para>
+                        {["para18","para19"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
+            )
+          )}
+          <Subtitle>
+                            {ctx.chapterFive.para20}
+                        </Subtitle>
+                        {["para21"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
+            )
+          )}
+          <Subtitle>
+                            {ctx.chapterFive.para22}
+                        </Subtitle>
                         <Subtitle>
-                              {ctx.chapterFive.Fifth.Para23b}
+                            {ctx.chapterFive.para23}
                         </Subtitle>
-                        <Para>
-                              {ctx.chapterFive.Fifth.Para23c}
-                        </Para>
-
-                        <Subtitle>
-                            {ctx.chapterFive.Fifth.Para24}
-                        </Subtitle>
-                        <Para>
-                              {ctx.chapterFive.Fifth.Para25}
-                        </Para>
-                        <h3 className='headnote'>
-                            ₹ In crore
-                        </h3>
-                        <Table3 />
-
-                   
-
-                        <Para>
-                              {ctx.chapterFive.Fifth.Para26}
-                        </Para>
-                        <h3 className='headnote'>
-                            ₹ In crore
-                        </h3>
-                        <Table4 />
-
-                        {/* <h4 className='footnote'>
-                            <i>
-                                Source: Latest Financial Statements of SPSEs.
-                                <br></br>
-                                Investment includes equity and long term loans.
-                            </i>
-                        </h4> */}
-
                         
-                        <Para>
-                            {ctx.chapterFive.Fifth.Para27.substring(0, 688)}
-
-                            <span className="tooltip">
-                                {ctx.chapterFive.Fifth.Para27.substring(670, 672)}
-                                <span className="tooltiptext">
-                                {ctx.chapterFive.Fifth.Para36}
-                                </span>
-                                <sup>28</sup>
-                            </span>
-
-                            {ctx.chapterFive.Fifth.Para27.substring(688, 813)}
-
-                            <span className="tooltip">
-                                {ctx.chapterFive.Fifth.Para27.substring(814, 815)}
-                                <span className="tooltiptext">
-                                {ctx.chapterFive.Fifth.Para37}
-                                </span>
-                                <sup>29</sup>
-                            </span>
-
-                            {ctx.chapterFive.Fifth.Para27.substring(814,835)}
-
-                            <span className="tooltip">
-                                {ctx.chapterFive.Fifth.Para27.substring(836, 837)}
-                                <span className="tooltiptext">
-                                {ctx.chapterFive.Fifth.Para38}
-                                </span>
-                                <sup>30</sup>
-                            </span>
-
-                            {ctx.chapterFive.Fifth.Para27.substring(836,)}
-
-                        </Para>
+                        {["para24"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
+            )
+          )}
+                       <Subtitle>
+                            {ctx.chapterFive.para25}
+                        </Subtitle>
                         
-                        {["Para28"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                
-                                        {ctx.chapterFive.Fifth[item]}
-                                   
-                            </Para>)}
+                        {["para26"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
+            )
+          )} 
+          <Subtitle>
+                            {ctx.chapterFive.para27}
+                        </Subtitle>
+                        
+                        {["para28","para29","para30"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
+            )
+          )} 
+
 
                     </div>
                 </div>

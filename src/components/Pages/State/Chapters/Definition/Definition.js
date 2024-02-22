@@ -5,6 +5,7 @@ import { FaSpinner } from "react-icons/fa"
 import { MyContext } from '../../../../../Context/MyProvider';
 import Para from "../../../../Para/Para"
 import Title from "../../../../Title/Title";
+import Subtitle from "./../../../../Subtitle/Subtitle";
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton"
 // import Table1 from '../../../Tables/Chapter4/Table1'
 
@@ -21,38 +22,15 @@ const Definition = () => {
                     <div className="contentwrapper" id="home">
                         <FloatingActionButtons back="/State" forward="/State/Mandate" />
 
-                        <Title>
-                            {ctx.chapterFive.Fifth.Para2}
-                        </Title>
-                        {/* {["Para3", "Para4"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                <li>
-                                    <i>
-                                        {ctx.chapterFive.Fifth[item]}
-                                    </i>
-                                </li>
-                            </Para>)} */}
-                            {["Para3"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterFive.Fifth[item]}
-                            </Para>)}
-                        <Para>
-                            {ctx.chapterFive.Fifth.Para4.substring(0, 26)}
-
-                            <span className="tooltip">
-                                {ctx.chapterFive.Fifth.Para4.substring(27, 28)}
-                                <span className="tooltiptext">
-                                Companies (Removal of Difficulties) Seventh Order, 2014 issued by Ministry of Corporate Affairs vide Gazette Notification dated 4 September 2014.</span>
-                                <sup>30</sup>
-                            </span>
-
-                            {ctx.chapterFive.Fifth.Para4.substring(26,)}
-                            {["Para4a"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterFive.Fifth[item]}
-                            </Para>)}
-                        </Para>    
-
+                        <Subtitle>
+                            {ctx.chapterFive.para3}
+                        </Subtitle>
+                        {["para4","para5", "para6"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
+            )
+          )}
+                        
                     </div>
                 </div>
                 : <div>

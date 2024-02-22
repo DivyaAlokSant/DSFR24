@@ -25,74 +25,27 @@ const Returns = () => {
                     <Navbar />
                     <div className="contentwrapper" id="home">
                         <FloatingActionButtons back="/State/Investment" forward="/State/Debt" />
-
-                        <Title>
-                            {ctx.chapterFive.Fifth.Para29}
-                        </Title>
                         <Subtitle>
-                            <i>
-                            {ctx.chapterFive.Fifth.Para30}
-                            </i>
+                            {ctx.chapterFive.para31}
                         </Subtitle>
-                        {["Para31", "Para32"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                
-                                        {ctx.chapterFive.Fifth[item]}
-                                   
-                            </Para>)}
-
-                            <Table5 />
-
-                            <h4 className='footnote'>
-                                <i>
-                                    Source: Latest Financial Statements of SPSEs
-                                    <br></br>
-                                    
-                                </i>
-                            </h4>
-
-                        <Para>
-                              {ctx.chapterFive.Fifth.Para33}
-                        </Para>    
-
                         <Subtitle>
-                            {ctx.chapterFive.Fifth.Para34}
+                            {ctx.chapterFive.para32}
                         </Subtitle>
-
-                        <Para>
-                            {ctx.chapterFive.Fifth.Para35.substring(0, 76)}
-
-                            <span className="tooltip">
-                                {ctx.chapterFive.Fifth.Para35.substring(76, 77)}
-                                <span className="tooltiptext">
-                                {ctx.chapterFive.Fifth.Para39}
-                                </span>
-                                <sup>31</sup>
-                            </span>
-
-                            {ctx.chapterFive.Fifth.Para35.substring(77,)}
-                        </Para>
-
-                        <h3 className='headnote'>
-                            ₹ In crore
-                        </h3>
-                        <Table6 />
-
-                        <h4 className='footnote'>
-                            <i>
-                                Source: Latest Financial Statements of SPSEs
-                                <br></br>
-                                
-                            </i>
-                        </h4>
-
-                        <Para>
-                              {ctx.chapterFive.Fifth.Para41}
-                        </Para> 
-                        <Para>
-                              {ctx.chapterFive.Fifth.Para41a}
-                        </Para> 
-
+                        
+                        {["para33","para34","para35"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
+            )
+          )} 
+                 <Subtitle>
+                            {ctx.chapterFive.para36}
+                        </Subtitle>
+                        {["para37","para38","para39"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
+            )
+          )} 
+                        
                     </div>
                 </div>
                 : <div>

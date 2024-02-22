@@ -24,41 +24,31 @@ const Spse = () => {
                     <div className="contentwrapper" id="home">
                         <FloatingActionButtons back="/State/Mandate" forward="/State/Investment" />
 
-                        <Title>
-                            {ctx.chapterFive.Fifth.Para7}
-                        </Title>
+                    <Subtitle>
+                            {ctx.chapterFive.para9}
+                    </Subtitle>
+                       
 
-                        <Subtitle>
-                            {ctx.chapterFive.Fifth.Para8}                      
-                     
+                    <Subtitle>
+                            {ctx.chapterFive.para10}                      
+                    </Subtitle> 
 
-                        </Subtitle>  
-                        {["Para8a"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                
-                                        {ctx.chapterFive.Fifth[item]}
-                                   
-                            </Para>)}
-                            <Subtitle>
-                            5.3.2  Contribution of SPSEs to GSDP of the State                    
-                     
+                    {["para11"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
+            )
+          )}
+                    <Subtitle>
+                            {ctx.chapterFive.para12}                      
+                    </Subtitle> 
 
-                        </Subtitle>  
+                    {["para13","para14"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
+            )
+          )}
 
-
-                        {["Para10"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                
-                                        {ctx.chapterFive.Fifth[item]}
-                                   
-                            </Para>)}
-
-                            <Table1 />
-
-                            <Para>
-                              {ctx.chapterFive.Fifth.Para11}
-                            </Para>
-
+                        
 
                     </div>
                 </div>

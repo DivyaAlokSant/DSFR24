@@ -26,22 +26,16 @@ const Performance = () => {
                     <div className="contentwrapper" id="home">
                         <FloatingActionButtons back="/State/Debt" forward="/State/Loss" />
 
-                        <Title>
-                            {ctx.chapterFive.Fifth.Para49}
-                        </Title>
-                        <Para>
-                              {ctx.chapterFive.Fifth.Para50}
-                        </Para>
+                        <Subtitle>
+                            {ctx.chapterFive.para44}
+                        </Subtitle>
+                        {["para45"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
+            )
+          )} 
                         
-                        <Table8 />
-                        <h4 className='footnote'>
-                                <i>
-                                    Source: Latest Financial Statements of SPSEs
-                                    <br></br>
-                                    
-                                </i>
-                            </h4>
-
+                       
                        
                     </div>
                 </div>

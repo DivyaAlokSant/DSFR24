@@ -5,6 +5,7 @@ import { FaSpinner } from "react-icons/fa"
 import { MyContext } from '../../../../../Context/MyProvider';
 import Para from "../../../../Para/Para"
 import Title from "../../../../Title/Title";
+import Subtitle from "./../../../../Subtitle/Subtitle";
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton"
 // import Table1 from '../../../Tables/Chapter4/Table1'
 
@@ -20,13 +21,14 @@ const Mandate = () => {
                     <Navbar />
                     <div className="contentwrapper" id="home">
                     <FloatingActionButtons back="/State/Definition" forward="/State/Spse" />
-                        <Title>
-                            {ctx.chapterFive.Fifth.Para5}
-                        </Title>
-                        <Para>
-                        {ctx.chapterFive.Fifth.Para6}
-                        </Para>
-                        
+                        <Subtitle>
+                            {ctx.chapterFive.para7}
+                        </Subtitle>
+                        {["para8"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
+            )
+          )}
 
                     </div>
                 </div>

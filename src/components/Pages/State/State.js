@@ -15,15 +15,7 @@ import FloatingActionButtons from "../../FloatingActionButtons/FloatButton"
 const State = () => {
 
     const ctx = useContext(MyContext)
-    // const [url, setURL] = useState("");
-
-    // getFirebase()
-    //     .storage()
-    //     .ref('/pdfs/chart43.PNG')
-    //     .getDownloadURL()
-    //     .then((url) => {
-    //         setURL(url);
-    //     });
+    
 
     return (
         ctx.langPref
@@ -34,41 +26,17 @@ const State = () => {
                         <FloatingActionButtons back="/quality/recommendations" forward="/State/Definition" />
 
 
-                        <Title>
-                            {ctx.chapterFive.Fifth.Para0}
-                        </Title>
-                        <Para>
-                            {ctx.chapterFive.Fifth.Para0a}
-                        </Para>
-                        <Para>
-                            {ctx.chapterFive.Fifth.Para0b}
-                        </Para>
-                        <Para>
-                            {ctx.chapterFive.Fifth.Para0c}
-                        </Para>
-                        <Para>
-                            {ctx.chapterFive.Fifth.Para0d}
-                        </Para>
-                        <Para>
-                            {ctx.chapterFive.Fifth.Para0e}
-                        </Para>
-                        {/* <ImageComponent src={url} alt="chart43" aspectRatio={1 / 0.35} /> */}
-                        {/* <Para>
-                            {ctx.chapterFour.Third.Para25a}
-                        </Para>
+                <Title>
+                            {ctx.chapterFive.para1}
+                </Title>
+                {["para2"].map(
+              (item, ind) => (
+                <Para key={ind / 10}>
+                  {ctx.chapterFive[item]}
+                </Para>
+              ))}
+               
 
-                        <h3 className="headnote">
-                            ₹ In crore
-                        </h3>
-                        {/* <Table10 /> */}
-                        {/* <h4>Source- Report on MCA and Finance Accounts</h4>
-                        <Para>
-                            {ctx.chapterFour.Third.Para26}
-                        </Para>  */}
-
-                        {/* <Para>
-                            {ctx.chapterFour.Third.Para27}
-                        </Para> */}
                     </div>
                 </div>
                 : <div>

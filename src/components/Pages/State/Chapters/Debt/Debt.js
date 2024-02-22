@@ -23,35 +23,18 @@ const Debt = () => {
                     <Navbar />
                     <div className="contentwrapper" id="home">
                         <FloatingActionButtons back="/State/Returns" forward="/State/Performance" />
-
-                        <Title>
-                            {ctx.chapterFive.Fifth.Para42}
-                        </Title>
                         <Subtitle>
-                            {ctx.chapterFive.Fifth.Para43}
+                            {ctx.chapterFive.para40}
                         </Subtitle>
-
-                        <Para>
-                              {ctx.chapterFive.Fifth.Para44}
-                        </Para>
-
-                        <Table7 />
-
-                            <h4 className='footnote'>
-                                <i>
-                                    Source: Latest Financial Statements of SPSEs
-                                    <br></br>
-                                    Number of companies having interest coverage ratio more than 1 -This doesn’t include PSUs which have loan liability but interest coverage ratio couldn’t be calculated due to nil value either in interest expenses or EBIT. <br></br>
-Number of companies having interest coverage ratio less than 1-   This doesn’t include PSUs which have loan liability but interest coverage ratio couldn’t be calculated due to nil value either in interest expenses or EBIT.
-
-                                    
-                                </i>
-                            </h4>
-
-                        <Para>
-                              {ctx.chapterFive.Fifth.Para45}
-                        </Para>    
-
+                        <Subtitle>
+                            {ctx.chapterFive.para41}
+                        </Subtitle>
+                        {["para42","para43"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
+            )
+          )} 
+                        
                     </div>
                 </div>
                 : <div>
