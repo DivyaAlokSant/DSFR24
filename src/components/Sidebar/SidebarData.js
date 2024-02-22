@@ -310,7 +310,7 @@ export const SidebarData = [
         cName: 'sub-nav'
       },
       {
-        title: '4.9 Submission of Accounts and placing of Separate Audit Reports of Autonomous Bodies in the Legislature',
+        title: '4.9 Submission of Accounts and placing ',
         path: '/quality/submission',
         id: 2,
         icon: <FaIcons.FaAngleRight />,
@@ -318,14 +318,14 @@ export const SidebarData = [
       },
       
       {
-        title: '4.10 Departmental Commercial Undertakings/ Corporations/ Companies',
+        title: '4.10 Departmental Commercial Undertakings', 
         path: '/quality/dcu',
         id: 2,
         icon: <FaIcons.FaAngleRight />,
         cName: 'sub-nav'
       },
       {
-        title: '4.11 Non-submission of details of grants/ loans given to bodies and authorities',
+        title: '4.11 Non-submission of details of grants/ loans',
         path: '/quality/non-submission',
         id: 2,
         icon: <FaIcons.FaAngleRight />,
