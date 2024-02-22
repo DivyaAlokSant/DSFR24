@@ -23,109 +23,39 @@ const OB = () => {
                 ? <div >
                     <Navbar />
                     <div className="contentwrapper" id="home">
-                        <FloatingActionButtons back="/quality/pdaccounts" forward="/quality/non-reconciliation" />
+                        <FloatingActionButtons back="/quality/fund-transfer" forward="/quality/contingent-bill" />
 
 
                         <Title>
-                            {ctx.chapterFour.Third.title}
+                            {ctx.chapterFour.Content.para19}
                         </Title>
 
-
-                        {["Para1", "Para2", "Para3"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterFour.Third[item]}
-                            </Para>)}
-                        <h3 className="headnote">
-                            ₹ In crore
-                        </h3>
-                        <Table8 />
-                        <h4>
-                            <i>Source- DDR Ledger
-                            </i>
-                        </h4>
-                        {["Para4", "Para5"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterFour.Third[item]}
-                            </Para>)}
-                        {["Para6", "Para7"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                <li>
-                                    {ctx.chapterFour.Third[item]}
-                                </li>
-                            </Para>)}
-
-                        <Para>
-                            {ctx.chapterFour.Third["Para8"]}
-                        </Para>
-                        <Para>
-                            <li>
-                                {ctx.chapterFour.Third["Para9"]}
-                            </li>
-                        </Para>
-                        <Para>
-                            {ctx.chapterFour.Third["Para10"]}
-                        </Para>
-                        <Para>
-                            <li>
-                                {ctx.chapterFour.Third["Para11"]}
-                            </li>
-                        </Para>
-                        <Para>
-                            {ctx.chapterFour.Third["Para12"]}
-                        </Para>
-                        <Para>
-                            <li>
-                                {ctx.chapterFour.Third["Para13"]}
-                            </li>
-                        </Para>
-                        <Para>
-                            {ctx.chapterFour.Third["Para14"]}
-                        </Para>
-                        <Para>
-                            <li>
-                                {ctx.chapterFour.Third["Para15"]}
-                            </li>
-                        </Para>
-                        <Para>
-                            {ctx.chapterFour.Third["Para16"]}
-                        </Para>
-                        <Para>
-                            <li>
-                                {ctx.chapterFour.Third["Para17"]}
-                            </li>
-                        </Para>
-                        <Para>
-                            {ctx.chapterFour.Third["Para18"]}
-                        </Para>
-                        {/* <Para>
-                            {ctx.chapterFour.Third["Para19"]}
-                        </Para>
-                        <Para>
-                            <li>
-                                {ctx.chapterFour.Third["Para20"]}
-                            </li>
-                        </Para>
-                        <Para>
-                            <li>
-                                {ctx.chapterFour.Third["Para21"]}
-                            </li>
-                        </Para> */}
                         <Subtitle>
-                            {ctx.chapterFour.Third["Para22"]}
+                            {ctx.chapterFour.Content.para20}
                         </Subtitle>
-                        <Para>
-                            {ctx.chapterFour.Third["Para23"]}
-                        </Para>
 
-                        <h3 className="headnote">
-                            ₹ In crore
-                        </h3>
-                        <Table9 />
-                        <h4>
-                            <i>
-                                Source- Office of the Pr.AG(A&E)
-                            </i>
-                        </h4>
+
+                        {["para21", "para22"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapterFour.Content[item]}
+                            </Para>)}
+                        <Para>                            
+                            {ctx.chapterFour.Content.para23}  
+                        </Para>    
+                        <Para>                            
+                            {ctx.chapterFour.Content.para24}  
+                        </Para> 
+                        {["para25", "para26", "para27"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapterFour.Content[item]}
+                            </Para>)}
+
+                      
+
+
+                      
+
+
                     </div>
                 </div>
                 : <div>

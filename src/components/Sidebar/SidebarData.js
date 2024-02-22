@@ -249,75 +249,59 @@ export const SidebarData = [
     iconClosed: <FaIcons.FaPlusSquare size="12px"/>,
     iconOpened: <FaIcons.FaRegMinusSquare size="12px" />,
     subNav: [
+      
       {
-        title: 'A.Observations relating to completeness of accounts',
-        id: 2,
-        type: true
-      },
-      {
-        title: '4.1 Funds outside Consolidated Fund or Public Account of the State',
+        title: '4.1 Loans of State Government not being credited',
         path: '/quality/funds',
         id: 2,
         icon: <FaIcons.FaAngleRight />,
         cName: 'sub-nav'
       },
+      
       {
-        title: 'B.Observation relating to transparency',
+        title: '4.2 Non remittance of interest earned',
+        path: '/quality/NonRemittance',
         id: 2,
-        type: true
+        icon: <FaIcons.FaAngleRight />,
+        cName: 'sub-nav'
       },
       {
-        title: '4.2 Delay in submission of Utilisation Certificates',
+        title: '4.3 Non-discharge of liability in respect of interest ',
+        path: '/quality/Non-discharge',
+        id: 2,
+        icon: <FaIcons.FaAngleRight />,
+        cName: 'sub-nav'
+      },
+      {
+        title: '4.4 Funds transferred directly',
+        path: '/quality/fund-transfer',
+        id: 2,
+        icon: <FaIcons.FaAngleRight />,
+        cName: 'sub-nav'
+      },
+     
+      {
+        title: '4.5 Delay in submission of Utilisation Certificates',
         path: '/quality/delay',
         id: 2,
         icon: <FaIcons.FaAngleRight />,
         cName: 'sub-nav'
       },
       {
-        title: '4.3 Abstract Contingent Bills',
-        path: '/quality/acbills',
+        title: '4.6 Abstract Contingent Bills',
+        path: '/quality/contingent-bill',
         id: 2,
         icon: <FaIcons.FaAngleRight />,
         cName: 'sub-nav'
       },
       {
-        title: '4.4 Personal Deposit Accounts',
-        path: '/quality/pdaccounts',
+        title: '4.7 Personal Deposit Accounts',
+        path: '/quality/PDA',
         id: 2,
         icon: <FaIcons.FaAngleRight />,
         cName: 'sub-nav'
       },
-      {
-        title: 'C.Observation relating to measurement ',
-        id: 2,
-        type: true
-      },
-      {
-        title: '4.5 Outstanding balances under suspense and DDR heads',
-        path: '/quality/balances',
-        id: 2,
-        icon: <FaIcons.FaAngleRight />,
-        cName: 'sub-nav'
-      },
-      {
-        title: '4.6 Non-reconciliation of Departmental figures',
-        path: '/quality/non-reconciliation',
-        id: 2,
-        icon: <FaIcons.FaAngleRight />,
-        cName: 'sub-nav'
-      },
-      {
-        title: '4.7 Reconciliation of cash balance',
-        path: '/quality/reconciliation',
-        id: 2,
-        icon: <FaIcons.FaAngleRight />,
-        cName: 'sub-nav'
-      },
-      {
-        title: 'D.Observation relating to disclosure',
-        id: 2,
-        type: true
-      },
+      
       {
         title: '4.8 Compliance with Accounting Standards',
         path: '/quality/compliance',

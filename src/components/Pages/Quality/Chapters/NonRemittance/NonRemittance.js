@@ -1,11 +1,11 @@
 import React, { useContext, useState } from "react"
-import Navbar from "./../../../../Navbar/Navbar"
+import Navbar from "../../../../Navbar/Navbar"
 import './../../Quality.css'
 import { FaSpinner } from "react-icons/fa"
-import { MyContext } from './../../../../../Context/MyProvider';
-import Para from "./../../../../Para/Para"
-import Title from "./../../../../Title/Title";
-import FloatingActionButtons from "./../../../../FloatingActionButtons/FloatButton"
+import { MyContext } from '../../../../../Context/MyProvider';
+import Para from "../../../../Para/Para"
+import Title from "../../../../Title/Title";
+import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton"
 import Table2 from "../../../Tables/Chapter4/Table2"
 import Table2kan from "../../../Tables/Chapter4kan/Table2"
 import Table3 from "../../../Tables/Chapter4/Table3"
@@ -17,7 +17,8 @@ import { getFirebase } from '../../../../../firebase/firebase'
 import { Subtitles } from "@material-ui/icons";
 import { Chart1 as Chart1Chap4  } from '../../../Charts/Chap4Charts'
 
-const Delay = () => {
+const NonRemittance
+ = () => {
 
     const ctx = useContext(MyContext)
 
@@ -37,52 +38,25 @@ const Delay = () => {
                 ? <div >
                     <Navbar />
                     <div className="contentwrapper" id="home">
-                        <FloatingActionButtons back="/quality/funds" forward="/quality/acbills" />
-                        <Title>B.{ctx.chapterFour.second.Para1}</Title>
+                        <FloatingActionButtons back="/quality/funds" forward="/quality/Non-discharge" />
+                        <Title>{ctx.chapterFour.Content.para8}</Title>
 
-                        <Para>
-                            {ctx.chapterFour.second.para3}
-                        </Para>
-                        <Para>
-                            {ctx.chapterFour.second.para2}
-                        </Para>
-                        <h3 className="headnote">
-                            ₹ In crore
-                        </h3>
-                        <Table2 />
-                        <h4 className="footnote">
-                            <i>
-                                Source: Office of the Pr.AG(A&E)
-                            </i>
-                        </h4>
-                        <h3 className="headnote">
-                            ₹ In crore
-                        </h3>
-
-                        <Table3 />
-                        <h4 className="footnote">
-                            <i>
-                                Source: Office of the Pr.AG(A&E)
-                            </i>
-                        </h4>
-                        <Para>
-                            {ctx.chapterFour.second.para4}
-                        </Para>
-                        <h3 className="headnote">
-                          ( ₹ In crore)
-                        </h3>
-                        <ImageComponent flex="4" aspectRatio = "4" resizeMode = 'contain' src={c41} color ="#ffffff00" />
-<h4>Source: Office of the AG(A&E)</h4>
-<h3 className="headnote">
-                          ( ₹ In crore)
-                        </h3>
-                        {/* <App /> */}
-                        <Chart1Chap4 />
-<h4>Source: Office of the AG(A&E)</h4>
-                        {["Para5", "Para6"].map((item, ind) =>
+                        {["para9", "para10", "para11",].map((item, ind) =>
                             <Para key={ind / 10}>
-                                {ctx.chapterFour.first[item]}
+                                {ctx.chapterFour.Content[item]}
                             </Para>)}
+                        
+
+                        {["para12", "para13"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapterFour.Content[item]}
+                            </Para>)}    
+                        {/* <Para>
+                            {ctx.chapterFour.Content.para9}
+                        </Para> */}
+                        {/* <Subtitle>
+                            {ctx.chapterFour.Content.}  
+                        </Subtitle> */}
 
                     </div>
                 </div>
@@ -136,4 +110,4 @@ const Delay = () => {
     )
 }
 
-export default Delay
+export default NonRemittance

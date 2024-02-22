@@ -8,6 +8,7 @@ import Title from "./../../../../Title/Title";
 import FloatingActionButtons from "./../../../../FloatingActionButtons/FloatButton"
 import Table1 from '../../../Tables/Chapter4/Table1'
 import Table1kan from '../../../Tables/Chapter4kan/Table1'
+import Subtitle from "./../../../../Subtitle/Subtitle";
 
 
 const Funds = () => {
@@ -20,26 +21,28 @@ const Funds = () => {
                 ? <div >
                     <Navbar />
                     <div className="contentwrapper" id="home">
-                        <FloatingActionButtons back="/quality" forward="/quality/delay" />
+                        <FloatingActionButtons back="/quality" forward="/quality/NonRemittance" />
                         <Title>
-                            {ctx.chapterFour.title}
+                            {ctx.chapterFour.Content.para2}
                         </Title>
-                        <Para>
-                            {ctx.chapterFour.para1}
-                        </Para>
-                        <Title>{ctx.chapterFour.para2}</Title>
-                        <Para>
-                            {ctx.chapterFour.first.title}
-                        </Para>
-                        <Para>
-                         
-                                {ctx.chapterFour.first.para1}
-                           
-                        </Para>
-                        {["para2", "Para3"].map((item, ind) =>
+                        <Title>
+                            {ctx.chapterFour.Content.para3}
+                        </Title>
+                       
+                       
+                        {["para4", "para5"].map((item, ind) =>
                             <Para key={ind / 10}>
-                                {ctx.chapterFour.first[item]}
+                                {ctx.chapterFour.Content[item]}
                             </Para>)}
+
+                        <Para>
+                            {ctx.chapterFour.Content.para6}
+                            
+                        </Para>   
+                        <Para>                            
+                            {ctx.chapterFour.Content.para7}  
+                        </Para>
+                        
                         {/* <Para>
                             <li>
                                 {ctx.chapterFour.first.Para6}
@@ -50,17 +53,12 @@ const Funds = () => {
                                 {ctx.chapterFour.first[item]}
                             </Para>)} */}
 
-                        <h3 className="headnote">
+                        {/* <h3 className="headnote">
                             ₹ In lakhs
                         </h3>
-                        <Table1 />
+                        <Table1 /> */}
 
-                        <Para>
-                            {ctx.chapterFour.first.Para4}
-                        </Para>
-                        <Para>
-                            {ctx.chapterFour.first.Para9b}
-                        </Para>
+                        
 
                     </div>
                 </div>
