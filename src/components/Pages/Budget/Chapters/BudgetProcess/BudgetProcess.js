@@ -33,29 +33,18 @@ const BudgetProcess = () => {
         <div className="contentwrapper" id="home">
           <FloatingActionButtons back="/budget/introduction" forward="/budget/gender-budget" />
 
-          <Subtitle>{ctx.chapterThree.Profile.Para1}</Subtitle>
+          <Subtitle>{ctx.chapterThree.Profile.para1}</Subtitle>
+          {["para2","para3","para4","para5","para6","para7"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+            )
+          )}
+        {["para8","para9"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+            )
+          )}
           
-          {["Para1a", "Para2"].map(
-            (item, ind) => (
-              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
-            )
-          )}
-          {["Para3", "Para4","Para5"].map(
-            (item, ind) => (
-              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
-            )
-          )}
-          {["Para6"].map(
-            (item, ind) => (
-              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
-            )
-          )}   
-          {["Para7a","Para7"].map(
-            (item, ind) => (
-              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
-            )
-          )}   
-
         </div>
       </div>
     ) : (

@@ -9,20 +9,61 @@ import { styles } from "../helpers";
 
 const columns = [
     {
-        name: "Identification",
-        selector: "Identification",
+        name: "SI No.",
+        selector: "SI No.",
         wrap: true,
     },
     {
-        name: "Classification",
-        selector: "Classification",
+        name: "Category",
+        selector: "Category",
+        wrap: true
+    },
+
+    {
+        name: "allocation",
+        selector: "allocation",
         wrap: true
     },
     {
-      name: "Criteria",
-      selector: "Criteria",
+        name: "allocation",
+        selector: "abc",
+        wrap: true
+    },
+    {
+        name: "allocation",
+        selector: "def",
+        wrap: true
+    },
+    {
+      name: "Expenditure",
+      selector: "Expenditure",
       wrap: true,
-  }
+  },
+  {
+    name: "Expenditure",
+    selector: "ghi",
+    wrap: true,
+},
+{
+    name: "Expenditure",
+    selector: "jkl",
+    wrap: true,
+},
+{
+    name: "Percentage of Allocation to total Budget Allocation",
+    selector: "123",
+    wrap: true,
+},
+{
+    name: "Percentage of Allocation to total Budget Allocation",
+    selector: "456",
+    wrap: true,
+},
+{
+    name: "Percentage of Allocation to total Budget Allocation",
+    selector: "789",
+    wrap: true,
+},
 ];
 
 const customStyles = styles;
@@ -35,7 +76,7 @@ const Table2 = () => {
         <div className="App" style={{ margin: "40px 0 40px 0" }} >
             <Card>
                 <DataTable
-                    title="Table 3.2: Criteria for identification and classification of Child Centric Programme/Schemes"
+                    title="Table 3.2: Details of allocation under Child Centric Programme/Schemes"
                     columns={columns}
                     data={ctx.tables3.Table2}
                     customStyles={customStyles}

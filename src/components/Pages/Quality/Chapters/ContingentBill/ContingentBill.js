@@ -13,7 +13,7 @@ import k43 from '../../../../../Images/k43.png'
 import ImageComponent from 'material-ui-image'
 import { getFirebase } from '../../../../../firebase/firebase'
 import { Chart3 as Chart3Chap4 } from '../../../Charts/Chap4Charts'
-const NonReconciliation = () => {
+const ContingentBill = () => {
 
     const ctx = useContext(MyContext)
     const [url, setURL] = useState("");
@@ -32,40 +32,28 @@ const NonReconciliation = () => {
                 ? <div >
                     <Navbar />
                     <div className="contentwrapper" id="home">
-                        <FloatingActionButtons back="/quality/balances" forward="/quality/reconciliation" />
+                        <FloatingActionButtons back="/quality/balances" forward="/quality/PDA" />
 
 
                         <Title>
-                            {ctx.chapterFour.Third.Para24}
+                            {ctx.chapterFour.Content.para28}
                         </Title>
-                        <Para>
-                            {ctx.chapterFour.Third.Para25}
-                        </Para>
-                        <h3 className="headnote">
-                            ₹ In crore
-                        </h3>
-                       <ImageComponent flex="4" aspectRatio = "4" resizeMode = 'contain' src={c43} color ="#ffffff00" />
-<h4>Source- Finance Accounts</h4>
-<h4> * Excludes loans and advances </h4>
+                        {["para29", "para30"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapterFour.Content[item]}
+                            </Para>)}
+                        <Para>                            
+                            {ctx.chapterFour.Content.para31}  
+                        </Para> 
+                        <Para>                            
+                            {ctx.chapterFour.Content.para32}  
+                        </Para> 
+                        {["para33", "para34", "para35"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapterFour.Content[item]}
+                            </Para>)}
 
-<Chart3Chap4 />
-                        <Para>
-                            {ctx.chapterFour.Third.Para25a}
-                        </Para>
-
-                        <h3 className="headnote">
-                            ₹ In crore
-                        </h3>
-                        <Table10 />
-                        <h4>Source- Report on MCA and Finance Accounts</h4>
-                        <Para>
-                            {ctx.chapterFour.Third.Para26}
-                        </Para>
-
-                        {/* <Para>
-                            {ctx.chapterFour.Third.Para27}
-                        </Para> */}
-                    </div>
+                     </div>
                 </div>
                 : <div>
                     <Navbar />
@@ -75,7 +63,7 @@ const NonReconciliation = () => {
                 ? <div >
                     <Navbar />
                     <div className="contentwrapper" id="home">
-                        <FloatingActionButtons back="/quality/balances" forward="/quality/reconciliation" />
+                        <FloatingActionButtons back="/quality/balances" forward="/quality/PDA" />
                         <Title>
                             {ctx.chapter4kannada.Content.para66}
                         </Title>
@@ -108,4 +96,4 @@ const NonReconciliation = () => {
     )
 }
 
-export default NonReconciliation
+export default ContingentBill

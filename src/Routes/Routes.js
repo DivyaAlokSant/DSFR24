@@ -40,12 +40,12 @@ import Recommendations from '../components/Pages/Budget/Chapters/Recommendations
 
 import Quality from '../components/Pages/Quality/Quality';
 import Funds from '../components/Pages/Quality/Chapters/Funds/Funds';
-import Delay from '../components/Pages/Quality/Chapters/Delay/Delay';
+import NonRemittance from '../components/Pages/Quality/Chapters/NonRemittance/NonRemittance';
 import Abstract from '../components/Pages/Quality/Chapters/Abstract/Abstract';
 import PD from '../components/Pages/Quality/Chapters/PD/PD';
 import OB from '../components/Pages/Quality/Chapters/OB/OB';
-import NonReconciliation from '../components/Pages/Quality/Chapters/NonReconciliation/NonReconciliation';
-import Reconciliation from '../components/Pages/Quality/Chapters/Reconciliation/Reconciliation';
+import ContingentBill from '../components/Pages/Quality/Chapters/ContingentBill/ContingentBill';
+import PDA from '../components/Pages/Quality/Chapters/PDA/PDA';
 import Compliance from '../components/Pages/Quality/Chapters/Compliance/Compliance';
 import Submission from '../components/Pages/Quality/Chapters/Submission/Submission';
 import DCU from '../components/Pages/Quality/Chapters/DCU/DCU';
@@ -87,7 +87,6 @@ import Appendix4 from '../components/Pages/Appendices/Appendix4';
 import Appendix5 from '../components/Pages/Appendices/Appendix5';
 import ErrorBoundary from '../components/ErrorBoundary/ErrorBoundary';
 import Error from '../components/404/404';
-
 
 const Routes = () => {
     const ctx = useContext(MyContext)
@@ -143,12 +142,12 @@ const Routes = () => {
 
                             <Route path='/Quality' exact component={Quality} />
                             <Route path='/Quality/Funds' exact component={Funds} />
-                            <Route path='/Quality/Delay' exact component={Delay} />
-                            <Route path='/Quality/acbills' exact component={Abstract} />
-                            <Route path='/Quality/pdaccounts' exact component={PD} />
-                            <Route path='/Quality/balances' exact component={OB} />
-                            <Route path='/Quality/non-reconciliation' exact component={NonReconciliation} />
-                            <Route path='/Quality/reconciliation' exact component={Reconciliation} />
+                            <Route path='/Quality/NonRemittance' exact component={NonRemittance} />
+                            <Route path='/Quality/Non-discharge' exact component={Abstract} />
+                            <Route path='/Quality/fund-transfer' exact component={PD} />
+                            <Route path='/Quality/delay' exact component={OB} />
+                            <Route path='/Quality/contingent-bill' exact component={ContingentBill} />
+                            <Route path='/Quality/PDA' exact component={PDA} />
                             <Route path='/Quality/compliance' exact component={Compliance} />
                             <Route path='/Quality/Submission' exact component={Submission} />
                             <Route path='/Quality/dcu' exact component={DCU} />

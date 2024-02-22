@@ -23,50 +23,16 @@ const PD = () => {
                 ? <div >
                     <Navbar />
                     <div className="contentwrapper" id="home">
-                        <FloatingActionButtons back="/quality/acbills" forward="/quality/balances" />
+                        <FloatingActionButtons back="/quality/acbills" forward="/quality/delay" />
 
                         <Title>
-                            {ctx.chapterFour.second.Para13}
+                            {ctx.chapterFour.Content.para17}
                         </Title>
 
-                        {["Para14", "Para15", "Para16"].map((item, ind) =>
+                        {["para18"].map((item, ind) =>
                             <Para key={ind / 10}>
-                                {ctx.chapterFour.second[item]}
+                                {ctx.chapterFour.Content[item]}
                             </Para>)}
-                        <h3 className="headnote">
-                            ₹ In crore
-                        </h3>
-                        <Table5 />
-                        <h4 className="footnote">
-                            <i>
-                                Source: Finance Accounts
-                            </i>
-                        </h4>
-                        {["Para17", "Para18"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterFour.second[item]}
-                            </Para>)}
-                        <h3 className="headnote">
-                            ₹ In crore
-                        </h3>
-                        <Table6 />
-                        <h4 className="footnote">
-                            <i>
-                                Source: DDR Ledger
-                            </i>
-                        </h4>
-                        {["Para19", "Para20", "Para21"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterFour.second[item]}
-                            </Para>)}
-                        {/* <h3 className="headnote">
-                            ₹ In crore
-                        </h3>
-                        <Table7 />
-                        {["Para23", "Para24", "Para25", "Para26", "Para27", "Para28"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterFour.second[item]}
-                            </Para>)} */}
 
                     </div>
                 </div>

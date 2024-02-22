@@ -36,46 +36,14 @@ const Abstract = () => {
                 ? <div >
                     <Navbar />
                     <div className="contentwrapper" id="home">
-                        <FloatingActionButtons back="/quality/delay" forward="/quality/pdaccounts" />
+                        <FloatingActionButtons back="/quality/NonRemittance" forward="/quality/fund-transfer" />
                         <Title>
-                            {ctx.chapterFour.second.para7}
+                            {ctx.chapterFour.Content.para14}
                         </Title>
-                        <Para>
-                            {ctx.chapterFour.second.para8}
-                        </Para>
-                        <Para>
-                            {ctx.chapterFour.second.para7a}
-                        </Para>
-                        <h3 className="headnote">
-                            ₹ In crore
-                        </h3>
-                        <Table4 />
-                        <h4>
-                            <i>Source- Finance Accounts
-                                <br></br>
-                                *Excluding Bills for the Month of March 2022
-                            </i>
-                        </h4>
-                        <h3 className="headnote">
-                          ( ₹ In crore)
-                        </h3>
-                        <ImageComponent flex="4" aspectRatio = "4" resizeMode = 'contain' src={c42} color ="#ffffff00" />
-<h4>Source: Office of the AG(A&E)</h4>
-                        
-                    <Chart2Chap4 />
-
-                        {["Para9", "Para10","Para10a"].map((item, ind) =>
+                        {["para15", "para16"].map((item, ind) =>
                             <Para key={ind / 10}>
-                                {ctx.chapterFour.second[item]}
-                            </Para>)}
-                            <h3 className="headnote">
-                            ₹ In crore
-                        </h3>
-                            <Table5a />
-                        {["Para11", "Para12","Para12a","Para12b","Para12c",,"Para12d","Para12e","Para12f","Para12g","Para12h","Para12i","Para12j","Para12k","Para12l","Para12m","Para12n","Para12o","Para12p","Para12q","Para12r","Para12s","Para12t","Para12u","Para12v","Para12w","Para12x","Para12y","Para12z","Para12a1","Para12a2","Para12a3","Para12a4","Para12a5","Para12a6","Para12a7"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterFour.second[item]}
-                            </Para>)}
+                                {ctx.chapterFour.Content[item]}
+                            </Para>)} 
 
                     </div>
                 </div>

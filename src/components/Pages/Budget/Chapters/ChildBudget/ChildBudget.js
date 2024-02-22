@@ -22,34 +22,29 @@ const ChildBudget = () => {
         <div className="contentwrapper" id="home">
         <FloatingActionButtons back="/budget/gender-budget" forward="/budget/appropaccounts" />
 
-          <Title>{ctx.chapterThree.Profile.Para13}</Title>
-          
-          {["Para15", "Para16"].map(
+          <Title>{ctx.chapterThree.Profile.para17}</Title>
+          {["para18","para19"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
-          {/* <Subtitle>{ctx.chapterThree.Profile.Para17}</Subtitle> */}
-          {/* {["Para18", "Para19", "Para20", "Para21", "Para22", "Para23", "Para24"].map(
+        {/* <Table2 /> */}
+        <h4>
+        <i>
+        Source: Grant Register and Child Budget Document
+        </i>
+        </h4>    
+        <h3 className='headnote'>
+          ₹ In crore
+        </h3>   
+
+          {["para20","para21","para22","para23"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
-          )}   */}
-          {/* <Table2/> 
-          <h4>
-            i) Budgetary allocation and expenditure for Child Centric Non-programme/Scheme comprise institutional set ups, establishments, infrastructure facilities and administrative support that benefit children.
-          <br></br>
-          (ii) Beneficiaries of 100% Child Centric Programme include pregnant or expectant mothers and lactating mothers.
-          </h4> */}
-             {/* <Para>{ctx.chapterThree.Introduction.Para1}</Para> */}
-             
-             <Table3/>
-             <h4> Source: Grant Register and Child Budget Document</h4>
-             <Para>{ctx.chapterThree.Profile.Para25}</Para>
-             <Para>{ctx.chapterThree.Profile.Para26}</Para>
-             <Para>{ctx.chapterThree.Profile.Para27}</Para>
-             <Para>{ctx.chapterThree.Profile.Para27a}</Para>
-        </div>
+          )}
+          
+           </div>
       </div>
     ) : (
       <div>

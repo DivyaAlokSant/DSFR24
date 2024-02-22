@@ -19,15 +19,17 @@ const Recommendations = () => {
         <div className="contentwrapper" id="home">
           <FloatingActionButtons back="/budget/conclusion" forward="/quality" />
 
-          <Title>{ctx.chapterThree.Profile.Para175}</Title>
-          {["Para176", "Para177", "Para178"].map(
+          <Title>{ctx.chapterThree.Profile.para237}</Title>
+          <i>
+          {
+          ["para238","para239","para240"].map(
             (item, ind) => (
-              <Para key={ind / 10}>
-                <i>
-                  {ctx.chapterThree.Profile[item]}
-                </i>
-              </Para>
-            ))}
+              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+            )
+          )
+          }
+          </i>
+         
 
 
 

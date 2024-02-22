@@ -19,14 +19,13 @@ const BudConclusion = () => {
         <div className="contentwrapper" id="home">
         <FloatingActionButtons back="/budget/outcome" forward="/budget/Recommendations" />
 
-          <Title>{ctx.chapterThree.Profile.Para169}</Title>
-          {["Para170","Para171", "Para172", "Para173"].map(
+          <Title>{ctx.chapterThree.Profile.para232}</Title>
+          {["para233","para234","para235","para236"].map(
             (item, ind) => (
-              <Para key={ind / 10}>
-              {ctx.chapterThree.Profile[item]}
-              </Para>
-          ))}
-         
+              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+            )
+          )}
+          
           
 
         </div>

@@ -9,7 +9,7 @@ import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton
 import Table1 from '../../../Tables/Chapter4/Table1'
 
 
-const Reconciliation = () => {
+const PDA = () => {
 
     const ctx = useContext(MyContext)
     return (
@@ -21,14 +21,12 @@ const Reconciliation = () => {
                         <FloatingActionButtons back="/quality/non-reconciliation" forward="/quality/compliance" />
 
                         <Title>
-                            {ctx.chapterFour.Third.Para28}
+                            {ctx.chapterFour.Content.para36}
                         </Title>
                         <Para>
-                            {ctx.chapterFour.Third.Para29}
+                            {ctx.chapterFour.Content.para37}
                         </Para>
-                        <Para>
-                            {ctx.chapterFour.Third.Para30}
-                        </Para>
+                        
                     </div>
                 </div>
                 : <div>
@@ -61,4 +59,4 @@ const Reconciliation = () => {
     )
 }
 
-export default Reconciliation
+export default PDA
