@@ -427,16 +427,23 @@ export const SidebarData = [
         icon: <FaIcons.FaAngleRight />,
         cName: 'sub-nav'
       },
+      {
+        title: '5.8 Operating efficiency',
+        path: '/State/operating-efficiency',
+        id: 2,
+        icon: <FaIcons.FaAngleRight />,
+        cName: 'sub-nav'
+      },
 
       {
-        title: '5.8 SPSEs incurring losses',
+        title: '5.9 SPSEs incurring losses',
         path: '/State/Loss',
         id: 2,
         icon: <FaIcons.FaAngleRight />,
         cName: 'sub-nav'
       },
       {
-        title: '5.9 Audit of SPSEs',
+        title: '5.10 Audit of SPSEs',
         path: '/State/Auditt',
         id: 2,
         icon: <FaIcons.FaAngleRight />,
@@ -444,49 +451,49 @@ export const SidebarData = [
       },
       
       {
-        title: '5.10  Appointment of statutory auditors of SPSEs by C&AG',
+        title: '5.11  Appointment of statutory auditors of SPSEs by C&AG',
         path: '/State/Appointment',
         id: 2,
         icon: <FaIcons.FaAngleRight />,
         cName: 'sub-nav'
       },
       {
-        title: '5.11 Submission of accounts by SPSEs',
+        title: '5.12 Submission of accounts by SPSEs',
         path: '/State/Submissions',
         id: 2,
         icon: <FaIcons.FaAngleRight />,
         cName: 'sub-nav'
       },
       {
-        title: "5.12 C&AG's oversight - Audit of accounts and supplementary audit ",
+        title: "5.13 C&AG's oversight  ",
         path: '/State/Cag',
         id: 2,
         icon: <FaIcons.FaAngleRight />,
         cName: 'sub-nav'
       },
       {
-        title: '5.13  Result of C&AG’s oversight role',
+        title: '5.14  Result of C&AG’s oversight role',
         path: '/State/Result',
         id: 2,
         icon: <FaIcons.FaAngleRight />,
         cName: 'sub-nav'
       },
       {
-        title: '5.14 Management letters',
+        title: '5.15 Management letters',
         path: '/State/Management',
         id: 2,
         icon: <FaIcons.FaAngleRight />,
         cName: 'sub-nav'
       },
       {
-        title: '5.15 Conclusion',
+        title: '5.16 Conclusion',
         path: '/State/Conclusions',
         id: 2,
         icon: <FaIcons.FaAngleRight />,
         cName: 'sub-nav'
       },
       {
-        title: '5.16 Recommendations',
+        title: '5.17 Recommendations',
         path: '/State/Recommend',
         id: 2,
         icon: <FaIcons.FaAngleRight />,

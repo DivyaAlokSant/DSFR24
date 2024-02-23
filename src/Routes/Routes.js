@@ -67,6 +67,7 @@ import Investment from '../components/Pages/State/Chapters/Investment/Investment
 import Returns from '../components/Pages/State/Chapters/Returns/Returns';
 import Debt from '../components/Pages/State/Chapters/Debt/Debt';
 import Performance from '../components/Pages/State/Chapters/Performance/Performance';
+import OperatingEff from '../components/Pages/State/Chapters/OperatingEff/OperatingEff';
 import Loss from '../components/Pages/State/Chapters/Loss/Loss';
 import Auditt from '../components/Pages/State/Chapters/Auditt/Auditt';
 import Appointment from '../components/Pages/State/Chapters/Appointment/Appointment';
@@ -166,6 +167,7 @@ const Routes = () => {
                            <Route path='/State/Returns' exact component={Returns} />
                            <Route path='/State/Debt' exact component={Debt} />
                            <Route path='/State/Performance' exact component={Performance} />
+                           <Route path='/State/operating-efficiency' exact component={OperatingEff} />                                
                            <Route path='/State/Loss' exact component={Loss} />
                            <Route path='/State/Auditt' exact component={Auditt} />
                            <Route path='/State/Appointment' exact component={Appointment} />

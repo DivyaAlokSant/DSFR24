@@ -14,7 +14,7 @@ import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton
 // import Table1 from '../../../Tables/Chapter4/Table1'
 
 
-const Performance = () => {
+const OperatingEff = () => {
 
     const ctx = useContext(MyContext)
 
@@ -24,7 +24,7 @@ const Performance = () => {
                 ? <div >
                     <Navbar />
                     <div className="contentwrapper" id="home">
-                        <FloatingActionButtons back="/State/Debt" forward="/State/operating-efficiency" />
+                        <FloatingActionButtons back="/State/Performance" forward="/State/Loss" />
 
                         <Subtitle>
                             {ctx.chapterFive.para44}
@@ -47,7 +47,7 @@ const Performance = () => {
                 ? <div >
                     <Navbar />
                     <div className="contentwrapper" id="home">
-                    <FloatingActionButtons back="/State/Debt" forward="/State/operating-efficiency"  />
+                    <FloatingActionButtons back="/State/Performance" forward="/State/Loss"  />
 
 
                         <Title>
@@ -56,41 +56,7 @@ const Performance = () => {
                         <Para>
                             {ctx.chapter5kannada.Content.para37}
                         </Para>
-                        <Subtitle>
-                            <i>
-                            {ctx.chapter5kannada.Content.para38}
-                            </i>
-                        </Subtitle>
-                        <Para>
-                            {ctx.chapter5kannada.Content.para39}
-                        </Para> 
-
-
-                        <Table8kan />
-                        <h3>
-                        ಆಕರ: ರಾಜ್ಯ ಸಾರ್ವಜನಿಕ ವಲಯ ಉದ್ದಿಮೆಗಳ ಇತ್ತೀಚಿನ ಆರ್ಥಿಕ ವಿವರಣಾ ಪಟ್ಟಗಳು
-                        </h3>
-                        <Para>
-                            {ctx.chapter5kannada.Content.para40}
-                        </Para> 
-                        <Subtitle>
-                            <i>
-                            {ctx.chapter5kannada.Content.para41}
-                            </i>
-                        </Subtitle>
-                        <Para>
-                            {ctx.chapter5kannada.Content.para42}
-                        </Para> 
-                        <Para>
-                            {ctx.chapter5kannada.Content.para43}
-                        </Para> 
-                        <Para>
-                            {ctx.chapter5kannada.Content.para44}
-                        </Para> 
-                        <Table9kan />
-                        <Para>
-                            {ctx.chapter5kannada.Content.para45}
-                        </Para>
+                       
                     </div>
                 </div>
                 : <div>
@@ -100,4 +66,4 @@ const Performance = () => {
     )
 }
 
-export default Performance
+export default OperatingEff
