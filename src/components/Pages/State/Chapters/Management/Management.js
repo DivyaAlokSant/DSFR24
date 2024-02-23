@@ -6,6 +6,7 @@ import { MyContext } from '../../../../../Context/MyProvider';
 import Para from "../../../../Para/Para"
 import Title from "../../../../Title/Title";
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton"
+import Subtitle from "./../../../../Subtitle/Subtitle"
 // import Table1 from '../../../Tables/Chapter4/Table1'
 
 
@@ -21,17 +22,14 @@ const Management= () => {
                     <div className="contentwrapper" id="home">
                         <FloatingActionButtons back="/State/Result" forward="/State/Conclusions" />
 
-                        <Title>
-                            {ctx.chapterFive.Fifth.Para122}
-                        </Title>
-
-                        {["Para123", "Para124"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                
-                                        {ctx.chapterFive.Fifth[item]}
-                                   
-                            </Para>)}
-
+                        <Subtitle>
+                            {ctx.chapterFive.para124}
+                        </Subtitle>
+                        {["para125","para126"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
+            )
+          )}     
                     </div>
                 </div>
                 : <div>

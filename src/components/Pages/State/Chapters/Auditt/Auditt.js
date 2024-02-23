@@ -22,31 +22,14 @@ const Auditt = () => {
                     <div className="contentwrapper" id="home">
                         <FloatingActionButtons back="/State/Loss" forward="/State/Appointment" />
 
-                        <Title>
-                            {ctx.chapterFive.Fifth.Para71}
-                        </Title>
                         <Subtitle>
-                              {ctx.chapterFive.Fifth.Para72}
+                            {ctx.chapterFive.para63}
                         </Subtitle>  
-                        {["Para72a", "Para72b"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                
-                                        {ctx.chapterFive.Fifth[item]}
-                                   
-                            </Para>)}
-                            <Subtitle>
-                              {ctx.chapterFive.Fifth.Para72c}
-                        </Subtitle> 
-                            {[ "Para72d", "Para72e", "Para72f"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                
-                                        {ctx.chapterFive.Fifth[item]}
-                                   
-                            </Para>)}
-                            <Para>
-                            {ctx.chapterFive.Fifth.Para72g}
-                        </Para>
-
+                        {["para64"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
+            )
+          )}        
                     </div>
                 </div>
                 : <div>

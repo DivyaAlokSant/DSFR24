@@ -5,11 +5,12 @@ import { FaSpinner } from "react-icons/fa"
 import { MyContext } from '../../../../../Context/MyProvider';
 import Para from "../../../../Para/Para"
 import Title from "../../../../Title/Title";
+import Subtitle from "./../../../../Subtitle/Subtitle"
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton"
 // import Table1 from '../../../Tables/Chapter4/Table1'
 
 
-const Recommend= () => {
+const Recommend = () => {
 
     const ctx = useContext(MyContext)
 
@@ -21,18 +22,18 @@ const Recommend= () => {
                     <div className="contentwrapper" id="home">
                         <FloatingActionButtons back="/State/Conclusions" forward="//appendices/appendix-1" />
 
-                        <Title>
-                            {ctx.chapterFive.Fifth.Para130}
-                        </Title>
-                        {["Para131", "Para132","Para133"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                <li>
-                                    
-                                        {ctx.chapterFive.Fifth[item]}
-                                    
-                                </li>
-                            </Para>)}
-
+                        <Subtitle>
+                            {ctx.chapterFive.para133}
+                        </Subtitle>
+                        {["para134", "para135", "para136"].map(
+                            (item, ind) => (
+                                <Para key={ind / 10}>
+                                    <b>
+                                    {ctx.chapterFive[item]}
+                                    </b>
+                                </Para>
+                            )
+                        )}
                     </div>
                 </div>
                 : <div>
@@ -43,7 +44,7 @@ const Recommend= () => {
                 ? <div >
                     <Navbar />
                     <div className="contentwrapper" id="home">
-                    <FloatingActionButtons back="/State/Conclusions" forward="/appendices/appendix-1"  />
+                        <FloatingActionButtons back="/State/Conclusions" forward="/appendices/appendix-1" />
 
 
                         <Title>
@@ -52,13 +53,13 @@ const Recommend= () => {
                         {["Para107", "Para108"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 <h3>
-                                    <li>   
-                                    
+                                    <li>
+
                                         {ctx.chapter5kannada.Content[item]}
-                                    
+
                                     </li>
                                 </h3>
-                            </Para>)} 
+                            </Para>)}
 
 
                     </div>

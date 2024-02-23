@@ -24,82 +24,34 @@ const Submissions = () => {
                     <div className="contentwrapper" id="home">
                         <FloatingActionButtons back="/State/Appointment" forward="/State/Cag" />
 
-                        <Title>
-                            {ctx.chapterFive.Fifth.Para76}
-                        </Title>
                         <Subtitle>
-                            {ctx.chapterFive.Fifth.Para77}
-                        </Subtitle>
-
-                        <Para>
-                            {ctx.chapterFive.Fifth.Para78.substring(0, 185)}
-
-                            <span className="tooltip">
-                                {ctx.chapterFive.Fifth.Para78.substring(186, 187)}
-                                <span className="tooltiptext">
-                                {ctx.chapterFive.Fifth.Para80}
-                                </span>
-                                <sup>39</sup>
-                            </span>
-
-                            {ctx.chapterFive.Fifth.Para78.substring(186,)}
-                        </Para>
-
-                        {["Para79","Para80", "Para81"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                
-                                        {ctx.chapterFive.Fifth[item]}
-                                   
-                            </Para>)}
-
-                            <Para>
-                            {ctx.chapterFive.Fifth.Para82.substring(0, 73)}
-
-                            <span className="tooltip">
-                                {ctx.chapterFive.Fifth.Para82.substring(74, 74)}
-                                <span className="tooltiptext">
-                                {ctx.chapterFive.Fifth.Para88}
-                                </span>
-                                <sup>40</sup>
-                            </span>
-
-                            {ctx.chapterFive.Fifth.Para82.substring(74,)}
-                        </Para>
-
+                            {ctx.chapterFive.para68}
+                        </Subtitle>  
                         <Subtitle>
-                            {ctx.chapterFive.Fifth.Para83}
-                        </Subtitle>
-                        <Para>
-                              {ctx.chapterFive.Fifth.Para84}
-                        </Para> 
-
-                        <Table11 />
-                        <h4>
-                        Number of companies which presented the accounts for the year 2021-22 for C&AG’s audit by 30 September 2022. - Represents number of accounts received and certified by C&AG for 2021-22.
-                        </h4>
-
-                        <Para>
-                              {ctx.chapterFive.Fifth.Para85}
-                        </Para>
-                        <Para>
-                              {ctx.chapterFive.Fifth.Para85a}
-                        </Para>
-                        <Para>
-                              {ctx.chapterFive.Fifth.Para85b}
-                        </Para>
-                        
-                        
-
-
+                            {ctx.chapterFive.para69}
+                        </Subtitle>  
+                        {["para70","para71","para72","para73","para74"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
+            )
+          )}  
                         <Subtitle>
-                            {ctx.chapterFive.Fifth.Para86}
-                        </Subtitle>
-                        <Para>
-                              {ctx.chapterFive.Fifth.Para87}
-                        </Para>
-                        <Para>
-                              {ctx.chapterFive.Fifth.Para87a}
-                        </Para>
+                            {ctx.chapterFive.para75}
+                        </Subtitle>   
+                        {["para76","para77","para78","para79"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
+            )
+          )}     
+                        <Subtitle>
+                            {ctx.chapterFive.para80}
+                        </Subtitle>   
+                        {["para81","para82"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
+            )
+          )}     
+                            
 
                     </div>
                 </div>

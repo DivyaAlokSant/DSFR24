@@ -23,66 +23,26 @@ const Loss = () => {
                     <Navbar />
                     <div className="contentwrapper" id="home">
                         <FloatingActionButtons back="/State/Performance" forward="/State/Auditt" />
-
-                        <Title>
-                            {ctx.chapterFive.Fifth.Para59}
-                        </Title>
                         <Subtitle>
-                            {ctx.chapterFive.Fifth.Para60}
-                        </Subtitle>
-
-                        <Para>
-                            {ctx.chapterFive.Fifth.Para61.substring(0, 19)}
-
-                            <span className="tooltip">
-                                {ctx.chapterFive.Fifth.Para61.substring(20, 21)}
-                                <span className="tooltiptext">
-                                {ctx.chapterFive.Fifth.Para67}
-                                </span>
-                                <sup>35</sup>
-                            </span>
-
-                            {ctx.chapterFive.Fifth.Para61.substring(20,)}
-                        </Para>
-
-                        <h3 className='headnote'>
-                            ₹ In crore
-                        </h3>
-                        <Table10 />
-
-                        <Para>
-                              {ctx.chapterFive.Fifth.Para62}
-                              <span className="tooltip">
-                                <span className="tooltiptext">
-                                {ctx.chapterFive.Fifth.Para69}
-                                </span>
-                                <sup>37</sup>
-                            </span>
-                        </Para>  
-
+                            {ctx.chapterFive.para55}
+                        </Subtitle>   
                         <Subtitle>
-                            {ctx.chapterFive.Fifth.Para63}
-                        </Subtitle>
-
-                        <Para>
-                              {ctx.chapterFive.Fifth.Para64}
-                              <span className="tooltip">
-                                <span className="tooltiptext">
-                                {ctx.chapterFive.Fifth.Para70}
-                                </span>
-                                <sup>38</sup>
-                            </span>
-                        </Para> 
-
-                        {["Para65", "Para66"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                
-                                        {ctx.chapterFive.Fifth[item]}
-                                   
-                            </Para>)}
-<Para>
-{ctx.chapterFive.Fifth.Para67}
-</Para>
+                            {ctx.chapterFive.para56}
+                        </Subtitle>   
+                        {["para57","para58"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
+            )
+          )}       
+                        <Subtitle>
+                            {ctx.chapterFive.para63}
+                        </Subtitle>  
+                        {["para64"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
+            )
+          )}        
+                       
                     </div>
                 </div>
                 : <div>

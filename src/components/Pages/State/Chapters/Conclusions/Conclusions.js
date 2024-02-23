@@ -5,6 +5,7 @@ import { FaSpinner } from "react-icons/fa"
 import { MyContext } from '../../../../../Context/MyProvider';
 import Para from "../../../../Para/Para"
 import Title from "../../../../Title/Title";
+import Subtitle from "./../../../../Subtitle/Subtitle"
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton"
 // import Table1 from '../../../Tables/Chapter4/Table1'
 
@@ -21,33 +22,14 @@ const Conclusions= () => {
                     <div className="contentwrapper" id="home">
                         <FloatingActionButtons back="/State/Management" forward="/State/Recommend" />
 
-                        <Title>
-                            {ctx.chapterFive.Fifth.Para125}
-                        </Title>
-
-                        <Para>
-                            <li>                              
-                              {ctx.chapterFive.Fifth.Para126}
-                            
-                            <span className="tooltip">
-                            {ctx.chapterFive.Fifth.Para126.substring(329, 330)}
-                                <span className="tooltiptext">
-                                {ctx.chapterFive.Fifth.Para129}
-                                </span>
-                                <sup>43</sup>
-                            </span>
-                            </li>
-                        </Para> 
-
-                        {["Para127", "Para128","Para129","Para129a"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                <li>
-                                    
-                                        {ctx.chapterFive.Fifth[item]}
-                                    
-                                </li>
-                            </Para>)}
-
+                        <Subtitle>
+                            {ctx.chapterFive.para127}
+                        </Subtitle>
+                        {["para128","para129","para130","para131","para132"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
+            )
+          )}     
                     </div>
                 </div>
                 : <div>

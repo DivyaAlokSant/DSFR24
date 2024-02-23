@@ -6,6 +6,7 @@ import { MyContext } from '../../../../../Context/MyProvider';
 import Para from "../../../../Para/Para"
 import Title from "../../../../Title/Title";
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton"
+import Subtitle from "./../../../../Subtitle/Subtitle"
 // import Table1 from '../../../Tables/Chapter4/Table1'
 
 
@@ -21,21 +22,14 @@ const Performance = () => {
                     <div className="contentwrapper" id="home">
                         <FloatingActionButtons back="/State/Auditt" forward="/State/Submissions" />
 
-                        <Title>
-                            {ctx.chapterFive.Fifth.Para73}
-                        </Title>
-                        <Para>
-                              {ctx.chapterFive.Fifth.Para74}
-                        </Para>  
-                        <Title>
-                              {ctx.chapterFive.Fifth.Para75}
-                        </Title> 
-                        <Para>
-                              {ctx.chapterFive.Fifth.Para75a}
-                        </Para>
-                        <Para>
-                              {ctx.chapterFive.Fifth.Para75b}
-                        </Para>
+                        <Subtitle>
+                            {ctx.chapterFive.para65}
+                        </Subtitle>  
+                        {["para66","para67"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
+            )
+          )}        
                     </div>
                 </div>
                 : <div>
