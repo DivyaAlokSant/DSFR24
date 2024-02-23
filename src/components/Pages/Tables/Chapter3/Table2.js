@@ -10,7 +10,7 @@ import { styles } from "../helpers";
 const columns = [
     {
         name: "SI No.",
-        selector: "SI No.",
+        selector: "1",
         wrap: true,
     },
     {
@@ -21,7 +21,7 @@ const columns = [
 
     {
         name: "allocation",
-        selector: "allocation",
+        selector: "Allocation",
         wrap: true
     },
     {
@@ -35,35 +35,35 @@ const columns = [
         wrap: true
     },
     {
-      name: "Expenditure",
-      selector: "Expenditure",
-      wrap: true,
-  },
-  {
-    name: "Expenditure",
-    selector: "ghi",
-    wrap: true,
-},
-{
-    name: "Expenditure",
-    selector: "jkl",
-    wrap: true,
-},
-{
-    name: "Percentage of Allocation to total Budget Allocation",
-    selector: "123",
-    wrap: true,
-},
-{
-    name: "Percentage of Allocation to total Budget Allocation",
-    selector: "456",
-    wrap: true,
-},
-{
-    name: "Percentage of Allocation to total Budget Allocation",
-    selector: "789",
-    wrap: true,
-},
+        name: "Expenditure",
+        selector: "Expenditure",
+        wrap: true,
+    },
+    {
+        name: "Expenditure",
+        selector: "ghi",
+        wrap: true,
+    },
+    {
+        name: "Expenditure",
+        selector: "jkl",
+        wrap: true,
+    },
+    {
+        name: "Percentage of Allocation to total Budget Allocation",
+        selector: "123",
+        wrap: true,
+    },
+    {
+        name: "Percentage of Allocation to total Budget Allocation",
+        selector: "456",
+        wrap: true,
+    },
+    {
+        name: "Percentage of Allocation to total Budget Allocation",
+        selector: "789",
+        wrap: true,
+    },
 ];
 
 const customStyles = styles;
@@ -84,7 +84,7 @@ const Table2 = () => {
                     // conditionalRowStyles={conditionalRowStyles}
                     highlightOnHover
                     pointerOnHover
-                    // pagination
+                // pagination
                 />
             </Card>
         </div>

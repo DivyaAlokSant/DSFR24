@@ -54,9 +54,9 @@ const columns = [
         wrap: true,
         format: data => data["def1"].toLocaleString('en-IN')
     },
-    
-    
-    
+
+
+
     {
         name: "30% of Category 'B' allocation",
         selector: "123",
@@ -101,7 +101,7 @@ const Table1 = () => {
                     // conditionalRowStyles={conditionalRowStyles}
                     highlightOnHover
                     pointerOnHover
-                    // pagination
+                // pagination
                 />
             </Card>
         </div>

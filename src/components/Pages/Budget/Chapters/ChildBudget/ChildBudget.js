@@ -28,7 +28,7 @@ const ChildBudget = () => {
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
-        {/* <Table2 /> */}
+         <Table2 /> 
         <h4>
         <i>
         Source: Grant Register and Child Budget Document

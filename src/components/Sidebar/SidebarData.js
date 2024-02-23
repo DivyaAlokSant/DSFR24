@@ -106,7 +106,7 @@ export const SidebarData = [
         cName: 'sub-nav'
       },
       {
-        title: '2.2 Major Sources',
+        title: '2.2 Major Changes',
         path: '/finances/major-sources',
         id: 2,
         icon: <FaIcons.FaAngleRight />,

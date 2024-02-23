@@ -91,7 +91,7 @@ const Table26    = () => {
                     title="Table 2.32:Liabilities in Public Private Partnership as on 31st March 2023"
                     
                     columns={columns}
-                    data={ctx.tables2.Table26}
+                    data={ctx.tables2.Table26.t26}
                     customStyles={customStyles}
                     striped
                     conditionalRowStyles={conditionalRowStyles}

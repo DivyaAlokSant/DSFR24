@@ -63,7 +63,7 @@ const Table25    = () => {
                     title="Table 2.31 Department wise profile of incomplete projects which are more than one crore as on 31 March 2023"
                  
                     columns={columns}
-                    data={ctx.tables2.Table25}
+                    data={ctx.tables2.Table25.t25}
                     customStyles={customStyles}
                     striped
                     conditionalRowStyles={conditionalRowStyles}

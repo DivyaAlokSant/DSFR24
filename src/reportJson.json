@@ -28745,72 +28745,226 @@
             "Table26": {
                 "t26": [
                     {
-                        "To the end of the Year": "Up to 2012-13",
-                        "No of incomplete projects": 9,
-                        "Estimated cost": 17.68,
-                        "Expenditure": 14.78
+                      "123": "Estimated Cost",
+                      "456": "Estimated Cost",
+                      "789": "Estimated Cost",
+                      "xyz": "",
+                      "Department": "",
+                      "abc": "No.",
+                      "def": "No.",
+                      "In Pipeline": "No."
                     },
                     {
-                        "To the end of the Year": "2013-14",
-                        "No of incomplete projects": 5,
-                        "Estimated cost": 13.3,
-                        "Expenditure": 8.79
+                      "123": "",
+                      "456": "",
+                      "789": 117.72,
+                      "xyz": 1,
+                      "Department": "Energy",
+                      "abc": 1,
+                      "def": "",
+                      "In Pipeline": 1
                     },
                     {
-                        "To the end of the Year": "2014-15",
-                        "No of incomplete projects": 10,
-                        "Estimated cost": 21.44,
-                        "Expenditure": 20.61
+                      "123": "",
+                      "456": "",
+                      "789": 120,
+                      "xyz": 2,
+                      "Department": "Industries & Commerce",
+                      "abc": 3,
+                      "def": "",
+                      "In Pipeline": 3
                     },
                     {
-                        "To the end of the Year": "2015-16",
-                        "No of incomplete projects": 20,
-                        "Estimated cost": 189.33,
-                        "Expenditure": 97.51
+                      "123": "",
+                      "456": "",
+                      "789": 20,
+                      "xyz": 3,
+                      "Department": "Medical",
+                      "abc": 1,
+                      "def": "",
+                      "In Pipeline": 1
                     },
                     {
-                        "To the end of the Year": "2016-17",
-                        "No of incomplete projects": 48,
-                        "Estimated cost": 120.16,
-                        "Expenditure": 108.4
+                      "123": "",
+                      "456": "",
+                      "789": "30,504",
+                      "xyz": 4,
+                      "Department": "Urban Development",
+                      "abc": 3,
+                      "def": "",
+                      "In Pipeline": 3
                     },
                     {
-                        "To the end of the Year": "2017-18",
-                        "No of incomplete projects": 46,
-                        "Estimated cost": 254.71,
-                        "Expenditure": 216.61
+                      "123": "",
+                      "456": "",
+                      "789": 273.9,
+                      "xyz": 5,
+                      "Department": "Tourism",
+                      "abc": 3,
+                      "def": "",
+                      "In Pipeline": 3
                     },
                     {
-                        "To the end of the Year": "2018-19",
-                        "No of incomplete projects": 256,
-                        "Estimated cost": "1,430.18",
-                        "Expenditure": "1,037.89"
+                      "123": "",
+                      "456": 0,
+                      "789": "1,711.30",
+                      "xyz": 6,
+                      "Department": "Youth Empowerment & Sports",
+                      "abc": 10,
+                      "def": 1,
+                      "In Pipeline": 9
                     },
                     {
-                        "To the end of the Year": "2019-20",
-                        "No of incomplete projects": 328,
-                        "Estimated cost": "1,953.30",
-                        "Expenditure": "1,331.12"
+                      "123": "",
+                      "456": "",
+                      "789": 182,
+                      "xyz": 7,
+                      "Department": "Rural Development & Panchayat Raj",
+                      "abc": 1,
+                      "def": "",
+                      "In Pipeline": 1
                     },
                     {
-                        "To the end of the Year": "2020-21",
-                        "No of incomplete projects": 308,
-                        "Estimated cost": "1,353.35",
-                        "Expenditure": 939.65
+                      "123": "",
+                      "456": 0,
+                      "789": 10.82,
+                      "xyz": 8,
+                      "Department": "Fisheries",
+                      "abc": 9,
+                      "def": 5,
+                      "In Pipeline": 4
                     },
                     {
-                        "To the end of the Year": "2021-22",
-                        "No of incomplete projects": 178,
-                        "Estimated cost": 584.91,
-                        "Expenditure": 312.15
+                      "123": "",
+                      "456": "",
+                      "789": 155.63,
+                      "xyz": 9,
+                      "Department": "Food and Civil Supplies",
+                      "abc": 3,
+                      "def": "",
+                      "In Pipeline": 3
                     },
                     {
-                        "To the end of the Year": "Total",
-                        "No of incomplete projects": "1,208",
-                        "Estimated cost": "5,938.36",
-                        "Expenditure": "4,087.51"
+                      "123": "",
+                      "456": "",
+                      "789": "1,794.49",
+                      "xyz": 10,
+                      "Department": "Water Resources",
+                      "abc": 2,
+                      "def": "",
+                      "In Pipeline": 2
+                    },
+                    {
+                      "123": "",
+                      "456": 0,
+                      "789": 372.85,
+                      "xyz": 11,
+                      "Department": "Animal Husbandry",
+                      "abc": 8,
+                      "def": 2,
+                      "In Pipeline": 6
+                    },
+                    {
+                      "123": "",
+                      "456": 26.5,
+                      "789": 582,
+                      "xyz": 12,
+                      "Department": "Transport",
+                      "abc": 5,
+                      "def": 1,
+                      "In Pipeline": 4
+                    },
+                    {
+                      "123": "",
+                      "456": 40,
+                      "789": 250,
+                      "xyz": 13,
+                      "Department": "Horticulture",
+                      "abc": 5,
+                      "def": 2,
+                      "In Pipeline": 3
+                    },
+                    {
+                      "123": "",
+                      "456": "",
+                      "789": 0,
+                      "xyz": 14,
+                      "Department": "Forest, Ecology & Environment",
+                      "abc": 1,
+                      "def": "",
+                      "In Pipeline": 1
+                    },
+                    {
+                      "123": "",
+                      "456": 10,
+                      "789": "1,863.90",
+                      "xyz": 15,
+                      "Department": "Public Works Department",
+                      "abc": 6,
+                      "def": 1,
+                      "In Pipeline": 5
+                    },
+                    {
+                      "123": "",
+                      "456": "",
+                      "789": 14.51,
+                      "xyz": 16,
+                      "Department": "Kannada and Culture",
+                      "abc": 1,
+                      "def": "",
+                      "In Pipeline": 1
+                    },
+                    {
+                      "123": "",
+                      "456": "",
+                      "789": 150,
+                      "xyz": 17,
+                      "Department": "Sericulture",
+                      "abc": 1,
+                      "def": "",
+                      "In Pipeline": 1
+                    },
+                    {
+                      "123": "",
+                      "456": "",
+                      "789": 40,
+                      "xyz": 18,
+                      "Department": "Backward Classes",
+                      "abc": 1,
+                      "def": "",
+                      "In Pipeline": 1
+                    },
+                    {
+                      "123": "",
+                      "456": 0,
+                      "789": 887.5,
+                      "xyz": 19,
+                      "Department": "Infrastructure Development",
+                      "abc": 5,
+                      "def": 2,
+                      "In Pipeline": 3
+                    },
+                    {
+                      "123": "",
+                      "456": "",
+                      "789": 43.4,
+                      "xyz": 20,
+                      "Department": "Agriculture",
+                      "abc": 1,
+                      "def": "",
+                      "In Pipeline": 1
+                    },
+                    {
+                      "123": 0,
+                      "456": 76.5,
+                      "789": "39,094.02",
+                      "xyz": "",
+                      "Department": "Total",
+                      "abc": 70,
+                      "def": 14,
+                      "In Pipeline": 56
                     }
-                ],
+                  ],
                 "t26h2": " (₹in crore)",
                 "t26h1": "Table 2.25: Age profile of incomplete projects which are more than one crore as on 31 March 2021"
             },
@@ -28927,36 +29081,70 @@
                 "t27f1": "AE: Aggregate Expenditure, CE: Capital Expenditure, DE: Development Expenditure (includes total expenditure under social and economic sectors)",
                 "t27": [
                     {
-                        "Works under": "Roads and Bridges",
-                        "No of incomplete projects": 928,
-                        "Estimated cost": "4,496.93",
-                        "Expenditure": "3,115.07"
+                      "abc": "GCS",
+                      "AEGSDP": 15.79,
+                      "CEAE": 15.22,
+                      "DEAE": 94.25,
+                      "EducationAE": 14.85,
+                      "HealthAE": 5.68
                     },
                     {
-                        "Works under": "Irrigation",
-                        "No of incomplete projects": 215,
-                        "Estimated cost": "1,267.62",
-                        "Expenditure": 834.68
+                      "abc": "Kerala",
+                      "AEGSDP": 15.6,
+                      "CEAE": 10.58,
+                      "DEAE": 49.38,
+                      "EducationAE": 14.02,
+                      "HealthAE": 6.43
                     },
                     {
-                        "Works under": "Buildings",
-                        "No of incomplete projects": 25,
-                        "Estimated cost": 106.11,
-                        "Expenditure": 93.9
+                      "abc": "Tamilnadu",
+                      "AEGSDP": 13.82,
+                      "CEAE": 14.32,
+                      "DEAE": 63.16,
+                      "EducationAE": 13.51,
+                      "HealthAE": 5.39
                     },
                     {
-                        "Works under": "Others",
-                        "No of incomplete projects": 40,
-                        "Estimated cost": 67.7,
-                        "Expenditure": 43.86
+                      "abc": "Andhra Pradesh",
+                      "AEGSDP": 15.96,
+                      "CEAE": 4.3,
+                      "DEAE": 68.93,
+                      "EducationAE": 12.35,
+                      "HealthAE": 5.46
                     },
                     {
-                        "Works under": "Total",
-                        "No of incomplete projects": "1,208",
-                        "Estimated cost": "5,938.36",
-                        "Expenditure": "4,087.51"
+                      "abc": "Telangana",
+                      "AEGSDP": 14.66,
+                      "CEAE": 20.32,
+                      "DEAE": 73.37,
+                      "EducationAE": 9.06,
+                      "HealthAE": 4.57
+                    },
+                    {
+                      "abc": "Maharashtra",
+                      "AEGSDP": 13.44,
+                      "CEAE": 13.99,
+                      "DEAE": 64.61,
+                      "EducationAE": 16.88,
+                      "HealthAE": 4.3
+                    },
+                    {
+                      "abc": "Madhya  Pradesh",
+                      "AEGSDP": 18.65,
+                      "CEAE": 18.97,
+                      "DEAE": "74,10",
+                      "EducationAE": 13.9,
+                      "HealthAE": 5.68
+                    },
+                    {
+                      "abc": "Karnataka",
+                      "AEGSDP": 12.32,
+                      "CEAE": 21.94,
+                      "DEAE": 71.35,
+                      "EducationAE": 11.56,
+                      "HealthAE": 4.54
                     }
-                ]
+                  ]
             },
             "T9F2": "There are no figures since the nomenclature of plan and non-plan grants was removed with effect from the year 2017-18 and replaced by Grants for CSS, Finance Commission Grants and Other Grants to States",
             "Table31": [
@@ -29259,90 +29447,70 @@
             
             "Table23": [
                 {
-                    "1": "North Western Karnataka Road Transport Corporation (NWKRTC)",
-                    "2": 881.55,
-                    "3": "1,068.00",
-                    "4": "1,068",
-                    "5": 266.85
+                  "Particulars": "Opening Balance of loans outstanding",
+                  "2018 19": "20,525",
+                  "2019 20": "24,981",
+                  "2020 21": "28,847",
+                  "2021 22": "31,247",
+                  "2022 23": "35,329"
                 },
                 {
-                    "1": "Kalyana Karnataka Road Transport Corporation (KKRTC)",
-                    "2": 610.65,
-                    "3": 699.92,
-                    "4": 699.92,
-                    "5": 183.43
+                  "Particulars": "Amount advanced during the year",
+                  "2018 19": "4,487",
+                  "2019 20": "4,069",
+                  "2020 21": "2,669",
+                  "2021 22": "4,209",
+                  "2022 23": "3,250"
                 },
                 {
-                    "1": "Karnataka State Financial Corporation Limited (KSFC)",
-                    "2": 386.17,
-                    "3": 361.35,
-                    "4": 318.46,
-                    "5": "1,328.41"
+                  "Particulars": "Amount recovered during the year",
+                  "2018 19": 31,
+                  "2019 20": 203,
+                  "2020 21": 270,
+                  "2021 22": 127,
+                  "2022 23": 478
                 },
                 {
-                    "1": "Government Companies",
-                    "2": "",
-                    "3": "",
-                    "4": "",
-                    "5": ""
+                  "Particulars": "Closing Balance of the loans outstanding",
+                  "2018 19": "24,981",
+                  "2019 20": "28,847",
+                  "2020 21": "31,246",
+                  "2021 22": "35,329",
+                  "2022 23": "38,101"
                 },
                 {
-                    "1": "Krishna Bhagya Jala Nigama Limited (KBJNL)",
-                    "2": "2,811.73",
-                    "3": "2,946.51",
-                    "4": "3,419.93",
-                    "5": "23,745.34"
+                  "Particulars": "Interest received",
+                  "2018 19": 108,
+                  "2019 20": 357,
+                  "2020 21": 278,
+                  "2021 22": 309,
+                  "2022 23": 7
                 },
                 {
-                    "1": "Karnataka Neeravari Nigama Limited (KNNL)",
-                    "2": "4,469.21",
-                    "3": "5,149.92",
-                    "4": "6,333.94",
-                    "5": "13,034.03"
+                  "Particulars": "Interest rate on Loans and Advances given by the Government",
+                  "2018 19": 0.4,
+                  "2019 20": 1.23,
+                  "2020 21": 0.88,
+                  "2021 22": 0.87,
+                  "2022 23": 0.02
                 },
                 {
-                    "1": "Mysore Sugar Company Limited (Mysugar)",
-                    "2": 460.89,
-                    "3": 460.89,
-                    "4": 463.89,
-                    "5": 335.78
+                  "Particulars": "Rate of Interest paid on the outstanding borrowings of the Government",
+                  "2018 19": 5.8,
+                  "2019 20": 5.9,
+                  "2020 21": 5.6,
+                  "2021 22": 5.4,
+                  "2022 23": 5.4
                 },
                 {
-                    "1": "Mysore Paper Mills Limited (MPM)",
-                    "2": 425.95,
-                    "3": 425.95,
-                    "4": 519.5,
-                    "5": 237.37
-                },
-                {
-                    "1": "Hubli Electricity Supply Company Limited (HESCOM)",
-                    "2": "1,955.76",
-                    "3": "2,637.98",
-                    "4": "5,128.24",
-                    "5": "1,269.18"
-                },
-                {
-                    "1": "Gulbarga Electricity Supply Company Limited (GESCOM)",
-                    "2": "1,002.44",
-                    "3": "1,995.03",
-                    "4": "3,112.65",
-                    "5": 978.14
-                },
-                {
-                    "1": "Chamundeswari Electricity Supply Company Limited (CESCOM)",
-                    "2": 875.74,
-                    "3": "1,242.37",
-                    "4": "1,965.56",
-                    "5": 815.79
-                },
-                {
-                    "1": "Total",
-                    "2": "13,880.09",
-                    "3": "16,987.92",
-                    "4": "23,030.09",
-                    "5": "42,194"
+                  "Particulars": "Difference between the rate of interest received and interest paid (per cent)",
+                  "2018 19": "(-)5.4",
+                  "2019 20": "(-)4.7",
+                  "2020 21": "(-)4.7",
+                  "2021 22": "(-)4.5",
+                  "2022 23": "(-)5.38"
                 }
-            ],
+              ],
             "Table6": [
                 {
                   "1": "15,636.59",
@@ -30168,54 +30336,78 @@
             "T23H1": "Investments made in loss making Companies",
             "Table24": [
                 {
-                    "2021 22": 31247,
-                    "2019 20": 24981,
-                    "Account": "Opening balance of the loans outstanding",
-                    "2017 18": 15578,
-                    "2020 21": 28847,
-                    "2018 19": 20525
+                  "1": "Up to 2012-13",
+                  "2": 22,
+                  "3": 35.87,
+                  "4": 31.33
                 },
                 {
-                    "2020 21": 2669,
-                    "2017 18": 5092,
-                    "2021 22": 4209,
-                    "Account": "Amount advanced during the year",
-                    "2018 19": 4487,
-                    "2019 20": 4069
+                  "1": "2013-14",
+                  "2": 4,
+                  "3": 8.72,
+                  "4": 8.67
                 },
                 {
-                    "2021 22": 127,
-                    "2020 21": 270,
-                    "2017 18": 137,
-                    "2019 20": 203,
-                    "Account": "Amount recovered during the year",
-                    "2018 19": 31
+                  "1": "2014-15",
+                  "2": 18,
+                  "3": 65.46,
+                  "4": 59.3
                 },
                 {
-                    "2020 21": 31246,
-                    "Account": "Closing balance of the loans outstanding",
-                    "2019 20": 28847,
-                    "2017 18": 20533,
-                    "2021 22": 35329,
-                    "2018 19": 24981
+                  "1": "2015-16",
+                  "2": 39,
+                  "3": 88.15,
+                  "4": 83.64
                 },
                 {
-                    "2018 19": 4456,
-                    "2019 20": 3866,
-                    "2020 21": 2399,
-                    "2017 18": 4955,
-                    "Account": "Net addition",
-                    "2021 22": 4082
+                  "1": "2016-17",
+                  "2": 39,
+                  "3": 192.29,
+                  "4": 190.37
                 },
                 {
-                    "2019 20": 357,
-                    "2017 18": 99,
-                    "2020 21": 278,
-                    "2021 22": 309,
-                    "Account": "Interest received",
-                    "2018 19": 108
+                  "1": "2017-18",
+                  "2": 165,
+                  "3": 553.54,
+                  "4": 503.93
+                },
+                {
+                  "1": "2018-19",
+                  "2": 198,
+                  "3": "1,475.66",
+                  "4": 706.56
+                },
+                {
+                  "1": "2019-20",
+                  "2": 311,
+                  "3": "1,253.67",
+                  "4": 919.7
+                },
+                {
+                  "1": "2020-21",
+                  "2": 267,
+                  "3": "1,292.54",
+                  "4": 797.73
+                },
+                {
+                  "1": "2021-22",
+                  "2": 435,
+                  "3": "1,748.01",
+                  "4": "1,125.04"
+                },
+                {
+                  "1": "2022-23",
+                  "2": 366,
+                  "3": "1,762.49",
+                  "4": "1,095.12"
+                },
+                {
+                  "1": "Total",
+                  "2": "1,864",
+                  "3": "8,476.40",
+                  "4": "5,521.59"
                 }
-            ],
+              ],
             "Table25a": [
                 {
                     "1": "Number of loans",
@@ -30525,34 +30717,36 @@
                 "t25h2": "(₹ in crore)",
                 "t25": [
                     {
-                        "1": "SPSUs",
-                        "Difference": "",
-                        "Outstanding in respect of": "",
-                        "Amount as per": "Finance Accounts",
-                        "Sl No": ""
+                      "1": "Roads and Bridges",
+                      "2": "1,035",
+                      "Estimated cost": "4,785.22",
+                      "Expenditure": "3,014.85"
                     },
                     {
-                        "1": 86380.69,
-                        "Sl No": 1,
-                        "Outstanding in respect of": "Equity",
-                        "Amount as per": 62179.71,
-                        "Difference": -24200.98
+                      "1": "Irrigation",
+                      "2": 361,
+                      "Estimated cost": "1,474.92",
+                      "Expenditure": "1,062.77"
                     },
                     {
-                        "1": 12476.15,
-                        "Amount as per": 7105.25,
-                        "Difference": -5370.9,
-                        "Sl No": 2,
-                        "Outstanding in respect of": "Loans"
+                      "1": "Buildings",
+                      "2": 193,
+                      "Estimated cost": 918.42,
+                      "Expenditure": 527.18
                     },
                     {
-                        "1": 26812.7,
-                        "Amount as per": 28112.41,
-                        "Outstanding in respect of": "Guarantees",
-                        "Sl No": 3,
-                        "Difference": 1299.71
+                      "1": "Others",
+                      "2": 275,
+                      "Estimated cost": "1,297.84",
+                      "Expenditure": 916.79
+                    },
+                    {
+                      "1": "Total",
+                      "2": "1,864",
+                      "Estimated cost": "8,476.40",
+                      "Expenditure": "5,521.59"
                     }
-                ]
+                  ]
             },
             "T9F1": "Source: Finance Accounts",
             "T24H1": "Quantum of loans disbursed and recovered during the last five years",
@@ -37522,10 +37716,10 @@
             "T12h1": "Anticipated savings not surrendered/partially surrendered",
             "Table2": [
                 {
+                  "1": "",
                   "123": "2020-21",
                   "456": "2021-22",
                   "789": "2022-23",
-                  "Sl No.": "",
                   "Category": "",
                   "Allocation": "2020-21",
                   "abc": "2021-22",
@@ -37535,10 +37729,10 @@
                   "jkl": "2022-23"
                 },
                 {
+                  "1": 1,
                   "123": 4.86,
                   "456": 4.91,
                   "789": 6.19,
-                  "Sl No.": 1,
                   "Category": "100% Child Centric Programme",
                   "Allocation": "11,881.94",
                   "abc": "12,402.13",
@@ -37548,10 +37742,10 @@
                   "jkl": "16,604.33"
                 },
                 {
+                  "1": 2,
                   "123": 7.72,
                   "456": 7.3,
                   "789": 5.1,
-                  "Sl No.": 2,
                   "Category": "Less than 100% Child Centric Programme",
                   "Allocation": "18,892.79",
                   "abc": "18,433.01",
@@ -37561,10 +37755,10 @@
                   "jkl": "16,926.91"
                 },
                 {
+                  "1": 3,
                   "123": 6.3,
                   "456": 7.5,
                   "789": 7.4,
-                  "Sl No.": 3,
                   "Category": "100% Child Centric Non-programme",
                   "Allocation": "15,421.42",
                   "abc": "18,917.05",
@@ -37574,10 +37768,10 @@
                   "jkl": "19,944.90"
                 },
                 {
+                  "1": 4,
                   "123": 2,
                   "456": 3.85,
                   "789": 3.96,
-                  "Sl No.": 4,
                   "Category": "Less than 100% Child Centric Non-programme",
                   "Allocation": "4,888.13",
                   "abc": "9,711.88",
@@ -37587,10 +37781,10 @@
                   "jkl": "9,484.94"
                 },
                 {
+                  "1": "Total",
                   "123": 20.87,
                   "456": 23.56,
                   "789": 22.65,
-                  "Sl No.": "Total",
                   "Category": "",
                   "Allocation": "51,084.28",
                   "abc": "59,464.07",

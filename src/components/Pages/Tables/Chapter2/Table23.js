@@ -13,7 +13,7 @@ const columns = [
     selector: "Particulars",
     grow:3 ,
     wrap: true,
-    format: data => data["Particulars"].toLocaleString('en-IN')
+    //format: data => data["Particulars"].toLocaleString('en-IN')
     // width:'35px',
   },
   {
@@ -21,14 +21,14 @@ const columns = [
     selector: "2018 19",
     // grow:0.05,
     wrap: true,
-    format: data => data["2018 19"].toLocaleString('en-IN')
+    //format: data => data["2018 19"].toLocaleString('en-IN')
   },
   {
     name: "2019-20",
     selector: "2019 20",
     // grow:0.05,
     wrap: true,
-    format: data => data["2019 20"].toLocaleString('en-IN')
+    //format: data => data["2019 20"].toLocaleString('en-IN')
   },
   {
     name: "2020-21",
@@ -42,14 +42,14 @@ const columns = [
     selector: "2021 22",
     // grow:0.05,
     wrap: true,
-    format: data => data["2021 22"].toLocaleString('en-IN')
+    //format: data => data["2021 22"].toLocaleString('en-IN')
   },
   {
     name: "2022-23",
     selector: "2022 23",
     // grow:0.05,
     wrap: true,
-    format: data => data["2022 23"].toLocaleString('en-IN')
+    //format: data => data["2022 23"].toLocaleString('en-IN')
   }
 ];
 
