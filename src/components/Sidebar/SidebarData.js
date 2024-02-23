@@ -303,15 +303,15 @@ export const SidebarData = [
       },
       
       {
-        title: '4.8 Compliance with Accounting Standards',
-        path: '/quality/compliance',
+        title: '4.8 Indiscriminate use of Minor Head - 800',
+        path: '/quality/Indiscriminate-use',
         id: 2,
         icon: <FaIcons.FaAngleRight />,
         cName: 'sub-nav'
       },
       {
-        title: '4.9 Submission of Accounts and placing ',
-        path: '/quality/submission',
+        title: '4.9 OB under suspense and DDR heads ',
+        path: '/quality/OB',
         id: 2,
         icon: <FaIcons.FaAngleRight />,
         cName: 'sub-nav'

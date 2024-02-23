@@ -10,7 +10,7 @@ import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton
 import Table11 from "../../../Tables/Chapter4/Table11";
 import Table11kan from "../../../Tables/Chapter4kan/Table11";
 
-const Compliance = () => {
+const IndiscriminateUse = () => {
     const ctx = useContext(MyContext)
     return (
         ctx.langPref
@@ -18,19 +18,15 @@ const Compliance = () => {
                 ? <div >
                     <Navbar />
                     <div className="contentwrapper" id="home">
-                        <FloatingActionButtons back="/quality/reconciliation" forward="/quality/submission" />
+                        <FloatingActionButtons back="/quality/PDA" forward="/quality/OB" />
                 
                         <Title>
-                        {ctx.chapterFour.Fourth.title}
+                            {ctx.chapterFour.Content.para83}
                         </Title>
-                        <Subtitle>
-                        {ctx.chapterFour.Fourth.Para1}
-                        </Subtitle>
-                        {["Para2","Para3"].map((item, ind) =>
+                        {["para84", "para85"].map((item, ind) =>
                             <Para key={ind / 10}>
-                                {ctx.chapterFour.Fourth[item]}
-                            </Para> )}
-                            <Table11/>
+                                {ctx.chapterFour.Content[item]}
+                            </Para>)}
 
                         {/* <Para>
                         {ctx.chapterFour.Fourth.Para4}
@@ -69,4 +65,4 @@ const Compliance = () => {
     )
 }
 
-export default Compliance
+export default IndiscriminateUse

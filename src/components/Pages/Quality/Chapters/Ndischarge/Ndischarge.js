@@ -1,11 +1,11 @@
 import React, { useContext, useState } from "react"
-import Navbar from "./../../../../Navbar/Navbar"
+import Navbar from "../../../../Navbar/Navbar"
 import './../../Quality.css'
 import { FaSpinner } from "react-icons/fa"
-import { MyContext } from './../../../../../Context/MyProvider';
-import Para from "./../../../../Para/Para"
-import Title from "./../../../../Title/Title";
-import FloatingActionButtons from "./../../../../FloatingActionButtons/FloatButton"
+import { MyContext } from '../../../../../Context/MyProvider';
+import Para from "../../../../Para/Para"
+import Title from "../../../../Title/Title";
+import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton"
 import Table5a from "../../../Tables/Chapter4/Table5a";
 import Table4 from "../../../Tables/Chapter4/Table4";
 import Table4kan from "../../../Tables/Chapter4kan/Table4";
@@ -15,7 +15,7 @@ import { getFirebase } from '../../../../../firebase/firebase'
 import c42 from '../../../../../Images/c42.png'
 import k42 from '../../../../../Images/k42.png'
 import { Chart2 as Chart2Chap4 } from '../../../Charts/Chap4Charts'
-const Abstract = () => {
+const Ndischarge = () => {
 
     const ctx = useContext(MyContext)
 
@@ -99,4 +99,4 @@ const Abstract = () => {
     )
 }
 
-export default Abstract
+export default Ndischarge

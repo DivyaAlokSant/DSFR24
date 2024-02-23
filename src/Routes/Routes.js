@@ -41,13 +41,13 @@ import Recommendations from '../components/Pages/Budget/Chapters/Recommendations
 import Quality from '../components/Pages/Quality/Quality';
 import Funds from '../components/Pages/Quality/Chapters/Funds/Funds';
 import NonRemittance from '../components/Pages/Quality/Chapters/NonRemittance/NonRemittance';
-import Abstract from '../components/Pages/Quality/Chapters/Abstract/Abstract';
-import PD from '../components/Pages/Quality/Chapters/PD/PD';
-import OB from '../components/Pages/Quality/Chapters/OB/OB';
+import Ndischarge from '../components/Pages/Quality/Chapters/Ndischarge/Ndischarge';
+import FunTrans from '../components/Pages/Quality/Chapters/FunTrans/FunTrans';
+import Delay from '../components/Pages/Quality/Chapters/Delay/Delay';
 import ContingentBill from '../components/Pages/Quality/Chapters/ContingentBill/ContingentBill';
 import PDA from '../components/Pages/Quality/Chapters/PDA/PDA';
-import Compliance from '../components/Pages/Quality/Chapters/Compliance/Compliance';
-import Submission from '../components/Pages/Quality/Chapters/Submission/Submission';
+import IndiscriminateUse from '../components/Pages/Quality/Chapters/IndiscriminateUse/IndiscriminateUse';
+import OB from '../components/Pages/Quality/Chapters/OB/OB';
 import DCU from '../components/Pages/Quality/Chapters/DCU/DCU';
 import NonSubmission from '../components/Pages/Quality/Chapters/Nonsubmission/NonSubmission';
 import Timelines from '../components/Pages/Quality/Chapters/Timelines/Timelines';
@@ -144,13 +144,13 @@ const Routes = () => {
                             <Route path='/Quality' exact component={Quality} />
                             <Route path='/Quality/Funds' exact component={Funds} />
                             <Route path='/Quality/NonRemittance' exact component={NonRemittance} />
-                            <Route path='/Quality/Non-discharge' exact component={Abstract} />
-                            <Route path='/Quality/fund-transfer' exact component={PD} />
-                            <Route path='/Quality/delay' exact component={OB} />
+                            <Route path='/Quality/Non-discharge' exact component={Ndischarge} />
+                            <Route path='/Quality/fund-transfer' exact component={FunTrans} />
+                            <Route path='/Quality/delay' exact component={Delay} />
                             <Route path='/Quality/contingent-bill' exact component={ContingentBill} />
                             <Route path='/Quality/PDA' exact component={PDA} />
-                            <Route path='/Quality/compliance' exact component={Compliance} />
-                            <Route path='/Quality/Submission' exact component={Submission} />
+                            <Route path='/Quality/indiscriminate-use' exact component={IndiscriminateUse} />
+                            <Route path='/Quality/OB' exact component={OB} />
                             <Route path='/Quality/dcu' exact component={DCU} />
                             <Route path='/Quality/non-submission' exact component={NonSubmission} />
                             <Route path='/Quality/timelines' exact component={Timelines} />

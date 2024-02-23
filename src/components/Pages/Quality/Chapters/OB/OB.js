@@ -5,56 +5,89 @@ import { FaSpinner } from "react-icons/fa"
 import { MyContext } from '../../../../../Context/MyProvider';
 import Para from "../../../../Para/Para"
 import Title from "../../../../Title/Title";
-import Subtitle from "../../../../Subtitle/Subtitle";
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton"
-import Table8 from '../../../Tables/Chapter4/Table8'
-import Table8kan from '../../../Tables/Chapter4kan/Table8'
-import Table9 from "../../../Tables/Chapter4/Table9";
-import Table9kan from "../../../Tables/Chapter4kan/Table9";
+import Table1 from '../../../Tables/Chapter4/Table1'
+import Subtitle from "../../../../Subtitle/Subtitle";
 
 const OB = () => {
 
     const ctx = useContext(MyContext)
 
     return (
-        
         ctx.langPref
             ? (ctx.chapterFour
                 ? <div >
                     <Navbar />
                     <div className="contentwrapper" id="home">
-                        <FloatingActionButtons back="/quality/fund-transfer" forward="/quality/contingent-bill" />
-
+                        <FloatingActionButtons back="/quality/indiscriminate-use" forward="/quality/dcu" />
 
                         <Title>
-                            {ctx.chapterFour.Content.para19}
+                            {ctx.chapterFour.Content.para86}
                         </Title>
+                        {["para87", "para88"].map((item, ind) =>
+                            <Subtitle key={ind / 10}>
+                                {ctx.chapterFour.Content[item]}
+                            </Subtitle>)}
 
+                        <Para>
+                            {ctx.chapterFour.Content.para89}
+                        </Para>
+                        {["para90", "para91", "para92", "para93"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapterFour.Content[item]}
+                            </Para>)}
+
+                        <Para>
+                            {ctx.chapterFour.Content.para94}
+                        </Para>
                         <Subtitle>
-                            {ctx.chapterFour.Content.para20}
+                            <li>
+                                {ctx.chapterFour.Content.para95}
+                            </li>
                         </Subtitle>
-
-
-                        {["para21", "para22"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterFour.Content[item]}
-                            </Para>)}
-                        <Para>                            
-                            {ctx.chapterFour.Content.para23}  
-                        </Para>    
-                        <Para>                            
-                            {ctx.chapterFour.Content.para24}  
-                        </Para> 
-                        {["para25", "para26", "para27"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterFour.Content[item]}
-                            </Para>)}
-
-                      
-
-
-                      
-
+                        <Para>
+                            {ctx.chapterFour.Content.para96}
+                        </Para>
+                        <Subtitle>
+                            <li>
+                                {ctx.chapterFour.Content.para97}
+                            </li>
+                        </Subtitle>
+                        <Para>
+                            {ctx.chapterFour.Content.para98}
+                        </Para>
+                        <Subtitle>
+                            <li>
+                                {ctx.chapterFour.Content.para99}
+                            </li>
+                        </Subtitle>
+                        <Para>
+                            {ctx.chapterFour.Content.para100}
+                        </Para>
+                        <Subtitle>
+                            {ctx.chapterFour.Content.para101}
+                        </Subtitle>
+                        <Para>
+                            {ctx.chapterFour.Content.para102}
+                        </Para>
+                        <Subtitle>
+                            <li>
+                                {ctx.chapterFour.Content.para103}
+                            </li>
+                        </Subtitle>
+                        <Para>
+                            {ctx.chapterFour.Content.para104}
+                        </Para>
+                        <Subtitle>
+                            {ctx.chapterFour.Content.para105}
+                        </Subtitle>
+                        <Para>
+                            {ctx.chapterFour.Content.para106}
+                        </Para>
+                        <Para>
+                            {ctx.chapterFour.Content.para107}
+                        </Para>
+                        
 
                     </div>
                 </div>
@@ -66,39 +99,21 @@ const OB = () => {
                 ? <div >
                     <Navbar />
                     <div className="contentwrapper" id="home">
-                        <FloatingActionButtons back="/quality/pdaccounts" forward="/quality/non-reconciliation" />
+
+                        <FloatingActionButtons back="/quality/compliance" forward="/quality/dcu" />
 
 
                         <Title>
-                            {ctx.chapter4kannada.Content.para43}
+                            {ctx.chapter4kannada.Content.para79}
                         </Title>
-                        <Subtitle>
-                            {ctx.chapter4kannada.Content.para44}
-                        </Subtitle>
-
-                        {["para44a","para45"].map((item, ind) =>
+                        {["para80"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter4kannada.Content[item]}
                             </Para>)}
-                     
-                        <h3 className="headnote">
-                        (` ಕೋಟಿಗಳಲ್ಲಿ)
-                        </h3>
-                        <Table8kan />
-                        <h4>ಆಕರ: ಋಣ, ಠೇವಣಿ ಇರಸಾಲುಗಳ ಲೆಡ್ಜರ್‌</h4>
-                        {["para46","para47","para48","para49"].map((item, ind) =>
+                            {["para80a"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter4kannada.Content[item]}
                             </Para>)}
-                        {["para50", "para51", "para52", "para53", "para54", "para55", "para56", "para57", "para58", "para59", "para60", "para61", "para62"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapter4kannada.Content[item]}
-                            </Para>)}
-                        <h3 className="headnote">
-                        (` ಕೋಟಿಗಳಲ್ಲಿ)
-                        </h3>
-                        <Table9kan />
-                        <h4>ಆಕರ -  ಮಹಾಲೇಖಪಾಲರ (ಲೆ ಮತ್ತು ಹ) ಕಚೇರಿ</h4>
 
                     </div>
                 </div>

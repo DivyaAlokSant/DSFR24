@@ -1,11 +1,11 @@
 import React, { useContext } from "react"
-import Navbar from "./../../../../Navbar/Navbar"
+import Navbar from "../../../../Navbar/Navbar"
 import './../../Quality.css'
 import { FaSpinner } from "react-icons/fa"
-import { MyContext } from './../../../../../Context/MyProvider';
-import Para from "./../../../../Para/Para"
-import Title from "./../../../../Title/Title";
-import FloatingActionButtons from "./../../../../FloatingActionButtons/FloatButton"
+import { MyContext } from '../../../../../Context/MyProvider';
+import Para from "../../../../Para/Para"
+import Title from "../../../../Title/Title";
+import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton"
 import Table5 from "../../../Tables/Chapter4/Table5";
 import Table5kan from "../../../Tables/Chapter4kan/Table5";
 import Table6 from "../../../Tables/Chapter4/Table6";
@@ -13,7 +13,7 @@ import Table6kan from "../../../Tables/Chapter4kan/Table6";
 import Table7 from "../../../Tables/Chapter4/Table7";
 import Table7kan from "../../../Tables/Chapter4kan/Table7";
 
-const PD = () => {
+const FunTrans = () => {
 
     const ctx = useContext(MyContext)
 
@@ -23,7 +23,7 @@ const PD = () => {
                 ? <div >
                     <Navbar />
                     <div className="contentwrapper" id="home">
-                        <FloatingActionButtons back="/quality/acbills" forward="/quality/delay" />
+                        <FloatingActionButtons back="/quality/Non-discharge" forward="/quality/delay" />
 
                         <Title>
                             {ctx.chapterFour.Content.para17}
@@ -90,4 +90,4 @@ const PD = () => {
     )
 }
 
-export default PD
+export default FunTrans

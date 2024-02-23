@@ -32,7 +32,7 @@ const ContingentBill = () => {
                 ? <div >
                     <Navbar />
                     <div className="contentwrapper" id="home">
-                        <FloatingActionButtons back="/quality/balances" forward="/quality/PDA" />
+                        <FloatingActionButtons back="/quality/delay" forward="/quality/PDA" />
 
 
                         <Title>

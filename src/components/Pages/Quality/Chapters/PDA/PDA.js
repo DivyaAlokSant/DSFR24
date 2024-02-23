@@ -19,7 +19,7 @@ const PDA = () => {
                 ? <div >
                     <Navbar />
                     <div className="contentwrapper" id="home">
-                        <FloatingActionButtons back="/quality/non-reconciliation" forward="/quality/compliance" />
+                        <FloatingActionButtons back="/quality/non-reconciliation" forward="/quality/indiscriminate-use" />
 
                         <Title>
                             {ctx.chapterFour.Content.para36}
@@ -141,76 +141,7 @@ const PDA = () => {
                             <Para key={ind / 10}>
                                 {ctx.chapterFour.Content[item]}
                             </Para>)}
-                        <Subtitle>
-                            {ctx.chapterFour.Content.para83}
-                        </Subtitle>
-                        {["para84", "para85"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterFour.Content[item]}
-                            </Para>)}
-                        {["para86", "para87", "para88"].map((item, ind) =>
-                            <Subtitle key={ind / 10}>
-                                {ctx.chapterFour.Content[item]}
-                            </Subtitle>)}
-
-                        <Para>
-                            {ctx.chapterFour.Content.para89}
-                        </Para>
-                        {["para90", "para91", "para92", "para93"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterFour.Content[item]}
-                            </Para>)}
-
-                        <Para>
-                            {ctx.chapterFour.Content.para94}
-                        </Para>
-                        <Subtitle>
-                            <li>
-                                {ctx.chapterFour.Content.para95}
-                            </li>
-                        </Subtitle>
-                        <Para>
-                            {ctx.chapterFour.Content.para96}
-                        </Para>
-                        <Subtitle>
-                            <li>
-                                {ctx.chapterFour.Content.para97}
-                            </li>
-                        </Subtitle>
-                        <Para>
-                            {ctx.chapterFour.Content.para98}
-                        </Para>
-                        <Subtitle>
-                            <li>
-                                {ctx.chapterFour.Content.para99}
-                            </li>
-                        </Subtitle>
-                        <Para>
-                            {ctx.chapterFour.Content.para100}
-                        </Para>
-                        <Subtitle>
-                            {ctx.chapterFour.Content.para101}
-                        </Subtitle>
-                        <Para>
-                            {ctx.chapterFour.Content.para102}
-                        </Para>
-                        <Subtitle>
-                            <li>
-                                {ctx.chapterFour.Content.para103}
-                            </li>
-                        </Subtitle>
-                        <Para>
-                            {ctx.chapterFour.Content.para104}
-                        </Para>
-                        <Subtitle>
-                            {ctx.chapterFour.Content.para105}
-                        </Subtitle>
-                        <Para>
-                            {ctx.chapterFour.Content.para106}
-                        </Para>
-                        <Para>
-                            {ctx.chapterFour.Content.para107}
-                        </Para>
+                        
                         <Subtitle>
                             {ctx.chapterFour.Content.para108}
                         </Subtitle>
