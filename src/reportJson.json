@@ -36794,24 +36794,30 @@
             "T8h1": "Funds released under capital section for payment of salaries",
             "Table7": [
                 {
-                    "No of grants covered": 19,
-                    "Year": "2019-20",
-                    "No of cases": 78,
-                    "Amount": 3518.84
+                  "Year": "2019-20",
+                  "def": 19,
+                  "mno": 78,
+                  "ghi": "3,518.84"
                 },
                 {
-                    "No of cases": 36,
-                    "Amount": 5281.7,
-                    "No of grants covered": 10,
-                    "Year": "2020-21"
+                  "Year": "2020-21",
+                  "def": 10,
+                  "mno": 36,
+                  "ghi": "5,281.70"
                 },
                 {
-                    "No of cases": 68,
-                    "No of grants covered": 21,
-                    "Year": "2021-22",
-                    "Amount": "8,489.40"
+                  "Year": "2021-22",
+                  "def": 21,
+                  "mno": 68,
+                  "ghi": "8,489.40"
+                },
+                {
+                  "Year": "2022-23",
+                  "def": 21,
+                  "mno": 147,
+                  "ghi": "10,948.60"
                 }
-            ],
+              ],
             "Table7a": [
                 {
                     "Head of Account": "4202-01-201-1-07-200 Maintenance Expenditure",
@@ -37180,114 +37186,24 @@
             "T15h2": "in crore",
             "Table5": [
                 {
-                    "1": "Voted",
-                    "Unspent Provision Excess over provision": "(-)7753.14",
-                    "Per cent of savings surrendered on 31 March": 100,
-                    "Total": 190251.35,
-                    "Original grant Appropriation": 159578.56,
-                    "Actual expenditure": 182498.21,
-                    "Nature of Expenditure": "I Revenue",
-                    "Amount surrendered on 31 March": 4478.15,
-                    "Amount surrendered": 4478.14,
-                    "Supplementary grant Appropriation": 30672.79
+                  "abc": "Revenue",
+                  "def": "2,07,519.80",
+                  "ghi": "2,20,179.32",
+                  "jkl": "12,659.52"
                 },
                 {
-                    "1": "Voted",
-                    "Supplementary grant Appropriation": 8258.14,
-                    "Amount surrendered on 31 March": 360.89,
-                    "Actual expenditure": 46717.27,
-                    "Per cent of savings surrendered on 31 March": 100,
-                    "Amount surrendered": 360.89,
-                    "Total": 48518.63,
-                    "Nature of Expenditure": "II Capital",
-                    "Original grant Appropriation": 40260.49,
-                    "Unspent Provision Excess over provision": "(-)1801.36"
+                  "abc": "Capital",
+                  "def": "64,022.42",
+                  "ghi": "77,146.07",
+                  "jkl": "13,123.65"
                 },
                 {
-                    "1": "Voted",
-                    "Per cent of savings surrendered on 31 March": 100,
-                    "Total": 5047.39,
-                    "Actual expenditure": 5029.46,
-                    "Unspent Provision Excess over provision": "(-)17.93",
-                    "Amount surrendered on 31 March": 13.13,
-                    "Original grant Appropriation": 3279.26,
-                    "Nature of Expenditure": "III Loans and Advances",
-                    "Supplementary grant Appropriation": 1768.13,
-                    "Amount surrendered": 13.13
-                },
-                {
-                    "1": "Total Voted",
-                    "Amount surrendered on 31 March": 4852.16,
-                    "Total": 243817.37,
-                    "Nature of Expenditure": "",
-                    "Per cent of savings surrendered on 31 March": 100,
-                    "Actual expenditure": 234244.94,
-                    "Supplementary grant Appropriation": 40699.06,
-                    "Unspent Provision Excess over provision": "(-)9572.43",
-                    "Amount surrendered": 4852.16,
-                    "Original grant Appropriation": 203118.31
-                },
-                {
-                    "1": "Charged",
-                    "Actual expenditure": 30516.87,
-                    "Unspent Provision Excess over provision": "(-)609.70",
-                    "Amount surrendered on 31 March": 479.17,
-                    "Per cent of savings surrendered on 31 March": 100,
-                    "Nature of Expenditure": "IV Revenue",
-                    "Amount surrendered": 479.17,
-                    "Total": 31126.57,
-                    "Supplementary grant Appropriation": 5.37,
-                    "Original grant Appropriation": 31121.2
-                },
-                {
-                    "1": "Charged",
-                    "Amount surrendered": 593.1,
-                    "Nature of Expenditure": "V Public Debt Repayment",
-                    "Amount surrendered on 31 March": 593.1,
-                    "Per cent of savings surrendered on 31 March": 100,
-                    "Unspent Provision Excess over provision": "(-)589.24",
-                    "Supplementary grant Appropriation": 0,
-                    "Total": 14564.78,
-                    "Actual expenditure": 13971.54,
-                    "Original grant Appropriation": 14564.78
-                },
-                {
-                    "1": "Charged",
-                    "Actual expenditure": 3602.35,
-                    "Total": 3676.59,
-                    "Amount surrendered on 31 March": 74.24,
-                    "Per cent of savings surrendered on 31 March": 100,
-                    "Nature of Expenditure": "VI Capital",
-                    "Original grant Appropriation": 3587.69,
-                    "Amount surrendered": 74.24,
-                    "Unspent Provision Excess over provision": "(-)74.24",
-                    "Supplementary grant Appropriation": 88.9
-                },
-                {
-                    "1": "Total Charged",
-                    "Actual expenditure": 39269.44,
-                    "Nature of Expenditure": "",
-                    "Total": 49367.94,
-                    "Unspent Provision Excess over provision": "(-)1,195.73",
-                    "Supplementary grant Appropriation": 94.27,
-                    "Original grant Appropriation": 49273.67,
-                    "Amount surrendered on 31 March": 1146.57,
-                    "Per cent of savings surrendered on 31 March": 100,
-                    "Amount surrendered": 1146.57
-                },
-                {
-                    "1": "Grand Total",
-                    "Amount surrendered on 31 March": 5998.67,
-                    "Original grant Appropriation": 252391.98,
-                    "Actual expenditure": 282335.7,
-                    "Nature of Expenditure": "",
-                    "Amount surrendered": 5998.67,
-                    "Per cent of savings surrendered on 31 March": 100,
-                    "Total": 293185.31,
-                    "Unspent Provision Excess over provision": "(-)10849.61",
-                    "Supplementary grant Appropriation": 40793.33
+                  "abc": "Total",
+                  "def": "2,71,542.22",
+                  "ghi": "2,97,325.39",
+                  "jkl": "25,783.17"
                 }
-            ],
+              ],
             "T13f1": "Source: Grant Register",
             "T15h1": "Budget and Expenditure",
             "Table15": [
@@ -37460,146 +37376,122 @@
             "T3h2": "in crores",
             "Table4": [
                 {
-                    "Budgetary Assurance": "Information and Bio-Technology Department",
-                    "Sl No": "",
-                    "Action taken": ""
+                  "Year": "",
+                  "Provisions": "Voted",
+                  "abc": "Charged",
+                  "def": "Voted",
+                  "ghi": "Charged",
+                  "jkl": "Voted",
+                  "mno": "Charged"
                 },
                 {
-                    "Action taken": "The programme was not implemented during 2020-21 due to delay in receipt of list of top 20 selected students form each educational institution from Pre-University Board.  It was stated that it will be taken up during October 2021 to March 2022.",
-                    "Budgetary Assurance": "Science and Talent Search' programme would be started to identify the nurture talented students studying in Pre-University Colleges.  About 500 students will be selected and mentored for two years by premier science institutes.  The selected students will be given monthly scholarship of ₹1000/-",
-                    "Sl No": 1
+                  "Year": "2018-19",
+                  "Provisions": "2,13,106.26",
+                  "abc": "32,566.81",
+                  "def": "1,89,840.99",
+                  "ghi": "30,693.11",
+                  "jkl": "23,265.27(11)",
+                  "mno": "1,873.70(6)"
                 },
                 {
-                    "Budgetary Assurance": "To address the technical challenges of various important sectors in the development of Karnataka, Centre of Excellence for Efficiency Augmentation will be established with collaboration of Software Technology Parks in India (STPI) with an expenditure of ₹30 crore",
-                    "Sl No": 2,
-                    "Action taken": "Though the administrative approval was accorded in November 2020, the Memorandum of Agreement (MOA) was signed on 10.08.2021 between Karnataka Innovation and Technology Society (KITS), IIT-B and World Economic Forum (WEF).  The project was not implemented as no funds were provided for the project during 2020-21."
+                  "Year": "2019-20",
+                  "Provisions": "2,29,742.85",
+                  "abc": "34,061.82",
+                  "def": "2,01,922.89",
+                  "ghi": "32,055.34",
+                  "jkl": "27,819.96(12)",
+                  "mno": "2,006.48(6)"
                 },
                 {
-                    "Action taken": "Though the administrative approval was accorded during November 2020, The project was not implemented as no funds were provided for the project during 2020-21.",
-                    "Sl No": 3,
-                    "Budgetary Assurance": "An 'Artificial Intelligence Research Translation Park\" will be established in association with Indian Institute of Science, Bengaluru in order to promote AI-Innovation, AI-Commercialization, Pilot Project Implementation along with development of 5G technology. For this purpose, corpus grant of ₹60 crore will be Provided for next three years."
+                  "Year": "2020-21",
+                  "Provisions": "2,24,755.56",
+                  "abc": "40,465.17",
+                  "def": "2,03,425.05",
+                  "ghi": "39,269.44",
+                  "jkl": "21,330.51(9)",
+                  "mno": "1,195.73(3)"
                 },
                 {
-                    "Budgetary Assurance": "With an aim to emphasize morality in order to create a suitable environment, a Centre of Excellence in the matter of 'internet of ethical things' will be established in collaboration with the World Economic Forum of Davos by including interested stakeholders. For the said Centre, the State Government will provide a financial assistance of ₹ 30 crore in five years. A grant of ₹7.5 crore will be provided during the Year 2020-21",
-                    "Action taken": "The State Government did not release any funds during 2020-21. Hence, this project was not implemented during 2020-21.",
-                    "Sl No": 4
+                  "Year": "2021-22",
+                  "Provisions": "2,43,817.37",
+                  "abc": "49,367.94",
+                  "def": "2,34,244.94",
+                  "ghi": "48,090.76",
+                  "jkl": "9,572.43(4)",
+                  "mno": "1,277.18(3)"
                 },
                 {
-                    "Action taken": "",
-                    "Budgetary Assurance": "Department of Agriculture",
-                    "Sl No": ""
-                },
-                {
-                    "Action taken": "Though the High Level Committee was constituted in November 2020 to formulate guidelines to New Agricultural Policy, the draft policy is yet to be finalized.",
-                    "Budgetary Assurance": "To encourage water security, land bank and mass cultivation, micro irrigation, processing of farm produce, marketing and also to consider agriculture and Horticulture as an industry, the Government will bring a new Agricultural Policy",
-                    "Sl No": 5
-                },
-                {
-                    "Budgetary Assurance": "The State Government will formulate Soil Health Programme Policy based on the recommendations of Land Resource Registry, availability of water and soil health card to make farmers grow suitable region wise crops, to use necessary seeds, chemical fertilizers and micronutrients.",
-                    "Action taken": "Though the High Level Committee was constituted during October 2020, the finalized Agricultural input Policy was submitted on 11.08.2021 which is yet to be approved by the Cabinet.",
-                    "Sl No": 6
+                  "Year": "2022-23",
+                  "Provisions": "2,53,087.25",
+                  "abc": "52,485.42",
+                  "def": "2,44,900.49",
+                  "ghi": "52,424.90",
+                  "jkl": "8,186.76(3)",
+                  "mno": "60.52(0.1)"
                 }
-            ],
+              ],
             "Table3": [
                 {
-                    "Sl No": 1,
-                    "Allocation during 2020-21": 11881.94,
-                    "Allocation during 2021-22": "12402.13",
-                    "Savings (in percentage)": "4.86",
-                    "Savings": "4.91",
-                    "Expenditure": 10321.61,
-                    "Expenditure1": "12,071.41",
-                    "Classification": "100% Child Centric Programme"
+                  "12": "A",
+                  "123": "2,58,201.62",
+                  "456": "2,65,897.98",
+                  "Description": "Grants",
+                  "xyz": 28,
+                  "abc": "Voted/ Charged",
+                  "abc1": "1,96,809.25",
+                  "def1": "61,392.37"
                 },
                 {
-                    "Sl No": 2,
-                    "Classification": "Less than 100% Child Centric Programme",
-                    "Allocation during 2020-21": 18892.79,
-                    "Allocation during 2021-22": "18,433.01",
-                    "Expenditure": 16950.08,
-                    "Expenditure1": "17,065.39",
-                    "Savings": "7.30",
-                    "Savings (in percentage)": "7.72"
+                  "12": "B",
+                  "123": "47,371.05",
+                  "456": "31,427.41",
+                  "Description": "Appropriations",
+                  "xyz": 1,
+                  "abc": "Charged",
+                  "abc1": "31,394.61",
+                  "def1": "15,976.44"
                 },
                 {
-                    "Classification": "100% Child Centric Non-programme",
-                    "Expenditure": 13869.29,
-                    "Expenditure1": "18,757.53",
-                    "Savings (in percentage)": "6.30",
-                    "Savings": "7.50",
-                    "Sl No": 3,
-                    "Allocation during 2021-22": "18,917.05",
-                    "Allocation during 2020-21": 15421.42
-                },
-                {
-                    "Savings (in percentage)": "2.00",
-                    "Savings": "3.85",
-                    "Sl No": 4,
-                    "Allocation during 2020-21": 4888.13,
-                    "Allocation during 2021-22": "9,711.88",
-                    "Classification": "Less than 100% Child Centric Non-programme",
-                    "Expenditure1": "9,590.56",
-                    "Expenditure": 4418.79
-                },
-                {
-                    "Sl No": "Total",
-                    "Savings": "23.56",
-                    "Classification": "",
-                    "Expenditure": 45559.77,
-                    "Expenditure1": "57,483.89",
-                    "Savings (in percentage)": "20.87",
-                    "Allocation during 2021-22": "59,464.07",
-                    "Allocation during 2020-21": 51084.28
+                  "12": "Total (A+B)",
+                  "123": "3,05,572.67",
+                  "456": "2,97,325.39",
+                  "Description": "",
+                  "xyz": "",
+                  "abc": "",
+                  "abc1": "",
+                  "def1": ""
                 }
-            ],
+              ],
             "T2h1": "Criteria for identification and classification of Child Centric Programme/schemes",
             "T5h2": "in crore",
             "T17h1": "Rush of Expenditure",
             "T6h1": "Voted and Charged disbursement for the period form 2016-17 to 2020-21",
             "Table6": [
                 {
-                    "1": "Charged",
-                    "2": "Charged",
-                    "Year": "",
-                    "Savings (percentage of savings)": "Voted",
-                    "Disbursements": "Voted"
+                  "abc": "Revenue",
+                  "def": "2,07,519.80",
+                  "mno": "2,21,320.83",
+                  "ghi": "2,20,179.32",
+                  "xyz": "13,801.03",
+                  "jkl": "(-)1,141.51"
                 },
                 {
-                    "1": 24474.88,
-                    "2": "611.60(2)",
-                    "Disbursements": 167845.36,
-                    "Year": "2017-18",
-                    "Savings (percentage of savings)": "16,547.66(10)"
+                  "abc": "Capital",
+                  "def": "64,022.42",
+                  "mno": "74,154.50",
+                  "ghi": "77,146.07",
+                  "xyz": "10,132.08",
+                  "jkl": "2,991.57"
                 },
                 {
-                    "1": 30693.11,
-                    "2": "1,873.70(6)",
-                    "Disbursements": 189840.99,
-                    "Year": "2018-19",
-                    "Savings (percentage of savings)": "23,265.27(12)"
-                },
-                {
-                    "1": 32055.34,
-                    "2": "2,006.48(6)",
-                    "Year": "2019-20",
-                    "Savings (percentage of savings)": "27,819.96(14)",
-                    "Disbursements": 201922.89
-                },
-                {
-                    "1": "39,269.44",
-                    "2": "1,195.73(3)",
-                    "Savings (percentage of savings)": "21,330.51(11)",
-                    "Disbursements": "2,34,244.94",
-                    "Year": "2020-21"
-                },
-                {
-                    "1": "48,090.76",
-                    "2": "1,277.18(3)",
-                    "Year": "2021-22",
-                    "Savings (percentage of savings)": "9,572.43(4)",
-                    "Disbursements": "2,34,244.94"
+                  "abc": "Total",
+                  "def": "2,71,542.22",
+                  "mno": "2,95,475.33",
+                  "ghi": "2,97,325.39",
+                  "xyz": "23,933.11",
+                  "jkl": "1,850.06"
                 }
-            ],
+              ],
             "T7f1": "Source: Appropriation Accounts",
             "T14f1": "Source: Grant Register",
             "T16h1": "Persistent savings",

@@ -9,19 +9,19 @@ import "./../../Budget.css";
 import Table7 from "../../../Tables/Chapter3/Table7";
 import Subtitle from  "../../../../Subtitle/Subtitle";
 
-import Table7a from "../../../Tables/Chapter3/Table7a";
-import Table7b from "../../../Tables/Chapter3/Table7b";
-import Table7c from "../../../Tables/Chapter3/Table7c";
-import Table8 from "../../../Tables/Chapter3/Table8";
-import Table9 from "../../../Tables/Chapter3/Table9";
-import Table10 from "../../../Tables/Chapter3/Table10";
+//import Table7a from "../../../Tables/Chapter3/Table7a";
+//import Table7b from "../../../Tables/Chapter3/Table7b";
+//import Table7c from "../../../Tables/Chapter3/Table7c";
+//import Table8 from "../../../Tables/Chapter3/Table8";
+//import Table9 from "../../../Tables/Chapter3/Table9";
+//import Table10 from "../../../Tables/Chapter3/Table10";
 import Table7kan from '../../../Tables/Chapter3kan/Table7'
 import Table8kan from '../../../Tables/Chapter3kan/Table8'
 import Table8akan from '../../../Tables/Chapter3kan/Table8a'
 import Table8bkan from '../../../Tables/Chapter3kan/Table8b'
 import Table9kan from '../../../Tables/Chapter3kan/Table9'
 import Table10kan from '../../../Tables/Chapter3kan/Table10'
-import Table11 from "../../../Tables/Chapter3/Table11";
+//import Table11 from "../../../Tables/Chapter3/Table11";
 import { Chart3 as Chart3Chap3 } from '../../../Charts/Chap3Charts'
 import k32 from '../../../../../Images/k32.png'
 import k32a from '../../../../../Images/k32a.png'
@@ -85,7 +85,20 @@ const Audit = () => {
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
-          )}    
+          )}  
+
+        <Table7 />
+        <h4>
+        <i>
+        Source: Appropriation Accounts
+        </i>
+        </h4>    
+        <h3 className='headnote'>
+          ₹ In crore
+        </h3>   
+
+
+
         {["para48b","para49","para50"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
@@ -107,6 +120,7 @@ const Audit = () => {
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )} 
+        
           
         
           {["para54"].map(

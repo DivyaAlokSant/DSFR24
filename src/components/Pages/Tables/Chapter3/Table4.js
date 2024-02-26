@@ -9,21 +9,64 @@ import { styles } from "../helpers";
 
 const columns = [
     {
-        name: "Sl No",
-        selector: "Sl No",
-        grow:0.05,
+        name: "Year",
+        selector: "Year",
+        // grow: ,
         wrap: true,
+        // width:'35px',
     },
     {
-        name: "Budgetary Assurance",
-        selector: "Budgetary Assurance",
-        wrap: true
+        name: "Provisions",
+        selector: "Provisions",
+        // grow:0.05,
+        wrap: true,
+        //format: data => data["Provisions"].toLocaleString('en-IN')
     },
     {
-        name: "Action taken",
-        selector: "Action taken",
-        wrap: true
-    }
+        name: "Provisions",
+        selector: "abc",
+        // grow:0.05,
+        wrap: true,
+        //format: data => data["abc"].toLocaleString('en-IN')
+    },
+    {
+        name: "Disbursments",
+        selector: "def",
+        // grow: 0.05,
+        // width:'110px',
+        wrap: true,
+        format: data => data["def"].toLocaleString('en-IN')
+    },
+    {
+        name: "Disbursments",
+        selector: "ghi",
+        // grow: 0.05,
+        // width:'110px',
+        wrap: true,
+        format: data => data["ghi"].toLocaleString('en-IN')
+    },
+    
+    {
+        name: "Savings(percentage of savings)",
+        selector: "jkl",
+        // grow: 0.05,
+        // width:'110px',
+        wrap: true,
+        format: data => data["jkl"].toLocaleString('en-IN')
+    },
+
+
+
+    {
+        name: "Savings(percentage of savings)",
+        selector: "mno",
+        // grow: 0.05,
+        // width:'110px',
+        wrap: true,
+        format: data => data["mno"].toLocaleString('en-IN')
+    },
+    
+    
 ];
 
 const customStyles = styles;
@@ -36,7 +79,7 @@ const Table4 = () => {
         <div className="App" style={{ margin: "40px 0 40px 0" }} >
             <Card>
                 <DataTable
-                    title="Table 3.4: Important initiatives where action was yet to be taken"
+                    title="Table 3.4 – Voted and Charged disbursment for the period from 2018-19 to 2022-23"
                     columns={columns}
                     data={ctx.tables3.Table4}
                     customStyles={customStyles}
@@ -44,7 +87,7 @@ const Table4 = () => {
                     // conditionalRowStyles={conditionalRowStyles}
                     highlightOnHover
                     pointerOnHover
-                    // pagination
+                // pagination
                 />
             </Card>
         </div>

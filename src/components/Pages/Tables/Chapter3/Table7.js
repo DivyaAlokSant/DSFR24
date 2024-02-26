@@ -11,25 +11,36 @@ const columns = [
     {
         name: "Year",
         selector: "Year",
+        // grow: ,
+        wrap: true,
+        // width:'35px',
     },
     {
-        name: "Number of grants covered",
-        selector: "No of grants covered",
+        name: "No.of grants covered",
+        selector: "def",
+        // grow:0.05,
         wrap: true,
+        //format: data => data["def"].toLocaleString('en-IN')
     },
+
     {
-        name: "Number of cases",
-        selector: "No of cases",
-        // grow:0.2,
+        name: "No.of cases",
+        selector: "mno",
+        // grow:0.05,
         wrap: true,
-        format: data => data["No of cases"].toLocaleString('en-IN')
+        //format: data => data["mno"].toLocaleString('en-IN')
     },
     {
         name: "Amount",
-        selector: "Amount",
+        selector: "ghi",
+        // grow:0.05,
         wrap: true,
-        format: data => data["Amount"].toLocaleString('en-IN')
-    }
+        //format: data => data["ghi"].toLocaleString('en-IN')
+    },
+    
+    
+
+       
 ];
 
 const customStyles = styles;
@@ -42,7 +53,7 @@ const Table7 = () => {
         <div className="App" style={{ margin: "40px 0 40px 0" }} >
             <Card>
                 <DataTable
-                    title="Table 3.7: Additional amounts released through executive orders during 2018-19 to 2020-21"
+                    title="Table 3.7 – Addtional amounts released through executive orders during 2019-20 to 2022-23"
                     columns={columns}
                     data={ctx.tables3.Table7}
                     customStyles={customStyles}
@@ -50,7 +61,7 @@ const Table7 = () => {
                     // conditionalRowStyles={conditionalRowStyles}
                     highlightOnHover
                     pointerOnHover
-                    // pagination
+                // pagination
                 />
             </Card>
         </div>

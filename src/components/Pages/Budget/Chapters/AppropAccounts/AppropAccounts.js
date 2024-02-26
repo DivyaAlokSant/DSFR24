@@ -6,8 +6,10 @@ import Navbar from "../../../../Navbar/Navbar";
 import { FaSpinner } from "react-icons/fa";
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton";
 import "./../../Budget.css";
+import Table4 from "../../../Tables/Chapter3/Table4";
 import Table5 from "../../../Tables/Chapter3/Table5";
 import Table6 from "../../../Tables/Chapter3/Table6";
+import Table3 from "../../../Tables/Chapter3/Table3";
 import Table5kan from '../../../Tables/Chapter3kan/Table5'
 import Table6kan from '../../../Tables/Chapter3kan/Table6'
 import Subtitle from  "../../../../Subtitle/Subtitle"
@@ -40,16 +42,36 @@ const AppropAccounts = () => {
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
-          <Subtitle>
+
+        <Table3 />
+        <h4>
+        <i>
+        Source: Appropriation Accounts
+        </i>
+        </h4>    
+        <h3 className='headnote'>
+          ₹ In crore
+        </h3>   
+        <Subtitle>
           <i>
           {ctx.chapterThree.Profile["para28"]}
           </i>
-          </Subtitle>
+        </Subtitle>
           {["para29"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
+        <Table4 />
+        <h4>
+        <i>
+        Source: Appropriation Accounts
+        </i>
+        </h4>    
+        <h3 className='headnote'>
+          ₹ In crore
+        </h3>   
+
            {["para30"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
@@ -75,7 +97,19 @@ const AppropAccounts = () => {
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
-          {["para34","para35","para36","para37"].map(
+          <Table5 />
+        <h4>
+        <i>
+        *Excess of actuals over original provision is denoted as (+)figure and shortage of actuals over original provision is denoted as (-)figure
+        </i>
+        </h4>    
+        <h3 className='headnote'>
+          ₹ In crore
+        </h3>   
+
+
+
+          {["para35","para36","para37"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
@@ -90,6 +124,16 @@ const AppropAccounts = () => {
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
+        <Table6 />
+        <h4>
+        <i>
+        *Excess of actuals over original provision is denoted as (+)figure and shortage of actuals over original provision is denoted as (-)figure
+        </i>
+        </h4>    
+        <h3 className='headnote'>
+          ₹ In crore
+        </h3>   
+
         {["para40","para41","para42"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>

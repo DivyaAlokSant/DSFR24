@@ -9,39 +9,55 @@ import { styles } from "../helpers";
 
 const columns = [
     {
-        name: "Year",
-        selector: "Year",
+        name: "Description",
+        selector: "abc",
         // grow: ,
-        // wrap: true,
-        // width:'60px',
-    },
-    {
-        name: "Disbursements",
-        selector: "Disbursements",
         wrap: true,
-        format: data => data["Disbursements"].toLocaleString('en-IN')
+        // width:'35px',
     },
     {
-        name: " ",
-        selector: "1",
+        name: "Original Approved Budget(BE)",
+        selector: "def",
         // grow:0.05,
         wrap: true,
-        format: data => data["1"].toLocaleString('en-IN')
+        //format: data => data["def"].toLocaleString('en-IN')
     },
+
     {
-        name: "Savings (percentage of savings)",
-        selector: "Savings (percentage of savings)",
+        name: "Revised(RE)",
+        selector: "mno",
         // grow:0.05,
         wrap: true,
-        format: data => data["Savings (percentage of savings)"].toLocaleString('en-IN')
+        //format: data => data["mno"].toLocaleString('en-IN')
     },
     {
-        name: " ",
-        selector: "2",
+        name: "Actual Outturn",
+        selector: "ghi",
         // grow:0.05,
         wrap: true,
-        format: data => data["2"].toLocaleString('en-IN')
-    }
+        //format: data => data["ghi"].toLocaleString('en-IN')
+    },
+    {
+        name: "Difference between BE and RE",
+        selector: "xyz",
+        // grow: 0.05,
+        // width:'110px',
+        wrap: true,
+        //format: data => data["xyz"].toLocaleString('en-IN')
+    },
+    {
+        name: "Difference between Actual and RE*",
+        selector: "jkl",
+        // grow: 0.05,
+        // width:'110px',
+        wrap: true,
+        format: data => data["jkl"].toLocaleString('en-IN')
+    },
+    
+
+
+
+       
 ];
 
 const customStyles = styles;
@@ -54,7 +70,7 @@ const Table6 = () => {
         <div className="App" style={{ margin: "40px 0 40px 0" }} >
             <Card>
                 <DataTable
-                    title="Table 3.6: Voted and Charged disbursement for the period form 2016-17 to 2020-21"
+                    title="Table 3.6 – Deviation of outturn in compared with RE"
                     columns={columns}
                     data={ctx.tables3.Table6}
                     customStyles={customStyles}
@@ -62,7 +78,7 @@ const Table6 = () => {
                     // conditionalRowStyles={conditionalRowStyles}
                     highlightOnHover
                     pointerOnHover
-                    // pagination
+                // pagination
                 />
             </Card>
         </div>

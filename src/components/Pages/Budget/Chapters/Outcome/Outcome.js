@@ -7,13 +7,13 @@ import Navbar from "../../../../Navbar/Navbar";
 import { FaSpinner } from "react-icons/fa";
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton";
 import "./../../Budget.css";
-import Table11 from "../../../Tables/Chapter3/Table11";
-import Table12 from "../../../Tables/Chapter3/Table12";
-import Table13 from "../../../Tables/Chapter3/Table13";
-import Table14 from "../../../Tables/Chapter3/Table14";
-import Table15 from "../../../Tables/Chapter3/Table15";
-import Table16 from "../../../Tables/Chapter3/Table16";
-import Table17 from "../../../Tables/Chapter3/Table17";
+//import Table11 from "../../../Tables/Chapter3/Table11";
+//import Table12 from "../../../Tables/Chapter3/Table12";
+//import Table13 from "../../../Tables/Chapter3/Table13";
+//import Table14 from "../../../Tables/Chapter3/Table14";
+//import Table15 from "../../../Tables/Chapter3/Table15";
+//import Table16 from "../../../Tables/Chapter3/Table16";
+//import Table17 from "../../../Tables/Chapter3/Table17";
 import Table10kan from '../../../Tables/Chapter3kan/Table10'
 import Table11kan from '../../../Tables/Chapter3kan/Table11'
 import Table12kan from '../../../Tables/Chapter3kan/Table12'
