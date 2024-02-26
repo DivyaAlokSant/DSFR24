@@ -7,46 +7,19 @@ import { MyContext } from "../../../../Context/MyProvider";
 import { styles } from "../helpers";
 
 
-const columns = [
-    {
-        name: "State Goods and Service Tax",
-        selector: "State Goods and Service Tax",
-        // grow: ,
-        wrap: true,
-        // width:'35px',
-    },
-    
-    {
-        name: "2021 22",
-        selector: "2021 22",
-        // grow:0.05,
-        wrap: true,
-        format: data => data["2021 22"].toLocaleString('en-IN')
-    },
-    {
-        name: "2022 23",
-        selector: "2022 23",
-        // grow: 0.05,
-        // width:'110px',
-        wrap: true,
-        format: data => data["2022 23"].toLocaleString('en-IN')
-    },
-    {
-        name: "Increase/ Decrease",
-        selector: "Increase/ Decrease",
-        // grow: 0.05,
-        // width:'110px',
-        wrap: true,
-        format: data => data["Increase/ Decrease"].toLocaleString('en-IN')
-    },
-    
-];
-
 const customStyles = styles;
 
 const Table4 = () => {
 
     const ctx = useContext(MyContext)
+
+      // Dynamically construct columns based on data keys
+  const columns = Object.keys(ctx.tables2.Table4[0]).map(key => ({
+    name: key,
+    selector: key,
+    wrap: true,
+    format: data => data[key].toLocaleString('en-IN')
+  }));
 
     return (
         <div className="App" style={{ margin: "40px 0 40px 0" }} >

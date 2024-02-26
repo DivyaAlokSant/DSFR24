@@ -48,11 +48,11 @@ import ContingentBill from '../components/Pages/Quality/Chapters/ContingentBill/
 import PDA from '../components/Pages/Quality/Chapters/PDA/PDA';
 import IndiscriminateUse from '../components/Pages/Quality/Chapters/IndiscriminateUse/IndiscriminateUse';
 import OB from '../components/Pages/Quality/Chapters/OB/OB';
-import DCU from '../components/Pages/Quality/Chapters/DCU/DCU';
-import NonSubmission from '../components/Pages/Quality/Chapters/Nonsubmission/NonSubmission';
-import Timelines from '../components/Pages/Quality/Chapters/Timelines/Timelines';
-import Misapp from '../components/Pages/Quality/Chapters/Misapp/Misapp';
-import Follow from '../components/Pages/Quality/Chapters/Follow/Follow';
+import NonReconciliation from '../components/Pages/Quality/Chapters/NonReconciliation/NonReconciliation';
+import Cash from '../components/Pages/Quality/Chapters/Cash/Cash';
+import ImpactMajor from '../components/Pages/Quality/Chapters/Impact/Impact';
+import Compliance from '../components/Pages/Quality/Chapters/Compliance/Compliance';
+import Observation from '../components/Pages/Quality/Chapters/Observation/Observation';
 import QualConclusion from '../components/Pages/Quality/Chapters/QualConclusion/QualConclusion';
 import QualRecommendations from '../components/Pages/Quality/Chapters/QualRecommendations/QualRecommendations';
 
@@ -151,11 +151,11 @@ const Routes = () => {
                             <Route path='/Quality/PDA' exact component={PDA} />
                             <Route path='/Quality/indiscriminate-use' exact component={IndiscriminateUse} />
                             <Route path='/Quality/OB' exact component={OB} />
-                            <Route path='/Quality/dcu' exact component={DCU} />
-                            <Route path='/Quality/non-submission' exact component={NonSubmission} />
-                            <Route path='/Quality/timelines' exact component={Timelines} />
-                            <Route path='/Quality/misappropriations' exact component={Misapp} />
-                            <Route path='/Quality/follow' exact component={Follow} />
+                            <Route path='/Quality/non-reconciliation' exact component={NonReconciliation} />
+                            <Route path='/Quality/cash' exact component={Cash} />
+                            <Route path='/Quality/impact' exact component={ImpactMajor} />
+                            <Route path='/Quality/compliance' exact component={Compliance} />
+                            <Route path='/Quality/observation' exact component={Observation} />
                             <Route path='/Quality/conclusion' exact component={QualConclusion} />
                             <Route path='/Quality/recommendations' exact component={QualRecommendations} />
 

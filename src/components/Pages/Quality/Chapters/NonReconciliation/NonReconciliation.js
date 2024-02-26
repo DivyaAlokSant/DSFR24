@@ -9,7 +9,7 @@ import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton
 import Table1 from '../../../Tables/Chapter4/Table1'
 
 
-const DCU = () => {
+const NonReconciliation = () => {
 
     const ctx = useContext(MyContext)
 
@@ -19,16 +19,21 @@ const DCU = () => {
                 ? <div >
                     <Navbar />
                     <div className="contentwrapper" id="home">
-                        <FloatingActionButtons back="/quality/submission" forward="/quality/non-submission" />
+                        <FloatingActionButtons back="/quality/OB" forward="/quality/cash" />
 
 
                         <Title>
-                            {ctx.chapterFour.Fourth.Para8}
+                            {ctx.chapterFour.Content.para108}
                         </Title>
-                        {["Para9", "Para10", "Para11"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterFour.Fourth[item]}
-                            </Para>)}
+                        <Para>
+                            {ctx.chapterFour.Content.para109}
+                        </Para>
+                        <Para>
+                            {ctx.chapterFour.Content.para110}
+                        </Para>
+                        <Para>
+                            {ctx.chapterFour.Content.para111}
+                        </Para>
 
                     </div>
                 </div>
@@ -59,4 +64,4 @@ const DCU = () => {
     )
 }
 
-export default DCU
+export default NonReconciliation

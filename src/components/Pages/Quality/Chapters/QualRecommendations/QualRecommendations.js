@@ -22,13 +22,13 @@ const QualRecommendations = () => {
                         <FloatingActionButtons back="/quality/conclusion" forward="/State" />
 
                         <Title>
-                            {ctx.chapterFour.Fourth.Para31}
+                            {ctx.chapterFour.Content.para145}
                         </Title>
-                        {["Para32", "Para33", "Para34", "Para35"].map((item, ind) =>
+                        {["para146", "para147", "para148"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 <li>
                                     <i>
-                                        {ctx.chapterFour.Fourth[item]}
+                                        {ctx.chapterFour.Content[item]}
                                     </i>
                                 </li>
                             </Para>)}

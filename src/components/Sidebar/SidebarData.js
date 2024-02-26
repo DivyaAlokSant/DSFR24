@@ -318,36 +318,36 @@ export const SidebarData = [
       },
       
       {
-        title: '4.10 Departmental Commercial Undertakings', 
-        path: '/quality/dcu',
+        title: '4.10 Non-reconciliation of Departmental figures', 
+        path: '/quality/non-reconciliation',
         id: 2,
         icon: <FaIcons.FaAngleRight />,
         cName: 'sub-nav'
       },
       {
-        title: '4.11 Non-submission of details of grants/ loans',
-        path: '/quality/non-submission',
+        title: '4.11 Reconciliation of cash balance',
+        path: '/quality/cash',
         id: 2,
         icon: <FaIcons.FaAngleRight />,
         cName: 'sub-nav'
       },
       {
-        title: '4.12 Timelines and Quality of Accounts ',
-        path: '/quality/timelines',
+        title: '4.12 Impact of certain transactions ',
+        path: '/quality/impact',
         id: 2,
         icon: <FaIcons.FaAngleRight />,
         cName: 'sub-nav'
       },
       {
-        title: '4.13 Misappropriation, losses, thefts etc.',
-        path: '/quality/misappropriations',
+        title: '4.13 Compliance with Accounting Standards',
+        path: '/quality/compliance',
         id: 2,
         icon: <FaIcons.FaAngleRight />,
         cName: 'sub-nav'
       },
       {
-        title: '4.14 Follow up action on State Finance Audit Report ',
-        path: '/quality/follow',
+        title: '4.14 Submission of accounts and placing of SAR  ',
+        path: '/quality/observation',
         id: 2,
         icon: <FaIcons.FaAngleRight />,
         cName: 'sub-nav'

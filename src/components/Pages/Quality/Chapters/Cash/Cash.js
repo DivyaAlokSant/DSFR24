@@ -9,7 +9,7 @@ import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton
 import Table1 from '../../../Tables/Chapter4/Table1'
 
 
-const Timelines = () => {
+const NonSubmission = () => {
 
     const ctx = useContext(MyContext)
 
@@ -19,15 +19,18 @@ const Timelines = () => {
                 ? <div >
                     <Navbar />
                     <div className="contentwrapper" id="home">
-                    <FloatingActionButtons back="/quality/non-submission" forward="/quality/misappropriations" />
-                         
+                    <FloatingActionButtons back="/quality/non-reconciliation" forward="/quality/impact" />
+                      
+                        
                         <Title>
-                        {ctx.chapterFour.Fourth.Para19}
+                        {ctx.chapterFour.Content.para112}
                         </Title>
-                        {["Para20"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterFour.Fourth[item]}
-                            </Para> )}
+                        <Para>
+                            {ctx.chapterFour.Content.para113}
+                        </Para>
+                        <Para>
+                            {ctx.chapterFour.Content.para114}
+                        </Para>
                     </div>
                 </div>
                 : <div>
@@ -35,20 +38,19 @@ const Timelines = () => {
                     <FaSpinner icon="spinner" className="spinner" />
                 </div>)
             : (ctx.chapter4kannada
-                ? <div >
+                ?<div >
                 <Navbar />
                 <div className="contentwrapper" id="home">
-                    <FloatingActionButtons back="/quality/non-submission" forward="/quality/misappropriations" />
+                    <FloatingActionButtons back="/quality/dcu" forward="/quality/timelines" />
                   
                     
                     <Title>
-                    {ctx.chapter4kannada.Content.para91}
+                    {ctx.chapter4kannada.Content.para85}
                     </Title>
-                    {["para92"].map((item, ind) =>
+                    {["para86","para87","para88","para89"].map((item, ind) =>
                         <Para key={ind / 10}>
                             {ctx.chapter4kannada.Content[item]}
                         </Para> )}
-                
                 </div>
             </div>
             : <div>
@@ -58,4 +60,4 @@ const Timelines = () => {
     )
 }
 
-export default Timelines
+export default NonSubmission

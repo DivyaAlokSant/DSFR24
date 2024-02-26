@@ -9,7 +9,7 @@ import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton
 import Table1 from '../../../Tables/Chapter4/Table1'
 
 
-const NonSubmission = () => {
+const ImpactMajor = () => {
 
     const ctx = useContext(MyContext)
 
@@ -19,16 +19,14 @@ const NonSubmission = () => {
                 ? <div >
                     <Navbar />
                     <div className="contentwrapper" id="home">
-                    <FloatingActionButtons back="/quality/dcu" forward="/quality/timelines" />
-                      
-                        
+                    <FloatingActionButtons back="/quality/cash" forward="/quality/compliance" />
+                         
                         <Title>
-                        {ctx.chapterFour.Fourth.Para13}
+                        {ctx.chapterFour.Content.para115}
                         </Title>
-                        {["Para14","Para15","Para16","Para17"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterFour.Fourth[item]}
-                            </Para> )}
+                        <Para>
+                            {ctx.chapterFour.Content.para116}
+                        </Para>
                     </div>
                 </div>
                 : <div>
@@ -36,19 +34,20 @@ const NonSubmission = () => {
                     <FaSpinner icon="spinner" className="spinner" />
                 </div>)
             : (ctx.chapter4kannada
-                ?<div >
+                ? <div >
                 <Navbar />
                 <div className="contentwrapper" id="home">
-                    <FloatingActionButtons back="/quality/dcu" forward="/quality/timelines" />
+                    <FloatingActionButtons back="/quality/non-submission" forward="/quality/misappropriations" />
                   
                     
                     <Title>
-                    {ctx.chapter4kannada.Content.para85}
+                    {ctx.chapter4kannada.Content.para91}
                     </Title>
-                    {["para86","para87","para88","para89"].map((item, ind) =>
+                    {["para92"].map((item, ind) =>
                         <Para key={ind / 10}>
                             {ctx.chapter4kannada.Content[item]}
                         </Para> )}
+                
                 </div>
             </div>
             : <div>
@@ -58,4 +57,4 @@ const NonSubmission = () => {
     )
 }
 
-export default NonSubmission
+export default ImpactMajor

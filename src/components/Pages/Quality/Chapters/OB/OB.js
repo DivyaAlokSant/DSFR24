@@ -19,7 +19,7 @@ const OB = () => {
                 ? <div >
                     <Navbar />
                     <div className="contentwrapper" id="home">
-                        <FloatingActionButtons back="/quality/indiscriminate-use" forward="/quality/dcu" />
+                        <FloatingActionButtons back="/quality/indiscriminate-use" forward="/quality/non-reconciliation" />
 
                         <Title>
                             {ctx.chapterFour.Content.para86}

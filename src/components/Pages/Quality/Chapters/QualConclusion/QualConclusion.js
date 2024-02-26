@@ -22,11 +22,11 @@ const QualConclusion = () => {
                         <FloatingActionButtons back="/quality/follow" forward="/quality/recommendations" />
 
                         <Title>
-                            {ctx.chapterFour.Fourth.Para26}
+                            {ctx.chapterFour.Content.para139}
                         </Title>
-                        {["Para27", "Para28", "Para29", "Para30","Para30a"].map((item, ind) =>
+                        {["para140", "para141", "para142", "para143", "para144"].map((item, ind) =>
                             <Para key={ind / 10}>
-                                {ctx.chapterFour.Fourth[item]}
+                                {ctx.chapterFour.Content[item]}
                             </Para>)}
                     </div>
                 </div>
