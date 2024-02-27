@@ -39836,7 +39836,167 @@
                   "Repayment during 2022-23__1": "1,216.04",
                   "Closing Balance": "17,305.63"
                 }
-              ] 
+              ],
+              "Table2": [
+                {
+                  "Name of the Institution": "Department of IT & BT.",
+                  "Interest earned Upto 2019-20": "-",
+                  "2020-21": 310.58,
+                  "2021-22": 161.2,
+                  "2022-23": 806.26,
+                  "Total": "1,278.04"
+                },
+                {
+                  "Name of the Institution": "Karnataka Road Development Corporation Ltd.",
+                  "Interest earned Upto 2019-20": "",
+                  "2020-21": "",
+                  "2021-22": "",
+                  "2022-23": "",
+                  "Total": ""
+                },
+                {
+                  "Name of the Institution": "",
+                  "Interest earned Upto 2019-20": "-",
+                  "2020-21": 328.51,
+                  "2021-22": 399.23,
+                  "2022-23": "*",
+                  "Total": 727.74
+                },
+                {
+                  "Name of the Institution": "Department of Science and Technology",
+                  "Interest earned Upto 2019-20": "-",
+                  "2020-21": 61.5,
+                  "2021-22": 59.45,
+                  "2022-23": 21,
+                  "Total": 141.95
+                },
+                {
+                  "Name of the Institution": "BESCOM",
+                  "Interest earned Upto 2019-20": "-",
+                  "2020-21": 6.64,
+                  "2021-22": 15.09,
+                  "2022-23": 0.47,
+                  "Total": 22.2
+                },
+                {
+                  "Name of the Institution": "State Commission for Women",
+                  "Interest earned Upto 2019-20": 22.33,
+                  "2020-21": 4.48,
+                  "2021-22": 8.88,
+                  "2022-23": "*",
+                  "Total": 35.69
+                },
+                {
+                  "Name of the Institution": "Karnataka State Tribal Research institute, Mysore",
+                  "Interest earned Upto 2019-20": "-",
+                  "2020-21": "-",
+                  "2021-22": 280.84,
+                  "2022-23": "*",
+                  "Total": 280.84
+                },
+                {
+                  "Name of the Institution": "",
+                  "Interest earned Upto 2019-20": "",
+                  "2020-21": "",
+                  "2021-22": "(up to 2021-22)",
+                  "2022-23": "",
+                  "Total": ""
+                },
+                {
+                  "Name of the Institution": "Karnaataka Residenttial Educational Institutions Society.",
+                  "Interest earned Upto 2019-20": 246.95,
+                  "2020-21": "4,143.16",
+                  "2021-22": "2,727.05",
+                  "2022-23": "*",
+                  "Total": "7,117.16"
+                },
+                {
+                  "Name of the Institution": "Valmiki Scheduled Tribes Development Corporation Ltd.",
+                  "Interest earned Upto 2019-20": "4,084.20",
+                  "2020-21": "*",
+                  "2021-22": "*",
+                  "2022-23": "*",
+                  "Total": "4,084.20"
+                },
+                {
+                  "Name of the Institution": "EE/ Panchayat Raj Engineering Departments in 8 Districts",
+                  "Interest earned Upto 2019-20": "-",
+                  "2020-21": 334.6,
+                  "2021-22": "2,315.00",
+                  "2022-23": "*",
+                  "Total": "2,649.60"
+                },
+                {
+                  "Name of the Institution": "EE/RDWS in 7 Districts",
+                  "Interest earned Upto 2019-20": "-",
+                  "2020-21": 188.23,
+                  "2021-22": "1,163.13",
+                  "2022-23": "*",
+                  "Total": "1,351.36"
+                },
+                {
+                  "Name of the Institution": "CEO, Zilla Panchayat in 6 Districts",
+                  "Interest earned Upto 2019-20": "-",
+                  "2020-21": 6.48,
+                  "2021-22": "1,054.83",
+                  "2022-23": "*",
+                  "Total": "1,061.31"
+                },
+                {
+                  "Name of the Institution": "",
+                  "Interest earned Upto 2019-20": "",
+                  "2020-21": "",
+                  "2021-22": "",
+                  "2022-23": "",
+                  "Total": ""
+                },
+                {
+                  "Name of the Institution": "EO, Taluk Panchayat in 21 Districts",
+                  "Interest earned Upto 2019-20": "-",
+                  "2020-21": 4.86,
+                  "2021-22": 184.64,
+                  "2022-23": "*",
+                  "Total": 189.5
+                },
+                {
+                  "Name of the Institution": "RD PRU, Gadag",
+                  "Interest earned Upto 2019-20": "",
+                  "2020-21": "",
+                  "2021-22": 959,
+                  "2022-23": "*",
+                  "Total": 959
+                },
+                {
+                  "Name of the Institution": "Total",
+                  "Interest earned Upto 2019-20": "4,353.48",
+                  "2020-21": "5,389.04",
+                  "2021-22": "9,328.34",
+                  "2022-23": 827.73,
+                  "Total": "19,898.59"
+                }
+              ],
+              "Table3": [
+                {
+                  "Funds/Deposits": "State Disaster Response  Fund",
+                  "Balance on 01-04-2022": 2.42,
+                  "Interest due": 0.18
+                },
+                {
+                  "Funds/Deposits": "State Disaster Mitigation  Fund",
+                  "Balance on 01-04-2022": 237.1,
+                  "Interest due": 17.76
+                },
+                {
+                  "Funds/Deposits": "Non-payment of Interest on Government employees’ Group Insurance Fund",
+                  "Balance on 01-04-2022": "5,060.05*",
+                  "Interest due": 84.66
+                },
+                {
+                  "Funds/Deposits": "",
+                  "Balance on 01-04-2022": "Total",
+                  "Interest due": 102.6
+                }
+              ]
         },
        
         "__collections__": {}
