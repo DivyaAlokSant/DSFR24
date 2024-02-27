@@ -7,10 +7,9 @@ import Para from "../../../../Para/Para"
 import Title from "../../../../Title/Title";
 import Subtitle from "../../../../Subtitle/Subtitle";
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton"
-import Table8 from '../../../Tables/Chapter4/Table8'
 import Table8kan from '../../../Tables/Chapter4kan/Table8'
-import Table9 from "../../../Tables/Chapter4/Table9";
 import Table9kan from "../../../Tables/Chapter4kan/Table9";
+import CustomTable from "../../../../CustomTable/CustomTable";
 
 const Delay = () => {
 
@@ -39,6 +38,15 @@ const Delay = () => {
                             <Para key={ind / 10}>
                                 {ctx.chapterFour.Content[item]}
                             </Para>)}
+
+                            <h3 className='headnote'>
+                            ₹ In crore
+                        </h3>
+
+                        <CustomTable title={"Table 4.4: Age wise pendency of Utilisation Certificates "}
+                            columns={ctx.tables4.Table4}
+                            data={ctx.tables4.Table4} />
+
                         <Para>                            
                             {ctx.chapterFour.Content.para23}  
                         </Para>    
