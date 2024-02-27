@@ -39596,7 +39596,92 @@
        
         "title": "Quality of Accounts and Financial reporting practices",
         
-        "tables": {},
+        "Tables": {
+            "Table1":[
+                {
+                  "Year": "OBB",
+                  "2018-19": "3,523.65",
+                  "2019-20": "4,435.49",
+                  "2020-21": "3,045.10",
+                  "2021-22": "2,350.00",
+                  "2022-23": "4,029.00"
+                }
+              ],
+            "Table1a": [
+                {
+                  "Company/ Corporation/ Board": "",
+                  "Outstanding off budget borrowing": "",
+                  "Borrowings during": "2022-23",
+                  "Repayment during 2022-23": "Principal",
+                  "Repayment during 2022-23__1": "Interest",
+                  "Closing Balance": ""
+                },
+                {
+                  "Company/ Corporation/ Board": "Krishna Bhagya Jala Nigam Limited",
+                  "Outstanding off budget borrowing": "6,252.14",
+                  "Borrowings during": 850,
+                  "Repayment during 2022-23": "1,450.70",
+                  "Repayment during 2022-23__1": 455.26,
+                  "Closing Balance": "5,651.44"
+                },
+                {
+                  "Company/ Corporation/ Board": "Karnataka Neeravari Nigam Limited",
+                  "Outstanding off budget borrowing": "3,672.81",
+                  "Borrowings during": "1,500.00",
+                  "Repayment during 2022-23": 767.43,
+                  "Repayment during 2022-23__1": 269.38,
+                  "Closing Balance": "4,405.38"
+                },
+                {
+                  "Company/ Corporation/ Board": "Karnataka Road Development Corporation Limited",
+                  "Outstanding off budget borrowing": 393.24,
+                  "Borrowings during": 379,
+                  "Repayment during 2022-23": 29.69,
+                  "Repayment during 2022-23__1": 42.47,
+                  "Closing Balance": 742.55
+                },
+                {
+                  "Company/ Corporation/ Board": "Rajiv Gandhi Rural Housing Corporation Limited",
+                  "Outstanding off budget borrowing": "1,227.72",
+                  "Borrowings during": 0,
+                  "Repayment during 2022-23": 263.11,
+                  "Repayment during 2022-23__1": 90.77,
+                  "Closing Balance": 964.61
+                },
+                {
+                  "Company/ Corporation/ Board": "Cauvery Neeravari Nigam Limited",
+                  "Outstanding off budget borrowing": "2,767.50",
+                  "Borrowings during": 400,
+                  "Repayment during 2022-23": 367.5,
+                  "Repayment during 2022-23__1": 201.18,
+                  "Closing Balance": "2,800.00"
+                },
+                {
+                  "Company/ Corporation/ Board": "Visvesvaraya Jala Nigam Limited",
+                  "Outstanding off budget borrowing": "1,807.15",
+                  "Borrowings during": 900,
+                  "Repayment during 2022-23": 433.06,
+                  "Repayment during 2022-23__1": 128.4,
+                  "Closing Balance": "2,274.09"
+                },
+                {
+                  "Company/ Corporation/ Board": "Skill Development",
+                  "Outstanding off budget borrowing": 561.54,
+                  "Borrowings during": 0,
+                  "Repayment during 2022-23": 93.98,
+                  "Repayment during 2022-23__1": 28.58,
+                  "Closing Balance": 467.56
+                },
+                {
+                  "Company/ Corporation/ Board": "Total",
+                  "Outstanding off budget borrowing": "16,682.10",
+                  "Borrowings during": "4,029.00",
+                  "Repayment during 2022-23": "3,405.47",
+                  "Repayment during 2022-23__1": "1,216.04",
+                  "Closing Balance": "17,305.63"
+                }
+              ] 
+        },
        
         "__collections__": {}
     },

@@ -9,7 +9,7 @@ import FloatingActionButtons from "./../../../../FloatingActionButtons/FloatButt
 import Table1 from '../../../Tables/Chapter4/Table1'
 import Table1kan from '../../../Tables/Chapter4kan/Table1'
 import Subtitle from "./../../../../Subtitle/Subtitle";
-
+import CustomTable from "../../../../CustomTable/CustomTable";
 
 const Funds = () => {
 
@@ -35,10 +35,24 @@ const Funds = () => {
                                 {ctx.chapterFour.Content[item]}
                             </Para>)}
 
+                            <h3 className='headnote'>
+          ₹ In crore
+        </h3>   
+
+        <CustomTable    title={"Table 4.1: Entity-wise position of off-budget borrowings"}
+                        columns={ctx.tables4.Table1}
+                        data={ctx.tables4.Table1} />
                         <Para>
                             {ctx.chapterFour.Content.para6}
                             
                         </Para>   
+                        <h3 className='headnote'>
+          ₹ In crore
+        </h3>   
+
+        <CustomTable    title={"Table 4.1(a): Entity-wise position of off-budget borrowings"}
+                        columns={ctx.tables4.Table1a}
+                        data={ctx.tables4.Table1a} />
                         <Para>                            
                             {ctx.chapterFour.Content.para7}  
                         </Para>
