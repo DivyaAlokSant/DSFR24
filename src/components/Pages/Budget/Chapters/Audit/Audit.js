@@ -22,6 +22,7 @@ import Table8bkan from '../../../Tables/Chapter3kan/Table8b'
 import Table9kan from '../../../Tables/Chapter3kan/Table9'
 import Table10kan from '../../../Tables/Chapter3kan/Table10'
 //import Table11 from "../../../Tables/Chapter3/Table11";
+//import Table16 from "../../../Tables/Chapter3/Table16";
 import CustomTable from "../../../../CustomTable/CustomTable";
 import { Chart3 as Chart3Chap3 } from '../../../Charts/Chap3Charts'
 import k32 from '../../../../../Images/k32.png'
@@ -330,6 +331,16 @@ const Audit = () => {
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
+         
+          <h3 className='headnote'>
+            ₹ In crore
+          </h3>
+          <CustomTable title={"Table 3.10: Original Budget, Revised Estimate and Actual Expenditure during 2018-2019 to 2022-23"}
+            columns={ctx.tables3.Table14}
+            data={ctx.tables3.Table14} />
+           <h4>
+            Source:Summary of Demands for Grants and Charged Approporiations, and Appropriation Accounts
+          </h4>
 
 
           {["para102"].map(
@@ -350,6 +361,18 @@ const Audit = () => {
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
+          <h3 className='headnote'>
+            ₹ In crore
+          </h3>
+          <CustomTable title={""}
+            columns={ctx.tables3.Table15}
+            data={ctx.tables3.Table15} />
+           <h4>
+            Source:Appropriation Accounts
+          </h4>
+
+
+
           {["para109", "para110"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
@@ -368,6 +391,18 @@ const Audit = () => {
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
+          <h3 className='headnote'>
+            ₹ In crore
+          </h3>
+          <CustomTable title={"Table3.11: Quantum of Expenditure in March 2023"}
+            columns={ctx.tables3.Table16}
+            data={ctx.tables3.Table16} />
+           <h4>
+            Source:Monthly Civil Accounts
+            *The expenditure is Rs.(-)3,301 and hence indicated as Zero
+          </h4>
+
+        
           {["para115"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>

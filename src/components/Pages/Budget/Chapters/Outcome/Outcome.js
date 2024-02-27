@@ -14,6 +14,7 @@ import "./../../Budget.css";
 //import Table15 from "../../../Tables/Chapter3/Table15";
 //import Table16 from "../../../Tables/Chapter3/Table16";
 //import Table17 from "../../../Tables/Chapter3/Table17";
+import CustomTable from "../../../../CustomTable/CustomTable";
 import Table10kan from '../../../Tables/Chapter3kan/Table10'
 import Table11kan from '../../../Tables/Chapter3kan/Table11'
 import Table12kan from '../../../Tables/Chapter3kan/Table12'
@@ -88,6 +89,17 @@ const Outcome = () => {
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
+      <h3 className='headnote'>
+            ₹ In crore
+          </h3>
+          <CustomTable title={"Table 3.12: Budget and Expenditure"}
+            columns={ctx.tables3.Table17}
+            data={ctx.tables3.Table17} />
+           <h4>
+            Source:Grant Register, Voucher Level Computerisation cell,O/o AG A&E, Karnataka
+          </h4>
+
+      
       {["para144"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
