@@ -7,7 +7,7 @@ import { FaSpinner } from "react-icons/fa";
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton";
 import "./../../Budget.css";
 import Table7 from "../../../Tables/Chapter3/Table7";
-import Subtitle from  "../../../../Subtitle/Subtitle";
+import Subtitle from "../../../../Subtitle/Subtitle";
 
 //import Table7a from "../../../Tables/Chapter3/Table7a";
 //import Table7b from "../../../Tables/Chapter3/Table7b";
@@ -22,6 +22,7 @@ import Table8bkan from '../../../Tables/Chapter3kan/Table8b'
 import Table9kan from '../../../Tables/Chapter3kan/Table9'
 import Table10kan from '../../../Tables/Chapter3kan/Table10'
 //import Table11 from "../../../Tables/Chapter3/Table11";
+import CustomTable from "../../../../CustomTable/CustomTable";
 import { Chart3 as Chart3Chap3 } from '../../../Charts/Chap3Charts'
 import k32 from '../../../../../Images/k32.png'
 import k32a from '../../../../../Images/k32a.png'
@@ -70,126 +71,156 @@ const Audit = () => {
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
-          )}  
-        <Subtitle>
-          <i>
-          {ctx.chapterThree.Profile["para45"]}
-          </i>
-        </Subtitle>
-        <Subtitle>
-        
-          {ctx.chapterThree.Profile["para46"]}
-         
-        </Subtitle> 
-        {["para47","para48","para48a"].map(
-            (item, ind) => (
-              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
-            )
-          )}  
+          )}
+          <Subtitle>
+            <i>
+              {ctx.chapterThree.Profile["para45"]}
+            </i>
+          </Subtitle>
+          <Subtitle>
 
-        <Table7 />
-        <h4>
-        <i>
-        Source: Appropriation Accounts
-        </i>
-        </h4>    
-        <h3 className='headnote'>
-          ₹ In crore
-        </h3>   
+            {ctx.chapterThree.Profile["para46"]}
 
-
-
-        {["para48b","para49","para50"].map(
-            (item, ind) => (
-              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
-            )
-          )} 
-      <Subtitle>
-        
-        {ctx.chapterThree.Profile["para51"]}
-       
-      </Subtitle>
-      {["para52"].map(
+          </Subtitle>
+          {["para47", "para48", "para48a"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
-          
+
+          <Table7 />
+          <h4>
+            <i>
+              Source: Appropriation Accounts
+            </i>
+          </h4>
+          <h3 className='headnote'>
+            ₹ In crore
+          </h3>
+
+
+
+          {["para48b", "para49", "para50"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+            )
+          )}
+          <Subtitle>
+
+            {ctx.chapterThree.Profile["para51"]}
+
+          </Subtitle>
+          {["para52"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+            )
+          )}
+
           {["para53"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
-          )} 
-        
-          
-        
+          )}
+          <CustomTable title={"Grant head and nature of expenditure in crore"}
+            columns={ctx.tables3.Table8}
+            data={ctx.tables3.Table8} />
+
+          <h4>
+
+          </h4>
+          <h3 className='headnote'>
+            ₹ In crore
+          </h3>
+
+
           {["para54"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
-          )} 
-        {["para55"].map(
+          )}
+          <CustomTable title={"Grant head and nature of expenditure in crore"}
+            columns={ctx.tables3.Table9}
+            data={ctx.tables3.Table9} />
+
+          <h4>
+
+          </h4>
+          <h3 className='headnote'>
+            ₹ In crore
+          </h3>
+
+          {["para55"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
-       {["para56"].map(
-            (item, ind) => (
-              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
-            )
-          )} 
-        <Subtitle>
-        
-        {ctx.chapterThree.Profile["para57"]}
-       
-      </Subtitle>
-      {["para58"].map(
-            (item, ind) => (
-              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
-            )
-          )} 
-        {["para59"].map(
+          <h3 className='headnote'>
+            ₹ In crore
+          </h3>
+          <CustomTable title={"Head of Account and Amount in crore"}
+            columns={ctx.tables3.Table10}
+            data={ctx.tables3.Table10} />
+
+          <h4>
+          </h4>
+          
+          {["para56"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
-        <Subtitle>
-        
-        {ctx.chapterThree.Profile["para60"]}
-       
-      </Subtitle>
-      {["para61","para62"].map(
+          <Subtitle>
+
+            {ctx.chapterThree.Profile["para57"]}
+
+          </Subtitle>
+          {["para58"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
-      <Subtitle>
-        
-        {ctx.chapterThree.Profile["para63"]}
-       
-      </Subtitle>
-      {["para64","para65","para66","para67","para68","para69"].map(
+          {["para59"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
-      <Subtitle>
-        
-        {ctx.chapterThree.Profile["para70"]}
-       
-      </Subtitle>
-      {["para71"].map(
+          <Subtitle>
+
+            {ctx.chapterThree.Profile["para60"]}
+
+          </Subtitle>
+          {["para61", "para62"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
-        <Subtitle>
-        {ctx.chapterThree.Profile["para72"]}
-        </Subtitle>
-        <Subtitle>
-        {ctx.chapterThree.Profile["para73"]}
-        </Subtitle>
-        {["para74","para75","para77"].map(
+          <Subtitle>
+
+            {ctx.chapterThree.Profile["para63"]}
+
+          </Subtitle>
+          {["para64", "para65", "para66", "para67", "para68", "para69"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+            )
+          )}
+          <Subtitle>
+
+            {ctx.chapterThree.Profile["para70"]}
+
+          </Subtitle>
+          {["para71"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+            )
+          )}
+          <Subtitle>
+            {ctx.chapterThree.Profile["para72"]}
+          </Subtitle>
+          <Subtitle>
+            {ctx.chapterThree.Profile["para73"]}
+          </Subtitle>
+          {["para74", "para75", "para77"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
@@ -199,106 +230,145 @@ const Audit = () => {
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
-        <Subtitle>
-        {ctx.chapterThree.Profile["para79"]}
-        </Subtitle>
-        {["para80","para81","para82","para83","para84","para85"].map(
+          <Subtitle>
+            {ctx.chapterThree.Profile["para79"]}
+          </Subtitle>
+          {["para80", "para81", "para82", "para83", "para84", "para85"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
-        <Subtitle>
-        {ctx.chapterThree.Profile["para86"]}
-        </Subtitle>
-        {["para87"].map(
+          <Subtitle>
+            {ctx.chapterThree.Profile["para86"]}
+          </Subtitle>
+          {["para87"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
-      <Subtitle>
-        {ctx.chapterThree.Profile["para88"]}
-      </Subtitle>
-      {["para89"].map(
+          <Subtitle>
+            {ctx.chapterThree.Profile["para88"]}
+          </Subtitle>
+          {["para89"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
-      {["para90"].map(
+          <h3 className='headnote'>
+            ₹ In crore
+          </h3>
+          <CustomTable title={"Table 3.8:Excess expenditure over the provision during 2022-23 requiring regularization"}
+            columns={ctx.tables3.Table11}
+            data={ctx.tables3.Table11} />
+
+          <h4>
+          </h4>
+
+
+
+          {["para90"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
-      {["para91","para92","para93"].map(
+          <h3 className='headnote'>
+            ₹ In crore
+          </h3>
+          <CustomTable title={""}
+            columns={ctx.tables3.Table12}
+            data={ctx.tables3.Table12} />
+
+          <h4>
+          </h4>
+
+
+
+          {["para91", "para92", "para93"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
-      <Subtitle>
-        {ctx.chapterThree.Profile["para94"]}
-      </Subtitle>
-      {["para95"].map(
+          <Subtitle>
+            {ctx.chapterThree.Profile["para94"]}
+          </Subtitle>
+          {["para95"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
-      <Subtitle>
-        {ctx.chapterThree.Profile["para96"]}
-      </Subtitle>
-      <Subtitle>
-        {ctx.chapterThree.Profile["para97"]}
-      </Subtitle>
-      {["para98","para99"].map(
+          <Subtitle>
+            {ctx.chapterThree.Profile["para96"]}
+          </Subtitle>
+          <Subtitle>
+            {ctx.chapterThree.Profile["para97"]}
+          </Subtitle>
+          {["para98", "para99"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
-      {["para100"].map(
+          <h4>
+          </h4>
+          <h3 className='headnote'>
+            ₹ In crore
+          </h3>
+          <CustomTable title={"Table 3.9:Actual expenditure vis-a-vis budget provision during the financial year 2022-23"}
+            columns={ctx.tables3.Table13}
+            data={ctx.tables3.Table13} />
+
+
+
+
+
+          {["para100"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
-      {["para101"].map(
+          {["para101"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
-      {["para102"].map(
+
+
+          {["para102"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
-      {["para103","para104"].map(
+          {["para103", "para104"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
-      <Subtitle>
-        {ctx.chapterThree.Profile["para105"]}
-      </Subtitle>
-      {["para106","para107","para108"].map(
+          <Subtitle>
+            {ctx.chapterThree.Profile["para105"]}
+          </Subtitle>
+          {["para106", "para107", "para108"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
-      {["para109","para110"].map(
+          {["para109", "para110"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
-      <Subtitle>
-        {ctx.chapterThree.Profile["para111"]}
-      </Subtitle>
-      {["para112"].map(
+          <Subtitle>
+            {ctx.chapterThree.Profile["para111"]}
+          </Subtitle>
+          {["para112"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
-      {["para113","para114"].map(
+          {["para113", "para114"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
-      {["para115"].map(
+          {["para115"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
@@ -328,12 +398,12 @@ const Audit = () => {
                 {ctx.chapter3kannada.Content[item]}
               </Para>
             ))}
-            <h3 className="headnote">
-            (` ಕೋಟಿಗಳಲ್ಲಿ)
-          </h3>
+        <h3 className="headnote">
+          (` ಕೋಟಿಗಳಲ್ಲಿ)
+        </h3>
         <Table7kan />
         <h6>ಆಧಾರ: ಧನವಿನಿಯೋಗ ಲೆಕ್ಕಗಳು</h6>
-        {[ "para57", "para58", "para59", "para60","para61"].map(
+        {["para57", "para58", "para59", "para60", "para61"].map(
           (item, ind) => (
             <Para key={ind / 10}>{ctx.chapter3kannada.Content[item]}</Para>
           ))
@@ -352,25 +422,25 @@ const Audit = () => {
           ))
         }
         <Table8bkan />
-         {["para64"].map(
+        {["para64"].map(
           (item, ind) => (
             <Para key={ind / 10}>{ctx.chapter3kannada.Content[item]}</Para>
           ))
         }
-        {[ "para65","para65a","para66"].map(
+        {["para65", "para65a", "para66"].map(
           (item, ind) => (
             <Para key={ind / 10}>{ctx.chapter3kannada.Content[item]}</Para>
           ))
         }
-         <Title >
-         ನಕ್ಷೆ-3.2: ಅನವಶ್ಯಕ/ಅಧಿಕ/ಅಪರ್ಯಾಪ್ತ ಪೂರಕ ಅನುದಾನಗಳು*
-                        </Title>
-                        <h3 className="headnote">
-                        (` ಕೋಟಿಗಳಲ್ಲಿ )
-          </h3>
-        <ImageComponent src={k32}  aspectRatio={1 / 0.5} />
+        <Title >
+          ನಕ್ಷೆ-3.2: ಅನವಶ್ಯಕ/ಅಧಿಕ/ಅಪರ್ಯಾಪ್ತ ಪೂರಕ ಅನುದಾನಗಳು*
+        </Title>
+        <h3 className="headnote">
+          (` ಕೋಟಿಗಳಲ್ಲಿ )
+        </h3>
+        <ImageComponent src={k32} aspectRatio={1 / 0.5} />
         <h4> * ಅನಗತ್ಯ/ಅಧಿಕ/ಅಪರ್ಯಾಪ್ತ ಪೂರಕ ಅವಕಾಶಗಳನ್ನು ಲೆಕ್ಕ ಹಾಕಲು ಪುನರ್ವಿನಿಯೋಗ ಆದೇಶಗಳನ್ನು ಪರಿಗಣಿಸಿಲ್ಲ</h4>
-         {[ "para67","para68", "para69", "para70", "para71", "para72", "para73", "para74"].map(
+        {["para67", "para68", "para69", "para70", "para71", "para72", "para73", "para74"].map(
           (item, ind) => (
             <Para key={ind / 10}>{ctx.chapter3kannada.Content[item]}</Para>
           ))
@@ -385,32 +455,32 @@ const Audit = () => {
             <Para key={ind / 10}>{ctx.chapter3kannada.Content[item]}</Para>
           ))
         }
-          <h3 className="headnote">
-                        
-          </h3>
-        <ImageComponent src={k32a}  aspectRatio={1 /0.3} />
+        <h3 className="headnote">
+
+        </h3>
+        <ImageComponent src={k32a} aspectRatio={1 / 0.3} />
         <h4> ಆಕರ: ಧನವಿನಿಯೋಗ ಲೆಕ್ಕಗಳು</h4>
 
-             {["para105", "para106", "para107"].map(
+        {["para105", "para106", "para107"].map(
           (item, ind) => (
             <Para key={ind / 10}>{ctx.chapter3kannada.Content[item]}</Para>
           ))
         }
         <Title>
-        ನಕ್ಷೆ ೩.೩: ೨೦೨೧-೨೨ರಲ್ಲಿ ಮಾಸಿಕ ಸ್ವೀಕೃತಿಗಳು ಮತ್ತು ವಿತರಣೆಗಳು
+          ನಕ್ಷೆ ೩.೩: ೨೦೨೧-೨೨ರಲ್ಲಿ ಮಾಸಿಕ ಸ್ವೀಕೃತಿಗಳು ಮತ್ತು ವಿತರಣೆಗಳು
         </Title>
-            <h3 className="headnote">
-         (` ಕೋಟಿಗಳಲ್ಲಿ)
-          </h3>
-          <ImageComponent src={k33}  aspectRatio={1 /0.3} />
+        <h3 className="headnote">
+          (` ಕೋಟಿಗಳಲ್ಲಿ)
+        </h3>
+        <ImageComponent src={k33} aspectRatio={1 / 0.3} />
         <h4>ಆಕರ: ಮಾಸಿಕ ಸಿವಿಲ್‌ ಲೆಕ್ಕಗಳು	</h4>
-         <h3 className="headnote">
-         (` ಕೋಟಿಗಳಲ್ಲಿ)
-          </h3>
+        <h3 className="headnote">
+          (` ಕೋಟಿಗಳಲ್ಲಿ)
+        </h3>
         <Table9kan />
         <h4>ಆಕರ: ಮಾಸಿಕ ಸಿವಿಲ್‌ ಲೆಕ್ಕಗಳು</h4>
-     
-         {["para110"].map(
+
+        {["para110"].map(
           (item, ind) => (
             <Para key={ind / 10}>{ctx.chapter3kannada.Content[item]}</Para>
           ))

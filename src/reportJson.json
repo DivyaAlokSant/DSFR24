@@ -36818,33 +36818,32 @@
                   "ghi": "10,948.60"
                 }
               ],
-            "Table7a": [
+            "Table8": [
                 {
-                    "Head of Account": "4202-01-201-1-07-200 Maintenance Expenditure",
-                    "Nature of expenditure": "Maintenance and repair of toilets of primary and secondary schools",
-                    "Amount": "50"
+                  "Grant No.": "01 – Agriculture and Horticulture",
+                  "Head of Account": "4851-00-107-1-01-139 Major Works",
+                  "Nature of expenditure": "Electrical repair works in the premises of Silk farm Grainage Building Unit - 1",
+                  "Amount": 0.94
                 },
                 {
-                    "Head of Account": "4070-00-800-0-07-132 Capital Expenses",
-                    "Nature of expenditure": "Repair of pipelines, purchase of linens, clearing of debris etc., in the Government Guest houses",
-                    "Amount": "0.5"
+                  "Grant No.": "01 – Agriculture and Horticulture",
+                  "Head of Account": "4851-00-107-1-01-422 Scheduled Caste Sub Plan",
+                  "Nature of expenditure": "Repair work of silk farm market building of Kollegala Taluk in Chamarajanagar District. (Power UG cable installation work)",
+                  "Amount": 0.04
                 },
                 {
-                    "Head of Account": "4202-01-203-2-01-180 Machinery and Equipment",
-                    "Nature of expenditure": "Distribution of tablet PCs to the students coming under collegiate education and technical education department",
-                    "Amount": "23.78"
+                  "Grant No.": "01 – Agriculture and Horticulture",
+                  "Head of Account": "4851-00-107-1-01-423 Tribal Sub Plan",
+                  "Nature of expenditure": "Repair work of silk farm Market building of Malavalli Taluk in Mandya district. (Grill door installation work)",
+                  "Amount": 0.02
                 },
                 {
-                    "Head of Account": "5051-02-201-0-12-180 Machinery and Equipments",
-                    "Nature of expenditure": "Payment of tug service rental bill of Karwar harbor",
-                    "Amount": "2"
-                },
-                {
-                    "Head of Account": "4210-04-107-2-01-180 Machinery and Equipment",
-                    "Nature of expenditure": "Purchase of VTM kits",
-                    "Amount": "11.7"
+                  "Grant No.": "18 – Commerce and Industries",
+                  "Head of Account": "4851-00-102-0-12-386 Construction",
+                  "Nature of expenditure": "The expenditure was towards minor repairs of buildings and toilets.",
+                  "Amount": 0.1
                 }
-            ],
+              ],
             "Table7b": [
                 {
                     "Head of Account": "2055-00-116-0-01-180  Machinery and Equipment",
@@ -36926,69 +36925,69 @@
             ],
             "Table11": [
                 {
-                    "Year": "",
-                    "Section": "",
-                    "Budget Provision": "Original",
-                    "FIELD4": "",
-                    "Total": "Supplementary",
-                    "Expenditure": "",
-                    "Unutilised provision and its percentage": ""
+                  "Sl No.": 1,
+                  "Grant": "03 - Finance Revenue Voted",
+                  "Provision": "2,88,57,90,05,000",
+                  "Expenditure": "2,90,34,86,32,428",
+                  "Excess": "1,76,96,27,428"
                 },
                 {
-                    "Year": "2019-20",
-                    "Section": "Revenue (Voted)",
-                    "Budget Provision": "10,990.11",
-                    "FIELD4": "225.18",
-                    "Total": "11,215.29",
-                    "Expenditure": "9,743.27",
-                    "Unutilised provision and its percentage": "1,472.02(13)"
+                  "Sl No.": 2,
+                  "Grant": "06 - Infrastructure Development Capital Voted",
+                  "Provision": "14,07,81,00,000",
+                  "Expenditure": "14,62,20,51,231",
+                  "Excess": "54,39,51,231"
                 },
                 {
-                    "Year": "",
-                    "Section": "Capital (Voted)",
-                    "Budget Provision": "3,909.09",
-                    "FIELD4": "1,800.00",
-                    "Total": "5,709.09",
-                    "Expenditure": "4,485.69",
-                    "Unutilised provision and its percentage": "1,223.40(21)"
+                  "Sl No.": 3,
+                  "Grant": "07 - Rural Development and Panchayat Raj Capital Voted",
+                  "Provision": "37,50,60,42,000",
+                  "Expenditure": "38,99,19,49,094",
+                  "Excess": "1,48,59,07,094"
                 },
                 {
-                    "Year": "2020-21",
-                    "Section": "Revenue (Voted)",
-                    "Budget Provision": "12,115.66",
-                    "FIELD4": "55.4",
-                    "Total": "12,171.06",
-                    "Expenditure": "11,155.33",
-                    "Unutilised provision and its percentage": "1,015.73(8)"
+                  "Sl No.": 4,
+                  "Grant": "10 - Social Welfare Capital Voted",
+                  "Provision": "21,52,93,45,000",
+                  "Expenditure": "23,60,06,75,262",
+                  "Excess": "2,07,13,30,262"
                 },
                 {
-                    "Year": "",
-                    "Section": "Capital (Voted)",
-                    "Budget Provision": "3,479.55",
-                    "FIELD4": "1,293.90",
-                    "Total": "4,773.45",
-                    "Expenditure": "4,275.20",
-                    "Unutilised provision and its percentage": "498.24(10)"
+                  "Sl No.": 5,
+                  "Grant": "13 - Food and Civil Supplies Revenue Voted",
+                  "Provision": "29,89,87,45,000",
+                  "Expenditure": "30,94,15,40,672",
+                  "Excess": "1,04,27,95,672"
                 },
                 {
-                    "Year": "2021-22",
-                    "Section": "Revenue (Voted)",
-                    "Budget Provision": "12,162.69",
-                    "FIELD4": "2,734.96",
-                    "Total": "14,897.65",
-                    "Expenditure": "13,323.74",
-                    "Unutilised provision and its percentage": "1,573.91(11)"
+                  "Sl No.": 6,
+                  "Grant": "14 - Revenue Revenue Voted",
+                  "Provision": "1,63,97,99,77,000",
+                  "Expenditure": "1,68,65,11,81,736",
+                  "Excess": "4,67,12,04,736"
                 },
                 {
-                    "Year": "",
-                    "Section": "Capital (Voted)",
-                    "Budget Provision": "3,873.21",
-                    "FIELD4": "1,067.86",
-                    "Total": "4,941.07",
-                    "Expenditure": "3,732.15",
-                    "Unutilised provision and its percentage": "1,208.92(24)"
+                  "Sl No.": 7,
+                  "Grant": "20 - Public Works Capital Voted",
+                  "Provision": "93,33,80,17,000",
+                  "Expenditure": "1,00,50,35,25,498",
+                  "Excess": "7,16,55,08,498"
+                },
+                {
+                  "Sl No.": 8,
+                  "Grant": "29 - Debt Servicing Revenue Charged",
+                  "Provision": "3,13,94,60,58,000",
+                  "Expenditure": "3,14,27,40,75,000",
+                  "Excess": "32,80,17,000"
+                },
+                {
+                  "Sl No.": "Total",
+                  "Grant": "",
+                  "Provision": "9,62,85,52,89,000",
+                  "Expenditure": "9,81,93,36,30,921",
+                  "Excess": "19,07,83,41,921"
                 }
-            ],
+              ],
             "T3f1": "Source: Grant Register",
             "T5h1": "Summarized position of actual expenditure vis-à-vis original/supplementary provision",
             "T1h2": "in crores",
@@ -37131,56 +37130,21 @@
             "T12f1": "Source: Appropriation Accounts",
             "Table10": [
                 {
-                    "Major HeadDescription": "4210-Capiital Outlay on Medical and Public Health",
-                    "Expenditure in March": 1467.02,
-                    "2nd Qtr": 199.9,
-                    "1st Qtr": 222.45,
-                    "3rd Qtr": 409.91,
-                    "Expenditure in March as a percentage of TE": 56.98,
-                    "Total Expenditure": 2574.84,
-                    "4th Qtr": 304.85
+                  "Head of Account": "4210-01-110-1-22-132 Capital Expenses",
+                  "Institution": "Indira Gandhi Institute of Child Health",
+                  "Amount": 30
                 },
                 {
-                    "Expenditure in March as a percentage of TE": 85.26,
-                    "3rd Qtr": 2.02,
-                    "Expenditure in March": 56.2,
-                    "4th Qtr": 59.1,
-                    "Major HeadDescription": "4401-Capital Outlay on Crop Husbandry",
-                    "2nd Qtr": 2.71,
-                    "Total Expenditure": 65.92,
-                    "1st Qtr": 2.1
+                  "Head of Account": "4210-03-105-1-09-386 Construction",
+                  "Institution": "BMCRI Bengaluru, MMCRI Mysuru, VIMS Bellary and KIMS Hubballi",
+                  "Amount": 2.5
                 },
                 {
-                    "Expenditure in March as a percentage of TE": 52.76,
-                    "2nd Qtr": 22.5,
-                    "3rd Qtr": 44.11,
-                    "Expenditure in March": 161.51,
-                    "1st Qtr": 14,
-                    "Major HeadDescription": "4515-Capital Outlay on Other Development Programmes",
-                    "Total Expenditure": 306.13,
-                    "4th Qtr": 225.53
-                },
-                {
-                    "Expenditure in March as a percentage of TE": 69.46,
-                    "3rd Qtr": 96.85,
-                    "Total Expenditure": 1469.12,
-                    "2nd Qtr": 78.27,
-                    "Expenditure in March": 1020.43,
-                    "4th Qtr": 1205.75,
-                    "1st Qtr": 88.25,
-                    "Major HeadDescription": "5465-Investmant in General Financial and Trading Institutions"
-                },
-                {
-                    "Major HeadDescription": "6217-Loans for Urban Devolopment",
-                    "Expenditure in March as a percentage of TE": 51.04,
-                    "Expenditure in March": 1014.75,
-                    "4th Qtr": 1146.55,
-                    "2nd Qtr": 443.13,
-                    "Total Expenditure": 1988.27,
-                    "1st Qtr": 329.51,
-                    "3rd Qtr": 69.08
+                  "Head of Account": "4210-03-105-1-14-386 Construction",
+                  "Institution": "Sri Atal Bihari Vajpayee Medical College Research Institute",
+                  "Amount": 17.5
                 }
-            ],
+              ],
             "T2f1": "Note: (i) Budgetary allocation and expenditure for child centric non-programme/scheme comprise institutional set ups, establishments, infrastructure facilities and administrative support that benefit children.",
             "T2f2": "(ii) Beneficiaries of 100% Child Centric Programme include pregnant or expectant mothers and lactating mothers.",
             "T15h2": "in crore",
@@ -37327,51 +37291,46 @@
             ],
             "Table12": [
                 {
-                    "Year": "",
-                    "Revenue": "Savings",
-                    "FIELD3": "Amount surrendered",
-                    "FIELD4": "Amount not surrendered",
-                    "Capital": "Savings",
-                    "FIELD6": "Amount surrendered",
-                    "FIELD7": "Amount not surrendered"
+                  "Grant": "Grant 3 - Finance",
+                  "Amount in crores": 240.92,
+                  "Reason for excess": "3475-797-01-Transfer to Reserve Funds and Deposit Accounts Expenditure under Inter Account Transfers depends on the actual collection of cess. Actual collection of cess exceeding the   estimates under Inter Account Transfers resulted in excess expenditure under the Head."
                 },
                 {
-                    "Year": "2019-20",
-                    "Revenue": "1,472.01",
-                    "FIELD3": "306.76",
-                    "FIELD4": "1,165.25",
-                    "Capital": "1,223.40",
-                    "FIELD6": "80",
-                    "FIELD7": "1,143.40"
+                  "Grant": "Grant 6 - Infrastructure Development",
+                  "Amount in crores": 103,
+                  "Reason for excess": "5465-01-190-1-Investment in Infrastructure. Assistance provided for development of Shivamogga Airport and for development of works of small airports was insufficient."
                 },
                 {
-                    "Year": "2020-21",
-                    "Revenue": "1,015.73",
-                    "FIELD3": "9.93",
-                    "FIELD4": "1,005.80",
-                    "Capital": "498.24",
-                    "FIELD6": "0",
-                    "FIELD7": "498.24"
+                  "Grant": "Grant 7 - Rural Development and Panchayat Raj",
+                  "Amount in crores": 257.06,
+                  "Reason for excess": "5054-03-337-71 and 76-Central and State share -Prime Minister Grameena Sadak Yojana. The excess was due to release of central share of the scheme after providing the third and final instalment of Supplementary Provision for the year 2022-23."
                 },
                 {
-                    "Year": "2021-22",
-                    "Revenue": "1,573.91",
-                    "FIELD3": "746.81",
-                    "FIELD4": "827.1",
-                    "Capital": "1,208.92",
-                    "FIELD6": "0",
-                    "FIELD7": "1,208.92"
+                  "Grant": "Grant 10 - Social Welfare",
+                  "Amount in crores": 196.5,
+                  "Reason for excess": "4225-01-277-2-Construction. The additional funds provided through supplementary provisions for construction of Hostel and Residential School Buildings and SC Hostels under Special Assistance to States for Capital Investment proved insufficient."
                 },
                 {
-                    "Year": "Total",
-                    "Revenue": "4,061.65",
-                    "FIELD3": "1,063.50",
-                    "FIELD4": "2,998.15",
-                    "Capital": "2,930.56",
-                    "FIELD6": "80",
-                    "FIELD7": "2,850.56"
+                  "Grant": "Grant 13 - Food and Civil Supplies",
+                  "Amount in crores": 148.69,
+                  "Reason for excess": "2408-01-101-05-CSS Central Share-Assistance to Intra State Movement of Foodgrains and FPS dealers’ margin under NFSA.No specific reasons."
+                },
+                {
+                  "Grant": "Grant 14 - Revenue",
+                  "Amount in crores": "1,163.30",
+                  "Reason for excess": "2245-05-101-05-NDRF and 2245-80-102-01-SDRF. Due to transfer of amount received by GoI under NDRF and SDRF without providing budget provision and release of Central Share after closure of third and final Supplementary Provision."
+                },
+                {
+                  "Grant": "Grant 20 - Public Works",
+                  "Amount in crores": 626.33,
+                  "Reason for excess": "5054-03-337-18-State Highways Development Project.No specific reasons."
+                },
+                {
+                  "Grant": "Grant 29 - Debt Servicing",
+                  "Amount in crores": "1,000.00",
+                  "Reason for excess": "2048-101-4-Consolidated Sinking Fund.No specific reasons."
                 }
-            ],
+              ],
             "T17f1": "Source: Grant Register",
             "T3h2": "in crores",
             "Table4": [
@@ -37498,111 +37457,96 @@
             "T8f1": "Source: Grant Register",
             "Table13": [
                 {
-                    "Sl No": 1,
-                    "Head of Account": "2215-01-198-2-02",
-                    "2019-20": 10.16,
-                    "2020-21": 9.64,
-                    "2021-22": 5.86
+                  "Nature of expenditure": "Voted",
+                  "Category": "I Revenue",
+                  "Original grant/ Appropriation": "1,74,432.51",
+                  "Supplementary grant/ Appropriation": "20,668.52",
+                  "Total": "1,95,101.03",
+                  "Actual expenditure": "1,87,101.25",
+                  "Unspent Provision (-) / Excess over provision (+)": "(-)7,999.78",
+                  "Amount surrendered": "9,526.85"
                 },
                 {
-                    "Sl No": null,
-                    "Head of Account": "Gram Panchayats (Borewells)",
-                    "2019-20": null,
-                    "2020-21": null,
-                    "2021-22": null
+                  "Nature of expenditure": "Voted",
+                  "Category": "II Capital",
+                  "Original grant/ Appropriation": "42,494.68",
+                  "Supplementary grant/ Appropriation": "11,127.50",
+                  "Total": "53,622.18",
+                  "Actual expenditure": "54,548.85",
+                  "Unspent Provision (-) / Excess over provision (+)": "(+)926.67",
+                  "Amount surrendered": 968.93
                 },
                 {
-                    "Sl No": 2,
-                    "Head of Account": "2215-01-198-6",
-                    "2019-20": 520.2,
-                    "2020-21": 254.18,
-                    "2021-22": 416.01
+                  "Nature of expenditure": "Voted",
+                  "Category": "III Loans and Advances",
+                  "Original grant/ Appropriation": "3,946.63",
+                  "Supplementary grant/ Appropriation": 417.41,
+                  "Total": "4,364.04",
+                  "Actual expenditure": "3,250.39",
+                  "Unspent Provision (-) / Excess over provision (+)": "(-)1,113.65",
+                  "Amount surrendered": 499.94
                 },
                 {
-                    "Sl No": null,
-                    "Head of Account": "Assistance to Taluk Panchayats",
-                    "2019-20": null,
-                    "2020-21": null,
-                    "2021-22": null
+                  "Nature of expenditure": "Total Voted",
+                  "Category": "",
+                  "Original grant/ Appropriation": "2,20,873.82",
+                  "Supplementary grant/ Appropriation": "32,213.43",
+                  "Total": "2,53,087.25",
+                  "Actual expenditure": "2,44,900.49",
+                  "Unspent Provision (-) / Excess over provision (+)": "(-)8,186.76",
+                  "Amount surrendered": "10,995.72"
                 },
                 {
-                    "Sl No": 3,
-                    "Head of Account": "2515-00-196-6",
-                    "2019-20": 19.52,
-                    "2020-21": 0,
-                    "2021-22": 39.49
+                  "Nature of expenditure": "Charged",
+                  "Category": "IV Revenue",
+                  "Original grant/ Appropriation": "33,087.27",
+                  "Supplementary grant/ Appropriation": 15.56,
+                  "Total": "33,102.83",
+                  "Actual expenditure": "33,078.06",
+                  "Unspent Provision (-) / Excess over provision (+)": "(-)24.77",
+                  "Amount surrendered": 46.99
                 },
                 {
-                    "Sl No": null,
-                    "Head of Account": "Zilla Panchayats",
-                    "2019-20": null,
-                    "2020-21": null,
-                    "2021-22": null
+                  "Nature of expenditure": "Charged",
+                  "Category": "V Public Debt Repayment",
+                  "Original grant/ Appropriation": "14,178.70",
+                  "Supplementary grant/ Appropriation": "1,797.74",
+                  "Total": "15,976.44",
+                  "Actual expenditure": "15,942.49",
+                  "Unspent Provision (-) / Excess over provision (+)": "(-)33.95",
+                  "Amount surrendered": 33.92
                 },
                 {
-                    "Sl No": 4,
-                    "Head of Account": "2515-00-197-1",
-                    "2019-20": 201.8,
-                    "2020-21": 378.24,
-                    "2021-22": 358.24
+                  "Nature of expenditure": "Charged",
+                  "Category": "VI Capital",
+                  "Original grant/ Appropriation": "3,402.43",
+                  "Supplementary grant/ Appropriation": 3.72,
+                  "Total": "3,406.15",
+                  "Actual expenditure": "3,404.35",
+                  "Unspent Provision (-) / Excess over provision (+)": "(-)1.80",
+                  "Amount surrendered": 1.8
                 },
                 {
-                    "Sl No": null,
-                    "Head of Account": "Taluk Panchayats",
-                    "2019-20": null,
-                    "2020-21": null,
-                    "2021-22": null
+                  "Nature of expenditure": "Total Charged",
+                  "Category": "",
+                  "Original grant/ Appropriation": "50,668.40",
+                  "Supplementary grant/ Appropriation": "1,817.02",
+                  "Total": "52,485.42",
+                  "Actual expenditure": "52,424.90",
+                  "Unspent Provision (-) / Excess over provision (+)": "(-)60.52",
+                  "Amount surrendered": 82.71
                 },
                 {
-                    "Sl No": 5,
-                    "Head of Account": "2515-00-800-0-19-014",
-                    "2019-20": 8.78,
-                    "2020-21": 23.92,
-                    "2021-22": 30
-                },
-                {
-                    "Sl No": null,
-                    "Head of Account": "Other Allowance",
-                    "2019-20": null,
-                    "2020-21": null,
-                    "2021-22": null
-                },
-                {
-                    "Sl No": 6,
-                    "Head of Account": "4702-00-101-1",
-                    "2019-20": 91.35,
-                    "2020-21": 47.13,
-                    "2021-22": 7.17
-                },
-                {
-                    "Sl No": null,
-                    "Head of Account": "Water Tanks, Construction of new tanks, pickups, etc.",
-                    "2019-20": null,
-                    "2020-21": null,
-                    "2021-22": null
-                },
-                {
-                    "Sl No": 7,
-                    "Head of Account": "5054-03-337-0-74",
-                    "2019-20": 9.99,
-                    "2020-21": 4.79,
-                    "2021-22": 195.07
-                },
-                {
-                    "Sl No": null,
-                    "Head of Account": "Road works in rural areas",
-                    "2019-20": null,
-                    "2020-21": null,
-                    "2021-22": null
-                },
-                {
-                    "Sl No": null,
-                    "Head of Account": "NABARD",
-                    "2019-20": null,
-                    "2020-21": null,
-                    "2021-22": null
+                  "Nature of expenditure": "Grand Total",
+                  "Category": "",
+                  "Original grant/ Appropriation": "2,71,542.22",
+                  "Supplementary grant/ Appropriation": "34,030.45",
+                  "Total": "3,05,572.67",
+                  "Actual expenditure": "2,97,325.39",
+                  "Unspent Provision (-) / Excess over provision (+)": "(-)8,247.28",
+                  "Amount surrendered": "11,078.43"
                 }
-            ],
+              ],
             "T10h2": "in crore",
             "T11h2": "in crore",
             "T12h1": "Anticipated savings not surrendered/partially surrendered",
@@ -37760,114 +37704,14 @@
             ],
             "Table9": [
                 {
-                    "Sl No": 1,
-                    "Expenditure": "",
-                    "Grant": "14-Revenue",
-                    "Provision": "",
-                    "Excess": ""
-                },
-                {
-                    "Expenditure": 134269973004,
-                    "Excess": 3545949004,
-                    "Provision": 130724024000,
-                    "Grant": "Revenue Voted",
-                    "Sl No": ""
-                },
-                {
-                    "Expenditure": "",
-                    "Sl No": 2,
-                    "Excess": "",
-                    "Grant": "14-Revenue",
-                    "Provision": ""
-                },
-                {
-                    "Excess": 480088483,
-                    "Sl No": "",
-                    "Provision": 50000000,
-                    "Expenditure": 530088483,
-                    "Grant": "Capital Charged"
-                },
-                {
-                    "Grant": "24-Energy",
-                    "Sl No": 3,
-                    "Expenditure": "",
-                    "Excess": "",
-                    "Provision": ""
-                },
-                {
-                    "Grant": "Revenue Voted",
-                    "Provision": 142822800000,
-                    "Sl No": "",
-                    "Expenditure": 142955791400,
-                    "Excess": 132991400
-                },
-                {
-                    "Expenditure": 277755852887,
-                    "Sl No": "Total",
-                    "Provision": 273596824000,
-                    "Grant": "",
-                    "Excess": 4159028887
+                  "c": "03 - Finance",
+                  "Head of Account": "2052-00-090-0-12-195  Transport Expenses",
+                  "Nature of expenditure": "Purchase of four vehicles for the President and Members of Seventh Pay Commission",
+                  "Amount": 0.75
                 }
-            ],
-            "T13h2": "in crore",
-            "Table8": [
-                {
-                    "Expenditure incurred": 14.61,
-                    "Budget provision": 14.61,
-                    "Amount released": 14.61,
-                    "Head of Account": "5055-00-190-1-00-132 - Capital Expenses",
-                    "Sl No": 1
-                },
-                {
-                    "Budget provision": 23.75,
-                    "Head of Account": "5055-00-190-1-00-133 - SDP",
-                    "Expenditure incurred": 23.75,
-                    "Sl No": 2,
-                    "Amount released": 23.75
-                },
-                {
-                    "Sl No": 3,
-                    "Expenditure incurred": 100,
-                    "Amount released": 21,
-                    "Head of Account": "5055-00-102-3-01-132 - Capital Expenses",
-                    "Budget provision": 100
-                },
-                {
-                    "Sl No": 4,
-                    "Expenditure incurred": 8.34,
-                    "Budget provision": 8.34,
-                    "Amount released": 8.34,
-                    "Head of Account": "5055-00-190-2-00-132 - Capital Expenses"
-                },
-                {
-                    "Sl No": 5,
-                    "Amount released": 20.45,
-                    "Expenditure incurred": 20.45,
-                    "Head of Account": "5055-00-190-2-00-133 - Capital Expenses",
-                    "Budget provision": 20.45
-                },
-                {
-                    "Expenditure incurred": 12.43,
-                    "Budget provision": 12.43,
-                    "Amount released": 12.43,
-                    "Sl No": 6,
-                    "Head of Account": "5055-00-190-4-00-132 - Capital Expenses"
-                },
-                {
-                    "Budget provision": 16.44,
-                    "Sl No": 7,
-                    "Expenditure incurred": 16.44,
-                    "Amount released": 16.44,
-                    "Head of Account": "5055-00-190-4-00-133 - SDP"
-                },
-                {
-                    "Expenditure incurred": 196.02,
-                    "Budget provision": 196.02,
-                    "Head of Account": "Total",
-                    "Sl No": "",
-                    "Amount released": 117.02
-                }
-            ]
+              ],
+            "T13h2": "in crore"
+            
         },
         "Chap3Charts": {
             "Chart3f1": "Source: Monthly Civil Accounts",
