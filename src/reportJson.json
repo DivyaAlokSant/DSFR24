@@ -36883,46 +36883,102 @@
             ],
             "Table14": [
                 {
-                    "Head of Account": "4215-01-102-2-01-132 - Capital Expenses",
-                    "Budget": "514.85",
-                    "Revised Estimate": 514.85,
-                    "Expenditure": 513.14,
-                    "Savings": 1.71,
-                    "Deposited in the account (Shown as Expenditure)": 63.82
+                  "Category": "Original Budget",
+                  "2018-19": "2,24,110.77",
+                  "2019-20": "2,40,745.86",
+                  "2020-21": "2,44,733.57",
+                  "2021-22": "2,52,391.98",
+                  "2022-23": "2,71,542.22"
                 },
                 {
-                    "Head of Account": "4215-01-102-2-01-133 -Special Development Plan & Aspirational Taluk",
-                    "Budget": "371.61",
-                    "Revised Estimate": 371.61,
-                    "Expenditure": 368.68,
-                    "Savings": 2.93,
-                    "Deposited in the account (Shown as Expenditure)": 32.76
+                  "Category": "Supplementary Budget",
+                  "2018-19": "21,562.30",
+                  "2019-20": "23,058.81",
+                  "2020-21": "20,487.16",
+                  "2021-22": "40,793.33",
+                  "2022-23": "34,030.45"
                 },
                 {
-                    "Head of Account": "4215-01-102-2-01-422 -SCSP",
-                    "Budget": "302.95",
-                    "Revised Estimate": 75.74,
-                    "Expenditure": 75.43,
-                    "Savings": 0.31,
-                    "Deposited in the account (Shown as Expenditure)": 2.77
+                  "Category": "Total Budget (TB)",
+                  "2018-19": "2,45,673.07",
+                  "2019-20": "2,63,804.67",
+                  "2020-21": "2,65,220.73",
+                  "2021-22": "2,93,185.31",
+                  "2022-23": "3,05,572.67"
                 },
                 {
-                    "Head of Account": "4215-01-102-2-01-423 -Tribal Sub plan",
-                    "Budget": "60.59",
-                    "Revised Estimate": 15.14,
-                    "Expenditure": 15.45,
-                    "Savings": -0.31,
-                    "Deposited in the account (Shown as Expenditure)": 0.41
+                  "Category": "Revised Estimate (RE)",
+                  "2018-19": "2,23,073.64",
+                  "2019-20": "2,33,217.90",
+                  "2020-21": "2,36,764.97",
+                  "2021-22": "2,59,350.00",
+                  "2022-23": "2,95,475.34"
                 },
                 {
-                    "Head of Account": "Total",
-                    "Budget": "1,250.00",
-                    "Revised Estimate": 977.34,
-                    "Expenditure": 972.7,
-                    "Savings": 4.64,
-                    "Deposited in the account (Shown as Expenditure)": 99.76
+                  "Category": "Actual Expenditure (AE)",
+                  "2018-19": "2,20,534.10",
+                  "2019-20": "2,33,978.23",
+                  "2020-21": "2,42,694.49",
+                  "2021-22": "2,82,335.70",
+                  "2022-23": "2,97,325.39"
+                },
+                {
+                  "Category": "Savings",
+                  "2018-19": "25,138.97",
+                  "2019-20": "29,826.44",
+                  "2020-21": "22,526.24",
+                  "2021-22": "10,849.61",
+                  "2022-23": "8,247.28"
+                },
+                {
+                  "Category": "Percentage of supplementary to the original provision",
+                  "2018-19": 9.62,
+                  "2019-20": 9.58,
+                  "2020-21": 8.37,
+                  "2021-22": 16.16,
+                  "2022-23": 12.53
+                },
+                {
+                  "Category": "Percentage of overall saving/excess to the overall provision",
+                  "2018-19": 10.23,
+                  "2019-20": 11.31,
+                  "2020-21": 8.49,
+                  "2021-22": 3.7,
+                  "2022-23": 2.7
+                },
+                {
+                  "Category": "TB - RE",
+                  "2018-19": "22,599.43",
+                  "2019-20": "30,586.77",
+                  "2020-21": "28,455.76",
+                  "2021-22": "33,835.31",
+                  "2022-23": "10,097.33"
+                },
+                {
+                  "Category": "RE - AE",
+                  "2018-19": "2,539.54",
+                  "2019-20": "(-)760.33",
+                  "2020-21": "(-)5,929.52",
+                  "2021-22": "(-)22,985.70",
+                  "2022-23": "(-)1,850.05"
+                },
+                {
+                  "Category": "(TB - RE) as a percentage of TB",
+                  "2018-19": 9.2,
+                  "2019-20": 11.59,
+                  "2020-21": 10.73,
+                  "2021-22": 11.54,
+                  "2022-23": 3.3
+                },
+                {
+                  "Category": "(RE - AE) as a percentage of TB",
+                  "2018-19": 1.03,
+                  "2019-20": "(-)0.29",
+                  "2020-21": "(-)2.24",
+                  "2021-22": "(-)7.84",
+                  "2022-23": "(-)0.61"
                 }
-            ],
+              ],
             "Table11": [
                 {
                   "Sl No.": 1,
@@ -37067,51 +37123,54 @@
             "T16h2": "in crore",
             "Table17": [
                 {
-                    "Year": "",
-                    "Revenue": "Savings",
-                    "FIELD3": "Amount surrendered",
-                    "FIELD4": "Amount not surrendered",
-                    "Capital": "Savings",
-                    "FIELD6": "Amount surrendered",
-                    "FIELD7": "Amount not surrendered"
+                  "Year": "2020-21",
+                  "Section": "Revenue",
+                  "Budget Provision": "8,929.99",
+                  "Expenditure": "8,060.26",
+                  "Unutilized Provision": 869.73,
+                  "Unutilized Provision (%)": 9.7
                 },
                 {
-                    "Year": "2019-20",
-                    "Revenue": "624.49",
-                    "FIELD3": "499.14",
-                    "FIELD4": "125.35",
-                    "Capital": "1,388.48",
-                    "FIELD6": "1,307.59",
-                    "FIELD7": "80.89"
+                  "Year": "2020-21",
+                  "Section": "Capital",
+                  "Budget Provision": 71.67,
+                  "Expenditure": 39.61,
+                  "Unutilized Provision": 32.06,
+                  "Unutilized Provision (%)": 44.7
                 },
                 {
-                    "Year": "2020-21",
-                    "Revenue": "252.67",
-                    "FIELD3": "27.61",
-                    "FIELD4": "225.06",
-                    "Capital": "859.34",
-                    "FIELD6": "187.33",
-                    "FIELD7": "672.01"
+                  "Year": "2021-22",
+                  "Section": "Revenue",
+                  "Budget Provision": "8,317.34",
+                  "Expenditure": "7,874.08",
+                  "Unutilized Provision": 443.26,
+                  "Unutilized Provision (%)": 5.3
                 },
                 {
-                    "Year": "2021-22",
-                    "Revenue": "143.16",
-                    "FIELD3": "68.91",
-                    "FIELD4": "74.25",
-                    "Capital": "1.5",
-                    "FIELD6": "1.21",
-                    "FIELD7": "0.29"
+                  "Year": "2021-22",
+                  "Section": "Capital",
+                  "Budget Provision": 128.39,
+                  "Expenditure": 112.06,
+                  "Unutilized Provision": 16.32,
+                  "Unutilized Provision (%)": 12.7
                 },
                 {
-                    "Year": "Total",
-                    "Revenue": "1,020.32",
-                    "FIELD3": "595.66",
-                    "FIELD4": "424.66",
-                    "Capital": "2,249.32",
-                    "FIELD6": "1,496.13",
-                    "FIELD7": "753.19"
+                  "Year": "2022-23",
+                  "Section": "Revenue",
+                  "Budget Provision": "9,260.49",
+                  "Expenditure": "8,725.04",
+                  "Unutilized Provision": 535.45,
+                  "Unutilized Provision (%)": 5.78
+                },
+                {
+                  "Year": "2022-23",
+                  "Section": "Capital",
+                  "Budget Provision": 386.31,
+                  "Expenditure": 325.66,
+                  "Unutilized Provision": 60.65,
+                  "Unutilized Provision (%)": 15.69
                 }
-            ],
+              ],
             "T4h1": "Important initiatives where action was yet to be taken",
             "T5f1": "Source: Appropriation Accounts",
             "T1f1": "Source: Gender Budget",
@@ -37172,123 +37231,10 @@
             "T15h1": "Budget and Expenditure",
             "Table15": [
                 {
-                    "Year": "",
-                    "Section": "",
-                    "Budget Provision": "Original",
-                    "FIELD4": "Supplementary",
-                    "Total": "",
-                    "Expenditure": "",
-                    "Unutilised provision and its percentage": ""
-                },
-                {
-                    "Year": "2019-20",
-                    "Section": "Revenue(Voted)",
-                    "Budget Provision": "3,218.82",
-                    "FIELD4": "17.18",
-                    "Total": "3,236.00",
-                    "Expenditure": "2,639.32",
-                    "Unutilised provision and its percentage": "596.68(18)"
-                },
-                {
-                    "Year": "",
-                    "Section": "Revenue(Charged)",
-                    "Budget Provision": "39.81",
-                    "FIELD4": "0",
-                    "Total": "39.81",
-                    "Expenditure": "12",
-                    "Unutilised provision and its percentage": "27.81(70)"
-                },
-                {
-                    "Year": "",
-                    "Section": "Capital (Voted)",
-                    "Budget Provision": "7,757.60",
-                    "FIELD4": "550",
-                    "Total": "8,307.60",
-                    "Expenditure": "6,919.12",
-                    "Unutilised provision and its percentage": "1,388.48(17)"
-                },
-                {
-                    "Year": "",
-                    "Section": "Capital (Charged)",
-                    "Budget Provision": "14.5",
-                    "FIELD4": "0",
-                    "Total": "14.5",
-                    "Expenditure": "14.5",
-                    "Unutilised provision and its percentage": "0.00(0)"
-                },
-                {
-                    "Year": "2020-21",
-                    "Section": "Revenue(Voted)",
-                    "Budget Provision": "2,857.32",
-                    "FIELD4": "0.06",
-                    "Total": "2,857.38",
-                    "Expenditure": "2,646.37",
-                    "Unutilised provision and its percentage": "211.01(7)"
-                },
-                {
-                    "Year": "",
-                    "Section": "Revenue(Charged)",
-                    "Budget Provision": "53.49",
-                    "FIELD4": "0",
-                    "Total": "53.49",
-                    "Expenditure": "11.83",
-                    "Unutilised provision and its percentage": "41.66(78)"
-                },
-                {
-                    "Year": "",
-                    "Section": "Capital (Voted)",
-                    "Budget Provision": "8,170.51",
-                    "FIELD4": "1,732.00",
-                    "Total": "9,902.51",
-                    "Expenditure": "9,043.17",
-                    "Unutilised provision and its percentage": "859.34(9)"
-                },
-                {
-                    "Year": "",
-                    "Section": "Capital (Charged)",
-                    "Budget Provision": "16.5",
-                    "FIELD4": "0",
-                    "Total": "16.5",
-                    "Expenditure": "16.5",
-                    "Unutilised provision and its percentage": "0.00(0)"
-                },
-                {
-                    "Year": "2021-22",
-                    "Section": "Revenue(Voted)",
-                    "Budget Provision": "2,786.89",
-                    "FIELD4": "1.33",
-                    "Total": "2,788.22",
-                    "Expenditure": "2,673.69",
-                    "Unutilised provision and its percentage": "114.53(4)"
-                },
-                {
-                    "Year": "",
-                    "Section": "Revenue(Charged)",
-                    "Budget Provision": "51.73",
-                    "FIELD4": "0",
-                    "Total": "51.73",
-                    "Expenditure": "23.1",
-                    "Unutilised provision and its percentage": "28.63(55)"
-                },
-                {
-                    "Year": "",
-                    "Section": "Capital (Voted)",
-                    "Budget Provision": "7,048.69",
-                    "FIELD4": "870.01",
-                    "Total": "7,918.70",
-                    "Expenditure": "7,917.20",
-                    "Unutilised provision and its percentage": "1.50(0)"
-                },
-                {
-                    "Year": "",
-                    "Section": "Capital (Charged)",
-                    "Budget Provision": "18.5",
-                    "FIELD4": "0",
-                    "Total": "18.5",
-                    "Expenditure": "18.5",
-                    "Unutilised provision and its percentage": "0.00(0)"
+                  "Savings": "Excess",
+                  "Comments are to be made if overall saving is more than two per cent   of Grants/Appropriation and if saving is more than 10 per cent under any Sub-head.": "Comments are to be made if the overall excess is more than 10 per cent of the Grant/Appropriation and also if excess is more than ₹two lakhs under any sub-head."
                 }
-            ],
+              ],
             "Table12": [
                 {
                   "Grant": "Grant 3 - Finance",
@@ -37632,76 +37578,76 @@
               ],
             "Table16": [
                 {
-                    "Sl No": 1,
-                    "Head of Account": "2059-80-001-0-09",
-                    "2019-20": 17.37,
-                    "2020-21": 15.34,
-                    "2021-22": 1.67
+                  "Major Head/Description": "2041-Taxes on Vehicles",
+                  "1st Qtr": 36.23,
+                  "2nd Qtr": 34.37,
+                  "3rd Qtr": 48.35,
+                  "4th Qtr": 352.96,
+                  "Total Expenditure": 471.91,
+                  "Expenditure in March": 269.59,
+                  "Expenditure in March as a percentage of TE": 57.13
                 },
                 {
-                    "Sl No": null,
-                    "Head of Account": "Execution (C & B North)",
-                    "2019-20": null,
-                    "2020-21": null,
-                    "2021-22": null
+                  "Major Head/Description": "2215-Water Supply and Sanitation",
+                  "1st Qtr": 35.39,
+                  "2nd Qtr": 34.77,
+                  "3rd Qtr": 624.4,
+                  "4th Qtr": "4,661.54",
+                  "Total Expenditure": "5,356.10",
+                  "Expenditure in March": "4,582.95",
+                  "Expenditure in March as a percentage of TE": 85.57
                 },
                 {
-                    "Sl No": 2,
-                    "Head of Account": "2059-80-053-1",
-                    "2019-20": 23.2,
-                    "2020-21": 20.14,
-                    "2021-22": 2.9
+                  "Major Head/Description": "2401-Crop Husbandry",
+                  "1st Qtr": 360.75,
+                  "2nd Qtr": 886.77,
+                  "3rd Qtr": 566.41,
+                  "4th Qtr": "4,664.62",
+                  "Total Expenditure": "6,478.55",
+                  "Expenditure in March": "3,664.67",
+                  "Expenditure in March as a percentage of TE": 56.57
                 },
                 {
-                    "Sl No": null,
-                    "Head of Account": "Buildings (Special Repairs)",
-                    "2019-20": null,
-                    "2020-21": null,
-                    "2021-22": null
+                  "Major Head/Description": "2435-Other Agriculture Programmes",
+                  "1st Qtr": "0.00*",
+                  "2nd Qtr": 8.18,
+                  "3rd Qtr": 5.32,
+                  "4th Qtr": 34.58,
+                  "Total Expenditure": 48.08,
+                  "Expenditure in March": 30.61,
+                  "Expenditure in March as a percentage of TE": 63.66
                 },
                 {
-                    "Sl No": 3,
-                    "Head of Account": "2059-80-800-0-07-014",
-                    "2019-20": 23.31,
-                    "2020-21": 8.6,
-                    "2021-22": 18.6
+                  "Major Head/Description": "3475-Other General Economic Services",
+                  "1st Qtr": 27.88,
+                  "2nd Qtr": 42.59,
+                  "3rd Qtr": 27.96,
+                  "4th Qtr": "1,080.12",
+                  "Total Expenditure": "1,178.55",
+                  "Expenditure in March": "1,047.41",
+                  "Expenditure in March as a percentage of TE": 88.87
                 },
                 {
-                    "Sl No": null,
-                    "Head of Account": "Other Allowance",
-                    "2019-20": null,
-                    "2020-21": null,
-                    "2021-22": null
+                  "Major Head/Description": "5051-Capital Outlay on Ports and Light Houses",
+                  "1st Qtr": 0,
+                  "2nd Qtr": 11.02,
+                  "3rd Qtr": 2.93,
+                  "4th Qtr": 20.72,
+                  "Total Expenditure": 34.67,
+                  "Expenditure in March": 18.63,
+                  "Expenditure in March as a percentage of TE": 53.74
                 },
                 {
-                    "Sl No": 4,
-                    "Head of Account": "3054-80-190-0-01-240 ",
-                    "2019-20": 27.81,
-                    "2020-21": 41.66,
-                    "2021-22": 28.63
-                },
-                {
-                    "Sl No": null,
-                    "Head of Account": "Karnatka Road Development Corporation Ltd. (Charged) Debt Servicing",
-                    "2019-20": null,
-                    "2020-21": null,
-                    "2021-22": null
-                },
-                {
-                    "Sl No": 5,
-                    "Head of Account": "3054-80-797-0-02",
-                    "2019-20": 125.43,
-                    "2020-21": 73.01,
-                    "2021-22": 57.1
-                },
-                {
-                    "Sl No": null,
-                    "Head of Account": "Transfer of grants from Calamity Relief Fund to Deposit Head subventions",
-                    "2019-20": null,
-                    "2020-21": null,
-                    "2021-22": null
+                  "Major Head/Description": "6852-Loans for Iron and Steel Industries",
+                  "1st Qtr": 0,
+                  "2nd Qtr": 212.55,
+                  "3rd Qtr": 26.55,
+                  "4th Qtr": 514.94,
+                  "Total Expenditure": 754.04,
+                  "Expenditure in March": 427.48,
+                  "Expenditure in March as a percentage of TE": 56.69
                 }
-            ],
+              ],
             "Table9": [
                 {
                   "c": "03 - Finance",
