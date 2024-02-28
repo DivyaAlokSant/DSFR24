@@ -6,9 +6,8 @@ import { MyContext } from '../../../../../Context/MyProvider';
 import Para from "../../../../Para/Para"
 import Title from "../../../../Title/Title";
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton"
-import Table1 from '../../../Tables/Chapter4/Table1'
 import Subtitle from "../../../../Subtitle/Subtitle";
-
+import CustomTable from "../../../../CustomTable/CustomTable";
 
 const Observation = () => {
 
@@ -58,6 +57,16 @@ const Observation = () => {
                         <Para>
                             {ctx.chapterFour.Content.para136}
                         </Para>
+                        <h3 className='headnote'>
+                            ₹ In crore
+                        </h3>
+
+                        <CustomTable title={"Table 4.19: Pending cases of misappropriation, losses and thefts etc."}
+                            columns={ctx.tables4.Table19}
+                            data={ctx.tables4.Table19} />
+                        <h3 className='footnote'>
+                        Source: Office of the Pr.AG(Audit I) and Pr.AG(Audit II)<br></br>
+                        </h3>
                         <Subtitle>
                             {ctx.chapterFour.Content.para137}
                         </Subtitle>

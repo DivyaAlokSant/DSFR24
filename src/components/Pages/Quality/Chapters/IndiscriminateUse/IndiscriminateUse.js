@@ -7,7 +7,7 @@ import Para from "../../../../Para/Para"
 import Title from "../../../../Title/Title";
 import Subtitle from "../../../../Subtitle/Subtitle";
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton"
-import Table11 from "../../../Tables/Chapter4/Table11";
+import CustomTable from "../../../../CustomTable/CustomTable";
 import Table11kan from "../../../Tables/Chapter4kan/Table11";
 
 const IndiscriminateUse = () => {
@@ -28,9 +28,7 @@ const IndiscriminateUse = () => {
                                 {ctx.chapterFour.Content[item]}
                             </Para>)}
 
-                        {/* <Para>
-                        {ctx.chapterFour.Fourth.Para4}
-                        </Para> */}
+                            
                     </div>
                 </div>
                 : <div>

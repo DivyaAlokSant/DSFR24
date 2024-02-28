@@ -12,7 +12,7 @@ const CustomTable = ({ title, columns, data }) => {
     name: key,
     selector: key,
     wrap: true,
-    width: index === 0 ? '250px' : 'auto', 
+    //width: index === 0 ? '250px' : 'auto', 
     //grow: index === 0 ? 0.5 : 'auto', // Set width for the first column to 150px, rest are auto
     format: data => data[key].toLocaleString('en-IN')
   }));

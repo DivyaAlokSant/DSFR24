@@ -6,8 +6,7 @@ import { MyContext } from '../../../../../Context/MyProvider';
 import Para from "../../../../Para/Para"
 import Title from "../../../../Title/Title";
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton"
-import Table1 from '../../../Tables/Chapter4/Table1'
-
+import CustomTable from "../../../../CustomTable/CustomTable";
 
 const NonReconciliation = () => {
 
@@ -31,6 +30,16 @@ const NonReconciliation = () => {
                         <Para>
                             {ctx.chapterFour.Content.para110}
                         </Para>
+                        <h3 className='headnote'>
+                            ₹ In crore
+                        </h3>
+
+                        <CustomTable title={"Table 4.16: Status of Reconciliation of Receipts and Expenditure figures"}
+                            columns={ctx.tables4.Table16}
+                            data={ctx.tables4.Table16} />
+                        <h3 className='footnote'>
+                        Source- Report on MCA and Finance Accounts <br></br>
+                        </h3>
                         <Para>
                             {ctx.chapterFour.Content.para111}
                         </Para>

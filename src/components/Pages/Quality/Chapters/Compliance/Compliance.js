@@ -6,9 +6,8 @@ import { MyContext } from '../../../../../Context/MyProvider';
 import Para from "../../../../Para/Para"
 import Title from "../../../../Title/Title";
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton"
-import Table12 from '../../../Tables/Chapter4/Table12'
 import Table12kan from '../../../Tables/Chapter4kan/Table12'
-
+import CustomTable from "../../../../CustomTable/CustomTable";
 
 const Compliance = () => {
 
@@ -20,7 +19,7 @@ const Compliance = () => {
                 ? <div >
                     <Navbar />
                     <div className="contentwrapper" id="home">
-                        <FloatingActionButtons back="/quality/impact" forward="/quality/follow" />
+                        <FloatingActionButtons back="/quality/impact" forward="/quality/observation" />
 
 
                         <Title>
@@ -32,6 +31,9 @@ const Compliance = () => {
                         <Para>
                             {ctx.chapterFour.Content.para119}
                         </Para>
+                        <CustomTable title={"Table 4.18: Compliance to Accounting Standards."}
+                            columns={ctx.tables4.Table18}
+                            data={ctx.tables4.Table18} />
 
                     
 
