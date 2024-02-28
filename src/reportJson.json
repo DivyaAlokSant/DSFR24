@@ -37171,22 +37171,396 @@
                   "Unutilized Provision (%)": 15.69
                 }
               ],
-            "T4h1": "Important initiatives where action was yet to be taken",
-            "T5f1": "Source: Appropriation Accounts",
-            "T1f1": "Source: Gender Budget",
-            "T6f1": "Source: Appropriation Accounts",
-            "T15f1": "Source: Grant Register",
-            "T10h1": "Quantum of Expenditure in March",
-            "T1h1": "Table 3.1 – Category-wise allocation during 2016-17 to 2020-21",
-            "T8h2": "in crore",
-            "T13h1": "Persistent savings",
-            "T11f1": "Source: Appropriation Accounts",
-            "T7h1": "Additional amounts released through executive orders during 2018-19 to 2020-21",
-            "T7h2": "in crore",
-            "T9h1": "Excess expenditure over the provision during 2020-21 requiring regularization",
-            "T14h2": "in crore",
-            "T14h1": "Rush of Expenditure",
-            "T12f1": "Source: Appropriation Accounts",
+            "Table18":[
+                {
+                  "Head Of Account": "",
+                  "Nomenclature": "",
+                  "Year wise Savings": "2020-21",
+                  "Year wise Saving": "2021-22",
+                  "Year wise Saving__1": "2022-23"
+                },
+                {
+                  "Head Of Account": "2401-00-103-0-15",
+                  "Nomenclature": "Agricultural Inputs and Quality Control",
+                  "Year wise Savings": "70,65,11,013",
+                  "Year wise Saving": "4,20,02,420",
+                  "Year wise Saving__1": "22,61,97,210"
+                },
+                {
+                  "Head Of Account": "2415-80-004-2-01-101",
+                  "Nomenclature": "University of Agriculture Sciences - Dharwad",
+                  "Year wise Savings": "11,43,31,500",
+                  "Year wise Saving": "13,50,34,650",
+                  "Year wise Saving__1": "2,72,91,091"
+                },
+                {
+                  "Head Of Account": "2415-80-004-3",
+                  "Nomenclature": "Raichur Agriculture University Research and Education",
+                  "Year wise Savings": "6,65,19,250",
+                  "Year wise Saving": "8,32,43,827",
+                  "Year wise Saving__1": "3,01,10,114"
+                },
+                {
+                  "Head Of Account": "2851-00-107-1",
+                  "Nomenclature": "State Sericulture Industries",
+                  "Year wise Savings": "20,68,65,487",
+                  "Year wise Saving": "15,89,93,307",
+                  "Year wise Saving__1": "38,38,83,330"
+                }
+              ],
+
+            "Table19":[
+                {
+                  "Year": "",
+                  "Revenue": "Savings",
+                  "Revenue__1": "Amount surrendered",
+                  "Revenue__2": "Amount not surrendered",
+                  "Capital": "Savings",
+                  "Capital__1": "Amount surrendered",
+                  "Capital__2": "Amount not surrendered"
+                },
+                {
+                  "Year": "2020-21",
+                  "Revenue": 869.74,
+                  "Revenue__1": 15.37,
+                  "Revenue__2": 854.37,
+                  "Capital": 32.05,
+                  "Capital__1": 0,
+                  "Capital__2": 32.05
+                },
+                {
+                  "Year": "2021-22",
+                  "Revenue": 443.27,
+                  "Revenue__1": 381.89,
+                  "Revenue__2": 61.38,
+                  "Capital": 16.32,
+                  "Capital__1": 16.31,
+                  "Capital__2": 0.01
+                },
+                {
+                  "Year": "2022-23",
+                  "Revenue": 535.44,
+                  "Revenue__1": 695.44,
+                  "Revenue__2": "(-)160.00",
+                  "Capital": 60.65,
+                  "Capital__1": 60.65,
+                  "Capital__2": 0
+                }
+              ],
+              "Table20":[
+                {
+                  "Year": "Department of Agriculture",
+                  "Details of surrender proposals sent by Commissioner of Agriculture": "Department of Agriculture",
+                  "Amount (Rs. in lakh)": "Department of Agriculture",
+                  "Details of Issue of GO by FD": "Department of Agriculture"
+                },
+                {
+                  "Year": "2020-21",
+                  "Details of surrender proposals sent by Commissioner of Agriculture": "No. ACABGT: Surrender 2020-21 dated: 16/04/2021",
+                  "Amount (Rs. in lakh)": "3,308.67",
+                  "Details of Issue of GO by FD": "Not available in the records"
+                },
+                {
+                  "Year": "2021-22",
+                  "Details of surrender proposals sent by Commissioner of Agriculture": "No. ACT/BGT/ Grant Surrender 2021-22 dated: 31/03/2022",
+                  "Amount (Rs. in lakh)": "1,472.79",
+                  "Details of Issue of GO by FD": "No. RE 59 Exp-4/ 2022, Bengaluru, dated: 31.03.2022"
+                },
+                {
+                  "Year": "2022-23",
+                  "Details of surrender proposals sent by Commissioner of Agriculture": "No. ACT/BGT/ Grant Surrender 2022-23 dated: 31/03/2023",
+                  "Amount (Rs. in lakh)": "43,824.85",
+                  "Details of Issue of GO by FD": "No. RE 45 Exp-4/ 2023, Bengaluru, dated: 31.03.2023"
+                },
+                {
+                  "Year": "Department of Horticulture",
+                  "Details of surrender proposals sent by Commissioner of Agriculture": "Department of Horticulture",
+                  "Amount (Rs. in lakh)": "Department of Horticulture",
+                  "Details of Issue of GO by FD": "Department of Horticulture"
+                },
+                {
+                  "Year": "2020-21",
+                  "Details of surrender proposals sent by Commissioner of Agriculture": "No. DH-PLN0PLNT/28/2021-PLAN/AHO-1/488877 dated: 24/06.2021 and No. DH: ACC:42:2021/103 dated: 30/06/2021",
+                  "Amount (Rs. in lakh)": "2,086.27",
+                  "Details of Issue of GO by FD": "No. RE 85 Exp-4/ 2021, Bengaluru, dated: 31.03.2021"
+                },
+                {
+                  "Year": "2021-22",
+                  "Details of surrender proposals sent by Commissioner of Agriculture": "No. DH-PLN0PLNT/28/2021-PLAN/AHO-1/488877 dated: 01/06.2022, and No. DH: ACC:26:2022 dated: 08/04/2022",
+                  "Amount (Rs. in lakh)": "7,117.77",
+                  "Details of Issue of GO by FD": "No. RE 72 Exp-4/ 2022, Bengaluru, dated: 31.03.2022"
+                },
+                {
+                  "Year": "2022-23",
+                  "Details of surrender proposals sent by Commissioner of Agriculture": "No. DH-PLN0PLNT/12/2022-PLAN/AHO-1/74266 dated: 09/05/2022",
+                  "Amount (Rs. in lakh)": "5,404.29",
+                  "Details of Issue of GO by FD": "No. RE 50 Exp-4/ 2023, Bengaluru, dated: 31.03.2023"
+                },
+                {
+                  "Year": "Department of Sericulture",
+                  "Details of surrender proposals sent by Commissioner of Agriculture": "Department of Sericulture",
+                  "Amount (Rs. in lakh)": "Department of Sericulture",
+                  "Details of Issue of GO by FD": "Department of Sericulture"
+                },
+                {
+                  "Year": "2021-22",
+                  "Details of surrender proposals sent by Commissioner of Agriculture": "No. DOS: AGEN0CW4(ASUR) /1/ 2022 dated: 28.04.2022",
+                  "Amount (Rs. in lakh)": "1,067.58",
+                  "Details of Issue of GO by FD": "No. RE 69 Exp-4/ 2022, Bengaluru, dated: 31.03.2022"
+                },
+                {
+                  "Year": "2022-23",
+                  "Details of surrender proposals sent by Commissioner of Agriculture": "No. DOS/ACTG/15/2023 dated: 28/04/2023",
+                  "Amount (Rs. in lakh)": 904.58,
+                  "Details of Issue of GO by FD": "No. RE 46 Exp-4/ 2023, Bengaluru, dated: 31.03.2023"
+                }
+              ],
+              "Table21":[
+                {
+                  "Head of Account": "Head of Account",
+                  "Total expenditure": "Amount in rupees",
+                  "Expenditure in last quarter": "amt",
+                  "expn": "As percentage of total expenditure",
+                  "Expenditure in march": "Amount in rupees",
+                  "expn march": "As percentage of total expenditure"
+                },
+                {
+                  "Head of Account": "2401-00-001-1-14-059 Other Expenses",
+                  "Total expenditure": "2,42,60,048",
+                  "Expenditure in last quarter": "2,42,60,048",
+                  "expn": 100,
+                  "Expenditure in march": "2,42,60,048",
+                  "expn march": 100
+                },
+                {
+                  "Head of Account": "2401-00-114-0-01-059 Other Expenses",
+                  "Total expenditure": "15,00,000",
+                  "Expenditure in last quarter": "15,00,000",
+                  "expn": 100,
+                  "Expenditure in march": "15,00,000",
+                  "expn march": 100
+                },
+                {
+                  "Head of Account": "2401-00-800-1-05-100- Financial Assistance/Relief",
+                  "Total expenditure": "8,30,05,78,000",
+                  "Expenditure in last quarter": "8,30,05,78,000",
+                  "expn": 100,
+                  "Expenditure in march": "8,30,05,78,000",
+                  "expn march": 100
+                },
+                {
+                  "Head of Account": "2401-00-800-1-05-422 SCSP",
+                  "Total expenditure": "80,65,00,000",
+                  "Expenditure in last quarter": "80,65,00,000",
+                  "expn": 100,
+                  "Expenditure in march": "80,65,00,000",
+                  "expn march": 100
+                },
+                {
+                  "Head of Account": "2401-00-800-1-05-423 TSP",
+                  "Total expenditure": "49,07,54,000",
+                  "Expenditure in last quarter": "49,07,54,000",
+                  "expn": 100,
+                  "Expenditure in march": "49,07,54,000",
+                  "expn march": 100
+                },
+                {
+                  "Head of Account": "2402-00-101-0-03-422 SCSP",
+                  "Total expenditure": "₹ 17,08,000",
+                  "Expenditure in last quarter": "17,08,000",
+                  "expn": 100,
+                  "Expenditure in march": "17,08,000",
+                  "expn march": 100
+                },
+                {
+                  "Head of Account": "2402-00-101-0-04-422- SCSP",
+                  "Total expenditure": "11,39,000",
+                  "Expenditure in last quarter": "11,39,000",
+                  "expn": 100,
+                  "Expenditure in march": "11,39,000",
+                  "expn march": 100
+                },
+                {
+                  "Head of Account": "2402-00-101-0-03-059 Other Expenses",
+                  "Total expenditure": "87,37,000",
+                  "Expenditure in last quarter": "87,35,256",
+                  "expn": 99.98,
+                  "Expenditure in march": "87,35,256",
+                  "expn march": 99.98
+                },
+                {
+                  "Head of Account": "2402-00-101-0-04-059 Other Expenses",
+                  "Total expenditure": "58,25,000",
+                  "Expenditure in last quarter": "58,23,837",
+                  "expn": 99.98,
+                  "Expenditure in march": "58,23,837",
+                  "expn march": 99.98
+                },
+                {
+                  "Head of Account": "2401-00-108-2-58-059 Other Expenses",
+                  "Total expenditure": "6,00,00,000",
+                  "Expenditure in last quarter": "5,92,00,000",
+                  "expn": 98.67,
+                  "Expenditure in march": "5,92,00,000",
+                  "expn march": 98.67
+                },
+                {
+                  "Head of Account": "2401-00-108-2-30-059 Other Expenses",
+                  "Total expenditure": "6,76,00,000",
+                  "Expenditure in last quarter": "6,64,00,000",
+                  "expn": 98.22,
+                  "Expenditure in march": "6,64,00,000",
+                  "expn march": 98.22
+                },
+                {
+                  "Head of Account": "2401-00-001-1-01-103 Grants-in-aid",
+                  "Total expenditure": "18,46,27,000",
+                  "Expenditure in last quarter": "18,07,51,000",
+                  "expn": 97.9,
+                  "Expenditure in march": "17,68,77,000",
+                  "expn march": 95.8
+                },
+                {
+                  "Head of Account": "2401-00-119-4-06-059 Other Expenses",
+                  "Total expenditure": "2,04,78,000",
+                  "Expenditure in last quarter": "2,00,00,000",
+                  "expn": 97.67,
+                  "Expenditure in march": "2,00,00,000",
+                  "expn march": 97.67
+                }
+              ],
+              "Table22":[
+                {
+                  "Year": "2020-21",
+                  "Due date to send estimates by the Department": "26-10-2019",
+                  "Department": "Agriculture",
+                  "Date of submission to FD": "02-12-2019",
+                  "Delay (days)": 37
+                },
+                {
+                  "Year": "2020-21",
+                  "Due date to send estimates by the Department": "26-10-2019",
+                  "Department": "Horticulture",
+                  "Date of submission to FD": "02-12-2019",
+                  "Delay (days)": 37
+                },
+                {
+                  "Year": "2020-21",
+                  "Due date to send estimates by the Department": "26-10-2019",
+                  "Department": "Sericulture",
+                  "Date of submission to FD": "19-11-2019",
+                  "Delay (days)": 23
+                },
+                {
+                  "Year": "2021-22",
+                  "Due date to send estimates by the Department": "13-11-2020",
+                  "Department": "Agriculture and Horticulture",
+                  "Date of submission to FD": "01-12-2020",
+                  "Delay (days)": 18
+                },
+                {
+                  "Year": "2021-22",
+                  "Due date to send estimates by the Department": "13-11-2020",
+                  "Department": "Sericulture",
+                  "Date of submission to FD": "17-11-2020",
+                  "Delay (days)": 3
+                },
+                {
+                  "Year": "2022-23",
+                  "Due date to send estimates by the Department": "20-11-2021",
+                  "Department": "Horticulture",
+                  "Date of submission to FD": "24-01-2022",
+                  "Delay (days)": 65
+                },
+                {
+                  "Year": "2022-23",
+                  "Due date to send estimates by the Department": "20-11-2021",
+                  "Department": "Sericulture",
+                  "Date of submission to FD": "07-12-2021",
+                  "Delay (days)": 17
+                },
+                {
+                  "Year": "2022-23",
+                  "Due date to send estimates by the Department": "20-11-2021",
+                  "Department": "Horticulture",
+                  "Date of submission to FD": "25-11-2021",
+                  "Delay (days)": 5
+                },
+                {
+                  "Year": "2022-23",
+                  "Due date to send estimates by the Department": "20-11-2021",
+                  "Department": "Sericulture",
+                  "Date of submission to FD": "07-12-2021",
+                  "Delay (days)": 17
+                }
+              ],
+            "Table23":[
+                {
+                  "Name of the Sub-scheme": "Upgradation of DATC in Belthangady and Kagathi",
+                  "Year": "2021-22",
+                  "Expenditure as per SNA": 4.6,
+                  "Expenditure as per Implementing Agency": 0.8,
+                  "Difference in Expenditure": 3.8,
+                  "Name of Implementing Agency": "KRIDL"
+                },
+                {
+                  "Name of the Sub-scheme": "Construction of 28 RSK Godowns",
+                  "Year": "2021-22",
+                  "Expenditure as per SNA": 19,
+                  "Expenditure as per Implementing Agency": 17.23,
+                  "Difference in Expenditure": 1.77,
+                  "Name of Implementing Agency": "KRIDL"
+                },
+                {
+                  "Name of the Sub-scheme": "Construction of 52 RSK Godowns",
+                  "Year": "2022-23",
+                  "Expenditure as per SNA": 19,
+                  "Expenditure as per Implementing Agency": 17.23,
+                  "Difference in Expenditure": 1.77,
+                  "Name of Implementing Agency": "KRIDL"
+                },
+                {
+                  "Name of the Sub-scheme": "Construction of 20 RSK Buildings",
+                  "Year": "2022-23",
+                  "Expenditure as per SNA": 20,
+                  "Expenditure as per Implementing Agency": 2.28,
+                  "Difference in Expenditure": 17.72,
+                  "Name of Implementing Agency": "KRIDL"
+                },
+                {
+                  "Name of the Sub-scheme": "Strengthening of Seed Farms",
+                  "Year": "2020-21",
+                  "Expenditure as per SNA": 14.08,
+                  "Expenditure as per Implementing Agency": 9.85,
+                  "Difference in Expenditure": 4.23,
+                  "Name of Implementing Agency": "Engineering Wing of Health and Family Welfare Department"
+                },
+                {
+                  "Name of the Sub-scheme": "Upgradation of DATC in Shivamogga and Bagalkote",
+                  "Year": "2020-21",
+                  "Expenditure as per SNA": 3.06,
+                  "Expenditure as per Implementing Agency": 1.41,
+                  "Difference in Expenditure": 1.65,
+                  "Name of Implementing Agency": "Engineering Wing of Health and Family Welfare Department"
+                },
+                {
+                  "Name of the Sub-scheme": "Construction of RSK Buildings",
+                  "Year": "2020-21",
+                  "Expenditure as per SNA": 18,
+                  "Expenditure as per Implementing Agency": 5.2,
+                  "Difference in Expenditure": 12.8,
+                  "Name of Implementing Agency": "Engineering Wing of Health and Family Welfare Department"
+                },
+                {
+                  "Name of the Sub-scheme": "Total",
+                  "Year": "",
+                  "Expenditure as per SNA": 78.74,
+                  "Expenditure as per Implementing Agency": 36.77,
+                  "Difference in Expenditure": 41.97,
+                  "Name of Implementing Agency": "Engineering Wing of Health and Family Welfare Department"
+                }
+              ],
+        
             "Table10": [
                 {
                   "Head of Account": "4210-01-110-1-22-132 Capital Expenses",
