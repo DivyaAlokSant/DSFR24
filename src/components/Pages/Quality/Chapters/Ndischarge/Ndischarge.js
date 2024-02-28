@@ -6,7 +6,6 @@ import { MyContext } from '../../../../../Context/MyProvider';
 import Para from "../../../../Para/Para"
 import Title from "../../../../Title/Title";
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton"
-import Table5a from "../../../Tables/Chapter4/Table5a";
 import CustomTable from "../../../../CustomTable/CustomTable";
 import Table4kan from "../../../Tables/Chapter4kan/Table4";
 import Table4akan from "../../../Tables/Chapter4kan/Table4a";
@@ -19,15 +18,7 @@ const Ndischarge = () => {
 
     const ctx = useContext(MyContext)
 
-    const [url, setURL] = useState("");
-
-    getFirebase()
-        .storage()
-        .ref('/pdfs/chart41.png')
-        .getDownloadURL()
-        .then((url) => {
-            setURL(url);
-        });
+    
 
 
     return (
