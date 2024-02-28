@@ -7,13 +7,7 @@ import Navbar from "../../../../Navbar/Navbar";
 import { FaSpinner } from "react-icons/fa";
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton";
 import "./../../Budget.css";
-//import Table11 from "../../../Tables/Chapter3/Table11";
-//import Table12 from "../../../Tables/Chapter3/Table12";
-//import Table13 from "../../../Tables/Chapter3/Table13";
-//import Table14 from "../../../Tables/Chapter3/Table14";
-//import Table15 from "../../../Tables/Chapter3/Table15";
-//import Table16 from "../../../Tables/Chapter3/Table16";
-//import Table17 from "../../../Tables/Chapter3/Table17";
+
 import CustomTable from "../../../../CustomTable/CustomTable";
 import Table10kan from '../../../Tables/Chapter3kan/Table10'
 import Table11kan from '../../../Tables/Chapter3kan/Table11'
@@ -116,6 +110,16 @@ const Outcome = () => {
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
+      <h3 className='headnote'>
+            ₹ In crore
+          </h3>
+          <CustomTable title={"Table 3.13: Heads of Accounts with Persistent Savings in Grant No.1"}
+            columns={ctx.tables3.Table18}
+            data={ctx.tables3.Table18} />
+           <h4>
+            Source:Grant Register, Voucher Level Computerisation cell,O/o AG A&E, Karnataka
+        </h4>
+
       <Subtitle>
         {ctx.chapterThree.Profile["para149"]}
       </Subtitle>
@@ -124,6 +128,19 @@ const Outcome = () => {
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
+      <h3 className='headnote'>
+            ₹ In crore
+          </h3>
+          <CustomTable title={"Table 3.14: Details of Anticipated Savings Surrendered/Partially Surrendered"}
+            columns={ctx.tables3.Table19}
+            data={ctx.tables3.Table19} />
+           <h4>
+            Source:Grant Register, Voucher Level Computerisation cell,O/o AG A&E, Karnataka
+        </h4>
+
+
+
+
       {["para152","para153","para154","para155"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
@@ -137,6 +154,17 @@ const Outcome = () => {
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
+      <h3 className='headnote'>
+            
+          </h3>
+          <CustomTable title={"Table 3.15: Details of proposals for surrender and their acceptance"}
+            columns={ctx.tables3.Table20}
+            data={ctx.tables3.Table20} />
+           <h4>
+            
+        </h4>
+
+      
       {["para158","para159"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
@@ -150,6 +178,16 @@ const Outcome = () => {
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
+       <h3 className='headnote'>
+            
+            </h3>
+            <CustomTable title={"Table 3.16: Rush of Expenditure"}
+              columns={ctx.tables3.Table21}
+              data={ctx.tables3.Table21} />
+             <h4>
+              
+          </h4>
+         
       {["para164","para165","para166"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
@@ -174,6 +212,17 @@ const Outcome = () => {
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
+      <h3 className='headnote'>
+            
+            </h3>
+            <CustomTable title={"Table 3.17: Details of delay in submission of Budget Estimates"}
+              columns={ctx.tables3.Table22}
+              data={ctx.tables3.Table22} />
+             <h4>
+              
+          </h4>
+
+
       {["para175"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
@@ -195,6 +244,17 @@ const Outcome = () => {
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
+     <h3 className='headnote'>
+            
+            </h3>
+            <CustomTable title={"Table 3.18: Details of expenditure incurred as per SNA and implementing Agencies"}
+              columns={ctx.tables3.Table23}
+              data={ctx.tables3.Table23} />
+             <h4>
+              
+          </h4>
+
+
     
     <Subtitle>
         {ctx.chapterThree.Profile["para181"]}
