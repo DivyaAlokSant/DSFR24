@@ -280,6 +280,16 @@ const Outcome = () => {
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
+       <h3 className='headnote'>
+            
+            </h3>
+            <CustomTable title={"Table 3.19: Details of expenditure incurred as per SNA and implementing Agencies"}
+              columns={ctx.tables3.Table24}
+              data={ctx.tables3.Table24} />
+             <h4>
+              
+          </h4>
+
       <Subtitle>
         {ctx.chapterThree.Profile["para189"]}
       </Subtitle>
@@ -296,6 +306,17 @@ const Outcome = () => {
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
+      <h3 className='headnote'>
+            
+        </h3>
+        <CustomTable title={"Table 3.20: CSS Scheme and Designated Bank for SNA Account"}
+              columns={ctx.tables3.Table25}
+              data={ctx.tables3.Table25} />
+          <h4>
+              
+        </h4>
+
+
        <Subtitle>
         {ctx.chapterThree.Profile["para194"]}
       </Subtitle>
@@ -304,6 +325,17 @@ const Outcome = () => {
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
+       <h3 className='headnote'>
+            
+            </h3>
+            <CustomTable title={"Table 3.21: Variation in figures"}
+                  columns={ctx.tables3.Table26}
+                  data={ctx.tables3.Table26} />
+              <h4>
+                  
+            </h4>
+
+
       {["para196"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
@@ -339,6 +371,16 @@ const Outcome = () => {
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
+      <h3 className='headnote'>
+            
+            </h3>
+            <CustomTable title={""}
+                  columns={ctx.tables3.Table27}
+                  data={ctx.tables3.Table27} />
+              <h4>
+                  
+            </h4>
+
       <Subtitle>
         {ctx.chapterThree.Profile["para213"]}
       </Subtitle>
@@ -355,6 +397,18 @@ const Outcome = () => {
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
+      <h3 className='headnote'>
+            
+            </h3>
+            <CustomTable title={"Table 3.22: Budget and expenditure under the Department of Health and Family Welfare Services for the years 2020-21 to 2022-23"}
+                  columns={ctx.tables3.Table28}
+                  data={ctx.tables3.Table28} />
+              <h4>
+               Source: Appropriation Accounts   
+            </h4>
+
+
+
       {["para218"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
@@ -368,6 +422,17 @@ const Outcome = () => {
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
+       <h3 className='headnote'>
+         (₹ In lakh)
+            </h3>
+            <CustomTable title={"Table 3.23: Persistent Savings"}
+                  columns={ctx.tables3.Table29}
+                  data={ctx.tables3.Table29} />
+              <h4>
+               Source: Grant Register   
+            </h4>
+
+
       <Subtitle>
         {ctx.chapterThree.Profile["para222"]}
       </Subtitle>
@@ -376,6 +441,17 @@ const Outcome = () => {
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
+       <h3 className='headnote'>
+         (₹ In lakh)
+            </h3>
+            <CustomTable title={"Table 3.24: Rush of Expenditure"}
+                  columns={ctx.tables3.Table30}
+                  data={ctx.tables3.Table30} />
+              <h4>
+               Source: Grant Register   
+            </h4>
+
+
       <Subtitle>
         {ctx.chapterThree.Profile["para224"]}
       </Subtitle>
@@ -385,8 +461,19 @@ const Outcome = () => {
             )
           )}
       <Subtitle>
-        {ctx.chapterThree.Profile["para227"]}
+        {ctx.chapterThree.Profile["para227","para227a"]}
       </Subtitle>
+      <h3 className='headnote'>
+      
+            </h3>
+            <CustomTable title={"Table 3.25: Variation in expenditure for the year 2022-23 in respect of two CSS implemented by Health and Family Welfare Department"}
+                  columns={ctx.tables3.Table31}
+                  data={ctx.tables3.Table31} />
+              <h4>
+                
+            </h4>
+
+
       {["para228"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>

@@ -30890,6 +30890,7 @@
                   "2022 23": 35.79
                 }
               ],
+              
             "T4H2": "(₹ in crore)",
             "T19H2": "(₹ in crore)",
             "T15H1": "Variation in Revenue expenditure during 2020-21 compared to 2019-20",
@@ -37560,6 +37561,332 @@
                   "Name of Implementing Agency": "Engineering Wing of Health and Family Welfare Department"
                 }
               ],
+              "Table24":[
+                {
+                  "Year": "2022-23",
+                  "Department of Agriculture (SNA)": 79.6,
+                  "PFMS Portal (GoI)": 204.3,
+                  "State Treasury - Khajane 2 integrated with PFMS": 230.52
+                }
+              ],
+              "Table25":[
+                
+                    {
+                      "Central Plan Scheme": "National Food Security Mission",
+                      "Designated Bank for SNA account": "HDFC Bank"
+                    },
+                    {
+                      "Central Plan Scheme": "Grants for implementing Coconut Development Board Schemes/ Programme",
+                      "Designated Bank for SNA account": "Axis Bank"
+                    },
+                    {
+                      "Central Plan Scheme": "Pramparagath Krishi Vikas Yojana",
+                      "Designated Bank for SNA account": "ICICI Bank"
+                    }
+                  
+
+              ],
+              "Table26":[
+                {
+                  "Head": "GoI releases directly to implementing agencies.",
+                  "Reflected in Khajane - 2": 5.52,
+                  "Reflected in PFMS portal": 5.52
+                },
+                {
+                  "Head": "Amount released to SNA by treasury",
+                  "Reflected in Khajane - 2": 3.69,
+                  "Reflected in PFMS portal": 3.71
+                },
+                {
+                  "Head": "Total Expenditure",
+                  "Reflected in Khajane - 2": 7.55,
+                  "Reflected in PFMS portal": 7.46
+                },
+                {
+                  "Head": "Balance as indicated",
+                  "Reflected in Khajane - 2": 1.66,
+                  "Reflected in PFMS portal": 1.77
+                }
+              
+
+              ],
+            "Table27":[
+                
+                    {
+                      "c": 2211,
+                      "Medical and Public Health": "Family Welfare"
+                    },
+                    {
+                      "c": 4210,
+                      "Medical and Public Health": "Capital Outlay on Medical and Public Health"
+                    }
+                  
+
+
+            ],
+            "Table28":[
+                {
+                  "Year": "Health and Family Welfare Services",
+                  "Section (All voted, including supplementary provisions)": "",
+                  "Budget Provision": "",
+                  "Expenditure": "",
+                  "Unutilised provision": "",
+                  "Percentage of unutilised provision": ""
+                },
+                {
+                  "Year": "2020-21",
+                  "Section (All voted, including supplementary provisions)": "Revenue",
+                  "Budget Provision": 4722.04,
+                  "Expenditure": 4530.2,
+                  "Unutilised provision": 191.84,
+                  "Percentage of unutilised provision": 4.06
+                },
+                {
+                  "Year": "",
+                  "Section (All voted, including supplementary provisions)": "Capital",
+                  "Budget Provision": 285.6,
+                  "Expenditure": 157.53,
+                  "Unutilised provision": 128.07,
+                  "Percentage of unutilised provision": 44.84
+                },
+                {
+                  "Year": "2021-22",
+                  "Section (All voted, including supplementary provisions)": "Revenue",
+                  "Budget Provision": 7285.99,
+                  "Expenditure": 6904.68,
+                  "Unutilised provision": 381.31,
+                  "Percentage of unutilised provision": 5.23
+                },
+                {
+                  "Year": "",
+                  "Section (All voted, including supplementary provisions)": "Capital",
+                  "Budget Provision": 572.93,
+                  "Expenditure": 500.97,
+                  "Unutilised provision": 71.96,
+                  "Percentage of unutilised provision": 12.56
+                },
+                {
+                  "Year": "2022-23",
+                  "Section (All voted, including supplementary provisions)": "Revenue",
+                  "Budget Provision": 5797.62,
+                  "Expenditure": 4860.06,
+                  "Unutilised provision": 937.56,
+                  "Percentage of unutilised provision": 16.17
+                },
+                {
+                  "Year": "",
+                  "Section (All voted, including supplementary provisions)": "Capital",
+                  "Budget Provision": 766.4,
+                  "Expenditure": 607.65,
+                  "Unutilised provision": 158.75,
+                  "Percentage of unutilised provision": 20.71
+                },
+                {
+                  "Year": "Ayush",
+                  "Section (All voted, including supplementary provisions)": "",
+                  "Budget Provision": "",
+                  "Expenditure": "",
+                  "Unutilised provision": "",
+                  "Percentage of unutilised provision": ""
+                },
+                {
+                  "Year": "2020-21",
+                  "Section (All voted, including supplementary provisions)": "Revenue",
+                  "Budget Provision": 168.51,
+                  "Expenditure": 163.53,
+                  "Unutilised provision": 4.98,
+                  "Percentage of unutilised provision": 2.96
+                },
+                {
+                  "Year": "",
+                  "Section (All voted, including supplementary provisions)": "Capital",
+                  "Budget Provision": 35,
+                  "Expenditure": 13.98,
+                  "Unutilised provision": 21.02,
+                  "Percentage of unutilised provision": 60.06
+                },
+                {
+                  "Year": "2021-22",
+                  "Section (All voted, including supplementary provisions)": "Revenue",
+                  "Budget Provision": 180,
+                  "Expenditure": 170.02,
+                  "Unutilised provision": 9.98,
+                  "Percentage of unutilised provision": 5.54
+                },
+                {
+                  "Year": "",
+                  "Section (All voted, including supplementary provisions)": "Capital",
+                  "Budget Provision": 20,
+                  "Expenditure": 19.57,
+                  "Unutilised provision": 0.43,
+                  "Percentage of unutilised provision": 2.15
+                },
+                {
+                  "Year": "2022-23",
+                  "Section (All voted, including supplementary provisions)": "Revenue",
+                  "Budget Provision": 199.11,
+                  "Expenditure": 203.96,
+                  "Unutilised provision": "(-)4.85",
+                  "Percentage of unutilised provision": "(-)2.44"
+                },
+                {
+                  "Year": "",
+                  "Section (All voted, including supplementary provisions)": "Capital",
+                  "Budget Provision": 15,
+                  "Expenditure": 12.87,
+                  "Unutilised provision": 2.13,
+                  "Percentage of unutilised provision": 14.2
+                },
+                {
+                  "Year": "Drugs Controller",
+                  "Section (All voted, including supplementary provisions)": "",
+                  "Budget Provision": "",
+                  "Expenditure": "",
+                  "Unutilised provision": "",
+                  "Percentage of unutilised provision": ""
+                },
+                {
+                  "Year": "2020-21",
+                  "Section (All voted, including supplementary provisions)": "Revenue",
+                  "Budget Provision": 56.38,
+                  "Expenditure": 53.49,
+                  "Unutilised provision": 2.89,
+                  "Percentage of unutilised provision": 5.13
+                },
+                {
+                  "Year": "",
+                  "Section (All voted, including supplementary provisions)": "Capital",
+                  "Budget Provision": 9.01,
+                  "Expenditure": 1.45,
+                  "Unutilised provision": 7.56,
+                  "Percentage of unutilised provision": 83.91
+                },
+                {
+                  "Year": "2021-22",
+                  "Section (All voted, including supplementary provisions)": "Revenue",
+                  "Budget Provision": 50.14,
+                  "Expenditure": 46.18,
+                  "Unutilised provision": 3.96,
+                  "Percentage of unutilised provision": 7.9
+                },
+                {
+                  "Year": "",
+                  "Section (All voted, including supplementary provisions)": "Capital",
+                  "Budget Provision": 9.79,
+                  "Expenditure": 7.4,
+                  "Unutilised provision": 2.39,
+                  "Percentage of unutilised provision": 24.41
+                },
+                {
+                  "Year": "2022-23",
+                  "Section (All voted, including supplementary provisions)": "Revenue",
+                  "Budget Provision": 67.25,
+                  "Expenditure": 64.52,
+                  "Unutilised provision": 2.73,
+                  "Percentage of unutilised provision": 4.06
+                },
+                {
+                  "Year": "",
+                  "Section (All voted, including supplementary provisions)": "Capital",
+                  "Budget Provision": 2.93,
+                  "Expenditure": 1.8,
+                  "Unutilised provision": 1.13,
+                  "Percentage of unutilised provision": 38.57
+                }
+              ],
+            "Table29":[
+                
+                    {
+                      "Head of Account": "2210-03-104-0-02-Community Mental Health Programme in all districts",
+                      "Savings 2020-21": 154.84,
+                      "Savings 2021-22": 159.85,
+                      "Savings 2022-23": 118.52
+                    },
+                    {
+                      "Head of Account": "2210-05-101-3-Departmental Drugs Manufacture",
+                      "Savings 2020-21": 39.43,
+                      "Savings 2021-22": 65.4,
+                      "Savings 2022-23": 53.38
+                    },
+                    {
+                      "Head of Account": "2210-06-003-0-23-Health-Information, Education and Communication",
+                      "Savings 2020-21": 113.35,
+                      "Savings 2021-22": 156.98,
+                      "Savings 2022-23": 3.67
+                    },
+                    {
+                      "Head of Account": "2210-06-104-0-01-Drugs Controller",
+                      "Savings 2020-21": 307.36,
+                      "Savings 2021-22": 269.49,
+                      "Savings 2022-23": 189.53
+                    },
+                    {
+                      "Head of Account": "2210-80-800-0-18-Arogya Kavacha",
+                      "Savings 2020-21": "14,368.66",
+                      "Savings 2021-22": "12,795.01",
+                      "Savings 2022-23": "16,616.78"
+                    },
+                    {
+                      "Head of Account": "4210-03-105-2-03-Buildings -Drugs Controller",
+                      "Savings 2020-21": 755,
+                      "Savings 2021-22": 146,
+                      "Savings 2022-23": 112.71
+                    }
+                  
+            ],
+            "Table30":[
+                
+                    {
+                      "HOA/Nomenclature": "CSS-Central Share-PM Ayushman Bharat Health Infrastructure Mission 2210-01-200-0-05",
+                      "Total Expenditure": "3,384.00",
+                      "Expenditure during last quarter(Amount)": "3,384.00",
+                      "Expenditure during last quarter(Percentage)": 100,
+                      "Expenditure during March(Amount)": "3,384.00",
+                      "Expenditure during March(Percentage)": 100
+                    },
+                    {
+                      "HOA/Nomenclature": "CSS-State Share-PM Ayushman Bharat Health Infrastructure Mission 2210-01-200-0-06",
+                      "Total Expenditure": "2,256.00",
+                      "Expenditure during last quarter(Amount)": "2,256.00",
+                      "Expenditure during last quarter(Percentage)": 100,
+                      "Expenditure during March(Amount)": "2,256.00",
+                      "Expenditure during March(Percentage)": 100
+                    },
+                    {
+                      "HOA/Nomenclature": "Purchase of Ambulance(Arogya Kavacha - 108) 4210-04-200-2-01",
+                      "Total Expenditure": "9,399.00",
+                      "Expenditure during last quarter(Amount)": "9,399.00",
+                      "Expenditure during last quarter(Percentage)": 100,
+                      "Expenditure during March(Amount)": "9,399.00",
+                      "Expenditure during March(Percentage)": 100
+                    },
+                    {
+                      "HOA/Nomenclature": "Unspent SCSP-TSP Amount as per the SCSP-TSP Act 2013, 4210-80-800-0-01",
+                      "Total Expenditure": "1,852.86",
+                      "Expenditure during last quarter(Amount)": "1,852.86",
+                      "Expenditure during last quarter(Percentage)": 100,
+                      "Expenditure during March(Amount)": "1,852.86",
+                      "Expenditure during March(Percentage)": 100
+                    }
+                  
+            ],
+            "Table31":[
+                {
+                  "Name of the Scheme": "National Health Mission",
+                  "Expenditure as per SNA": "1,831.42",
+                  "Expenditure as per PFMS Portal": "1,995.39",
+                  "Expenditure as per Khajane 2": 755.61
+                },
+                {
+                  "Name of the Scheme": "Pradhan Mantri Ayushman Bharat Health Infrastructure Mission",
+                  "Expenditure as per SNA": 18.75,
+                  "Expenditure as per PFMS Portal": 18.68,
+                  "Expenditure as per Khajane 2": 18.75
+                }
+              
+
+
+            ],
         
             "Table10": [
                 {
@@ -38335,6 +38662,7 @@
             "para225":"With a view to have more effective cash management and bring more efficiency in the public expenditure management, GoI implemented (July 2021) procedure for release and monitoring utilization of funds under Centrally Sponsored Schemes (CSS).  The guidelines issued in this regard stated that the State Governments were required to designate a Single Nodal Agency (SNA) for implementing CSS.  The guidelines issued gives detailed procedures for opening SNA Account, Accounts of Implementing Agencies, transfer of funds to SNA Account, transfer of interest received in the SNA Account to the Consolidated Fund of India or State etc.  ",
             "para226":"In Karnataka, two CSS viz., National Health Mission and Pradhan Mantri Ayushman Bharat Health Infrastructure Mission under Health and Family Welfare Department are being implemented through Karnataka State Health and Family Welfare Society.  Scrutiny of adherence to the guidelines revealed the following:",
             "para227":"(a) Non-reconciliation of expenditure",
+            "para227a":"The total expenditure in respect of the above two CSS in the records of the SNA varied from that indicated in PFMS Portal and State Treasury- Khajane 2.  The details of the expenditure indicated in these are indicated in the Table 3.25. ",
             "para228":"The variation in the expenditure between the SNA, PFMS and Khajane indicated that the expenditure was not reconciled. Further, it indicates that the expenditure was not validated before uploading it in the PFMS portal.",
             "para229":"(b) Delay in release of funds",
             "para230":"The guidelines issued by the GoI specified that the State Government had to transfer the Central Share of the CSS received in its account in the RBI to the concerned SNA account within a period of 21 days of its receipt.  Further it specified that the State Share was required to be released within 40 days of the release of Central share.",
