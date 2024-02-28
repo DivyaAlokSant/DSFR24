@@ -134,8 +134,471 @@
         "para133":"5.17 Recommendations",
         "para134":" Delay in submission of accounts would attract levy of fines and/or imprisonment as per the provisions of section 129(7) of the Companies Act, 2013. Hence, Government must fix responsibility on the concerned Chief Executive Officers/Chief Managing Directors for such delays.",
         "para135":" The State Government must re-iterate its directives for dividend payout to all profit earning SPSEs to ensure its compliance and  improve its Return on Equity (RoE).",
-        "para136":" The non-working SPSEs are neither contributing to the State economy nor meeting the intended objectives. Hence, the State Government must expedite the liquidation process in respect of all non-working SPSEs."
-        
+        "para136":" The non-working SPSEs are neither contributing to the State economy nor meeting the intended objectives. Hence, the State Government must expedite the liquidation process in respect of all non-working SPSEs.",
+        "tables": {
+            "Table1": [
+                {
+                  "Particulars": "Number of SPSEs / Corporations",
+                  "2020-21": 124,
+                  "2021-22": 125,
+                  "2022-23": 127
+                },
+                {
+                  "Particulars": "Turnover",
+                  "2020-21": "77,635.92",
+                  "2021-22": "77,410.25",
+                  "2022-23": "88,824.60"
+                },
+                {
+                  "Particulars": "GSDP of Karnataka",
+                  "2020-21": "16,25,073",
+                  "2021-22": "19,62,725",
+                  "2022-23": "21,81,217"
+                },
+                {
+                  "Particulars": "Percentage of Turnover to GSDP of Karnataka",
+                  "2020-21": 4.78,
+                  "2021-22": 3.94,
+                  "2022-23": 4.07
+                }
+              ],
+            "Table2": [
+                {
+                  "Name of the Sector": "Power",
+                  "Total Equity": "18,815.04",
+                  "State Government Contribution": "15,048.61",
+                  "Total Long Term Loans": "70,996.86",
+                  "State Government Loans": "1,730.40",
+                  "Total Equity and Long Term Loans": "89,811.90"
+                },
+                {
+                  "Name of the Sector": "Finance",
+                  "Total Equity": "3,816.34",
+                  "State Government Contribution": "3,721.48",
+                  "Total Long Term Loans": 866.27,
+                  "State Government Loans": 71.75,
+                  "Total Equity and Long Term Loans": "4,682.61"
+                },
+                {
+                  "Name of the Sector": "Service",
+                  "Total Equity": "2,349.98",
+                  "State Government Contribution": "2,300.86",
+                  "Total Long Term Loans": "1,228.95",
+                  "State Government Loans": 0,
+                  "Total Equity and Long Term Loans": "3,578.93"
+                },
+                {
+                  "Name of the Sector": "Infrastructure",
+                  "Total Equity": "92,869.99",
+                  "State Government Contribution": "91,250.51",
+                  "Total Long Term Loans": "23,744.88",
+                  "State Government Loans": "9,091.82",
+                  "Total Equity and Long Term Loans": "1,16,614.87"
+                },
+                {
+                  "Name of the Sector": "Others",
+                  "Total Equity": 759.8,
+                  "State Government Contribution": 666.93,
+                  "Total Long Term Loans": "2,487.67",
+                  "State Government Loans": "1,790.70",
+                  "Total Equity and Long Term Loans": "3,247.47"
+                },
+                {
+                  "Name of the Sector": "Total",
+                  "Total Equity": "1,18,611.15",
+                  "State Government Contribution": "1,12,988.39",
+                  "Total Long Term Loans": "99,324.63",
+                  "State Government Loans": "12,684.67",
+                  "Total Equity and Long Term Loans": "2,17,935.78"
+                }
+              ],
+              "Table3": [
+                {
+                  "Sl No": "",
+                  "Particulars": "",
+                  "2020-21": "No of SPSEs",
+                  "": "Amount",
+                  "2021-22": "No of SPSEs",
+                  "__1": "Amount",
+                  "2022-23": "No of SPSEs",
+                  "__2": "Amount"
+                },
+                {
+                  "Sl No": 1,
+                  "Particulars": "Equity",
+                  "2020-21": 4,
+                  "": 537.33,
+                  "2021-22": 7,
+                  "__1": 311.93,
+                  "2022-23": 7,
+                  "__2": 727.97
+                },
+                {
+                  "Sl No": 2,
+                  "Particulars": "Long Term Loans",
+                  "2020-21": 0,
+                  "": 0,
+                  "2021-22": 1,
+                  "__1": 150,
+                  "2022-23": 1,
+                  "__2": 396.92
+                },
+                {
+                  "Sl No": 3,
+                  "Particulars": "Grants / Subsidy",
+                  "2020-21": 6,
+                  "": "11,885.85",
+                  "2021-22": 6,
+                  "__1": "18,320.34",
+                  "2022-23": 7,
+                  "__2": "14,263.63"
+                },
+                {
+                  "Sl No": 4,
+                  "Particulars": "Total",
+                  "2020-21": "",
+                  "": "12,423.18",
+                  "2021-22": "",
+                  "__1": "18,782.27",
+                  "2022-23": "",
+                  "__2": "15,388.52"
+                },
+                {
+                  "Sl No": 5,
+                  "Particulars": "Waiver of loans and Interest",
+                  "2020-21": 0,
+                  "": 0,
+                  "2021-22": 0,
+                  "__1": 0,
+                  "2022-23": 0,
+                  "__2": 0
+                },
+                {
+                  "Sl No": 6,
+                  "Particulars": "Guarantees issued",
+                  "2020-21": 4,
+                  "": "7,250",
+                  "2021-22": 4,
+                  "__1": "3,617.14",
+                  "2022-23": 5,
+                  "__2": "8,755.47"
+                },
+                {
+                  "Sl No": 7,
+                  "Particulars": "Guarantee Commitment",
+                  "2020-21": 6,
+                  "": "10,764.30",
+                  "2021-22": 6,
+                  "__1": "12,919.08",
+                  "2022-23": 6,
+                  "__2": "16,890.47"
+                }
+              ],
+              "Table4": [
+                {
+                  "Sl. No": "",
+                  "Activity": "",
+                  "No of PSUs": "",
+                  "Investment": "Equity",
+                  "": "Long Term Loans",
+                  "__1": "Total"
+                },
+                {
+                  "Sl. No": 1,
+                  "Activity": "Power Generation",
+                  "No of PSUs": 3,
+                  "Investment": "8,822.18",
+                  "": "32,552.33",
+                  "__1": "41,374.51"
+                },
+                {
+                  "Sl. No": 2,
+                  "Activity": "Power Transmission",
+                  "No of PSUs": 1,
+                  "Investment": "2,242.67",
+                  "": "10,117.98",
+                  "__1": "12,360.65"
+                },
+                {
+                  "Sl. No": 3,
+                  "Activity": "Power Distribution",
+                  "No of PSUs": 5,
+                  "Investment": "7,749.64",
+                  "": "26,035.58",
+                  "__1": "33,785.22"
+                },
+                {
+                  "Sl. No": 4,
+                  "Activity": "Others",
+                  "No of PSUs": 2,
+                  "Investment": 0.55,
+                  "": "2,290.97",
+                  "__1": "2,291.52"
+                },
+                {
+                  "Sl. No": "",
+                  "Activity": "Total",
+                  "No of PSUs": 11,
+                  "Investment": "18,815.04",
+                  "": "70,996.86",
+                  "__1": "89,811.90"
+                }
+              ],
+              "Table5": [
+                {
+                  "Name of SPSE": "Karnataka Power Transmission Corporation Limited (KPTCL)",
+                  "Net profit earned": 828.61,
+                  "Percentage of Profit to total SPSEs profit": 26.46
+                },
+                {
+                  "Name of SPSE": "Karnataka State Minerals Corporation limited (KSMCL)",
+                  "Net profit earned": 790.92,
+                  "Percentage of Profit to total SPSEs profit": 25.25
+                },
+                {
+                  "Name of SPSE": "Karnataka State Investment and Infrastructure Development Corporation(KSIIDC)",
+                  "Net profit earned": 269.78,
+                  "Percentage of Profit to total SPSEs profit": 8.61
+                },
+                {
+                  "Name of SPSE": "Total",
+                  "Net profit earned": "1,889.31",
+                  "Percentage of Profit to total SPSEs profit": 60.32
+                }
+              ],
+              "Table6": [
+                {
+                  "Year": "2020-21",
+                  "Total No. of SPSEs": 124,
+                  "Total No. of SPSEs which earned Profit": 50,
+                  "No. of SPSEs which made dividend payout": 16,
+                  "Paid Up Capital": 208.65,
+                  "GoK Equity": 178.11,
+                  "Net Profit": 583.28,
+                  "Dividend Paid": 59.01
+                },
+                {
+                  "Year": "2021-22",
+                  "Total No. of SPSEs": 125,
+                  "Total No. of SPSEs which earned Profit": 55,
+                  "No. of SPSEs which made dividend payout": 18,
+                  "Paid Up Capital": 222.15,
+                  "GoK Equity": 191.61,
+                  "Net Profit": "1,116.45",
+                  "Dividend Paid": 189.35
+                },
+                {
+                  "Year": "2022-23",
+                  "Total No. of SPSEs": 127,
+                  "Total No. of SPSEs which earned Profit": 57,
+                  "No. of SPSEs which made dividend payout": 16,
+                  "Paid Up Capital": 220.44,
+                  "GoK Equity": 193.13,
+                  "Net Profit": "1,439.37",
+                  "Dividend Paid": 307.46
+                }
+              ],
+              "Table7": [
+                {
+                  "Year": "",
+                  "Interest": "",
+                  "Earnings before interest and tax (EBIT)": "",
+                  "Number of SPSEs having liability of loans from": "Government, and other financial institutions",
+                  "Number of companies having": "interest coverage ratio more than",
+                  "Number of companies having interest": "coverage ratio less than"
+                },
+                {
+                  "Year": "2020-21",
+                  "Interest": "9,285.89",
+                  "Earnings before interest and tax (EBIT)": "5,041.69",
+                  "Number of SPSEs having liability of loans from": 52,
+                  "Number of companies having": 15,
+                  "Number of companies having interest": 24
+                },
+                {
+                  "Year": "2021-22",
+                  "Interest": "9,887.90",
+                  "Earnings before interest and tax (EBIT)": 1873.97,
+                  "Number of SPSEs having liability of loans from": 52,
+                  "Number of companies having": 17,
+                  "Number of companies having interest": 23
+                },
+                {
+                  "Year": "2022-23",
+                  "Interest": "10,344.07",
+                  "Earnings before interest and tax (EBIT)": "7,452.80",
+                  "Number of SPSEs having liability of loans from": 51,
+                  "Number of companies having": 13,
+                  "Number of companies having interest": 26
+                }
+              ],
+              "Table8": [
+                {
+                  "Year": "2020-21",
+                  "EBIT (₹ in crore)": "5,041.69",
+                  "Capital Employed (₹ in crore)": "1,45,117.01",
+                  "ROCE (in per cent)": 3.47
+                },
+                {
+                  "Year": "2021-22",
+                  "EBIT (₹ in crore)": "1,873.97",
+                  "Capital Employed (₹ in crore)": "1,58,153.43",
+                  "ROCE (in per cent)": 1.18
+                },
+                {
+                  "Year": "2022-23",
+                  "EBIT (₹ in crore)": "7,452.80",
+                  "Capital Employed (₹ in crore)": "1,58,382.98",
+                  "ROCE (in per cent)": 4.71
+                }
+              ],
+
+              "Table9": [
+                {
+                  "Year": "2020-21",
+                  "Net Income (₹ in crore)": "(-)5,259.47",
+                  "Shareholder’s Fund (₹ in crore)": "54,429.18",
+                  "ROE (Percentage)": "-"
+                },
+                {
+                  "Year": "2021-22",
+                  "Net Income (₹ in crore)": "(-)8,839.63",
+                  "Shareholder’s Fund (₹ in crore)": "60,956.73",
+                  "ROE (Percentage)": "-"
+                },
+                {
+                  "Year": "2022-23",
+                  "Net Income (₹ in crore)": "(-)4,317.61",
+                  "Shareholder’s Fund (₹ in crore)": "62,056.99",
+                  "ROE (Percentage)": "-"
+                }
+              ],
+              "Table10": [
+                {
+                  "Year": "Statutory Corporations",
+                  "No of loss making SPSEs": "",
+                  "Net loss for the year": "",
+                  "Accumulated loss": "",
+                  "Net Worth[1]": ""
+                },
+                {
+                  "Year": "2020-21",
+                  "No of loss making SPSEs": 5,
+                  "Net loss for the year": "(-) 985.32",
+                  "Accumulated loss": "(-) 3,141.26",
+                  "Net Worth[1]": "(-) 2,464.55"
+                },
+                {
+                  "Year": "2021-22",
+                  "No of loss making SPSEs": 4,
+                  "Net loss for the year": "(-) 1,282.43",
+                  "Accumulated loss": "(-) 3,877.52",
+                  "Net Worth[1]": "(-) 2,981.46"
+                },
+                {
+                  "Year": "2022-23",
+                  "No of loss making SPSEs": 4,
+                  "Net loss for the year": "(-)1,289.96",
+                  "Accumulated loss": "(-) 5,912.82",
+                  "Net Worth[1]": "(-) 4,806.56"
+                },
+                {
+                  "Year": "Government Companies",
+                  "No of loss making SPSEs": "",
+                  "Net loss for the year": "",
+                  "Accumulated loss": "",
+                  "Net Worth[1]": ""
+                },
+                {
+                  "Year": "2020-21",
+                  "No of loss making SPSEs": 45,
+                  "Net loss for the year": "(-) 7,261.15",
+                  "Accumulated loss": "(-) 26,567.37",
+                  "Net Worth[1]": "21,844.26"
+                },
+                {
+                  "Year": "2021-22",
+                  "No of loss making SPSEs": 46,
+                  "Net loss for the year": "(-) 10,165.42",
+                  "Accumulated loss": "(-) 32,951.29",
+                  "Net Worth[1]": "25,000.29"
+                },
+                {
+                  "Year": "2022-23",
+                  "No of loss making SPSEs": 52,
+                  "Net loss for the year": "(-) 6,159.79",
+                  "Accumulated loss": "(-) 31,764.40",
+                  "Net Worth[1]": "45,491.21"
+                },
+                {
+                  "Year": "Total",
+                  "No of loss making SPSEs": "",
+                  "Net loss for the year": "",
+                  "Accumulated loss": "",
+                  "Net Worth[1]": ""
+                },
+                {
+                  "Year": "2020-21",
+                  "No of loss making SPSEs": 50,
+                  "Net loss for the year": "(-) 8,246.47",
+                  "Accumulated loss": "(-) 29,708.63",
+                  "Net Worth[1]": "19,379.71"
+                },
+                {
+                  "Year": "2021-22",
+                  "No of loss making SPSEs": 50,
+                  "Net loss for the year": "(-)11,447.85",
+                  "Accumulated loss": "(-)36,828.81",
+                  "Net Worth[1]": "22,018.83"
+                },
+                {
+                  "Year": "2022-23",
+                  "No of loss making SPSEs": 56,
+                  "Net loss for the year": "(-) 7,449.75",
+                  "Accumulated loss": "(-) 37,677.22",
+                  "Net Worth[1]": "40,684.65"
+                }
+              ],
+              "Table11": [
+                {
+                  "Particulars": "Number of accounts in arrears[1] (96 Government Companies)",
+                  "": "",
+                  "No. of SPSEs": 233
+                },
+                {
+                  "Particulars": "Break- up of Arrears",
+                  "": "(i) Under Liquidation",
+                  "No. of SPSEs": 77
+                },
+                {
+                  "Particulars": "",
+                  "": "(ii) Defunct",
+                  "No. of SPSEs": 16
+                },
+                {
+                  "Particulars": "",
+                  "": "(iii) Others",
+                  "No. of SPSEs": 140
+                },
+                {
+                  "Particulars": "Age-wise analysis of arrears against ‘Others’ category",
+                  "": "(i) One year (2022-23)",
+                  "No. of SPSEs": 62
+                },
+                {
+                  "Particulars": "",
+                  "": "(ii) Two years (2021-22 and 2022-23)",
+                  "No. of SPSEs": 14
+                },
+                {
+                  "Particulars": "",
+                  "": "(iii) Three years and more",
+                  "No. of SPSEs": 64
+                }
+              ]
+              
+
+        }
 
 
 	},
