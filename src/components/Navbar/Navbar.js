@@ -49,11 +49,7 @@ const Navbar = () => {
           <li>
             <Link to="/">About</Link>
           </li>
-          <li>
-            <a href='http://127.0.0.1:5000' target="_blank" rel="noreferrer">
-              Dashboard
-            </a>
-          </li>
+          
           <div className="dropdown">
             {ctx.langPref
               ? <p onClick={ctx.langChange} title="Switch Language" style={{ fontSize: "20px", fontWeight: "450", margin: "0px 10px 0 -30px", borderStyle: "solid" }}>ಕಖ</p>

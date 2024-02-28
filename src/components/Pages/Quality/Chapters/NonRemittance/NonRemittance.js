@@ -21,16 +21,7 @@ const NonRemittance
 
         const ctx = useContext(MyContext)
 
-        const [url, setURL] = useState("");
-
-        getFirebase()
-            .storage()
-            .ref('/pdfs/chart41a.png')
-            .getDownloadURL()
-            .then((url) => {
-                setURL(url);
-            });
-
+        
         return (
             ctx.langPref
                 ? (ctx.chapterFour
