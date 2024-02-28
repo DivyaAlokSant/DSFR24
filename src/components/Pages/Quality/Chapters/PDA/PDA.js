@@ -8,6 +8,7 @@ import Title from "../../../../Title/Title";
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton"
 import Table1 from '../../../Tables/Chapter4/Table1'
 import Subtitle from "../../../../Subtitle/Subtitle";
+import CustomTable from "../../../../CustomTable/CustomTable";
 
 
 const PDA = () => {
@@ -34,16 +35,43 @@ const PDA = () => {
                             {ctx.chapterFour.Content.para39}
                         </Para>
 
+
+                        <h3 className='headnote'>
+                            ₹ In crore
+                        </h3>
+
+                        <CustomTable title={"Table 4.7: Details of PD Accounts during the year 2022-23"}
+                            columns={ctx.tables4.Table7}
+                            data={ctx.tables4.Table7} />
+
                         <Subtitle>
                             {ctx.chapterFour.Content.para40}
                         </Subtitle>
                         <Para>
                             {ctx.chapterFour.Content.para41}
                         </Para>
+
+                        <h3 className='headnote'>
+                            ₹ In crore
+                        </h3>
+
+                        <CustomTable title={"Table 4.8: Funds kept in PD Accounts"}
+                            columns={ctx.tables4.Table8}
+                            data={ctx.tables4.Table8} />
+
                         {["para42", "para43"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterFour.Content[item]}
                             </Para>)}
+
+                            <h3 className='headnote'>
+                            ₹ In crore
+                        </h3>
+
+                        <CustomTable title={"Table 4.9: Closing balances in PD Accounts"}
+                            columns={ctx.tables4.Table9}
+                            data={ctx.tables4.Table9} />
+
                         <Para>
                             {ctx.chapterFour.Content.para44}
                         </Para>
@@ -61,6 +89,15 @@ const PDA = () => {
                             <Para key={ind / 10}>
                                 {ctx.chapterFour.Content[item]}
                             </Para>)}
+                            <h3 className='headnote'>
+                            ₹ In crore
+                        </h3>
+
+                        <CustomTable title={"Table 4.10: Information of the PD accounts opened and closed during 2018-19 to 2022-23."}
+                            columns={ctx.tables4.Table10}
+                            data={ctx.tables4.Table10} />
+
+
                         <Para>
                             {ctx.chapterFour.Content.para51}
                         </Para>
@@ -71,6 +108,15 @@ const PDA = () => {
                             <Para key={ind / 10}>
                                 {ctx.chapterFour.Content[item]}
                             </Para>)}
+
+                            <h3 className='headnote'>
+                            ₹ In crore
+                        </h3>
+
+                        <CustomTable title={"Table-4.11: Inoperative PD Accounts operated during 2022-23"}
+                            columns={ctx.tables4.Table11}
+                            data={ctx.tables4.Table11} />
+
                         {["para55", "para56"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterFour.Content[item]}
@@ -96,9 +142,28 @@ const PDA = () => {
                         <Para>
                             {ctx.chapterFour.Content.para64}
                         </Para>
+
+                        <h3 className='headnote'>
+                            ₹ In crore
+                        </h3>
+
+                        <CustomTable title={"Table 4.12: Difference in the PD Account balances depicted in the Books of Accounts  "}
+                            columns={ctx.tables4.Table12}
+                            data={ctx.tables4.Table12} />
+
                         <Para>
                             {ctx.chapterFour.Content.para65}
                         </Para>
+
+                        
+                        <h3 className='headnote'>
+                            ₹ In crore
+                        </h3>
+
+                        <CustomTable title={"Table 4.13: Difference in the figures depicted in the Books of Accounts as on 31st March 2023"}
+                            columns={ctx.tables4.Table13}
+                            data={ctx.tables4.Table13} />
+
                         <Para>
                             {ctx.chapterFour.Content.para66}
                         </Para>
@@ -142,102 +207,7 @@ const PDA = () => {
                                 {ctx.chapterFour.Content[item]}
                             </Para>)}
                         
-                        <Subtitle>
-                            {ctx.chapterFour.Content.para108}
-                        </Subtitle>
-                        <Para>
-                            {ctx.chapterFour.Content.para109}
-                        </Para>
-                        <Para>
-                            {ctx.chapterFour.Content.para110}
-                        </Para>
-                        <Para>
-                            {ctx.chapterFour.Content.para111}
-                        </Para>
-                        <Subtitle>
-                            {ctx.chapterFour.Content.para112}
-                        </Subtitle>
-                        {["para113", "para114"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterFour.Content[item]}
-                            </Para>)}
-                        <Subtitle>
-                            {ctx.chapterFour.Content.para115}
-                        </Subtitle>
-                        <Para>
-                            {ctx.chapterFour.Content.para116}
-                        </Para>
-                        <Subtitle>
-                            {ctx.chapterFour.Content.para117}
-                        </Subtitle>
-                        {["para118", "para119"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterFour.Content[item]}
-                            </Para>)}
-                        <Subtitle>
-                            {ctx.chapterFour.Content.para120}
-                        </Subtitle>
-
-                        <Subtitle>
-                            {ctx.chapterFour.Content.para121}
-                        </Subtitle>
-                        {["para122", "para123"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterFour.Content[item]}
-                            </Para>)}
-                        <Subtitle>
-                            {ctx.chapterFour.Content.para124}
-                        </Subtitle>
-                        {["para125", "para126", "para127"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterFour.Content[item]}
-                            </Para>)}
-
-                        <Subtitle>
-                            {ctx.chapterFour.Content.para128}
-                        </Subtitle>
-                        {["para129", "para130", "para131", "para132"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterFour.Content[item]}
-                            </Para>)}
-                        <Subtitle>
-                            {ctx.chapterFour.Content.para133}
-                        </Subtitle>
-                        <Para>
-                            {ctx.chapterFour.Content.para134}
-                        </Para>
-                        <Subtitle>
-                            {ctx.chapterFour.Content.para135}
-                        </Subtitle>
-                        <Para>
-                            {ctx.chapterFour.Content.para136}
-                        </Para>
-                        <Subtitle>
-                            {ctx.chapterFour.Content.para137}
-                        </Subtitle>
-                        <Para>
-                            {ctx.chapterFour.Content.para138}
-                        </Para>
-
-                        <Subtitle>
-                            {ctx.chapterFour.Content.para139}
-                        </Subtitle>
-
-                        {["para140", "para141", "para142", "para143", "para144"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterFour.Content[item]}
-                            </Para>)}
-                        <Subtitle>
-                            {ctx.chapterFour.Content.para145}
-                        </Subtitle>
-
-                        {["para146", "para147", "para148"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                <li>
-                                    {ctx.chapterFour.Content[item]}
-                                </li>
-                            </Para>)}
-
+                        
 
                     </div>
                 </div>

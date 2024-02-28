@@ -7,7 +7,7 @@ import Para from "../../../../Para/Para"
 import Title from "../../../../Title/Title";
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton"
 import Table5a from "../../../Tables/Chapter4/Table5a";
-import Table4 from "../../../Tables/Chapter4/Table4";
+import CustomTable from "../../../../CustomTable/CustomTable";
 import Table4kan from "../../../Tables/Chapter4kan/Table4";
 import Table4akan from "../../../Tables/Chapter4kan/Table4a";
 import ImageComponent from 'material-ui-image'
@@ -44,6 +44,13 @@ const Ndischarge = () => {
                             <Para key={ind / 10}>
                                 {ctx.chapterFour.Content[item]}
                             </Para>)} 
+                            <h3 className='headnote'>
+                                ₹ In crore
+                            </h3>
+
+                            <CustomTable title={"Table 4.3: Details of interest not paid"}
+                                columns={ctx.tables4.Table3}
+                                data={ctx.tables4.Table3} />    
 
                     </div>
                 </div>

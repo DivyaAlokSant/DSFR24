@@ -6,7 +6,7 @@ import { MyContext } from '../../../../../Context/MyProvider';
 import Para from "../../../../Para/Para"
 import Title from "../../../../Title/Title";
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton"
-import Table1 from '../../../Tables/Chapter4/Table1'
+import CustomTable from "../../../../CustomTable/CustomTable";
 import Subtitle from "../../../../Subtitle/Subtitle";
 
 const OB = () => {
@@ -32,6 +32,13 @@ const OB = () => {
                         <Para>
                             {ctx.chapterFour.Content.para89}
                         </Para>
+                        <h3 className='headnote'>
+                            ₹ In crore
+                        </h3>
+
+                        <CustomTable title={"Table 4.14: Balances under Suspense and Remittance Head"}
+                            columns={ctx.tables4.Table14}
+                            data={ctx.tables4.Table14} />
                         {["para90", "para91", "para92", "para93"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterFour.Content[item]}
@@ -84,10 +91,23 @@ const OB = () => {
                         <Para>
                             {ctx.chapterFour.Content.para106}
                         </Para>
+
+                        <h3 className='headnote'>
+                            ₹ In crore
+                        </h3>
+
+                        <CustomTable title={"Table 4.15: Adverse balance under DDR Heads"}
+                            columns={ctx.tables4.Table15}
+                            data={ctx.tables4.Table15} />
+                        <h3 className='footnote'>
+                            Source- Office of the AG(A&E) <br></br>
+                            Note - There was minus balance under MH 6505, 6506 and 6701, which has not been depicted in the table due to balance being less than rupees one lakh.
+                        </h3>
+
                         <Para>
                             {ctx.chapterFour.Content.para107}
                         </Para>
-                        
+
 
                     </div>
                 </div>
@@ -110,7 +130,7 @@ const OB = () => {
                             <Para key={ind / 10}>
                                 {ctx.chapter4kannada.Content[item]}
                             </Para>)}
-                            {["para80a"].map((item, ind) =>
+                        {["para80a"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter4kannada.Content[item]}
                             </Para>)}

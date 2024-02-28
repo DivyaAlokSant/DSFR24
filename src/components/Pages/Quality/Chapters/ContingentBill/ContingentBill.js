@@ -6,13 +6,13 @@ import { MyContext } from '../../../../../Context/MyProvider';
 import Para from "../../../../Para/Para"
 import Title from "../../../../Title/Title";
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton"
-import Table10 from "../../../Tables/Chapter4/Table10";
 import Table10kan from "../../../Tables/Chapter4kan/Table10";
 import c43 from '../../../../../Images/c43.png'
 import k43 from '../../../../../Images/k43.png'
 import ImageComponent from 'material-ui-image'
 import { getFirebase } from '../../../../../firebase/firebase'
 import { Chart3 as Chart3Chap4 } from '../../../Charts/Chap4Charts'
+import CustomTable from "../../../../CustomTable/CustomTable";
 const ContingentBill = () => {
 
     const ctx = useContext(MyContext)
@@ -42,9 +42,27 @@ const ContingentBill = () => {
                             <Para key={ind / 10}>
                                 {ctx.chapterFour.Content[item]}
                             </Para>)}
+
+                            <h3 className='headnote'>
+                            ₹ In crore
+                        </h3>
+
+                        <CustomTable title={"Table 4.5: Year wise progress in submission of NDC bills against the AC bills"}
+                            columns={ctx.tables4.Table5}
+                            data={ctx.tables4.Table5} />
+
                         <Para>                            
                             {ctx.chapterFour.Content.para31}  
                         </Para> 
+
+                        <h3 className='headnote'>
+                            ₹ In crore
+                        </h3>
+
+                        <CustomTable title={"Table 4.6: Age-wise pendency of AC bills"}
+                            columns={ctx.tables4.Table6}
+                            data={ctx.tables4.Table6} />
+
                         <Para>                            
                             {ctx.chapterFour.Content.para32}  
                         </Para> 

@@ -6,8 +6,7 @@ import { MyContext } from '../../../../../Context/MyProvider';
 import Para from "../../../../Para/Para"
 import Title from "../../../../Title/Title";
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton"
-import Table1 from '../../../Tables/Chapter4/Table1'
-
+import CustomTable from "../../../../CustomTable/CustomTable";
 
 const ImpactMajor = () => {
 
@@ -27,6 +26,18 @@ const ImpactMajor = () => {
                         <Para>
                             {ctx.chapterFour.Content.para116}
                         </Para>
+
+                        <h3 className='headnote'>
+                            ₹ In crore
+                        </h3>
+
+                        <CustomTable title={"Table 4.17: Impact of certain major transactions during 2022-23"}
+                            columns={ctx.tables4.Table17}
+                            data={ctx.tables4.Table17} />
+                        <h3 className='footnote'>
+                        Source: Notes to Accounts 2022-23 and Post audit analysis<br></br>
+                        </h3>
+
                     </div>
                 </div>
                 : <div>
