@@ -10,6 +10,7 @@ import Para from "../../../../Para/Para"
 import Title from "../../../../Title/Title";
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton"
 // import Table1 from '../../../Tables/Chapter4/Table1'
+import CustomTable from "../../../../CustomTable/CustomTable";
 
 
 const Submissions = () => {
@@ -30,7 +31,7 @@ const Submissions = () => {
                         <Subtitle>
                             {ctx.chapterFive.para69}
                         </Subtitle>  
-                        {["para70","para71","para72","para73","para74"].map(
+             {["para70","para71","para72","para73","para74"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
             )
@@ -38,11 +39,26 @@ const Submissions = () => {
                         <Subtitle>
                             {ctx.chapterFive.para75}
                         </Subtitle>   
-                        {["para76","para77","para78","para79"].map(
+             {["para76","para77"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
             )
-          )}     
+          )}  
+        <CustomTable title={"Table 5.11: Details of arrears in submission of accounts of SPSEs"}
+            columns={ctx.tables5.Table11}
+            data={ctx.tables5.Table11} />
+
+          <h4>
+        
+          </h4>
+        <h3 className='headnote'>
+      
+        </h3>
+          {["para78","para79"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
+            )
+          )}   
                         <Subtitle>
                             {ctx.chapterFive.para80}
                         </Subtitle>   

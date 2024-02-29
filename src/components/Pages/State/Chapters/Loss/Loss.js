@@ -10,6 +10,7 @@ import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton
 import Table10 from "../../../Tables/Chapter5/Table10";
 import Table10kan from "../../../Tables/Chapter5kan/Table10";
 // import Table1 from '../../../Tables/Chapter4/Table1'
+import CustomTable from "../../../../CustomTable/CustomTable"
 
 
 const Loss = () => {
@@ -29,19 +30,28 @@ const Loss = () => {
                         <Subtitle>
                             {ctx.chapterFive.para56}
                         </Subtitle>   
-                        {["para57","para58"].map(
+            {["para57"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
             )
-          )}       
-                        <Subtitle>
-                            {ctx.chapterFive.para63}
-                        </Subtitle>  
-                        {["para64"].map(
+          )} 
+     <CustomTable title={"Table 5.10: SPSEs that incurred losses during 2020-21 to 2022-23"}
+            columns={ctx.tables5.Table10}
+            data={ctx.tables5.Table10} />
+
+          <h4>
+        
+          </h4>
+        <h3 className='headnote'>
+            ₹ In crore
+        </h3>
+
+{["para58"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
             )
-          )}        
+          )}             
+           
                        
                     </div>
                 </div>

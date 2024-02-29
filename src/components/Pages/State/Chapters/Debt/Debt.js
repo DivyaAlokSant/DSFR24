@@ -10,7 +10,7 @@ import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton
 import Table7 from "../../../Tables/Chapter5/Table7";
 import Table7kan from "../../../Tables/Chapter5kan/Table7";
 // import Table1 from '../../../Tables/Chapter4/Table1'
-
+import CustomTable from "../../../../CustomTable/CustomTable"
 
 const Debt = () => {
 
@@ -29,7 +29,24 @@ const Debt = () => {
                         <Subtitle>
                             {ctx.chapterFive.para41}
                         </Subtitle>
-                        {["para42","para43"].map(
+        {["para42"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
+            )
+          )} 
+        <CustomTable title={"Table 5.7: Interst Coverage Ratio"}
+            columns={ctx.tables5.Table7}
+            data={ctx.tables5.Table7} />
+
+          <h4>
+        Source: Latest Financial Statement of SPSEs
+          </h4>
+          <h3 className='headnote'>
+            ₹ In crore
+          </h3>
+
+
+        {["para43"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
             )

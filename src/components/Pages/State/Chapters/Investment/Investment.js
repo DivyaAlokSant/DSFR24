@@ -14,6 +14,7 @@ import Table3kan from "../../../Tables/Chapter5kan/Table3";
 import Table4 from "../../../Tables/Chapter5/Table4";
 import Table4kan from "../../../Tables/Chapter5kan/Table4";
 //import Table1 from '../../../Tables/Chapter4/Table1'
+import CustomTable from "../../../../CustomTable/CustomTable";
 
 
 const Investment = () => {
@@ -34,11 +35,29 @@ const Investment = () => {
                         <Subtitle>
                             {ctx.chapterFive.para17}
                         </Subtitle>
-                        {["para18","para19"].map(
+                        {["para18"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
             )
           )}
+        <CustomTable title={"Table 5.2: Sector-wise investment in SPSEs"}
+            columns={ctx.tables5.Table2}
+            data={ctx.tables5.Table2} />
+
+          <h4>
+        Source: Information furnished by SPSEs
+          </h4>
+          <h3 className='headnote'>
+            ₹ In crore
+          </h3>
+
+        {["para19"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
+            )
+          )}
+
+
           <Subtitle>
                             {ctx.chapterFive.para20}
                         </Subtitle>
@@ -72,11 +91,43 @@ const Investment = () => {
                             {ctx.chapterFive.para27}
                         </Subtitle>
                         
-                        {["para28","para29","para30"].map(
+        {["para28"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
             )
           )} 
+    <CustomTable title={"Table 5.3: Details regarding budgetary support to Power Sector SPSEs by State Government"}
+            columns={ctx.tables5.Table3}
+            data={ctx.tables5.Table3} />
+
+          <h4>
+        
+          </h4>
+          <h3 className='headnote'>
+            ₹ In crore
+          </h3>
+
+          {["para29"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
+            )
+          )}
+        <CustomTable title={"Table 5.4: Activity wise Investment in Power Sector PSUs"}
+            columns={ctx.tables5.Table4}
+            data={ctx.tables5.Table4} />
+
+          <h4>
+        
+          </h4>
+          <h3 className='headnote'>
+            ₹ In crore
+          </h3>
+          {["para30"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
+            )
+          )} 
+ 
 
 
                     </div>

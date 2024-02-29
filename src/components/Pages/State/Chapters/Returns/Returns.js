@@ -12,6 +12,7 @@ import Table5kan from "../../../Tables/Chapter5kan/Table5";
 import Table6 from "../../../Tables/Chapter5/Table6";
 import Table6kan from "../../../Tables/Chapter5kan/Table6";
 // import Table1 from '../../../Tables/Chapter4/Table1'
+import CustomTable from "../../../../CustomTable/CustomTable"
 
 
 const Returns = () => {
@@ -32,27 +33,62 @@ const Returns = () => {
                             {ctx.chapterFive.para32}
                         </Subtitle>
                         
-                        {["para33","para34","para35"].map(
+                {["para33","para34"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
             )
+        
           )} 
-                 <Subtitle>
+
+  <CustomTable title={"Table 5.5: Top three SPSEs which contributed maximum profit"}
+            columns={ctx.tables5.Table5}
+            data={ctx.tables5.Table5} />
+
+          <h4>
+        Source: Latest Financial Statements of SPSEs
+          </h4>
+          <h3 className='headnote'>
+            ₹ In crore
+          </h3>
+          {["para35"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
+            )
+        
+          )} 
+        <Subtitle>
                             {ctx.chapterFive.para36}
-                        </Subtitle>
-                        {["para37","para38","para39"].map(
+        </Subtitle>
+        {["para37",].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
             )
           )} 
+         <CustomTable title={"Table 5.6: Dividend Payout of SPSEs"}
+            columns={ctx.tables5.Table6}
+            data={ctx.tables5.Table6} />
+
+          <h4>
+        Source: Latest Financial Statements of SPSEs
+          </h4>
+        <h3 className='headnote'>
+            ₹ In crore
+        </h3>
+        
+        {["para38","para39"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
+            )
+          )} 
+             
                         
-                    </div>
-                </div>
-                : <div>
+         </div>
+        </div>
+        : <div>
                     <Navbar />
                     <FaSpinner icon="spinner" className="spinner" />
-                </div>)
-            : (ctx.chapter4kannada
+        </div>)
+        : (ctx.chapter4kannada
                 ? <div >
                     <Navbar />
                     <div className="contentwrapper" id="home">
