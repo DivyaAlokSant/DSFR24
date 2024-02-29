@@ -39,7 +39,8 @@ const Profile = () => {
                         </Title>
 
                         <Para tooltips={[
-                            { word: "line", tooltip: "As per Economic Survey of India 2022-23." }
+                            { word: "line", tooltip: "As per Economic Survey of India 2022-23." },
+                            
                         ]}>
                             {ctx.chapterOne.Profile.para2}
                         </ Para>

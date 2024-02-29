@@ -52,9 +52,9 @@ export default Para;
 
 
 
-{/* <CustPara tooltips={[
+{/* <Para tooltips={[
                             { word: "expenditures", tooltip: "This is an example tooltip." },
                             { word: "conditions", tooltip: "This is another tooltip." }
                         ]}>
                             {ctx.chapterOne.Profile.para7}
-                        </CustPara> */}
+                        </ Para> */}
