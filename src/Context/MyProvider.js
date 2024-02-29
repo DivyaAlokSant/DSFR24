@@ -30,7 +30,7 @@ export const MyProvider = (props) => {
   //Setting the Report Data
   const report = JSON.parse(JSON.stringify(jsonData))
 
-  const [themeChange, setThemeChange] = useState(true);
+  const [themeChange, setThemeChange] = useState(false);
   const [switchLang, setswitchLang] = useState(true);   // Change the boolean value to change the language
   const [reportch, setReportCh] = useState([]);
   

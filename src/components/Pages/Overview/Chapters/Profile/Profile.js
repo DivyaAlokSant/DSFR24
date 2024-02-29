@@ -38,21 +38,11 @@ const Profile = () => {
                             1.2 Profile of the state
                         </Title>
 
-                        <Para>
-                            {ctx.chapterOne.Profile.para2.substring(0, 304)}
-
-                            {/* Tooltip Code Snippet */}
-
-                            <span className="tooltip">
-                                {ctx.chapterOne.Profile.para2.substring(304, 309)}
-                                <span className="tooltiptext">
-                                As per Economic Survey of India 2022-23.
-                                </span>
-                                <sup>1</sup>
-                            </span>
-
-                            {ctx.chapterOne.Profile.para2.substring(309,)}
-                        </Para>
+                        <Para tooltips={[
+                            { word: "line", tooltip: "As per Economic Survey of India 2022-23." }
+                        ]}>
+                            {ctx.chapterOne.Profile.para2}
+                        </ Para>
 
                         <Title>
                             {ctx.chapterOne.Profile.para3}
