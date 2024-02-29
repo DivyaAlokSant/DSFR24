@@ -7,7 +7,7 @@ import Navbar from "../../../../Navbar/Navbar";
 import { FaSpinner } from "react-icons/fa";
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton";
 import "./../../Budget.css";
-import Table1 from "../../../Tables/Chapter3/Table1";
+//import Table1 from "../../../Tables/Chapter3/Table1";
 import Table1kan from '../../../Tables/Chapter3kan/Table1'
 import CustomTable from "../../../../CustomTable/CustomTable";
 const GenderBudget = () => {
@@ -27,15 +27,7 @@ const GenderBudget = () => {
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
-        <Table1 />
-        <h4>
-        <i>
-        Source: Grant Register and Gender Budget of the respective years
-        </i>
-        </h4>    
-        <h3 className='headnote'>
-          ₹ In crore
-        </h3>   
+        
 
         <CustomTable    title={"Table 3.1 – Category-wise allocation during 2018-19 to 2022-23"}
                         columns={ctx.tables3.Table1}
