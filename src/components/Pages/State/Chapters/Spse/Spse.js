@@ -10,6 +10,7 @@ import Table1 from "../../../Tables/Chapter5/Table1";
 import Table1kan from "../../../Tables/Chapter5kan/Table1";
 import Subtitle from "./../../../../Subtitle/Subtitle"
 // import Table1 from '../../../Tables/Chapter4/Table1'
+import CustomTable from "../../../../CustomTable/CustomTable";
 
 
 const Spse = () => {
@@ -42,12 +43,27 @@ const Spse = () => {
                             {ctx.chapterFive.para12}                      
                     </Subtitle> 
 
-                    {["para13","para14"].map(
+         {["para13"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
             )
           )}
+         <CustomTable title={"Table 5.1: Details of turnover of SPSEs vis-a-vis GSDP of Karnataka"}
+            columns={ctx.tables5.Table1}
+            data={ctx.tables5.Table1} />
 
+          <h4>
+        
+          </h4>
+        <h3 className='headnote'>
+            ₹ In crore
+        </h3>
+
+         {["para14"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
+            )
+          )}
                         
 
                     </div>
