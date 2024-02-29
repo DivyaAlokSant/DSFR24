@@ -39,7 +39,7 @@ const Profile = () => {
                         </Title>
 
                         <Para tooltips={[
-                            { word: "line", tooltip: "As per Economic Survey of India 2022-23." },
+                            { word: "line[1]", tooltip: "As per Economic Survey of India 2022-23." },
                             
                         ]}>
                             {ctx.chapterOne.Profile.para2}
@@ -95,7 +95,10 @@ const Profile = () => {
                                 {ctx.tables1.T1F2d}<br></br>
                             </i>
                         </h4>
-                        <Para>
+                        <Para tooltips={[
+                            { word: "Statistics[2]", tooltip: "The GSDP as per the Economic Survey of Karnataka is Rs.22,41,368 crore, which differs from the GSDP(Rs.21,81,217 crore) projected by Ministry of Finance,GOI" },
+                            
+                        ]}>
                             {ctx.chapterOne.Profile.para8a}
                         </Para>
                         <Title>
