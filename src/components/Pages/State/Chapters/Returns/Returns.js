@@ -7,9 +7,9 @@ import { MyContext } from '../../../../../Context/MyProvider';
 import Para from "../../../../Para/Para"
 import Title from "../../../../Title/Title";
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton"
-import Table5 from "../../../Tables/Chapter5/Table5";
+//import Table5 from "../../../Tables/Chapter5/Table5";
 import Table5kan from "../../../Tables/Chapter5kan/Table5";
-import Table6 from "../../../Tables/Chapter5/Table6";
+//import Table6 from "../../../Tables/Chapter5/Table6";
 import Table6kan from "../../../Tables/Chapter5kan/Table6";
 // import Table1 from '../../../Tables/Chapter4/Table1'
 import CustomTable from "../../../../CustomTable/CustomTable"

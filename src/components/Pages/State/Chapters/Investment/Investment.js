@@ -7,11 +7,11 @@ import Para from "../../../../Para/Para"
 import Subtitle from "./../../../../Subtitle/Subtitle"
 import Title from "../../../../Title/Title";
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton"
-import Table2 from "../../../Tables/Chapter5/Table2";
+//import Table2 from "../../../Tables/Chapter5/Table2";
 import Table2kan from "../../../Tables/Chapter5kan/Table2";
-import Table3 from "../../../Tables/Chapter5/Table3";
+//import Table3 from "../../../Tables/Chapter5/Table3";
 import Table3kan from "../../../Tables/Chapter5kan/Table3";
-import Table4 from "../../../Tables/Chapter5/Table4";
+//import Table4 from "../../../Tables/Chapter5/Table4";
 import Table4kan from "../../../Tables/Chapter5kan/Table4";
 //import Table1 from '../../../Tables/Chapter4/Table1'
 import CustomTable from "../../../../CustomTable/CustomTable";

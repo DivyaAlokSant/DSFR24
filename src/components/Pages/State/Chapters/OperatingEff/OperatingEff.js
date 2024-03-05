@@ -6,10 +6,10 @@ import { MyContext } from '../../../../../Context/MyProvider';
 import Subtitle from "./../../../../Subtitle/Subtitle"
 import Para from "../../../../Para/Para"
 import Title from "../../../../Title/Title";
-import Table8 from "../../../Tables/Chapter5/Table8";
+//import Table8 from "../../../Tables/Chapter5/Table8";
 import Table8kan from "../../../Tables/Chapter5kan/Table8";
-import Table9 from "../../../Tables/Chapter5/Table9";
-import Table9kan from "../../../Tables/Chapter5kan/Table9";
+//import Table9 from "../../../Tables/Chapter5/Table9";
+//import Table9kan from "../../../Tables/Chapter5kan/Table9";
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton"
 // import Table1 from '../../../Tables/Chapter4/Table1'
 import CustomTable from "../../../../CustomTable/CustomTable";

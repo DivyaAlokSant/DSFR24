@@ -1,7 +1,7 @@
 import React, { useContext } from "react"
 import Navbar from "../../../../Navbar/Navbar"
 import Subtitle from "./../../../../Subtitle/Subtitle"
-import Table11 from "../../../Tables/Chapter5/Table11";
+//import Table11 from "../../../Tables/Chapter5/Table11";
 import Table11kan from "../../../Tables/Chapter5kan/Table11";
 import './../../State.css'
 import { FaSpinner } from "react-icons/fa"
