@@ -110,7 +110,15 @@ const PublicAccount = () => {
                             {ctx.chapterTwo["para227"]}
                         
                         </Subtitle> 
-                        {["para228","para229","para230","para231"].map((item, ind) =>
+                       
+                         <Para tooltips={[
+                            { word: "GreenTax[16]", tooltip: " Green Tax Cess is cess in old vehicles which have completed fifteen years in respect of two wheelers and non-transport vehicles and seven years in res[ect of transport vehicles at the time of renewal of Certificate of Registration in addition to the tax levied at the rates specified for the purpose of implementation of various measures to control air pollution" },
+                            
+                        ]}>
+                         {ctx.chapterTwo.para228}
+                        </Para>
+                            
+                        {["para229","para230","para231"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)}  
