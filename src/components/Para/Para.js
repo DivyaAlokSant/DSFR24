@@ -11,7 +11,7 @@ const useStyles = makeStyles((theme) => ({
         boxShadow: theme.shadows[1],
         fontSize: 15,
         top: 350,
-        fontWeight: 700
+        //fontWeight: 700
     }
 }));
 
@@ -29,9 +29,9 @@ function Para(props) {
                             key={index} 
                             title={tooltipData.tooltip} 
                             arrow 
-                            //placement='right-end'
+                            placement='top'
                             classes={{ tooltip: classes.customTooltip }} 
-                            PopperProps={{ disablePortal: true }} // Add this line
+                            //PopperProps={{ disablePortal: true }} // Add this line
                             >
                             <span style={{ textDecoration: 'underline', cursor: 'pointer' }}>{word}</span>
                         </Tooltip>
