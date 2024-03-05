@@ -6,7 +6,7 @@ import { MyContext } from '../../../../../Context/MyProvider';
 import Para from "../../../../Para/Para"
 import Title from "../../../../Title/Title";
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton"
-import Table1 from "../../../Tables/Chapter5/Table1";
+//import Table1 from "../../../Tables/Chapter5/Table1";
 import Table1kan from "../../../Tables/Chapter5kan/Table1";
 import Subtitle from "./../../../../Subtitle/Subtitle"
 // import Table1 from '../../../Tables/Chapter4/Table1'
