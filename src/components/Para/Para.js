@@ -9,8 +9,9 @@ const useStyles = makeStyles((theme) => ({
         backgroundColor: theme.palette.common.white,
         color: 'rgba(17, 0, 0, 0.87)',
         boxShadow: theme.shadows[1],
-        fontSize: 14,
-        fontWeight: 600
+        fontSize: 15,
+        top: 350,
+        fontWeight: 700
     }
 }));
 
@@ -25,11 +26,13 @@ function Para(props) {
                 return (
                     <React.Fragment key={index}>
                         <Tooltip 
-                        key={index} 
-                        title={tooltipData.tooltip} 
-                        arrow 
-                        classes={{ tooltip: classes.customTooltip }} 
-                        placement='top'>
+                            key={index} 
+                            title={tooltipData.tooltip} 
+                            arrow 
+                            //placement='right-end'
+                            classes={{ tooltip: classes.customTooltip }} 
+                            PopperProps={{ disablePortal: true }} // Add this line
+                            >
                             <span style={{ textDecoration: 'underline', cursor: 'pointer' }}>{word}</span>
                         </Tooltip>
                         {' '} {/* Add space after the word */}
@@ -49,6 +52,7 @@ function Para(props) {
 }
 
 export default Para;
+
 
 
 
