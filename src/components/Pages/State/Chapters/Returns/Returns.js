@@ -59,11 +59,14 @@ const Returns = () => {
         <Subtitle>
                             {ctx.chapterFive.para36}
         </Subtitle>
-        {["para37",].map(
-            (item, ind) => (
-              <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
-            )
-          )} 
+        <Para tooltips={[
+       { word: "guidelines[38]", tooltip:"  Original guidelines issued in May 2003 had been replaced by a Circular dated 29.03.2021 envisaging dividend payout of 30 per cent of profit after tax or 5 per cent of Net worth whichever is higher. The said Circular was withdrawn with a issue of fresh circular envisaging dividend payout equivalent to 30 per cent profit after tax (PAT)" },
+       { word: "2021[39]", tooltip:"  Finance Department Circular dated 25.11.2021" },                    
+       { word: "2022[40]", tooltip:"Government Order dated 19.10.2022" },                    
+               ]}>
+
+        {ctx.chapterFive.para37}
+        </Para>
          <CustomTable title={"Table 5.6: Dividend Payout of SPSEs"}
             columns={ctx.tables5.Table6}
             data={ctx.tables5.Table6} />

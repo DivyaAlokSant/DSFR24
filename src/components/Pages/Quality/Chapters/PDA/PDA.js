@@ -120,7 +120,19 @@ const PDA = () => {
                             <Para key={ind / 10}>
                                 {ctx.chapterFour.Content[item]}
                             </Para>)}
-                        {["para57", "para58", "para59"].map((item, ind) =>
+                        {["para57"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                <li>
+                                    {ctx.chapterFour.Content[item]}
+                                </li>
+                            </Para>)}
+                 <Para tooltips={[
+       { word: "Bhavans[25]", tooltip:"Ambedkar Bhavana in Anekal Taluk-₹ 48 lakh; Construction of Samskruthi Bhavana -₹ 10 lakh; Chalavadi Bhavana-₹ 20 lakh; Bayalu Ranga Mandira-₹4 lakh; Gangothri Bhavana for Physically Challenged Person-₹ 20 lakh and Mahila Bhavana-₹15 lakh" },
+                            
+                        ]}>
+                         {ctx.chapterFour.Content.para58}
+        </Para>
+                    {["para59"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 <li>
                                     {ctx.chapterFour.Content[item]}
@@ -150,9 +162,12 @@ const PDA = () => {
                             columns={ctx.tables4.Table12}
                             data={ctx.tables4.Table12} />
 
-                        <Para>
-                            {ctx.chapterFour.Content.para65}
-                        </Para>
+<Para tooltips={[
+       { word: "(Urban)[26]", tooltip:"Information in respect of DC, Mysuru was not made available." },
+                            
+                        ]}>
+                         {ctx.chapterFour.Content.para65}
+        </Para>
 
                         
                         <h3 className='headnote'>
@@ -182,7 +197,17 @@ const PDA = () => {
                         <Subtitle>
                             {ctx.chapterFour.Content.para72}
                         </Subtitle>
-                        {["para73", "para74", "para75"].map((item, ind) =>
+                        {["para73"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapterFour.Content[item]}
+                            </Para>)}
+             <Para tooltips={[
+       { word: "Mysuru[27]", tooltip:"  Records of DC Bengaluru Urban was not provided." },
+                            
+                        ]}>
+                         {ctx.chapterFour.Content.para74}
+        </Para>
+                     {["para75"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterFour.Content[item]}
                             </Para>)}

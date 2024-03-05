@@ -34,7 +34,13 @@ const BudgetProcess = () => {
           <FloatingActionButtons back="/budget/introduction" forward="/budget/gender-budget" />
 
           <Subtitle>{ctx.chapterThree.Profile.para1}</Subtitle>
-          {["para2","para3","para4","para5","para6","para7"].map(
+          <Para tooltips={[
+                     { word: "items[20]", tooltip:"Charged Expenditure: Certain categories of expenditure (e.g. salaries of Constitutional authorities, loan repayments, etc.) constitute a charge on the Consolidated Fund of the State and are not subject to vote by the Legislature. Voted Expenditure: All other expenditure is voted by the Legislature" },
+                            
+                        ]}>
+                         {ctx.chapterThree.Profile["para2"]}
+                        </Para>
+          {["para3","para4","para5","para6","para7"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )

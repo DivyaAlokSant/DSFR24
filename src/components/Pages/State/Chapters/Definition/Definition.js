@@ -25,7 +25,18 @@ const Definition = () => {
                         <Subtitle>
                             {ctx.chapterFive.para3}
                         </Subtitle>
-                        {["para4","para5", "para6"].map(
+                        {["para4"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
+            )
+          )}
+          <Para tooltips={[
+       { word: "company[30]", tooltip:"  Companies (Removal of Difficulties) Seventh Order, 2014 issued by Ministry of Corporate Affairs vide Gazette Notification dated 4 September 2014." },
+       
+        ]}>
+                         {ctx.chapterFive.para5}
+        </Para>
+           {["para6"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
             )
