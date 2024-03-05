@@ -34,11 +34,15 @@ const Spse = () => {
                             {ctx.chapterFive.para10}                      
                     </Subtitle> 
 
-                    {["para11"].map(
-            (item, ind) => (
-              <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
-            )
-          )}
+                    <Para tooltips={[
+       { word: "Corporations[31]", tooltip:"Karnataka State Road Transport Corporation, North Western Karnataka Road Transport Corporation, Kalyana Karnataka Road Transport Corporation (Previously North Eastern Karnataka Road Transport Corporation), Bangalore Metropolitan Transport Corporation, Karnataka State Financial Corporation and Karnataka State Warehousing Corporation" },
+       { word: "fourteen[32]", tooltip:"Karnataka Agro Industries Corporation Limited, The Mysore Tobacco Company Limited, Karnataka Pulpwood Limited, The Karnataka State Veneers Limited, The Mysore Match Company Limited, The Mysore Lamp Works Limited, Mysore Cosmetics Limited, The Mysore Chrome Tanning Company Limited, NGEF Limited, Karnataka Telecom Limited, The Mysore Acetate and Chemicals Company limited, Bangalore Suburban Rail Company Limited, Vijayanagar Steel Limited and Bangalore Airport Rail Link Limited (under voluntary liquidation)." },                    
+       { word: "companies[33]", tooltip:"Non-working government company means a company which has not been carrying on any business or operation" },                    
+        ]}>
+
+                         {ctx.chapterFive.para11}
+        </Para>
+               
                     <Subtitle>
                             {ctx.chapterFive.para12}                      
                     </Subtitle> 

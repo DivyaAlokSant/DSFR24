@@ -106,19 +106,47 @@ const Dsa = () => {
                             {ctx.chapterTwo["para327"]}
                             </i> 
                     </Subtitle>
-                    {["para328","para329","para330","para331"].map((item, ind) =>
+                    {["para328"].map((item, ind) =>
+                           <Para key={ind / 10}>
+                               {ctx.chapterTwo[item]}
+                           </Para>)}
+                    <Para tooltips={[
+                     { word: "sectors[18]", tooltip:"Irrigation (₹14,475 crore), Co-operation (₹1,374 crore), Finance (₹695 crore), Power (₹18,179 crore), Housing (₹1,900 crore), Transport (₹911 crore) and other sectors (₹728 crore)" },
+                            
+                        ]}>
+                         {ctx.chapterTwo.para329}
+                        </Para>
+
+                    {["para330","para331"].map((item, ind) =>
                            <Para key={ind / 10}>
                                {ctx.chapterTwo[item]}
                            </Para>)}  
+
+                      
                     <Subtitle>
                            <i>
                             {ctx.chapterTwo["para332"]}
                             </i> 
                     </Subtitle>
-                    {["para333","para334","para335","para336","para337","para338","para339","para340","para341","para342","para343","para344"].map((item, ind) =>
+                    {["para333","para334"].map((item, ind) =>
                            <Para key={ind / 10}>
                                {ctx.chapterTwo[item]}
                            </Para>)}  
+
+                    <Para tooltips={[
+                     { word: "availed[19]", tooltip:"As per the annexure to Statement Number 2, Finance Accounts Vol 1." },
+                            
+                        ]}>
+                         {ctx.chapterTwo.para335}
+                        </Para>
+
+
+                    {["para336","para337","para338","para339","para340","para341","para342","para343","para344"].map((item, ind) =>
+                           <Para key={ind / 10}>
+                               {ctx.chapterTwo[item]}
+                    </Para>)}  
+
+                    
                     <Subtitle>
                          
                             {ctx.chapterTwo["para345"]}

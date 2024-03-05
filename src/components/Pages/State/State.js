@@ -29,14 +29,13 @@ const State = () => {
                 <Title>
                             {ctx.chapterFive.para1}
                 </Title>
-                {["para2"].map(
-              (item, ind) => (
-                <Para key={ind / 10}>
-                  {ctx.chapterFive[item]}
-                </Para>
-              ))}
+                <Para tooltips={[
+       { word: "revealed[28]", tooltip:"Six SPSEs failed to provide SFAR related information sought (July 23), which includes two working companies viz., Karnataka State Medical Supplies Corporation Limited, and Karnataka Handloom Development Corporation Limited" },
+       { word: "year[29]", tooltip:"Latest accounts certified upto 30 September 2023" },                    
+        ]}>
+                         {ctx.chapterFive.para2}
+        </Para>
                
-
                     </div>
                 </div>
                 : <div>

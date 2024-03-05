@@ -122,11 +122,15 @@ const Investment = () => {
           <h3 className='headnote'>
             ₹ In crore
           </h3>
-          {["para30"].map(
-            (item, ind) => (
-              <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
-            )
-          )} 
+          <Para tooltips={[
+       { word: "GSDP[34]", tooltip:"GSDP of Karnataka for FY 2022-23 - ₹21,81,217 crore." },
+       { word: "crore[35]", tooltip:"Represent dues towards State Generating Companies, viz. Karnataka Power Corporation Limited (KPCL):  ₹17,295.58 crore and Raichur Power Corporation Limited (RPCL): ₹2,781.74 crore (Amounts are taken as per the books of KPCL/RPCL)." },                    
+       { word: "2023[36]", tooltip:"The LPS Rules, 2022 came into effect from 3 June 2022 and ESCOMs paid ₹1,852.31 crore under LPS during August 2022 to March 2023." },                    
+       { word: "crore[37]", tooltip:"Represents dues to KPCL (₹15,934.58 crore) and RPCL (₹2,290.43 crore). This amount does not include dues accumulated during April 2022 to March 2023 and repayments received outside LPS during that period." },                    
+        ]}>
+
+        {ctx.chapterFive.para30}
+        </Para>
  
 
 

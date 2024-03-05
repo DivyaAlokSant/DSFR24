@@ -230,13 +230,22 @@ const PublicAccount = () => {
                             {ctx.chapterTwo["para271"]}
                             </i> 
                         </Subtitle>
-                        {["para272","para273","para274","para275","para276","para277","para278","para279","para280"].map((item, ind) =>
+                        {["para272","para273","para274","para275","para276","para277"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)}   
-                         
+                     <Para tooltips={[
+                     { word: "portal[17]", tooltip:"Portal maintained by CEO, National Authority, Ministry of Environment, Forest and Climate change for collection and transfer of user charges to NCAF." },
                             
-
+                        ]}>
+                         {ctx.chapterTwo.para278}
+                        </Para>
+                    
+                    {["para279","para280"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapterTwo[item]}
+                            </Para>)}  
+                            
                                        
                     </div>
                 </div>

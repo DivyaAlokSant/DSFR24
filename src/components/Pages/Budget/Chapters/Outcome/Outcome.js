@@ -231,7 +231,13 @@ const Outcome = () => {
       <Subtitle>
         {ctx.chapterThree.Profile["para176"]}
       </Subtitle>
-      {["para177","para178"].map(
+      <Para tooltips={[
+                     { word: "allocations[22]", tooltip:"GoI released their funds through State Budget" },
+                            
+                        ]}>
+                         {ctx.chapterThree.Profile.para177}
+        </Para>
+      {["para178"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
@@ -265,7 +271,13 @@ const Outcome = () => {
             )
           )}
        <Subtitle>
-        {ctx.chapterThree.Profile["para184"]}
+       <Para tooltips={[
+                     { word: "balance[23]", tooltip:"  Saving bank account with the zero Balance." },
+                            
+                        ]}>
+                         {ctx.chapterThree.Profile["para184"]}
+        </Para>
+        
       </Subtitle> 
       {["para185","para186"].map(
             (item, ind) => (
@@ -347,11 +359,12 @@ const Outcome = () => {
       <Subtitle>
         {ctx.chapterThree.Profile["para198"]}
       </Subtitle>
-      {["para199"].map(
-            (item, ind) => (
-              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
-            )
-          )}
+      <Para tooltips={[
+       { word: "accounts[24]", tooltip:"  Account No.6402677843 of State Bank of India, Vidhana Soudha Branch and Account No. 00425201001227 of Canara Bank, Hebbal Branch" },
+                            
+                        ]}>
+                         {ctx.chapterThree.Profile.para199}
+        </Para>
       <Subtitle>
         {ctx.chapterThree.Profile["para200"]}
       </Subtitle>

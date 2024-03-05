@@ -26,11 +26,12 @@ const AppropAccounts = () => {
           <FloatingActionButtons back="/budget/child-budget" forward="/budget/audit" />
 
           <Title>{ctx.chapterThree.Profile.para24}</Title>
-          {["para25"].map(
-            (item, ind) => (
-              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
-            )
-          )}
+          <Para tooltips={[
+                     { word: "Accounts[21]", tooltip:"  Finance Accounts provides broad perspective of finances of GoK during the financial year which is dealt in the Chapter 1 and 2 of this Report." },
+                            
+                        ]}>
+                         {ctx.chapterThree.Profile.para25}
+               </Para>
           
           <Subtitle>
           <i>
