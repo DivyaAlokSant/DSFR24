@@ -32,11 +32,14 @@ const OperatingEff = () => {
                         <Subtitle>
                             {ctx.chapterFive.para47}
                         </Subtitle>
-        {["para48"].map(
-            (item, ind) => (
-              <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
-            )
-          )} 
+      <Para tooltips={[
+       { word: "employed[46]", tooltip:"  Capital Employed = Paid up Share capital + Free Reserves and surplus + Long term loans less Accumulated losses less Deferred Revenue Expenditure" },
+       
+       
+        ]}>
+
+        {ctx.chapterFive.para48}
+        </Para>
         <CustomTable title={"Table 5.8: Return on Capital Employed"}
             columns={ctx.tables5.Table8}
             data={ctx.tables5.Table8} />

@@ -78,18 +78,29 @@ const Returns = () => {
             ₹ In crore
         </h3>
         
-        {["para38","para39"].map(
-            (item, ind) => (
-              <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
-            )
-          )} 
+        <Para tooltips={[
+       { word: "SPSEs[41]", tooltip:"Karnataka State Minerals Corporation Limited, Karnataka Rural Infrastructure Development Limited, Karnataka State Small Industries Development Corporation Limited and Karnataka State Beverages Corporation Limited" },
+       { word: "SPSEs[42]", tooltip:"Karnataka Soaps and Detergents Limited, The Mysore Electrical Industries Limited, Karnataka Silk Industries Corporation Limited, The Hutti Gold Mines Company Limited, Mysore Paints and Varnish Limited, Mysore Sales International Limited, Karnataka State Seeds Corporation Limited, Karnataka State Police Housing and Infrastructure Development Corporation Limited and Karnataka State Electronics Development Corporation Limited" },                    
+       
+         ]}>
+
+        {ctx.chapterFive.para38}
+        </Para>
+        <Para tooltips={[
+       { word: "two[43]", tooltip:"Karnataka State Warehousing Corporation (KSWC) and Karnataka State Financial Corporation (KSFC)." },
+       
+       
+        ]}>
+
+        {ctx.chapterFive.para39}
+        </Para>
              
                         
          </div>
         </div>
         : <div>
-                    <Navbar />
-                    <FaSpinner icon="spinner" className="spinner" />
+        <Navbar />
+        <FaSpinner icon="spinner" className="spinner" />
         </div>)
         : (ctx.chapter4kannada
                 ? <div >
