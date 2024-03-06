@@ -46872,211 +46872,1745 @@
         "Appendix4": {
             "Table1": [
                 {
-                  "Sl No": "",
-                  "Grant": "",
-                  "Budget": "100% CCP",
-                  "Expr.": "100% CCP",
-                  "Budget__1": "Less than 100%",
-                  "Expr.__1": "Less than 100%",
-                  "Budget__2": "100% CCP",
-                  "Expr.__2": "100% CCP",
-                  "Budget__3": "Less than 100%",
-                  "Expr.__3": "Less than 100%"
+                  "Sl.No": 1,
+                  "Government of India Scheme": "National Rural Drinking Water Programme",
+                  "Amount transferred directly to implementing Agency": "2,728.72",
+                  "Released in state Budget": "-",
+                  "Total Amount released": "2,728.72",
+                  "Percentage of Direct transfers to total Releases": 100
                 },
                 {
-                  "Sl No": "",
-                  "Grant": "",
-                  "Budget": "Child Centric Programme/Schemes",
-                  "Expr.": "",
-                  "Budget__1": "",
-                  "Expr.__1": "",
-                  "Budget__2": "Child Centric Non Programme/Schemes",
-                  "Expr.__2": "",
-                  "Budget__3": "",
-                  "Expr.__3": ""
+                  "Sl.No": 2,
+                  "Government of India Scheme": "Mahatma Gandhi National Rural Employment Guarantee Act",
+                  "Amount transferred directly to implementing Agency": "-",
+                  "Released in state Budget": "2,595.52",
+                  "Total Amount released": "2,595.52",
+                  "Percentage of Direct transfers to total Releases": "-"
                 },
                 {
-                  "Sl No": 1,
-                  "Grant": "01 - Agriculture and Horticulture",
-                  "Budget": 0,
-                  "Expr.": 0,
-                  "Budget__1": 200,
-                  "Expr.__1": 599.12,
-                  "Budget__2": 0,
-                  "Expr.__2": 0,
-                  "Budget__3": 0,
-                  "Expr.__3": 0
+                  "Sl.No": 3,
+                  "Government of India Scheme": "Rashtreeya Krishi Vikas Yojana",
+                  "Amount transferred directly to implementing Agency": 4.72,
+                  "Released in state Budget": 58.41,
+                  "Total Amount released": 63.13,
+                  "Percentage of Direct transfers to total Releases": 7.48
                 },
                 {
-                  "Sl No": 2,
-                  "Grant": "05 - Home and Transport",
-                  "Budget": 4.56,
-                  "Expr.": 9.27,
-                  "Budget__1": "1,630.84",
-                  "Expr.__1": "4,031.60",
-                  "Budget__2": 0,
-                  "Expr.__2": 0,
-                  "Budget__3": 275.36,
-                  "Expr.__3": 268.84
+                  "Sl.No": 4,
+                  "Government of India Scheme": "Pradhan Mantri Matsya Sampada Yojana",
+                  "Amount transferred directly to implementing Agency": 54.78,
+                  "Released in state Budget": 66.08,
+                  "Total Amount released": 120.86,
+                  "Percentage of Direct transfers to total Releases": 45.33
                 },
                 {
-                  "Sl No": 3,
-                  "Grant": "08 - Forest, Ecology and Environment",
-                  "Budget": 0,
-                  "Expr.": 0,
-                  "Budget__1": 286.56,
-                  "Expr.__1": 294.35,
-                  "Budget__2": 0,
-                  "Expr.__2": 0,
-                  "Budget__3": 0,
-                  "Expr.__3": 0
+                  "Sl.No": 5,
+                  "Government of India Scheme": "Rashtreeya Gram Swaraj Abhiyan (RGSA)",
+                  "Amount transferred directly to implementing Agency": 0.15,
+                  "Released in state Budget": 36,
+                  "Total Amount released": 36.15,
+                  "Percentage of Direct transfers to total Releases": 0.41
                 },
                 {
-                  "Sl No": 4,
-                  "Grant": "09 - Co-operation",
-                  "Budget": 0,
-                  "Expr.": 0,
-                  "Budget__1": 100,
-                  "Expr.__1": 100,
-                  "Budget__2": 0,
-                  "Expr.__2": 0,
-                  "Budget__3": 0,
-                  "Expr.__3": 0
+                  "Sl.No": 6,
+                  "Government of India Scheme": "Formulization of MFP",
+                  "Amount transferred directly to implementing Agency": 3.68,
+                  "Released in state Budget": 5.2,
+                  "Total Amount released": 8.88,
+                  "Percentage of Direct transfers to total Releases": 41.44
                 },
                 {
-                  "Sl No": 5,
-                  "Grant": "10 - Social Welfare",
-                  "Budget": "2,037.00",
-                  "Expr.": "2,688.57",
-                  "Budget__1": "3,893.41",
-                  "Expr.__1": "4,090.24",
-                  "Budget__2": 0,
-                  "Expr.__2": 0,
-                  "Budget__3": 0,
-                  "Expr.__3": 0
+                  "Sl.No": 7,
+                  "Government of India Scheme": "PM Ayushman Bharat Health Infrastructure",
+                  "Amount transferred directly to implementing Agency": 3.26,
+                  "Released in state Budget": 33.84,
+                  "Total Amount released": 37.1,
+                  "Percentage of Direct transfers to total Releases": 8.78
                 },
                 {
-                  "Sl No": 6,
-                  "Grant": "11 - Women and Child Development",
-                  "Budget": "4,314.76",
-                  "Expr.": "3,398.25",
-                  "Budget__1": 187.96,
-                  "Expr.__1": 198.6,
-                  "Budget__2": 5.42,
-                  "Expr.__2": 6.03,
-                  "Budget__3": 0,
-                  "Expr.__3": 0
+                  "Sl.No": 8,
+                  "Government of India Scheme": "National Livestock Mission",
+                  "Amount transferred directly to implementing Agency": 1.82,
+                  "Released in state Budget": 4.66,
+                  "Total Amount released": 6.48,
+                  "Percentage of Direct transfers to total Releases": 28.08
                 },
                 {
-                  "Sl No": 7,
-                  "Grant": "12 - Information, Tourism and Youth Services",
-                  "Budget": 0,
-                  "Expr.": 0,
-                  "Budget__1": 288.49,
-                  "Expr.__1": 521.95,
-                  "Budget__2": 0,
-                  "Expr.__2": 0,
-                  "Budget__3": 0,
-                  "Expr.__3": 0
+                  "Sl.No": 9,
+                  "Government of India Scheme": "Agriculture Extension",
+                  "Amount transferred directly to implementing Agency": 0.15,
+                  "Released in state Budget": 13,
+                  "Total Amount released": 13.15,
+                  "Percentage of Direct transfers to total Releases": 1.14
                 },
                 {
-                  "Sl No": 8,
-                  "Grant": "13 - Food and Civil Supplies",
-                  "Budget": 0,
-                  "Expr.": 0,
-                  "Budget__1": "2,810.02",
-                  "Expr.__1": "2,803.86",
-                  "Budget__2": 0,
-                  "Expr.__2": 0,
-                  "Budget__3": 0.4,
-                  "Expr.__3": 0.35
+                  "Sl.No": 10,
+                  "Government of India Scheme": "National Service Scheme",
+                  "Amount transferred directly to implementing Agency": 24.66,
+                  "Released in state Budget": 0.59,
+                  "Total Amount released": 25.25,
+                  "Percentage of Direct transfers to total Releases": 97.66
                 },
                 {
-                  "Sl No": 9,
-                  "Grant": "15 - Information Technology",
-                  "Budget": 0,
-                  "Expr.": 0,
-                  "Budget__1": 50,
-                  "Expr.__1": 55,
-                  "Budget__2": 0,
-                  "Expr.__2": 0,
-                  "Budget__3": 2.58,
-                  "Expr.__3": 2.19
+                  "Sl.No": 11,
+                  "Government of India Scheme": "Tertiary Care Programs",
+                  "Amount transferred directly to implementing Agency": 23.94,
+                  "Released in state Budget": "-",
+                  "Total Amount released": 23.94,
+                  "Percentage of Direct transfers to total Releases": 100
                 },
                 {
-                  "Sl No": 10,
-                  "Grant": "17 - Education",
-                  "Budget": "10,379.20",
-                  "Expr.": "10,493.77",
-                  "Budget__1": 134.57,
-                  "Expr.__1": 137.35,
-                  "Budget__2": "20,007.78",
-                  "Expr.__2": "19,847.67",
-                  "Budget__3": "1,088.08",
-                  "Expr.__3": 893.46
+                  "Sl.No": 12,
+                  "Government of India Scheme": "Beti Bachao Beti Padhao",
+                  "Amount transferred directly to implementing Agency": 1.31,
+                  "Released in state Budget": 7.5,
+                  "Total Amount released": 8.81,
+                  "Percentage of Direct transfers to total Releases": 14.87
                 },
                 {
-                  "Sl No": 11,
-                  "Grant": "22 - Health and Family Welfare",
-                  "Budget": 59,
-                  "Expr.": 10,
-                  "Budget__1": "3,868.39",
-                  "Expr.__1": "3,647.14",
-                  "Budget__2": 70.74,
-                  "Expr.__2": 91.2,
-                  "Budget__3": "9,151.10",
-                  "Expr.__3": "8,087.08"
+                  "Sl.No": 13,
+                  "Government of India Scheme": "Agricultural Census and Statistics",
+                  "Amount transferred directly to implementing Agency": 11.82,
+                  "Released in state Budget": 3.39,
+                  "Total Amount released": 15.21,
+                  "Percentage of Direct transfers to total Releases": 77.71
                 },
                 {
-                  "Sl No": 12,
-                  "Grant": "23 - Labour and Skill Development",
-                  "Budget": 4,
-                  "Expr.": 4.48,
-                  "Budget__1": 405.84,
-                  "Expr.__1": 421.2,
-                  "Budget__2": 0,
-                  "Expr.__2": 0,
-                  "Budget__3": 229.84,
-                  "Expr.__3": 206.03
+                  "Sl.No": 14,
+                  "Government of India Scheme": "National Rural Livelihood Mission",
+                  "Amount transferred directly to implementing Agency": 20.8,
+                  "Released in state Budget": 284.61,
+                  "Total Amount released": 305.41,
+                  "Percentage of Direct transfers to total Releases": 6.81
                 },
                 {
-                  "Sl No": 13,
-                  "Grant": "25 - Kannada and Culture",
-                  "Budget": 0,
-                  "Expr.": 0,
-                  "Budget__1": 5,
-                  "Expr.__1": 26.5,
-                  "Budget__2": 0,
-                  "Expr.__2": 0,
-                  "Budget__3": 0,
-                  "Expr.__3": 0
-                },
-                {
-                  "Sl No": 14,
-                  "Grant": "27 - Law",
-                  "Budget": 0,
-                  "Expr.": 0,
-                  "Budget__1": 0,
-                  "Expr.__1": 0,
-                  "Budget__2": 0,
-                  "Expr.__2": 0,
-                  "Budget__3": 10.86,
-                  "Expr.__3": 26.99
-                },
-                {
-                  "Sl No": "Total",
-                  "Grant": "",
-                  "Budget": "16,798.52",
-                  "Expr.": "16,604.33",
-                  "Budget__1": "13,861.08",
-                  "Expr.__1": "16,926.91",
-                  "Budget__2": "20,083.94",
-                  "Expr.__2": "19,944.90",
-                  "Budget__3": "10,758.22",
-                  "Expr.__3": "9,484.94"
+                  "Sl.No": "",
+                  "Government of India Scheme": "Total",
+                  "Amount transferred directly to implementing Agency": "2,879.81",
+                  "Released in state Budget": "3,108.80",
+                  "Total Amount released": "5,988.61",
+                  "Percentage of Direct transfers to total Releases": ""
                 }
-              ]
-        }
+              ] , 
+              "Table2": [
+                {
+                  "Head of Account": 2204,
+                  "Department": "Sports and Youth Services",
+                  "Due Year": "2020-21",
+                  "Number of UCs": 13,
+                  "Amount": 8.83
+                },
+                {
+                  "Head of Account": 2204,
+                  "Department": "Sports and Youth Services",
+                  "Due Year": "2021-22",
+                  "Number of UCs": 12,
+                  "Amount": 14.2
+                },
+                {
+                  "Head of Account": 2204,
+                  "Department": "Sports and Youth Services",
+                  "Due Year": "2022-23",
+                  "Number of UCs": 10,
+                  "Amount": 7.71
+                },
+                {
+                  "Head of Account": 2204,
+                  "Department": "Sports and Youth Services",
+                  "Due Year": "Total",
+                  "Number of UCs": 35,
+                  "Amount": 30.74
+                },
+                {
+                  "Head of Account": 2210,
+                  "Department": "Medical & Public Health",
+                  "Due Year": "2017-18",
+                  "Number of UCs": 1,
+                  "Amount": 0.75
+                },
+                {
+                  "Head of Account": 2210,
+                  "Department": "Medical & Public Health",
+                  "Due Year": "2020-21",
+                  "Number of UCs": 3,
+                  "Amount": 4.36
+                },
+                {
+                  "Head of Account": 2210,
+                  "Department": "Medical & Public Health",
+                  "Due Year": "2021-22",
+                  "Number of UCs": 5,
+                  "Amount": 2.39
+                },
+                {
+                  "Head of Account": 2210,
+                  "Department": "Medical & Public Health",
+                  "Due Year": "2022-23",
+                  "Number of UCs": 4,
+                  "Amount": 3.43
+                },
+                {
+                  "Head of Account": 2210,
+                  "Department": "Medical & Public Health",
+                  "Due Year": "Total",
+                  "Number of UCs": 13,
+                  "Amount": 10.93
+                },
+                {
+                  "Head of Account": "",
+                  "Department": "Total",
+                  "Due Year": "",
+                  "Number of UCs": 48,
+                  "Amount": 41.67
+                }
+              ],
+              "Table3":[
+                [
+                    {
+                      "Sl.No.": "Credit Balances",
+                      "P.D. Account Nomenclature": "",
+                      "Balance as per the Books of Pr.AG (A&E)": "",
+                      "Remarks": ""
+                    },
+                    {
+                      "Sl.No.": 1,
+                      "P.D. Account Nomenclature": "Pvt. Estate Under Government Management",
+                      "Balance as per the Books of Pr.AG (A&E)": "1,01,93,50,802.53",
+                      "Remarks": "2011-12 onwards"
+                    },
+                    {
+                      "Sl.No.": 2,
+                      "P.D. Account Nomenclature": "Cash Order Deposit",
+                      "Balance as per the Books of Pr.AG (A&E)": "1,72,67,836.81",
+                      "Remarks": "2011-12 onwards"
+                    },
+                    {
+                      "Sl.No.": 3,
+                      "P.D. Account Nomenclature": "Sugar Surcharge",
+                      "Balance as per the Books of Pr.AG (A&E)": "3,08,14,048.55",
+                      "Remarks": "2012-13 onwards"
+                    },
+                    {
+                      "Sl.No.": 4,
+                      "P.D. Account Nomenclature": "Scholarship A/C of Backward Classes & Minorities",
+                      "Balance as per the Books of Pr.AG (A&E)": "3,47,08,940.30",
+                      "Remarks": "2011-12 onwards"
+                    },
+                    {
+                      "Sl.No.": 5,
+                      "P.D. Account Nomenclature": "Pd A/C of Special DC",
+                      "Balance as per the Books of Pr.AG (A&E)": "50,62,99,828.90",
+                      "Remarks": "2011-12 onwards"
+                    },
+                    {
+                      "Sl.No.": 6,
+                      "P.D. Account Nomenclature": "Pd Account of P.W.D. Officer",
+                      "Balance as per the Books of Pr.AG (A&E)": "11,46,375.00",
+                      "Remarks": "2011-12 onwards"
+                    },
+                    {
+                      "Sl.No.": 7,
+                      "P.D. Account Nomenclature": "Pd A/C of Industries & Commerce Karnataka",
+                      "Balance as per the Books of Pr.AG (A&E)": 35,
+                      "Remarks": "2011-12 onwards"
+                    },
+                    {
+                      "Sl.No.": 8,
+                      "P.D. Account Nomenclature": "Director of Small Savings and State Lottery",
+                      "Balance as per the Books of Pr.AG (A&E)": "35,43,374.00",
+                      "Remarks": "2011-12 onwards"
+                    },
+                    {
+                      "Sl.No.": 9,
+                      "P.D. Account Nomenclature": "Pd A/C of Permanent & Temporary Deposits",
+                      "Balance as per the Books of Pr.AG (A&E)": "28,31,395.86",
+                      "Remarks": "2011-12 onwards"
+                    },
+                    {
+                      "Sl.No.": 10,
+                      "P.D. Account Nomenclature": "Ram Kumar Jalal Memorial Fund",
+                      "Balance as per the Books of Pr.AG (A&E)": 195,
+                      "Remarks": "2011-12 onwards"
+                    },
+                    {
+                      "Sl.No.": 11,
+                      "P.D. Account Nomenclature": "Pd A/C of Bagalkot Town Development Authority",
+                      "Balance as per the Books of Pr.AG (A&E)": "49,41,519.93",
+                      "Remarks": "2011-12 onwards"
+                    },
+                    {
+                      "Sl.No.": 12,
+                      "P.D. Account Nomenclature": "Asst Registrar of Cooperative Societies",
+                      "Balance as per the Books of Pr.AG (A&E)": "10,000.00",
+                      "Remarks": "2011-12 onwards"
+                    },
+                    {
+                      "Sl.No.": 13,
+                      "P.D. Account Nomenclature": "Special Land Acquisition Officer SCR Project Karnataka",
+                      "Balance as per the Books of Pr.AG (A&E)": "1,41,66,00,000.00",
+                      "Remarks": "2011-12 onwards"
+                    },
+                    {
+                      "Sl.No.": 14,
+                      "P.D. Account Nomenclature": "Director Of Fiscal Policy Institute, Bangalore",
+                      "Balance as per the Books of Pr.AG (A&E)": "13,057.00",
+                      "Remarks": "2018-19 onwards"
+                    },
+                    {
+                      "Sl.No.": 15,
+                      "P.D. Account Nomenclature": "C.A.O. Rural Road Development Agency",
+                      "Balance as per the Books of Pr.AG (A&E)": "59,98,08,000.00",
+                      "Remarks": "2020-21 onwards"
+                    },
+                    {
+                      "Sl.No.": 16,
+                      "P.D. Account Nomenclature": "Pd A/C of Commerce, Watershed Development Department",
+                      "Balance as per the Books of Pr.AG (A&E)": 783,
+                      "Remarks": "2020-21 onwards"
+                    },
+                    {
+                      "Sl.No.": 17,
+                      "P.D. Account Nomenclature": "The Officer on Special Duty, Sippu (TEQUIP) Phase II Dir Tech Ed Bangalore",
+                      "Balance as per the Books of Pr.AG (A&E)": "1,03,42,496.00",
+                      "Remarks": "2019-20 onwards"
+                    },
+                    {
+                      "Sl.No.": 18,
+                      "P.D. Account Nomenclature": "Commissioner, Department of Collegiate Education, Bengaluru",
+                      "Balance as per the Books of Pr.AG (A&E)": "1,97,41,16,390.00",
+                      "Remarks": "2020-21 onwards"
+                    },
+                    {
+                      "Sl.No.": "Total",
+                      "P.D. Account Nomenclature": "",
+                      "Balance as per the Books of Pr.AG (A&E)": "5,62,17,95,077.88",
+                      "Remarks": ""
+                    },
+                    {
+                      "Sl.No.": "Debit Balances",
+                      "P.D. Account Nomenclature": "",
+                      "Balance as per the Books of Pr.AG (A&E)": "",
+                      "Remarks": ""
+                    },
+                    {
+                      "Sl.No.": 1,
+                      "P.D. Account Nomenclature": "Harijan Development Welfare Fund",
+                      "Balance as per the Books of Pr.AG (A&E)": "5,18,030.71",
+                      "Remarks": "2011-12"
+                    },
+                    {
+                      "Sl.No.": 2,
+                      "P.D. Account Nomenclature": "Pd A/C Of Maharaja College Of Education",
+                      "Balance as per the Books of Pr.AG (A&E)": "9,052.00",
+                      "Remarks": "2011-12"
+                    },
+                    {
+                      "Sl.No.": 3,
+                      "P.D. Account Nomenclature": "Pd A/C Of Director Watershed Development",
+                      "Balance as per the Books of Pr.AG (A&E)": "16,28,01,956.00",
+                      "Remarks": "2011-12"
+                    },
+                    {
+                      "Sl.No.": 4,
+                      "P.D. Account Nomenclature": "CM’s Drought Relief Fund",
+                      "Balance as per the Books of Pr.AG (A&E)": "82,23,760.20",
+                      "Remarks": "2011-12"
+                    },
+                    {
+                      "Sl.No.": 5,
+                      "P.D. Account Nomenclature": "Pd A/C Of Asha Kiran",
+                      "Balance as per the Books of Pr.AG (A&E)": "92,24,567.00",
+                      "Remarks": "2011-12"
+                    },
+                    {
+                      "Sl.No.": 6,
+                      "P.D. Account Nomenclature": "Pd A/C Of Municipal Commerce, Tumkur",
+                      "Balance as per the Books of Pr.AG (A&E)": "23,72,940.16",
+                      "Remarks": "2011-12"
+                    },
+                    {
+                      "Sl.No.": 7,
+                      "P.D. Account Nomenclature": "Deposits Of Pvt Estate Under Commercial Management",
+                      "Balance as per the Books of Pr.AG (A&E)": 75,
+                      "Remarks": "2011-12"
+                    },
+                    {
+                      "Sl.No.": 8,
+                      "P.D. Account Nomenclature": "Pd A/C Of Gram Panchayat",
+                      "Balance as per the Books of Pr.AG (A&E)": "34,00,890.55",
+                      "Remarks": "2011-12"
+                    },
+                    {
+                      "Sl.No.": 9,
+                      "P.D. Account Nomenclature": "Pd A/C Of S.L.A.O Bangalore, Hassan Railway Project",
+                      "Balance as per the Books of Pr.AG (A&E)": "88,41,300.00",
+                      "Remarks": "2016-17"
+                    },
+                    {
+                      "Sl.No.": "Total",
+                      "P.D. Account Nomenclature": "",
+                      "Balance as per the Books of Pr.AG (A&E)": "19,53,92,571.62",
+                      "Remarks": ""
+                    },
+                    {
+                      "Sl.No.": "Nil Closing Balance",
+                      "P.D. Account Nomenclature": "",
+                      "Balance as per the Books of Pr.AG (A&E)": "",
+                      "Remarks": ""
+                    },
+                    {
+                      "Sl.No.": 1,
+                      "P.D. Account Nomenclature": "Asst Registrar of Cooperative Societies Bijapur",
+                      "Balance as per the Books of Pr.AG (A&E)": 0,
+                      "Remarks": "2011-12"
+                    },
+                    {
+                      "Sl.No.": 2,
+                      "P.D. Account Nomenclature": "Personal Deposit Account of Secretary (Bhoomi Upor And Disaster Management) Bengaluru",
+                      "Balance as per the Books of Pr.AG (A&E)": 0,
+                      "Remarks": "2019-20"
+                    }
+                  ]
+              ],
+              "Table3a":[
+                [
+                    {
+                      "Sl.No.": "",
+                      "Inoperative schemes under PD miscellaneous account of test checked units": "Bengaluru Urban",
+                      "Closing Balance": ""
+                    },
+                    {
+                      "Sl.No.": 1,
+                      "Inoperative schemes under PD miscellaneous account of test checked units": "Auction sale of Government land (25% of bid amount)",
+                      "Closing Balance": "3,43,30,867"
+                    },
+                    {
+                      "Sl.No.": 2,
+                      "Inoperative schemes under PD miscellaneous account of test checked units": "Construction of Ambedkar Bhavana in Anekal Taluk",
+                      "Closing Balance": "48,09,298"
+                    },
+                    {
+                      "Sl.No.": 3,
+                      "Inoperative schemes under PD miscellaneous account of test checked units": "Construction of Samaskruit Bahavna (Ranga Mandira)",
+                      "Closing Balance": "10,00,000"
+                    },
+                    {
+                      "Sl.No.": 4,
+                      "Inoperative schemes under PD miscellaneous account of test checked units": "Construction of Chalavadi Bhavana",
+                      "Closing Balance": "20,00,000"
+                    },
+                    {
+                      "Sl.No.": 5,
+                      "Inoperative schemes under PD miscellaneous account of test checked units": "Construction of Bayalu Ranga Mandira",
+                      "Closing Balance": "4,00,000"
+                    },
+                    {
+                      "Sl.No.": 6,
+                      "Inoperative schemes under PD miscellaneous account of test checked units": "Construction of Gangotri Bhavana for Physically Challenged Persons",
+                      "Closing Balance": "20,00,000"
+                    },
+                    {
+                      "Sl.No.": 7,
+                      "Inoperative schemes under PD miscellaneous account of test checked units": "Border Development Project",
+                      "Closing Balance": "5,36,000"
+                    },
+                    {
+                      "Sl.No.": 8,
+                      "Inoperative schemes under PD miscellaneous account of test checked units": "Recovery of Land Revenue",
+                      "Closing Balance": "1,07,75,000"
+                    },
+                    {
+                      "Sl.No.": 9,
+                      "Inoperative schemes under PD miscellaneous account of test checked units": "District Innovation Fund",
+                      "Closing Balance": "10,00,000"
+                    },
+                    {
+                      "Sl.No.": 10,
+                      "Inoperative schemes under PD miscellaneous account of test checked units": "Press Club",
+                      "Closing Balance": "8,00,00,000"
+                    },
+                    {
+                      "Sl.No.": 11,
+                      "Inoperative schemes under PD miscellaneous account of test checked units": "Construction of Mahila Bhavana",
+                      "Closing Balance": "15,00,000"
+                    },
+                    {
+                      "Sl.No.": "",
+                      "Inoperative schemes under PD miscellaneous account of test checked units": "Total",
+                      "Closing Balance": "13,83,51,165"
+                    },
+                    {
+                      "Sl.No.": "",
+                      "Inoperative schemes under PD miscellaneous account of test checked units": "Mysuru",
+                      "Closing Balance": ""
+                    },
+                    {
+                      "Sl.No.": 1,
+                      "Inoperative schemes under PD miscellaneous account of test checked units": "RRT",
+                      "Closing Balance": "19,33,175"
+                    },
+                    {
+                      "Sl.No.": 2,
+                      "Inoperative schemes under PD miscellaneous account of test checked units": "Jeeta Vimukta",
+                      "Closing Balance": "14,550"
+                    },
+                    {
+                      "Sl.No.": 3,
+                      "Inoperative schemes under PD miscellaneous account of test checked units": "Purchase of Rudrabhumi",
+                      "Closing Balance": "25,00,000"
+                    },
+                    {
+                      "Sl.No.": "",
+                      "Inoperative schemes under PD miscellaneous account of test checked units": "Total",
+                      "Closing Balance": "44,47,725"
+                    }
+                  ]
+                 
+              ],
+              "Table4":[
+                [
+                    {
+                      "Sl.No.": "",
+                      "P.D. Account Nomenclature": "",
+                      "Balance as per the Books of Pr.AG (A&E)": ""
+                    },
+                    {
+                      "Sl.No.": 1,
+                      "P.D. Account Nomenclature": "Deposits Under National Scholarship Scheme",
+                      "Balance as per the Books of Pr.AG (A&E)": "1,33,18,315.37"
+                    },
+                    {
+                      "Sl.No.": "",
+                      "P.D. Account Nomenclature": "",
+                      "Balance as per the Books of Pr.AG (A&E)": ""
+                    },
+                    {
+                      "Sl.No.": 2,
+                      "P.D. Account Nomenclature": "Pd A/C Of Bdo",
+                      "Balance as per the Books of Pr.AG (A&E)": "7,49,32,561.15"
+                    },
+                    {
+                      "Sl.No.": "",
+                      "P.D. Account Nomenclature": "",
+                      "Balance as per the Books of Pr.AG (A&E)": ""
+                    },
+                    {
+                      "Sl.No.": 3,
+                      "P.D. Account Nomenclature": "Pd A/C Of Labour Officer",
+                      "Balance as per the Books of Pr.AG (A&E)": "2,52,58,413.52"
+                    },
+                    {
+                      "Sl.No.": "",
+                      "P.D. Account Nomenclature": "",
+                      "Balance as per the Books of Pr.AG (A&E)": ""
+                    },
+                    {
+                      "Sl.No.": 4,
+                      "P.D. Account Nomenclature": "Secondary Karnataka Consumer Production Board",
+                      "Balance as per the Books of Pr.AG (A&E)": "1,90,50,09,843.00"
+                    },
+                    {
+                      "Sl.No.": "",
+                      "P.D. Account Nomenclature": "",
+                      "Balance as per the Books of Pr.AG (A&E)": ""
+                    },
+                    {
+                      "Sl.No.": 5,
+                      "P.D. Account Nomenclature": "Pd A/C Of I.T.I",
+                      "Balance as per the Books of Pr.AG (A&E)": "56,90,485.21"
+                    },
+                    {
+                      "Sl.No.": "",
+                      "P.D. Account Nomenclature": "",
+                      "Balance as per the Books of Pr.AG (A&E)": ""
+                    },
+                    {
+                      "Sl.No.": 6,
+                      "P.D. Account Nomenclature": "Pd A/C Of Member Secratery",
+                      "Balance as per the Books of Pr.AG (A&E)": "44,34,795.89"
+                    },
+                    {
+                      "Sl.No.": "",
+                      "P.D. Account Nomenclature": "",
+                      "Balance as per the Books of Pr.AG (A&E)": ""
+                    },
+                    {
+                      "Sl.No.": 7,
+                      "P.D. Account Nomenclature": "Pd A/C Of Malnad Area Development Board Shimoga",
+                      "Balance as per the Books of Pr.AG (A&E)": "14,79,657.00"
+                    },
+                    {
+                      "Sl.No.": "",
+                      "P.D. Account Nomenclature": "",
+                      "Balance as per the Books of Pr.AG (A&E)": ""
+                    },
+                    {
+                      "Sl.No.": 8,
+                      "P.D. Account Nomenclature": "Pd A/C Of Receipts Awaiting Transfers",
+                      "Balance as per the Books of Pr.AG (A&E)": "57,59,91,79,028.00"
+                    },
+                    {
+                      "Sl.No.": "",
+                      "P.D. Account Nomenclature": "",
+                      "Balance as per the Books of Pr.AG (A&E)": ""
+                    },
+                    {
+                      "Sl.No.": 9,
+                      "P.D. Account Nomenclature": "Pd A/C Of Land Compensation",
+                      "Balance as per the Books of Pr.AG (A&E)": "3,83,016.40"
+                    },
+                    {
+                      "Sl.No.": "",
+                      "P.D. Account Nomenclature": "",
+                      "Balance as per the Books of Pr.AG (A&E)": ""
+                    },
+                    {
+                      "Sl.No.": 10,
+                      "P.D. Account Nomenclature": "Pd A/C Of Suptt,Central Prison, Bellary",
+                      "Balance as per the Books of Pr.AG (A&E)": "10,19,781.00"
+                    },
+                    {
+                      "Sl.No.": "",
+                      "P.D. Account Nomenclature": "",
+                      "Balance as per the Books of Pr.AG (A&E)": ""
+                    },
+                    {
+                      "Sl.No.": 11,
+                      "P.D. Account Nomenclature": "Pd A/C Of Suptt. Of Central Prision, Belgaum",
+                      "Balance as per the Books of Pr.AG (A&E)": "2,08,757.00"
+                    },
+                    {
+                      "Sl.No.": "",
+                      "P.D. Account Nomenclature": "",
+                      "Balance as per the Books of Pr.AG (A&E)": ""
+                    },
+                    {
+                      "Sl.No.": 12,
+                      "P.D. Account Nomenclature": "Superintendent Central Prison Bangalore",
+                      "Balance as per the Books of Pr.AG (A&E)": "70,17,221.00"
+                    },
+                    {
+                      "Sl.No.": "",
+                      "P.D. Account Nomenclature": "",
+                      "Balance as per the Books of Pr.AG (A&E)": ""
+                    },
+                    {
+                      "Sl.No.": "Total",
+                      "P.D. Account Nomenclature": "",
+                      "Balance as per the Books of Pr.AG (A&E)": "59,63,79,31,874.54"
+                    }
+                  ]
+              ],
+              "Table5":[
+                [
+                    {
+                      "Sl.No": 1,
+                      "Scheme Name": "Tiger Project",
+                      "Closing Balance as on 31.03.2022": "15,79,289",
+                      "Utilised as per Order dated 28.03.2023": "15,76,750",
+                      "Closing Balance as on 31.03.2023": "2,539",
+                      "Utilised as per Order dated 16.08.2023": "2,537",
+                      "Balance": 2
+                    },
+                    {
+                      "Sl.No": 2,
+                      "Scheme Name": "N.R.Y.",
+                      "Closing Balance as on 31.03.2022": "9,399",
+                      "Utilised as per Order dated 28.03.2023": 0,
+                      "Closing Balance as on 31.03.2023": "9,399",
+                      "Utilised as per Order dated 16.08.2023": "9,322",
+                      "Balance": 77
+                    },
+                    {
+                      "Sl.No": 3,
+                      "Scheme Name": "Development Fund",
+                      "Closing Balance as on 31.03.2022": "14,850",
+                      "Utilised as per Order dated 28.03.2023": "14,850",
+                      "Closing Balance as on 31.03.2023": 0,
+                      "Utilised as per Order dated 16.08.2023": "",
+                      "Balance": 0
+                    },
+                    {
+                      "Sl.No": 4,
+                      "Scheme Name": "Rajiv Gandhi Yuva Shakti",
+                      "Closing Balance as on 31.03.2022": "5,00,000",
+                      "Utilised as per Order dated 28.03.2023": "4,90,250",
+                      "Closing Balance as on 31.03.2023": "9,750",
+                      "Utilised as per Order dated 16.08.2023": "9,747",
+                      "Balance": 3
+                    },
+                    {
+                      "Sl.No": 5,
+                      "Scheme Name": "Nirmala Nagara",
+                      "Closing Balance as on 31.03.2022": "93,305",
+                      "Utilised as per Order dated 28.03.2023": 0,
+                      "Closing Balance as on 31.03.2023": "93,305",
+                      "Utilised as per Order dated 16.08.2023": "93,220",
+                      "Balance": 85
+                    },
+                    {
+                      "Sl.No": 6,
+                      "Scheme Name": "Solid Waste Management",
+                      "Closing Balance as on 31.03.2022": "15,68,785",
+                      "Utilised as per Order dated 28.03.2023": "15,51,660",
+                      "Closing Balance as on 31.03.2023": "17,125",
+                      "Utilised as per Order dated 16.08.2023": "17,098",
+                      "Balance": 27
+                    },
+                    {
+                      "Sl.No": 7,
+                      "Scheme Name": "Agriculture Department",
+                      "Closing Balance as on 31.03.2022": "21,000",
+                      "Utilised as per Order dated 28.03.2023": "21,000",
+                      "Closing Balance as on 31.03.2023": 0,
+                      "Utilised as per Order dated 16.08.2023": 0,
+                      "Balance": 0
+                    },
+                    {
+                      "Sl.No": 8,
+                      "Scheme Name": "ADM Charges",
+                      "Closing Balance as on 31.03.2022": "14,075",
+                      "Utilised as per Order dated 28.03.2023": "14,075",
+                      "Closing Balance as on 31.03.2023": 0,
+                      "Utilised as per Order dated 16.08.2023": 0,
+                      "Balance": 0
+                    },
+                    {
+                      "Sl.No": 9,
+                      "Scheme Name": "Golden Independence",
+                      "Closing Balance as on 31.03.2022": "2,91,915",
+                      "Utilised as per Order dated 28.03.2023": "2,91,900",
+                      "Closing Balance as on 31.03.2023": 15,
+                      "Utilised as per Order dated 16.08.2023": 0,
+                      "Balance": 15
+                    },
+                    {
+                      "Sl.No": 10,
+                      "Scheme Name": "Communal Riot",
+                      "Closing Balance as on 31.03.2022": "87,100",
+                      "Utilised as per Order dated 28.03.2023": "86,940",
+                      "Closing Balance as on 31.03.2023": 160,
+                      "Utilised as per Order dated 16.08.2023": 0,
+                      "Balance": 160
+                    },
+                    {
+                      "Sl.No": 11,
+                      "Scheme Name": "Co-operative Society",
+                      "Closing Balance as on 31.03.2022": "4,99,998",
+                      "Utilised as per Order dated 28.03.2023": "4,95,110",
+                      "Closing Balance as on 31.03.2023": "4,888",
+                      "Utilised as per Order dated 16.08.2023": "4,778",
+                      "Balance": 110
+                    },
+                    {
+                      "Sl.No": 12,
+                      "Scheme Name": "Child Labour",
+                      "Closing Balance as on 31.03.2022": "5,00,000",
+                      "Utilised as per Order dated 28.03.2023": "4,96,100",
+                      "Closing Balance as on 31.03.2023": "3,900",
+                      "Utilised as per Order dated 16.08.2023": "3,822",
+                      "Balance": 78
+                    },
+                    {
+                      "Sl.No": 13,
+                      "Scheme Name": "Mini Ambedkar",
+                      "Closing Balance as on 31.03.2022": "3,25,000",
+                      "Utilised as per Order dated 28.03.2023": "3,24,870",
+                      "Closing Balance as on 31.03.2023": 130,
+                      "Utilised as per Order dated 16.08.2023": 0,
+                      "Balance": 130
+                    },
+                    {
+                      "Sl.No": 14,
+                      "Scheme Name": "Road Safety",
+                      "Closing Balance as on 31.03.2022": "3,933",
+                      "Utilised as per Order dated 28.03.2023": "3,635",
+                      "Closing Balance as on 31.03.2023": 298,
+                      "Utilised as per Order dated 16.08.2023": 0,
+                      "Balance": 298
+                    },
+                    {
+                      "Sl.No": 15,
+                      "Scheme Name": "Kaveri Riot",
+                      "Closing Balance as on 31.03.2022": "4,62,077",
+                      "Utilised as per Order dated 28.03.2023": "4,62,000",
+                      "Closing Balance as on 31.03.2023": 77,
+                      "Utilised as per Order dated 16.08.2023": 0,
+                      "Balance": 77
+                    },
+                    {
+                      "Sl.No": 16,
+                      "Scheme Name": "Negila Yogi",
+                      "Closing Balance as on 31.03.2022": "10,000",
+                      "Utilised as per Order dated 28.03.2023": 0,
+                      "Closing Balance as on 31.03.2023": "10,000",
+                      "Utilised as per Order dated 16.08.2023": "9,971",
+                      "Balance": 29
+                    },
+                    {
+                      "Sl.No": 17,
+                      "Scheme Name": "Kyathamaranahalli Riot",
+                      "Closing Balance as on 31.03.2022": "1,08,773",
+                      "Utilised as per Order dated 28.03.2023": 0,
+                      "Closing Balance as on 31.03.2023": "1,08,773",
+                      "Utilised as per Order dated 16.08.2023": "1,08,692",
+                      "Balance": 81
+                    },
+                    {
+                      "Sl.No": 18,
+                      "Scheme Name": "Independence Day Celebration",
+                      "Closing Balance as on 31.03.2022": "1,00,000",
+                      "Utilised as per Order dated 28.03.2023": "94,290",
+                      "Closing Balance as on 31.03.2023": "5,710",
+                      "Utilised as per Order dated 16.08.2023": "5,708",
+                      "Balance": 2
+                    },
+                    {
+                      "Sl.No": 19,
+                      "Scheme Name": "Innovation Fund",
+                      "Closing Balance as on 31.03.2022": "6,57,133",
+                      "Utilised as per Order dated 28.03.2023": "6,54,510",
+                      "Closing Balance as on 31.03.2023": "2,623",
+                      "Utilised as per Order dated 16.08.2023": "2,596",
+                      "Balance": 27
+                    },
+                    {
+                      "Sl.No": 20,
+                      "Scheme Name": "Land Justice board",
+                      "Closing Balance as on 31.03.2022": "1,24,500",
+                      "Utilised as per Order dated 28.03.2023": 0,
+                      "Closing Balance as on 31.03.2023": "1,24,500",
+                      "Utilised as per Order dated 16.08.2023": "1,24,490",
+                      "Balance": 10
+                    },
+                    {
+                      "Sl.No": "Total",
+                      "Scheme Name": "",
+                      "Closing Balance as on 31.03.2022": "69,71,132",
+                      "Utilised as per Order dated 28.03.2023": "65,77,940",
+                      "Closing Balance as on 31.03.2023": "3,93,192",
+                      "Utilised as per Order dated 16.08.2023": "3,91,981",
+                      "Balance": "1,211"
+                    }
+                  ]
+              ],
+              "Table6":[
+                [
+                    {
+                      "Sl. No.": 1,
+                      "Major Head of Account": "2013-Council of Ministers",
+                      "Total Expenditure": "25,69,36,110",
+                      "Expenditure under Minor Head 800": "7,52,37,621",
+                      "Percentage to total Expenditure": 29.28
+                    },
+                    {
+                      "Sl. No.": 2,
+                      "Major Head of Account": "2052-Secretariat-General Services",
+                      "Total Expenditure": "15,15,73,559",
+                      "Expenditure under Minor Head 800": "25,00,00,000",
+                      "Percentage to total Expenditure": 164.94
+                    },
+                    {
+                      "Sl. No.": 3,
+                      "Major Head of Account": "2216-Housing",
+                      "Total Expenditure": "37,43,45,04,324",
+                      "Expenditure under Minor Head 800": "17,74,42,33,000",
+                      "Percentage to total Expenditure": 47.4
+                    },
+                    {
+                      "Sl. No.": 4,
+                      "Major Head of Account": "2700-Major Irrigation",
+                      "Total Expenditure": "3,90,08,62,754",
+                      "Expenditure under Minor Head 800": "1,25,75,06,000",
+                      "Percentage to total Expenditure": 32.24
+                    },
+                    {
+                      "Sl. No.": 5,
+                      "Major Head of Account": "4070-Capital Outlay on Other Administrative Services",
+                      "Total Expenditure": "15,16,64,351",
+                      "Expenditure under Minor Head 800": "14,46,93,607",
+                      "Percentage to total Expenditure": 95.4
+                    },
+                    {
+                      "Sl. No.": 6,
+                      "Major Head of Account": "4217-Capital Outlay on Urban Development",
+                      "Total Expenditure": "58,18,39,00,000",
+                      "Expenditure under Minor Head 800": "55,67,93,00,000",
+                      "Percentage to total Expenditure": 95
+                    },
+                    {
+                      "Sl. No.": 7,
+                      "Major Head of Account": "4401-Capital Outlay on Crop Husbandry",
+                      "Total Expenditure": "2,73,91,32,214",
+                      "Expenditure under Minor Head 800": "1,08,46,77,000",
+                      "Percentage to total Expenditure": 39.6
+                    },
+                    {
+                      "Sl. No.": 8,
+                      "Major Head of Account": "4403-Capital Outlay on Animal Husbandry",
+                      "Total Expenditure": "1,27,78,76,291",
+                      "Expenditure under Minor Head 800": "60,00,00,000",
+                      "Percentage to total Expenditure": 46.95
+                    },
+                    {
+                      "Sl. No.": 9,
+                      "Major Head of Account": "4515-Capital Outlay on other Rural Development Programmes",
+                      "Total Expenditure": "2,63,86,96,385",
+                      "Expenditure under Minor Head 800": "2,42,58,40,330",
+                      "Percentage to total Expenditure": 91.93
+                    },
+                    {
+                      "Sl. No.": 10,
+                      "Major Head of Account": "4575-Capital Outlay on other Special Areas Programmes",
+                      "Total Expenditure": "33,99,96,18,064",
+                      "Expenditure under Minor Head 800": "33,99,96,18,064",
+                      "Percentage to total Expenditure": 100
+                    },
+                    {
+                      "Sl. No.": 11,
+                      "Major Head of Account": "4705-Capital Outlay on command Area Development",
+                      "Total Expenditure": "42,47,71,523",
+                      "Expenditure under Minor Head 800": "45,00,00,000",
+                      "Percentage to total Expenditure": 105.94
+                    },
+                    {
+                      "Sl. No.": 12,
+                      "Major Head of Account": "5452-Capital Outlay on Tourism",
+                      "Total Expenditure": "1,55,45,91,589",
+                      "Expenditure under Minor Head 800": "73,45,91,589",
+                      "Percentage to total Expenditure": 47.25
+                    },
+                    {
+                      "Sl. No.": "",
+                      "Major Head of Account": "Total",
+                      "Total Expenditure": "1,42,71,41,27,164",
+                      "Expenditure under Minor Head 800": "1,14,44,56,97,211",
+                      "Percentage to total Expenditure": ""
+                    }
+                  ]
+              ],
+              "Table7":[
+                [
+                    {
+                      "Sl. No": 1,
+                      "Name of the Autonomous Body": "Karnataka Urban Water Supply & Drainage Board, Bengaluru",
+                      "Section under DPC Act": "19 (3)",
+                      "Period of entrustment": "2020-21 to",
+                      "Year up to which accounts rendered": "2021-22",
+                      "Year up to which audit report  issued": "2019-20",
+                      "Placement of audit reports before the Legislature": "2018-19",
+                      "No. of Audit Reports pending for placement in Legislature": 1
+                    },
+                    {
+                      "Sl. No": "",
+                      "Name of the Autonomous Body": "",
+                      "Section under DPC Act": "",
+                      "Period of entrustment": "2024-25",
+                      "Year up to which accounts rendered": "",
+                      "Year up to which audit report  issued": "",
+                      "Placement of audit reports before the Legislature": "",
+                      "No. of Audit Reports pending for placement in Legislature": ""
+                    },
+                    {
+                      "Sl. No": 2,
+                      "Name of the Autonomous Body": "Karnataka Slum Development Board, Bengaluru",
+                      "Section under DPC Act": "19 (3)",
+                      "Period of entrustment": "2022-23 to 2026-27",
+                      "Year up to which accounts rendered": "2021-22",
+                      "Year up to which audit report  issued": "2020-21",
+                      "Placement of audit reports before the Legislature": "2019-20",
+                      "No. of Audit Reports pending for placement in Legislature": 1
+                    },
+                    {
+                      "Sl. No": "",
+                      "Name of the Autonomous Body": "",
+                      "Section under DPC Act": "",
+                      "Period of entrustment": "",
+                      "Year up to which accounts rendered": "",
+                      "Year up to which audit report  issued": "",
+                      "Placement of audit reports before the Legislature": "",
+                      "No. of Audit Reports pending for placement in Legislature": ""
+                    },
+                    {
+                      "Sl. No": 3,
+                      "Name of the Autonomous Body": "Bangalore Water Supply and Sewerage Board, Bengaluru",
+                      "Section under DPC Act": "19 (3)",
+                      "Period of entrustment": "2017-18 to 2021-22",
+                      "Year up to which accounts rendered": "2019-20",
+                      "Year up to which audit report  issued": "2019-20",
+                      "Placement of audit reports before the Legislature": "2018-19",
+                      "No. of Audit Reports pending for placement in Legislature": 1
+                    },
+                    {
+                      "Sl. No": "",
+                      "Name of the Autonomous Body": "",
+                      "Section under DPC Act": "",
+                      "Period of entrustment": "",
+                      "Year up to which accounts rendered": "",
+                      "Year up to which audit report  issued": "",
+                      "Placement of audit reports before the Legislature": "",
+                      "No. of Audit Reports pending for placement in Legislature": ""
+                    },
+                    {
+                      "Sl. No": 4,
+                      "Name of the Autonomous Body": "Karnataka Housing Board, Bengaluru",
+                      "Section under DPC Act": "19 (3)",
+                      "Period of entrustment": "2021-22 to",
+                      "Year up to which accounts rendered": "2021-22",
+                      "Year up to which audit report  issued": "2019-20",
+                      "Placement of audit reports before the Legislature": "2017-18",
+                      "No. of Audit Reports pending for placement in Legislature": 2
+                    },
+                    {
+                      "Sl. No": "",
+                      "Name of the Autonomous Body": "",
+                      "Section under DPC Act": "",
+                      "Period of entrustment": "2025-26",
+                      "Year up to which accounts rendered": "",
+                      "Year up to which audit report  issued": "",
+                      "Placement of audit reports before the Legislature": "",
+                      "No. of Audit Reports pending for placement in Legislature": ""
+                    },
+                    {
+                      "Sl. No": 5,
+                      "Name of the Autonomous Body": "Bangalore Development Authority, Bengaluru",
+                      "Section under DPC Act": "19 (3)",
+                      "Period of entrustment": "2020-21 to",
+                      "Year up to which accounts rendered": "2021-22",
+                      "Year up to which audit report  issued": "2020-21",
+                      "Placement of audit reports before the Legislature": "2018-19",
+                      "No. of Audit Reports pending for placement in Legislature": 2
+                    },
+                    {
+                      "Sl. No": "",
+                      "Name of the Autonomous Body": "",
+                      "Section under DPC Act": "",
+                      "Period of entrustment": "2024-25",
+                      "Year up to which accounts rendered": "",
+                      "Year up to which audit report  issued": "",
+                      "Placement of audit reports before the Legislature": "",
+                      "No. of Audit Reports pending for placement in Legislature": ""
+                    },
+                    {
+                      "Sl. No": 6,
+                      "Name of the Autonomous Body": "Karnataka State Legal Services Authority, Bengaluru",
+                      "Section under DPC Act": "19 (2)",
+                      "Period of entrustment": "As per Act",
+                      "Year up to which accounts rendered": "2020-21",
+                      "Year up to which audit report  issued": "2019-20",
+                      "Placement of audit reports before the Legislature": "2018-19",
+                      "No. of Audit Reports pending for placement in Legislature": 1
+                    },
+                    {
+                      "Sl. No": "",
+                      "Name of the Autonomous Body": "",
+                      "Section under DPC Act": "",
+                      "Period of entrustment": "",
+                      "Year up to which accounts rendered": "",
+                      "Year up to which audit report  issued": "",
+                      "Placement of audit reports before the Legislature": "",
+                      "No. of Audit Reports pending for placement in Legislature": ""
+                    },
+                    {
+                      "Sl. No": 7,
+                      "Name of the Autonomous Body": "Karnataka State Human Rights Commission, Bengaluru",
+                      "Section under DPC Act": "19 (2)",
+                      "Period of entrustment": "As per Act",
+                      "Year up to which accounts rendered": "2021-22",
+                      "Year up to which audit report  issued": "2021-22",
+                      "Placement of audit reports before the Legislature": "2018-19",
+                      "No. of Audit Reports pending for placement in Legislature": 3
+                    },
+                    {
+                      "Sl. No": "",
+                      "Name of the Autonomous Body": "",
+                      "Section under DPC Act": "",
+                      "Period of entrustment": "",
+                      "Year up to which accounts rendered": "",
+                      "Year up to which audit report  issued": "",
+                      "Placement of audit reports before the Legislature": "",
+                      "No. of Audit Reports pending for placement in Legislature": ""
+                    },
+                    {
+                      "Sl. No": 8,
+                      "Name of the Autonomous Body": "Karnataka Industrial Areas Development Board, Bengaluru",
+                      "Section under DPC Act": "19 (3)",
+                      "Period of entrustment": "2019-20 to 2024-25",
+                      "Year up to which accounts rendered": "2021-22",
+                      "Year up to which audit report  issued": "2020-21",
+                      "Placement of audit reports before the Legislature": "2018-19",
+                      "No. of Audit Reports pending for placement in Legislature": 2
+                    },
+                    {
+                      "Sl. No": 9,
+                      "Name of the Autonomous Body": "Karnataka State Khadi and Village Industries Board, Bengaluru",
+                      "Section under DPC Act": "19 (3)",
+                      "Period of entrustment": "2022-23 to 2026-27",
+                      "Year up to which accounts rendered": "2021-22",
+                      "Year up to which audit report  issued": "2020-21",
+                      "Placement of audit reports before the Legislature": "2019-20",
+                      "No. of Audit Reports pending for placement in Legislature": 1
+                    },
+                    {
+                      "Sl. No": 10,
+                      "Name of the Autonomous Body": "Karnataka Biodiversity Board, Bengaluru",
+                      "Section under DPC Act": "20 (1)",
+                      "Period of entrustment": "2002 onwards as per Act",
+                      "Year up to which accounts rendered": "2021-22",
+                      "Year up to which audit report  issued": "2021-22",
+                      "Placement of audit reports before the Legislature": "2020-21",
+                      "No. of Audit Reports pending for placement in Legislature": 1
+                    },
+                    {
+                      "Sl. No": 11,
+                      "Name of the Autonomous Body": "The Compensatory Afforestation Fund Management and Planning Authority (CAMPA)",
+                      "Section under DPC Act": "As per CAMPA guidelines 2009-10 audit entrusted from 2009-10",
+                      "Period of entrustment": "From 2009-10 as per guidelines",
+                      "Year up to which accounts rendered": "2021-22",
+                      "Year up to which audit report  issued": "2019-20",
+                      "Placement of audit reports before the Legislature": "Not placed",
+                      "No. of Audit Reports pending for placement in Legislature": 1
+                    },
+                    {
+                      "Sl. No": 12,
+                      "Name of the Autonomous Body": "Karnataka Building and Other Construction Workers Welfare Board, Bengaluru",
+                      "Section under DPC Act": "19(2)",
+                      "Period of entrustment": "As per Act",
+                      "Year up to which accounts rendered": "2019-20",
+                      "Year up to which audit report  issued": "2015-16   2016-17",
+                      "Placement of audit reports before the Legislature": "Not placed",
+                      "No. of Audit Reports pending for placement in Legislature": 2
+                    },
+                    {
+                      "Sl. No": 13,
+                      "Name of the Autonomous Body": "Karnataka State Real Estate Regulatory Authority, Bengaluru",
+                      "Section under DPC Act": "19 (2)",
+                      "Period of entrustment": "As per Act",
+                      "Year up to which accounts rendered": "2021-22",
+                      "Year up to which audit report  issued": "2018-19",
+                      "Placement of audit reports before the Legislature": "Not placed",
+                      "No. of Audit Reports pending for placement in Legislature": 1
+                    },
+                    {
+                      "Sl. No": 14,
+                      "Name of the Autonomous Body": "Karnataka Electricity Regulatory Commission",
+                      "Section under DPC Act": "19(2)",
+                      "Period of entrustment": "As per Act",
+                      "Year up to which accounts rendered": "2021-22",
+                      "Year up to which audit report  issued": "2021-22",
+                      "Placement of audit reports before the Legislature": "2018-19",
+                      "No. of Audit Reports pending for placement in Legislature": 3
+                    }
+                  ]
+
+              ],
+              "Table8":[
+                [
+                    {
+                      "Sl. No.": 1,
+                      "Undertaking": "Chamarajendra Technical Institute Mysuru",
+                      "Accounts finalized up to": "1984-85",
+                      "Investment as per the last accounts finalized": "-",
+                      "Remarks": "Proforma accounts due from 1985-86."
+                    },
+                    {
+                      "Sl. No.": 2,
+                      "Undertaking": "Government Saw Mills, Joida",
+                      "Accounts finalized up to": "1968-69",
+                      "Investment as per the last accounts finalized": "-",
+                      "Remarks": "Proforma accounts due from 1969-70. Undertaking closed w.e.f. 27-04-1971."
+                    },
+                    {
+                      "Sl. No.": 3,
+                      "Undertaking": "Dasara Exhibition Committee, Mysuru",
+                      "Accounts finalized up to": "1980-81",
+                      "Investment as per the last accounts finalized": "-",
+                      "Remarks": "Proforma accounts due from 1981-82 to 1995-96."
+                    },
+                    {
+                      "Sl. No.": 4,
+                      "Undertaking": "Bengaluru Dairy, Bengaluru",
+                      "Accounts finalized up to": "1973-74",
+                      "Investment as per the last accounts finalized": "-",
+                      "Remarks": "Company stands transferred to Karnataka Milk Producers Co-operative Federation Limited from November 1984."
+                    },
+                    {
+                      "Sl. No.": 5,
+                      "Undertaking": "Government Milk Supply Scheme, Hubballi-Dharwad",
+                      "Accounts finalized up to": "1980-81",
+                      "Investment as per the last accounts finalized": "-",
+                      "Remarks": "Proforma accounts due from 1981-82 to 1984-85 (31.01.1985). Transferred to KDDC."
+                    },
+                    {
+                      "Sl. No.": 6,
+                      "Undertaking": "Government Milk Supply Scheme, Mysuru",
+                      "Accounts finalized up to": "1968-69",
+                      "Investment as per the last accounts finalized": "-",
+                      "Remarks": "Proforma accounts due from 1969-70 to 30.11.1975.  Transferred to KDDC w.e.f 01.12.1975."
+                    },
+                    {
+                      "Sl. No.": 7,
+                      "Undertaking": "Government Milk Supply Scheme, Belagavi",
+                      "Accounts finalized up to": "1974-75",
+                      "Investment as per the last accounts finalized": "-",
+                      "Remarks": "Proforma accounts due from 1977-78 to 1984-85. Transferred to KDDC w.e.f 01.12.1975."
+                    },
+                    {
+                      "Sl. No.": 8,
+                      "Undertaking": "Government Milk Supply Scheme, Kalaburgi",
+                      "Accounts finalized up to": "1982-83",
+                      "Investment as per the last accounts finalized": "-",
+                      "Remarks": "Proforma accounts due from 1983-84 to 1984-85 (up to 31.01.1985). Transferred to KDDC."
+                    },
+                    {
+                      "Sl. No.": 9,
+                      "Undertaking": "Government Milk Supply Scheme, Bhadravathi",
+                      "Accounts finalized up to": "1980-81",
+                      "Investment as per the last accounts finalized": "-",
+                      "Remarks": "Proforma accounts due from 1983-84 to 1984-85 (up to 14.02.1985). Transferred to KDDC."
+                    },
+                    {
+                      "Sl. No.": 10,
+                      "Undertaking": "Government Milk Supply Scheme, Mangaluru",
+                      "Accounts finalized up to": "1982-83",
+                      "Investment as per the last accounts finalized": "-",
+                      "Remarks": "Proforma accounts due from 1983-84 & 1984-85 (up to 14.02.1985). Transferred to KDDC."
+                    },
+                    {
+                      "Sl. No.": 11,
+                      "Undertaking": "Government Milk Supply Scheme, Kudige",
+                      "Accounts finalized up to": "1972-73",
+                      "Investment as per the last accounts finalized": "-",
+                      "Remarks": "Proforma accounts due from 1973-74 & 1974-75 (up to 30.11.1975).  Transferred to KDDC."
+                    },
+                    {
+                      "Sl. No.": 12,
+                      "Undertaking": "Vaccine Institute, Belagavi",
+                      "Accounts finalized up to": "1992-93",
+                      "Investment as per the last accounts finalized": "-",
+                      "Remarks": "Proforma accounts due from 1993-94."
+                    },
+                    {
+                      "Sl. No.": 13,
+                      "Undertaking": "Government Silk Filature, Kollegal",
+                      "Accounts finalized up to": "2015-16",
+                      "Investment as per the last accounts finalized": 1.69,
+                      "Remarks": ""
+                    },
+                    {
+                      "Sl. No.": 14,
+                      "Undertaking": "Government Silk Filature, Chamarajanagar",
+                      "Accounts finalized up to": "2015-16",
+                      "Investment as per the last accounts finalized": 1.68,
+                      "Remarks": ""
+                    },
+                    {
+                      "Sl. No.": 15,
+                      "Undertaking": "Government Silk Filature, Santhemarahalli",
+                      "Accounts finalized up to": "2016-17",
+                      "Investment as per the last accounts finalized": 1.24,
+                      "Remarks": ""
+                    },
+                    {
+                      "Sl. No.": 16,
+                      "Undertaking": "Government Silk Filature, Mamballi",
+                      "Accounts finalized up to": "2015-16",
+                      "Investment as per the last accounts finalized": 2.38,
+                      "Remarks": "Information not available."
+                    },
+                    {
+                      "Sl. No.": 17,
+                      "Undertaking": "Government Silk Twisting and Weaving Factory, Mudigundam",
+                      "Accounts finalized up to": "2015-16",
+                      "Investment as per the last accounts finalized": 1.81,
+                      "Remarks": ""
+                    },
+                    {
+                      "Sl. No.": 18,
+                      "Undertaking": "Government Central Workshop, Madikeri",
+                      "Accounts finalized up to": "2008-09",
+                      "Investment as per the last accounts finalized": 0.07,
+                      "Remarks": "Proforma accounts due from 2009-10"
+                    },
+                    {
+                      "Sl. No.": 19,
+                      "Undertaking": "Karnataka Government Insurance Department, Bengaluru",
+                      "Accounts finalized up to": "-",
+                      "Investment as per the last accounts finalized": "No Capital Account",
+                      "Remarks": "Information not available."
+                    },
+                    {
+                      "Sl. No.": 20,
+                      "Undertaking": "Government Silk Filature,",
+                      "Accounts finalized up to": "Proforma Accounts in arrears.",
+                      "Investment as per the last accounts finalized": "",
+                      "Remarks": ""
+                    },
+                    {
+                      "Sl. No.": "",
+                      "Undertaking": "Tolahunase",
+                      "Accounts finalized up to": "",
+                      "Investment as per the last accounts finalized": "",
+                      "Remarks": ""
+                    }
+                  ]
+              ],
+             "Table9":[
+                [
+                    {
+                      "Sl. No.": 1,
+                      "Department": "Education",
+                      "Number of Institutions": 991,
+                      "Years for which information not received": "2015-16 to 2021-22"
+                    },
+                    {
+                      "Sl. No.": 2,
+                      "Department": "Medical Education",
+                      "Number of Institutions": 25,
+                      "Years for which information not received": "2016-17 to 2022-23"
+                    },
+                    {
+                      "Sl. No.": 3,
+                      "Department": "Health & Family Welfare",
+                      "Number of Institutions": 2,
+                      "Years for which information not received": "2018-19 to 2022-23"
+                    },
+                    {
+                      "Sl. No.": 4,
+                      "Department": "IT, BT Science & Technology",
+                      "Number of Institutions": 4,
+                      "Years for which information not received": "2021-22 to 2022-23"
+                    },
+                    {
+                      "Sl. No.": 5,
+                      "Department": "Kannada & Culture",
+                      "Number of Institutions": 11,
+                      "Years for which information not received": "2016-17 to 2022-23"
+                    },
+                    {
+                      "Sl. No.": 6,
+                      "Department": "Youth Services & Sports Department",
+                      "Number of Institutions": 2,
+                      "Years for which information not received": "2020-21 to 2021-22"
+                    },
+                    {
+                      "Sl. No.": 7,
+                      "Department": "Social Welfare",
+                      "Number of Institutions": 4,
+                      "Years for which information not received": "2010-11 to 2022-23"
+                    },
+                    {
+                      "Sl. No.": 8,
+                      "Department": "Women & Child Development",
+                      "Number of Institutions": 2,
+                      "Years for which information not received": "2016-17 to 2022-23"
+                    },
+                    {
+                      "Sl. No.": 9,
+                      "Department": "Minority Welfare Department",
+                      "Number of Institutions": 2,
+                      "Years for which information not received": "2013-14 to 2022-23"
+                    },
+                    {
+                      "Sl. No.": 10,
+                      "Department": "Backward Classes Department",
+                      "Number of Institutions": 1,
+                      "Years for which information not received": "2016-17 to 2022-23"
+                    },
+                    {
+                      "Sl. No.": 11,
+                      "Department": "Department of Personnel and Administrative Reforms",
+                      "Number of Institutions": 1,
+                      "Years for which information not received": "2018-19 to 2022-23"
+                    },
+                    {
+                      "Sl. No.": 12,
+                      "Department": "Revenue Department",
+                      "Number of Institutions": 1,
+                      "Years for which information not received": "2018-19 to 2022-23"
+                    },
+                    {
+                      "Sl. No.": 13,
+                      "Department": "Department of Information and Public Relation Department",
+                      "Number of Institutions": 2,
+                      "Years for which information not received": "2016-17 to 2022-23"
+                    },
+                    {
+                      "Sl. No.": 14,
+                      "Department": "Hindu religious Institutions and charitable endowments",
+                      "Number of Institutions": 1,
+                      "Years for which information not received": "2012-13 to 2022-23"
+                    },
+                    {
+                      "Sl. No.": 15,
+                      "Department": "Commerce and Industries",
+                      "Number of Institutions": 2,
+                      "Years for which information not received": "2003-04 to 2022-23"
+                    },
+                    {
+                      "Sl. No.": 16,
+                      "Department": "Law and Justice",
+                      "Number of Institutions": 3,
+                      "Years for which information not received": "2014-15 to 2021-22"
+                    },
+                    {
+                      "Sl. No.": "",
+                      "Department": "Total",
+                      "Number of Institutions": 1054,
+                      "Years for which information not received": ""
+                    }
+                  ]
+             ],
+             "Table10":[
+                [
+                    {
+                      "Department": "",
+                      "<5years": "No.",
+                      "<5years__1": "Amt.",
+                      "<15 years": "No.",
+                      "<15 years__1": "Amt.",
+                      "<20 years": "No.",
+                      "<20 years__1": "Amt.",
+                      "<25 years": "No.",
+                      "<25 years__1": "Amt.",
+                      ">25 years": "No.",
+                      ">25 years__1": "Amt.",
+                      "Total": "No.",
+                      "Total__1": "Amt."
+                    },
+                    {
+                      "Department": "Animal Husbandry and Veterinary Services",
+                      "<5years": 4,
+                      "<5years__1": 643.7,
+                      "<15 years": "",
+                      "<15 years__1": "",
+                      "<20 years": "",
+                      "<20 years__1": "",
+                      "<25 years": "",
+                      "<25 years__1": "",
+                      ">25 years": "",
+                      ">25 years__1": "",
+                      "Total": 4,
+                      "Total__1": 643.7
+                    },
+                    {
+                      "Department": "Food and Civil Supplies",
+                      "<5years": 1,
+                      "<5years__1": 525,
+                      "<15 years": "",
+                      "<15 years__1": "",
+                      "<20 years": "",
+                      "<20 years__1": "",
+                      "<25 years": "",
+                      "<25 years__1": "",
+                      ">25 years": "",
+                      ">25 years__1": "",
+                      "Total": 1,
+                      "Total__1": 525
+                    },
+                    {
+                      "Department": "Medical Education",
+                      "<5years": "",
+                      "<5years__1": "",
+                      "<15 years": "",
+                      "<15 years__1": "",
+                      "<20 years": "",
+                      "<20 years__1": "",
+                      "<25 years": "",
+                      "<25 years__1": "",
+                      ">25 years": 2,
+                      ">25 years__1": 1.98,
+                      "Total": 2,
+                      "Total__1": 1.98
+                    },
+                    {
+                      "Department": "Forest",
+                      "<5years": "",
+                      "<5years__1": "",
+                      "<15 years": "",
+                      "<15 years__1": "",
+                      "<20 years": "",
+                      "<20 years__1": "",
+                      "<25 years": "",
+                      "<25 years__1": "",
+                      ">25 years": 2,
+                      ">25 years__1": 0.74,
+                      "Total": 2,
+                      "Total__1": 0.74
+                    },
+                    {
+                      "Department": "Home",
+                      "<5years": 2,
+                      "<5years__1": 9.09,
+                      "<15 years": 3,
+                      "<15 years__1": 100.2,
+                      "<20 years": "",
+                      "<20 years__1": "",
+                      "<25 years": "",
+                      "<25 years__1": "",
+                      ">25 years": 1,
+                      ">25 years__1": 20.4,
+                      "Total": 6,
+                      "Total__1": 129.69
+                    },
+                    {
+                      "Department": "Law",
+                      "<5years": 1,
+                      "<5years__1": 227,
+                      "<15 years": "",
+                      "<15 years__1": "",
+                      "<20 years": "",
+                      "<20 years__1": "",
+                      "<25 years": "",
+                      "<25 years__1": "",
+                      ">25 years": "",
+                      ">25 years__1": "",
+                      "Total": 1,
+                      "Total__1": 227
+                    },
+                    {
+                      "Department": "Health and Family Welfare",
+                      "<5years": "",
+                      "<5years__1": "",
+                      "<15 years": "",
+                      "<15 years__1": "",
+                      "<20 years": "",
+                      "<20 years__1": "",
+                      "<25 years": "",
+                      "<25 years__1": "",
+                      ">25 years": 10,
+                      ">25 years__1": 1.6,
+                      "Total": 10,
+                      "Total__1": 1.6
+                    },
+                    {
+                      "Department": "Social Welfare",
+                      "<5years": "",
+                      "<5years__1": "",
+                      "<15 years": "",
+                      "<15 years__1": "",
+                      "<20 years": 1,
+                      "<20 years__1": 9.48,
+                      "<25 years": "",
+                      "<25 years__1": "",
+                      ">25 years": "",
+                      ">25 years__1": "",
+                      "Total": 1,
+                      "Total__1": 9.48
+                    },
+                    {
+                      "Department": "Public Works",
+                      "<5years": "",
+                      "<5years__1": "",
+                      "<15 years": 2,
+                      "<15 years__1": "1,180.18",
+                      "<20 years": "",
+                      "<20 years__1": "",
+                      "<25 years": "",
+                      "<25 years__1": "",
+                      ">25 years": "",
+                      ">25 years__1": "",
+                      "Total": 2,
+                      "Total__1": "1,180.18"
+                    },
+                    {
+                      "Department": "RDPR",
+                      "<5years": 1,
+                      "<5years__1": 1.04,
+                      "<15 years": "",
+                      "<15 years__1": "",
+                      "<20 years": "",
+                      "<20 years__1": "",
+                      "<25 years": "",
+                      "<25 years__1": "",
+                      ">25 years": "",
+                      ">25 years__1": "",
+                      "Total": 1,
+                      "Total__1": 1.04
+                    },
+                    {
+                      "Department": "Karnataka Soaps and Detergents Ltd.",
+                      "<5years": "",
+                      "<5years__1": "",
+                      "<15 years": 1,
+                      "<15 years__1": 499.21,
+                      "<20 years": "",
+                      "<20 years__1": "",
+                      "<25 years": "",
+                      "<25 years__1": "",
+                      ">25 years": "",
+                      ">25 years__1": "",
+                      "Total": 1,
+                      "Total__1": 499.21
+                    },
+                    {
+                      "Department": "Karnataka Handloom Development Corporation",
+                      "<5years": 3,
+                      "<5years__1": 10.76,
+                      "<15 years": 1,
+                      "<15 years__1": 12.5,
+                      "<20 years": "",
+                      "<20 years__1": "",
+                      "<25 years": "",
+                      "<25 years__1": "",
+                      ">25 years": "",
+                      ">25 years__1": "",
+                      "Total": 4,
+                      "Total__1": 23.26
+                    },
+                    {
+                      "Department": "Karnataka State Coir Development Corporation",
+                      "<5years": "",
+                      "<5years__1": "",
+                      "<15 years": 5,
+                      "<15 years__1": 7.56,
+                      "<20 years": 2,
+                      "<20 years__1": 17.66,
+                      "<25 years": 1,
+                      "<25 years__1": 5.1,
+                      ">25 years": "",
+                      ">25 years__1": "",
+                      "Total": 8,
+                      "Total__1": 30.32
+                    },
+                    {
+                      "Department": "BESCOM",
+                      "<5years": "",
+                      "<5years__1": "",
+                      "<15 years": 5,
+                      "<15 years__1": 181.05,
+                      "<20 years": "",
+                      "<20 years__1": "",
+                      "<25 years": "",
+                      "<25 years__1": "",
+                      ">25 years": "",
+                      ">25 years__1": "",
+                      "Total": 5,
+                      "Total__1": 181.05
+                    },
+                    {
+                      "Department": "CESCOM",
+                      "<5years": 1,
+                      "<5years__1": 44.85,
+                      "<15 years": 1,
+                      "<15 years__1": 54.45,
+                      "<20 years": "",
+                      "<20 years__1": "",
+                      "<25 years": "",
+                      "<25 years__1": "",
+                      ">25 years": "",
+                      ">25 years__1": "",
+                      "Total": 2,
+                      "Total__1": 99.3
+                    },
+                    {
+                      "Department": "GESCOM",
+                      "<5years": 2,
+                      "<5years__1": 134.81,
+                      "<15 years": 3,
+                      "<15 years__1": 224.75,
+                      "<20 years": "",
+                      "<20 years__1": "",
+                      "<25 years": "",
+                      "<25 years__1": "",
+                      ">25 years": "",
+                      ">25 years__1": "",
+                      "Total": 5,
+                      "Total__1": 359.56
+                    },
+                    {
+                      "Department": "HESCOM",
+                      "<5years": "",
+                      "<5years__1": "",
+                      "<15 years": 2,
+                      "<15 years__1": 91.58,
+                      "<20 years": "",
+                      "<20 years__1": "",
+                      "<25 years": "",
+                      "<25 years__1": "",
+                      ">25 years": "",
+                      ">25 years__1": "",
+                      "Total": 2,
+                      "Total__1": 91.58
+                    },
+                    {
+                      "Department": "KPTCL",
+                      "<5years": "",
+                      "<5years__1": "",
+                      "<15 years": 2,
+                      "<15 years__1": 369.73,
+                      "<20 years": "",
+                      "<20 years__1": "",
+                      "<25 years": "",
+                      "<25 years__1": "",
+                      ">25 years": "",
+                      ">25 years__1": "",
+                      "Total": 2,
+                      "Total__1": 369.73
+                    },
+                    {
+                      "Department": "Archelogy, Museums and Heritage",
+                      "<5years": "",
+                      "<5years__1": "",
+                      "<15 years": 1,
+                      "<15 years__1": 3.38,
+                      "<20 years": "",
+                      "<20 years__1": "",
+                      "<25 years": "",
+                      "<25 years__1": "",
+                      ">25 years": "",
+                      ">25 years__1": "",
+                      "Total": 1,
+                      "Total__1": 3.38
+                    },
+                    {
+                      "Department": "Urban Development Department",
+                      "<5years": 1,
+                      "<5years__1": 2.02,
+                      "<15 years": "",
+                      "<15 years__1": "",
+                      "<20 years": "",
+                      "<20 years__1": "",
+                      "<25 years": "",
+                      "<25 years__1": "",
+                      ">25 years": "",
+                      ">25 years__1": "",
+                      "Total": 1,
+                      "Total__1": 2.02
+                    },
+                    {
+                      "Department": "Fisheries",
+                      "<5years": "",
+                      "<5years__1": "",
+                      "<15 years": 1,
+                      "<15 years__1": 6.25,
+                      "<20 years": "",
+                      "<20 years__1": "",
+                      "<25 years": "",
+                      "<25 years__1": "",
+                      ">25 years": "",
+                      ">25 years__1": "",
+                      "Total": 1,
+                      "Total__1": 6.25
+                    },
+                    {
+                      "Department": "Total",
+                      "<5years": 16,
+                      "<5years__1": "1,598.27",
+                      "<15 years": 27,
+                      "<15 years__1": "2,730.84",
+                      "<20 years": 3,
+                      "<20 years__1": 27.14,
+                      "<25 years": 1,
+                      "<25 years__1": 5.1,
+                      ">25 years": 15,
+                      ">25 years__1": 24.72,
+                      "Total": 62,
+                      "Total__1": "4,386.07"
+                    }
+                  ]
+             ]
+             }
         
  
     }
