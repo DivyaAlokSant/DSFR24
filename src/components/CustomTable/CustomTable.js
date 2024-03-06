@@ -6,14 +6,13 @@ import { styles } from "./helpers";
 
 const customStyles = styles;
 
-const CustomTable = ({ title, columns, data }) => {
+const CustomTable = ({ title, columns, data, indexToIncreaseWidth, widthSize }) => {
   // Construct columns dynamically based on the keys of the first data object
   const tableColumns = Object.keys(data[0]).map((key, index) => ({
     name: key,
     selector: key,
     wrap: true,
-    //width: index === 0 ? '250px' : 'auto', 
-    //grow: index === 0 ? 0.5 : 'auto', // Set width for the first column to 150px, rest are auto
+    width: index === indexToIncreaseWidth ? widthSize : 'auto', // Set width for the specified index, rest are auto
     format: data => data[key].toLocaleString('en-IN')
   }));
 
@@ -50,3 +49,12 @@ const CustomTable = ({ title, columns, data }) => {
 };
 
 export default CustomTable;
+
+
+
+
+{/* <CustomTable title={"Appendix 1.1 B Financial Data"}
+                            columns={ctx.appendix1.Table2}
+                            data={ctx.appendix1.Table2} 
+                            indexToIncreaseWidth={1}
+                            widthSize={'250px'}/> */}

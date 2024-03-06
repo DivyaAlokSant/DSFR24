@@ -78,6 +78,9 @@ export const MyProvider = (props) => {
       chapterFour: report.Chap4,
       chapter4kannada: report.Chap4kan,
       chapterFive: report.Chap5,
+      appendix1: report.Appendices.Appendix1,
+      appendix2: report.Appendices.Appendix2,
+
       chapter5kannada: report.Chap5kan,      
       charts: report.Chap1.Charts,
       chartskan: report.Chap1kan ? report.Chap1kan.Charts : "",

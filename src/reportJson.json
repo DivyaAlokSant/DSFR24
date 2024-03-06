@@ -43703,5 +43703,1305 @@
         "para52": "",
         "para53": "",
         "para54": ""
+    },
+    "Appendices":{
+        "Appendix1": {
+            "Table1a":[
+                {
+                  "Sl. No.": 1,
+                  "Particulars": "Area",
+                  "Census Data": "",
+                  "Figures": "1,91,791 sq.km"
+                },
+                {
+                  "Sl. No.": 2,
+                  "Particulars": "Population",
+                  "Census Data": "",
+                  "Figures": ""
+                },
+                {
+                  "Sl. No.": "",
+                  "Particulars": "a.",
+                  "Census Data": "As per 2001 Census",
+                  "Figures": "5.29 crore"
+                },
+                {
+                  "Sl. No.": "",
+                  "Particulars": "b.",
+                  "Census Data": "As per 2011 Census",
+                  "Figures": "6.11 crore"
+                },
+                {
+                  "Sl. No.": 3,
+                  "Particulars": "1Density of Population (2011 Census)",
+                  "Census Data": "",
+                  "Figures": "319 persons per sq.km"
+                },
+                {
+                  "Sl. No.": "",
+                  "Particulars": "(All India Density = 382 persons per Sq. Km)",
+                  "Census Data": "",
+                  "Figures": ""
+                },
+                {
+                  "Sl. No.": 4,
+                  "Particulars": "2Population below poverty line (2011 Census)",
+                  "Census Data": "",
+                  "Figures": "20.90 per cent"
+                },
+                {
+                  "Sl. No.": "",
+                  "Particulars": "(All India Average= 21.90 %)",
+                  "Census Data": "",
+                  "Figures": ""
+                },
+                {
+                  "Sl. No.": 5,
+                  "Particulars": "3Literacy (2011 Census) (All India Average = 73.00 % )",
+                  "Census Data": "",
+                  "Figures": "75.36 per cent"
+                },
+                {
+                  "Sl. No.": 6,
+                  "Particulars": "4Infant Mortality (per 1,000 live births)",
+                  "Census Data": "",
+                  "Figures": "19 per 1,000 live births"
+                },
+                {
+                  "Sl. No.": "",
+                  "Particulars": "(All India Average =  33 per 1,000 live births)",
+                  "Census Data": "",
+                  "Figures": ""
+                },
+                {
+                  "Sl. No.": 7,
+                  "Particulars": "5Life Expectancy at birth (All India Average =  67.9 years)",
+                  "Census Data": "",
+                  "Figures": "68.8 years"
+                },
+                {
+                  "Sl. No.": 8,
+                  "Particulars": "6Human Development Index# (2012) (India = 0.587)",
+                  "Census Data": "",
+                  "Figures": 0.644
+                },
+                {
+                  "Sl. No.": 9,
+                  "Particulars": "7Gross State Domestic Product (GSDP) 2021-22 at current price (in crore)",
+                  "Census Data": "",
+                  "Figures": "21,81,217"
+                },
+                {
+                  "Sl. No.": 10,
+                  "Particulars": "Per capita GSDP (2022-23) (Rupee)",
+                  "Census Data": "Karnataka @",
+                  "Figures": "3,23,143"
+                },
+                {
+                  "Sl. No.": "",
+                  "Particulars": "",
+                  "Census Data": "All India Average",
+                  "Figures": "1,96,983"
+                },
+                {
+                  "Sl. No.": 11,
+                  "Particulars": "Per capita GSDP/GDP CAGR (2013-14 to 2022-23)",
+                  "Census Data": "Karnataka",
+                  "Figures": 2.38
+                },
+                {
+                  "Sl. No.": "",
+                  "Particulars": "",
+                  "Census Data": "All India",
+                  "Figures": 2.18
+                },
+                {
+                  "Sl. No.": 12,
+                  "Particulars": "GSDP/GDP CAGR",
+                  "Census Data": "Karnataka",
+                  "Figures": 4.26
+                },
+                {
+                  "Sl. No.": "",
+                  "Particulars": "(2013-14 to 2022-23)",
+                  "Census Data": "All India",
+                  "Figures": 3.11
+                },
+                {
+                  "Sl. No.": 13,
+                  "Particulars": "Population Growth",
+                  "Census Data": "Karnataka",
+                  "Figures": 13.95
+                },
+                {
+                  "Sl. No.": "",
+                  "Particulars": "(2011-23)",
+                  "Census Data": "All India",
+                  "Figures": 10.51
+                }
+              ],
+              "Table1b":[
+                {
+                  "B": "Particulars",
+                  "Financial   Data": "",
+                  "Figures in per cent": "General Category States*",
+                  "_0": "",
+                  "_1": "",
+                  "_2": "Karnataka^",
+                  "_3": "",
+                  "_4": ""
+                },
+                {
+                  "B": "CAGR",
+                  "Financial   Data": "",
+                  "Figures in per cent": "",
+                  "_0": "",
+                  "_1": "",
+                  "_2": "",
+                  "_3": "",
+                  "_4": ""
+                },
+                {
+                  "B": "",
+                  "Financial   Data": "",
+                  "Figures in per cent": "2017-18 to 2020-21",
+                  "_0": "2020-21 to 2021-22",
+                  "_1": "2021-22 to 2022-23",
+                  "_2": "2017-18 to 2020-21",
+                  "_3": "2020-21 to 2021-22",
+                  "_4": "2021-22 to 2022-23"
+                },
+                {
+                  "B": 1,
+                  "Financial   Data": "of Revenue Receipts.",
+                  "Figures in per cent": 3.41,
+                  "_0": 25.59,
+                  "_1": 13.41,
+                  "_2": 1.61,
+                  "_3": 24.91,
+                  "_4": 17.02
+                },
+                {
+                  "B": 2,
+                  "Financial   Data": "of Own Tax Revenue.",
+                  "Figures in per cent": 3.52,
+                  "_0": 25.62,
+                  "_1": 19.78,
+                  "_2": 2.73,
+                  "_3": 24.41,
+                  "_4": 19.02
+                },
+                {
+                  "B": 3,
+                  "Financial   Data": "of Non-Tax Revenue.",
+                  "Figures in per cent": "(-)1.04",
+                  "_0": 44.81,
+                  "_1": 12.94,
+                  "_2": 5.07,
+                  "_3": 49.19,
+                  "_4": 18.15
+                },
+                {
+                  "B": 4,
+                  "Financial   Data": "of Total Expenditure.",
+                  "Figures in per cent": 7.17,
+                  "_0": 14,
+                  "_1": 12.53,
+                  "_2": 5.89,
+                  "_3": 16.68,
+                  "_4": 5.61
+                },
+                {
+                  "B": 5,
+                  "Financial   Data": "of Capital Expenditure.",
+                  "Figures in per cent": 1.13,
+                  "_0": 25.62,
+                  "_1": 18.93,
+                  "_2": 7.68,
+                  "_3": 8.34,
+                  "_4": 16.35
+                },
+                {
+                  "B": 6,
+                  "Financial   Data": "of Revenue Expenditure on Education.",
+                  "Figures in per cent": 6.72,
+                  "_0": 11.47,
+                  "_1": 13.21,
+                  "_2": 3.67,
+                  "_3": 20.12,
+                  "_4": 6.63
+                },
+                {
+                  "B": 7,
+                  "Financial   Data": "of Revenue Expenditure on Health & Family Welfare.",
+                  "Figures in per cent": 12.25,
+                  "_0": 19.71,
+                  "_1": 0.88,
+                  "_2": 8.75,
+                  "_3": 30.73,
+                  "_4": "(-)11.44"
+                },
+                {
+                  "B": 8,
+                  "Financial   Data": "of Salary and Wages.",
+                  "Figures in per cent": 7.63,
+                  "_0": 11.82,
+                  "_1": 8.52,
+                  "_2": 8.88,
+                  "_3": 15.07,
+                  "_4": 4.23
+                },
+                {
+                  "B": 9,
+                  "Financial   Data": "of Pension.",
+                  "Figures in per cent": 10.39,
+                  "_0": 11.88,
+                  "_1": 11.38,
+                  "_2": 12.83,
+                  "_3": 9.14,
+                  "_4": 16.23
+                }
+              ],
+              "Table2":[
+                {
+                  "Statement number": 1,
+                  "Layout": "Statement of Financial Position"
+                },
+                {
+                  "Statement number": 2,
+                  "Layout": "Statement of Receipts and Disbursements"
+                },
+                {
+                  "Statement number": 3,
+                  "Layout": "Statement of Receipts (Consolidated Fund)"
+                },
+                {
+                  "Statement number": 4,
+                  "Layout": "Statement of Expenditure (Consolidated Fund)"
+                },
+                {
+                  "Statement number": 5,
+                  "Layout": "Statement of Progressive Capital Expenditure"
+                },
+                {
+                  "Statement number": 6,
+                  "Layout": "Statement of Borrowings and Other Liabilities"
+                },
+                {
+                  "Statement number": 7,
+                  "Layout": "Statement of Loans and Advances given by the Government"
+                },
+                {
+                  "Statement number": 8,
+                  "Layout": "Statement of Investments of the Government"
+                },
+                {
+                  "Statement number": 9,
+                  "Layout": "Statement of Guarantees given by the Government"
+                },
+                {
+                  "Statement number": 10,
+                  "Layout": "Statement of Grants-in-aid given by the Government"
+                },
+                {
+                  "Statement number": 11,
+                  "Layout": "Statement of Voted and Charged Expenditure"
+                },
+                {
+                  "Statement number": 12,
+                  "Layout": "Statement on Sources and Application of funds for expenditure other than on Revenue Account"
+                },
+                {
+                  "Statement number": 13,
+                  "Layout": "Summary of Balances under Consolidated Fund, Contingency Fund and Public Account"
+                },
+                {
+                  "Statement number": 14,
+                  "Layout": "Detailed Statement of Revenue and Capital Receipts by Minor Heads"
+                },
+                {
+                  "Statement number": 15,
+                  "Layout": "Detailed Statement of Revenue Expenditure by Minor Heads"
+                },
+                {
+                  "Statement number": 16,
+                  "Layout": "Detailed Statement of Capital Expenditure by Minor Heads and Subheads"
+                },
+                {
+                  "Statement number": 17,
+                  "Layout": "Detailed Statement of Borrowings and other Liabilities"
+                },
+                {
+                  "Statement number": 18,
+                  "Layout": "Detailed Statement on Loans and Advances given by the Government"
+                },
+                {
+                  "Statement number": 19,
+                  "Layout": "Detailed Statement of Investments of the Government"
+                },
+                {
+                  "Statement number": 20,
+                  "Layout": "Detailed Statement of Guarantees given by the Government"
+                },
+                {
+                  "Statement number": 21,
+                  "Layout": "Detailed Statement of Contingency Fund and other Public Account Transactions"
+                },
+                {
+                  "Statement number": 22,
+                  "Layout": "Detailed Statement on Investment of Earmarked Balances"
+                }
+              ],
+              "Table3":[
+                {
+                  "As on 31.03.2022": "3,29,041.81",
+                  "_1": "",
+                  "LIABILITIES": "Internal Debt",
+                  "_2": "",
+                  "As on 31.03.2023": 353893.89
+                },
+                {
+                  "As on 31.03.2022": "",
+                  "_1": "3,11,289.80",
+                  "LIABILITIES": "Market Loans bearing interest",
+                  "_2": 337289.84,
+                  "As on 31.03.2023": ""
+                },
+                {
+                  "As on 31.03.2022": "",
+                  "_1": 0.04,
+                  "LIABILITIES": "Market Loans not bearing interest",
+                  "_2": "(0.04)-",
+                  "As on 31.03.2023": ""
+                },
+                {
+                  "As on 31.03.2022": "",
+                  "_1": 7.85,
+                  "LIABILITIES": "Loans from Life Insurance Corporation of India",
+                  "_2": 24.11,
+                  "As on 31.03.2023": ""
+                },
+                {
+                  "As on 31.03.2022": "",
+                  "_1": "5,639.28",
+                  "LIABILITIES": "Loans from other Institutions",
+                  "_2": 6151.24,
+                  "As on 31.03.2023": ""
+                },
+                {
+                  "As on 31.03.2022": "",
+                  "_1": "12,104.84",
+                  "LIABILITIES": "Loans from RBI -  Special Securities issued to National Small Savings Fund of the Central Government",
+                  "_2": 10476.92,
+                  "As on 31.03.2023": ""
+                },
+                {
+                  "As on 31.03.2022": "45,385.00^",
+                  "_1": "",
+                  "LIABILITIES": "Loans and Advances from Central Government",
+                  "_2": "",
+                  "As on 31.03.2023": 49139.16
+                },
+                {
+                  "As on 31.03.2022": "",
+                  "_1": 0.07,
+                  "LIABILITIES": "Pre 1984-85 Loans",
+                  "_2": 0.07,
+                  "As on 31.03.2023": ""
+                },
+                {
+                  "As on 31.03.2022": "",
+                  "_1": 25.34,
+                  "LIABILITIES": "Non-Plan Loans",
+                  "_2": 20.43,
+                  "As on 31.03.2023": ""
+                },
+                {
+                  "As on 31.03.2022": "",
+                  "_1": "7,013.92",
+                  "LIABILITIES": "Loans for State Plan Schemes",
+                  "_2": 5506.97,
+                  "As on 31.03.2023": ""
+                },
+                {
+                  "As on 31.03.2022": "",
+                  "_1": 7.89,
+                  "LIABILITIES": "Loans for Central Plan Schemes",
+                  "_2": 7.89,
+                  "As on 31.03.2023": ""
+                },
+                {
+                  "As on 31.03.2022": "",
+                  "_1": "(-)18.25",
+                  "LIABILITIES": "Loans for Centrally Sponsored Plan Schemes",
+                  "_2": -18.25,
+                  "As on 31.03.2023": ""
+                },
+                {
+                  "As on 31.03.2022": "",
+                  "_1": 0.03,
+                  "LIABILITIES": "Loans for Centrally Sponsored Schemes",
+                  "_2": 0.03,
+                  "As on 31.03.2023": ""
+                },
+                {
+                  "As on 31.03.2022": "",
+                  "_1": "38,356.00",
+                  "LIABILITIES": "Other Loans",
+                  "_2": 43622.02,
+                  "As on 31.03.2023": ""
+                },
+                {
+                  "As on 31.03.2022": 500,
+                  "_1": "",
+                  "LIABILITIES": "Contingency Fund",
+                  "_2": "",
+                  "As on 31.03.2023": 500
+                },
+                {
+                  "As on 31.03.2022": "42,332.89",
+                  "_1": "",
+                  "LIABILITIES": "Small Savings, Provident Funds, etc.",
+                  "_2": "",
+                  "As on 31.03.2023": 45736.19
+                },
+                {
+                  "As on 31.03.2022": "53,045.85",
+                  "_1": "",
+                  "LIABILITIES": "Reserve Funds",
+                  "_2": "",
+                  "As on 31.03.2023": 60327.72
+                },
+                {
+                  "As on 31.03.2022": "33,682.31",
+                  "_1": "",
+                  "LIABILITIES": "Deposits",
+                  "_2": "",
+                  "As on 31.03.2023": 59874.35
+                },
+                {
+                  "As on 31.03.2022": "2,224.32",
+                  "_1": "",
+                  "LIABILITIES": "Suspense and Miscellaneous balances",
+                  "_2": "",
+                  "As on 31.03.2023": 3420.65
+                },
+                {
+                  "As on 31.03.2022": "7,188.07",
+                  "_1": "",
+                  "LIABILITIES": "Surplus on Government Accounts",
+                  "_2": "(-)7188.07",
+                  "As on 31.03.2023": 6309.93
+                },
+                {
+                  "As on 31.03.2022": "",
+                  "_1": "(-)6,898.15",
+                  "LIABILITIES": "Accumulated Surplus",
+                  "_2": "(+)13495.79",
+                  "As on 31.03.2023": ""
+                },
+                {
+                  "As on 31.03.2022": "",
+                  "_1": "(+)13,666.23",
+                  "LIABILITIES": "Deduct Revenue Surplus/Add Revenue Deficit",
+                  "_2": "",
+                  "As on 31.03.2023": ""
+                },
+                {
+                  "As on 31.03.2022": "",
+                  "_1": "",
+                  "LIABILITIES": "Deduct Other adjustments",
+                  "_2": "",
+                  "As on 31.03.2023": ""
+                },
+                {
+                  "As on 31.03.2022": "",
+                  "_1": 420,
+                  "LIABILITIES": "",
+                  "_2": "",
+                  "As on 31.03.2023": ""
+                },
+                {
+                  "As on 31.03.2022": "",
+                  "_1": "(-)0.01",
+                  "LIABILITIES": "Deduct Capital Receipts",
+                  "_2": 2.21,
+                  "As on 31.03.2023": ""
+                },
+                {
+                  "As on 31.03.2022": "5,06,212.18",
+                  "_1": "",
+                  "LIABILITIES": "Total",
+                  "_2": "",
+                  "As on 31.03.2023": 579201.9
+                },
+                {
+                  "As on 31.03.2022": "",
+                  "_1": "",
+                  "LIABILITIES": "ASSETS",
+                  "_2": "",
+                  "As on 31.03.2023": ""
+                },
+                {
+                  "As on 31.03.2022": "3,99,069.27",
+                  "_1": "",
+                  "LIABILITIES": "Gross Capital Outlay on Fixed Assets",
+                  "_2": "",
+                  "As on 31.03.2023": 456417.44
+                },
+                {
+                  "As on 31.03.2022": "",
+                  "_1": "70,657.43",
+                  "LIABILITIES": "Investments in shares of Companies, Corporations etc.",
+                  "_2": 72799.77,
+                  "As on 31.03.2023": ""
+                },
+                {
+                  "As on 31.03.2022": "",
+                  "_1": "3,28,411.84",
+                  "LIABILITIES": "Other Capital Outlay",
+                  "_2": 383617.67,
+                  "As on 31.03.2023": ""
+                },
+                {
+                  "As on 31.03.2022": "35,329.29",
+                  "_1": "",
+                  "LIABILITIES": "Loans and Advances",
+                  "_2": "",
+                  "As on 31.03.2023": 38101.37
+                },
+                {
+                  "As on 31.03.2022": "",
+                  "_1": "5,185.88",
+                  "LIABILITIES": "Loans for Power Projects",
+                  "_2": 5305.08,
+                  "As on 31.03.2023": ""
+                },
+                {
+                  "As on 31.03.2022": "",
+                  "_1": "30,053.61",
+                  "LIABILITIES": "Other Development Loans",
+                  "_2": 32705.84,
+                  "As on 31.03.2023": ""
+                },
+                {
+                  "As on 31.03.2022": "",
+                  "_1": 89.8,
+                  "LIABILITIES": "Loans to Government Servants and Miscellaneous Loans",
+                  "_2": 90.45,
+                  "As on 31.03.2023": ""
+                },
+                {
+                  "As on 31.03.2022": "1,206.25",
+                  "_1": "",
+                  "LIABILITIES": "Remittances",
+                  "_2": "",
+                  "As on 31.03.2023": 1047.5
+                },
+                {
+                  "As on 31.03.2022": 6.94,
+                  "_1": "",
+                  "LIABILITIES": "Other Advances",
+                  "_2": "",
+                  "As on 31.03.2023": 6.94
+                },
+                {
+                  "As on 31.03.2022": "63,412.36",
+                  "_1": "",
+                  "LIABILITIES": "Cash",
+                  "_2": "",
+                  "As on 31.03.2023": 83628.63
+                },
+                {
+                  "As on 31.03.2022": "-",
+                  "_1": "",
+                  "LIABILITIES": "Cash in treasuries",
+                  "_2": "",
+                  "As on 31.03.2023": ""
+                },
+                {
+                  "As on 31.03.2022": "",
+                  "_1": 5.64,
+                  "LIABILITIES": "Departmental Cash Balance including Permanent Advances",
+                  "_2": 5.99,
+                  "As on 31.03.2023": ""
+                },
+                {
+                  "As on 31.03.2022": "",
+                  "_1": "1,518.39",
+                  "LIABILITIES": "Deposits with Reserve Bank of India",
+                  "_2": 2788.21,
+                  "As on 31.03.2023": ""
+                },
+                {
+                  "As on 31.03.2022": "",
+                  "_1": 0.01,
+                  "LIABILITIES": "Remittances in Transit",
+                  "_2": 0.01,
+                  "As on 31.03.2023": ""
+                },
+                {
+                  "As on 31.03.2022": "",
+                  "_1": "31,973.89",
+                  "LIABILITIES": "Cash Balance Investments",
+                  "_2": 47919.99,
+                  "As on 31.03.2023": ""
+                },
+                {
+                  "As on 31.03.2022": "",
+                  "_1": "29,914.43",
+                  "LIABILITIES": "Investment from earmarked funds",
+                  "_2": 32914.43,
+                  "As on 31.03.2023": ""
+                },
+                {
+                  "As on 31.03.2022": "5,06,212.18",
+                  "_1": "",
+                  "LIABILITIES": "Total",
+                  "_2": "",
+                  "As on 31.03.2023": 579201.9
+                }
+              ],
+              "content": {
+                "para1": "The development indicators relating to the major infrastructures are as follows:",
+                "para2": "(i) Surfaced roads per 100 sq. km (2022-2023) is 47.73 km.",
+                "para3": "(ii) Unsurfaced roads per 100 sq. km (2022-2023) is less than 0.5 km.",
+                "para4": "(iii) Percentage of households with electricity (2022-2023) is 99.22.",
+                "para5": "(iv) Grossed cropped area (2022-2023) is 149.1 hectares.",
+                "para6": "(v) Number of Primary schools (2022-2023) is 55,408.",
+                "para7": "(vi) Number of Primary health centers is 2,531.",
+                "para8": "1. Economic Survey, Government of Karnataka 2022-23.",
+                "para9": "Note: All India average of General Category States has been calculated on the basis of figures provided by 16 General Category States such as Andhra Pradesh including Telangana, Bihar, Chhattisgarh, Gujarat, Haryana, Jharkhand, Karnataka, Kerala, Madhya Pradesh, Maharashtra, Odisha, Punjab, Rajasthan, Tamilnadu, Uttar Pradesh and West Bengal.",
+                "para10": "The Layout of Finance Accounts of the State Government is detailed below:",
+                "para11": "Finance Accounts is prepared in two volumes with Volume-I presenting the summarised financial statements of Government and Volume-II presenting the detailed statements.  The layout is detailed below.  Further, Volume II contains details such as comparative expenditure on salaries and subsidies by major head, grants-in-aid and assistance given by the State Government, externally aided projects, expenditure on plan scheme, direct transfer of Central scheme funds to implementing agencies, summary of balances, financial results of irrigation schemes, commitments on incomplete public works contracts and maintenance expenditure which are brought out in various appendices.",
+                "para12": "",
+                "para13": "",
+                "para14": "",
+                "para15": ""
+                
+              }             
+              
+        },
+        "Appendix2":{
+            "Table1":[
+                {
+                  "2022-23": "",
+                  "Receipts": "Part A: Abstract of Receipts and Disbursements for the year 2021-22",
+                  "2021-22": "",
+                  "2022-23__1": "",
+                  "Disbursements": "",
+                  "2021-22__1": ""
+                },
+                {
+                  "2022-23": "Section-A: Revenue",
+                  "Receipts": "",
+                  "2021-22": "",
+                  "2022-23__1": "",
+                  "Disbursements": "",
+                  "2021-22__1": ""
+                },
+                {
+                  "2022-23": "2,29,079.74",
+                  "Receipts": "I. Revenue receipts",
+                  "2021-22": "1,95,761.84",
+                  "2022-23__1": "2,15,583.99",
+                  "Disbursements": "I. Revenue expenditure",
+                  "2021-22__1": "2,09,428.04#"
+                },
+                {
+                  "2022-23": "1,43,701.93",
+                  "Receipts": "Tax revenue",
+                  "2021-22": "1,20,738.79",
+                  "2022-23__1": "71,816.05",
+                  "Disbursements": "Total General Services",
+                  "2021-22__1": "62,669.05"
+                },
+                {
+                  "2022-23": "13,914.13",
+                  "Receipts": "Non-tax revenue",
+                  "2021-22": "11,777.04",
+                  "2022-23__1": "",
+                  "Disbursements": "Social Services",
+                  "2021-22__1": ""
+                },
+                {
+                  "2022-23": "34,596.18",
+                  "Receipts": "State’s share of Union Taxes & Duties",
+                  "2021-22": "33,283.58",
+                  "2022-23__1": "31,263.04",
+                  "Disbursements": "Education, Sports, Art and Culture",
+                  "2021-22__1": "29,140.26"
+                },
+                {
+                  "2022-23": "36,867.50",
+                  "Receipts": "Grants for Central and Centrally Sponsored Schemes",
+                  "2021-22": "29,962.43",
+                  "2022-23__1": "11,308.77",
+                  "Disbursements": "Health and Family Welfare",
+                  "2021-22__1": "12,769.90"
+                },
+                {
+                  "2022-23": "11,628.10",
+                  "Receipts": "Centrally Sponsored Schemes",
+                  "2021-22": "12,659.36",
+                  "2022-23__1": "12,502.78",
+                  "Disbursements": "Water Supply, Sanitation, Housing and Urban Development",
+                  "2021-22__1": "11,207.12"
+                },
+                {
+                  "2022-23": "3,495.25",
+                  "Receipts": "Finance Commission Grants",
+                  "2021-22": "6,239.03",
+                  "2022-23__1": 298.12,
+                  "Disbursements": "Information and Broadcasting",
+                  "2021-22__1": 215.53
+                },
+                {
+                  "2022-23": "21,744.15",
+                  "Receipts": "Other transfer/grants to State/UT with Legislature",
+                  "2021-22": "11,064.04",
+                  "2022-23__1": "8,515.43",
+                  "Disbursements": "Welfare of Scheduled Castes, Scheduled Tribes, Other Backward Classes and minorities",
+                  "2021-22__1": "7,573.54"
+                },
+                {
+                  "2022-23": "",
+                  "Receipts": "",
+                  "2021-22": "",
+                  "2022-23__1": 637.96,
+                  "Disbursements": "Labour and Labour Welfare",
+                  "2021-22__1": 996.66
+                },
+                {
+                  "2022-23": "",
+                  "Receipts": "",
+                  "2021-22": "",
+                  "2022-23__1": "15,893.28",
+                  "Disbursements": "Social Welfare and Nutrition",
+                  "2021-22__1": "17,716.82"
+                },
+                {
+                  "2022-23": "",
+                  "Receipts": "",
+                  "2021-22": "",
+                  "2022-23__1": 591.77,
+                  "Disbursements": "Others",
+                  "2021-22__1": 184.09
+                },
+                {
+                  "2022-23": "",
+                  "Receipts": "",
+                  "2021-22": "",
+                  "2022-23__1": "81,011.15",
+                  "Disbursements": "Total Social Services",
+                  "2021-22__1": "79,803.92"
+                },
+                {
+                  "2022-23": "",
+                  "Receipts": "",
+                  "2021-22": "",
+                  "2022-23__1": "",
+                  "Disbursements": "Economic Services",
+                  "2021-22__1": ""
+                },
+                {
+                  "2022-23": "",
+                  "Receipts": "",
+                  "2021-22": "",
+                  "2022-23__1": "16,214.41",
+                  "Disbursements": "Agriculture and Allied Activities",
+                  "2021-22__1": "19,917.55"
+                },
+                {
+                  "2022-23": "",
+                  "Receipts": "",
+                  "2021-22": "",
+                  "2022-23__1": "11,234.31",
+                  "Disbursements": "Rural Development",
+                  "2021-22__1": "8,121.35"
+                },
+                {
+                  "2022-23": "",
+                  "Receipts": "",
+                  "2021-22": "",
+                  "2022-23__1": 213.25,
+                  "Disbursements": "Special Areas Programmes",
+                  "2021-22__1": 218.48
+                },
+                {
+                  "2022-23": "",
+                  "Receipts": "",
+                  "2021-22": "",
+                  "2022-23__1": "1,890.57",
+                  "Disbursements": "Irrigation and Flood Control",
+                  "2021-22__1": "1,978.82"
+                },
+                {
+                  "2022-23": "",
+                  "Receipts": "",
+                  "2021-22": "",
+                  "2022-23__1": "14,103.43",
+                  "Disbursements": "Energy",
+                  "2021-22__1": "17,445.23"
+                },
+                {
+                  "2022-23": "",
+                  "Receipts": "",
+                  "2021-22": "",
+                  "2022-23__1": "1,579.66",
+                  "Disbursements": "Industry and Minerals",
+                  "2021-22__1": "1,681.63"
+                },
+                {
+                  "2022-23": "",
+                  "Receipts": "",
+                  "2021-22": "",
+                  "2022-23__1": "6,346.71",
+                  "Disbursements": "Transport",
+                  "2021-22__1": "4,605.46"
+                },
+                {
+                  "2022-23": "",
+                  "Receipts": "",
+                  "2021-22": "",
+                  "2022-23__1": 38.5,
+                  "Disbursements": "Science, Technology and Environment",
+                  "2021-22__1": 44.82
+                },
+                {
+                  "2022-23": "",
+                  "Receipts": "",
+                  "2021-22": "",
+                  "2022-23__1": "5,474.09",
+                  "Disbursements": "General Economic Services",
+                  "2021-22__1": "6,325.91"
+                },
+                {
+                  "2022-23": "",
+                  "Receipts": "",
+                  "2021-22": "",
+                  "2022-23__1": "57,094.93",
+                  "Disbursements": "Total Economic Services",
+                  "2021-22__1": "60,339.25"
+                },
+                {
+                  "2022-23": "",
+                  "Receipts": "",
+                  "2021-22": "",
+                  "2022-23__1": "5,661.86",
+                  "Disbursements": "Grants-in-aid and Contribution",
+                  "2021-22__1": "6,615.82"
+                },
+                {
+                  "2022-23": "",
+                  "Receipts": "",
+                  "2021-22": "",
+                  "2022-23__1": "13,495.75",
+                  "Disbursements": "II Revenue Deficit carried over to Sec.-B",
+                  "2021-22__1": "(-)13,666.23"
+                },
+                {
+                  "2022-23": "2,29,079.74",
+                  "Receipts": "",
+                  "2021-22": "1,95,761.84",
+                  "2022-23__1": "2,29,079.74",
+                  "Disbursements": "Total",
+                  "2021-22__1": "1,95,761.84"
+                },
+                {
+                  "2022-23": "",
+                  "Receipts": "",
+                  "2021-22": "",
+                  "2022-23__1": "",
+                  "Disbursements": "",
+                  "2021-22__1": ""
+                },
+                {
+                  "2022-23": "Section B – Capital and others",
+                  "Receipts": "",
+                  "2021-22": "",
+                  "2022-23__1": "",
+                  "Disbursements": "",
+                  "2021-22__1": ""
+                },
+                {
+                  "2022-23": "63,412.36",
+                  "Receipts": "II. Opening Cash Balance including Permanent Advances & Cash Balance Investments & Investments from earmarked funds",
+                  "2021-22": "47,143.18",
+                  "2022-23__1": "",
+                  "Disbursements": "",
+                  "2021-22__1": ""
+                },
+                {
+                  "2022-23": 2.21,
+                  "Receipts": "III. Miscellaneous Capital receipts",
+                  "2021-22": 6.08,
+                  "2022-23__1": "57,348.17",
+                  "Disbursements": "III. Capital Outlay",
+                  "2021-22__1": "47,874.34*"
+                },
+                {
+                  "2022-23": "",
+                  "Receipts": "",
+                  "2021-22": "",
+                  "2022-23__1": "1,651.39",
+                  "Disbursements": "Total General Services",
+                  "2021-22__1": 939.79
+                },
+                {
+                  "2022-23": "",
+                  "Receipts": "",
+                  "2021-22": "",
+                  "2022-23__1": "",
+                  "Disbursements": "Social Services",
+                  "2021-22__1": ""
+                },
+                {
+                  "2022-23": "",
+                  "Receipts": "",
+                  "2021-22": "",
+                  "2022-23__1": "1,590.01",
+                  "Disbursements": "Education, Sports, Art and Culture",
+                  "2021-22__1": "1,634.07"
+                },
+                {
+                  "2022-23": "",
+                  "Receipts": "",
+                  "2021-22": "",
+                  "2022-23__1": "1,230.26",
+                  "Disbursements": "Health and Family Welfare",
+                  "2021-22__1": "2,574.84"
+                },
+                {
+                  "2022-23": "",
+                  "Receipts": "",
+                  "2021-22": "",
+                  "2022-23__1": "7,018.25",
+                  "Disbursements": "Water Supply, Sanitation, Housing and Urban Development",
+                  "2021-22__1": "6,843.87"
+                },
+                {
+                  "2022-23": "",
+                  "Receipts": "",
+                  "2021-22": "",
+                  "2022-23__1": "-",
+                  "Disbursements": "Information and Broadcasting",
+                  "2021-22__1": 0.5
+                },
+                {
+                  "2022-23": "",
+                  "Receipts": "",
+                  "2021-22": "",
+                  "2022-23__1": "2,315.07",
+                  "Disbursements": "Welfare of Scheduled Castes, Scheduled Tribes, Other Backward Classes and Minorities",
+                  "2021-22__1": "1,952.86"
+                },
+                {
+                  "2022-23": "",
+                  "Receipts": "",
+                  "2021-22": "",
+                  "2022-23__1": 151.99,
+                  "Disbursements": "Social Welfare and Nutrition",
+                  "2021-22__1": 72.82
+                },
+                {
+                  "2022-23": "",
+                  "Receipts": "",
+                  "2021-22": "",
+                  "2022-23__1": 171.36,
+                  "Disbursements": "Other Social Services",
+                  "2021-22__1": 149.42
+                },
+                {
+                  "2022-23": "",
+                  "Receipts": "",
+                  "2021-22": "",
+                  "2022-23__1": "12,476.94",
+                  "Disbursements": "Total Social Services",
+                  "2021-22__1": "13,228.38"
+                },
+                {
+                  "2022-23": "",
+                  "Receipts": "",
+                  "2021-22": "",
+                  "2022-23__1": "",
+                  "Disbursements": "Economic Services",
+                  "2021-22__1": ""
+                },
+                {
+                  "2022-23": "",
+                  "Receipts": "",
+                  "2021-22": "",
+                  "2022-23__1": "1,166.13",
+                  "Disbursements": "Agriculture and Allied Activities",
+                  "2021-22__1": 851.87
+                },
+                {
+                  "2022-23": "",
+                  "Receipts": "",
+                  "2021-22": "",
+                  "2022-23__1": 263.87,
+                  "Disbursements": "Rural Development",
+                  "2021-22__1": 306.13
+                },
+                {
+                  "2022-23": "",
+                  "Receipts": "",
+                  "2021-22": "",
+                  "2022-23__1": "33,99.96",
+                  "Disbursements": "Special Areas Programmes",
+                  "2021-22__1": "2,114.80"
+                },
+                {
+                  "2022-23": "",
+                  "Receipts": "",
+                  "2021-22": "",
+                  "2022-23__1": "21,221.14",
+                  "Disbursements": "Irrigation and Flood Control",
+                  "2021-22__1": "19,075.59"
+                },
+                {
+                  "2022-23": "",
+                  "Receipts": "",
+                  "2021-22": "",
+                  "2022-23__1": 724,
+                  "Disbursements": "Energy",
+                  "2021-22__1": 200
+                },
+                {
+                  "2022-23": "",
+                  "Receipts": "",
+                  "2021-22": "",
+                  "2022-23__1": 686.24,
+                  "Disbursements": "Industry and Minerals",
+                  "2021-22__1": 144.06
+                },
+                {
+                  "2022-23": "",
+                  "Receipts": "",
+                  "2021-22": "",
+                  "2022-23__1": "14,127.54",
+                  "Disbursements": "Transport",
+                  "2021-22__1": "10,142.79"
+                },
+                {
+                  "2022-23": "",
+                  "Receipts": "",
+                  "2021-22": "",
+                  "2022-23__1": 1630.96,
+                  "Disbursements": "General Economic Services",
+                  "2021-22__1": 870.93
+                },
+                {
+                  "2022-23": "",
+                  "Receipts": "",
+                  "2021-22": "",
+                  "2022-23__1": "43,219.84",
+                  "Disbursements": "Total Economic Services",
+                  "2021-22__1": "33,706.17"
+                },
+                {
+                  "2022-23": 478.3,
+                  "Receipts": "IV. Recoveries of Loans and Advances",
+                  "2021-22": 126.7,
+                  "2022-23__1": 3250.38,
+                  "Disbursements": "IV. Loans and Advances",
+                  "2021-22__1": "4,209.46"
+                },
+                {
+                  "2022-23": "",
+                  "Receipts": "From Power Projects",
+                  "2021-22": 67.55,
+                  "2022-23__1": "",
+                  "Disbursements": "For Power Projects",
+                  "2021-22__1": 150
+                },
+                {
+                  "2022-23": "",
+                  "Receipts": "From Government Servants",
+                  "2021-22": 6.42,
+                  "2022-23__1": "",
+                  "Disbursements": "To Government Servants",
+                  "2021-22__1": 4.51
+                },
+                {
+                  "2022-23": "",
+                  "Receipts": "From Others",
+                  "2021-22": 52.73,
+                  "2022-23__1": "",
+                  "Disbursements": "To Others",
+                  "2021-22__1": "4,054.95"
+                },
+                {
+                  "2022-23": "44,548.73",
+                  "Receipts": "V. Public Debt receipts",
+                  "2021-22": "80,640.80**",
+                  "2022-23__1": 15942.49,
+                  "Disbursements": "V. Public Debt repayment",
+                  "2021-22__1": "13,971.54"
+                },
+                {
+                  "2022-23": "39,282.63",
+                  "Receipts": "Internal debt other than Ways and Means Advances and Overdraft",
+                  "2021-22": "60,461.42",
+                  "2022-23__1": "14,430.55",
+                  "Disbursements": "Internal debt other than Ways and Means Advances and Overdraft",
+                  "2021-22__1": "12,559.79"
+                },
+                {
+                  "2022-23": "",
+                  "Receipts": "",
+                  "2021-22": "",
+                  "2022-23__1": "",
+                  "Disbursements": "",
+                  "2021-22__1": ""
+                },
+                {
+                  "2022-23": "",
+                  "Receipts": "",
+                  "2021-22": "",
+                  "2022-23__1": "",
+                  "Disbursements": "",
+                  "2021-22__1": ""
+                },
+                {
+                  "2022-23": "2022-23",
+                  "Receipts": "Receipts",
+                  "2021-22": "2021-22",
+                  "2022-23__1": "2022-23",
+                  "Disbursements": "Disbursements",
+                  "2021-22__1": "2021-22"
+                },
+                {
+                  "2022-23": "",
+                  "Receipts": "Ways and Means Advances from Reserve Bank of India",
+                  "2021-22": "",
+                  "2022-23__1": "",
+                  "Disbursements": "Ways and Means Advances from Reserve Bank of India",
+                  "2021-22__1": ""
+                },
+                {
+                  "2022-23": "5,266.10",
+                  "Receipts": "Loans and Advances from the Central Government",
+                  "2021-22": "20,179.38",
+                  "2022-23__1": "1,511.94",
+                  "Disbursements": "Repayment of Loans and Advances to Central Government",
+                  "2021-22__1": "1,411.75"
+                },
+                {
+                  "2022-23": "-",
+                  "Receipts": "VI. Contingency Fund",
+                  "2021-22": 420,
+                  "2022-23__1": "-",
+                  "Disbursements": "VI. Contingency Fund Disbursements",
+                  "2021-22__1": 420
+                },
+                {
+                  "2022-23": "3,68,235.82",
+                  "Receipts": "VII. Public Account Receipts",
+                  "2021-22": "3,28,313.19",
+                  "2022-23__1": "3,30,003.50",
+                  "Disbursements": "VII. Public Account Disbursements",
+                  "2021-22__1": "3,13,096.05"
+                },
+                {
+                  "2022-23": "9,192.22",
+                  "Receipts": "Small Savings and Provident Funds, etc.",
+                  "2021-22": "8,881.95",
+                  "2022-23__1": "5,788.92",
+                  "Disbursements": "Small Savings and Provident Funds, etc.",
+                  "2021-22__1": "5,360.16"
+                },
+                {
+                  "2022-23": "10,069.18",
+                  "Receipts": "Reserve Funds",
+                  "2021-22": "12,405.50",
+                  "2022-23__1": "2,787.31",
+                  "Disbursements": "Reserve Funds",
+                  "2021-22__1": "3,232.74"
+                },
+                {
+                  "2022-23": "1,01,650.21",
+                  "Receipts": "Deposits and Advances",
+                  "2021-22": "73,546.48",
+                  "2022-23__1": "75,458.16",
+                  "Disbursements": "Deposits and Advances",
+                  "2021-22__1": "70,738.26"
+                },
+                {
+                  "2022-23": "2,47,324.26",
+                  "Receipts": "Suspense and Miscellaneous",
+                  "2021-22": "2,33,480.35",
+                  "2022-23__1": "2,46,127.93",
+                  "Disbursements": "Suspense and Miscellaneous",
+                  "2021-22__1": "2,33,633.07"
+                },
+                {
+                  "2022-23": "(-)0.05",
+                  "Receipts": "Remittances",
+                  "2021-22": "(-)1.09",
+                  "2022-23__1": "(-)158.82",
+                  "Disbursements": "Remittances",
+                  "2021-22__1": 131.82
+                },
+                {
+                  "2022-23": "(+)13,495.75",
+                  "Receipts": "VIII. Revenue  Deficit carried over from Sec.-A",
+                  "2021-22": "(-)13,666.23",
+                  "2022-23__1": "83,628.63",
+                  "Disbursements": "VIII. Cash Balance at the end of 31-03-2023",
+                  "2021-22__1": "63,412.36"
+                },
+                {
+                  "2022-23": "",
+                  "Receipts": "",
+                  "2021-22": "",
+                  "2022-23__1": 0.01,
+                  "Disbursements": "Cash in Treasuries and Local Remittances",
+                  "2021-22__1": 0.01
+                },
+                {
+                  "2022-23": "",
+                  "Receipts": "",
+                  "2021-22": "",
+                  "2022-23__1": "2,788.21",
+                  "Disbursements": "Deposits with Reserve Bank",
+                  "2021-22__1": "1,518.39"
+                },
+                {
+                  "2022-23": "",
+                  "Receipts": "",
+                  "2021-22": "",
+                  "2022-23__1": 5.99,
+                  "Disbursements": "Departmental Cash Balances including Permanent Advances",
+                  "2021-22__1": 5.64
+                },
+                {
+                  "2022-23": "",
+                  "Receipts": "",
+                  "2021-22": "",
+                  "2022-23__1": "47,919.99",
+                  "Disbursements": "Cash Balance Investment",
+                  "2021-22__1": "31,973.89"
+                },
+                {
+                  "2022-23": "",
+                  "Receipts": "",
+                  "2021-22": "",
+                  "2022-23__1": "32,914.43",
+                  "Disbursements": "Investment from Earmarked Funds",
+                  "2021-22__1": "29,914.43"
+                },
+                {
+                  "2022-23": "4,90,173.17",
+                  "Receipts": "Total",
+                  "2021-22": "4,42,983.75",
+                  "2022-23__1": "4,90,173.17",
+                  "Disbursements": "Total",
+                  "2021-22__1": "4,42,983.75"
+                }
+              ]
+        }        
+
     }
 }

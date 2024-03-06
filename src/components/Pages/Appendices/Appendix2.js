@@ -4,6 +4,7 @@ import './Appendix.css'
 import Para from '../../Para/Para'
 import { FaSpinner } from "react-icons/fa"
 import { MyContext } from './../../../Context/MyProvider';
+import CustomTable from "../../CustomTable/CustomTable"
 import Tableb1 from '../Tables/Chapter1/Tableb1'
 import Tableb1k from '../Tables/Chapter1/Tableb1k'
 import Tableb2 from '../Tables/Chapter1/Tableb2'
@@ -31,46 +32,7 @@ const Appendix2 = () => {
     const ctx = useContext(MyContext)
 
 
-    // const [allImages, setImages] = useState({});
-    // const [allImagesKan, setImagesKan] = useState({});
-
-    // const [numPages, setNumPages] = useState(null);
-    // const [pageNumber, setPageNumber] = useState(1);
-
-    // function onDocumentLoadSuccess({ numPages }) {
-    //     setNumPages(numPages);
-    // }
-
-
-    // useEffect(() => {
-    //     const getImages = getFirebase()
-    //         .storage()
-    //         .ref('/images/appendices/Appendix1')
-    //         .listAll().then(
-    //             function (res) {
-    //                 res.items.forEach((i) => {
-    //                     i.getDownloadURL().then((res) => {
-    //                         setImages((allImages) => ({ ...allImages, [i.name]: res }));
-    //                     });
-    //                 });
-    //             })
-    //     return getImages
-    // }, [])
-
-    // useEffect(() => {
-    //     const getImages = getFirebase()
-    //         .storage()
-    //         .ref('/images/appendiceskan/Appendix1')
-    //         .listAll().then(
-    //             function (res) {
-    //                 res.items.forEach((i) => {
-    //                     i.getDownloadURL().then((res) => {
-    //                         setImagesKan((allImagesKan) => ({ ...allImagesKan, [i.name]: res }));
-    //                     });
-    //                 });
-    //             })
-    //     return getImages
-    // }, [])
+   
 
     return (
         ctx.langPref
@@ -83,7 +45,16 @@ const Appendix2 = () => {
                         <h3 className='headnote'>
                         ₹ in crore
                        </h3>
-                        <Tableb1 />
+                       <CustomTable title={"Appendix 2.1 Abstract of Receipts and Disbursements"}
+                            columns={ctx.appendix2.Table1}
+                            data={ctx.appendix2.Table1}
+                            indexToIncreaseWidth={4}
+                            widthSize={'350px'} />
+
+                        <h4 className="Footnote"> # Includes expenditure on interest payment in respect of off-budget borrowings etc., under various service heads (₹1,216.04 crore borrowed through Special Purpose Vehicles- Social Services (₹119.35 crore) and Economic Services (₹ 1,096.69 crore).
+                        <br></br>
+                        </h4>
+                        {/* <Tableb1 /> */}
                         <Tableb2 />
                         <h4> # Includes expenditure on interest payment in respect of off-budget borrowings etc., under various service heads (₹1,292.26) crore borrowed through Special Purpose Vehicles- Social Services (₹156.67 crore) and Economic Services (₹ 1,135.59 crore). <br></br>
                         *Includes expenditure of ₹ 4,089.27 crore on account of off-budget borrowings.<br></br>
