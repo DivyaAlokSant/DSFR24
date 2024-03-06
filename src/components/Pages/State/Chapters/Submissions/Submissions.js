@@ -31,11 +31,27 @@ const Submissions = () => {
                         <Subtitle>
                             {ctx.chapterFive.para69}
                         </Subtitle>  
-             {["para70","para71","para72","para73","para74"].map(
+        <Para tooltips={[
+       { word: "three[51]", tooltip:"  Time specified in Section 394 (1) (a) of the Companies Act, 2013" },
+       { word: "Meeting[52]", tooltip:"  In case of the first AGM, it shall be held within a period of nine months from the date of closing of the first financial year of the company and in any other case within a period of six months, from the date of closing of the financial year i.e. 30 September" },
+       
+        ]}>
+
+        {ctx.chapterFive.para70}
+        </Para>
+             {["para71","para72","para73"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
             )
           )}  
+        <Para tooltips={[
+       { word: "2023[53]", tooltip:"  Due date of holding AGM of Companies for the financial year 2021-22 is 30 September 2023 as per the Companies Act, 2013." },
+       
+       
+        ]}>
+
+        {ctx.chapterFive.para74}
+        </Para>
                         <Subtitle>
                             {ctx.chapterFive.para75}
                         </Subtitle>   
@@ -62,11 +78,21 @@ const Submissions = () => {
                         <Subtitle>
                             {ctx.chapterFive.para80}
                         </Subtitle>   
-                        {["para81","para82"].map(
-            (item, ind) => (
-              <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
-            )
-          )}     
+    <Para tooltips={[
+       { word: "two[55]", tooltip:"Karnataka State Financial Corporation (KSFC) and Karnataka State Warehousing Corporation (KSWC)." },
+              
+        ]}>
+
+        {ctx.chapterFive.para81}
+        </Para>
+  <Para tooltips={[
+       { word: "arrears[56]", tooltip:"  Includes three financial statements from three statutory corporations received before September 2023 but under various stages of audit / certification." },
+              
+        ]}>
+
+        {ctx.chapterFive.para82}
+        </Para>
+          
                             
 
                     </div>

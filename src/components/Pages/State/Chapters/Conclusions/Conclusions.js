@@ -25,7 +25,14 @@ const Conclusions= () => {
                         <Subtitle>
                             {ctx.chapterFive.para127}
                         </Subtitle>
-                        {["para128","para129","para130","para131","para132"].map(
+        <Para tooltips={[
+       { word: "five[57]", tooltip:"  The Karnataka State Veneers Limited, Mysore Cosmetics Limited, Karnataka Telecom Limited, The Mysore Acetate and Chemicals Company Limited and Bangalore Airport Rail Link Limited." },
+       { word: "Karnataka[58]", tooltip:"  The Government of Karnataka (GoK) decided to withdraw the closure orders of NGEF as there were no arrears of loan and proposed for utilisation of land and other valuable properties of the Company for public projects.  Based on the application from GoK, the Hon’ble High Court of Karnataka admitted (June 2017) for withdrawal of closure orders passed earlier." },     
+        ]}>
+
+        {ctx.chapterFive.para128}
+        </Para>
+                        {["para129","para130","para131","para132"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
             )
