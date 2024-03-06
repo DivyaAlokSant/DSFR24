@@ -30,11 +30,15 @@ const Loss = () => {
                         <Subtitle>
                             {ctx.chapterFive.para56}
                         </Subtitle>   
-            {["para57"].map(
-            (item, ind) => (
-              <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
-            )
-          )} 
+        <Para tooltips={[
+       { word: "SPSEs[47]", tooltip:"56 SPSEs include eight non-working SPSEs" },
+       
+       
+        ]}>
+
+        {ctx.chapterFive.para57}
+        </Para>
+      
      <CustomTable title={"Table 5.10: SPSEs that incurred losses during 2020-21 to 2022-23"}
             columns={ctx.tables5.Table10}
             data={ctx.tables5.Table10} />
@@ -46,14 +50,33 @@ const Loss = () => {
             ₹ In crore
         </h3>
 
-{["para58"].map(
+        <Para tooltips={[
+       { word: "SPSEs[49]", tooltip:"Bangalore Electricity Supply Company Limited (BESCOM) loss of ₹1,767.49 crore, Hubli Electricity Supply Company Limited (HESCOM) loss of ₹836.22 crore, Raichur Power Corporation Limited (RPCL) loss of ₹678.22 crore and Karnataka Neeravari Nigam Limited (KNNL) loss of ₹1,135.84 crore." },
+       
+       
+        ]}>
+
+        {ctx.chapterFive.para58}
+        </Para>
+        <Subtitle>
+        {ctx.chapterFive.para59}
+        </Subtitle>   
+        <Para tooltips={[
+       { word: "liquidation[50]", tooltip:"  The Karnataka State Veneers Limited (KSVL, Mysore Cosmetics Limited (MCL) and Bangalore Airport Rail Link Limited (under voluntary liquidation)." },
+       
+       
+        ]}>
+
+        {ctx.chapterFive.para60}
+        </Para>
+        {["para61","para62"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
             )
-          )}             
+          )} 
            
                        
-                    </div>
+     </div>
                 </div>
                 : <div>
                     <Navbar />
