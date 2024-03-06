@@ -61,8 +61,8 @@ const Appendix3 = () => {
                         <CustomTable title={"Appendix 3.1 Category wise/department wise budget allocation/expenditure for Child Budget for the year 2022-23"}
                             columns={ctx.appendix3.Table1}
                             data={ctx.appendix3.Table1}
-                            indexToIncreaseWidth={1}
-                            widthSize={'350px'} />
+                            indexToIncreaseWidth={0}
+                            widthSize={'250px'} />
                         <h4> Source: Child Budget</h4>
                         <h3 className='headnote'>
                                                 (₹ in crore)
