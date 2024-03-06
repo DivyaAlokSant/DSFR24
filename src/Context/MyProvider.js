@@ -80,6 +80,10 @@ export const MyProvider = (props) => {
       chapterFive: report.Chap5,
       appendix1: report.Appendices.Appendix1,
       appendix2: report.Appendices.Appendix2,
+      appendix3: report.Appendices.Appendix3,
+      appendix4: report.Appendices.Appendix4,
+      appendix5: report.Appendices.Appendix5,
+
 
       chapter5kannada: report.Chap5kan,      
       charts: report.Chap1.Charts,

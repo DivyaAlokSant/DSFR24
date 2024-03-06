@@ -4,7 +4,7 @@ import './Appendix.css'
 import { FaSpinner } from "react-icons/fa"
 import { MyContext } from './../../../Context/MyProvider';
 import FloatingActionButtons from "../../FloatingActionButtons/FloatButton"
-import { getFirebase } from "../../../firebase/firebase";
+import CustomTable from "../../CustomTable/CustomTable";
 import Tablec1 from '../Tables/Chapter1/Tablec1'
 import Tablec1k from '../Tables/Chapter1/Tablec1k'
 import Tablec2 from '../Tables/Chapter1/Tablec2'
@@ -57,7 +57,12 @@ const Appendix3 = () => {
                         <h3 className='headnote'>
                         (₹ in crore)
                        </h3>
-                        <Tablec1 />
+                        {/* <Tablec1 /> */}
+                        <CustomTable title={"Appendix 3.1 Category wise/department wise budget allocation/expenditure for Child Budget for the year 2022-23"}
+                            columns={ctx.appendix3.Table1}
+                            data={ctx.appendix3.Table1}
+                            indexToIncreaseWidth={1}
+                            widthSize={'350px'} />
                         <h4> Source: Child Budget</h4>
                         <h3 className='headnote'>
                                                 (₹ in crore)
