@@ -46681,6 +46681,197 @@
         "Appendix3": {
             "Table1": [
                 {
+                  "Grant--------": "",
+                  "Child Centric Programme/Schemes": "100% CCP",
+                  "Child Centric Programme/Schemes__1": "100% CCP",
+                  "Child Centric Programme/Schemes__2": "Less than 100%",
+                  "Child Centric Programme/Schemes__3": "Less than 100%",
+                  "Child Centric Non Programme/Schemes": "100% CCP",
+                  "Child Centric Non Programme/Schemes__1": "100% CCP",
+                  "Child Centric Non Programme/Schemes__2": "Less than 100%",
+                  "Child Centric Non Programme/Schemes__3": "Less than 100%"
+                },
+                {
+                  "Grant--------": "",
+                  "Child Centric Programme/Schemes": "Budget",
+                  "Child Centric Programme/Schemes__1": "Expr.",
+                  "Child Centric Programme/Schemes__2": "Budget",
+                  "Child Centric Programme/Schemes__3": "Expr.",
+                  "Child Centric Non Programme/Schemes": "Budget",
+                  "Child Centric Non Programme/Schemes__1": "Expr.",
+                  "Child Centric Non Programme/Schemes__2": "Budget",
+                  "Child Centric Non Programme/Schemes__3": "Expr."
+                },
+                {
+                  "Grant--------": "01 - Agriculture and Horticulture",
+                  "Child Centric Programme/Schemes": 0,
+                  "Child Centric Programme/Schemes__1": 0,
+                  "Child Centric Programme/Schemes__2": 200,
+                  "Child Centric Programme/Schemes__3": 599.12,
+                  "Child Centric Non Programme/Schemes": 0,
+                  "Child Centric Non Programme/Schemes__1": 0,
+                  "Child Centric Non Programme/Schemes__2": 0,
+                  "Child Centric Non Programme/Schemes__3": 0
+                },
+                {
+                  "Grant--------": "05 - Home and Transport",
+                  "Child Centric Programme/Schemes": 4.56,
+                  "Child Centric Programme/Schemes__1": 9.27,
+                  "Child Centric Programme/Schemes__2": "1,630.84",
+                  "Child Centric Programme/Schemes__3": "4,031.60",
+                  "Child Centric Non Programme/Schemes": 0,
+                  "Child Centric Non Programme/Schemes__1": 0,
+                  "Child Centric Non Programme/Schemes__2": 275.36,
+                  "Child Centric Non Programme/Schemes__3": 268.84
+                },
+                {
+                  "Grant--------": "08 - Forest, Ecology and Environment",
+                  "Child Centric Programme/Schemes": 0,
+                  "Child Centric Programme/Schemes__1": 0,
+                  "Child Centric Programme/Schemes__2": 286.56,
+                  "Child Centric Programme/Schemes__3": 294.35,
+                  "Child Centric Non Programme/Schemes": 0,
+                  "Child Centric Non Programme/Schemes__1": 0,
+                  "Child Centric Non Programme/Schemes__2": 0,
+                  "Child Centric Non Programme/Schemes__3": 0
+                },
+                {
+                  "Grant--------": "09 - Co-operation",
+                  "Child Centric Programme/Schemes": 0,
+                  "Child Centric Programme/Schemes__1": 0,
+                  "Child Centric Programme/Schemes__2": 100,
+                  "Child Centric Programme/Schemes__3": 100,
+                  "Child Centric Non Programme/Schemes": 0,
+                  "Child Centric Non Programme/Schemes__1": 0,
+                  "Child Centric Non Programme/Schemes__2": 0,
+                  "Child Centric Non Programme/Schemes__3": 0
+                },
+                {
+                  "Grant--------": "10 - Social Welfare",
+                  "Child Centric Programme/Schemes": "2,037.00",
+                  "Child Centric Programme/Schemes__1": "2,688.57",
+                  "Child Centric Programme/Schemes__2": "3,893.41",
+                  "Child Centric Programme/Schemes__3": "4,090.24",
+                  "Child Centric Non Programme/Schemes": 0,
+                  "Child Centric Non Programme/Schemes__1": 0,
+                  "Child Centric Non Programme/Schemes__2": 0,
+                  "Child Centric Non Programme/Schemes__3": 0
+                },
+                {
+                  "Grant--------": "11 - Women and Child Development",
+                  "Child Centric Programme/Schemes": "4,314.76",
+                  "Child Centric Programme/Schemes__1": "3,398.25",
+                  "Child Centric Programme/Schemes__2": 187.96,
+                  "Child Centric Programme/Schemes__3": 198.6,
+                  "Child Centric Non Programme/Schemes": 5.42,
+                  "Child Centric Non Programme/Schemes__1": 6.03,
+                  "Child Centric Non Programme/Schemes__2": 0,
+                  "Child Centric Non Programme/Schemes__3": 0
+                },
+                {
+                  "Grant--------": "12 - Information, Tourism and Youth Services",
+                  "Child Centric Programme/Schemes": 0,
+                  "Child Centric Programme/Schemes__1": 0,
+                  "Child Centric Programme/Schemes__2": 288.49,
+                  "Child Centric Programme/Schemes__3": 521.95,
+                  "Child Centric Non Programme/Schemes": 0,
+                  "Child Centric Non Programme/Schemes__1": 0,
+                  "Child Centric Non Programme/Schemes__2": 0,
+                  "Child Centric Non Programme/Schemes__3": 0
+                },
+                {
+                  "Grant--------": "13 - Food and Civil Supplies",
+                  "Child Centric Programme/Schemes": 0,
+                  "Child Centric Programme/Schemes__1": 0,
+                  "Child Centric Programme/Schemes__2": "2,810.02",
+                  "Child Centric Programme/Schemes__3": "2,803.86",
+                  "Child Centric Non Programme/Schemes": 0,
+                  "Child Centric Non Programme/Schemes__1": 0,
+                  "Child Centric Non Programme/Schemes__2": 0.4,
+                  "Child Centric Non Programme/Schemes__3": 0.35
+                },
+                {
+                  "Grant--------": "15 - Information Technology",
+                  "Child Centric Programme/Schemes": 0,
+                  "Child Centric Programme/Schemes__1": 0,
+                  "Child Centric Programme/Schemes__2": 50,
+                  "Child Centric Programme/Schemes__3": 55,
+                  "Child Centric Non Programme/Schemes": 0,
+                  "Child Centric Non Programme/Schemes__1": 0,
+                  "Child Centric Non Programme/Schemes__2": 2.58,
+                  "Child Centric Non Programme/Schemes__3": 2.19
+                },
+                {
+                  "Grant--------": "17 - Education",
+                  "Child Centric Programme/Schemes": "10,379.20",
+                  "Child Centric Programme/Schemes__1": "10,493.77",
+                  "Child Centric Programme/Schemes__2": 134.57,
+                  "Child Centric Programme/Schemes__3": 137.35,
+                  "Child Centric Non Programme/Schemes": "20,007.78",
+                  "Child Centric Non Programme/Schemes__1": "19,847.67",
+                  "Child Centric Non Programme/Schemes__2": "1,088.08",
+                  "Child Centric Non Programme/Schemes__3": 893.46
+                },
+                {
+                  "Grant--------": "22 - Health and Family Welfare",
+                  "Child Centric Programme/Schemes": 59,
+                  "Child Centric Programme/Schemes__1": 10,
+                  "Child Centric Programme/Schemes__2": "3,868.39",
+                  "Child Centric Programme/Schemes__3": "3,647.14",
+                  "Child Centric Non Programme/Schemes": 70.74,
+                  "Child Centric Non Programme/Schemes__1": 91.2,
+                  "Child Centric Non Programme/Schemes__2": "9,151.10",
+                  "Child Centric Non Programme/Schemes__3": "8,087.08"
+                },
+                {
+                  "Grant--------": "23 - Labour and Skill Development",
+                  "Child Centric Programme/Schemes": 4,
+                  "Child Centric Programme/Schemes__1": 4.48,
+                  "Child Centric Programme/Schemes__2": 405.84,
+                  "Child Centric Programme/Schemes__3": 421.2,
+                  "Child Centric Non Programme/Schemes": 0,
+                  "Child Centric Non Programme/Schemes__1": 0,
+                  "Child Centric Non Programme/Schemes__2": 229.84,
+                  "Child Centric Non Programme/Schemes__3": 206.03
+                },
+                {
+                  "Grant--------": "25 - Kannada and Culture",
+                  "Child Centric Programme/Schemes": 0,
+                  "Child Centric Programme/Schemes__1": 0,
+                  "Child Centric Programme/Schemes__2": 5,
+                  "Child Centric Programme/Schemes__3": 26.5,
+                  "Child Centric Non Programme/Schemes": 0,
+                  "Child Centric Non Programme/Schemes__1": 0,
+                  "Child Centric Non Programme/Schemes__2": 0,
+                  "Child Centric Non Programme/Schemes__3": 0
+                },
+                {
+                  "Grant--------": "27 - Law",
+                  "Child Centric Programme/Schemes": 0,
+                  "Child Centric Programme/Schemes__1": 0,
+                  "Child Centric Programme/Schemes__2": 0,
+                  "Child Centric Programme/Schemes__3": 0,
+                  "Child Centric Non Programme/Schemes": 0,
+                  "Child Centric Non Programme/Schemes__1": 0,
+                  "Child Centric Non Programme/Schemes__2": 10.86,
+                  "Child Centric Non Programme/Schemes__3": 26.99
+                },
+                {
+                  "Grant--------": "Total",
+                  "Child Centric Programme/Schemes": "16,798.52",
+                  "Child Centric Programme/Schemes__1": "16,604.33",
+                  "Child Centric Programme/Schemes__2": "13,861.08",
+                  "Child Centric Programme/Schemes__3": "16,926.91",
+                  "Child Centric Non Programme/Schemes": "20,083.94",
+                  "Child Centric Non Programme/Schemes__1": "19,944.90",
+                  "Child Centric Non Programme/Schemes__2": "10,758.22",
+                  "Child Centric Non Programme/Schemes__3": "9,484.94"
+                }
+              ]
+        },
+        "Appendix4": {
+            "Table1": [
+                {
                   "Sl No": "",
                   "Grant": "",
                   "Budget": "100% CCP",
