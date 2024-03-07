@@ -86,6 +86,7 @@ import Appendix2 from '../components/Pages/Appendices/Appendix2';
 import Appendix3 from '../components/Pages/Appendices/Appendix3';
 import Appendix4 from '../components/Pages/Appendices/Appendix4';
 import Appendix5 from '../components/Pages/Appendices/Appendix5';
+import Glossary from '../components/Pages/Glossary/Glossary';
 import ErrorBoundary from '../components/ErrorBoundary/ErrorBoundary';
 import Error from '../components/404/404';
 
@@ -179,14 +180,15 @@ const Routes = () => {
                            <Route path='/State/Recommend' exact component={Recommend} />
 
 
-
-
-
                             <Route path='/appendices/appendix-1' exact component={Appendix1} />
                             <Route path='/appendices/appendix-2' exact component={Appendix2} />
                             <Route path='/appendices/appendix-3' exact component={Appendix3} />
                             <Route path='/appendices/appendix-4' exact component={Appendix4} />
                             <Route path='/appendices/appendix-5' exact component={Appendix5} />
+
+                            <Route path='/glossary/glossary' exact component={Glossary} />
+
+
                         </ErrorBoundary>
                         <Route component={Error} />
                     </Switch>
