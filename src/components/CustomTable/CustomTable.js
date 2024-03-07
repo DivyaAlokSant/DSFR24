@@ -19,7 +19,7 @@ const CustomTable = ({ title, columns, data, indexToIncreaseWidth, widthSize }) 
   // Conditional row styles function
   const conditionalRowStyles = [
     {
-      when: row => row[tableColumns[0].selector] === 'Total',
+      when: row => row[tableColumns[0].selector] === 'Total' || row[tableColumns[0].selector] === 'Grand Total',
       style: {
         backgroundColor: 'rgba(153, 165, 128, 0.9)',
         color: 'white',
@@ -29,6 +29,7 @@ const CustomTable = ({ title, columns, data, indexToIncreaseWidth, widthSize }) 
       },
     },
   ];
+
 
   return (
     <div className="App" style={{ margin: "40px 0 40px 0" }}>

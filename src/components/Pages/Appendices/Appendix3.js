@@ -55,8 +55,8 @@ const Appendix3 = () => {
                     <div className="contentwrapper" id="home">
                         <FloatingActionButtons back="/appendices/appendix-2" forward="/appendices/appendix-4" />
                         <h3 className='headnote'>
-                        (₹ in crore)
-                       </h3>
+                            (₹ in crore)
+                        </h3>
                         {/* <Tablec1 /> */}
                         <CustomTable title={"Appendix 3.1 Category wise/department wise budget allocation/expenditure for Child Budget for the year 2022-23"}
                             columns={ctx.appendix3.Table1}
@@ -64,123 +64,195 @@ const Appendix3 = () => {
                             indexToIncreaseWidth={0}
                             widthSize={'250px'} />
                         <h4> Source: Child Budget</h4>
+                       
                         <h3 className='headnote'>
-                                                (₹ in crore)
-                                            </h3>
-                        <Tablec2 />
-                        <h4> ಆಕರ: ಧನವಿನಿಯೋಗ ಲೆಕ್ಕಗಳು </h4>
-                        <h3 className='headnote'>
-                                                (₹ in crore)
-                                            </h3>
-                        <Tablec3 />
-                        <h4> ಆಕರ : ಅನುದಾನ ವಹಿ </h4>
-
-
-                        <h3 className='headnote'>
-                                                (₹ in crore)
-                                            </h3>
-                        <Tablec4 />
-                        <h4> ಆಕರ : ಅನುದಾನ ವಹಿ </h4>
-
+                            (₹ in crore)
+                        </h3>
+                        <CustomTable title={"Appendix 3.2 Grant wise Budget allocation/outturn and the deviation of outturn from BE and RE"}
+                            columns={ctx.appendix3.Table2}
+                            data={ctx.appendix3.Table2}
+                            indexToIncreaseWidth={1}
+                            widthSize={'250px'} />
+                        <h4 className='footnote'> Source: Grant Register and Budget documents</h4>
 
                         <h3 className='headnote'>
-                                                (₹ in crore)
-                                            </h3>
-                        <Tablec5 />
-                        <h4> ಆಕರ : ಅನುದಾನ ವಹಿ </h4>
+                            (₹ in crore)
+                        </h3>
+                        <CustomTable title={"Appendix 3.3 Cases of incurring expenditure, which are not covered by the budget, but released by FD as additionalities"}
+                            columns={ctx.appendix3.Table3}
+                            data={ctx.appendix3.Table3}
+                            indexToIncreaseWidth={1}
+                            widthSize={'300px'} />
+                        <h4 className='footnote'> Source: Appropriation Accounts</h4>
 
                         <h3 className='headnote'>
-                                                (₹ in crore)
-                                            </h3>
-                        <Tablec6 />
-
-                        <Tablec6a />
-                        <Tablec6b />
-                        <Tablec6c />
-                        <h4> ಆಕರ : ಅನುದಾನ ವಹಿ </h4>
-
-
-
-                        <Tablec7 />
-                        <h4> Source: Office of the AG (A&E)</h4>     
+                            (₹ in crore)
+                        </h3>
+                        <CustomTable title={"Appendix 3.4 Unnecessary Supplementary Provision"}
+                            columns={ctx.appendix3.Table4}
+                            data={ctx.appendix3.Table4}
+                            indexToIncreaseWidth={2}
+                            widthSize={'250px'} />
+                        <h4 className='footnote'> Source: Grant Register</h4>
 
 
                         <h3 className='headnote'>
-                                                (₹ in crore)
-                                            </h3>
-                        <Tablec8 /> 
-                        <h4> ಆಕರ: ಧನವಿನಿಯೋಗ ಲೆಕ್ಕಗಳು </h4>          
-                        
-                        
-                        <h3 className='headnote'>
-                                                (₹ in crore)
-                                            </h3>
-                        <Tablec9 /> 
-                        <h4> ಆಕರ: ಧನವಿನಿಯೋಗ ಲೆಕ್ಕಗಳು </h4>  
-                        
+                            (₹ in crore)
+                        </h3>
+                        <CustomTable title={"Appendix 3.5 Excessive Supplementary Provision"}
+                            columns={ctx.appendix3.Table5}
+                            data={ctx.appendix3.Table5}
+                            indexToIncreaseWidth={2}
+                            widthSize={'250px'} />
+                        <h4 className='footnote'> Source: Grant Register</h4>
+
 
                         <h3 className='headnote'>
-                                                (₹ in crore)
-                                            </h3>
-                        <Tablec10 /> 
-                        <h4> ಆಕರ: ಧನವಿನಿಯೋಗ ಲೆಕ್ಕಗಳು </h4>  
-                        <h3 className='headnote'>
-                                                (₹ in crore)
-                                            </h3>
-                        <Tablec11 /> 
-                        <h4> ಆಕರ: ಧನವಿನಿಯೋಗ ಲೆಕ್ಕಗಳು  <br></br>
-                        (+) : Refers to amount surrendered greater than Savings.</h4>
-                        <h3 className='headnote'>
-                                                (₹ in crore)
-                                            </h3>
-                        <Tablec12 /> 
-                        <h4> ಆಕರ : ಅನುದಾನ ವಹಿ  <br></br>
-                        </h4>  
+                            (₹ in crore)
+                        </h3>
+                        <CustomTable title={"Appendix 3.6 Inadequate Supplementary Provision"}
+                            columns={ctx.appendix3.Table6}
+                            data={ctx.appendix3.Table6}
+                            indexToIncreaseWidth={2}
+                            widthSize={'250px'} />
+                        <h4 className='footnote'> Source: Grant Register</h4>
+
 
                         <h3 className='headnote'>
-                                                (₹ in crore)
-                                            </h3>
-                        <Tablec13 /> 
-                        <h4> Source: Office of  the AG (A&E) <br></br>
-                        </h4> 
-                        
-                        <h3 className='headnote'>
-                                                (₹ in crore)
-                                            </h3>
-                        <Tablec14 /> 
-                        <h4>  ಆಕರ: ಧನವಿನಿಯೋಗ ಲೆಕ್ಕಗಳು  <br></br>
-                        </h4> 
+                            (₹ in crore)
+                        </h3>
+                        <CustomTable title={"Appendix 3.7 Unnecessary/Excessive/Inadequate/Injudicious Re-appropriation"}
+                            columns={ctx.appendix3.Table7}
+                            data={ctx.appendix3.Table7}
+                            indexToIncreaseWidth={2}
+                            widthSize={'250px'} />
+                        <h4 className='footnote'> Source: Grant Register</h4>
+
 
                         <h3 className='headnote'>
-                                                (₹ in crore)
-                                            </h3>
-                        <Tablec15 /> 
-                        <h4> Source: Office of  the AG (A&E) <br></br>
-                        </h4> 
+                            (₹ in crore)
+                        </h3>
+                        <CustomTable title={"Appendix 3.8 Cases of Defective Re-Appropriation Orders"}
+                            columns={ctx.appendix3.Table8}
+                            data={ctx.appendix3.Table8}
+                            indexToIncreaseWidth={5}
+                            widthSize={'250px'} />
+                        <h4 className='footnote'> Source: Office of the AG (A&E)</h4>
+
 
                         <h3 className='headnote'>
-                                                (₹ in crore)
-                                            </h3>
-                        <Tablec16 /> 
-                        <h4> Source:  Grant Register <br></br>
-                        </h4> 
+                            (₹ in crore)
+                        </h3>
+                        <CustomTable title={"Appendix 3.9 Grants/Appropriations with unspent provisions of ₹50 crore and above"}
+                            columns={ctx.appendix3.Table9}
+                            data={ctx.appendix3.Table9}
+                            indexToIncreaseWidth={1}
+                            widthSize={'250px'} />
+                        <h4 className='footnote'> Source: Appropriation Accounts</h4>
+
 
                         <h3 className='headnote'>
-                                                (₹ in crore)
-                                            </h3>
-                        <Tablec17 /> 
-                        <h4> Source:  Grant Register <br></br>
-                        </h4> 
-   
-           {/* <object
-                            width="100%"
-                            height="600"
-                            data="https://firebasestorage.googleapis.com/v0/b/digital-sfr.appspot.com/o/pdfs%2FAppendix-3-to-upload.pdf?alt=media&token=c56217f2-9923-4456-a342-ab07e55f4007"
-                            type="application/pdf">
-                            <embed
-                                src="https://firebasestorage.googleapis.com/v0/b/digital-sfr.appspot.com/o/pdfs%2FAppendix-3-to-upload.pdf?alt=media&token=c56217f2-9923-4456-a342-ab07e55f4007"
-                                type="application/pdf" />
-                        </object> */}
+                            (₹ in crore)
+                        </h3>
+                        <CustomTable title={"Appendix 3.10 Statement showing grant-wise savings for the year 2022-23"}
+                            columns={ctx.appendix3.Table10}
+                            data={ctx.appendix3.Table10}
+                            indexToIncreaseWidth={0}
+                            widthSize={'100px'} />
+                        <h4 className='footnote'> Source: Appropriation Accounts</h4>
+
+
+                        <h3 className='headnote'>
+                            (₹ in crore)
+                        </h3>
+                        <CustomTable title={"Appendix 3.11 Statement of various grants/appropriations in which unspent provision occurred but no part of which was surrendered"}
+                            columns={ctx.appendix3.Table11}
+                            data={ctx.appendix3.Table11}
+                            indexToIncreaseWidth={2}
+                            widthSize={'300px'} />
+                        <h4 className='footnote'> Source: Appropriation Accounts</h4>
+
+
+                        <h3 className='headnote'>
+                            (₹ in crore)
+                        </h3>
+                        <CustomTable title={"Appendix 3.12 Surrender of entire unspent provision"}
+                            columns={ctx.appendix3.Table12}
+                            data={ctx.appendix3.Table12}
+                            indexToIncreaseWidth={1}
+                            widthSize={'300px'} />
+                        <h4 className='footnote'> Source: Appropriation Accounts</h4>
+
+
+                        <h3 className='headnote'>
+                            (₹ in crore)
+                        </h3>
+                        <CustomTable title={"Appendix 3.13 Surrender of unspent provision"}
+                            columns={ctx.appendix3.Table13}
+                            data={ctx.appendix3.Table13}
+                            indexToIncreaseWidth={1}
+                            widthSize={'300px'} />
+                        <h4 className='footnote'> Source: Appropriation Accounts</h4>
+
+
+                        <h3 className='headnote'>
+                            (₹ in crore)
+                        </h3>
+                        <CustomTable title={"Appendix 3.14 Results of substantial surrenders made during the year"}
+                            columns={ctx.appendix3.Table14}
+                            data={ctx.appendix3.Table14}
+                            indexToIncreaseWidth={6}
+                            widthSize={'300px'} />
+                        <h4 className='footnote'> Source: Grant Register</h4>
+
+
+                        <h3 className='headnote'>
+                            (₹ in crore)
+                        </h3>
+                        <CustomTable title={"Appendix 3.15 Cases of surrender of funds in excess of ₹ five crore on 30 and 31 of March 2023"}
+                            columns={ctx.appendix3.Table15}
+                            data={ctx.appendix3.Table15}
+                            indexToIncreaseWidth={2}
+                            widthSize={'300px'} />
+                        <h4 className='footnote'> Source: Office of the AG (A&E)</h4>
+
+
+                        <h3 className='headnote'>
+                            (₹ in crore)
+                        </h3>
+                        <CustomTable title={"Appendix 3.16 Excess Expenditure over Provision requiring regularization"}
+                            columns={ctx.appendix3.Table16}
+                            data={ctx.appendix3.Table16}
+                            indexToIncreaseWidth={3}
+                            widthSize={'300px'} />
+                        <h4 className='footnote'> Source: Appropriation Accounts</h4>
+
+
+                        <h3 className='headnote'>
+                            (₹ in crore)
+                        </h3>
+                        <CustomTable title={"Appendix 3.17 Grant-wise details under which reasons for savings not intimated"}
+                            columns={ctx.appendix3.Table17}
+                            data={ctx.appendix3.Table17}
+                            indexToIncreaseWidth={1}
+                            widthSize={'450px'} />
+                        <h4 className='footnote'> Source: Appropriation Accounts</h4>
+
+
+                        <h3 className='headnote'>
+                            (₹ in crore)
+                        </h3>
+                        <CustomTable title={"Appendix 3.18 Rush of Expenditure for Grant No. 22 for the year 2022-23"}
+                            columns={ctx.appendix3.Table18}
+                            data={ctx.appendix3.Table18}
+                            indexToIncreaseWidth={1}
+                            widthSize={'350px'} />
+                        <h4 className='footnote'> Source: Grant Register</h4>
+
+
+
+
+
                     </div>
                 </div>
                 : <div>
@@ -193,8 +265,8 @@ const Appendix3 = () => {
                     <div className="contentwrapper" id="home">
                         <FloatingActionButtons back="/appendices/appendix-2" forward="/appendices/appendix-4" />
                         <h3 className='headnote'>
-                        (₹ಕೋಟಿಗಳಲ್ಲಿ)
-                       </h3>
+                            (₹ಕೋಟಿಗಳಲ್ಲಿ)
+                        </h3>
                         <Tablec1k />
                         <h4> Source: Child Budget</h4>
                         <h3 className='headnote'>
@@ -203,8 +275,8 @@ const Appendix3 = () => {
                         <Tablec2k />
                         <h4> ಆಕರ : ಧನವಿನಿಯೋಗ ಲೆಕ್ಕಗಳು</h4>
                         <h3 className='headnote'>
-                        (₹ ಕೋಟಿಗಳಲ್ಲಿ)
-                                            </h3>
+                            (₹ ಕೋಟಿಗಳಲ್ಲಿ)
+                        </h3>
                         <Tablec3k />
                         <h4> ಆಕರ : ಅನುದಾನ ವಹಿ</h4>
 
@@ -223,82 +295,82 @@ const Appendix3 = () => {
                         <h4> ಆಕರ : ಅನುದಾನ ವಹಿ </h4>
 
                         <h3 className='headnote'>
-                                                (₹ಕೋಟಿಗಳಲ್ಲಿ)
-                                            </h3>
+                            (₹ಕೋಟಿಗಳಲ್ಲಿ)
+                        </h3>
                         <Tablec6k />
 
-                        
+
                         <h4> ಆಕರ : ಅನುದಾನ ವಹಿ </h4>
 
 
 
                         <Tablec7k />
-                        <h4> ಆಕರ: ಮಹಾಲೇಖಾಪಾಲರ ಕಛೇರಿ (ಲೆ ಮತ್ತು ಹ)</h4>     
+                        <h4> ಆಕರ: ಮಹಾಲೇಖಾಪಾಲರ ಕಛೇರಿ (ಲೆ ಮತ್ತು ಹ)</h4>
 
 
                         <h3 className='headnote'>
-                        (₹ಕೋಟಿಗಳಲ್ಲಿ)
+                            (₹ಕೋಟಿಗಳಲ್ಲಿ)
                         </h3>
-                        <Tablec8k /> 
-                        <h4> ಆಕರ: ಧನವಿನಿಯೋಗ ಲೆಕ್ಕಗಳು </h4>          
-                        
-                        
-                        <h3 className='headnote'>
-                                                (₹ಕೋಟಿಗಳಲ್ಲಿ)
-                                            </h3>
-                        <Tablec9k /> 
-                        <h4> ಆಕರ: ಧನವಿನಿಯೋಗ ಲೆಕ್ಕಗಳು </h4>  
-                        
+                        <Tablec8k />
+                        <h4> ಆಕರ: ಧನವಿನಿಯೋಗ ಲೆಕ್ಕಗಳು </h4>
+
 
                         <h3 className='headnote'>
-                                                (₹ಕೋಟಿಗಳಲ್ಲಿ)
-                                            </h3>
-                        <Tablec10k /> 
-                        <h4> ಆಕರ: ಧನವಿನಿಯೋಗ ಲೆಕ್ಕಗಳು </h4>  
+                            (₹ಕೋಟಿಗಳಲ್ಲಿ)
+                        </h3>
+                        <Tablec9k />
+                        <h4> ಆಕರ: ಧನವಿನಿಯೋಗ ಲೆಕ್ಕಗಳು </h4>
+
+
                         <h3 className='headnote'>
-                                                (₹ಕೋಟಿಗಳಲ್ಲಿ)
-                                            </h3>
-                        <Tablec11k /> 
+                            (₹ಕೋಟಿಗಳಲ್ಲಿ)
+                        </h3>
+                        <Tablec10k />
+                        <h4> ಆಕರ: ಧನವಿನಿಯೋಗ ಲೆಕ್ಕಗಳು </h4>
+                        <h3 className='headnote'>
+                            (₹ಕೋಟಿಗಳಲ್ಲಿ)
+                        </h3>
+                        <Tablec11k />
                         <h4> ಆಕರ: ಧನವಿನಿಯೋಗ ಲೆಕ್ಕಗಳು  </h4>
                         <h3 className='headnote'>
-                                                (₹ಕೋಟಿಗಳಲ್ಲಿ)
-                                            </h3>
-                        <Tablec12k/> 
+                            (₹ಕೋಟಿಗಳಲ್ಲಿ)
+                        </h3>
+                        <Tablec12k />
                         <h4> ಆಕರ : ಅನುದಾನ ವಹಿ  <br></br>
-                        </h4>  
+                        </h4>
 
                         <h3 className='headnote'>
-                                                (₹ಕೋಟಿಗಳಲ್ಲಿ)
-                                            </h3>
-                        <Tablec13k /> 
+                            (₹ಕೋಟಿಗಳಲ್ಲಿ)
+                        </h3>
+                        <Tablec13k />
                         <h4> Source: Office of  the AG (A&E) <br></br>
-                        </h4> 
-                        
+                        </h4>
+
                         <h3 className='headnote'>
-                                                (₹ಕೋಟಿಗಳಲ್ಲಿ)
-                                            </h3>
-                        <Tablec14k /> 
+                            (₹ಕೋಟಿಗಳಲ್ಲಿ)
+                        </h3>
+                        <Tablec14k />
                         <h4>  ಆಕರ: ಧನವಿನಿಯೋಗ ಲೆಕ್ಕಗಳು  <br></br>
-                        </h4> 
+                        </h4>
 
                         <h3 className='headnote'>
-                                                (₹ಕೋಟಿಗಳಲ್ಲಿ)
-                                            </h3>
-                        <Tablec15k /> 
+                            (₹ಕೋಟಿಗಳಲ್ಲಿ)
+                        </h3>
+                        <Tablec15k />
                         <h4> ಆಕರ: ಮಹಾಲೇಖಾಪಾಲರ (ಲೆ ಮತ್ತು ಹ) ಕಛೇರಿ <br></br>
-                        </h4> 
+                        </h4>
 
                         <h3 className='headnote'>
-                                                (₹ಕೋಟಿಗಳಲ್ಲಿ)
-                                            </h3>
-                        <Tablec16k /> 
+                            (₹ಕೋಟಿಗಳಲ್ಲಿ)
+                        </h3>
+                        <Tablec16k />
                         <h4> Source:  Grant Register <br></br>
-                        </h4> 
+                        </h4>
 
                         <h3 className='headnote'>
-                                                (₹ಕೋಟಿಗಳಲ್ಲಿ)
-                                            </h3>
-                        <Tablec17k /> 
+                            (₹ಕೋಟಿಗಳಲ್ಲಿ)
+                        </h3>
+                        <Tablec17k />
                         <h4> Source:  Grant Register <br></br>
                         </h4>
                     </div>
