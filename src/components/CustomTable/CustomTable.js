@@ -55,7 +55,7 @@ export default CustomTable;
 
 
 {/* <CustomTable title={"Appendix 1.1 B Financial Data"}
-                            columns={ctx.appendix1.Table2}
-                            data={ctx.appendix1.Table2} 
-                            indexToIncreaseWidth={1}
-                            widthSize={'250px'}/> */}
+                 columns={ctx.appendix1.Table2}
+                 data={ctx.appendix1.Table2} 
+                 indexToIncreaseWidth={1}
+                 widthSize={'250px'}/> */}
