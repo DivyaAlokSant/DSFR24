@@ -26,7 +26,7 @@ const Appendix5 = () => {
                 ? <div >
                     <Navbar />
                     <div className="contentwrapper" id="home">
-                        <FloatingActionButtons back="/appendices/appendix-4" forward="/appendices/appendix-5" />
+                        <FloatingActionButtons back="/appendices/appendix-4" forward="/glossary/glossary" />
 
                         {/* <Tablee1 /> */}
 
@@ -103,7 +103,7 @@ const Appendix5 = () => {
                 ? <div >
                     <Navbar />
                     <div className="contentwrapper" id="home">
-                        <FloatingActionButtons back="/appendices/appendix-4" forward="/appendices/appendix-1" />
+                        <FloatingActionButtons back="/appendices/appendix-4" forward="/appendices/Glossary" />
 
                         <Tablee1k />
                         <h3 className='headnote'>

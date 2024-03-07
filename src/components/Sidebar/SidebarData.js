@@ -543,5 +543,20 @@ export const SidebarData = [
         cName: 'sub-nav'
       }
     ]
+  },
+  {
+    title: 'Glossary',
+    path: '#',
+    iconClosed: <FaIcons.FaPlusSquare size="12px"/>,
+    iconOpened: <FaIcons.FaRegMinusSquare size="12px" />,
+    subNav: [
+      {
+        title: 'Glossary',
+        path: '/glossary/glossary',
+        id: 2,
+        icon: <FaIcons.FaAngleRight />,
+        cName: 'sub-nav'
+      } ]
   }
+
 ];

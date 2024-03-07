@@ -46388,5 +46388,728 @@
               ]
         }        
 
+    },
+    "Glossary": {
+        "para1": "Glossary",
+        "para2": "Basis of Calculation",
+        "Table1": [
+            {
+              "Buoyancy of a parameter": "Buoyancy of a parameter (X)",
+              "Rate of Growth of the parameter/GSDP Growth Rate": "Rate of Growth of parameter (X)/"
+            },
+            {
+              "Buoyancy of a parameter": "With respect to another parameter (Y)",
+              "Rate of Growth of the parameter/GSDP Growth Rate": "Rate of Growth of parameter (Y)"
+            },
+            {
+              "Buoyancy of a parameter": "Rate of Growth (ROG)",
+              "Rate of Growth of the parameter/GSDP Growth Rate": "[(Current year Amount/Previous year Amount)-1]*100"
+            },
+            {
+              "Buoyancy of a parameter": "Development expenditure",
+              "Rate of Growth of the parameter/GSDP Growth Rate": "Social services + economic services"
+            },
+            {
+              "Buoyancy of a parameter": "Average interest rate of Outstanding Debt",
+              "Rate of Growth of the parameter/GSDP Growth Rate": "[Interest payments/(opening balance of Public debt + closing balance of Public Debt/2)]"
+            },
+            {
+              "Buoyancy of a parameter": "Ratio of Debt Redemption",
+              "Rate of Growth of the parameter/GSDP Growth Rate": "Total debt payment + Interest payment(debt)/total debt receipts"
+            },
+            {
+              "Buoyancy of a parameter": "Revenue Deficit/Revenue Surplus",
+              "Rate of Growth of the parameter/GSDP Growth Rate": "Revenue Receipt – Revenue Expenditure"
+            },
+            {
+              "Buoyancy of a parameter": "Fiscal Deficit",
+              "Rate of Growth of the parameter/GSDP Growth Rate": "Revenue Expenditure + Capital Expenditure + Net Loans and Advances – Revenue Receipts – Miscellaneous Capital Receipts"
+            },
+            {
+              "Buoyancy of a parameter": "Primary Deficit",
+              "Rate of Growth of the parameter/GSDP Growth Rate": "Fiscal Deficit – Interest payments"
+            },
+            {
+              "Buoyancy of a parameter": "Balance from Current Revenue (BCR)",
+              "Rate of Growth of the parameter/GSDP Growth Rate": "Revenue Receipts minus all Plan Grants and Non-Plan Revenue Expenditure excluding expenditure recorded under the major head 2048 – Appropriation for reduction of avoidance of debt."
+            }
+          ],
+        "Table2": [
+            {
+              "Sl. No.": 1,
+              "Abbreviation": "AC Bill",
+              "Full Form": "Abstract Contingent Bill"
+            },
+            {
+              "Sl. No.": 2,
+              "Abbreviation": "AE",
+              "Full Form": "Aggregate Expenditure"
+            },
+            {
+              "Sl. No.": 3,
+              "Abbreviation": "ALM",
+              "Full Form": "Asset Liability Monitoring"
+            },
+            {
+              "Sl. No.": 4,
+              "Abbreviation": "AYUSH",
+              "Full Form": "Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopathy"
+            },
+            {
+              "Sl. No.": 5,
+              "Abbreviation": "BMTC",
+              "Full Form": "Bengaluru Metropolitan Transport Corporation"
+            },
+            {
+              "Sl. No.": 6,
+              "Abbreviation": "BPL",
+              "Full Form": "Below Poverty Line"
+            },
+            {
+              "Sl. No.": 7,
+              "Abbreviation": "C&AG",
+              "Full Form": "Comptroller and Auditor General of India"
+            },
+            {
+              "Sl. No.": 8,
+              "Abbreviation": "CAGR",
+              "Full Form": "Compounded Annual Growth Rate"
+            },
+            {
+              "Sl. No.": 9,
+              "Abbreviation": "CAPEX",
+              "Full Form": "Capital Expenditure"
+            },
+            {
+              "Sl. No.": 10,
+              "Abbreviation": "CBS",
+              "Full Form": "Child Budget Statement"
+            },
+            {
+              "Sl. No.": 11,
+              "Abbreviation": "CE",
+              "Full Form": "Capital Expenditure"
+            },
+            {
+              "Sl. No.": 12,
+              "Abbreviation": "CESCOM",
+              "Full Form": "Chamundeswari Electricity Supply Company"
+            },
+            {
+              "Sl. No.": 13,
+              "Abbreviation": "CGST",
+              "Full Form": "Central Goods and Service Tax"
+            },
+            {
+              "Sl. No.": 14,
+              "Abbreviation": "CHCs",
+              "Full Form": "Community Health Centres"
+            },
+            {
+              "Sl. No.": 15,
+              "Abbreviation": "CMRRD",
+              "Full Form": "Chief Minister’s Rural Road Development Fund"
+            },
+            {
+              "Sl. No.": 16,
+              "Abbreviation": "CNNL",
+              "Full Form": "Cauvery Neeravari Nigam Limited"
+            },
+            {
+              "Sl. No.": 17,
+              "Abbreviation": "CPAO",
+              "Full Form": "Central Pay and Accounts Office"
+            },
+            {
+              "Sl. No.": 18,
+              "Abbreviation": "CPS",
+              "Full Form": "Central Plan Schemes"
+            },
+            {
+              "Sl. No.": 19,
+              "Abbreviation": "CRA",
+              "Full Form": "Central Record keeping Agency"
+            },
+            {
+              "Sl. No.": 20,
+              "Abbreviation": "CRF",
+              "Full Form": "Central Road Fund"
+            },
+            {
+              "Sl. No.": 21,
+              "Abbreviation": "CSF",
+              "Full Form": "Consolidated Sinking Fund"
+            },
+            {
+              "Sl. No.": 22,
+              "Abbreviation": "CSS",
+              "Full Form": "Centrally Sponsored Schemes"
+            },
+            {
+              "Sl. No.": 23,
+              "Abbreviation": "DC",
+              "Full Form": "Deputy Commissioner"
+            },
+            {
+              "Sl. No.": 24,
+              "Abbreviation": "DCB",
+              "Full Form": "Demand Collection Balances"
+            },
+            {
+              "Sl. No.": 25,
+              "Abbreviation": "DCPS",
+              "Full Form": "Defined Contribution Pension Scheme"
+            },
+            {
+              "Sl. No.": 26,
+              "Abbreviation": "DDOs",
+              "Full Form": "Drawing and Disbursing Officers"
+            },
+            {
+              "Sl. No.": 27,
+              "Abbreviation": "DDR",
+              "Full Form": "Debt, Deposit and Remittances"
+            },
+            {
+              "Sl. No.": 28,
+              "Abbreviation": "DE",
+              "Full Form": "Development Expenditure"
+            },
+            {
+              "Sl. No.": 29,
+              "Abbreviation": "DMA",
+              "Full Form": "Directorate of Municipal Administration"
+            },
+            {
+              "Sl. No.": 30,
+              "Abbreviation": "DPAR",
+              "Full Form": "Department of Personnel and Administrative Reforms"
+            },
+            {
+              "Sl. No.": 31,
+              "Abbreviation": "DPC",
+              "Full Form": "Duties, Power and Conditions of Service"
+            },
+            {
+              "Sl. No.": 32,
+              "Abbreviation": "DSA",
+              "Full Form": "Debt Sustainability Analysis"
+            },
+            {
+              "Sl. No.": 33,
+              "Abbreviation": "EAP",
+              "Full Form": "Externally Assisted Project"
+            },
+            {
+              "Sl. No.": 34,
+              "Abbreviation": "EFC",
+              "Full Form": "Eleventh Finance Commission"
+            },
+            {
+              "Sl. No.": 35,
+              "Abbreviation": "ERC",
+              "Full Form": "Expenditure Reforms Commission"
+            },
+            {
+              "Sl. No.": 36,
+              "Abbreviation": "ESCOMs",
+              "Full Form": "Electricity Supply Companies"
+            },
+            {
+              "Sl. No.": 37,
+              "Abbreviation": "FD",
+              "Full Form": "Finance Department"
+            },
+            {
+              "Sl. No.": 38,
+              "Abbreviation": "FMRC",
+              "Full Form": "Fiscal Management Review Committee"
+            },
+            {
+              "Sl. No.": 39,
+              "Abbreviation": "FPI",
+              "Full Form": "Fiscal Policy Institute"
+            },
+            {
+              "Sl. No.": 40,
+              "Abbreviation": "GASAB",
+              "Full Form": "Government Accounting Standards Advisory Board"
+            },
+            {
+              "Sl. No.": 41,
+              "Abbreviation": "GB",
+              "Full Form": "Gender Budget"
+            },
+            {
+              "Sl. No.": 42,
+              "Abbreviation": "GCS",
+              "Full Form": "General Category States"
+            },
+            {
+              "Sl. No.": 43,
+              "Abbreviation": "GCUs",
+              "Full Form": "Government Commercial Undertakings"
+            },
+            {
+              "Sl. No.": 44,
+              "Abbreviation": "GDP",
+              "Full Form": "Gross Domestic Product"
+            },
+            {
+              "Sl. No.": 45,
+              "Abbreviation": "GESCOM",
+              "Full Form": "Gulbarga Electricity Supply Company"
+            },
+            {
+              "Sl. No.": 46,
+              "Abbreviation": "GIA",
+              "Full Form": "Grants-In-Aid"
+            },
+            {
+              "Sl. No.": 47,
+              "Abbreviation": "GFR",
+              "Full Form": "General Financial Rules"
+            },
+            {
+              "Sl. No.": 48,
+              "Abbreviation": "GIC",
+              "Full Form": "General Insurance Corporation"
+            },
+            {
+              "Sl. No.": 49,
+              "Abbreviation": "GOI",
+              "Full Form": "Government of India"
+            },
+            {
+              "Sl. No.": 50,
+              "Abbreviation": "GOK",
+              "Full Form": "Government of Karnataka"
+            },
+            {
+              "Sl. No.": 51,
+              "Abbreviation": "GOs",
+              "Full Form": "Government Orders"
+            },
+            {
+              "Sl. No.": 52,
+              "Abbreviation": "GP",
+              "Full Form": "Gram Panchayat"
+            },
+            {
+              "Sl. No.": 53,
+              "Abbreviation": "GSDP",
+              "Full Form": "Gross State Domestic Product"
+            },
+            {
+              "Sl. No.": 54,
+              "Abbreviation": "GSVA",
+              "Full Form": "Gross State Value Added"
+            },
+            {
+              "Sl. No.": 55,
+              "Abbreviation": "GST",
+              "Full Form": "Goods and Service Tax"
+            },
+            {
+              "Sl. No.": 56,
+              "Abbreviation": "HESCOM",
+              "Full Form": "Hubli Electricity Supply Company"
+            },
+            {
+              "Sl. No.": 57,
+              "Abbreviation": "HOA",
+              "Full Form": "Head of Account"
+            },
+            {
+              "Sl. No.": 58,
+              "Abbreviation": "HRMS",
+              "Full Form": "Human Resource Management System"
+            },
+            {
+              "Sl. No.": 59,
+              "Abbreviation": "IFA",
+              "Full Form": "Internal Financial Advisor"
+            },
+            {
+              "Sl. No.": 60,
+              "Abbreviation": "IGAS",
+              "Full Form": "Indian Government Accounting Standard"
+            },
+            {
+              "Sl. No.": 61,
+              "Abbreviation": "IGST",
+              "Full Form": "Integrated Goods and Service Tax"
+            },
+            {
+              "Sl. No.": 62,
+              "Abbreviation": "ITI",
+              "Full Form": "Industrial Training Institute"
+            },
+            {
+              "Sl. No.": 63,
+              "Abbreviation": "KBJNL",
+              "Full Form": "Krishna Bhagya Jala Nigam Limited"
+            },
+            {
+              "Sl. No.": 64,
+              "Abbreviation": "KFC",
+              "Full Form": "Karnataka Financial Code"
+            },
+            {
+              "Sl. No.": 65,
+              "Abbreviation": "KFDF",
+              "Full Form": "Karnataka Forest Development Fund"
+            },
+            {
+              "Sl. No.": 66,
+              "Abbreviation": "KFRA",
+              "Full Form": "Karnataka Fiscal Responsibility Act"
+            },
+            {
+              "Sl. No.": 67,
+              "Abbreviation": "KIADB",
+              "Full Form": "Karnataka Industrial Area Development Board"
+            },
+            {
+              "Sl. No.": 68,
+              "Abbreviation": "KILT",
+              "Full Form": "Karnataka Institute of Leather Technology"
+            },
+            {
+              "Sl. No.": 69,
+              "Abbreviation": "KNNL",
+              "Full Form": "Karnataka Neeravari Nigam Limited"
+            },
+            {
+              "Sl. No.": 70,
+              "Abbreviation": "KRDCL",
+              "Full Form": "Karnataka Road Development Corporation Limited"
+            },
+            {
+              "Sl. No.": 71,
+              "Abbreviation": "KSFCL",
+              "Full Form": "Karnataka State Financial Corporation Limited"
+            },
+            {
+              "Sl. No.": 72,
+              "Abbreviation": "KSCARDB",
+              "Full Form": "Karnataka State Co-operative Agriculture and Rural Development Bank"
+            },
+            {
+              "Sl. No.": 73,
+              "Abbreviation": "KSCOMF",
+              "Full Form": "Karnataka State Co-operative Marketing Federation"
+            },
+            {
+              "Sl. No.": 74,
+              "Abbreviation": "KSSIDC",
+              "Full Form": "Karnataka State Small Industries Development Corporation Limited"
+            },
+            {
+              "Sl. No.": 75,
+              "Abbreviation": "KUWSDB",
+              "Full Form": "Karnataka Urban Water Supply and Drainage Board"
+            },
+            {
+              "Sl. No.": 76,
+              "Abbreviation": "LIC",
+              "Full Form": "Life Insurance Corporation"
+            },
+            {
+              "Sl. No.": 77,
+              "Abbreviation": "LMMH",
+              "Full Form": "List of Major and Minor Heads"
+            },
+            {
+              "Sl. No.": 78,
+              "Abbreviation": "LROT",
+              "Full Form": "Lease Rehabilitate Operate and Transfer"
+            },
+            {
+              "Sl. No.": 79,
+              "Abbreviation": "MCE",
+              "Full Form": "Manual of Contingent Expenditure"
+            },
+            {
+              "Sl. No.": 80,
+              "Abbreviation": "MOF",
+              "Full Form": "Ministry of Finance"
+            },
+            {
+              "Sl. No.": 81,
+              "Abbreviation": "MTFP",
+              "Full Form": "Medium Term Fiscal Plan"
+            },
+            {
+              "Sl. No.": 82,
+              "Abbreviation": "NABARD",
+              "Full Form": "National Bank for Agriculture and Rural Development"
+            },
+            {
+              "Sl. No.": 83,
+              "Abbreviation": "NCDC",
+              "Full Form": "National Co-operative Development Corporation"
+            },
+            {
+              "Sl. No.": 84,
+              "Abbreviation": "NDC Bill",
+              "Full Form": "Non-Payment Detailed Contingent Bill"
+            },
+            {
+              "Sl. No.": 85,
+              "Abbreviation": "NDRF",
+              "Full Form": "National Disaster Response Fund"
+            },
+            {
+              "Sl. No.": 86,
+              "Abbreviation": "NGOs",
+              "Full Form": "Non – Government Organisations"
+            },
+            {
+              "Sl. No.": 87,
+              "Abbreviation": "NLNORR",
+              "Full Form": "Non Loan Net Own Revenue Receipts"
+            },
+            {
+              "Sl. No.": 88,
+              "Abbreviation": "NPIC",
+              "Full Form": "New Pension Implementation Cell"
+            },
+            {
+              "Sl. No.": 89,
+              "Abbreviation": "NPS",
+              "Full Form": "New Pension Scheme"
+            },
+            {
+              "Sl. No.": 90,
+              "Abbreviation": "NSDL",
+              "Full Form": "National Securities Depository Limited"
+            },
+            {
+              "Sl. No.": 91,
+              "Abbreviation": "NSSF",
+              "Full Form": "National Small Savings Fund"
+            },
+            {
+              "Sl. No.": 92,
+              "Abbreviation": "OBB",
+              "Full Form": "Off-Budget Borrowings"
+            },
+            {
+              "Sl. No.": 93,
+              "Abbreviation": "OD",
+              "Full Form": "Over Draft"
+            },
+            {
+              "Sl. No.": 94,
+              "Abbreviation": "PAC",
+              "Full Form": "Public Accounts Committee"
+            },
+            {
+              "Sl. No.": 95,
+              "Abbreviation": "Pr.AG (A&E)",
+              "Full Form": "Principal Accountant General (Accounts and Entitlement)"
+            },
+            {
+              "Sl. No.": 96,
+              "Abbreviation": "Pr.AG (Audit)",
+              "Full Form": "Principal Accountant General (Audit)"
+            },
+            {
+              "Sl. No.": 97,
+              "Abbreviation": "PAO",
+              "Full Form": "Pay and Accounts Office"
+            },
+            {
+              "Sl. No.": 98,
+              "Abbreviation": "PD",
+              "Full Form": "Personal Deposit"
+            },
+            {
+              "Sl. No.": 99,
+              "Abbreviation": "PF",
+              "Full Form": "Provident Fund"
+            },
+            {
+              "Sl. No.": 100,
+              "Abbreviation": "PFRDA",
+              "Full Form": "Pension Fund Regulatory Development Authority"
+            },
+            {
+              "Sl. No.": 101,
+              "Abbreviation": "PF",
+              "Full Form": "Provident Fund"
+            },
+            {
+              "Sl. No.": 102,
+              "Abbreviation": "PMAY",
+              "Full Form": "Pradhan Mantri Awas Yojane"
+            },
+            {
+              "Sl. No.": 103,
+              "Abbreviation": "PRAN",
+              "Full Form": "Permanent Retirement Account Number"
+            },
+            {
+              "Sl. No.": 104,
+              "Abbreviation": "PRIs",
+              "Full Form": "Panchayat Raj Institutions"
+            },
+            {
+              "Sl. No.": 105,
+              "Abbreviation": "PSUs",
+              "Full Form": "Public Sector Undertakings"
+            },
+            {
+              "Sl. No.": 106,
+              "Abbreviation": "PWP&IWT",
+              "Full Form": "Public Works, Port and Inland Water Transport"
+            },
+            {
+              "Sl. No.": 107,
+              "Abbreviation": "RBI",
+              "Full Form": "Reserve Bank of India"
+            },
+            {
+              "Sl. No.": 108,
+              "Abbreviation": "RDPR",
+              "Full Form": "Rural Development and Panchayat Raj"
+            },
+            {
+              "Sl. No.": 109,
+              "Abbreviation": "RE",
+              "Full Form": "Revenue Expenditure"
+            },
+            {
+              "Sl. No.": 110,
+              "Abbreviation": "RERA",
+              "Full Form": "Real Estate Regulatory Authority"
+            },
+            {
+              "Sl. No.": 111,
+              "Abbreviation": "RR",
+              "Full Form": "Revenue Receipts"
+            },
+            {
+              "Sl. No.": 112,
+              "Abbreviation": "SCSP",
+              "Full Form": "Special Component Sub Plan"
+            },
+            {
+              "Sl. No.": 113,
+              "Abbreviation": "SDMF",
+              "Full Form": "State Disaster Mitigation Fund"
+            },
+            {
+              "Sl. No.": 114,
+              "Abbreviation": "SDRF",
+              "Full Form": "State Disaster Response Fund"
+            },
+            {
+              "Sl. No.": 115,
+              "Abbreviation": "SDL",
+              "Full Form": "State Development Loans"
+            },
+            {
+              "Sl. No.": 116,
+              "Abbreviation": "SE",
+              "Full Form": "Supplementary Estimate"
+            },
+            {
+              "Sl. No.": 117,
+              "Abbreviation": "SFAR",
+              "Full Form": "State Finance Audit Report"
+            },
+            {
+              "Sl. No.": 118,
+              "Abbreviation": "SGST",
+              "Full Form": "State Goods and Service Tax"
+            },
+            {
+              "Sl. No.": 119,
+              "Abbreviation": "SLAO",
+              "Full Form": "Special Land Acquisition Officer"
+            },
+            {
+              "Sl. No.": 120,
+              "Abbreviation": "SPVs",
+              "Full Form": "Special Purpose Vehicles"
+            },
+            {
+              "Sl. No.": 121,
+              "Abbreviation": "SWMA",
+              "Full Form": "Special Ways and Means Advances"
+            },
+            {
+              "Sl. No.": 122,
+              "Abbreviation": "TBs",
+              "Full Form": "Treasury Bills"
+            },
+            {
+              "Sl. No.": 123,
+              "Abbreviation": "TE",
+              "Full Form": "Total Expenditure"
+            },
+            {
+              "Sl. No.": 124,
+              "Abbreviation": "TFC",
+              "Full Form": "Twelfth Finance Commission"
+            },
+            {
+              "Sl. No.": 125,
+              "Abbreviation": "TP",
+              "Full Form": "Taluk Panchayat"
+            },
+            {
+              "Sl. No.": 126,
+              "Abbreviation": "TSP",
+              "Full Form": "Tribal Sub Plan"
+            },
+            {
+              "Sl. No.": 127,
+              "Abbreviation": "UC",
+              "Full Form": "Utilisation Certificate"
+            },
+            {
+              "Sl. No.": 128,
+              "Abbreviation": "ULB",
+              "Full Form": "Urban Local Bodies"
+            },
+            {
+              "Sl. No.": 129,
+              "Abbreviation": "VJNL",
+              "Full Form": "Visvesvaraya Jala Nigam Limited"
+            },
+            {
+              "Sl. No.": 130,
+              "Abbreviation": "WMA",
+              "Full Form": "Ways and Means Advances"
+            },
+            {
+              "Sl. No.": 131,
+              "Abbreviation": "XII FC",
+              "Full Form": "Twelfth Finance Commission"
+            },
+            {
+              "Sl. No.": 132,
+              "Abbreviation": "XIII FC",
+              "Full Form": "Thirteenth Finance Commission"
+            },
+            {
+              "Sl. No.": 133,
+              "Abbreviation": "XIV FC",
+              "Full Form": "Fourteenth Finance Commission"
+            },
+            {
+              "Sl. No.": 134,
+              "Abbreviation": "XV FC",
+              "Full Form": "Fifteenth Finance Commission"
+            },
+            {
+              "Sl. No.": 135,
+              "Abbreviation": "ZP",
+              "Full Form": "Zilla Panchayat"
+            }
+          ]  
     }
 }
