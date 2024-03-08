@@ -20,6 +20,7 @@ import c4 from '../../../../../Images/c4.png'
 import Chart1, { Chart2, Chart3, Chart4 } from '../../../Charts/Charts'
 import Subtitle from '../../../../Subtitle/Subtitle'
 import Chart1Kan from '../../../Charts/ChartsKan/Charts'
+import TableauChart from '../../../../TablueChart/TableauChart'
 // import Table1kan from '../../../Tables/Chapter1kan/Table1'
 
 const Profile = () => {
@@ -40,7 +41,7 @@ const Profile = () => {
 
                         <Para tooltips={[
                             { word: "line[1]", tooltip: "As per Economic Survey of India 2022-23." },
-                            
+
                         ]}>
                             {ctx.chapterOne.Profile.para2}
                         </ Para>
@@ -97,34 +98,36 @@ const Profile = () => {
                         </h4>
                         <Para tooltips={[
                             { word: "Statistics[2]", tooltip: "The GSDP as per the Economic Survey of Karnataka is Rs.22,41,368 crore, which differs from the GSDP(Rs.21,81,217 crore) projected by Ministry of Finance,GOI" },
-                            
+
                         ]}>
                             {ctx.chapterOne.Profile.para8a}
                         </Para>
                         <Title>
-                                Chart 1.1: Growth of India’s GDP and State’s GSDP
+                            Chart 1.1: Growth of India’s GDP and State’s GSDP
                         </Title>
-                        
-                        <ImageComponent flex="2" aspectRatio = "2" resizeMode = 'contain' src={chap1c1} color ="#ffffff00" />
+
+                        <ImageComponent flex="2" aspectRatio="2" resizeMode='contain' src={chap1c1} color="#ffffff00" />
                         <h4 className='footnote'>
                             <i>
-                            Source: All India GDP figures and GSDP (2017-18 to 2020-21) from Economic Survey 2021-22, GoK.
-                            <br></br>
-                            GSDP figures 2021-22, as per Ministry of Statistics and Programme Implementation. 
+                                Source: All India GDP figures and GSDP (2017-18 to 2020-21) from Economic Survey 2021-22, GoK.
+                                <br></br>
+                                GSDP figures 2021-22, as per Ministry of Statistics and Programme Implementation.
 
-                                
-                                
+
+
                             </i>
                         </h4>
                         {/* Chart 1 goes here */}
                         <Chart1 />
+                        <TableauChart />
+                        
 
                         {["Para9"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterOne.Profile[item]}
                             </Para>
                         )}
-                          {["Para10"].map((item, ind) =>
+                        {["Para10"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterOne.Profile[item]}
                             </Para>
@@ -143,27 +146,27 @@ const Profile = () => {
                             {ctx.chapterOne.Profile.Para10.substring(174,)}
 
                         </Para> */}
-                         <Title>
-                         Chart 1.2: Sectoral growth in GSDP
+                        <Title>
+                            Chart 1.2: Sectoral growth in GSDP
                         </Title>
-                        <ImageComponent flex="2" aspectRatio = "2" resizeMode = 'contain' src={c2} color ="#ffffff00" />
+                        <ImageComponent flex="2" aspectRatio="2" resizeMode='contain' src={c2} color="#ffffff00" />
                         <Chart2 />
                         <h4 className='footnote'>
                             <i>
                                 Source:Economic Survey of Karnataka 2021-22
                                 <br></br>
-                                
+
                             </i>
                         </h4>
-                        
+
                         <Title>
-                        Chart 1.2: Sectoral growth in GSDP
+                            Chart 1.2: Sectoral growth in GSDP
                         </Title>
-                        <ImageComponent flex="2" aspectRatio = "2" resizeMode = 'contain' src={c3} color ="#ffffff00" />
+                        <ImageComponent flex="2" aspectRatio="2" resizeMode='contain' src={c3} color="#ffffff00" />
                         <Para>
                             {ctx.chapterOne.Profile.Para11}
                         </Para>
-                       
+
                     </div>
                 </div>
                 : <div>
@@ -179,9 +182,9 @@ const Profile = () => {
                         <Title>
                             {ctx.chapter1kannada.Content.para4}
                         </Title>
-                        <Subtitle> 
+                        <Subtitle>
                             {ctx.chapter1kannada.Content.para5}
-                            </Subtitle>
+                        </Subtitle>
                         <Para>
                             {ctx.chapter1kannada.Content.para6.substring(0, 344)}
 
@@ -197,7 +200,7 @@ const Profile = () => {
                         </Para>
                         <Subtitle>
                             {ctx.chapter1kannada.Content.para7}
-                            </Subtitle>
+                        </Subtitle>
 
                         {["para8"].map((item, ind) =>
                             <Para key={ind / 10}>
@@ -220,7 +223,7 @@ const Profile = () => {
                         <Title>
                             {ctx.chapter1kannada.Content.para10}
                         </Title>
-                        {["para11","para11a"].map((item, ind) =>
+                        {["para11", "para11a"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter1kannada.Content[item]}
                             </Para>
@@ -234,17 +237,17 @@ const Profile = () => {
                             {ctx.chapter1kannada.Content.t1f3}
                         </h4>
                         <Title>
-                        ನಕ್ಷೆ-1.1: ಭಾರತದ ಒಟ್ಟು ಆಂತರಿಕ ಉತ್ಪನ್ನ ಮತ್ತು ರಾಜ್ಯದ ಒಟ್ಟು ಆಂತರಿಕ ಉತ್ಪನ್ನದ ವೃದ್ಧಿ
+                            ನಕ್ಷೆ-1.1: ಭಾರತದ ಒಟ್ಟು ಆಂತರಿಕ ಉತ್ಪನ್ನ ಮತ್ತು ರಾಜ್ಯದ ಒಟ್ಟು ಆಂತರಿಕ ಉತ್ಪನ್ನದ ವೃದ್ಧಿ
                         </Title>
-                        <ImageComponent flex="2" aspectRatio = "2" resizeMode = 'contain' src={kc1} color ="#ffffff00" />
-                       
+                        <ImageComponent flex="2" aspectRatio="2" resizeMode='contain' src={kc1} color="#ffffff00" />
+
                         <h4 className='footnote'>
                             <i>
-                            ಆಕರ: ಅಖಿಲ ಭಾರತ ಒಟ್ಟು ಆಂತರಿಕ ಉತ್ಪನ್ನದ ಮತ್ತು ರಾಜ್ಯದ ಒಟ್ಟು ಆಂತರಿಕ ಉತ್ಪನ್ನದ ಅಂಕಿ ಅಂಶಗಳು (201೭-1೮ರಿಂದ 
-೨೦೨೦-೨೧) ಕರ್ನಾಟಕ  ಸರ್ಕಾರ ಆರ್ಥಿಕ ಸಮೀಕ್ಷೆ - 202೧-2೨. <br></br>
-ರಾಜ್ಯದ ಒಟ್ಟು ಆಂತರಿಕ ಉತ್ಪನ್ನದ ಅಂಕಿ ಅಂಶಗಳು 2020-21, ಅಂಕಿಅಂಶಗಳು ಮತ್ತು ಕಾರ್ಯಕ್ರಮ ಅನುಷ್ಠಾನ ಸಚಿವಾಲಯದ ಪ್ರಕಾರ.
+                                ಆಕರ: ಅಖಿಲ ಭಾರತ ಒಟ್ಟು ಆಂತರಿಕ ಉತ್ಪನ್ನದ ಮತ್ತು ರಾಜ್ಯದ ಒಟ್ಟು ಆಂತರಿಕ ಉತ್ಪನ್ನದ ಅಂಕಿ ಅಂಶಗಳು (201೭-1೮ರಿಂದ
+                                ೨೦೨೦-೨೧) ಕರ್ನಾಟಕ  ಸರ್ಕಾರ ಆರ್ಥಿಕ ಸಮೀಕ್ಷೆ - 202೧-2೨. <br></br>
+                                ರಾಜ್ಯದ ಒಟ್ಟು ಆಂತರಿಕ ಉತ್ಪನ್ನದ ಅಂಕಿ ಅಂಶಗಳು 2020-21, ಅಂಕಿಅಂಶಗಳು ಮತ್ತು ಕಾರ್ಯಕ್ರಮ ಅನುಷ್ಠಾನ ಸಚಿವಾಲಯದ ಪ್ರಕಾರ.
 
-                                </i>
+                            </i>
                         </h4>
                         {/* Chart 1 goes here */}
                         {/* <Chart1 /> */}
@@ -266,52 +269,52 @@ const Profile = () => {
 
                             {ctx.chapter1kannada.Content.para12.substring(413,)}
                         </Para> */}
-                        {["para13","para13a"].map((item, ind) =>
+                        {["para13", "para13a"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter1kannada.Content[item]}
                             </Para>
                         )}
- <Title>
- ನಕ್ಷೆ-1.2: ರಾಜ್ಯದ ಒಟ್ಟು ಮೌಲ್ಯಾದಾರಿತಕ್ಕೆ ವಿಭಾಗೀಯ ಕೊಡುಗೆಯಲ್ಲಿನ ಬದಲಾವಣೆ 
-(೨೦೧೭-೧೮ ಮತ್ತು ೨೦೨೧-೨೨)
+                        <Title>
+                            ನಕ್ಷೆ-1.2: ರಾಜ್ಯದ ಒಟ್ಟು ಮೌಲ್ಯಾದಾರಿತಕ್ಕೆ ವಿಭಾಗೀಯ ಕೊಡುಗೆಯಲ್ಲಿನ ಬದಲಾವಣೆ
+                            (೨೦೧೭-೧೮ ಮತ್ತು ೨೦೨೧-೨೨)
 
                         </Title>
-                        <ImageComponent flex="2" aspectRatio = "2" resizeMode = 'contain' src={kc2} color ="#ffffff00" />
+                        <ImageComponent flex="2" aspectRatio="2" resizeMode='contain' src={kc2} color="#ffffff00" />
                         <h4>
-                        ಆಕರ: ಕರ್ನಾಟಕದ ಆರ್ಥಿಕ ಸಮೀಕ್ಷೆ 2021-22
+                            ಆಕರ: ಕರ್ನಾಟಕದ ಆರ್ಥಿಕ ಸಮೀಕ್ಷೆ 2021-22
                             <br></br>
-                            
+
                         </h4>
                         <Para>
                             {ctx.chapter1kannada.Content.para14}
                         </Para>
                         <Title>
-                        ನಕ್ಷೆ-1.3: ರಾಜ್ಯದ ಒಟ್ಟು ಆಂತರಿಕ ಉತ್ಪನ್ನದಲ್ಲಿ ವಿಭಾಗೀಯ ಬೆಳವಣಿಗೆ
+                            ನಕ್ಷೆ-1.3: ರಾಜ್ಯದ ಒಟ್ಟು ಆಂತರಿಕ ಉತ್ಪನ್ನದಲ್ಲಿ ವಿಭಾಗೀಯ ಬೆಳವಣಿಗೆ
                         </Title>
-                        <ImageComponent flex="2" aspectRatio = "2" resizeMode = 'contain' src={kc3} color ="#ffffff00" />
+                        <ImageComponent flex="2" aspectRatio="2" resizeMode='contain' src={kc3} color="#ffffff00" />
                         <h4>
-                        ಆಕರ: ಆರ್ಥಿಕ ಮತ್ತು ಅಂಕಿಅಂಶಗಳ ನಿರ್ದೇಶನಾಲಯ, ಕರ್ನಾಟಕ ಸರ್ಕಾರ
-                        
-                            
+                            ಆಕರ: ಆರ್ಥಿಕ ಮತ್ತು ಅಂಕಿಅಂಶಗಳ ನಿರ್ದೇಶನಾಲಯ, ಕರ್ನಾಟಕ ಸರ್ಕಾರ
+
+
                         </h4>
                         {/* <Chart3 /> */}
-                      
+
                         {["para15"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter1kannada.Content[item]}
                             </Para>
                         )}
-                         <Title>
-                         ನಕ್ಷೆ-1.4: ೨೦೨೧-೨೨ರಲ್ಲಿ ರಾಜ್ಯದ ಒಟ್ಟು ಆಂತರಿಕ ಉತ್ಪನ್ನಕ್ಕೆ ವಿಭಾಗೀಯ ಕೊಡುಗೆ
+                        <Title>
+                            ನಕ್ಷೆ-1.4: ೨೦೨೧-೨೨ರಲ್ಲಿ ರಾಜ್ಯದ ಒಟ್ಟು ಆಂತರಿಕ ಉತ್ಪನ್ನಕ್ಕೆ ವಿಭಾಗೀಯ ಕೊಡುಗೆ
                         </Title>
-                        <ImageComponent flex="2" aspectRatio = "2" resizeMode = 'contain' src={kc4} color ="#ffffff00" />
+                        <ImageComponent flex="2" aspectRatio="2" resizeMode='contain' src={kc4} color="#ffffff00" />
                         <h4>
-                        ಆಕರ: ಆರ್ಥಿಕ ಮತ್ತು ಅಂಕಿಅಂಶಗಳ ನಿರ್ದೇಶನಾಲಯ, ಕರ್ನಾಟಕ ಸರ್ಕಾರ
-                        
-                            
+                            ಆಕರ: ಆರ್ಥಿಕ ಮತ್ತು ಅಂಕಿಅಂಶಗಳ ನಿರ್ದೇಶನಾಲಯ, ಕರ್ನಾಟಕ ಸರ್ಕಾರ
+
+
                         </h4>
                         {/* <Chart4 /> */}
-                    
+
                     </div>
                 </div>
                 : <div>

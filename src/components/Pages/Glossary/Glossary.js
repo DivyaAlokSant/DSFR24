@@ -19,7 +19,7 @@ const Glossary = () => {
                 ? <div >
                     <Navbar />
                     <div className="contentwrapper" id="home">
-                        <FloatingActionButtons back="/appendices/appendix-5" forward="/appendices/glossary" />
+                        <FloatingActionButtons back="/appendices/appendix-5" forward="/glossary/glossary" />
 
                         <Title>{ctx.glossary.para1}</Title>
 
@@ -52,8 +52,7 @@ const Glossary = () => {
                 ? <div >
                     <Navbar />
                     <div className="contentwrapper" id="home">
-                        <FloatingActionButtons back="/appendices/appendix-4" forward="/appendices/appendix-1" />
-
+                    <FloatingActionButtons back="/appendices/appendix-5" forward="/glossary/glossary" />
                         <h3 className='headnote'>
                             (Amount in ₹)
                         </h3>
