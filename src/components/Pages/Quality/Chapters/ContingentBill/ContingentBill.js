@@ -7,7 +7,7 @@ import Para from "../../../../Para/Para"
 import Title from "../../../../Title/Title";
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton"
 import Table10kan from "../../../Tables/Chapter4kan/Table10";
-import c43 from '../../../../../Images/c43.png'
+import c42 from '../../../../../Images/c42.png'
 import k43 from '../../../../../Images/k43.png'
 import ImageComponent from 'material-ui-image'
 import { getFirebase } from '../../../../../firebase/firebase'
@@ -66,6 +66,8 @@ const ContingentBill = () => {
                         <Para>                            
                             {ctx.chapterFour.Content.para32}  
                         </Para> 
+                        <ImageComponent src={c42} alt="chart2.20" aspectRatio={1 / .45} />
+
                         {["para33", "para34", "para35"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterFour.Content[item]}

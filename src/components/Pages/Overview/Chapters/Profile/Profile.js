@@ -13,10 +13,8 @@ import kc1 from '../../../../../Images/kc1.png'
 import kc2 from '../../../../../Images/kc2.png'
 import kc3 from '../../../../../Images/kc3.png'
 import kc4 from '../../../../../Images/kc4.png'
-import chap1c1 from '../../../../../Images/chap1c1.png'
-import c2 from '../../../../../Images/c2.png'
-import c3 from '../../../../../Images/c3.png'
-import c4 from '../../../../../Images/c4.png'
+import c11 from '../../../../../Images/C11.png'
+import c12 from  '../../../../../Images/c12.png'
 import Chart1, { Chart2, Chart3, Chart4 } from '../../../Charts/Charts'
 import Subtitle from '../../../../Subtitle/Subtitle'
 import Chart1Kan from '../../../Charts/ChartsKan/Charts'
@@ -96,17 +94,20 @@ const Profile = () => {
                                 {ctx.tables1.T1F2d}<br></br>
                             </i>
                         </h4>
+
                         <Para tooltips={[
                             { word: "Statistics[2]", tooltip: "The GSDP as per the Economic Survey of Karnataka is Rs.22,41,368 crore, which differs from the GSDP(Rs.21,81,217 crore) projected by Ministry of Finance,GOI" },
 
                         ]}>
                             {ctx.chapterOne.Profile.para8a}
                         </Para>
+                        <ImageComponent flex="2" aspectRatio="2" resizeMode='contain' src={c11} color="#ffffff00" />
+                        
                         <Title>
                             Chart 1.1: Growth of India’s GDP and State’s GSDP
                         </Title>
 
-                        <ImageComponent flex="2" aspectRatio="2" resizeMode='contain' src={chap1c1} color="#ffffff00" />
+                        <ImageComponent flex="2" aspectRatio="2" resizeMode='contain' src={c12} color="#ffffff00" />
                         <h4 className='footnote'>
                             <i>
                                 Source: All India GDP figures and GSDP (2017-18 to 2020-21) from Economic Survey 2021-22, GoK.
@@ -146,7 +147,7 @@ const Profile = () => {
                             {ctx.chapterOne.Profile.Para10.substring(174,)}
 
                         </Para> */}
-                        <Title>
+                        {/* <Title>
                             Chart 1.2: Sectoral growth in GSDP
                         </Title>
                         <ImageComponent flex="2" aspectRatio="2" resizeMode='contain' src={c2} color="#ffffff00" />
@@ -157,12 +158,12 @@ const Profile = () => {
                                 <br></br>
 
                             </i>
-                        </h4>
+                        </h4> */}
 
                         <Title>
                             Chart 1.2: Sectoral growth in GSDP
                         </Title>
-                        <ImageComponent flex="2" aspectRatio="2" resizeMode='contain' src={c3} color="#ffffff00" />
+                        <ImageComponent flex="2" aspectRatio="2" resizeMode='contain' src={c12} color="#ffffff00" />
                         <Para>
                             {ctx.chapterOne.Profile.Para11}
                         </Para>

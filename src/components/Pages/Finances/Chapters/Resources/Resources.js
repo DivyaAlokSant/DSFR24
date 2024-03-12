@@ -13,6 +13,8 @@ import k24 from '../../../../../Images/k24.png'
 import c25 from '../../../../../Images/c25.png'
 import k25 from '../../../../../Images/k25.png'
 import c26 from '../../../../../Images/c26.png'
+import c27 from '../../../../../Images/c27.png'
+import c28 from '../../../../../Images/c28.png'
 import k26 from '../../../../../Images/k26.png'
 import t24 from '../../../../../Images/t24.png'
 import kt24 from '../../../../../Images/kt24.png'
@@ -172,7 +174,8 @@ const Resources = () => {
                                 Source: Finance Accounts
                             </i>
                         </h4> */}
-                        <ImageComponent src={c26} alt="chart23" aspectRatio={1 / 0.5} />
+                        <ImageComponent src={c26} alt="chart2.6" aspectRatio={1 / 0.5} />
+                        <ImageComponent src={c27} alt="chart2.7" aspectRatio={1 / 0.5} />
                         <Para>
                         {ctx.chapterTwo.Para21a}
                         </Para>
@@ -358,6 +361,8 @@ const Resources = () => {
                         <Para>
                             {ctx.chapterTwo.Para62}
                         </Para>     
+                        <ImageComponent src={c28} alt="chart2.7" aspectRatio={1 / 0.5} />
+                       
 
                         <Subtitle>
                             {ctx.chapterTwo.Para63}

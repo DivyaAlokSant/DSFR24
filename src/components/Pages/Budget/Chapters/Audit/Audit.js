@@ -28,9 +28,14 @@ import { Chart3 as Chart3Chap3 } from '../../../Charts/Chap3Charts'
 import k32 from '../../../../../Images/k32.png'
 import k32a from '../../../../../Images/k32a.png'
 import k33 from '../../../../../Images/k33.png'
-import c32 from '../../../../../Images/c32.png'
-import c32a from '../../../../../Images/c32a.png'
 import c33 from '../../../../../Images/c33.png'
+import c34 from '../../../../../Images/c34.png'
+import c35 from '../../../../../Images/c35.png'
+
+import c36 from '../../../../../Images/c36.png'
+import c37 from '../../../../../Images/c37.png'
+
+import c35a from '../../../../../Images/c35a.png'
 import ImageComponent from 'material-ui-image'
 import { getFirebase } from '../../../../../firebase/firebase'
 
@@ -164,7 +169,7 @@ const Audit = () => {
 
           <h4>
           </h4>
-          
+
           {["para56"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
@@ -180,6 +185,8 @@ const Audit = () => {
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
+          <ImageComponent src={c33} alt="chart2.20" aspectRatio={1 / 0.55} />
+
           {["para59"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
@@ -226,6 +233,8 @@ const Audit = () => {
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
+          <ImageComponent src={c34} alt="chart2.14" aspectRatio={1 / 0.6} />
+
           {["para78"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
@@ -326,19 +335,21 @@ const Audit = () => {
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
+          <ImageComponent src={c35} alt="chart2.14" aspectRatio={1 / 0.7} />
+
           {["para101"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
-         
+
           <h3 className='headnote'>
             ₹ In crore
           </h3>
           <CustomTable title={"Table 3.10: Original Budget, Revised Estimate and Actual Expenditure during 2018-2019 to 2022-23"}
             columns={ctx.tables3.Table14}
             data={ctx.tables3.Table14} />
-           <h4>
+          <h4>
             Source:Summary of Demands for Grants and Charged Approporiations, and Appropriation Accounts
           </h4>
 
@@ -348,6 +359,8 @@ const Audit = () => {
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
+          <ImageComponent src={c35a} alt="chart3.3a" aspectRatio={1 / 0.5} />
+
           {["para103", "para104"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
@@ -367,9 +380,10 @@ const Audit = () => {
           <CustomTable title={""}
             columns={ctx.tables3.Table15}
             data={ctx.tables3.Table15} />
-           <h4>
+          <h4>
             Source:Appropriation Accounts
           </h4>
+
 
 
 
@@ -378,6 +392,9 @@ const Audit = () => {
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
+
+          <ImageComponent src={c36} alt="chart3.3a" aspectRatio={1 / 0.5} />
+
           <Subtitle>
             {ctx.chapterThree.Profile["para111"]}
           </Subtitle>
@@ -386,6 +403,8 @@ const Audit = () => {
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
+          <ImageComponent src={c37} alt="chart3.3a" aspectRatio={1 / 0.6} />
+
           {["para113", "para114"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
@@ -397,12 +416,12 @@ const Audit = () => {
           <CustomTable title={"Table3.11: Quantum of Expenditure in March 2023"}
             columns={ctx.tables3.Table16}
             data={ctx.tables3.Table16} />
-           <h4>
+          <h4>
             Source:Monthly Civil Accounts
             *The expenditure is Rs.(-)3,301 and hence indicated as Zero
           </h4>
 
-        
+
           {["para115"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>

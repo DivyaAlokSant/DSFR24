@@ -8,7 +8,7 @@ import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton
 import './../../Finances.css'
 import Table28 from '../../../Tables/Chapter2/Table28'
 import Table28kan from '../../../Tables/Chapter2kan/Table28'
-import c213 from '../../../../../Images/c213.png'
+import c214 from '../../../../../Images/c214.png'
 import k213 from '../../../../../Images/k213.png'
 import ImageComponent from 'material-ui-image'
 
@@ -62,16 +62,8 @@ const PublicAccount = () => {
                         <h3 className='headnote'>
                             ₹ In crore
                         </h3>  
-                        
-                        <h3 className='headnote'>
-                            ₹ In crore
-                        </h3>
-                        <Table28 />
-                        <h4 className='footnote'>
-                            <i>
-                            Source: Finance Accounts of respective years.
-                            </i>
-                        </h4>
+                        <ImageComponent src={c214} alt="chart2.14" aspectRatio={1 / 0.5} />
+                       
 
  
                         {["para217"].map((item, ind) =>

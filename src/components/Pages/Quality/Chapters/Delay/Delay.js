@@ -10,6 +10,8 @@ import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton
 import Table8kan from '../../../Tables/Chapter4kan/Table8'
 import Table9kan from "../../../Tables/Chapter4kan/Table9";
 import CustomTable from "../../../../CustomTable/CustomTable";
+import ImageComponent from 'material-ui-image'
+import c41 from '../../../../../Images/c41.png'
 
 const Delay = () => {
 
@@ -53,6 +55,10 @@ const Delay = () => {
                         <Para>                            
                             {ctx.chapterFour.Content.para24}  
                         </Para> 
+
+                        <ImageComponent src={c41} alt="chart2.14" aspectRatio={1 / 0.4} />
+                       
+
                         {["para25", "para26", "para27"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterFour.Content[item]}

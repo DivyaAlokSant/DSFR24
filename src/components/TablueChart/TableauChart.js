@@ -5,7 +5,7 @@ const TableauChart = () => {
     const divElement = document.getElementById('viz1709882874754');
     const vizElement = divElement.getElementsByTagName('object')[0];
     vizElement.style.width = '106%';
-    vizElement.style.height = (divElement.offsetWidth * 0.64) + 'px';
+    vizElement.style.height = (divElement.offsetWidth * 0.62) + 'px';
 
     const scriptElement = document.createElement('script');
     scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';

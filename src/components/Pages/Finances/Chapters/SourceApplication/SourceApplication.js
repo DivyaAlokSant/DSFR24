@@ -6,7 +6,7 @@ import Navbar from "../../../../Navbar/Navbar"
 import { FaSpinner } from 'react-icons/fa'
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton"
 import './../../Finances.css'
-import c212 from '../../../../../Images/c212.png'
+import c21 from '../../../../../Images/c21.png'
 import k212 from '../../../../../Images/k212.png'
 import ImageComponent from 'material-ui-image'
 import Table2 from '../../../Tables/Chapter2/Table2'
@@ -51,7 +51,7 @@ const  SourcesApplication = () => {
                                 Source: Finance Accounts
                             </i>
                         </h4> */}
-                        <ImageComponent flex="4" aspectRatio = "2" resizeMode = 'contain' src={c212} color ="#ffffff00" />
+                        <ImageComponent flex="4" aspectRatio = "2" resizeMode = 'contain' src={c21} color ="#ffffff00" />
                         
                     </div>
                 </div>

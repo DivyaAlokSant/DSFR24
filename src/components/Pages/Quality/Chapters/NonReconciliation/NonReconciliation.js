@@ -7,6 +7,8 @@ import Para from "../../../../Para/Para"
 import Title from "../../../../Title/Title";
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton"
 import CustomTable from "../../../../CustomTable/CustomTable";
+import ImageComponent from 'material-ui-image'
+import c43 from '../../../../../Images/c43.png'
 
 const NonReconciliation = () => {
 
@@ -27,6 +29,7 @@ const NonReconciliation = () => {
                         <Para>
                             {ctx.chapterFour.Content.para109}
                         </Para>
+                        <ImageComponent src={c43} alt="chart2.20" aspectRatio={1 / .5} />
                         <Para>
                             {ctx.chapterFour.Content.para110}
                         </Para>

@@ -9,7 +9,7 @@ import { FaSpinner } from 'react-icons/fa'
 import ContentSlider from '../../../../ContentSlider/ContentSlider'
 import ImageComponent from 'material-ui-image'
 import { getFirebase } from '../../../../../firebase/firebase'
-import c5 from '../../../../../Images/c5.png'
+import c13 from '../../../../../Images/c13.png'
 import kc5 from '../../../../../Images/kc5.png'
 
 
@@ -90,7 +90,7 @@ const Structure = () => {
                         <Title>
                         Chart 1.3: Pictorial depiction of the structure of Government Accounts
                         </Title>
-                        <ImageComponent flex="2" aspectRatio = "2" resizeMode = 'contain' src={c5} color ="#ffffff00" />
+                        <ImageComponent flex="2" aspectRatio = "2" resizeMode = 'contain' src={c13} color ="#ffffff00" />
                     </div>
                 </div>
                 : <div>

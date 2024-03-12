@@ -51,17 +51,16 @@ import {
     Chart11, Chart12,
     Chart7, Chart8, Chart9
 } from '../../../Charts/Chap2Charts'
-import c27 from '../../../../../Images/c27.png'
 import k27 from '../../../../../Images/k27.png'
-import c28 from '../../../../../Images/c28.png'
 import k28 from '../../../../../Images/k28.png'
 import c29 from '../../../../../Images/c29.png'
 import k29 from '../../../../../Images/k29.png'
 import c210 from '../../../../../Images/c210.png'
 import k210 from '../../../../../Images/k210.png'
 import c211 from '../../../../../Images/c211.png'
+import c212 from '../../../../../Images/c212.png'
+import c213 from '../../../../../Images/c213.png'
 import k211 from '../../../../../Images/k211.png'
-import c212a from '../../../../../Images/c212a.png'
 import k212a from '../../../../../Images/k212a.png'
 import ImageComponent from 'material-ui-image'
 import { getFirebase } from '../../../../../firebase/firebase'
@@ -121,7 +120,7 @@ const Application = () => {
                                 Source: Finance Accounts
                             </i>
                         </h4> */}
-                        <ImageComponent src={c27} alt="chart23" aspectRatio={1 / 0.5} />
+                        <ImageComponent src={c29} alt="chart23" aspectRatio={1 / 0.5} />
                         <Para>
                             {ctx.chapterTwo.Para97}
                         </Para>
@@ -131,7 +130,7 @@ const Application = () => {
                                 Source: Finance Accounts
                             </i>
                         </h4> */}
-                        <ImageComponent src={c28} alt="chart23" aspectRatio={1 / 0.5} />
+                        <ImageComponent src={c210} alt="chart23" aspectRatio={1 / 0.5} />
                         {["Para98"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
@@ -161,7 +160,7 @@ const Application = () => {
                                 Source: Finance Accounts
                             </i>
                         </h4> */}
-                        <ImageComponent src={c29} alt="chart23" aspectRatio={1 / 0.5} />
+                        <ImageComponent src={c211} alt="chart23" aspectRatio={1 / 0.5} />
                         {["Para104"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
@@ -309,6 +308,9 @@ const Application = () => {
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)}
+                            <ImageComponent src={c212} alt="chart23" aspectRatio={1 / 0.8} />
+                           
+
 
                         <Subtitle>
                             <li>
@@ -352,6 +354,10 @@ const Application = () => {
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)}
+
+                            <ImageComponent src={c213} alt="chart23" aspectRatio={1 / 0.8} />
+                       
+
                         <Para >
                             {ctx.chapterTwo.Para166}
                         </Para>

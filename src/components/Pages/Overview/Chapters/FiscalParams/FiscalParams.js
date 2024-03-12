@@ -12,8 +12,8 @@ import Table4 from '../../../Tables/Chapter1/Table4'
 import Table4kan from '../../../Tables/Chapter1kan/Table4'
 import kc6 from '../../../../../Images/kc6.png'
 import kc7 from '../../../../../Images/kc7.png'
-import c6 from '../../../../../Images/c6.png'
-import c7 from '../../../../../Images/c7.png'
+import c14 from '../../../../../Images/c14.png'
+import c15 from '../../../../../Images/c15.png'
 import ImageComponent from 'material-ui-image'
 import Table3aa from '../../../Tables/Chapter1/Table3aa'
 const FiscalParams = () => {
@@ -69,14 +69,14 @@ const FiscalParams = () => {
                         <Title>
                         Chart 1.4: Trends in fiscal parameters                    
                         </Title>
-                        <ImageComponent flex="2" aspectRatio = "2" resizeMode = 'contain' src={c6} color ="#ffffff00" />
+                        <ImageComponent flex="2" aspectRatio = "2" resizeMode = 'contain' src={c14} color ="#ffffff00" />
                         <h4>
                         Source: Finance Accounts  
                         </h4>
                         <Title>
                         Chart 1.5: Trends in Surplus/Deficit relative to GSDP                    
                         </Title>
-                        <ImageComponent flex="2" aspectRatio = "2" resizeMode = 'contain' src={c7} color ="#ffffff00" />
+                        <ImageComponent flex="2" aspectRatio = "2" resizeMode = 'contain' src={c15} color ="#ffffff00" />
                         <h4>
                         Source: Directorate of Economics and Statistics, GoK, and Finance Accounts 
                         </h4>

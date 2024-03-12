@@ -8,13 +8,13 @@ import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton
 import './../../Finances.css'
 import Table30 from '../../../Tables/Chapter2/Table30'
 import Table30kan from '../../../Tables/Chapter2kan/Table30'
-import c214 from '../../../../../Images/c214.png'
 import k214 from '../../../../../Images/k214.png'
 import c215 from '../../../../../Images/c215.png'
 import k215 from '../../../../../Images/k215.png'
 import c216 from '../../../../../Images/c216.png'
 import k216 from '../../../../../Images/k216.png'
 import c217 from '../../../../../Images/c217.png'
+import c218 from '../../../../../Images/c218.png'
 import k217 from '../../../../../Images/k217.png'
 import ImageComponent from 'material-ui-image'
 
@@ -51,7 +51,12 @@ const DebtManagement = () => {
                         <Title>
                             {ctx.chapterTwo.para281}
                         </Title>
-                    {["para282","para283","para284"].map((item, ind) =>
+                        <Para >
+                            {ctx.chapterTwo.para282}
+                        </Para>
+                        <ImageComponent src={c215} alt="chart2.14" aspectRatio={1 / 0.5} />
+                       
+                    {["para283","para284"].map((item, ind) =>
                            <Para key={ind / 10}>
                                {ctx.chapterTwo[item]}
                            </Para>)}  
@@ -78,10 +83,17 @@ const DebtManagement = () => {
                         </h4>
 
                            
-                    {[,"para288","para289","para290"].map((item, ind) =>
+                    {[,"para288","para289"].map((item, ind) =>
                            <Para key={ind / 10}>
                                {ctx.chapterTwo[item]}
                            </Para>)}
+                           <ImageComponent src={c216} alt="chart2.14" aspectRatio={1 / 0.5} />
+                           <ImageComponent src={c217} alt="chart2.14" aspectRatio={1 / 0.5} />
+                       
+                           <Para>
+                            {ctx.chapterTwo.Para290}
+                        </Para>
+
                     <Subtitle>
                            
                            {ctx.chapterTwo["para291"]}
@@ -179,6 +191,9 @@ const DebtManagement = () => {
                             Source: Finance Accounts<br></br>
                             </i>
                     </h4>
+
+                    <ImageComponent src={c218} alt="chart2.14" aspectRatio={1 / 0.5} />
+                       
 
                     <Para >
                             {ctx.chapterTwo.para307}
