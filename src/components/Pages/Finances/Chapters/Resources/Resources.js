@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext } from 'react'
 import { MyContext } from '../../../../../Context/MyProvider'
 import Para from '../../../../Para/Para'
 import Title from "../../../../Title/Title"
@@ -19,7 +19,6 @@ import k26 from '../../../../../Images/k26.png'
 import t24 from '../../../../../Images/t24.png'
 import kt24 from '../../../../../Images/kt24.png'
 
-import t26 from '../../../../../Images/t26.png'
 import kt26 from '../../../../../Images/kt26.png'
 import ImageComponent from 'material-ui-image'
 import Table3 from '../../../Tables/Chapter2/Table3'
@@ -33,17 +32,12 @@ import Table15 from '../../../Tables/Chapter2/Table15'
 import Table16 from '../../../Tables/Chapter2/Table16'
 import Table17 from '../../../Tables/Chapter2/Table17'
 
-import {
-
-    Chart2 as Chrt2, Chart3 as Chrt3, Chart4 as Chrt4,
-} from '../../../Charts/Chap2Charts'
 import Table5 from '../../../Tables/Chapter2/Table5'
 import Table6 from '../../../Tables/Chapter2/Table6'
 import Table7 from '../../../Tables/Chapter2/Table7'
 import Table8 from '../../../Tables/Chapter2/Table8'
 import Subtitle from '../../../../Subtitle/Subtitle'
 
-import { getFirebase } from '../../../../../firebase/firebase'
 import Table3kan from '../../../Tables/Chapter2kan/Table3'
 import Table5kan from '../../../Tables/Chapter2kan/Table5'
 import Table6kan from '../../../Tables/Chapter2kan/Table6'
@@ -52,40 +46,10 @@ import Table8kan from '../../../Tables/Chapter2kan/Table8'
 import Table9kan from '../../../Tables/Chapter2kan/Table9'
 import Table10kan from '../../../Tables/Chapter2kan/Table10'
 import Table11kan from '../../../Tables/Chapter2kan/Table11'
-import Table12kan from '../../../Tables/Chapter2kan/Table12'
 import Table4 from '../../../Tables/Chapter2/Table4'
 const Resources = () => {
 
     const ctx = useContext(MyContext)
-    const [url, setURL] = useState("");
-    const [url2, setURL2] = useState("");
-    const [url3, setURL3] = useState("");
-
-
-
-    // getFirebase()
-    //     .storage()
-    //     .ref('/pdfs/chart23.png')
-    //     .getDownloadURL()
-    //     .then((url) => {
-    //         setURL(url);
-    //     });
-
-    // getFirebase()
-    //     .storage()
-    //     .ref('/pdfs/table24.png')
-    //     .getDownloadURL()
-    //     .then((url2) => {
-    //         setURL2(url2);
-    //     });
-
-    // getFirebase()
-    //     .storage()
-    //     .ref('/pdfs/table26.png')
-    //     .getDownloadURL()
-    //     .then((url3) => {
-    //         setURL3(url3);
-    //     });
 
     return (
         ctx.langPref

@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react"
+import React, { useContext } from "react"
 import Navbar from "../../../../Navbar/Navbar"
 import './../../Quality.css'
 import { FaSpinner } from "react-icons/fa"
@@ -10,22 +10,11 @@ import Table10kan from "../../../Tables/Chapter4kan/Table10";
 import c42 from '../../../../../Images/c42.png'
 import k43 from '../../../../../Images/k43.png'
 import ImageComponent from 'material-ui-image'
-import { getFirebase } from '../../../../../firebase/firebase'
-import { Chart3 as Chart3Chap4 } from '../../../Charts/Chap4Charts'
 import CustomTable from "../../../../CustomTable/CustomTable";
 const ContingentBill = () => {
 
     const ctx = useContext(MyContext)
-    const [url, setURL] = useState("");
-
-    getFirebase()
-        .storage()
-        .ref('/pdfs/chart43.PNG')
-        .getDownloadURL()
-        .then((url) => {
-            setURL(url);
-        });
-
+    
     return (
         ctx.langPref
             ? (ctx.chapterFour

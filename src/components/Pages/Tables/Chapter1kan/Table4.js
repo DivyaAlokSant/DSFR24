@@ -62,16 +62,16 @@ const columns = [
    }
 ];
 
-const conditionalRowStyles = [
+// const conditionalRowStyles = [
 
-    // You can also pass a callback to style for additional customization
-    {
-      when: row => row.Liabilities === "Internal Debt",
-      style: row => ({
-          backgroundColor: row => row["Liabilities"].toLocaleString('en-IN',{ style: 'currency', currency: 'INR' })
-      }),
-    },
-  ];
+//     // You can also pass a callback to style for additional customization
+//     {
+//       when: row => row.Liabilities === "Internal Debt",
+//       style: row => ({
+//           backgroundColor: row => row["Liabilities"].toLocaleString('en-IN',{ style: 'currency', currency: 'INR' })
+//       }),
+//     },
+//   ];
    
 
 const customStyles = styles

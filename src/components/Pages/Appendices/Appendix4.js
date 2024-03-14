@@ -1,21 +1,14 @@
-import React, { useContext, useEffect, useState } from "react"
+import React, { useContext } from "react"
 import Navbar from "../../Navbar/Navbar"
 import './Appendix.css'
 import { FaSpinner } from "react-icons/fa"
 import { MyContext } from './../../../Context/MyProvider';
 import FloatingActionButtons from "../../FloatingActionButtons/FloatButton"
-import { getFirebase } from "../../../firebase/firebase";
-import Tabled1 from '../Tables/Chapter1/Tabled1'
 import Tabled1k from "../Tables/Chapter1/Tabled1k"
-import Tabled2 from '../Tables/Chapter1/Tabled2'
 import Tabled2k from '../Tables/Chapter1/Tabled2k'
-import Tabled3 from '../Tables/Chapter1/Tabled3'
 import Tabled3k from '../Tables/Chapter1/Tabled3k'
-import Tabled4 from '../Tables/Chapter1/Tabled4'
 import Tabled4k from '../Tables/Chapter1/Tabled4k'
-import Tabled5 from '../Tables/Chapter1/Tabled5'
 import Tabled5k from '../Tables/Chapter1/Tabled5k'
-import Tabled6 from '../Tables/Chapter1/Tabled6';
 import Tabled6k from '../Tables/Chapter1/Tabled6k';
 import CustomTable from "../../CustomTable/CustomTable";
 

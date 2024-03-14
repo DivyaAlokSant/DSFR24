@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react"
+import React, { useContext} from "react"
 import Navbar from "../../Navbar/Navbar"
 import './Appendix.css'
 import { FaSpinner } from "react-icons/fa"
@@ -6,13 +6,9 @@ import { MyContext } from './../../../Context/MyProvider';
 import FloatingActionButtons from "../../FloatingActionButtons/FloatButton"
 import CustomTable from "../../CustomTable/CustomTable";
 //import { getFirebase } from "../../../firebase/firebase";
-import Tablee1 from '../Tables/Chapter1/Tablee1'
 import Tablee1k from '../Tables/Chapter1/Tablee1k'
-import Tablee2 from '../Tables/Chapter1/Tablee2'
 import Tablee2k from '../Tables/Chapter1/Tablee2k'
-import Tablee3 from '../Tables/Chapter1/Tablee3'
 import Tablee3k from '../Tables/Chapter1/Tablee3k'
-import Tablee4 from '../Tables/Chapter1/Tablee4'
 import Tablee4k from '../Tables/Chapter1/Tablee4k'
 
 

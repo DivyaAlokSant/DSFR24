@@ -7,7 +7,6 @@ import Para from "../../../../Para/Para"
 import Title from "../../../../Title/Title";
 import Subtitle from "../../../../Subtitle/Subtitle";
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton"
-import CustomTable from "../../../../CustomTable/CustomTable";
 import Table11kan from "../../../Tables/Chapter4kan/Table11";
 
 const IndiscriminateUse = () => {

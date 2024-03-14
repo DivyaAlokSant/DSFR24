@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext } from 'react'
 import { MyContext } from '../../../../../Context/MyProvider'
 import Para from '../../../../Para/Para'
 import Title from "./../../../../Title/Title"
@@ -15,16 +15,12 @@ import Table17 from '../../../Tables/Chapter2/Table17'
 import Table18 from '../../../Tables/Chapter2/Table18'
 import Table19 from '../../../Tables/Chapter2/Table19'
 import Table20 from '../../../Tables/Chapter2/Table20'
-import Table20a from '../../../Tables/Chapter2/Table20a'
-import Table20b from '../../../Tables/Chapter2/Table20b.js'
-import Table20c from '../../../Tables/Chapter2/Table20c.js'
 import Table21 from '../../../Tables/Chapter2/Table21'
 import Table22 from '../../../Tables/Chapter2/Table22'
 import Table23 from '../../../Tables/Chapter2/Table23'
 import Table24 from '../../../Tables/Chapter2/Table24'
 //import Table24b from '../../../Tables/Chapter2/Table24b'
 import Table25 from '../../../Tables/Chapter2/Table25'
-import Table25a from '../../../Tables/Chapter2/Table25a'
 import Table26 from '../../../Tables/Chapter2/Table26'
 import Table27 from '../../../Tables/Chapter2/Table27'
 import Table13kan from '../../../Tables/Chapter2kan/Table13'
@@ -47,10 +43,6 @@ import Table25kan from '../../../Tables/Chapter2kan/Table25'
 import Table26kan from '../../../Tables/Chapter2kan/Table26'
 import Table27kan from '../../../Tables/Chapter2kan/Table27'
 import Table28kan from '../../../Tables/Chapter2kan/Table28'
-import {
-    Chart11, Chart12,
-    Chart7, Chart8, Chart9
-} from '../../../Charts/Chap2Charts'
 import k27 from '../../../../../Images/k27.png'
 import k28 from '../../../../../Images/k28.png'
 import c29 from '../../../../../Images/c29.png'
@@ -63,15 +55,12 @@ import c213 from '../../../../../Images/c213.png'
 import k211 from '../../../../../Images/k211.png'
 import k212a from '../../../../../Images/k212a.png'
 import ImageComponent from 'material-ui-image'
-import { getFirebase } from '../../../../../firebase/firebase'
-import Table20kan from '../../../Tables/Chapter2kan/Table20'
-import { Chart11a } from '../../../Charts/Chap2Charts'
 
 
 const Application = () => {
 
     const ctx = useContext(MyContext)
-    const [url, setURL] = useState("");
+    // const [url, setURL] = useState("");
 
     // getFirebase()
     //     .storage()

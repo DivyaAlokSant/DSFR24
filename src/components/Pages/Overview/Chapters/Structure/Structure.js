@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext } from 'react'
 import { MyContext } from '../../../../../Context/MyProvider'
 import Para from '../../../../Para/Para'
 import Title from "../../../../Title/Title"
@@ -8,7 +8,6 @@ import './../../Overview.css'
 import { FaSpinner } from 'react-icons/fa'
 import ContentSlider from '../../../../ContentSlider/ContentSlider'
 import ImageComponent from 'material-ui-image'
-import { getFirebase } from '../../../../../firebase/firebase'
 import c13 from '../../../../../Images/c13.png'
 import kc5 from '../../../../../Images/kc5.png'
 
@@ -17,16 +16,7 @@ const Structure = () => {
 
     const ctx = useContext(MyContext)
 
-    const [url, setURL] = useState("");
-
-    getFirebase()
-        .storage()
-        .ref('/images/chap1chart5.png')
-        .getDownloadURL()
-        .then((url) => {
-            setURL(url);
-        });
-
+    
     return (
         ctx.langPref
             ? (ctx.chapterOne

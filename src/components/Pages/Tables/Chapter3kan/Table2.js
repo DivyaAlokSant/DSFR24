@@ -4,7 +4,6 @@ import Card from "@material-ui/core/Card";
 import "./Tables.css";
 
 import { MyContext } from "../../../../Context/MyProvider";
-import { styles } from "../helpers";
 
 const columns = [
     
@@ -69,20 +68,20 @@ const columns = [
 
 
 ];
-const conditionalRowStyles = [
-  {
-      when: row => row["ಕ್ರಮ ಸಂಖ್ಯೆ"] === 'ಒಟ್ಟು',
-      style: {
-          backgroundColor: 'rgba(53, 165, 128, 0.5)',
-      },
-  },
-  {
-      when: row => row["Revenue Surplus"] === 'Over statement',
-      style: {
-          backgroundColor: 'rgba(153, 165, 128, 0.9)',
-      },
-  }
-]
+// const conditionalRowStyles = [
+//   {
+//       when: row => row["ಕ್ರಮ ಸಂಖ್ಯೆ"] === 'ಒಟ್ಟು',
+//       style: {
+//           backgroundColor: 'rgba(53, 165, 128, 0.5)',
+//       },
+//   },
+//   {
+//       when: row => row["Revenue Surplus"] === 'Over statement',
+//       style: {
+//           backgroundColor: 'rgba(153, 165, 128, 0.9)',
+//       },
+//   }
+// ]
 
 
 const customStyles = {

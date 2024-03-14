@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 import { MyContext } from "../../../../../Context/MyProvider";
 import Para from "../../../../Para/Para";
 import Title from "./../../../../Title/Title";
@@ -9,24 +9,13 @@ import FloatingActionButtons from "./../../../../FloatingActionButtons/FloatButt
 import "./../../Budget.css";
 
 import ImageComponent from 'material-ui-image'
-import { getFirebase } from '../../../../../firebase/firebase'
 import c31 from '../../../../../Images/c31.png'
 import c32 from '../../../../../Images/c32.png'
 import k31 from '../../../../../Images/k31.png'
-import { Crop32 } from "@material-ui/icons";
 
 const BudgetProcess = () => {
   const ctx = useContext(MyContext);
 
-  const [url, setURL] = useState("");
-
-  getFirebase()
-    .storage()
-    .ref('/pdfs/chart31.png')
-    .getDownloadURL()
-    .then((url) => {
-      setURL(url);
-    });
 
   return ctx.langPref ? (
     ctx.chapterThree ? (

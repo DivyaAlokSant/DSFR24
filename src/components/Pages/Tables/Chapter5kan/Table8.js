@@ -40,14 +40,14 @@ const columns = [
 
 const customStyles = styles;
 
-const conditionalRowStyles = [
-    {
-      when: row => row["Activity"] === 'Total' ,
-      style: {
-        backgroundColor: 'rgba(15, 38, 112, 0.4)',
-      }
-    }
-  ]
+// const conditionalRowStyles = [
+//     {
+//       when: row => row["Activity"] === 'Total' ,
+//       style: {
+//         backgroundColor: 'rgba(15, 38, 112, 0.4)',
+//       }
+//     }
+//   ]
 
 
 const Table8kan = () => {

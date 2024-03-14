@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react"
+import React, { useContext } from "react"
 import Navbar from "../../../../Navbar/Navbar"
 import './../../Quality.css'
 import { FaSpinner } from "react-icons/fa"
@@ -8,12 +8,8 @@ import Title from "../../../../Title/Title";
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton"
 import Table2kan from "../../../Tables/Chapter4kan/Table2"
 import Table3kan from "../../../Tables/Chapter4kan/Table3"
-import c41 from '../../../../../Images/c41.png'
 import k41 from '../../../../../Images/k41.png'
 import ImageComponent from 'material-ui-image'
-import { getFirebase } from '../../../../../firebase/firebase'
-import { Subtitles } from "@material-ui/icons";
-import { Chart1 as Chart1Chap4 } from '../../../Charts/Chap4Charts'
 import CustomTable from "../../../../CustomTable/CustomTable";
 
 const NonRemittance

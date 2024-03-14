@@ -114,8 +114,8 @@ export const Chart2 = () => {
           values: chart.Chart2.map(item => Object.values(item)[i]),
           
           name: chart.Chart2.map((item) => Object.keys(item))[0][0],
-          hoverinfo: 'y',
-          hoverinfo: 'x',
+          // hoverinfo: 'y',
+          // hoverinfo: 'x',
           mode: "markers+lines+text",
           textposition: "auto",
           orientation: 'h',
@@ -181,8 +181,8 @@ export const Chart3 = () => {
           values: chart.Chart3.map(item => Object.values(item)[i]),
           
           name: chart.Chart3.map((item) => Object.keys(item))[0][0],
-          hoverinfo: 'y',
-          hoverinfo: 'x',
+          // hoverinfo: 'y',
+          // hoverinfo: 'x',
           mode: "markers+lines+text",
           textposition: "auto",
           orientation: 'h',

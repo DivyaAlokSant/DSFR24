@@ -7,27 +7,18 @@ import { FaSpinner } from 'react-icons/fa'
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton"
 import './../../Finances.css'
 import Table28 from '../../../Tables/Chapter2/Table28'
-import Table28kan from '../../../Tables/Chapter2kan/Table28'
 import c214 from '../../../../../Images/c214.png'
 import k213 from '../../../../../Images/k213.png'
 import ImageComponent from 'material-ui-image'
-
 import Table29 from '../../../Tables/Chapter2/Table29'
-
-import Table29a from '../../../Tables/Chapter2/Table29a'
 import Table29kan from '../../../Tables/Chapter2kan/Table29'
 import Table30kan from '../../../Tables/Chapter2kan/Table30'
 import Table31akan from '../../../Tables/Chapter2kan/Table31a'
-import {
-
-    Chart13
-} from '../../../Charts/Chap2Charts'
 import Subtitle from '../../../../Subtitle/Subtitle'
 
 const PublicAccount = () => {
 
     const ctx = useContext(MyContext)
-    console.log(ctx.chapter2kannada)
 
     return (
         ctx.langPref

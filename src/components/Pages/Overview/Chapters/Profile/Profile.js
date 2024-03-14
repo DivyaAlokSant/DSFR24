@@ -15,11 +15,8 @@ import kc3 from '../../../../../Images/kc3.png'
 import kc4 from '../../../../../Images/kc4.png'
 import c11 from '../../../../../Images/C11.png'
 import c12 from  '../../../../../Images/c12.png'
-import Chart1, { Chart2, Chart3, Chart4 } from '../../../Charts/Charts'
 import Subtitle from '../../../../Subtitle/Subtitle'
-import Chart1Kan from '../../../Charts/ChartsKan/Charts'
-import TableauChart from '../../../../TablueChart/TableauChart'
-// import Table1kan from '../../../Tables/Chapter1kan/Table1'
+//import TableauChart from '../../../../TablueChart/TableauChart'
 
 const Profile = () => {
 
@@ -101,28 +98,7 @@ const Profile = () => {
                         ]}>
                             {ctx.chapterOne.Profile.para8a}
                         </Para>
-                        <ImageComponent flex="2" aspectRatio="2" resizeMode='contain' src={c11} color="#ffffff00" />
-                        
-                        <Title>
-                            Chart 1.1: Growth of India’s GDP and State’s GSDP
-                        </Title>
-
-                        <ImageComponent flex="2" aspectRatio="2" resizeMode='contain' src={c12} color="#ffffff00" />
-                        <h4 className='footnote'>
-                            <i>
-                                Source: All India GDP figures and GSDP (2017-18 to 2020-21) from Economic Survey 2021-22, GoK.
-                                <br></br>
-                                GSDP figures 2021-22, as per Ministry of Statistics and Programme Implementation.
-
-
-
-                            </i>
-                        </h4>
-                        {/* Chart 1 goes here */}
-                        <Chart1 />
-                        <TableauChart />
-                        
-
+                        <ImageComponent  aspectRatio={1/.6} src={c11} color="#ffffff00" />
                         {["Para9"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterOne.Profile[item]}
@@ -133,6 +109,13 @@ const Profile = () => {
                                 {ctx.chapterOne.Profile[item]}
                             </Para>
                         )}
+                        
+                        {/* Chart 1 goes here */}
+                        {/* <Chart1 />
+                        <TableauChart /> */}
+                        
+
+                        
 
                         {/* <Para>
                             {ctx.chapterOne.Profile.Para10.substring(0, 165)}
@@ -163,7 +146,7 @@ const Profile = () => {
                         <Title>
                             Chart 1.2: Sectoral growth in GSDP
                         </Title>
-                        <ImageComponent flex="2" aspectRatio="2" resizeMode='contain' src={c12} color="#ffffff00" />
+                        <ImageComponent  src={c12} color="#ffffff00" />
                         <Para>
                             {ctx.chapterOne.Profile.Para11}
                         </Para>

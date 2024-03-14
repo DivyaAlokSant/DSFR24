@@ -11,10 +11,6 @@ import k212 from '../../../../../Images/k212.png'
 import ImageComponent from 'material-ui-image'
 import Table2 from '../../../Tables/Chapter2/Table2'
 import Table2kan from '../../../Tables/Chapter2kan/Table2'
-import {
-     Chart11a,Chart12b
-    
-} from '../../../Charts/Chap2Charts'
 
 const  SourcesApplication = () => {
 

@@ -8,7 +8,6 @@ import Title from "../../../../Title/Title";
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton"
 import Table5kan from "../../../Tables/Chapter4kan/Table5";
 import Table6kan from "../../../Tables/Chapter4kan/Table6";
-import Table7kan from "../../../Tables/Chapter4kan/Table7";
 
 const FunTrans = () => {
 

@@ -1,21 +1,16 @@
-import React, { useContext, useEffect, useState } from "react"
+import React, { useContext } from "react"
 import Navbar from "../../Navbar/Navbar"
 import './Appendix.css'
 import Para from '../../Para/Para'
 import { FaSpinner } from "react-icons/fa"
 import { MyContext } from './../../../Context/MyProvider';
-import Tablea1 from '../Tables/Chapter1/Tablea1'
 import Tablekan1 from '../Tables/Chapter1/Tablekan1'
 import Tablekan2 from '../Tables/Chapter1/Tablekan2'
 import Tablekan3 from '../Tables/Chapter1/Tablekan3'
 import Tablekan4 from '../Tables/Chapter1/Tablekan4'
-import Tablea2 from '../Tables/Chapter1/Tablea2'
-import Tablea3 from '../Tables/Chapter1/Tablea3'
-import Tablea4 from '../Tables/Chapter1/Tablea4'
 import CustomTable from "../../CustomTable/CustomTable"
 
 import FloatingActionButtons from "../../FloatingActionButtons/FloatButton"
-import ImageComponent from "material-ui-image";
 
 
 

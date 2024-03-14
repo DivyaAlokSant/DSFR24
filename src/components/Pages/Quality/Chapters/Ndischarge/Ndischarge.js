@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react"
+import React, { useContext} from "react"
 import Navbar from "../../../../Navbar/Navbar"
 import './../../Quality.css'
 import { FaSpinner } from "react-icons/fa"
@@ -10,10 +10,7 @@ import CustomTable from "../../../../CustomTable/CustomTable";
 import Table4kan from "../../../Tables/Chapter4kan/Table4";
 import Table4akan from "../../../Tables/Chapter4kan/Table4a";
 import ImageComponent from 'material-ui-image'
-import { getFirebase } from '../../../../../firebase/firebase'
-import c42 from '../../../../../Images/c42.png'
 import k42 from '../../../../../Images/k42.png'
-import { Chart2 as Chart2Chap4 } from '../../../Charts/Chap4Charts'
 const Ndischarge = () => {
 
     const ctx = useContext(MyContext)

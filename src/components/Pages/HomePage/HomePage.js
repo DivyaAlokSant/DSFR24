@@ -1,7 +1,6 @@
 import ImageComponent from 'material-ui-image';
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
-import { getFirebase } from '../../../firebase/firebase';
 import "./HomePage.css";
 import ags1 from '../../../Assets/agoffice.svg';
 import emblem1 from '../../../Assets/emblem.svg';
@@ -10,33 +9,33 @@ import url1 from '../../../Assets/logotp.svg';
 
 const HomePage = () => {
 
-  const [url, setURL] = useState("");
-  const [emblem, setEmblem] = useState("");
-  const [ags, setags] = useState("");
+  // const [url, setURL] = useState("");
+  // const [emblem, setEmblem] = useState("");
+  // const [ags, setags] = useState("");
 
-  getFirebase()
-    .storage()
-    .ref('/images/logotp.png')
-    .getDownloadURL()
-    .then((url) => {
-      setURL(url);
-    });
+  // getFirebase()
+  //   .storage()
+  //   .ref('/images/logotp.png')
+  //   .getDownloadURL()
+  //   .then((url) => {
+  //     setURL(url);
+  //   });
 
-  getFirebase()
-    .storage()
-    .ref('/images/emblem.png')
-    .getDownloadURL()
-    .then((emblem) => {
-      setEmblem(emblem);
-    });
+  // getFirebase()
+  //   .storage()
+  //   .ref('/images/emblem.png')
+  //   .getDownloadURL()
+  //   .then((emblem) => {
+  //     setEmblem(emblem);
+  //   });
 
-  getFirebase()
-    .storage()
-    .ref('/images/agoffice.png')
-    .getDownloadURL()
-    .then((ags) => {
-      setags(ags);
-    });
+  // getFirebase()
+  //   .storage()
+  //   .ref('/images/agoffice.png')
+  //   .getDownloadURL()
+  //   .then((ags) => {
+  //     setags(ags);
+  //   });
 
   return (
     <div>

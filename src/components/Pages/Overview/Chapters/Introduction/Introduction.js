@@ -1,5 +1,4 @@
 import React, { useContext } from 'react'
-import { Link } from "@material-ui/core"
 import { MyContext } from '../../../../../Context/MyProvider'
 import Para from '../../../../Para/Para'
 import Title from "./../../../../Title/Title"
@@ -8,7 +7,6 @@ import FloatingActionButtons from "./../../../../FloatingActionButtons/FloatButt
 import './../../Overview.css'
 import { FaSpinner } from 'react-icons/fa'
 import Subtitle from '../../../../Subtitle/Subtitle'
-import Chart1Kan from '../../../Charts/ChartsKan/Charts'
 
 
 

@@ -2,7 +2,6 @@ import React, { useContext } from "react";
 import { MyContext } from "../../../../../Context/MyProvider";
 import Para from "../../../../Para/Para";
 import Title from "../../../../Title/Title";
-import Subtitle from "./../../../../Subtitle/Subtitle";
 import Navbar from "../../../../Navbar/Navbar";
 import { FaSpinner } from "react-icons/fa";
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton";

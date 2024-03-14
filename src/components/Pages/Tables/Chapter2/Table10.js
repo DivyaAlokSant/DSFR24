@@ -29,14 +29,14 @@ const columns = [
   }
 ];
 
-const conditionalRowStyles = [
-  {
-      when: row => row["Year"] === 'Total',
-      style: {
-          backgroundColor: 'rgba(153, 165, 128, 0.9)',
-      },
-  }
-]
+// const conditionalRowStyles = [
+//   {
+//       when: row => row["Year"] === 'Total',
+//       style: {
+//           backgroundColor: 'rgba(153, 165, 128, 0.9)',
+//       },
+//   }
+// ]
 
 const customStyles = styles;
 

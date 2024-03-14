@@ -6,7 +6,6 @@ import Navbar from "../../../../Navbar/Navbar"
 import { FaSpinner } from 'react-icons/fa'
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton"
 import './../../Finances.css'
-import c218 from '../../../../../Images/c218.png'
 import k218 from '../../../../../Images/k218.png'
 import c219 from '../../../../../Images/c219.png'
 import k219 from '../../../../../Images/k219.png'
@@ -14,22 +13,13 @@ import c220 from '../../../../../Images/c220.png'
 import k220 from '../../../../../Images/k220.png'
 import ImageComponent from 'material-ui-image'
 
-import Table35kan from '../../../Tables/Chapter2kan/Table35'
 import Table37 from '../../../Tables/Chapter2/Table37'
-import Table37kan from '../../../Tables/Chapter2kan/Table37'
 import Table3೭kan from '../../../Tables/Chapter2kan/Table3೭'
 import Table38 from '../../../Tables/Chapter2/Table38'
 import Table38kan from '../../../Tables/Chapter2kan/Table38'
-import Table39 from '../../../Tables/Chapter2/Table39'
 import Table39kan from '../../../Tables/Chapter2kan/Table39'
-import Table40 from '../../../Tables/Chapter2/Table40'
 import Table40kan from '../../../Tables/Chapter2kan/Table40'
 import Table41kan from '../../../Tables/Chapter2kan/Table41'
-import {
-    Chart17,
-    Chart18,
-    Chart19
-} from '../../../Charts/Chap2Charts'
 import Subtitle from '../../../../Subtitle/Subtitle'
 const Dsa = () => {
 

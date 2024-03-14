@@ -1,46 +1,26 @@
-import React, { useContext, useEffect, useState } from "react"
+import React, { useContext } from "react"
 import Navbar from "../../Navbar/Navbar"
 import './Appendix.css'
 import { FaSpinner } from "react-icons/fa"
 import { MyContext } from './../../../Context/MyProvider';
 import FloatingActionButtons from "../../FloatingActionButtons/FloatButton"
 import CustomTable from "../../CustomTable/CustomTable";
-import Tablec1 from '../Tables/Chapter1/Tablec1'
 import Tablec1k from '../Tables/Chapter1/Tablec1k'
-import Tablec2 from '../Tables/Chapter1/Tablec2'
 import Tablec2k from '../Tables/Chapter1/Tablec2k'
-import Tablec3 from '../Tables/Chapter1/Tablec3'
 import Tablec3k from '../Tables/Chapter1/Tablec3k'
-import Tablec4 from '../Tables/Chapter1/Tablec4'
 import Tablec4k from '../Tables/Chapter1/Tablec4k'
-import Tablec5 from '../Tables/Chapter1/Tablec5'
 import Tablec5k from '../Tables/Chapter1/Tablec5k'
-import Tablec6 from '../Tables/Chapter1/Tablec6'
 import Tablec6k from '../Tables/Chapter1/Tablec6k'
-import Tablec6a from '../Tables/Chapter1/Tablec6a'
-import Tablec6b from '../Tables/Chapter1/Tablec6b'
-import Tablec6c from '../Tables/Chapter1/Tablec6c'
-import Tablec7 from '../Tables/Chapter1/Tablec7'
 import Tablec7k from '../Tables/Chapter1/Tablec7k'
-import Tablec8 from '../Tables/Chapter1/Tablec8'
 import Tablec8k from '../Tables/Chapter1/Tablec8k'
-import Tablec9 from '../Tables/Chapter1/Tablec9'
 import Tablec9k from '../Tables/Chapter1/Tablec9k'
-import Tablec10 from '../Tables/Chapter1/Tablec10'
 import Tablec10k from '../Tables/Chapter1/Tablec10k'
-import Tablec11 from '../Tables/Chapter1/Tablec11'
 import Tablec11k from '../Tables/Chapter1/Tablec11k'
-import Tablec12 from '../Tables/Chapter1/Tablec12'
 import Tablec12k from '../Tables/Chapter1/Tablec12k'
-import Tablec13 from '../Tables/Chapter1/Tablec13'
 import Tablec13k from '../Tables/Chapter1/Tablec13k'
-import Tablec14 from '../Tables/Chapter1/Tablec14'
 import Tablec14k from '../Tables/Chapter1/Tablec14k'
-import Tablec15 from '../Tables/Chapter1/Tablec15'
 import Tablec15k from '../Tables/Chapter1/Tablec15k'
-import Tablec16 from '../Tables/Chapter1/Tablec16'
 import Tablec16k from '../Tables/Chapter1/Tablec16k'
-import Tablec17 from '../Tables/Chapter1/Tablec17'
 import Tablec17k from '../Tables/Chapter1/Tablec17k'
 
 const Appendix3 = () => {

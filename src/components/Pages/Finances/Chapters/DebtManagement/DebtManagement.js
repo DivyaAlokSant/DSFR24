@@ -7,7 +7,6 @@ import { FaSpinner } from 'react-icons/fa'
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton"
 import './../../Finances.css'
 import Table30 from '../../../Tables/Chapter2/Table30'
-import Table30kan from '../../../Tables/Chapter2kan/Table30'
 import k214 from '../../../../../Images/k214.png'
 import c215 from '../../../../../Images/c215.png'
 import k215 from '../../../../../Images/k215.png'
@@ -21,9 +20,7 @@ import ImageComponent from 'material-ui-image'
 import Table31 from '../../../Tables/Chapter2/Table31'
 import Table31kan from '../../../Tables/Chapter2kan/Table31'
 import Table32 from '../../../Tables/Chapter2/Table32'
-import Table32kan from '../../../Tables/Chapter2kan/Table32'
 import Table33 from '../../../Tables/Chapter2/Table33'
-import Table33a from '../../../Tables/Chapter2/Table33a'
 import Table33kan from '../../../Tables/Chapter2kan/Table33'
 import Table34 from '../../../Tables/Chapter2/Table34'
 import Table35 from '../../../Tables/Chapter2/Table35'
@@ -32,9 +29,6 @@ import Table34kan from '../../../Tables/Chapter2kan/Table34'
 import Table35kan from '../../../Tables/Chapter2kan/Table35'
 import Table36kan from '../../../Tables/Chapter2kan/Table36'
 import Table37akan from '../../../Tables/Chapter2kan/Table37'
-import {
-    Chart14, Chart15, Chart16,
-} from '../../../Charts/Chap2Charts'
 import Subtitle from '../../../../Subtitle/Subtitle'
 
 const DebtManagement = () => {
@@ -83,7 +77,7 @@ const DebtManagement = () => {
                         </h4>
 
                            
-                    {[,"para288","para289"].map((item, ind) =>
+                    {["para288","para289"].map((item, ind) =>
                            <Para key={ind / 10}>
                                {ctx.chapterTwo[item]}
                            </Para>)}

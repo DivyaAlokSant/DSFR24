@@ -7,7 +7,6 @@ import Para from "./../../../../Para/Para"
 import Title from "./../../../../Title/Title";
 import FloatingActionButtons from "./../../../../FloatingActionButtons/FloatButton"
 import Table1kan from '../../../Tables/Chapter4kan/Table1'
-import Subtitle from "./../../../../Subtitle/Subtitle";
 import CustomTable from "../../../../CustomTable/CustomTable";
 
 const Funds = () => {

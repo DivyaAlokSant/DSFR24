@@ -7,7 +7,6 @@ import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton
 import './../../Overview.css'
 import { FaSpinner } from 'react-icons/fa'
 import Subtitle from "../../../../Subtitle/Subtitle"
-import { Chart5, Chart6 } from '../../../Charts/Charts'
 import Table4 from '../../../Tables/Chapter1/Table4'
 import Table4kan from '../../../Tables/Chapter1kan/Table4'
 import kc6 from '../../../../../Images/kc6.png'

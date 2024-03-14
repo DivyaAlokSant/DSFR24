@@ -1,7 +1,6 @@
-import React, { useContext, useEffect, useState } from "react"
+import React, { useContext} from "react"
 import Navbar from "../../Navbar/Navbar"
 import './Appendix.css'
-import Para from '../../Para/Para'
 import { FaSpinner } from "react-icons/fa"
 import { MyContext } from './../../../Context/MyProvider';
 import CustomTable from "../../CustomTable/CustomTable"
@@ -13,7 +12,6 @@ import Tableb5k from '../Tables/Chapter1/Tableb5k'
 
 
 import FloatingActionButtons from "../../FloatingActionButtons/FloatButton"
-import ImageComponent from "material-ui-image";
 
 
 

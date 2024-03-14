@@ -1,7 +1,7 @@
-import React, { useContext, useEffect, useState } from "react"
+import React, { useContext} from "react"
 import Navbar from "../../Navbar/Navbar"
 import './Glossary.css'
-import { FaAlignJustify, FaSpinner } from "react-icons/fa"
+import {  FaSpinner } from "react-icons/fa"
 import { MyContext } from './../../../Context/MyProvider';
 import FloatingActionButtons from "../../FloatingActionButtons/FloatButton"
 import CustomTable from "../../CustomTable/CustomTable";
