@@ -89,6 +89,7 @@ const Profile = () => {
                                 {ctx.tables1.T1F2b}<br></br>
                                 {ctx.tables1.T1F2c}<br></br>
                                 {ctx.tables1.T1F2d}<br></br>
+                               
                             </i>
                         </h4>
 

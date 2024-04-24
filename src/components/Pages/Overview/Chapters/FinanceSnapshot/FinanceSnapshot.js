@@ -37,7 +37,9 @@ const FinanceSnapshot = () => {
                                 {ctx.tables1.T2F1}
                                 <br></br>
                                 {ctx.tables1.T2F2}
-                                <br></br>                                
+                                <br></br>      
+                                {ctx.tables1.T2F22}
+                                <br></br>                            
                                 {ctx.tables1.T2F3}
                                 <br></br>
                                 {ctx.tables1.T2F4}

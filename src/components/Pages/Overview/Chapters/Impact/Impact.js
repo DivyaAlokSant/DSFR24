@@ -40,7 +40,7 @@ const Impact = () => {
                         <Para>
                             {ctx.chapterOne.Profile["Para68"]}
                         </Para>
-                        {["Para69", "Para70", "Para71","Para72", "Para73","Para74"].map((item, ind) =>
+                        {["Para69", "Para70", "Para71","Para72", "Para73","Para74","Para75"].map((item, ind) =>
                                 <Para key={ind / 10}>
                                     <li>
                                         {ctx.chapterOne.Profile[item]}
