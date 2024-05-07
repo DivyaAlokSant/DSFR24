@@ -93,7 +93,7 @@ const Outcome = () => {
           </h4>
 
 
-          {["para144"].map(
+          {["para144","para144a"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
@@ -187,7 +187,7 @@ const Outcome = () => {
 
           </h4>
 
-          {["para164", "para165", "para166"].map(
+          {["para164", "para165", "para166","para166a"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
@@ -198,7 +198,7 @@ const Outcome = () => {
           <Subtitle>
             {ctx.chapterThree.Profile["para168"]}
           </Subtitle>
-          {["para169", "para170", "para171"].map(
+          {["para169", "para170", "para171","para171a"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
@@ -222,7 +222,7 @@ const Outcome = () => {
           </h4>
 
 
-          {["para175"].map(
+          {["para175","para175a"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
@@ -258,13 +258,16 @@ const Outcome = () => {
           <h4>
 
           </h4>
-
-
+          {["para180a"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+            )
+          )}
 
           <Subtitle>
             {ctx.chapterThree.Profile["para181"]}
           </Subtitle>
-          {["para182", "para183"].map(
+          {["para182", "para183","para183a"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
@@ -278,7 +281,7 @@ const Outcome = () => {
             </Para>
 
           </Subtitle>
-          {["para185", "para186"].map(
+          {["para185", "para186","para186a"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
@@ -300,6 +303,11 @@ const Outcome = () => {
           <h4>
 
           </h4>
+          {["para188a"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+            )
+          )}
 
           <Subtitle>
             {ctx.chapterThree.Profile["para189"]}

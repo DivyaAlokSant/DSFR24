@@ -54,7 +54,9 @@ const Funds = () => {
                         <Para>
                             {ctx.chapterFour.Content.para7}
                         </Para>
-
+                        <Para>
+                            {ctx.chapterFour.Content.para7a}
+                        </Para>
 
 
 

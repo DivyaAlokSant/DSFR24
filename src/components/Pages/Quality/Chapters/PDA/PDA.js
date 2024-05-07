@@ -74,6 +74,9 @@ const PDA = () => {
                         <Para>
                             {ctx.chapterFour.Content.para44}
                         </Para>
+                        <Para>
+                            {ctx.chapterFour.Content.para44a}
+                        </Para>
                         <Subtitle>
                             {ctx.chapterFour.Content.para45}
                         </Subtitle>
