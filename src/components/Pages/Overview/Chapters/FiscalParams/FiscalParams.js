@@ -136,72 +136,41 @@ const FiscalParams = () => {
                     <div className="contentwrapper" id="home">
                         <FloatingActionButtons back="/overview/snapshot-assets" forward="/overview/fisc-situation" />
                         <Title id="anchor">
-                            {ctx.chapter1kannada.Content.para49}
+                            {ctx.chapter1kannada.Content.para53}
                         </Title>
-                        {["para50", "para51"].map((item, ind) =>
+                        
+                        {["para54","para55"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter1kannada.Content[item]}
                             </Para>
                         )}
                         <Subtitle>
-                            {ctx.chapter1kannada.Content["para52"]}
+                            {ctx.chapter1kannada.Content.para56}
                         </Subtitle>
-
-                        {["para53"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapter1kannada.Content[item]}
-                            </Para>
-                        )}
- <Title >
- ನಕ್ಷೆ-1.6: ಕೊರತೆಯ ಪ್ರಮಿತಿಗಳಲ್ಲಿನ ಪ್ರವೃತ್ತಿಗಳು
-                        </Title>
-     <ImageComponent src={kc6}  aspectRatio={1 / 0.5} />
-     <h4> ಆಕರ: ಹಣಕಾಸು ಲೆಕ್ಕಗಳು</h4>
-                        {/* <Chart5 /> */}
-                        {["f8a"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapter1kannada.Content[item]}
-                            </Para>
-                        )}
-                        <Title >
-                        ನಕ್ಷೆ-1.7: ರಾಜ್ಯದ ಒಟ್ಟು ಆಂತರಿಕ ಉತ್ಪನ್ನಕ್ಕೆ ಸಂವಾದಿಯಾಗಿ ಹೆಚ್ಚಳ/ಕೊರತೆಯ ಪ್ರವೃತ್ತಿಗಳು
-                        </Title>
-     <ImageComponent src={kc7}  aspectRatio={1 / 0.5} />
-     <h4> ಆಕರ: ಹಣಕಾಸು ಲೆಕ್ಕಗಳು</h4>
-                        {/* <Chart6 /> */}
-                        {["f8b"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapter1kannada.Content[item]}
-                            </Para>
-                        )}
-                        {["para54"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapter1kannada.Content[item]}
-                            </Para>
-                        )}
-
-                        <Subtitle>
-                            {ctx.chapter1kannada.Content["para55"]}
-                        </Subtitle>
-
-                        {["para56"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapter1kannada.Content[item]}
-                            </Para>
-                        )}
-                        <Table4kan />
-                        {["f10","f10a"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapter1kannada.Content[item]}
-                            </Para>
-                        )}
-                      
                         {["para57"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter1kannada.Content[item]}
                             </Para>
                         )}
-                        {["para58"].map((item, ind) =>
+                         {["para58","para59"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter1kannada.Content[item]}
+                            </Para>
+                        )}
+                          {["para6"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter1kannada.Content[item]}
+                            </Para>
+                        )}
+                         <Subtitle>
+                            {ctx.chapter1kannada.Content.para60}
+                        </Subtitle>
+                        {["para61"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter1kannada.Content[item]}
+                            </Para>
+                        )}
+                         {["para62","para63"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter1kannada.Content[item]}
                             </Para>

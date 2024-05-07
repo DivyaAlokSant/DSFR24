@@ -8,6 +8,7 @@ import './../../Overview.css'
 import { FaSpinner } from 'react-icons/fa'
 import Table3 from '../../../Tables/Chapter1/Table3'
 import Table3kan from '../../../Tables/Chapter1kan/Table3'
+import Subtitle from '../../../../Subtitle/Subtitle'
 
 
 const AssetsSnapshot = () => {
@@ -56,13 +57,16 @@ const AssetsSnapshot = () => {
                     <div className="contentwrapper" id="home">
                         <FloatingActionButtons back="/overview/snapshot-finances" forward="/overview/fiscalparams" />
                         <Title id="anchor">
-                            {ctx.chapter1kannada.Content.para46}
+                            {ctx.chapter1kannada.Content.para50}
                         </Title>
-                        {["para47"].map((item, ind) =>
+                        
+                        
+                        {["para51","para52"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter1kannada.Content[item]}
                             </Para>
                         )}
+                        
                         <Table3kan />
                         <h4 className='footnote'>
                             <i>
@@ -72,12 +76,7 @@ const AssetsSnapshot = () => {
                                   
                             </i>
                         </h4>
-                        {["para48"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapter1kannada.Content[item]}
-                            </Para>
-                        )}
-
+                      
                     </div>
                 </div>
                 : <div>

@@ -55,25 +55,13 @@ const Basis = () => {
                     <div className="contentwrapper" id="home">
                         <FloatingActionButtons back="/overview/profile" forward="/overview/structure" />
                         <Title id="anchor">
-                            {ctx.chapter1kannada.Content.para18}
+                            {ctx.chapter1kannada.Content.para25}
                         </Title>
 
-                        <Para>
-                            {ctx.chapter1kannada.Content.para19}
-                        </Para>
-                        <Para>
-                            {ctx.chapter1kannada.Content.para20}
-                        </Para>
-                        <Para>
-                            {ctx.chapter1kannada.Content.para21}
-                        </Para>
-
-                        {["para22", "para23", "para24", "para25",
-                         "para26", "para27", "para28"].map((item, ind) =>
+                        
+                        {["para26","para27","para27a","para27b","para27c","para28","para29","para3","para30"].map((item, ind) =>
                             <Para key={ind / 10}>
-                                <li>
-                                    {ctx.chapter1kannada.Content[item]}
-                                </li>
+                                {ctx.chapter1kannada.Content[item]}
                             </Para>
                         )}
 

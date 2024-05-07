@@ -41,13 +41,14 @@ const OverviewBP = () => {
                 <div className="contentwrapper" id="home">
                     <FloatingActionButtons back="/overview/structure" forward="/overview/snapshot-finances" />
                     <Title id="anchor">
-                        {ctx.chapter1kannada.Content.para38}
+                        {ctx.chapter1kannada.Content.para44}
                     </Title>
-                    {["para39", "para40"].map((item, ind) =>
-                        <Para key={ind / 10}>
-                            {ctx.chapter1kannada.Content[item]}
-                        </Para>
-                    )}
+                   
+                        {["para45","para46"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter1kannada.Content[item]}
+                            </Para>
+                        )}
                 </div>
             </div>
             : <div>

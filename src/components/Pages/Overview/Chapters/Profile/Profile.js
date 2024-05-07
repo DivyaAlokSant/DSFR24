@@ -165,45 +165,70 @@ const Profile = () => {
                         <FloatingActionButtons back="/overview/introduction" forward="/overview/basis" />
 
                         <Title>
-                            {ctx.chapter1kannada.Content.para4}
+                            {ctx.chapter1kannada.Content.para11a}
                         </Title>
+                        {["para12"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter1kannada.Content[item]}
+                            </Para>
+                        )}
                         <Subtitle>
-                            {ctx.chapter1kannada.Content.para5}
+                            {ctx.chapter1kannada.Content.para13}
                         </Subtitle>
                         <Para>
-                            {ctx.chapter1kannada.Content.para6.substring(0, 344)}
+                            {ctx.chapter1kannada.Content.para13a.substring(0, 344)}
 
                             <span className="tooltip">
-                                {ctx.chapter1kannada.Content.para6.substring(344, 349)}
+                                {ctx.chapter1kannada.Content.para13a.substring(344, 349)}
                                 <span className="tooltiptext">
                                     2020-21ರ ಭಾರತದ ಆರ್ಥಿಕ ಸಮೀಕ್ಷೆಯ ಪ್ರಕಾರ
                                 </span>
                                 <sup>1</sup>
                             </span>
 
-                            {ctx.chapter1kannada.Content.para6.substring(349,)}
+                            {ctx.chapter1kannada.Content.para13a.substring(349,)}
                         </Para>
                         <Subtitle>
-                            {ctx.chapter1kannada.Content.para7}
+                            {ctx.chapter1kannada.Content.para14}
                         </Subtitle>
 
-                        {["para8"].map((item, ind) =>
+                        {["para15"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter1kannada.Content[item]}
                             </Para>
                         )}
-                        <Para>
-                            {ctx.chapter1kannada.Content.para9.substring(0, 191)}
+                        <Subtitle>
+                            {ctx.chapter1kannada.Content.para16}
+                        </Subtitle>
+                        {["para17","para18","para19","para2"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter1kannada.Content[item]}
+                            </Para>
+                        )}
+                        {["para21"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter1kannada.Content[item]}
+                            </Para>
+                        )}
+                        {["para22","para23"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter1kannada.Content[item]}
+                            </Para>
+                        )}
+                        {["para24"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter1kannada.Content[item]}
+                            </Para>
+                        )}
+                        
+                        
+                       
+                       
+                       
+                        
+                         
 
-                            <span className="tooltip">
-                                {ctx.chapter1kannada.Content.para9.substring(191, 201)}
-                                <span className="tooltiptext">
-                                    2020-21ರಲ್ಲಿ ರಾಜ್ಯದ ತಲಾ ಆದಾಯ ಮತ್ತು ರಾಷ್ಟ್ರೀಯ ಸರಾಸರಿ ನಡುವಿನ ವ್ಯತ್ಯಾಸವು `99,828 ಆಗಿತ್ತು                                </span>
-                                <sup>2</sup>
-                            </span>
 
-                            {ctx.chapter1kannada.Content.para9.substring(201,)}
-                        </Para>
 
                         <Title>
                             {ctx.chapter1kannada.Content.para10}

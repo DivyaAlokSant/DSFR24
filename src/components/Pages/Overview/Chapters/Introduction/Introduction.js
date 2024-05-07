@@ -46,10 +46,10 @@ const Introduction = () => {
                             {ctx.chapter1kannada.Content.para1}
                         </Title>
                         <Subtitle>
-                            {ctx.chapter1kannada.Content.para2}
+                            {ctx.chapter1kannada.Content.para10}
                         </Subtitle>
                         <Para>
-                            {ctx.chapter1kannada.Content.para3}
+                            {ctx.chapter1kannada.Content.para11}
                         </Para>
 
 

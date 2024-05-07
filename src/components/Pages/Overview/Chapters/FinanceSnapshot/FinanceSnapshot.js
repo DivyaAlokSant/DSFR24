@@ -65,11 +65,19 @@ const FinanceSnapshot = () => {
                     <div className="contentwrapper" id="home">
                         <FloatingActionButtons back="/overview/budgetprocess" forward="/overview/snapshot-assets" />
                         <Title id="anchor">
-                            {ctx.chapter1kannada.Content.para41}
+                            {ctx.chapter1kannada.Content.para47}
                         </Title>
-                        <Para >
-                            {ctx.chapter1kannada.Content["para42"]}
-                        </Para>
+                        
+                        {["para48"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter1kannada.Content[item]}
+                            </Para>
+                        )}
+                        {["para49","para5"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter1kannada.Content[item]}
+                            </Para>
+                        )}
                         <Table2kan/>
                       
                         <h4 >
@@ -79,11 +87,7 @@ const FinanceSnapshot = () => {
                             </Para>
                         )}</h4>
 
-                        {["para43", "para44"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapter1kannada.Content[item]}
-                            </Para>
-                        )}
+                       
                     </div>
                 </div>
                 : <div>

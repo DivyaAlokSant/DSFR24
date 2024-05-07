@@ -10,6 +10,7 @@ import ContentSlider from '../../../../ContentSlider/ContentSlider'
 import ImageComponent from 'material-ui-image'
 import c13 from '../../../../../Images/c13.png'
 import kc5 from '../../../../../Images/kc5.png'
+import Subtitle from '../../../../Subtitle/Subtitle'
 
 
 const Structure = () => {
@@ -93,61 +94,42 @@ const Structure = () => {
                     <div className="contentwrapper" id="home">
                         <FloatingActionButtons back="/overview/basis" forward="/overview/budgetprocess" />
                         <Title id="anchor">
-                            {ctx.chapter1kannada.Content.para29}
+                            {ctx.chapter1kannada.Content.para31}
                         </Title>
 
-                        <Para>
-                            {ctx.chapter1kannada.Content.para29a}
-                        </Para>
-
-
-                        <ContentSlider
-                            position="left"
-                            content={ctx.chapter1kannada.Content.para27a}
-                            title="ಸಂಚಿತ ನಿಧಿ"
-                        />
-                        <ContentSlider
-                            position="right"
-                            content={ctx.chapter1kannada.Content.para27b}
-                            title="ಸಾದಿಲ್ವಾರು ನಿಧಿ"
-                        />
-                        <ContentSlider
-                            position="left"
-                            content={ctx.chapter1kannada.Content.para27c}
-                            title="ಸಾರ್ವಜನಿಕ ಲೆಕ್ಕ"
-                        />
-
-                        <Para>
-                            {ctx.chapter1kannada.Content.para30}
-                        </Para>
-                        {["para31", "para32", "para33"].map((item, ind) =>
+                       
+                        {["para32","para33","para34","para35"].map((item, ind) =>
                             <Para key={ind / 10}>
-                                <li>
-                                    {ctx.chapter1kannada.Content[item]}
-                                </li>
+                                {ctx.chapter1kannada.Content[item]}
                             </Para>
                         )}
-                        {["para34", "para35"].map((item, ind) =>
+                         <Subtitle>
+                            {ctx.chapter1kannada.Content.para36}
+                        </Subtitle>
+                        <Subtitle>
+                            {ctx.chapter1kannada.Content.para37}
+                        </Subtitle>
+                        {["para38"].map((item, ind) =>
                             <Para key={ind / 10}>
-                                <li style={{ marginLeft: "25px", listStyle: "square" }}>
-                                    {ctx.chapter1kannada.Content[item]}
-                                </li>
+                                {ctx.chapter1kannada.Content[item]}
                             </Para>
                         )}
-                        {["para36"].map((item, ind) =>
+                         <Subtitle>
+                            {ctx.chapter1kannada.Content.para39}
+                        </Subtitle>
+                        {["para4"].map((item, ind) =>
                             <Para key={ind / 10}>
-                                <li>
-                                    {ctx.chapter1kannada.Content[item]}
-                                </li>
+                                {ctx.chapter1kannada.Content[item]}
                             </Para>
                         )}
-                        <Para>
-                            {ctx.chapter1kannada.Content["para37"]}
-                        </Para>
-                        <Title>
-                        ನಕ್ಷೆ-1.5: ಸರ್ಕಾರಿ ಲೆಕ್ಕಗಳ ರಚನೆಯ ಚಿತ್ರಾತ್ಮಕ ರೂಪ
-                        </Title>
-                      
+                        <Subtitle>
+                            {ctx.chapter1kannada.Content.para40}
+                        </Subtitle>
+                        {["para41","para42"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter1kannada.Content[item]}
+                            </Para>
+                        )}
                         <ImageComponent src={kc5}  aspectRatio={1 / 0.5} />
                     </div>
                 </div>

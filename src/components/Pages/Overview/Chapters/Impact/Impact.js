@@ -62,36 +62,20 @@ const Impact = () => {
                     <div className="contentwrapper" id="home">
                         <FloatingActionButtons back="/overview/fisc-situation" forward="/finances" />
                         <Title id="anchor">
-                            {ctx.chapter1kannada.Content.para71}
+                            {ctx.chapter1kannada.Content.para72}
                         </Title>
 
-                        {["para72"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapter1kannada.Content[item]}
-                            </Para>
-                        )}
-                        <Table7kan/>
                         
-                        {["f14"].map((item, ind) =>
+                        {["para73"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter1kannada.Content[item]}
                             </Para>
                         )}
-                        <Para>
-                            {ctx.chapter1kannada.Content["para73"]}
-                        </Para>
-                        {["para74", "para75", "para76", "para77"].map((item, ind) =>
-                                <Para key={ind / 10}>
-                                    <li>
-                                        {ctx.chapter1kannada.Content[item]}
-                                    </li>
-                                </Para>
-                            )}
-                        {["para78"].map((item, ind) =>
-                                <Para key={ind / 10}>
-                                        {ctx.chapter1kannada.Content[item]}
-                                </Para>
-                            )}
+                         {["para74","para75","para76","para77","para78","para79","para8"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter1kannada.Content[item]}
+                            </Para>
+                        )}
 
                     </div>
                 </div>

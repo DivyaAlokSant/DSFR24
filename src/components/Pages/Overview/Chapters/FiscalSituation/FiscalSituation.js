@@ -111,51 +111,36 @@ const FiscalSituation = () => {
                     <div className="contentwrapper" id="home">
                         <FloatingActionButtons back="/overview/fiscalparams" forward="/overview/impact" />
                         <Title id="anchor">
-                            {ctx.chapter1kannada.Content.para59}
+                            {ctx.chapter1kannada.Content.para64}
                         </Title>
-                        {["para60"].map((item, ind) =>
+                        
+                        {["para65"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter1kannada.Content[item]}
                             </Para>
                         )}
-                        <Subtitle>
-                            {ctx.chapter1kannada.Content.para61}
+                         <Subtitle>
+                            {ctx.chapter1kannada.Content.para65a}
                         </Subtitle>
-                        {["para62"].map((item, ind) =>
+                        {["para66"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter1kannada.Content[item]}
                             </Para>
                         )}
-                        <Table5kan />
-                        {["f11"].map((item, ind) =>
+                         {["para67","para68","para69"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter1kannada.Content[item]}
                             </Para>
                         )}
-                        {["para63", "para64", "para65","para65a"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapter1kannada.Content[item]}
-                            </Para>
-                        )}
-
-
-                        <Subtitle>
-                            {ctx.chapter1kannada.Content["para66"]}
+                          <Subtitle>
+                            {ctx.chapter1kannada.Content.para7}
                         </Subtitle>
-
-                        {["para67", "para68"].map((item, ind) =>
+                        {["para70"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter1kannada.Content[item]}
                             </Para>
                         )}
-
-                        <Table6kan />
-                        {["f12","f13","f13a"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapter1kannada.Content[item]}
-                            </Para>
-                        )}
-                        {["para69"].map((item, ind) =>
+                          {["para71"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter1kannada.Content[item]}
                             </Para>
