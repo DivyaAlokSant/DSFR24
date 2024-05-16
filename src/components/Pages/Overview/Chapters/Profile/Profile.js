@@ -16,6 +16,7 @@ import kc4 from '../../../../../Images/kc4.png'
 import c11 from '../../../../../Images/C11.png'
 import c12 from  '../../../../../Images/c12.png'
 import Subtitle from '../../../../Subtitle/Subtitle'
+import CustomTable from '../../../../CustomTable/CustomTable'
 //import TableauChart from '../../../../TablueChart/TableauChart'
 
 const Profile = () => {
@@ -210,6 +211,11 @@ const Profile = () => {
                                 {ctx.chapter1kannada.Content[item]}
                             </Para>
                         )}
+                         <CustomTable title={"ಕೋಷ್ಟಕ-1.1: ಜಿಡಿಪಿ/ಜಿವಿಎಗೆ ಹೋಲಿಸಿದರೆ ಜಿಎಸ್‌ಡಿಪಿ/ಜಿಎಸ್‌ವಿಎಗಳ ಪ್ರವೃತ್ತಿಗಳು(ಪ್ರಸಕ್ತ ದರಗಳಲ್ಲಿ)"}
+
+
+                                columns={ctx.tables1.Table1}
+                                data={ctx.tables1.Table1} />
                         {["para22","para23"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter1kannada.Content[item]}
@@ -230,14 +236,7 @@ const Profile = () => {
 
 
 
-                        <Title>
-                            {ctx.chapter1kannada.Content.para10}
-                        </Title>
-                        {["para11", "para11a"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapter1kannada.Content[item]}
-                            </Para>
-                        )}
+                       
 
                         {/* Table 1 goes here */}
                         <Table1kan id="table1" />
@@ -279,11 +278,7 @@ const Profile = () => {
 
                             {ctx.chapter1kannada.Content.para12.substring(413,)}
                         </Para> */}
-                        {["para13", "para13a"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapter1kannada.Content[item]}
-                            </Para>
-                        )}
+                       
                         <Title>
                             ನಕ್ಷೆ-1.2: ರಾಜ್ಯದ ಒಟ್ಟು ಮೌಲ್ಯಾದಾರಿತಕ್ಕೆ ವಿಭಾಗೀಯ ಕೊಡುಗೆಯಲ್ಲಿನ ಬದಲಾವಣೆ
                             (೨೦೧೭-೧೮ ಮತ್ತು ೨೦೨೧-೨೨)
