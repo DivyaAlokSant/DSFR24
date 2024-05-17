@@ -44,10 +44,10 @@ const Mandate = () => {
 
 
                         <Title>
-                            {ctx.chapter5kannada.Content.para6}
+                            {ctx.chapter5kannada.Content.para7}
                         </Title>
                         <Para>
-                        {ctx.chapter5kannada.Content.para7}
+                        {ctx.chapter5kannada.Content.para8}
                         </Para>
 
                     </div>

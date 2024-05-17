@@ -8,6 +8,7 @@ import './../../Overview.css'
 import { FaSpinner } from 'react-icons/fa'
 import Table2 from '../../../Tables/Chapter1/Table2'
 import Table2kan from '../../../Tables/Chapter1kan/Table2'
+import CustomTable from '../../../../CustomTable/CustomTable'
 
 
 

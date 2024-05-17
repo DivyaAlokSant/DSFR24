@@ -84,19 +84,36 @@ const Spse = () => {
 
 
                         <Title>
-                            {ctx.chapter5kannada.Content.para8}
+                            {ctx.chapter5kannada.Content.para10}
                         </Title>
-                        {["para9", "para10"].map((item, ind) =>
+                        <Title>
+                            {ctx.chapter5kannada.Content.para10a}
+                        </Title>
+                        {["para11", "para12"].map((item, ind) =>
                             <Para key={ind / 10}>
                             
                                     {ctx.chapter5kannada.Content[item]}
                             
                             </Para>)}
+                            <Title>
+                        {ctx.chapter5kannada.Content.para13}
+                        </Title>
+                        {["para14"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                            
+                                    {ctx.chapter5kannada.Content[item]}
+                            
+                            </Para>)}
+                        {["para15"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                            
+                                    {ctx.chapter5kannada.Content[item]}
+                            
+                            </Para>)}
+                        
                         <Table1kan />
 
-                        <Para>
-                        {ctx.chapter5kannada.Content.para10a}
-                        </Para>    
+                        
 
                     </div>
                 </div>

@@ -58,7 +58,7 @@ const Definition = () => {
                         <Title>
                             {ctx.chapter5kannada.Content.para3}
                         </Title>
-                        {["para4", "para5"].map((item, ind) =>
+                        {["para4","para5","para6"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 
                                     {ctx.chapter5kannada.Content[item]}

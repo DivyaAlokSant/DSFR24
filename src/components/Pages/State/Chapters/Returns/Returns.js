@@ -107,38 +107,41 @@ const Returns = () => {
                     <Navbar />
                     <div className="contentwrapper" id="home">
                     <FloatingActionButtons back="/State/Investment" forward="/State/Debt" />
-
-
-                        <Title>
-                            {ctx.chapter5kannada.Content.para25}
+                    <Title>
+                            {ctx.chapter5kannada.Content.para32}
                         </Title>
-                        <Subtitle>
-                            <i>
-                            {ctx.chapter5kannada.Content.para26}
-                            </i>
-                        </Subtitle>
-                        <Para>
-                            {ctx.chapter5kannada.Content.para20}
-                        </Para> 
-                        <Para>
-                            {ctx.chapter5kannada.Content.para27}
-                        </Para>
+                        <Title>
+                            {ctx.chapter5kannada.Content.para33}
+                        </Title>
+                        {["para34"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter5kannada.Content[item]}
+                            </Para>
+                        )}
+                         {["para35"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter5kannada.Content[item]}
+                            </Para>
+                        )}
+                     <Title>
+                            {ctx.chapter5kannada.Content.para36}
+                     </Title>
+                     {["para37"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter5kannada.Content[item]}
+                            </Para>
+                        )}
+                     {["para38","para39","para40"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter5kannada.Content[item]}
+                            </Para>
+                        )}
+
+
+
                         <Table5kan />
 
-                        <Para>
-                            {ctx.chapter5kannada.Content.para28}
-                        </Para>
-                        <Subtitle>
-                            <i>
-                            {ctx.chapter5kannada.Content.para29}
-                            </i>
-                        </Subtitle>
-                        <Para>
-                            {ctx.chapter5kannada.Content.para30}
-                        </Para> 
-                        <h3 className='headnote'>
-                            ₹  ಕೋಟಿಗಳಲ್ಲಿ
-                        </h3>
+                        
                         <Table6kan />
                         
                         <Para>

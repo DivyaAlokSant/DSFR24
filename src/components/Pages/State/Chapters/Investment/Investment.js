@@ -148,17 +148,58 @@ const Investment = () => {
 
 
                         <Title>
-                            {ctx.chapter5kannada.Content.para11}
+                            {ctx.chapter5kannada.Content.para16}
                         </Title>
-                        <Subtitle>
-                            <i>
-                            {ctx.chapter5kannada.Content.para12}
-                            </i>
-                        </Subtitle>
+                        <Title>
+                            {ctx.chapter5kannada.Content.para17}
+                        </Title>
                         <Para>
-                            {ctx.chapter5kannada.Content.para13}
+                            {ctx.chapter5kannada.Content.para18}
                         </Para>
+                        {["para19","para21"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter5kannada.Content[item]}
+                            </Para>
+                        )}
+                         <Title>
+                            {ctx.chapter5kannada.Content.para22}
+                        </Title>
+                        <Para>
+                            {ctx.chapter5kannada.Content.para23}
+                        </Para>
+                        <Title>
+                            {ctx.chapter5kannada.Content.para24}
+                        </Title>
+                        <Title>
+                            {ctx.chapter5kannada.Content.para25}
+                        </Title>
+                        <Para>
+                            {ctx.chapter5kannada.Content.para26}
+                        </Para>
+                        <Title>
+                            {ctx.chapter5kannada.Content.para20}
+                        </Title>
+                        <Para>
+                            {ctx.chapter5kannada.Content.para27}
+                        </Para>
+                        <Title>
+                            {ctx.chapter5kannada.Content.para28}
+                        </Title>
+                        <Para>
+                            {ctx.chapter5kannada.Content.para29}
+                        </Para>
+                        <Para>
+                            {ctx.chapter5kannada.Content.para30}
+                        </Para>
+                        <Para>
+                            {ctx.chapter5kannada.Content.para31}
+                        </Para>
+                        
+                       
 
+
+                      
+                        
                         <Table2kan />
 
                         <h4 className='footnote'>
@@ -168,48 +209,14 @@ const Investment = () => {
                             </i>
                         </h4>
 
-                        <Para>
-                            {ctx.chapter5kannada.Content.para14}
-                        </Para>
-                        <Subtitle>
-                            <i>
-                            {ctx.chapter5kannada.Content.para15}
-                            </i>
-                        </Subtitle>
-                        <Para>
-                            {ctx.chapter5kannada.Content.para16}
-                        </Para>    
-                        <Subtitle>
-                            <i>
-                            {ctx.chapter5kannada.Content.para17}
-                            </i>
-                        </Subtitle>
-                        <Para>
-                            {ctx.chapter5kannada.Content.para18}
-                        </Para>  
-                        <Subtitle>
-                            <i>
-                            {ctx.chapter5kannada.Content.para19}
-                            </i>
-                        </Subtitle>
-                        <Para>
-                            {ctx.chapter5kannada.Content.para21}
-                        </Para> 
+                        
 
                         <Table3kan />
 
-                        <Para>
-                            {ctx.chapter5kannada.Content.para22}
-                        </Para>
-
+                       
                         <Table4kan />
 
-                        <Para>
-                            {ctx.chapter5kannada.Content.para23}
-                        </Para>
-                        <Para>
-                            {ctx.chapter5kannada.Content.para24}
-                        </Para>
+                      
 
                     </div>
                 </div>

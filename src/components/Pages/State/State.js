@@ -48,23 +48,15 @@ const State = () => {
                     <div className="contentwrapper" id="home">
                     <FloatingActionButtons back="/quality/recommendations" forward="/State/Definition" />
                     <Title>
-                   {ctx.execsummarykan.para47}
+                            {ctx.chapter5kannada.Content.para1}
                         </Title>
-                        <Para>
-                        {ctx.execsummarykan.para48}
-                        </Para>
-                        <Para>
-                        {ctx.execsummarykan.para49}
-                        </Para>
-                        <Para>
-                        {ctx.execsummarykan.para50}
-                        </Para>
-                        <Para>
-                        {ctx.execsummarykan.para51}
-                        </Para>
-                        <Para>
-                        {ctx.execsummarykan.para52}
-                        </Para>
+                        {["para2"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                
+                                    {ctx.chapter5kannada.Content[item]}
+                                
+                            </Para>)}
+                        
                         
                     </div>
                 </div>
