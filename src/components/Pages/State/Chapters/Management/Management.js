@@ -44,9 +44,9 @@ const Management= () => {
 
 
                         <Title>
-                            {ctx.chapter5kannada.Content.Para99}
+                            {ctx.chapter5kannada.Content.Para126}
                         </Title>
-                        {["Para100", "Para101"].map((item, ind) =>
+                        {["Para127", "Para128"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter5kannada.Content[item]}
                             </Para>)} 

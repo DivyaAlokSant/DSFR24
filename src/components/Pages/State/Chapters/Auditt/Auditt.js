@@ -44,10 +44,10 @@ const Auditt = () => {
 
 
                         <Title>
-                            {ctx.chapter5kannada.Content.Para52s}
+                            {ctx.chapter5kannada.Content.Para66}
                         </Title>
                         <Para>
-                            {ctx.chapter5kannada.Content.Para53}
+                            {ctx.chapter5kannada.Content.Para67}
                         </Para>
 
                     </div>

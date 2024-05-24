@@ -90,15 +90,15 @@ const Loss = () => {
 
 
                         <Title>
-                            {ctx.chapter5kannada.Content.para46}
+                            {ctx.chapter5kannada.Content.Para54}
                         </Title>
                         <Subtitle>
                             <i>
-                            {ctx.chapter5kannada.Content.para47}
+                            {ctx.chapter5kannada.Content.Para55}
                             </i>
                         </Subtitle>
                         <Para>
-                            {ctx.chapter5kannada.Content.para48}
+                            {ctx.chapter5kannada.Content.Para56}
                         </Para>
                         <h3 className='headnote'>
                             ₹  ಕೋಟಿಗಳಲ್ಲಿ
@@ -106,14 +106,14 @@ const Loss = () => {
                         <Table10kan />
 
                         <Para>
-                            {ctx.chapter5kannada.Content.para49}
+                            {ctx.chapter5kannada.Content.Para57}
                         </Para> 
                         <Subtitle>
                             <i>
-                            {ctx.chapter5kannada.Content.para50}
+                            {ctx.chapter5kannada.Content.Para58}
                             </i>
                         </Subtitle>
-                        {["Para51", "Para52", "Parab53"].map((item, ind) =>
+                        {["Para59", "Para60", "Para61","Para62","Para63","Para64","Para65"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter5kannada.Content[item]}
                             </Para>)}

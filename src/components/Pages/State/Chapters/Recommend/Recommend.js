@@ -25,7 +25,7 @@ const Recommend = () => {
                         <Subtitle>
                             {ctx.chapterFive.para133}
                         </Subtitle>
-                        {["para134", "para135", "para136"].map(
+                        {["Para134", "Para135", "Para136"].map(
                             (item, ind) => (
                                 <Para key={ind / 10}>
                                     <b>
@@ -48,9 +48,9 @@ const Recommend = () => {
 
 
                         <Title>
-                            {ctx.chapter5kannada.Content.Para106}
+                            {ctx.chapter5kannada.Content.Para135}
                         </Title>
-                        {["Para107", "Para108"].map((item, ind) =>
+                        {["Para136", "Para137","Para138"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 <h3>
                                     <li>
@@ -60,7 +60,11 @@ const Recommend = () => {
                                     </li>
                                 </h3>
                             </Para>)}
-
+        {["Para139","Para140"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter5kannada.Content[item]}
+                            </Para>
+                        )}
 
                     </div>
                 </div>

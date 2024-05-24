@@ -44,9 +44,9 @@ const Performance = () => {
 
 
                         <Title>
-                            {ctx.chapter5kannada.Content.Para54}
+                            {ctx.chapter5kannada.Content.Para68}
                         </Title>
-                        {["Para55", "Para56"].map((item, ind) =>
+                        {["Para69", "Para70"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter5kannada.Content[item]}
                             </Para>)}

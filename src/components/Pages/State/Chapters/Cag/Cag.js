@@ -54,41 +54,35 @@ const Cag = () => {
 
 
                         <Title>
-                            {ctx.chapter5kannada.Content.Para68}
+                            {ctx.chapter5kannada.Content.Para85}
                         </Title>
                         <Subtitle>
                             <i>
-                            {ctx.chapter5kannada.Content.Para69}
+                            {ctx.chapter5kannada.Content.Para86}
                             </i>
                         </Subtitle>
                         <Para>
-                            {ctx.chapter5kannada.Content.Para70}
+                            {ctx.chapter5kannada.Content.Para87}
                         </Para> 
                         <Subtitle>
                             <i>
-                            {ctx.chapter5kannada.Content.Para71}
+                            {ctx.chapter5kannada.Content.Para88}
                             </i>
                         </Subtitle>
-                        {["Para72", "Para73"].map((item, ind) =>
+                        {["Para89", "Para90","Para91","Para92"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter5kannada.Content[item]}
                             </Para>)}
-                        {["Para74", "Para75"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                <li>
-                                {ctx.chapter5kannada.Content[item]}
-                                </li>
-                            </Para>)}
-                        <Subtitle>
+                            <Subtitle>
                             <i>
-                            {ctx.chapter5kannada.Content.Para76}
+                            {ctx.chapter5kannada.Content.Para93}
                             </i>
                         </Subtitle>
-                        {["Para77", "Para78", "Para79"].map((item, ind) =>
+                        {["Para94", "Para95","Para96"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter5kannada.Content[item]}
                             </Para>)}
-
+                       
 
                     </div>
                 </div>

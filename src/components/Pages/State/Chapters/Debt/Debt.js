@@ -66,24 +66,28 @@ const Debt = () => {
 
 
                         <Title>
-                            {ctx.chapter5kannada.Content.para32}
+                            {ctx.chapter5kannada.Content.para41}
                         </Title>
                         <Subtitle>
                             <i>
-                            {ctx.chapter5kannada.Content.para33}
+                            {ctx.chapter5kannada.Content.para42}
                             </i>
                         </Subtitle>
                         <Para>
-                            {ctx.chapter5kannada.Content.para34}
+                            {ctx.chapter5kannada.Content.para43}
                         </Para>
+                        <Para>
+                            {ctx.chapter5kannada.Content.para44}
+                        </Para>
+                      
+                       
+
                         
                         <Table7kan />
                         <h3>
                         ಆಕರ: ರಾಜ್ಯ ಸಾರ್ವಜನಿಕ ವಲಯ ಉದ್ದಿಮೆಗಳ ಇತ್ತೀಚಿನ ಆರ್ಥಿಕ ವಿವರಣಾ ಪಟ್ಟಗಳು
                         </h3>
-                        <Para>
-                            {ctx.chapter5kannada.Content.para35}
-                        </Para>
+                       
 
                     </div>
                 </div>

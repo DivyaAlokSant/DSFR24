@@ -87,12 +87,28 @@ const OperatingEff = () => {
                     <FloatingActionButtons back="/State/Performance" forward="/State/Loss"  />
 
 
-                        <Title>
-                            {ctx.chapter5kannada.Content.para36}
+                    <Title>
+                            {ctx.chapter5kannada.Content.para47}
                         </Title>
+                        <Subtitle>
+                            <i>
+                            {ctx.chapter5kannada.Content.para48}
+                            </i>
+                        </Subtitle>
                         <Para>
-                            {ctx.chapter5kannada.Content.para37}
+                            {ctx.chapter5kannada.Content.para49}
                         </Para>
+                        <Para>
+                            {ctx.chapter5kannada.Content.Para50}
+                        </Para>
+                        <Title>
+                            {ctx.chapter5kannada.Content.Para51}
+                        </Title>
+                        {["Para52","Parab53","Para52s"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter5kannada.Content[item]}
+                            </Para>
+                        )}
                        
                     </div>
                 </div>

@@ -51,9 +51,9 @@ const Conclusions= () => {
 
 
                         <Title>
-                            {ctx.chapter5kannada.Content.Para102}
+                            {ctx.chapter5kannada.Content.Para129}
                         </Title>
-                        {["Para103", "Para104", "Para105"].map((item, ind) =>
+                        {["Para130", "Para131", "Para132","Para133","Para134"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 <li>   
                                 {ctx.chapter5kannada.Content[item]}

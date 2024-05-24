@@ -144,9 +144,7 @@ const Returns = () => {
                         
                         <Table6kan />
                         
-                        <Para>
-                            {ctx.chapter5kannada.Content.para31}
-                        </Para>
+                       
                     </div>
                 </div>
                 : <div>

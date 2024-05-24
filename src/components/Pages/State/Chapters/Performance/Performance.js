@@ -49,48 +49,15 @@ const Performance = () => {
                     <div className="contentwrapper" id="home">
                     <FloatingActionButtons back="/State/Debt" forward="/State/operating-efficiency"  />
 
-
-                        <Title>
-                            {ctx.chapter5kannada.Content.para36}
+                    <Title>
+                            {ctx.chapter5kannada.Content.para45}
                         </Title>
                         <Para>
-                            {ctx.chapter5kannada.Content.para37}
+                            {ctx.chapter5kannada.Content.para46}
                         </Para>
-                        <Subtitle>
-                            <i>
-                            {ctx.chapter5kannada.Content.para38}
-                            </i>
-                        </Subtitle>
-                        <Para>
-                            {ctx.chapter5kannada.Content.para39}
-                        </Para> 
+                      
 
-
-                        <Table8kan />
-                        <h3>
-                        ಆಕರ: ರಾಜ್ಯ ಸಾರ್ವಜನಿಕ ವಲಯ ಉದ್ದಿಮೆಗಳ ಇತ್ತೀಚಿನ ಆರ್ಥಿಕ ವಿವರಣಾ ಪಟ್ಟಗಳು
-                        </h3>
-                        <Para>
-                            {ctx.chapter5kannada.Content.para40}
-                        </Para> 
-                        <Subtitle>
-                            <i>
-                            {ctx.chapter5kannada.Content.para41}
-                            </i>
-                        </Subtitle>
-                        <Para>
-                            {ctx.chapter5kannada.Content.para42}
-                        </Para> 
-                        <Para>
-                            {ctx.chapter5kannada.Content.para43}
-                        </Para> 
-                        <Para>
-                            {ctx.chapter5kannada.Content.para44}
-                        </Para> 
-                        <Table9kan />
-                        <Para>
-                            {ctx.chapter5kannada.Content.para45}
-                        </Para>
+                       
                     </div>
                 </div>
                 : <div>

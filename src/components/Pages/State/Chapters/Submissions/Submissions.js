@@ -109,37 +109,34 @@ const Submissions = () => {
 
 
                         <Title>
-                            {ctx.chapter5kannada.Content.Para57}
+                            {ctx.chapter5kannada.Content.Para71}
                         </Title>
                         <Subtitle>
                             <i>
-                            {ctx.chapter5kannada.Content.Para58}
+                            {ctx.chapter5kannada.Content.Para72}
                             </i>
                         </Subtitle>
-                        {["Para59", "Para60","Para61","Para62"].map((item, ind) =>
+                        {["Para73", "Para74","Para75","Para76","Para77"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter5kannada.Content[item]}
                             </Para>)}
                         <Subtitle>
                             <i>
-                            {ctx.chapter5kannada.Content.Para63}
+                            {ctx.chapter5kannada.Content.Para77a}
                             </i>
                         </Subtitle>
-                        <Para>
-                            {ctx.chapter5kannada.Content.Para64}
-                        </Para> 
+                        {["Para78","Para79"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter5kannada.Content[item]}
+                            </Para>
+                        )}
+                        {["Para80","Para81"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter5kannada.Content[item]}
+                            </Para>
+                        )}
                         <Table11kan />
-                        <Para>
-                            {ctx.chapter5kannada.Content.Para65}
-                        </Para>
-                        <Subtitle>
-                            <i>
-                            {ctx.chapter5kannada.Content.Para66}
-                            </i>
-                        </Subtitle>
-                        <Para>
-                            {ctx.chapter5kannada.Content.Para67}
-                        </Para> 
+                       
 
 
 
