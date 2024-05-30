@@ -15,6 +15,7 @@ import kc3 from '../../../../../Images/kc3.png'
 import kc4 from '../../../../../Images/kc4.png'
 import c11 from '../../../../../Images/C11.png'
 import c12 from  '../../../../../Images/c12.png'
+
 import Subtitle from '../../../../Subtitle/Subtitle'
 import CustomTable from '../../../../CustomTable/CustomTable'
 //import TableauChart from '../../../../TablueChart/TableauChart'
@@ -214,8 +215,8 @@ const Profile = () => {
                          <CustomTable title={"ಕೋಷ್ಟಕ-1.1: ಜಿಡಿಪಿ/ಜಿವಿಎಗೆ ಹೋಲಿಸಿದರೆ ಜಿಎಸ್‌ಡಿಪಿ/ಜಿಎಸ್‌ವಿಎಗಳ ಪ್ರವೃತ್ತಿಗಳು(ಪ್ರಸಕ್ತ ದರಗಳಲ್ಲಿ)"}
 
 
-                                columns={ctx.tables1.Table1}
-                                data={ctx.tables1.Table1} />
+                                columns={ctx.tables1.Tablekan1}
+                                data={ctx.tables1.Tablekan1} />
                         {["para22","para23"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter1kannada.Content[item]}
@@ -226,7 +227,7 @@ const Profile = () => {
                                 {ctx.chapter1kannada.Content[item]}
                             </Para>
                         )}
-                        
+                  
                         
                        
                        
@@ -239,7 +240,7 @@ const Profile = () => {
                        
 
                         {/* Table 1 goes here */}
-                        <Table1kan id="table1" />
+                       
                         <h4>
                             {ctx.chapter1kannada.Content.t1f1} <br></br>
                             {ctx.chapter1kannada.Content.t1f2}<br></br>
