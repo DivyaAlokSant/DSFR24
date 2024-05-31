@@ -43,17 +43,15 @@ import Table25kan from '../../../Tables/Chapter2kan/Table25'
 import Table26kan from '../../../Tables/Chapter2kan/Table26'
 import Table27kan from '../../../Tables/Chapter2kan/Table27'
 import Table28kan from '../../../Tables/Chapter2kan/Table28'
-import k27 from '../../../../../Images/k27.png'
-import k28 from '../../../../../Images/k28.png'
+
+
 import c29 from '../../../../../Images/c29.png'
-import k29 from '../../../../../Images/k29.png'
+
 import c210 from '../../../../../Images/c210.png'
-import k210 from '../../../../../Images/k210.png'
+
 import c211 from '../../../../../Images/c211.png'
 import c212 from '../../../../../Images/c212.png'
 import c213 from '../../../../../Images/c213.png'
-import k211 from '../../../../../Images/k211.png'
-import k212a from '../../../../../Images/k212a.png'
 import ImageComponent from 'material-ui-image'
 
 
@@ -590,7 +588,7 @@ const Application = () => {
                         <Para>
                             {ctx.chapter2kannada.Content.para77}
                         </Para>
-                        <ImageComponent src={k27} alt="chart23" aspectRatio={1 / 0.5} />
+                        {/* <ImageComponent src={k27} alt="chart23" aspectRatio={1 / 0.5} /> */}
                         {/* <Chart7 />
                         <Para>
                             {ctx.chapter2kannada.Content["t3fb"]}
@@ -598,7 +596,7 @@ const Application = () => {
                         <Para>
                             {ctx.chapter2kannada.Content.para78}
                         </Para>
-                        <ImageComponent src={k28} alt="chart23" aspectRatio={1 / 0.6} />
+                        {/* <ImageComponent src={k28} alt="chart23" aspectRatio={1 / 0.6} /> */}
                         {/* <Chart8 />
                         <Para>
                             {ctx.chapter2kannada.Content["t3fb"]}
@@ -628,7 +626,7 @@ const Application = () => {
                         <Para>
                             {ctx.chapter2kannada.Content.para84}
                         </Para>
-                        <ImageComponent src={k29} alt="chart23" aspectRatio={1 / 0.5} />
+                        {/* <ImageComponent src={k29} alt="chart23" aspectRatio={1 / 0.5} /> */}
                         {/* <Chart9 />
                         <Para>
                             {ctx.chapter2kannada.Content["t3fb"]}
@@ -684,7 +682,7 @@ const Application = () => {
                             <br></br>
                             * ಪಂಚಾಯತ್‌ ರಾಜ್‌ ಸಂಸ್ಥೆಗಳ ಸಂಬಳೇತರ ಬಾಬ್ತುಗಳು ಮತ್ತು ಪಂಚಾಯತ್‌ ರಾಜ್‌ ಸಂಸ್ಥೆಗಳ ಮತ್ತು ನಗರ ಸ್ಥಳೀಯ ಸಂಸ್ಥೆಗಳಿಗೆ ಸಂಬಂಧಿಸಿದ ಇತರ ವೆಚ್ಚಗಳ ಬಾಬ್ತುಗಳನ್ನು ಒಳಗೊಂಡಿದೆ.
                         </h3>
-                        <ImageComponent src={k210} alt="chart23" aspectRatio={1 / 0.5} />
+                        {/* <ImageComponent src={k210} alt="chart23" aspectRatio={1 / 0.5} /> */}
 
                         {["para95"].map((item, ind) =>
                             <Para key={ind / 10}>
@@ -729,7 +727,7 @@ const Application = () => {
                             {ctx.chapter2kannada.Content.para119}
                         </Para>
 
-                        <ImageComponent src={k211} alt="chart23" aspectRatio={1 / 0.6} />
+                        {/* <ImageComponent src={k211} alt="chart23" aspectRatio={1 / 0.6} /> */}
 
                         {/* <Chart11 />
                         <Para>
@@ -841,7 +839,7 @@ const Application = () => {
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
                             </Para>)}
-                        <ImageComponent src={k212a} alt="chart23" aspectRatio={1 / 0.6} />
+                        {/* <ImageComponent src={k212a} alt="chart23" aspectRatio={1 / 0.6} /> */}
                         <Para>
                             {ctx.chapter2kannada.Content.para147}
                         </Para>

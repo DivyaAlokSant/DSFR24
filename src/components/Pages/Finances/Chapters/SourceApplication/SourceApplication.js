@@ -7,7 +7,7 @@ import { FaSpinner } from 'react-icons/fa'
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton"
 import './../../Finances.css'
 import c21 from '../../../../../Images/c21.png'
-import k212 from '../../../../../Images/k212.png'
+
 import ImageComponent from 'material-ui-image'
 import Table2 from '../../../Tables/Chapter2/Table2'
 import Table2kan from '../../../Tables/Chapter2kan/Table2'
@@ -75,7 +75,7 @@ const  SourcesApplication = () => {
                                 * ಋಣ ಸ್ವೀಕೃತಿಗಳಡಿಯಲ್ಲಿ ರಾಜ್ಯಕ್ಕೆ ಬ್ಯಾಕ್-ಟು-ಬ್ಯಾಕ್ ಸಾಲವಾಗಿ ನೀಡಲಾದ ೨೦೨೦-೨೧ರಲ್ಲಿ `12,407 ಕೋಟಿ ಮತ್ತು ೨೦೨೧-೨೨ರಲ್ಲಿ  `೧೮,೧೦೯ ಕೋಟಿ  ಸರಕು ಮತ್ತು ಸೇವಾ ತೆರಿಗೆ ಪರಿಹಾರವನ್ನು, ಹಣಕಾಸು ಆಯೋಗವು ಸೂಚಿಸಬಹುದಾದ ಯಾವುದೇ ಮಾನದಂಡಗಳಿಗೆ ರಾಜ್ಯದ ಸಾಲವೆಂದು ಪರಿಗಣಿಸಲಾಗುವುದಿಲ್ಲ ಎಂದು ಭಾರತ ಸರ್ಕಾರದ ವೆಚ್ಚ ಇಲಾಖೆಯು ನಿರ್ಧರಿಸಿರುವುದರಿಂದ ಪರಿಣಾಮಕಾರಿ ಸಾರ್ವಜನಿಕ ಋಣ ಸ್ವೀಕೃತಿಗಳು (ನಿವ್ವಳ) ೨೦೨೦-೨೧ರಲ್ಲಿ `೬೧,೧೦೫ ಕೋಟಿ ಮತ್ತು ೨೦೨೧-೨೨ರಲ್ಲಿ `೪೮,೫೬೦ ಕೋಟಿ ಆಗುತ್ತದೆ.
                             </i>
                     </h4>
-                    <ImageComponent  src={k212} alt="chart23" aspectRatio={1 / 0.6} />
+                    {/* <ImageComponent  src={k212} alt="chart23" aspectRatio={1 / 0.6} /> */}
                     
                     <Para>
                         {ctx.chapter2kannada.Content.t2fa}

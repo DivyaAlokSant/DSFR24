@@ -10,7 +10,7 @@ import CustomTable from "../../../../CustomTable/CustomTable";
 import Table4kan from "../../../Tables/Chapter4kan/Table4";
 import Table4akan from "../../../Tables/Chapter4kan/Table4a";
 import ImageComponent from 'material-ui-image'
-import k42 from '../../../../../Images/k42.png'
+
 const Ndischarge = () => {
 
     const ctx = useContext(MyContext)
@@ -69,7 +69,7 @@ const Ndischarge = () => {
                              <h3 className="headnote">
                         (` ಕೋಟಿಗಳಲ್ಲಿ )
           </h3>
-                        <ImageComponent src={k42}  aspectRatio={1 / 0.5} />
+                        {/* <ImageComponent src={k42}  aspectRatio={1 / 0.5} /> */}
                        <h4> ಆಕರ: ಮಹಾಲೇಖಾಪಾಲರು (ಲೆ ಮತ್ತು ಹ) ಅವರ ಕಛೇರಿ </h4>
 
                         {["para25", "para26", "para27"].map((item, ind) =>

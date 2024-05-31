@@ -8,7 +8,7 @@ import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton
 import './../../Finances.css'
 import Table28 from '../../../Tables/Chapter2/Table28'
 import c214 from '../../../../../Images/c214.png'
-import k213 from '../../../../../Images/k213.png'
+
 import ImageComponent from 'material-ui-image'
 import Table29 from '../../../Tables/Chapter2/Table29'
 import Table29kan from '../../../Tables/Chapter2kan/Table29'
@@ -266,7 +266,7 @@ const PublicAccount = () => {
                             ಟಿಪ್ಪಣಿ : (+) ಎನ್ನುವುದು ಖರ್ಚು ಶಿಲ್ಕನ್ನು ಮತ್ತು (-) ಎನ್ನುವುದು ಜಮೆ ಶಿಲ್ಕನ್ನು ಸೂಚಿಸುತ್ತದೆ
                         </h3>
 
-                        <ImageComponent  src={k213} alt="chart23" aspectRatio={1 / 0.55} />
+                        {/* <ImageComponent  src={k213} alt="chart23" aspectRatio={1 / 0.55} /> */}
 
                         <Para>
                             {ctx.chapter2kannada.Content.para191}

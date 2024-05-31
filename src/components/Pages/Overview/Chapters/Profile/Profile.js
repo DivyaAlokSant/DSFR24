@@ -9,10 +9,10 @@ import { FaSpinner } from 'react-icons/fa'
 import Table1 from '../../../Tables/Chapter1/Table1'
 import Table1kan from '../../../Tables/Chapter1kan/Table1'
 import ImageComponent from 'material-ui-image'
-import kc1 from '../../../../../Images/kc1.png'
-import kc2 from '../../../../../Images/kc2.png'
-import kc3 from '../../../../../Images/kc3.png'
-import kc4 from '../../../../../Images/kc4.png'
+
+
+
+
 import c11 from '../../../../../Images/C11.png'
 import c12 from  '../../../../../Images/c12.png'
 
@@ -215,8 +215,8 @@ const Profile = () => {
                          <CustomTable title={"ಕೋಷ್ಟಕ-1.1: ಜಿಡಿಪಿ/ಜಿವಿಎಗೆ ಹೋಲಿಸಿದರೆ ಜಿಎಸ್‌ಡಿಪಿ/ಜಿಎಸ್‌ವಿಎಗಳ ಪ್ರವೃತ್ತಿಗಳು(ಪ್ರಸಕ್ತ ದರಗಳಲ್ಲಿ)"}
 
 
-                                columns={ctx.tables1.Tablekan1}
-                                data={ctx.tables1.Tablekan1} />
+                                columns={ctx.tables1kan.Table1}
+                                data={ctx.tables1kan.Table1} />
                         {["para22","para23"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter1kannada.Content[item]}
@@ -249,7 +249,7 @@ const Profile = () => {
                         <Title>
                             ನಕ್ಷೆ-1.1: ಭಾರತದ ಒಟ್ಟು ಆಂತರಿಕ ಉತ್ಪನ್ನ ಮತ್ತು ರಾಜ್ಯದ ಒಟ್ಟು ಆಂತರಿಕ ಉತ್ಪನ್ನದ ವೃದ್ಧಿ
                         </Title>
-                        <ImageComponent flex="2" aspectRatio="2" resizeMode='contain' src={kc1} color="#ffffff00" />
+                        {/* <ImageComponent flex="2" aspectRatio="2" resizeMode='contain' src={kc1} color="#ffffff00" /> */}
 
                         <h4 className='footnote'>
                             <i>
@@ -285,7 +285,7 @@ const Profile = () => {
                             (೨೦೧೭-೧೮ ಮತ್ತು ೨೦೨೧-೨೨)
 
                         </Title>
-                        <ImageComponent flex="2" aspectRatio="2" resizeMode='contain' src={kc2} color="#ffffff00" />
+                        {/* <ImageComponent flex="2" aspectRatio="2" resizeMode='contain' src={kc2} color="#ffffff00" /> */}
                         <h4>
                             ಆಕರ: ಕರ್ನಾಟಕದ ಆರ್ಥಿಕ ಸಮೀಕ್ಷೆ 2021-22
                             <br></br>
@@ -297,7 +297,7 @@ const Profile = () => {
                         <Title>
                             ನಕ್ಷೆ-1.3: ರಾಜ್ಯದ ಒಟ್ಟು ಆಂತರಿಕ ಉತ್ಪನ್ನದಲ್ಲಿ ವಿಭಾಗೀಯ ಬೆಳವಣಿಗೆ
                         </Title>
-                        <ImageComponent flex="2" aspectRatio="2" resizeMode='contain' src={kc3} color="#ffffff00" />
+                        {/* <ImageComponent flex="2" aspectRatio="2" resizeMode='contain' src={kc3} color="#ffffff00" /> */}
                         <h4>
                             ಆಕರ: ಆರ್ಥಿಕ ಮತ್ತು ಅಂಕಿಅಂಶಗಳ ನಿರ್ದೇಶನಾಲಯ, ಕರ್ನಾಟಕ ಸರ್ಕಾರ
 
@@ -313,7 +313,7 @@ const Profile = () => {
                         <Title>
                             ನಕ್ಷೆ-1.4: ೨೦೨೧-೨೨ರಲ್ಲಿ ರಾಜ್ಯದ ಒಟ್ಟು ಆಂತರಿಕ ಉತ್ಪನ್ನಕ್ಕೆ ವಿಭಾಗೀಯ ಕೊಡುಗೆ
                         </Title>
-                        <ImageComponent flex="2" aspectRatio="2" resizeMode='contain' src={kc4} color="#ffffff00" />
+                        {/* { <ImageComponent flex="2" aspectRatio="2" resizeMode='contain' src={k3} color="#ffffff00" /> } */}
                         <h4>
                             ಆಕರ: ಆರ್ಥಿಕ ಮತ್ತು ಅಂಕಿಅಂಶಗಳ ನಿರ್ದೇಶನಾಲಯ, ಕರ್ನಾಟಕ ಸರ್ಕಾರ
 

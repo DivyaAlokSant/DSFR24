@@ -11,7 +11,7 @@ import "./../../Budget.css";
 import ImageComponent from 'material-ui-image'
 import c31 from '../../../../../Images/c31.png'
 import c32 from '../../../../../Images/c32.png'
-import k31 from '../../../../../Images/k31.png'
+
 
 const BudgetProcess = () => {
   const ctx = useContext(MyContext);
@@ -73,7 +73,7 @@ const BudgetProcess = () => {
         <h3 className="headnote">
           (` ಕೋಟಿಗಳಲ್ಲಿ )
         </h3>
-        <ImageComponent src={k31} aspectRatio={1 / 0.5} />
+        {/* <ImageComponent src={k31} aspectRatio={1 / 0.5} /> */}
         {/* <Para>{ctx.chapterThree.Introduction.Para1}</Para> */}
 
       </div>

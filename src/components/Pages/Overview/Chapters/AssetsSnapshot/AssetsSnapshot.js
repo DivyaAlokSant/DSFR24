@@ -9,6 +9,7 @@ import { FaSpinner } from 'react-icons/fa'
 import Table3 from '../../../Tables/Chapter1/Table3'
 import Table3kan from '../../../Tables/Chapter1kan/Table3'
 import Subtitle from '../../../../Subtitle/Subtitle'
+import CustomTable from '../../../../CustomTable/CustomTable'
 
 
 const AssetsSnapshot = () => {
@@ -67,7 +68,11 @@ const AssetsSnapshot = () => {
                             </Para>
                         )}
                         
-                        <Table3kan />
+                        <CustomTable title={"ಕೋಷ್ಟಕ-1.3: ಆಸ್ತಿಗಳು ಮತ್ತು ಹೊಣೆಗಾರಿಕೆಗಳ ಸಂಕ್ಷಿಪ್ತ ಸ್ಥಿತಿ"}
+
+
+                         columns={ctx.tables1kan.Table3}
+                         data={ctx.tables1kan.Table3} />
                         <h4 className='footnote'>
                             <i>
                                 ಆಕರ: ಹಣಕಾಸು ಲೆಕ್ಕಗಳು

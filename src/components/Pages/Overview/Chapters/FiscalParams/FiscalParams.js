@@ -9,12 +9,13 @@ import { FaSpinner } from 'react-icons/fa'
 import Subtitle from "../../../../Subtitle/Subtitle"
 import Table4 from '../../../Tables/Chapter1/Table4'
 import Table4kan from '../../../Tables/Chapter1kan/Table4'
-import kc6 from '../../../../../Images/kc6.png'
-import kc7 from '../../../../../Images/kc7.png'
+
+
 import c14 from '../../../../../Images/c14.png'
 import c15 from '../../../../../Images/c15.png'
 import ImageComponent from 'material-ui-image'
 import Table3aa from '../../../Tables/Chapter1/Table3aa'
+import CustomTable from '../../../../CustomTable/CustomTable'
 const FiscalParams = () => {
 
     const ctx = useContext(MyContext)
@@ -152,6 +153,13 @@ const FiscalParams = () => {
                                 {ctx.chapter1kannada.Content[item]}
                             </Para>
                         )}
+                         <CustomTable title={"ಕೋಷ್ಠಕ-೧.೪: ೨೦೨೨-೨೩ರ ಅವಧಿಗೆ ಗುರಿಗಳಿಗೆ ಪ್ರತಿಯಾಗಿ ಪ್ರಮುಖ ಹಣಕಾಸಿನ ಮಿತಿಗಳಿಗೆ ಸಂಬಂಧಿಸಿದಂತೆ ಸಾಧನೆಗಳು"}
+
+
+                           columns={ctx.tables1kan.Table4}
+                               data={ctx.tables1kan.Table4} />
+
+
                          {["para58","para59"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter1kannada.Content[item]}

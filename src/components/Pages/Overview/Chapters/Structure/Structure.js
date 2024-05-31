@@ -9,7 +9,8 @@ import { FaSpinner } from 'react-icons/fa'
 import ContentSlider from '../../../../ContentSlider/ContentSlider'
 import ImageComponent from 'material-ui-image'
 import c13 from '../../../../../Images/c13.png'
-import kc5 from '../../../../../Images/kc5.png'
+import k3 from '../../../../../Images/k3.png'
+
 import Subtitle from '../../../../Subtitle/Subtitle'
 
 
@@ -130,7 +131,7 @@ const Structure = () => {
                                 {ctx.chapter1kannada.Content[item]}
                             </Para>
                         )}
-                        <ImageComponent src={kc5}  aspectRatio={1 / 0.5} />
+                        /<ImageComponent src={k3}  aspectRatio={1 / 0.5} /> 
                     </div>
                 </div>
                 : <div>

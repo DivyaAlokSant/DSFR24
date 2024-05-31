@@ -15,9 +15,9 @@ import Table8akan from '../../../Tables/Chapter3kan/Table8a'
 import Table8bkan from '../../../Tables/Chapter3kan/Table8b'
 import Table9kan from '../../../Tables/Chapter3kan/Table9'
 import CustomTable from "../../../../CustomTable/CustomTable";
-import k32 from '../../../../../Images/k32.png'
-import k32a from '../../../../../Images/k32a.png'
-import k33 from '../../../../../Images/k33.png'
+
+
+
 import c33 from '../../../../../Images/c33.png'
 import c34 from '../../../../../Images/c34.png'
 import c35 from '../../../../../Images/c35.png'
@@ -462,7 +462,7 @@ const Audit = () => {
         <h3 className="headnote">
           (` ಕೋಟಿಗಳಲ್ಲಿ )
         </h3>
-        <ImageComponent src={k32} aspectRatio={1 / 0.5} />
+        {/* <ImageComponent src={k32} aspectRatio={1 / 0.5} /> */}
         <h4> * ಅನಗತ್ಯ/ಅಧಿಕ/ಅಪರ್ಯಾಪ್ತ ಪೂರಕ ಅವಕಾಶಗಳನ್ನು ಲೆಕ್ಕ ಹಾಕಲು ಪುನರ್ವಿನಿಯೋಗ ಆದೇಶಗಳನ್ನು ಪರಿಗಣಿಸಿಲ್ಲ</h4>
         {["para67", "para68", "para69", "para70", "para71", "para72", "para73", "para74"].map(
           (item, ind) => (
@@ -482,7 +482,7 @@ const Audit = () => {
         <h3 className="headnote">
 
         </h3>
-        <ImageComponent src={k32a} aspectRatio={1 / 0.3} />
+        {/* <ImageComponent src={k32a} aspectRatio={1 / 0.3} /> */}
         <h4> ಆಕರ: ಧನವಿನಿಯೋಗ ಲೆಕ್ಕಗಳು</h4>
 
         {["para105", "para106", "para107"].map(
@@ -496,7 +496,7 @@ const Audit = () => {
         <h3 className="headnote">
           (` ಕೋಟಿಗಳಲ್ಲಿ)
         </h3>
-        <ImageComponent src={k33} aspectRatio={1 / 0.3} />
+        
         <h4>ಆಕರ: ಮಾಸಿಕ ಸಿವಿಲ್‌ ಲೆಕ್ಕಗಳು	</h4>
         <h3 className="headnote">
           (` ಕೋಟಿಗಳಲ್ಲಿ)

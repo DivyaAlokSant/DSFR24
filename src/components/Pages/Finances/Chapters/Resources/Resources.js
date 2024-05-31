@@ -7,19 +7,19 @@ import { FaSpinner } from 'react-icons/fa'
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton"
 import './../../Finances.css'
 import c23 from '../../../../../Images/c23.png'
-import k23 from '../../../../../Images/k23.png'
+
 import c24 from '../../../../../Images/c24.png'
-import k24 from '../../../../../Images/k24.png'
+
 import c25 from '../../../../../Images/c25.png'
-import k25 from '../../../../../Images/k25.png'
+
 import c26 from '../../../../../Images/c26.png'
 import c27 from '../../../../../Images/c27.png'
 import c28 from '../../../../../Images/c28.png'
-import k26 from '../../../../../Images/k26.png'
-import t24 from '../../../../../Images/t24.png'
-import kt24 from '../../../../../Images/kt24.png'
 
-import kt26 from '../../../../../Images/kt26.png'
+
+
+
+
 import ImageComponent from 'material-ui-image'
 import Table3 from '../../../Tables/Chapter2/Table3'
 import Table9 from '../../../Tables/Chapter2/Table9'
@@ -143,7 +143,7 @@ const Resources = () => {
                         <Para>
                         {ctx.chapterTwo.Para21a}
                         </Para>
-                        <ImageComponent src={t24} alt="table24" aspectRatio={1 / 0.6} />
+                        {/* <ImageComponent src={t24} alt="table24" aspectRatio={1 / 0.6} /> */}
                         
                         <Table4 />
                         
@@ -470,7 +470,7 @@ const Resources = () => {
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
                             </Para>)}
-                        <ImageComponent  src={k23} alt="chart23" aspectRatio={1 / 1} />    
+                        {/* <ImageComponent  src={k23} alt="chart23" aspectRatio={1 / 1} />     */}
                         <h4 className='footnote'>
                             <i>
                             
@@ -499,8 +499,8 @@ const Resources = () => {
                         <Table3kan />
                         <Para>
                             {ctx.chapter2kannada._collections_.t3f1}
-                        <ImageComponent  src={k24} alt="chart23" aspectRatio={1 / 0.6} />
-                        <ImageComponent  src={k25} alt="chart23" aspectRatio={1 / 0.6} />
+                        {/* <ImageComponent  src={k24} alt="chart23" aspectRatio={1 / 0.6} /> */}
+                        {/* <ImageComponent  src={k25} alt="chart23" aspectRatio={1 / 0.6} /> */}
                         </Para>
                         {/* <Para>
                             {ctx.chapter2kannada._collections_.t3f2}
@@ -552,12 +552,12 @@ const Resources = () => {
                                 {ctx.chapter2kannada.Content[item]}
                                 
                             </Para>)} 
-                        <ImageComponent  src={k26} alt="chart23" aspectRatio={1 / 0.7} />
+                        {/* <ImageComponent  src={k26} alt="chart23" aspectRatio={1 / 0.7} /> */}
                         {/* <Chrt4 /> */}
                         <Para>
                             {ctx.chapter2kannada.Content.para28}
                         </Para>
-                        <ImageComponent  src={kt24} alt="chart23" aspectRatio={1 / 0.7} />
+                        {/* <ImageComponent  src={kt24} alt="chart23" aspectRatio={1 / 0.7} /> */}
                         
                         <Para>
                             {ctx.chapter2kannada.Content.para29}
@@ -590,7 +590,7 @@ const Resources = () => {
 
                         {/* <Table9kan/> */}
                        
-                        <ImageComponent  src={kt26} alt="chart23" aspectRatio={1 / 0.7} />
+                        {/* <ImageComponent  src={kt26} alt="chart23" aspectRatio={1 / 0.7} /> */}
                         {["para41", "para42", "para43", "para44",].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}

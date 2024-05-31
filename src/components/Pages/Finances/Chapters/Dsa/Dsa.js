@@ -6,11 +6,11 @@ import Navbar from "../../../../Navbar/Navbar"
 import { FaSpinner } from 'react-icons/fa'
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton"
 import './../../Finances.css'
-import k218 from '../../../../../Images/k218.png'
+
 import c219 from '../../../../../Images/c219.png'
-import k219 from '../../../../../Images/k219.png'
+
 import c220 from '../../../../../Images/c220.png'
-import k220 from '../../../../../Images/k220.png'
+
 import ImageComponent from 'material-ui-image'
 
 import Table37 from '../../../Tables/Chapter2/Table37'
@@ -296,15 +296,15 @@ const Dsa = () => {
                                 {ctx.chapter2kannada.Content[item]}
                             </Para>)}   
 
-                        <ImageComponent  src={k218} alt="chart23" aspectRatio={1 / 0.5} />
+                        {/* <ImageComponent  src={k218} alt="chart23" aspectRatio={1 / 0.5} /> */}
 
                         {["para298", "para299"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
                             </Para>)}    
 
-                        <ImageComponent  src={k219} alt="chart23" aspectRatio={1 / 0.6} />
-                        <ImageComponent  src={k220} alt="chart23" aspectRatio={1 / 0.6} />
+                        {/* <ImageComponent  src={k219} alt="chart23" aspectRatio={1 / 0.6} /> */}
+                        {/* <ImageComponent  src={k220} alt="chart23" aspectRatio={1 / 0.6} /> */}
                         {["para300", "para301", "para302"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}

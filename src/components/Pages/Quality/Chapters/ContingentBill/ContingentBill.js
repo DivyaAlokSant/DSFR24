@@ -8,7 +8,7 @@ import Title from "../../../../Title/Title";
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton"
 import Table10kan from "../../../Tables/Chapter4kan/Table10";
 import c42 from '../../../../../Images/c42.png'
-import k43 from '../../../../../Images/k43.png'
+
 import ImageComponent from 'material-ui-image'
 import CustomTable from "../../../../CustomTable/CustomTable";
 const ContingentBill = () => {
@@ -82,7 +82,7 @@ const ContingentBill = () => {
                         <h3 className="headnote">
                         (` ಕೋಟಿಗಳಲ್ಲಿ )
           </h3>
-                        <ImageComponent src={k43}  aspectRatio={1 / 0.5} />
+                        {/* <ImageComponent src={k43}  aspectRatio={1 / 0.5} /> */}
                        <h4> ಆಕರ: ಹಣಕಾಸು ಲೆಕ್ಕಗಳು <br></br>		*ಸಾಲಗಳು ಮತ್ತು ಮುಂಗಡಗಳನ್ನು ಹೊರತುಪಡಿಸಿ </h4>
                         <Para>
                             {ctx.chapter4kannada.Content.para68}

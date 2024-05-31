@@ -8,7 +8,7 @@ import Title from "../../../../Title/Title";
 import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton"
 import Table2kan from "../../../Tables/Chapter4kan/Table2"
 import Table3kan from "../../../Tables/Chapter4kan/Table3"
-import k41 from '../../../../../Images/k41.png'
+
 import ImageComponent from 'material-ui-image'
 import CustomTable from "../../../../CustomTable/CustomTable";
 
@@ -86,7 +86,7 @@ const NonRemittance
                             <h3 className="headnote">
                                 (` ಕೋಟಿಗಳಲ್ಲಿ )
                             </h3>
-                            <ImageComponent src={k41} aspectRatio={1 / 0.5} />
+                            {/* <ImageComponent src={k41} aspectRatio={1 / 0.5} /> */}
                             <h4> ಆಕರ: ಮಹಾಲೇಖಾಪಾಲರು (ಲೆ ಮತ್ತು ಹ) ಅವರ ಕಛೇರಿ </h4>
                             {["para20"].map((item, ind) =>
                                 <Para key={ind / 10}>

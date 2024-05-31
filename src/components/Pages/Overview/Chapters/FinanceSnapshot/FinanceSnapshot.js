@@ -74,24 +74,25 @@ const FinanceSnapshot = () => {
                                 {ctx.chapter1kannada.Content[item]}
                             </Para>
                         )}
-                         <CustomTable title={"ಕೋಷ್ಟಕ-1.2: ಆಯವ್ಯಯ ಅಂದಾಜುಗಳಿಗೆ ಹೋಲಿಸಿದಂತೆ ವಾಸ್ತವ ಹಣಕಾಸು ಫಲಿತಾಂಶಗಳು "}
+                         <CustomTable title={"ಕೋಷ್ಟಕ-1.2: ಆಯವ್ಯಯ ಅಂದಾಜುಗಳಿಗೆ ಹೋಲಿಸಿದಂತೆ ವಾಸ್ತವ ಹಣಕಾಸು ಫಲಿತಾಂಶಗಳು"}
 
 
-                        columns={ctx.tables1.Table1}
-                        data={ctx.tables1.Table1} />
+                           columns={ctx.tables1kan.Table2}
+                            data={ctx.tables1kan.Table2} />
+                    <h4  className='footnote'>
+                         {["f4", "f5", "f6","f7","f7a"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter1kannada.Content[item]}
+                            </Para>
+                        )}</h4>
                         {["para49","para5"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter1kannada.Content[item]}
                             </Para>
                         )}
-                        <Table2kan/>
+                  
                       
-                        <h4 >
-                            {["f4", "f5", "f6","f7","f7a"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapter1kannada.Content[item]}
-                            </Para>
-                        )}</h4>
+                      
 
                        
                     </div>
