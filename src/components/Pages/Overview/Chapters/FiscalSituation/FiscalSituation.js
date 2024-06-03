@@ -11,6 +11,7 @@ import Table5 from '../../../Tables/Chapter1/Table5'
 import Table6 from '../../../Tables/Chapter1/Table6'
 import Table5kan from '../../../Tables/Chapter1kan/Table5'
 import Table6kan from '../../../Tables/Chapter1kan/Table6'
+import CustomTable from '../../../../CustomTable/CustomTable'
 
 const FiscalSituation = () => {
 
@@ -127,6 +128,18 @@ const FiscalSituation = () => {
                                 {ctx.chapter1kannada.Content[item]}
                             </Para>
                         )}
+                         <CustomTable title={"ಕೋಷ್ಟಕ-1.೬: ಕರ್ನಾಟಕ ವಿತ್ತೀಯ ಸುಧಾರಣಾ ಅಧಿನಿಯಮದ ಗುರಿಗಳ ಅನುಸರಣೆ"}
+
+
+                          columns={ctx.tables1kan.Table6}
+                          data={ctx.tables1kan.Table6} />
+                          <h4 className='footnote'>
+                            <i>
+                            *ಸೂಚಕಗಳನ್ನು ಲೆಕ್ಕಹಾಕುವಾಗ ಸರಕು ಮತ್ತು ಸೇವಾ ತೆರಿಗೆಯ ಅನುಷ್ಠಾನದಿಂದಾದ ಕೊರತೆಯ ಪರಿಹಾರವಾಗಿ ಭಾರತ ಸರ್ಕಾರದಿಂದ ಪಡೆದ ಬ್ಯಾಕ್-ಟು-ಬ್ಯಾಕ್‌ ಸಾಲವನ್ನು (`೩೦,೫೧೬ ಕೋಟಿ) ಋಣವೆಂದು ಪರಿಗಣಿಸಿಲ್ಲ
+                            <br></br>
+ </i>
+                        </h4>
+
                          {["para67","para68","para69"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter1kannada.Content[item]}
@@ -140,6 +153,27 @@ const FiscalSituation = () => {
                                 {ctx.chapter1kannada.Content[item]}
                             </Para>
                         )}
+                         <h4 className='headnote'>
+
+                        (` ಕೋಟಿಗಳಲ್ಲಿ)
+
+
+                        </h4>
+
+                      <CustomTable title={"ಕೋಷ್ಟಕ-1.7: 202೨-2೩ಕ್ಕೆ ಮಧ್ಯಮಾವಧಿ ವಿತ್ತೀಯ ಅವಧಿಯ ಯೋಜನೆಯ ಪ್ರಕ್ಷೇಪಣೆಗಳಿಗೆ ಪ್ರತಿಯಾಗಿ ವಾಸ್ತವಗಳು"}
+
+
+                      columns={ctx.tables1kan.Table7}
+                        data={ctx.tables1kan.Table7} />
+                         <h4 className='footnote'>
+                          <i>
+                         ಆಕರ: ಹಣಕಾಸು ಲೆಕ್ಕಗಳು ಮತ್ತು ಮಧ್ಯಂತರ ವಿತ್ತೀಯ ಅವಧಿಯ ಯೋಜನೆ 20೨1-2೫
+                            <br></br>
+
+
+                            </i>
+                         </h4>
+
                           {["para71"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter1kannada.Content[item]}

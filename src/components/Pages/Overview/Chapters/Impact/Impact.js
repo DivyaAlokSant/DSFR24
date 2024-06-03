@@ -8,6 +8,7 @@ import './../../Overview.css'
 import { FaSpinner } from 'react-icons/fa'
 import Table7 from '../../../Tables/Chapter1/Table7'
 import Table7kan from '../../../Tables/Chapter1kan/Table7'
+import CustomTable from '../../../../CustomTable/CustomTable'
 const Impact = () => {
 
     const ctx = useContext(MyContext)
@@ -71,6 +72,27 @@ const Impact = () => {
                                 {ctx.chapter1kannada.Content[item]}
                             </Para>
                         )}
+
+                       <h4 className='headnote'>
+             
+                       (` ಕೋಟಿಗಳಲ್ಲಿ)
+
+
+                            </h4>
+
+                  <CustomTable title={"ಕೋಷ್ಟಕ-1.೮: ೨೦೨೨-೨೩ರ ಅವಧಿಯಲ್ಲಿ ಕೆಲವು ಪ್ರಮುಖ ವಹಿವಾಟುಗಳ ಪರಿಣಾಮ"}
+
+
+                  columns={ctx.tables1kan.Table8}
+                  data={ctx.tables1kan.Table8} />
+                  <h4 className='footnote'>
+                   <i>
+                ಆಕರ: ಹಣಕಾಸು ಲೆಕ್ಕಗಳು ಮತ್ತು ಮಧ್ಯಂತರ ವಿತ್ತೀಯ ಅವಧಿಯ ಯೋಜನೆ 20೨1-2೫
+                <br></br>
+                </i>
+
+                </h4>
+
                          {["para74","para75","para76","para77","para78","para79","para8"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter1kannada.Content[item]}

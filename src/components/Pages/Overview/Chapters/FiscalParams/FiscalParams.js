@@ -16,6 +16,9 @@ import c15 from '../../../../../Images/c15.png'
 import ImageComponent from 'material-ui-image'
 import Table3aa from '../../../Tables/Chapter1/Table3aa'
 import CustomTable from '../../../../CustomTable/CustomTable'
+
+import k4 from '../../../../../Images/k4.png'
+import k5 from '../../../../../Images/k5.png'
 const FiscalParams = () => {
 
     const ctx = useContext(MyContext)
@@ -136,10 +139,10 @@ const FiscalParams = () => {
                     <Navbar />
                     <div className="contentwrapper" id="home">
                         <FloatingActionButtons back="/overview/snapshot-assets" forward="/overview/fisc-situation" />
-                        <Title id="anchor">
+                        <Title >
                             {ctx.chapter1kannada.Content.para53}
                         </Title>
-                        
+                       
                         {["para54","para55"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter1kannada.Content[item]}
@@ -158,6 +161,19 @@ const FiscalParams = () => {
 
                            columns={ctx.tables1kan.Table4}
                                data={ctx.tables1kan.Table4} />
+                         <h4 className='footnote'>
+                            <i>
+                            ಆಕರ: ೧೫ನೇ ಹಣಕಾಸು ಆಯೋಗದ ಶಿಫಾರಸುಗಳು, ವಾರ್ಷಿಕ ಹಣಕಾಸು ತ:ಖ್ತೆ,  ೨೦೨೨-೨೩ರ ಆಯವ್ಯಯ ಸಾರಾಂಶ ಮತ್ತು ಹಣಕಾಸು ಲೆಕ್ಕಗಳು
+                           ಟಿಪ್ಪಣಿ : ಕೊರತೆಯ ಅಂಕಿಗಳನ್ನು ಋಣಾತ್ಮಕವಾಗಿ ತೋರಿಸಲಾಗಿದೆ
+ <br></br>
+                     *  ಭಾರತ ಸರ್ಕಾರದ ಹಣಕಾಸು ಮಂತ್ರಾಲಯದ ₹21,81,217 ಕೋಟಿಯ ಜಿಎಸ್‌ಡಿಪಿ ಅಂಕಿಅಂಶಗಳ ಆಧಾರದ ಮೇಲೆ ಲೆಕ್ಕಹಾಕಲಾಗಿದೆ.
+                     ^ ಸೂಚಕಗಳನ್ನು ಲೆಕ್ಕಹಾಕುವಾಗ ಸರಕು ಮತ್ತು ಸೇವಾ ತೆರಿಗೆಯ ಅನುಷ್ಠಾನದಿಂದಾದ ಕೊರತೆಯ ಪರಿಹಾರವಾಗಿ 2020-21 ಮತ್ತು 2021-22ರಲ್ಲಿ ಭಾರತ ಸರ್ಕಾರದಿಂದ ಪಡೆದ ಬ್ಯಾಕ್-ಟು-ಬ್ಯಾಕ್‌ ಸಾಲವನ್ನು (`೩೦,೫೧೬ ಕೋಟಿ) ಋಣವೆಂದು ಪರಿಗಣಿಸಿಲ್ಲ.
+
+                            </i>
+                        </h4>
+
+                        
+
 
 
                          {["para58","para59"].map((item, ind) =>
@@ -165,6 +181,8 @@ const FiscalParams = () => {
                                 {ctx.chapter1kannada.Content[item]}
                             </Para>
                         )}
+                        <ImageComponent flex="2" aspectRatio = "2" resizeMode = 'contain' src={k4} color ="#ffffff00" />
+                        <ImageComponent flex="2" aspectRatio = "2" resizeMode = 'contain' src={k5} color ="#ffffff00" />
                           {["para6"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter1kannada.Content[item]}
@@ -178,6 +196,15 @@ const FiscalParams = () => {
                                 {ctx.chapter1kannada.Content[item]}
                             </Para>
                         )}
+                         <h3 className='headnote'>
+                         (` ಕೋಟಿಗಳಲ್ಲಿ)
+                        </h3>
+                       <CustomTable title={"ಕೋಷ್ಟಕ-೧.೫: ವಿತ್ತೀಯ ಹೊಣೆಗಾರಿಕೆಗಳಲ್ಲಿ ಪ್ರವೃತ್ತಿಗಳು ಮತ್ತು ರಾಜ್ಯದ ಒಟ್ಟು ಆಂತರಿಕ ಉತ್ಪನ್ನಕ್ಕೆ ಅದರ ಅನುಪಾತ"}
+
+
+                          columns={ctx.tables1kan.Table5}
+                         data={ctx.tables1kan.Table5} />
+
                          {["para62","para63"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter1kannada.Content[item]}

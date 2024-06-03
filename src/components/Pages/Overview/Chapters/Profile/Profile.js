@@ -19,6 +19,8 @@ import c12 from  '../../../../../Images/c12.png'
 import Subtitle from '../../../../Subtitle/Subtitle'
 import CustomTable from '../../../../CustomTable/CustomTable'
 //import TableauChart from '../../../../TablueChart/TableauChart'
+import k1 from  '../../../../../Images/k1.png'
+import k2 from  '../../../../../Images/k2.png'
 
 const Profile = () => {
 
@@ -207,21 +209,41 @@ const Profile = () => {
                                 {ctx.chapter1kannada.Content[item]}
                             </Para>
                         )}
-                        {["para21"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapter1kannada.Content[item]}
-                            </Para>
-                        )}
+                       
                          <CustomTable title={"ಕೋಷ್ಟಕ-1.1: ಜಿಡಿಪಿ/ಜಿವಿಎಗೆ ಹೋಲಿಸಿದರೆ ಜಿಎಸ್‌ಡಿಪಿ/ಜಿಎಸ್‌ವಿಎಗಳ ಪ್ರವೃತ್ತಿಗಳು(ಪ್ರಸಕ್ತ ದರಗಳಲ್ಲಿ)"}
 
 
                                 columns={ctx.tables1kan.Table1}
                                 data={ctx.tables1kan.Table1} />
+                                <h4 className='footnote'>
+                            <i>
+                            ಆಕರ: *ಕರ್ನಾಟಕ ಸರ್ಕಾರದ ಆರ್ಥಿಕ ಸಮೀಕ್ಷೆ 2022-23ರ ಪ್ರಕಾರ ಅಖಿಲ ಭಾರತ ಜಿಡಿಪಿ (2018-19 ರಿಂದ 2022-23)
+                            # ಜಿಎಸ್‌ಡಿಪಿ (2018-19ರಿಂದ 2021-22) ಅಂಕಿಗಳು ಕರ್ನಾಟಕ ಸರ್ಕಾರದ ಆರ್ಥಿಕ ಸಮೀಕ್ಷೆ ೨೦೨೨-೨೩ರ ಪ್ರಕಾರ ಮತ್ತು ೨೦೨೨-೨೩ರ ಜಿಎಸ್‌ಡಿಪಿ ಅಂಕಿಗಳು ಭಾರತ ಸರ್ಕಾರದ ಹಣಕಾಸು ಮಂತ್ರಾಲಯದ ಪ್ರಕಾರ
+                            ^ ಜಿವಿಎ ಅಂಕಿಗಳನ್ನು ರಾಷ್ಟೃೀಯ ಲೆಕ್ಕಗಳ ಅಂಕಿಅಂಶಗಳು, ಸಿಎಸ್‌ಒ, ಎಮ್‌ಒಎಸ್‌ಪಿಎಲ್‌ ನಿಂದ ಪಡೆಯಲಾಗಿದೆ.
+                            $ ಜಿವಿಎಸ್‌ಎ ಅಂಕಿಗಳು ಕರ್ನಾಟಕದ ಆರ್ಥಿಕ ಮತ್ತು ಅಂಕಿಅಂಶಗಳ ನಿರ್ದೇಶನಾಲಯದ ಪ್ರಕಾರ
+                             @ ಕರ್ನಾಟಕ ಸರ್ಕಾರದ 2022-23ರ ಆರ್ಥಿಕ ಸಮೀಕ್ಷೆಯ ಪ್ರಕಾರ ತಲಾ ಜಿಎಸ್‌ಡಿಪಿ (2018-19 ರಿಂದ 2021-22) ಮತ್ತು 2022-23ನೇ ಸಾಲಿನ ತಲಾ ಜಿಎಸ್‌ಡಿಪಿಯನ್ನು 2022-23ರ ಕರ್ನಾಟಕದ ಆರ್ಥಿಕ ಸಮೀಕ್ಷೆಯ ಪ್ರಕಾರ 6.75 ಕೋಟಿ ರಾಜ್ಯದ ಪ್ರಕ್ಷೇಪಿತ  ಜನಸಂಖ್ಯೆಯ ಆಧಾರದ ಮೇಲೆ ಲೆಕ್ಕ ಹಾಕಲಾಗಿದೆ. 
+                             a. ೨೦೧೮-೧೯ರಿಂದ ೨೦೨2-೨3ರ ಅವಧಿಗೆ ತಲಾ ಜಿಡಿಪಿಯನ್ನು ಭಾರತ ಸರ್ಕಾರದ ಆರ್ಥಿಕ ಸಮೀಕ್ಷೆಯ ಜನಸಂಖ್ಯಾ ಅಂಕಿಗಳನ್ನು ಪರಿಗಣಿಸಿ ಲೆಕ್ಕ ಹಾಕಲಾಗಿದೆ
+
+                            </i>
+                        </h4>
+                        {["para21a"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter1kannada.Content[item]}
+                            </Para>
+                        )}
+                        <ImageComponent flex="2" aspectRatio="2" resizeMode='contain' src={k1} color="#ffffff00" />
+                          {["para21"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter1kannada.Content[item]}
+                            </Para>
+                        )}
                         {["para22","para23"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter1kannada.Content[item]}
                             </Para>
                         )}
+                    <ImageComponent flex="2" aspectRatio="2" resizeMode='contain' src={k2} color="#ffffff00" />
+
                         {["para24"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter1kannada.Content[item]}
@@ -241,24 +263,22 @@ const Profile = () => {
 
                         {/* Table 1 goes here */}
                        
-                        <h4>
+                        {/* <h4>
                             {ctx.chapter1kannada.Content.t1f1} <br></br>
                             {ctx.chapter1kannada.Content.t1f2}<br></br>
                             {ctx.chapter1kannada.Content.t1f3}
-                        </h4>
-                        <Title>
-                            ನಕ್ಷೆ-1.1: ಭಾರತದ ಒಟ್ಟು ಆಂತರಿಕ ಉತ್ಪನ್ನ ಮತ್ತು ರಾಜ್ಯದ ಒಟ್ಟು ಆಂತರಿಕ ಉತ್ಪನ್ನದ ವೃದ್ಧಿ
-                        </Title>
+                        </h4> */}
+                      
                         {/* <ImageComponent flex="2" aspectRatio="2" resizeMode='contain' src={kc1} color="#ffffff00" /> */}
 
-                        <h4 className='footnote'>
+                        {/* <h4 className='footnote'>
                             <i>
                                 ಆಕರ: ಅಖಿಲ ಭಾರತ ಒಟ್ಟು ಆಂತರಿಕ ಉತ್ಪನ್ನದ ಮತ್ತು ರಾಜ್ಯದ ಒಟ್ಟು ಆಂತರಿಕ ಉತ್ಪನ್ನದ ಅಂಕಿ ಅಂಶಗಳು (201೭-1೮ರಿಂದ
                                 ೨೦೨೦-೨೧) ಕರ್ನಾಟಕ  ಸರ್ಕಾರ ಆರ್ಥಿಕ ಸಮೀಕ್ಷೆ - 202೧-2೨. <br></br>
                                 ರಾಜ್ಯದ ಒಟ್ಟು ಆಂತರಿಕ ಉತ್ಪನ್ನದ ಅಂಕಿ ಅಂಶಗಳು 2020-21, ಅಂಕಿಅಂಶಗಳು ಮತ್ತು ಕಾರ್ಯಕ್ರಮ ಅನುಷ್ಠಾನ ಸಚಿವಾಲಯದ ಪ್ರಕಾರ.
 
                             </i>
-                        </h4>
+                        </h4> */}
                         {/* Chart 1 goes here */}
                         {/* <Chart1 /> */}
                         {/* <Chart1Kan/> */}
@@ -280,45 +300,25 @@ const Profile = () => {
                             {ctx.chapter1kannada.Content.para12.substring(413,)}
                         </Para> */}
                        
-                        <Title>
-                            ನಕ್ಷೆ-1.2: ರಾಜ್ಯದ ಒಟ್ಟು ಮೌಲ್ಯಾದಾರಿತಕ್ಕೆ ವಿಭಾಗೀಯ ಕೊಡುಗೆಯಲ್ಲಿನ ಬದಲಾವಣೆ
-                            (೨೦೧೭-೧೮ ಮತ್ತು ೨೦೨೧-೨೨)
-
-                        </Title>
+                        
                         {/* <ImageComponent flex="2" aspectRatio="2" resizeMode='contain' src={kc2} color="#ffffff00" /> */}
                         <h4>
-                            ಆಕರ: ಕರ್ನಾಟಕದ ಆರ್ಥಿಕ ಸಮೀಕ್ಷೆ 2021-22
+                            
                             <br></br>
 
                         </h4>
-                        <Para>
-                            {ctx.chapter1kannada.Content.para14}
-                        </Para>
-                        <Title>
+                        
+                        {/* <Title>
                             ನಕ್ಷೆ-1.3: ರಾಜ್ಯದ ಒಟ್ಟು ಆಂತರಿಕ ಉತ್ಪನ್ನದಲ್ಲಿ ವಿಭಾಗೀಯ ಬೆಳವಣಿಗೆ
-                        </Title>
+                        </Title> */}
                         {/* <ImageComponent flex="2" aspectRatio="2" resizeMode='contain' src={kc3} color="#ffffff00" /> */}
-                        <h4>
-                            ಆಕರ: ಆರ್ಥಿಕ ಮತ್ತು ಅಂಕಿಅಂಶಗಳ ನಿರ್ದೇಶನಾಲಯ, ಕರ್ನಾಟಕ ಸರ್ಕಾರ
-
-
-                        </h4>
+                       
                         {/* <Chart3 /> */}
 
-                        {["para15"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapter1kannada.Content[item]}
-                            </Para>
-                        )}
-                        <Title>
-                            ನಕ್ಷೆ-1.4: ೨೦೨೧-೨೨ರಲ್ಲಿ ರಾಜ್ಯದ ಒಟ್ಟು ಆಂತರಿಕ ಉತ್ಪನ್ನಕ್ಕೆ ವಿಭಾಗೀಯ ಕೊಡುಗೆ
-                        </Title>
+                     
+                       
                         {/* { <ImageComponent flex="2" aspectRatio="2" resizeMode='contain' src={k3} color="#ffffff00" /> } */}
-                        <h4>
-                            ಆಕರ: ಆರ್ಥಿಕ ಮತ್ತು ಅಂಕಿಅಂಶಗಳ ನಿರ್ದೇಶನಾಲಯ, ಕರ್ನಾಟಕ ಸರ್ಕಾರ
-
-
-                        </h4>
+                     
                         {/* <Chart4 /> */}
 
                     </div>

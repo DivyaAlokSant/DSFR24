@@ -97,6 +97,21 @@ const Structure = () => {
                         <Title id="anchor">
                             {ctx.chapter1kannada.Content.para31}
                         </Title>
+                        <ContentSlider
+                            position="left"
+                            content={ctx.chapterOne.Profile.Para31a}
+                            title="ಸಂಚಿತ ನಿಧಿ"
+                        />
+                        <ContentSlider
+                            position="right"
+                            content={ctx.chapterOne.Profile.Para31b}
+                            title="ಸಾದಿಲ್ವಾರು ನಿಧಿ"
+                        />
+                        <ContentSlider
+                            position="left"
+                            content={ctx.chapterOne.Profile.Para31c}
+                            title="ಸಾರ್ವಜನಿಕ ಲೆಕ್ಕ"
+                        />
 
                        
                         {["para32","para33","para34","para35"].map((item, ind) =>
