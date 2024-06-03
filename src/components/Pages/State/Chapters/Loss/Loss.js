@@ -100,10 +100,16 @@ const Loss = () => {
                         <Para>
                             {ctx.chapter5kannada.Content.Para56}
                         </Para>
+
                         <h3 className='headnote'>
                             ₹  ಕೋಟಿಗಳಲ್ಲಿ
                         </h3>
-                        <Table10kan />
+                        <CustomTable title={"ಕೋಷ್ಟಕ-5.10: ೨೦೨೦-೨೧ರಿಂದ ೨೦೨೨-೨೩ರವರೆಗೆ ನಷ್ಟ ಅನುಭವಿಸಿದ ರಾಜ್ಯ ಸಾರ್ವಜನಿಕ ವಲಯ ಉದ್ದಿಮೆಗಳ ಸಂಖ್ಯೆ"}
+                                        
+                                        columns={ctx.tables5kan.Table9}
+                                        data={ctx.tables5kan.Table9} />
+
+   
 
                         <Para>
                             {ctx.chapter5kannada.Content.Para57}

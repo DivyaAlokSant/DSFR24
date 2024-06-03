@@ -167,6 +167,15 @@ const Investment = () => {
                         <Para>
                             {ctx.chapter5kannada.Content.para23}
                         </Para>
+                        <h3 className='headnote'>
+                            (` ಕೋಟಿಗಳಲ್ಲಿ)
+                             </h3>
+                            <CustomTable title={"ಕೋಷ್ಠಕ-5.1: ರಾಜ್ಯ ಸಾರ್ವಜನಿಕ ವಲಯ ಉದ್ದಿಮೆಗಳ ವಹಿವಾಟು ಹಾಗೂ ಅದಕ್ಕೆ ಪರಸ್ವರ ಅಭಿಮುಖವಾಗಿ ಕರ್ನಾಟಕ ರಾಜ್ಯದ ಒಟ್ಟು ಆಂತರಿಕ ಉತ್ಪನ್ನದ ವಿವರಗಳು"}
+
+
+                              columns={ctx.tables5kan.Table2}
+                              data={ctx.tables5kan.Table2} />
+
                         <Title>
                             {ctx.chapter5kannada.Content.para24}
                         </Title>
@@ -188,9 +197,29 @@ const Investment = () => {
                         <Para>
                             {ctx.chapter5kannada.Content.para29}
                         </Para>
+                        <h3 className='headnote'>
+                            (` ಕೋಟಿಗಳಲ್ಲಿ)
+                             </h3>
+                            <CustomTable title={"ಕೋಷ್ಟಕ-5.3: ರಾಜ್ಯ ಸರ್ಕಾರದಿಂದ ವಿದ್ಯುತ್‌ ವಲಯ ಸಾರ್ವಜನಿಕ ಉದ್ದಿಮೆಗಳಿಗೆ ಆಯವ್ಯಯ ಹರಿವಿನ ವಿವರಗಳುಕೋಷ್ಠಕ-5.1: ರಾಜ್ಯ ಸಾರ್ವಜನಿಕ ವಲಯ ಉದ್ದಿಮೆಗಳ ವಹಿವಾಟು ಹಾಗೂ ಅದಕ್ಕೆ ಪರಸ್ವರ ಅಭಿಮುಖವಾಗಿ ಕರ್ನಾಟಕ ರಾಜ್ಯದ ಒಟ್ಟು ಆಂತರಿಕ ಉತ್ಪನ್ನದ ವಿವರಗಳು"}
+
+
+                              columns={ctx.tables5kan.Table3}
+                              data={ctx.tables5kan.Table3} />
+
+
                         <Para>
                             {ctx.chapter5kannada.Content.para30}
                         </Para>
+                        <h3 className='headnote'>
+                            (` ಕೋಟಿಗಳಲ್ಲಿ)
+                             </h3>
+                       
+                        <CustomTable title={"ಕೋಷ್ಟಕ-5.4: ವಿದ್ಯುತ್‌ ವಲಯ ಸಾರ್ವಜನಿಕ ಉದ್ದಿಮೆಗಳಿಗೆ ಚಟುವಟಿಕೆವಾರು ಹೂಡಿಕೆಗಳು"}
+                        
+
+                
+                            columns={ctx.tables5kan.Table4}
+                            data={ctx.tables5kan.Table4} />
                         <Para>
                             {ctx.chapter5kannada.Content.para31}
                         </Para>
@@ -200,21 +229,21 @@ const Investment = () => {
 
                       
                         
-                        <Table2kan />
 
+{/* 
                         <h4 className='footnote'>
                             <i>
                             ಆಕರ: ರಾಜ್ಯ ಸಾರ್ವಜನಿಕ ವಲಯ ಉದ್ದಿಮೆಗಳ ಇತ್ತೀಚಿನ ಆರ್ಥಿಕ ವಿವರಣಾಪಟ್ಟಿಗಳು
                                 
                             </i>
-                        </h4>
+                        </h4> */}
 
                         
 
-                        <Table3kan />
+                
 
                        
-                        <Table4kan />
+      
 
                       
 

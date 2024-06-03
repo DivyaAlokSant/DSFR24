@@ -104,6 +104,15 @@ const Spse = () => {
                                     {ctx.chapter5kannada.Content[item]}
                             
                             </Para>)}
+                            <h3 className='headnote'>
+                            (` ಕೋಟಿಗಳಲ್ಲಿ)
+                             </h3>
+                            <CustomTable title={"ಕೋಷ್ಠಕ-5.1: ರಾಜ್ಯ ಸಾರ್ವಜನಿಕ ವಲಯ ಉದ್ದಿಮೆಗಳ ವಹಿವಾಟು ಹಾಗೂ ಅದಕ್ಕೆ ಪರಸ್ವರ ಅಭಿಮುಖವಾಗಿ ಕರ್ನಾಟಕ ರಾಜ್ಯದ ಒಟ್ಟು ಆಂತರಿಕ ಉತ್ಪನ್ನದ ವಿವರಗಳು"}
+
+
+                              columns={ctx.tables5kan.Table1}
+                              data={ctx.tables5kan.Table1} />
+
                         {["para15"].map((item, ind) =>
                             <Para key={ind / 10}>
                             
@@ -111,8 +120,7 @@ const Spse = () => {
                             
                             </Para>)}
                         
-                        <Table1kan />
-
+                      
                         
 
                     </div>

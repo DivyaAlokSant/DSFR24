@@ -130,12 +130,18 @@ const Submissions = () => {
                                 {ctx.chapter5kannada.Content[item]}
                             </Para>
                         )}
+ <CustomTable title={"ಕೋಷ್ಟಕ-5.11: ಸರ್ಕಾರಿ ಕಂಪನಿಗಳ ಲೆಕ್ಕಪತ್ರಗಳ ಸಲ್ಲಿಕೆಯಲ್ಲಿನ ಬಾಕಿಯ ವಿವರಗಳು"}
+                                        
+                                        columns={ctx.tables5kan.Table10}
+                                        data={ctx.tables5kan.Table10} />
+
+
                         {["Para80","Para81"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter5kannada.Content[item]}
                             </Para>
                         )}
-                        <Table11kan />
+                      
                        
 
 

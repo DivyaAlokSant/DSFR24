@@ -98,6 +98,16 @@ const OperatingEff = () => {
                         <Para>
                             {ctx.chapter5kannada.Content.para49}
                         </Para>
+                        <CustomTable title={"ಕೋಷ್ಟಕ-5.8: ತೊಡಗಿಸಿದ ಬಂಡವಾಳದ ಮೇಲಿನ ಪ್ರತಿಫಲ"}
+                                        
+                        columns={ctx.tables5kan.Table7}
+                        data={ctx.tables5kan.Table7} />
+                          <h4 className='footnote'>
+                            <i>
+                            ಆಕರ: : ರಾಜ್ಯ ಸಾರ್ವಜನಿಕ ವಲಯ ಉದ್ದಿಮೆಗಳ ಇತ್ತೀಚಿನ ಹಣಕಾಸು ತ:ಖ್ತೆಗಳು 
+                           
+                            </i>
+                        </h4>
                         <Para>
                             {ctx.chapter5kannada.Content.Para50}
                         </Para>
@@ -109,6 +119,11 @@ const OperatingEff = () => {
                                 {ctx.chapter5kannada.Content[item]}
                             </Para>
                         )}
+                         <CustomTable title={"ಕೋಷ್ಟಕ-5.9: ರಾಜ್ಯ ಸರ್ಕಾರ ನಿಧಿಗಳನ್ನು ಹೂಡಿಕೆ ಮಾಡಿರುವ ರಾಜ್ಯ ಸಾವರ್ಜನಿಕ ವಲಯ ಉದ್ದಿಮೆಗಳಿಗೆ ಸಂಬಂಧಿಸಿದಂತೆ ಈಕ್ವಿಟಿ ಮೇಲಿನ ಪ್ರತಿಫಲ"}
+                                        
+                                        columns={ctx.tables5kan.Table8}
+                                        data={ctx.tables5kan.Table8} />
+
                        
                     </div>
                 </div>

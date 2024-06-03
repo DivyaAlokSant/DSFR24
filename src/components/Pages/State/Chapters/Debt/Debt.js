@@ -76,6 +76,21 @@ const Debt = () => {
                         <Para>
                             {ctx.chapter5kannada.Content.para43}
                         </Para>
+                        <h3 className='headnote'>
+                            (` ಕೋಟಿಗಳಲ್ಲಿ)
+                             </h3>
+
+                     <CustomTable title={"ಕೋಷ್ಟಕ-5.7: ಬಡ್ಡಿ ವ್ಯಾಪ್ತಿ ಅನುಪಾತ"}
+                                        
+                        columns={ctx.tables5kan.Table6}
+                        data={ctx.tables5kan.Table6} />
+                          <h4 className='footnote'>
+                            <i>
+                            ಆಕರ: : ರಾಜ್ಯ ಸಾರ್ವಜನಿಕ ವಲಯ ಉದ್ದಿಮೆಗಳ ಇತ್ತೀಚಿನ ಹಣಕಾಸು ತ:ಖ್ತೆಗಳು 
+                           
+                            </i>
+                        </h4>
+
                         <Para>
                             {ctx.chapter5kannada.Content.para44}
                         </Para>
@@ -83,10 +98,7 @@ const Debt = () => {
                        
 
                         
-                        <Table7kan />
-                        <h3>
-                        ಆಕರ: ರಾಜ್ಯ ಸಾರ್ವಜನಿಕ ವಲಯ ಉದ್ದಿಮೆಗಳ ಇತ್ತೀಚಿನ ಆರ್ಥಿಕ ವಿವರಣಾ ಪಟ್ಟಗಳು
-                        </h3>
+
                        
 
                     </div>
