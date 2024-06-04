@@ -11,6 +11,7 @@ import c21 from '../../../../../Images/c21.png'
 import ImageComponent from 'material-ui-image'
 import Table2 from '../../../Tables/Chapter2/Table2'
 import Table2kan from '../../../Tables/Chapter2kan/Table2'
+import CustomTable from '../../../../CustomTable/CustomTable'
 
 const  SourcesApplication = () => {
 
@@ -64,10 +65,15 @@ const  SourcesApplication = () => {
                     <Para>
                         {ctx.chapter2kannada.Content.para8}
                     </Para>
+
+
                     <h3 className='headnote'>
                             ₹ ಕೋಟಿಗಳಲ್ಲಿ
                     </h3>
-                    <Table2kan/>
+                    <CustomTable title={"ಕೋಷ್ಟಕ-2.2: 20೨೧-2೨ ಮತ್ತು 202೨-2೩ರಲ್ಲಿ ನಿಧಿಗಳ ಆಕರ ಮತ್ತು ಅನ್ವಯಗಳ ವಿವರಗಳು."}
+                                        
+                                        columns={ctx.tables2kan.Table2}
+                                        data={ctx.tables2kan.Table2} />
                     <h4 className='footnote'>
                             <i>
                             ಆಕರ: ಹಣಕಾಸು ಲೆಕ್ಕಗಳು

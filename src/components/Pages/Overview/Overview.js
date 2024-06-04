@@ -159,12 +159,7 @@ const Overview = () => {
                     <div className="contentwrapper" id="home">
                         <FloatingActionButtons back="/preface/" forward="/overview/introduction" />
                         
-                        <Title>{ctx.execsummarykan.para4}</Title>
-                        {['para5'].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.execsummarykan[item]}
-                            </Para>
-                        )}
+                        
                         <Title >{ctx.execsummarykan.para6}</Title>
                         {['para7'].map((item, ind) =>
                             <Para key={ind / 10}>
