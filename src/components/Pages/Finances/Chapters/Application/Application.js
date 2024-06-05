@@ -53,6 +53,12 @@ import c211 from '../../../../../Images/c211.png'
 import c212 from '../../../../../Images/c212.png'
 import c213 from '../../../../../Images/c213.png'
 import ImageComponent from 'material-ui-image'
+import CustomTable from '../../../../CustomTable/CustomTable'
+import c17 from '../../../../../Images/c17.png'
+import c18 from '../../../../../Images/c18.png'
+import c19 from '../../../../../Images/c19.png'
+import c20 from '../../../../../Images/c20.png'
+import c45 from '../../../../../Images/c45.png'
 
 
 const Application = () => {
@@ -556,448 +562,376 @@ const Application = () => {
                     <Navbar />
                     <div className="contentwrapper" id="home">
                         <FloatingActionButtons back="/finances/resources" forward="/finances/publicaccount" />
-                        <Title>{ctx.chapter2kannada.Content.para72}</Title>
-                        {["para73"].map((item, ind) =>
+                        <Title>{ctx.chapter2kannada.Content.para95}</Title>
+                        {["para96","para97"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
                             </Para>)}
-                        <Para>
-                            {ctx.chapter2kannada.Content["para74"]}
-                        </Para>
-                        <Subtitle>
-                            {ctx.chapter2kannada.Content["para75"]}
-                        </Subtitle>
-                        {["para76"].map((item, ind) =>
+                    <Subtitle><i>
+                           {ctx.chapter2kannada.Content.para98}</i>
+                           </Subtitle>
+                           {["para99"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
                             </Para>)}
-
-
-                        <h3 className='headnote'>
-                            (` ಕೋಟಿಗಳಲ್ಲಿ)
-                        </h3>
-                        <Table13kan />
-                        <h3>
-                            ಆಕರ: ಹಣಕಾಸು ಲೆಕ್ಕಗಳು
-                        </h3>
-
-
-                        <Para>
-                            {ctx.chapter2kannada.Content["t3fb"]}
-                        </Para>
-                        <Para>
-                            {ctx.chapter2kannada.Content.para77}
-                        </Para>
-                        {/* <ImageComponent src={k27} alt="chart23" aspectRatio={1 / 0.5} /> */}
-                        {/* <Chart7 />
-                        <Para>
-                            {ctx.chapter2kannada.Content["t3fb"]}
-                        </Para> */}
-                        <Para>
-                            {ctx.chapter2kannada.Content.para78}
-                        </Para>
-                        {/* <ImageComponent src={k28} alt="chart23" aspectRatio={1 / 0.6} /> */}
-                        {/* <Chart8 />
-                        <Para>
-                            {ctx.chapter2kannada.Content["t3fb"]}
-                        </Para> */}
-                        <Para>
-                            {ctx.chapter2kannada.Content["para79"]}
-                        </Para>
-                        <Subtitle>
-                            {ctx.chapter2kannada.Content["para80"]}
-                        </Subtitle>
-                        {["para81", "para82", "para83"].map((item, ind) =>
+                            <h3 className='headnote'>
+                            ₹ ಕೋಟಿಗಳಲ್ಲಿ
+                    </h3>
+                     <CustomTable title={"ಕೋಷ್ಟಕ-2.1೯: ಒಟ್ಟು ವೆಚ್ಚ – ಪ್ರವೃತ್ತಿಗಳು ಮತ್ತು ಸಂಯೋಜನೆ"}
+                            
+                            columns={ctx.tables2kan.Table18}
+                            data={ctx.tables2kan.Table18} />
+                              <h4 className='footnote'>
+                <i>
+                ಆಕರ: ಹಣಕಾಸು ಲೆಕ್ಕಗಳು.
+                   
+                </i>
+        </h4>
+                            {["para100"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
                             </Para>)}
-
-
-                        <h3 className='headnote'>
-                            (` ಕೋಟಿಗಳಲ್ಲಿ)
-                        </h3>
-                        <Table14kan />
-                        <Para>
-                            {ctx.chapter2kannada.Content["t13a"]}
-                        </Para>
-
-
-
-                        <Para>
-                            {ctx.chapter2kannada.Content.para84}
-                        </Para>
-                        {/* <ImageComponent src={k29} alt="chart23" aspectRatio={1 / 0.5} /> */}
-                        {/* <Chart9 />
-                        <Para>
-                            {ctx.chapter2kannada.Content["t3fb"]}
-                        </Para> */}
-                        {["para85", "para86", "para87",].map((item, ind) =>
+                            <ImageComponent  src={c17} alt="chart23" aspectRatio={1 / 1} />                     
+                            {["para101"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
                             </Para>)}
-
-                        <h3 className='headnote'>
-                            (` ಕೋಟಿಗಳಲ್ಲಿ)
-                        </h3>
-                        <Table15kan />
-
-                        <Para>
-                            {ctx.chapter2kannada.Content["t3fb"]}
-                        </Para>
-                        {["para88", "para89", "para90",].map((item, ind) =>
+                            <ImageComponent  src={c18} alt="chart23" aspectRatio={1 / 1} />                      
+                            {["para102"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
                             </Para>)}
-
-                        <h3 className='headnote'>
-                            (` ಕೋಟಿಗಳಲ್ಲಿ)
-                        </h3>
-                        <Table16kan />
-                        <h3>
-                            ಆಕರ : ಹಣಕಾಸು ಲೆಕ್ಕಗಳು
-                            <br></br>
-                            * ಉದ್ದೇಶ ಶೀರ್ಷಿಕೆ ಕ್ರೋಢೀಕೃತ ಸಂಬಳಗಳು ಅಧಿಕಾರಿಗಳ ವೇತನ, ಸಿಬ್ಬಂದಿ ವೇತನ, ಮಧ್ಯಂತರ ಪರಿಹಾರ, ತುಟ್ಟಿಭತ್ಯೆ, ಇತರ ಭತ್ಯೆಗಳು, ವೈದ್ಯಕೀಯ ಭತ್ಯೆ ಮತ್ತು ವೈದ್ಯಕೀಯ ವೆಚ್ಚಗಳ ಮರುಪಾವತಿಯನ್ನು ಒಳಗೊಂಡಿರುತ್ತದೆ.
-                        </h3>
-                        <Para>
-                            {ctx.chapter2kannada.Content["t15a"]}
-                        </Para>
-                        <Para>
-                            {ctx.chapter2kannada.Content["t15b"]}
-                        </Para>
-                        {["para91", "para92", "para93", "para94"].map((item, ind) =>
+                            <Subtitle><i>
+                           {ctx.chapter2kannada.Content.para103}</i>
+                           </Subtitle>
+                           {["para104","para105","para106"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
                             </Para>)}
-
-                        <h3 className='headnote'>
-                            (` ಕೋಟಿಗಳಲ್ಲಿ)
-                        </h3>
-                        <Table17kan />
-                        <h3>
-                            ಆಕರ : ಹಣಕಾಸು ಲೆಕ್ಕಗಳು
-                            <br></br>
-                            # ಆಯವ್ಯಯ ಹೊರಗಿನ ಸಾಲಗಳ ಮೇಲಿನ ಬಡ್ಡಿಯನ್ನು ಒಳಗೊಂಡಿರುತ್ತದೆ
-                            <br></br>
-                            @ ಹಣಕಾಸಿನ ಸಹಾಯದ ರೂಪದಲ್ಲಿ ಸಹಾಯಧನಗಳನ್ನು ಹೊರತುಪಡಿಸುತ್ತದೆ
-                            <br></br>
-                            * ಪಂಚಾಯತ್‌ ರಾಜ್‌ ಸಂಸ್ಥೆಗಳ ಸಂಬಳೇತರ ಬಾಬ್ತುಗಳು ಮತ್ತು ಪಂಚಾಯತ್‌ ರಾಜ್‌ ಸಂಸ್ಥೆಗಳ ಮತ್ತು ನಗರ ಸ್ಥಳೀಯ ಸಂಸ್ಥೆಗಳಿಗೆ ಸಂಬಂಧಿಸಿದ ಇತರ ವೆಚ್ಚಗಳ ಬಾಬ್ತುಗಳನ್ನು ಒಳಗೊಂಡಿದೆ.
-                        </h3>
-                        {/* <ImageComponent src={k210} alt="chart23" aspectRatio={1 / 0.5} /> */}
-
-                        {["para95"].map((item, ind) =>
+                            <h3 className='headnote'>
+                            ₹ ಕೋಟಿಗಳಲ್ಲಿ
+                    </h3>
+                     <CustomTable title={"ಕೋಷ್ಟಕ-2.೨೦: ರಾಜಸ್ವ ವೆಚ್ಚ–ಮೂಲ ಪ್ರಮಿತಿಗಳು"}
+                            
+                            columns={ctx.tables2kan.Table19}
+                            data={ctx.tables2kan.Table19} />
+                              <h4 className='footnote'>
+                <i>
+                ಆಕರ: ಸಂಬಂಧಿತ ವರ್ಷಗಳ ಹಣಕಾಸು ಲೆಕ್ಕಗಳು.
+                   
+                </i>
+        </h4>
+                            {["para107"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
                             </Para>)}
-                        <Para>
-                            {ctx.chapter2kannada.Content["para96"]}
-                        </Para>
-                        {["para97", "para98"].map((item, ind) =>
+                            <ImageComponent  src={c19} alt="chart23" aspectRatio={1 / 1} />                      
+
+                            {["para108"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
                             </Para>)}
-                        <Para>
-                            {ctx.chapter2kannada.Content["para99"]}
-                        </Para>
-                        {["para100", "para101", "para102", "para103", "para104", "para105", "para106",
-                            "para107", "para108", "para109", "para110", "para111", "para112", "para113"].map((item, ind) =>
-                                <Para key={ind / 10}>
-                                    {ctx.chapter2kannada.Content[item]}
-                                </Para>)}
-                        <Subtitle>
-                            {ctx.chapter2kannada.Content["para114"]}
-                        </Subtitle>
-                        {["para115", "para116"].map((item, ind) =>
+                            <Subtitle>
+                           {ctx.chapter2kannada.Content.para103}
+                           </Subtitle>
+                           {["para110"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
                             </Para>)}
+                            <h3 className='headnote'>
+                            ₹ ಕೋಟಿಗಳಲ್ಲಿ
+                    </h3>
+                     <CustomTable title={"ಕೋಷ್ಟಕ-2.೨೧: 20೨೧-2೨ಕ್ಕೆ ಹೋಲಿಸಿದರೆ 202೨-2೩ರಲ್ಲಿ ರಾಜಸ್ವ ವೆಚ್ಚದಲ್ಲಿನ ವ್ಯತ್ಯಾಸ"}
+                            
+                            columns={ctx.tables2kan.Table20a}
+                            data={ctx.tables2kan.Table20a} />
+                              <h4 className='footnote'>
+                <i>
+                ಆಕರ-ಹಣಕಾಸು ಲೆಕ್ಕಗಳು
+                   
+                </i>
+        </h4>
 
-                        <Subtitle>
-                            {ctx.chapter2kannada.Content["para117"]}
-                        </Subtitle>
-
-                        <Para>
-                            {ctx.chapter2kannada.Content["para118"]}
-                        </Para>
-
-                        <Table18kan />
-                        <Para>
-                            {ctx.chapter2kannada.Content["t15a"]}
-                        </Para>
-                        <Para>
-                            {ctx.chapter2kannada.Content.para119}
-                        </Para>
-
-                        {/* <ImageComponent src={k211} alt="chart23" aspectRatio={1 / 0.6} /> */}
-
-                        {/* <Chart11 />
-                        <Para>
-                            {ctx.chapter2kannada.Content["t15a"]}
-                        </Para> */}
-                        {["para120", "para121", "para122"].map((item, ind) =>
+                            {["para111","para112","para113","para114","para115","para116","para117","para118"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
                             </Para>)}
-                        <Subtitle>
-                            {ctx.chapter2kannada.Content["para122a"]}
-                        </Subtitle>
-
-                        {["para123", "para124"].map((item, ind) =>
+                            <Subtitle>
+                           {ctx.chapter2kannada.Content.para119}
+                           </Subtitle>
+                           {["para120"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
                             </Para>)}
-                        <h3 className='headnote'>
-                            (` ಕೋಟಿಗಳಲ್ಲಿ)
-                        </h3>
-                        <Table18akan />
-                        <h3>
-                            ಆಕರ : ಹಣಕಾಸು ಲೆಕ್ಕಗಳು
-                        </h3>
-                        <Para>
-                            {ctx.chapter2kannada.Content["t15a"]}
-                        </Para>
-                        {["para125", "para126", "para127", "para128", "para129"].map((item, ind) =>
+                            <h3 className='headnote'>
+                            ₹ ಕೋಟಿಗಳಲ್ಲಿ
+                    </h3>
+                     <CustomTable title={"ಕೋಷ್ಟಕ-2.೨೨: ಆಯವ್ಯಯ ಅನುಮೋದನೆಗೆ ಪ್ರತಿಯಾಗಿ ಉದ್ದೇಶ ಶೀರ್ಷಿಕೆವಾರು ವೆಚ್ಚ"}
+                            
+                            columns={ctx.tables2kan.Table20b}
+                            data={ctx.tables2kan.Table20b} />
+                              <h4 className='footnote'>
+                <i>
+                ಆಕರ-ಹಣಕಾಸು ಲೆಕ್ಕಗಳು
+                   
+                </i>
+        </h4>
+
+                            {["para121"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
                             </Para>)}
-                        <h3 className='headnote'>
-                            (` ಕೋಟಿಗಳಲ್ಲಿ)
-                        </h3>
-                        <Table19kan />
-                        <h3 className='headnote'>
-                            ಆಕರ: ಹಣಕಾಸು ಲೆಕ್ಕಗಳು
-                        </h3>
-
-
-                        <Para>
-                            {ctx.chapter2kannada.Content["t15a"]}
-                        </Para>
-                        {["para130", "para131", "para132"].map((item, ind) =>
+                            <Subtitle>
+                           {ctx.chapter2kannada.Content.para122}
+                           </Subtitle>
+                           {["para122a","para123","para124","para125","para126","para127","para128","para129","para130","para131","para132"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
                             </Para>)}
-
-                        <Table20akan />
-                        {/* <Chart12 />
-                        <Para>
-                            {ctx.chapter2kannada.Content["t15a"]}
-                        </Para> */}
-
-                        <Para>
-                            {ctx.chapter2kannada.Content.para133}
-                        </Para>
-
-                        {["para133", "para134", "para135", "para136", "para137"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                <li>
-                                    {ctx.chapter2kannada.Content[item]}
-                                </li>
-                            </Para>)}
-
-                        <Para>
-                            {ctx.chapter2kannada.Content.para138}
-                        </Para>
-                        <h3 className='headnote'>
-                            (` ಕೋಟಿಗಳಲ್ಲಿ)
-                        </h3>
-                        <Table20bkan />
-                        <h3>
-                            *	ಸಾಲ ಅಲ್ಲದ ನಿವ್ವಳ ಸ್ವಂತ ರಾಜಸ್ವ ಆದಾಯವನ್ನು ಲೆಕ್ಕ ಹಾಕುವಾಗ ಉಪಕರ (ಸೆಸ್) ಮತ್ತು ವಸೂಲಿ ಶುಲ್ಕಗಳನ್ನು ಪರಿಗಣಿಸಿಲ್ಲ. ಮುಂದುವರೆದಂತೆ, ೨೦೨೦-೨೧ ಮತ್ತು ೨೦೨೧-೨೨ರ ಅವಧಿಯಲ್ಲಿ ಬ್ಯಾಕ್‌ ಟು ಬ್ಯಾಕ್‌ ಸಾಲವಾಗಿ ಸ್ವೀಕರಿಸಿದ ಪರಿಹಾರವನ್ನು ಪರಿಗಣಿಸಿಲ್ಲ.
-                            <br></br>
-                            #	ಹದಿಮೂರು, ಹದಿನಾಲ್ಕು ಮತ್ತು ಹದಿನೈದನೆಯ ಹಣಕಾಸು ಆಯೋಗದ ಹಂಚಿಕೆಗಳನ್ನು ಒಳಗೊಂಡಿಲ್ಲ.
-
-                        </h3>
-                        <Para>
-                            {ctx.chapter2kannada.Content.para139}
-                        </Para>
-
-                        <Subtitle>
-                            {ctx.chapter2kannada.Content["para140"]}
-                        </Subtitle>
-
-                        {["para141", "para142"].map((item, ind) =>
+                            <h3 className='headnote'>
+                            ₹ ಕೋಟಿಗಳಲ್ಲಿ
+                    </h3>
+                     <CustomTable title={"ಕೋಷ್ಟಕ-2.23: ಬದ್ಧ ವೆಚ್ಚದ ಘಟಕಗಳು"}
+                            
+                            columns={ctx.tables2kan.Table20c}
+                            data={ctx.tables2kan.Table20c} />
+                              <h4 className='footnote'>
+                <i>
+                ಆಕರ-ಹಣಕಾಸು ಲೆಕ್ಕಗಳು
+                   
+                </i>
+        </h4> 
+                            {["para132a","para133"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
                             </Para>)}
-                        <h3 className='headnote'>
-                            (` ಕೋಟಿಗಳಲ್ಲಿ)
-                        </h3>
-                        <Table20ckan />
-                        <h3>
-                            ಆಕರ: ಆರೋಗ್ಯ ಮತ್ತು ಕುಟುಂಬ ಕಲ್ಯಾಣ ಮತ್ತು ವೈದ್ಯಕೀಯ ಶಿಕ್ಷಣ ಇಲಾಖೆಯಿಂದ ಒದಗಿಸಲ್ಪಟ್ಟ ಮಾಹಿತಿ
-                        </h3>
-                        <Para>
-                            {ctx.chapter2kannada.Content.para143}
-                        </Para>
-
-                        <Subtitle>
-                            <i>
-                                {ctx.chapter2kannada.Content["para144"]}
-                            </i>
-                        </Subtitle>
-
-                        {["para145", "para146"].map((item, ind) =>
+                            <Subtitle>
+                           {ctx.chapter2kannada.Content.para134}
+                           </Subtitle>
+                           {["para135","para136"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
                             </Para>)}
-                        {/* <ImageComponent src={k212a} alt="chart23" aspectRatio={1 / 0.6} /> */}
-                        <Para>
-                            {ctx.chapter2kannada.Content.para147}
-                        </Para>
-
-                        <h3 className='headnote'>
-                            (` ಕೋಟಿಗಳಲ್ಲಿ)
-                        </h3>
-                        <Table20dkan />
-                        <h3>
-                            <i>
-                                ಆಕರ : ಹಣಕಾಸು ಲೆಕ್ಕಗಳು
-                            </i>
-                        </h3>
-
-                        {["para148"].map((item, ind) =>
+                            <Subtitle>
+                           {ctx.chapter2kannada.Content.para137}
+                           </Subtitle>
+                           {["para138","para139","para140","para141","para142","para143","para144","para145"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
                             </Para>)}
-
-                        <div style={{
-                            backgroundColor: "#ac8",
-                            fontSize: "18px",
-                            padding: "5px 5px 5px 20px",
-                            borderRadius: "5px"
-                        }}>
-                            <p>
-                                {ctx.chapter2kannada.Content.para149}
-                            </p>
-                        </div>
-                        <Subtitle>
-                            <i>
-                                {ctx.chapter2kannada.Content.para150}
-                            </i>
-                        </Subtitle>
-                        {["para151", "para152", "para153", "para154", "para155"].map((item, ind) =>
+                            <Subtitle>
+                           {ctx.chapter2kannada.Content.para146}
+                           </Subtitle>
+                           {["para147","para148"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
                             </Para>)}
-
-                        <Table22kan />
-                        <h3>
-                            <i>
-                                ಆಕರ : ಹಣಕಾಸು ಲೆಕ್ಕಗಳು
-                            </i>
-                        </h3>
-
-                        {["para156", "para157", "para158", "para159", "para160"].map((item, ind) =>
+                            <Subtitle>
+                           {ctx.chapter2kannada.Content.para149}
+                           </Subtitle>
+                           {["para150"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
                             </Para>)}
-
-                        <Table23kan />
-                        <h3>
-                            <i>
-                                ಆಕರ : ಹಣಕಾಸು ಲೆಕ್ಕಗಳು
-                            </i>
-                        </h3>
-
-                        {["para161", "para162", "para163", "para164", "para165"].map((item, ind) =>
+                            <Subtitle>
+                           {ctx.chapter2kannada.Content.para151}
+                           </Subtitle>
+                           {["para152"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
                             </Para>)}
+                            <CustomTable title={"ಕೋಷ್ಟಕ-2.24: 2018-23ರ ಅವಧಿಯಲ್ಲಿ ಸಹಾಯಧನಗಳ ಮೇಲಿನ ವೆಚ್ಚ "}
+                            
+                            columns={ctx.tables2kan.Table20d}
+                            data={ctx.tables2kan.Table20d} />
+                              <h4 className='footnote'>
+                <i>
+                ಆಕರ-ಹಣಕಾಸು ಲೆಕ್ಕಗಳು
+                   
+                </i>
+        </h4> 
 
-                        <h3 className='headnote'>
-                            (` ಕೋಟಿಗಳಲ್ಲಿ)
-                        </h3>
-                        <Table24kan />
-                        <h3>
-                            <i>
-                                ಆಕರ : ಹಣಕಾಸು ಲೆಕ್ಕಗಳು
-                            </i>
-                        </h3>
-
-                        {["para166", "para167", "para168", "para169", "para170", "para171", "para172"].map((item, ind) =>
+                            {["para153","para154"].map((item, ind) =>
                             <Para key={ind / 10}>
-                                <li>
-                                    {ctx.chapter2kannada.Content[item]}
-                                </li>
+                                {ctx.chapter2kannada.Content[item]}
                             </Para>)}
-                        <Para>
-                            {ctx.chapter2kannada.Content.para173}
-                        </Para>
+                            <ImageComponent  src={c20} alt="chart23" aspectRatio={1 / 1} />                      
 
-                        <h3 className='headnote'>
-                            (` ಕೋಟಿಗಳಲ್ಲಿ)
-                        </h3>
-                        <Table25kan />
+                            <Subtitle>
+                           {ctx.chapter2kannada.Content.para155}
+                           </Subtitle>
+                           {["para156","para157"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter2kannada.Content[item]}
+                            </Para>)}
+                            <Subtitle>
+                           {ctx.chapter2kannada.Content.para158}
+                           </Subtitle>
+                           <Subtitle>
+                           {ctx.chapter2kannada.Content.para159}
+                           </Subtitle>
+                           {["para160"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter2kannada.Content[item]}
+                            </Para>)}
+                            <CustomTable title={"ಕೋಷ್ಟಕ-2.೨೫: ಸ್ಥಳೀಯ ಸಂಸ್ಥೆಗಳಿಗೆ ಹಣಕಾಸಿನ ನೆರವು"}
+                            
+                            columns={ctx.tables2kan.Table20}
+                            data={ctx.tables2kan.Table20} />
+                              <h4 className='footnote'>
+                <i>
+                ಆಕರ-ಹಣಕಾಸು ಲೆಕ್ಕಗಳು
+                   
+                </i>
+        </h4> 
 
-                        <Para>
-                            {ctx.chapter2kannada.Content.para174}
-                        </Para>
 
-                        <Para>
-                            <h4>
-                                {ctx.chapter2kannada.Content.para175}
-                            </h4>
-                        </Para>
-                        <Para>
-                            {ctx.chapter2kannada.Content.para176}
-                        </Para>
+                            {["para161","para162"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter2kannada.Content[item]}
+                            </Para>)}
+                            <Subtitle>
+                           {ctx.chapter2kannada.Content.para163}
+                           </Subtitle>
+                           {["para164","para165","para166"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter2kannada.Content[item]}
+                            </Para>)}
+                            <ImageComponent  src={c45} alt="chart23" aspectRatio={1 / 1} />                      
 
-                        <h3 className='headnote'>
-                            (` ಕೋಟಿಗಳಲ್ಲಿ)
-                        </h3>
-                        <Table26kan />
-                        <h3>
-                            <i>
-                                ಆಕರ : ಹಣಕಾಸು ಲೆಕ್ಕಗಳು
-                            </i>
-                        </h3>
-
-                        <h3 className='headnote'>
-                            (` ಕೋಟಿಗಳಲ್ಲಿ)
-                        </h3>
-                        <Table27kan />
-                        <h3>
-                            <i>
-                                ಆಕರ : ಹಣಕಾಸು ಲೆಕ್ಕಗಳು
-                            </i>
-                        </h3>
-
-                        {["para177", "para178"].map((item, ind) =>
+                            {["para167"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter2kannada.Content[item]}
+                            </Para>)}
+                            <Subtitle>
+                           {ctx.chapter2kannada.Content.para168}
+                           </Subtitle>
+                           {["para169"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter2kannada.Content[item]}
+                            </Para>)}
+                            <h3 className='headnote'>
+                            ₹ ಕೋಟಿಗಳಲ್ಲಿ
+                    </h3>
+                     <CustomTable title={"ಕೋಷ್ಟಕ-2.26: 2021-22ಕ್ಕೆ ಹೋಲಿಸಿದರೆ ೨೦೨೨-೨೩ರ ಅವಧಿಯಲ್ಲಿ ಬಂಡವಾಳ ವೆಚ್ಚ"}
+                            
+                            columns={ctx.tables2kan.Table21}
+                            data={ctx.tables2kan.Table21} />
+                              <h4 className='footnote'>
+                <i>
+                ಆಕರ-ಹಣಕಾಸು ಲೆಕ್ಕಗಳು
+                   
+                </i>
+        </h4> 
+                            {["para170","para172"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter2kannada.Content[item]}
+                            </Para>)}
+                            <Subtitle>
+                           {ctx.chapter2kannada.Content.para173}
+                           </Subtitle>
+                           {["para174"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter2kannada.Content[item]}
+                            </Para>)}
+                            <Subtitle>
+                           {ctx.chapter2kannada.Content.para175}
+                           </Subtitle>
+                           {["para176","para177","para178"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter2kannada.Content[item]}
+                            </Para>)}
+                            <Subtitle>
+                           {ctx.chapter2kannada.Content.para179}
+                           </Subtitle>
+                           {["para180"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter2kannada.Content[item]}
+                            </Para>)}
+                            <CustomTable title={"ಕೋಷ್ಟಕ-2.2೭: ಹೂಡಿಕೆಯ ಮೇಲಿನ ಪ್ರತಿಫಲ"}
+                            
+                            columns={ctx.tables2kan.Table22}
+                            data={ctx.tables2kan.Table22} />
+                              <h4 className='footnote'>
+                <i>
+                ಆಕರ-ಹಣಕಾಸು ಲೆಕ್ಕಗಳು
+                   
+                </i>
+        </h4> 
+                            {["para181","para182","para183"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter2kannada.Content[item]}
+                            </Para>)}
+                            <Subtitle>
+                           {ctx.chapter2kannada.Content.para184}
+                           </Subtitle>
+                           {["para185"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter2kannada.Content[item]}
+                            </Para>)}
+                            {["para186","para187","para188","para189","para190"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter2kannada.Content[item]}
+                            </Para>)}
+                            <Subtitle>
+                           {ctx.chapter2kannada.Content.para191}
+                           </Subtitle>
+                           {["para192"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter2kannada.Content[item]}
+                            </Para>)}
+                            <h3 className='headnote'>
+                            ₹ ಕೋಟಿಗಳಲ್ಲಿ
+                    </h3>
+                     <CustomTable title={"ಕೋಷ್ಟಕ-2.2೯: ಕಳೆದ ಐದು ವರ್ಷಗಳಲ್ಲಿ ವಿತರಿಸಲಾದ ಮತ್ತು ವಸೂಲಿ ಮಾಡಿದ ಸಾಲಗಳ ಪ್ರಮಾಣ"}
+                            
+                            columns={ctx.tables2kan.Table23}
+                            data={ctx.tables2kan.Table23} />
+                              <h4 className='footnote'>
+                <i>
+                ಆಕರ-ಹಣಕಾಸು ಲೆಕ್ಕಗಳು
+                   
+                </i>
+                </h4>
+                            
+                            {["para193","para194","para195","para196","para197","para198","para199"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter2kannada.Content[item]}
+                            </Para>)}
+                            <Subtitle>
+                           {ctx.chapter2kannada.Content.para200}
+                           </Subtitle>
+                           {["para201"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter2kannada.Content[item]}
+                            </Para>)}
+                            {["para202","para203","para204"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter2kannada.Content[item]}
+                            </Para>)}
+                            <Subtitle>
+                           {ctx.chapter2kannada.Content.para205}
+                           </Subtitle>
+                           {["para206"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter2kannada.Content[item]}
+                            </Para>)}
+                            <Subtitle><i>
+                           {ctx.chapter2kannada.Content.para207}
+                           </i>
+                           </Subtitle>
+                           {["para208"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter2kannada.Content[item]}
+                            </Para>)}
+                            {["para209","para210","para211","para212","para213"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
                             </Para>)}
 
 
+                           
 
-                        <Subtitle>
-                            <i>
-                                {ctx.chapter2kannada.Content.para179}
-                            </i>
-                        </Subtitle>
-                        <Para>
-                            {ctx.chapter2kannada.Content.para180}
-                        </Para>
-
-                        <h3 className='headnote'>
-                            (` ಕೋಟಿಗಳಲ್ಲಿ)
-                        </h3>
-                        <Table28kan />
-                        <h3>
-                            <i>
-                                ಆಕರ : ಹಣಕಾಸು ಲೆಕ್ಕಗಳು
-                                <br></br>
-                                ಒವೆ: ಒಟ್ಟು ವೆಚ್ಚ, ಬಂವೆ: ಬಂಡವಾಳ ವೆಚ್ಚ, ಅವೆ: ಅಭಿವೃದ್ಧಿ ವೆಚ್ಚ (ಸಾಮಾಜಿಕ ಮತ್ತು ಆರ್ಥಿಕ ವಲಯಗಳ ಅಡಿಯಲ್ಲಿ ಒಟ್ಟು ವೆಚ್ಚವನ್ನು ಒಳಗೊಂಡಿದೆ).
-                            </i>
-                        </h3>
-
-                        <Para>
-                            {ctx.chapter2kannada.Content.para181}
-                        </Para>
-                        {["para182", "para183", "para184", "para185", "para186"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                <li>
-                                    {ctx.chapter2kannada.Content[item]}
-                                </li>
-                            </Para>)}
                     </div>
                 </div>
                 : <div>
