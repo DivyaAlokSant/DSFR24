@@ -21,6 +21,9 @@ import Table39kan from '../../../Tables/Chapter2kan/Table39'
 import Table40kan from '../../../Tables/Chapter2kan/Table40'
 import Table41kan from '../../../Tables/Chapter2kan/Table41'
 import Subtitle from '../../../../Subtitle/Subtitle'
+import CustomTable from '../../../../CustomTable/CustomTable'
+import c51 from '../../../../../Images/c51.png'
+import c52 from '../../../../../Images/c52.png'
 const Dsa = () => {
 
     const ctx = useContext(MyContext)
@@ -167,155 +170,146 @@ const Dsa = () => {
                     <Navbar />
                     <div className="contentwrapper" id="home">
                         <FloatingActionButtons back="/finances/debtmanagement" forward="/finances/conclusion" />
-                        <Title>{ctx.chapter2kannada.Content.para282}</Title>
+                        <Title>{ctx.chapter2kannada.Content.para311}</Title>
 
-                        {["para264", "para265", "para266"].map((item, ind) =>
+                        {["para312","para313","para314","para315"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
                             </Para>)}
-                        <h3 className='headnote'>
-                            ₹ In crore
-                        </h3>
-                        <Table3೭kan />
-                        <h3>* ಬಾಕಿಯಿರುವ ಸಾರ್ವಜನಿಕ ಋಣವು 6003-ಆಂತರಿಕ ಋಣ ಮತ್ತು 6004-ಭಾರತ ಸರ್ಕಾರದಿಂದ ಸಾಲಗಳು ಮತ್ತು ಮುಂಗಡಗಳ ಅಡಿಯಲ್ಲಿ ಉಳಿದಿರುವ ಮೊತ್ತವಾಗಿದೆ.
-                            <br></br>
-                            #	 ರಾಜ್ಯ ಸರ್ಕಾರಕ್ಕೆ ಲಭ್ಯವಿರುವ ನಿವ್ವಳ ಸಾಲವನ್ನು, ಸಾರ್ವಜನಿಕ ಸಾಲ ಮರುಪಾವತಿ ಮತ್ತು ಸಾರ್ವಜನಿಕ ಸಾಲದ ಮೇಲಿನ ಬಡ್ಡಿ ಪಾವತಿಗಳ ಮೇಲಿನ ಸಾರ್ವಜನಿಕ ಸಾಲ ಸ್ವೀಕೃತಿಗಳ ಹೆಚ್ಚುವರಿ ಎಂದು ಲೆಕ್ಕಹಾಕಲಾಗುತ್ತದೆ ಮತ್ತು ಸರಕು ಮತ್ತು ಸೇವಾ ತೆರಿಗೆ ಪರಿಹಾರವಾಗಿ ಭಾರತ ಸರ್ಕಾರದಿಂದ ಪಡೆದ ಬ್ಯಾಕ್-ಟು-ಬ್ಯಾಕ್ ಸಾಲಗಳನ್ನು ಒಳಗೊಂಡಿರುವುದಿಲ್ಲ.
-                            <br></br>
-                            ^  ಸರಕು ಮತ್ತು ಸೇವಾ ತೆರಿಗೆ ಪರಿಹಾರದ ಬದಲಾಗಿ ಭಾರತ ಸರ್ಕಾರದಿಂದ ಪಡೆದ ಬ್ಯಾಕ್-ಟು-ಬ್ಯಾಕ್ ಸಾಲವನ್ನು (₹12,407 ಕೋಟಿ) ಸೂಚಕವನ್ನು ಲೆಕ್ಕ ಹಾಕಲು ಪರಿಗಣಿಸಲಾಗಿಲ್ಲ.
-                            <br></br>
-                            ** ೨೦೨೦-೨೧ ಮತ್ತು ೨೦೨೧-೨೨ರ ಅವಧಿಯಲ್ಲಿ  ಸರಕು ಸೇವಾ ತೆರಿಗೆ ಪರಿಹಾರದ ಬದಲಾಗಿ ಸ್ವೀಕರಿಸಿದ `೩೦,೫೧೬ ಕೋಟಿ ಬ್ಯಾಕ್‌-ಟು-ಬ್ಯಾಕ್‌ ಸಾಲವನ್ನು ಒಳಗೊಂಡಿದೆ.                       
-                        </h3>
-                        {["para267", "para268"].map((item, ind) =>
+                            <CustomTable title={"ಕೋಷ್ಟಕ-2.42: ಋಣ ಸಹಿಷ್ಣುತೆ ಸೂಚಕಗಳ ಪ್ರವೃತ್ತಿಗಳು"}
+                            
+                            columns={ctx.tables2kan.Table36}
+                            data={ctx.tables2kan.Table36} />
+                              <h4 className='footnote'>
+                <i>
+                ಆಕರ: ಹಣಕಾಸು ಲೆಕ್ಕಗಳು
+                   
+                </i></h4> 
+                     {["para316","para317","para318","para319","para320","para321"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
                             </Para>)}
-                        {["para269","para270"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                <li>
-                                {ctx.chapter2kannada.Content[item]}
-                                </li>
-                            </Para>)}
-                        
-                        <Para>
-                            {ctx.chapter2kannada.Content.para271}
-                        </Para>    
-                        {["para272", "para273","para274","para275","para276","para277",].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                <li>
-                                {ctx.chapter2kannada.Content[item]}
-                                </li>
-                            </Para>)}
-
-                        <Subtitle>
-                            <i>
-                            {ctx.chapter2kannada.Content.para278}
-                            </i>
-                        </Subtitle>
-                        <Para>
-                            {ctx.chapter2kannada.Content.para279}
-                        </Para> 
-                        <h3 className='headnote'>
-                            ₹  ಕೋಟಿಗಳಲ್ಲಿ
-                        </h3>
-                        <Table38kan />
-                        <h3>* ಬಾಕಿಯಿರುವ ಸಾರ್ವಜನಿಕ ಋಣವು 6003-ಆಂತರಿಕ ಋಣ ಮತ್ತು 6004-ಭಾರತ ಸರ್ಕಾರದಿಂದ ಸಾಲಗಳು ಮತ್ತು ಮುಂಗಡಗಳ ಅಡಿಯಲ್ಲಿ ಉಳಿದಿರುವ ಮೊತ್ತವಾಗಿದೆ.
-                            <br></br>
-                            * 2020-21 ಮತ್ತು 2021-22ರ ಅವಧಿಯಲ್ಲಿ ಒಟ್ಟು ಸಾಲಗಳು ಬ್ಯಾಕ್-ಟು-ಬ್ಯಾಕ್ ಸಾಲಗಳನ್ನು ಒಳಗೊಂಡಿದ್ದವು.
-                             ಋಣ ಸ್ವೀಕೃತಿಗಳಡಿಯಲ್ಲಿ 2020-21 ಮತ್ತು 2021-22ರ ಅವಧಿಯಲ್ಲಿ ಅನುಕ್ರಮವಾಗಿ ರಾಜ್ಯಕ್ಕೆ ಬ್ಯಾಕ್-ಟು-ಬ್ಯಾಕ್
-                              ಸಾಲವಾಗಿ ನೀಡಲಾದ `೧೨,೪೦೭ ಕೋಟಿ ಮತ್ತು  `1೮,೧೦೯ ಕೋಟಿ ಸರಕು ಮತ್ತು ಸೇವಾ ತೆರಿಗೆ ಪರಿಹಾರವನ್ನು,
-                               ಹಣಕಾಸು ಆಯೋಗವು ಸೂಚಿಸಬಹುದಾದ ಯಾವುದೇ ಮಾನದಂಡಗಳಿಗೆ ರಾಜ್ಯದ ಸಾಲವೆಂದು ಪರಿಗಣಿಸಲಾಗುವುದಿಲ್ಲ 
-                               ಎಂದು ಭಾರತ ಸರ್ಕಾರದ ವೆಚ್ಚ ಇಲಾಖೆಯು ನಿರ್ಧರಿಸಿತು.
-                        </h3>
-
-
-                        {["para280", "para281"].map((item, ind) =>
+                            <Subtitle>
+                           {ctx.chapter2kannada.Content.para322}
+                           </Subtitle>
+                           {["para323"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
                             </Para>)}
-                        <Subtitle>
-                            <i>
-                            {ctx.chapter2kannada.Content.para282}
-                            </i>
-                        </Subtitle>
-                        <Para>
-                            {ctx.chapter2kannada.Content.para283}
-                        </Para>
-
-                        <h3 className='headnote'>
-                            ₹  ಕೋಟಿಗಳಲ್ಲಿ
-                        </h3>
-                        <Table39kan />
-                        <h3>
-                            ಆಕರ : ಹಣಕಾಸು ಲೆಕ್ಕಗಳು
-                        </h3>
-
-                        {["para284", "para285", "para286"].map((item, ind) =>
+                            <CustomTable title={"ಕೋಷ್ಟಕ-2.43: ಬಡ್ಡಿ ದರ, ಒಟ್ಟು ಆಂತರಿಕ ಉತ್ಪನ್ನದ ಬೆಳವಣಿಗೆ ದರ ಮತ್ತು ಪ್ರಾಥಮಿಕ ಆಯವ್ಯಯ ಶಿಲ್ಕನ್ನು ಅವಲಂಬಿಸಿ ಸಾರ್ವಜನಿಕ ಋಣದ ಚಲನಶೀಲತೆ"}
+                            
+                            columns={ctx.tables2kan.Table37a}
+                            data={ctx.tables2kan.Table37a} />
+                             
+                            {["para324"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
                             </Para>)}
-                        <Subtitle>
-                            <i>
-                            {ctx.chapter2kannada.Content.para287}
-                            </i>
-                        </Subtitle>
-                        <Para>
-                            {ctx.chapter2kannada.Content.para288}
-                        </Para>
-
-                        {["para289","para290","para291"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                <li>
-                                {ctx.chapter2kannada.Content[item]}
-                                </li>
-                            </Para>)}
-                        <h3 className='headnote'>
-                            ₹  ಕೋಟಿಗಳಲ್ಲಿ
-                        </h3>
-                        <Table40kan />
-                        <h3>
-                            ಆಕರ : ಹಣಕಾಸು ಲೆಕ್ಕಗಳು
-                        </h3>
-
-
-                        {["para292", "para293", "para294", "para295"].map((item, ind) =>
+                            <CustomTable title={"ಕೋಷ್ಟಕ-2.44: ಸಾರ್ವಜನಿಕ ಋಣ ಸಹಿಷ್ಣುತೆ-ವಾಸ್ತವಿಕ ವೃದ್ಧಿ ಮತ್ತು ವಾಸ್ತವಿಕ ಬಡ್ಡಿ "}
+                            
+                            columns={ctx.tables2kan.Table38}
+                            data={ctx.tables2kan.Table38} />  
+                            {["para325","para326"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
                             </Para>)}
-
-                        <h3 className='headnote'>
-                            ₹  ಕೋಟಿಗಳಲ್ಲಿ
-                        </h3>
-                        <Table41kan />
-                        <h3>
-                            ಆಕರ : ಹಣಕಾಸು ಲೆಕ್ಕಗಳು
-                        </h3>
-
-
-                        {["para296", "para297"].map((item, ind) =>
+                            <Subtitle><i>
+                           {ctx.chapter2kannada.Content.para327}</i>
+                           </Subtitle>
+                           {["para328"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
-                            </Para>)}   
-
-                        {/* <ImageComponent  src={k218} alt="chart23" aspectRatio={1 / 0.5} /> */}
-
-                        {["para298", "para299"].map((item, ind) =>
+                            </Para>)}
+                            <h3 className='headnote'>
+                            ₹ ಕೋಟಿಗಳಲ್ಲಿ
+                    </h3>
+                            <CustomTable title={"ಕೋಷ್ಟಕ-2.45: ಸಾಲ ಪಡೆದ ಹಣದ ಬಳಕೆ"}
+                            
+                            columns={ctx.tables2kan.Table39}
+                            data={ctx.tables2kan.Table39} />
+                              <h4 className='footnote'>
+                <i>
+                ಆಕರ: ಹಣಕಾಸು ಲೆಕ್ಕಗಳು
+                   
+                </i></h4> 
+                            {["para329"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
-                            </Para>)}    
+                            </Para>)}
+                            <Subtitle><i>
+                           {ctx.chapter2kannada.Content.para330}</i>
+                           </Subtitle>
+                           {["para331"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter2kannada.Content[item]}
+                            </Para>)}
+                            <h3 className='headnote'>
+                            ₹ ಕೋಟಿಗಳಲ್ಲಿ
+                    </h3>
+                            <CustomTable title={"ಕೋಷ್ಟಕ-2.46: ರಾಜ್ಯ ಸರ್ಕಾರವು ನೀಡಿದ ಖಾತರಿಗಳು"}
+                            
+                            columns={ctx.tables2kan.Table40}
+                            data={ctx.tables2kan.Table40} />
+                              <h4 className='footnote'>
+                <i>
+                ಆಕರ: ಹಣಕಾಸು ಲೆಕ್ಕಗಳು
+                   
+                </i></h4> 
+                            {["para332","para333","para334"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter2kannada.Content[item]}
+                            </Para>)}
+                            <Subtitle><i>
+                           {ctx.chapter2kannada.Content.para335}</i>
+                           </Subtitle>
+                           {["para336","para337","para338","para339"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter2kannada.Content[item]}
+                            </Para>)}
+                            <h3 className='headnote'>
+                            ₹ ಕೋಟಿಗಳಲ್ಲಿ
+                    </h3>
+                            <CustomTable title={"ಕೋಷ್ಟಕ-2.೪೭: ನಗದು ಶಿಲ್ಕುಗಳು ಮತ್ತು ಅವುಗಳ ಹೂಡಿಕೆ"}
+                            
+                            columns={ctx.tables2kan.Table41}
+                            data={ctx.tables2kan.Table41} />
+                              <h4 className='footnote'>
+                <i>
+                ಆಕರ: ಹಣಕಾಸು ಲೆಕ್ಕಗಳು
+                   
+                </i></h4> 
+                            {["para340","para341","para342","para343","para344"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter2kannada.Content[item]}
+                            </Para>)}
+                            <h3 className='headnote'>
+                            ₹ ಕೋಟಿಗಳಲ್ಲಿ
+                    </h3>
+                            <CustomTable title={"ಕೋಷ್ಟಕ-2.48: ನಗದು ಶಿಲ್ಕು ಹೂಡಿಕೆ ಲೆಕ್ಕ (ಪ್ರಧಾನ ಲೆಕ್ಕಶೀರ್ಷಿಕೆ-೮೬೭೩)"}
+                            
+                            columns={ctx.tables2kan.Table42}
+                            data={ctx.tables2kan.Table42} />
+                              <h4 className='footnote'>
+                <i>
+                ಆಕರ: ಹಣಕಾಸು ಲೆಕ್ಕಗಳು
+                   
+                </i></h4> 
+                         
 
-                        {/* <ImageComponent  src={k219} alt="chart23" aspectRatio={1 / 0.6} /> */}
-                        {/* <ImageComponent  src={k220} alt="chart23" aspectRatio={1 / 0.6} /> */}
-                        {["para300", "para301", "para302"].map((item, ind) =>
+                            {["para345","para346"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
                             </Para>)}
 
+                            <ImageComponent  src={c51} alt="chart23" aspectRatio={1 / 1} />                      
+                            {["para347"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter2kannada.Content[item]}
+                            </Para>)}
+                            <ImageComponent  src={c52} alt="chart23" aspectRatio={1 / 1} />                      
 
 
 
-
-
-                        
 
                     </div>
                 </div>

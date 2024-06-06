@@ -905,6 +905,15 @@ const Application = () => {
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
                             </Para>)}
+                            <CustomTable title={"ಕೋಷ್ಟಕ-2.೩೦: 31 ಮಾರ್ಚ್ 202೩ರಲ್ಲಿದ್ದಂತೆ ₹ಒಂದು ಕೋಟಿಗಿಂತ ಹೆಚ್ಚಿನ ಅಪೂರ್ಣ ಯೋಜನೆಗಳ ವರ್ಷಾವಾರು ವಿವರ  (₹ ಕೋಟಿಗಳಲ್ಲಿ)"}
+                            
+                            columns={ctx.tables2kan.Table24}
+                            data={ctx.tables2kan.Table24} />
+                             <CustomTable title={"ಕೋಷ್ಟಕ-2.೩೧: 31 ಮಾರ್ಚ್ 202೩ರಲ್ಲಿದ್ದಂತೆ ₹ಒಂದು ಕೋಟಿಗಿಂತ ಹೆಚ್ಚಿನ ಅಪೂರ್ಣ ಯೋಜನೆಗಳ ಇಲಾಖಾವಾರು ವಿವರ  (₹ ಕೋಟಿಗಳಲ್ಲಿ)"}
+                            
+                            columns={ctx.tables2kan.Table25}
+                            data={ctx.tables2kan.Table25} />
+
                             {["para202","para203","para204"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
@@ -916,6 +925,19 @@ const Application = () => {
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
                             </Para>)}
+                            <h3 className='headnote'>
+                            ₹ ಕೋಟಿಗಳಲ್ಲಿ
+                    </h3>
+                     <CustomTable title={"ಕೋಷ್ಟಕ-2.32: ಸಾರ್ವಜನಿಕ-ಖಾಸಗಿ ಸಹಭಾಗಿತ್ವದಲ್ಲಿನ ಹೊಣೆಗಾರಿಕೆಗಳು"}
+                            
+                            columns={ctx.tables2kan.Table26}
+                            data={ctx.tables2kan.Table26} />
+                              <h4 className='footnote'>
+                <i>
+                ಆಕರ-ಹಣಕಾಸು ಲೆಕ್ಕಗಳು
+                   
+                </i>
+                </h4>
                             <Subtitle><i>
                            {ctx.chapter2kannada.Content.para207}
                            </i>
@@ -924,6 +946,20 @@ const Application = () => {
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
                             </Para>)}
+                            <h3 className='headnote'>
+                            (ಶೇಕಡಾವಾರು)
+                    </h3>
+                     <CustomTable title={"ಕೋಷ್ಟಕ-2.೩೩: ರಾಜ್ಯಗಳ ಹಣಕಾಸಿನ ಆದ್ಯತೆ"}
+                            
+                            columns={ctx.tables2kan.Table27}
+                            data={ctx.tables2kan.Table27} />
+                              <h4 className='footnote'>
+                <i>
+                ಆಕರ-ಹಣಕಾಸು ಲೆಕ್ಕಗಳು
+                   
+                </i>
+                </h4>
+
                             {["para209","para210","para211","para212","para213"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter2kannada.Content[item]}
