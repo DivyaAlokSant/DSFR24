@@ -156,7 +156,7 @@ const AppropAccounts = () => {
           <div className="contentwrapper" id="home">
             <FloatingActionButtons back="/budget/child-budget" forward="/budget/audit" />
 
-            <Title>{ctx.chapter3kannada.Content.para39}</Title>
+            <Title>{ctx.chapter3kannada.Content.para122}</Title>
             {["para40", "para41", "para42"].map(
               (item, ind) => (
                 <Para key={ind / 10}>{ctx.chapter3kannada.Content[item]}</Para>

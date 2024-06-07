@@ -55,20 +55,28 @@ const GenderBudget = () => {
       <div className="contentwrapper" id="home">
         <FloatingActionButtons back="/budget/budget-process" forward="/budget/child-budget" />
 
-        <Title>{ctx.chapter3kannada.Content.para12}</Title>
-        {["para13", "para14", "para15", "para16"].map(
-          (item, ind) => (
-            <Para key={ind / 10}>{ctx.chapter3kannada.Content[item]}</Para>
-          )
-        )}
-        <h3 className="headnote">
-        (` ಕೋಟಿಗಳಲ್ಲಿ)
-          </h3> 
-        <Table1kan />
-        <h4>ಆಕರ: ಮಹಿಳಾ ಉದ್ದೇಶಿತ ಆಯವ್ಯಯ</h4>
-        <Para>{ctx.chapter3kannada.Content.para18}</Para>
-        {/* <Para>{ctx.chapterThree.Introduction.Para1}</Para> */}
+        <Title>{ctx.chapter3kannada.Content.para11}</Title>
+        {["para110","para111","para112","para113"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter3kannada.Content[item]}
+                            </Para>)}
+                            <h3 className='headnote'>
+                            ₹ ಕೋಟಿಗಳಲ್ಲಿ
+                    </h3>
+                            <CustomTable title={"ಕೋಷ್ಟಕ-3.1: ೨೦೧೮-೧೯ರಿಂದ ೨೦೨೨-೨೩ರ ಅವಧಿಯಲ್ಲಿ ವರ್ಗವಾರು ಹಂಚಿಕೆ"}
+                            
+                            columns={ctx.tables3kan.Table1}
+                            data={ctx.tables3kan.Table1} />
+                              <h4 className='footnote'>
+                <i>
+                ಆಕರ: ಸಂಬಂಧಿತ ವರ್ಷಗಳ ಅನುದಾನ ವಹಿ ಮತ್ತು ಮಹಿಳಾ ಉದ್ದೇಶಿತ ಆಯವ್ಯಯ
+                   
+                </i></h4> 
+                            {["para114","para115"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter3kannada.Content[item]}
 
+                            </Para>)}
       </div>
     </div>
   ) : (

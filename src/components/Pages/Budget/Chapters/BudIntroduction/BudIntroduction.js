@@ -57,9 +57,10 @@ const BudIntroduction = () => {
     <div className="contentwrapper" id="home">
       <FloatingActionButtons back="/budget" forward="budget-process" />
       <Title>{ctx.chapter3kannada.Content.para1}</Title>
-      <Title>{ctx.chapter3kannada.Content.para2}</Title>
+      <Title>{ctx.chapter3kannada.Content.para10}</Title>
+     
 
-      <Para>{ctx.chapter3kannada.Content.para3}</Para>
+      <Para>{ctx.chapter3kannada.Content.para100}</Para>
 
     </div>
   </div>

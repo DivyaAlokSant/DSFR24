@@ -11,6 +11,8 @@ import "./../../Budget.css";
 import ImageComponent from 'material-ui-image'
 import c31 from '../../../../../Images/c31.png'
 import c32 from '../../../../../Images/c32.png'
+import c53 from '../../../../../Images/c53.png'
+import c54 from '../../../../../Images/c54.png'
 
 
 const BudgetProcess = () => {
@@ -61,20 +63,20 @@ const BudgetProcess = () => {
       <div className="contentwrapper" id="home">
         <FloatingActionButtons back="/budget/introduction" forward="/budget/gender-budget" />
 
-        <Title>{ctx.chapter3kannada.Content.para4}</Title>
-        {["para5", "para6", "para7", "para8", "para9", "para10"].map(
-          (item, ind) => (
-            <Para key={ind / 10}>{ctx.chapter3kannada.Content[item]}</Para>
-          )
-        )}
-        <Title >
-          ನಕ್ಷೆ-೩.೧: ೨೦೨1-22ರ ಕರ್ನಾಟಕದ ಆಯವ್ಯಯ ಮತ್ತು ವೆಚ್ಚದ ಸಾರಾಂಶ
-        </Title>
-        <h3 className="headnote">
-          (` ಕೋಟಿಗಳಲ್ಲಿ )
-        </h3>
-        {/* <ImageComponent src={k31} aspectRatio={1 / 0.5} /> */}
-        {/* <Para>{ctx.chapterThree.Introduction.Para1}</Para> */}
+        <Title>{ctx.chapter3kannada.Content.para101}</Title>
+                             {["para102","para103","para104","para105","para06","para107"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter3kannada.Content[item]}
+                            </Para>)}
+                            <ImageComponent  src={c53} alt="chart23" aspectRatio={1 / 1} />                      
+                            {["para108","para109"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter3kannada.Content[item]}
+
+                            </Para>)}
+                            <ImageComponent  src={c54} alt="chart23" aspectRatio={1 / 1} />                      
+
+
 
       </div>
     </div>
