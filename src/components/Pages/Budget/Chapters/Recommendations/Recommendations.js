@@ -47,13 +47,13 @@ const Recommendations = () => {
       <div className="contentwrapper" id="home">
         <FloatingActionButtons back="/budget/conclusion" forward="/quality" />
 
-        <Title>{ctx.chapter3kannada.Content.para176}</Title>
-        {["para177", "para178", "para179"].map(
-          (item, ind) => (
-            <Para key={ind / 10}>
-              {ctx.chapter3kannada.Content[item]}
-            </Para>
-          ))}
+        <Title>{ctx.chapter3kannada.Content.para249}</Title>
+       
+        {["para250","para251","para252"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter3kannada.Content[item]}
+                            </Para>)}
+     
 
 
 

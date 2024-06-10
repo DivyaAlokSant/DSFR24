@@ -29,8 +29,11 @@ import c35a from '../../../../../Images/c35a.png'
 import ImageComponent from 'material-ui-image'
 import c55 from '../../../../../Images/c55.png'
 import c56 from '../../../../../Images/c56.png'
+import c57 from '../../../../../Images/c57.png'
 
-
+import c59 from '../../../../../Images/c59.png'
+import c60 from '../../../../../Images/c60.png'
+import c61 from '../../../../../Images/c61.png'
 const Audit = () => {
   const ctx = useContext(MyContext);
 
@@ -612,18 +615,47 @@ const Audit = () => {
                             <Para key={ind / 10}>
                                 {ctx.chapter3kannada.Content[item]}
                             </Para>)}
+
+                            <h3 className='headnote'>
+                            ₹ ಕೋಟಿಗಳಲ್ಲಿ
+                    </h3>
+                   <CustomTable title={"ಕೋಷ್ಠಕ-3.9: ೨೦೨೨-೨೩ರ ಹಣಕಾಸಿನ ವರ್ಷದಲ್ಲಿ ಆಯವ್ಯಯ ಅವಕಾಶಕ್ಕೆ ಪ್ರತಿಯಾಗಿ ವಾಸ್ತವಿಕ ವೆಚ್ಚ"}
+                            
+                            columns={ctx.tables3kan.Table8a}
+                            data={ctx.tables3kan.Table8a} />
+                               <h4 className='footnote'>
+                <i>
+                ಆಕರ: ಧನವಿನಿಯೋಗ ಲೆಕ್ಕಗಳು
+                   
+                </i></h4> 
                             {["para26"].map((item, ind) =>
                             <Para key={ind / 10}>
+                              <ImageComponent  src={c57} alt="chart23" aspectRatio={1 / 1} />                           
                                 {ctx.chapter3kannada.Content[item]}
                             </Para>)}
                             {["para27"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter3kannada.Content[item]}
                             </Para>)}
+                            <h3 className='headnote'>
+                            ₹ ಕೋಟಿಗಳಲ್ಲಿ
+                    </h3>
+                   <CustomTable title={"ಕೋಷ್ಠಕ-3.10: ೨೦೧೮-೧೯ರಿಂದ ೨೦೨೨-೨೩ರ ಅವಧಿಯಲ್ಲಿ ಮೂಲ ಆಯವ್ಯಯ, ಪರಿಷ್ಕೃತ ಅಂದಾಜು ಮತ್ತು ವಾಸ್ತವಿಕ ವೆಚ್ಚ"}
+                            
+                            columns={ctx.tables3kan.Table8b}
+                            data={ctx.tables3kan.Table8b} />
+                               <h4 className='footnote'>
+                <i>
+                ಆಕರ: ಅನುದಾನ ಮತ್ತು ಪ್ರಭೃತ ವಿನಿಯೋಗಗಳು ಹಾಗೂ ಧನವಿನಿಯೋಗ ಲೆಕ್ಕಗಳ ಬೇಡಿಕೆಗಳ ಸಾರಾಂಶ
+                   
+                </i></h4> 
+
                             {["para28"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter3kannada.Content[item]}
                             </Para>)}
+                            <ImageComponent  src={c59} alt="chart23" aspectRatio={1 / 1} />                           
+           
                             {["para29","para3"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter3kannada.Content[item]}
@@ -635,10 +667,16 @@ const Audit = () => {
                             <Para key={ind / 10}>
                                 {ctx.chapter3kannada.Content[item]}
                             </Para>)}
+                            <CustomTable title={""}
+                            
+                            columns={ctx.tables3kan.Table9}
+                            data={ctx.tables3kan.Table9} />
+
                             {["para33a","para34"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter3kannada.Content[item]}
                             </Para>)}
+                            <ImageComponent  src={c60} alt="chart23" aspectRatio={1 / 1} />                             
                             <Subtitle>
                            {ctx.chapter3kannada.Content.para35}
                            </Subtitle>
@@ -646,10 +684,24 @@ const Audit = () => {
                             <Para key={ind / 10}>
                                 {ctx.chapter3kannada.Content[item]}
                             </Para>)}
+                            <ImageComponent  src={c61} alt="chart23" aspectRatio={1 / 1} />                             
+
                             {["para37","para38"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter3kannada.Content[item]}
                             </Para>)}
+                            <h3 className='headnote'>
+                            ₹ ಕೋಟಿಗಳಲ್ಲಿ
+                    </h3>
+                            <CustomTable title={"ಕೋಷ್ಠಕ-3.11: ಮಾರ್ಚ್‌ 2023ರಲ್ಲಿ ವೆಚ್ಚದ ಪ್ರಮಾಣ"}
+                            
+                            columns={ctx.tables3kan.Table10}
+                            data={ctx.tables3kan.Table10} />
+                              <h4 className='footnote'>
+                <i>
+                ಆಕರ: ಅನುದಾನ ವಹಿ ಮತ್ತು ಮಕ್ಕಳ ಆಯವ್ಯಯ 
+                   
+                </i></h4> 
                             {["para39"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter3kannada.Content[item]}

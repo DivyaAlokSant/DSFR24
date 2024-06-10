@@ -42,13 +42,11 @@ const BudConclusion = () => {
     <div className="contentwrapper" id="home">
       <FloatingActionButtons back="/budget/outcome" forward="/budget/Recommendations" />
 
-      <Title>{ctx.chapter3kannada.Content.para170}</Title>
-      {["para171","para172", "para173", "para174"].map(
-        (item, ind) => (
-          <Para key={ind / 10}>
-          {ctx.chapter3kannada.Content[item]}
-          </Para>
-      ))}
+      <Title>{ctx.chapter3kannada.Content.para244}</Title>
+      {["para245","para246","para247","para248"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter3kannada.Content[item]}
+                            </Para>)}
      
       
 
