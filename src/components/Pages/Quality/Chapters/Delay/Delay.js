@@ -80,40 +80,26 @@ const Delay = () => {
                 ? <div >
                     <Navbar />
                     <div className="contentwrapper" id="home">
-                        <FloatingActionButtons back="/quality/pdaccounts" forward="/quality/non-reconciliation" />
+                        <FloatingActionButtons back="/quality/fund-transfer" forward="/quality/contingent-bill" />
 
-
-                        <Title>
-                            {ctx.chapter4kannada.Content.para43}
-                        </Title>
+                        <Title>{ctx.chapter4kannada.Content.para19}</Title>
                         <Subtitle>
-                            {ctx.chapter4kannada.Content.para44}
+                           {ctx.chapter4kannada.Content.para2}
                         </Subtitle>
-
-                        {["para44a","para45"].map((item, ind) =>
+                        {["para20","para21"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter4kannada.Content[item]}
                             </Para>)}
-                     
-                        <h3 className="headnote">
-                        (` ಕೋಟಿಗಳಲ್ಲಿ)
-                        </h3>
-                        <Table8kan />
-                        <h4>ಆಕರ: ಋಣ, ಠೇವಣಿ ಇರಸಾಲುಗಳ ಲೆಡ್ಜರ್‌</h4>
-                        {["para46","para47","para48","para49"].map((item, ind) =>
+                        {["para22","para23"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter4kannada.Content[item]}
                             </Para>)}
-                        {["para50", "para51", "para52", "para53", "para54", "para55", "para56", "para57", "para58", "para59", "para60", "para61", "para62"].map((item, ind) =>
+                        {["para24","para25","para26"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter4kannada.Content[item]}
                             </Para>)}
-                        <h3 className="headnote">
-                        (` ಕೋಟಿಗಳಲ್ಲಿ)
-                        </h3>
-                        <Table9kan />
-                        <h4>ಆಕರ -  ಮಹಾಲೇಖಪಾಲರ (ಲೆ ಮತ್ತು ಹ) ಕಚೇರಿ</h4>
-
+                       
+                      
                     </div>
                 </div>
                 : <div>

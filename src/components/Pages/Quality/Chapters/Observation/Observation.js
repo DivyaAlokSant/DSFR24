@@ -86,15 +86,55 @@ const Observation = () => {
                 ? <div >
                     <Navbar />
                     <div className="contentwrapper" id="home">
-                        <FloatingActionButtons back="/quality/misappropriations" forward="/quality/conclusion" />
+                        <FloatingActionButtons back="/quality/compliance" forward="/quality/conclusion" />
 
                         <Title>
-                            {ctx.chapter4kannada.Content.para95}
+                            {ctx.chapter4kannada.Content.para113}
                         </Title>
-                        {["para97"].map((item, ind) =>
+                        <Title>
+                            {ctx.chapter4kannada.Content.para114}
+                        </Title>
+                        {["para115","para116"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter4kannada.Content[item]}
                             </Para>)}
+                         <Title>
+                            {ctx.chapter4kannada.Content.para117}
+                        </Title>
+                        {["para118","para119","para120"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter4kannada.Content[item]}
+                            </Para>)}
+                         <Title>
+                            {ctx.chapter4kannada.Content.para121}
+                        </Title>
+                        {["para122","para123","para124","para125"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter4kannada.Content[item]}
+                            </Para>)}
+                            <Title>
+                            {ctx.chapter4kannada.Content.para126}
+                        </Title>
+                        {["para127"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter4kannada.Content[item]}
+                            </Para>)}
+                            <Title>
+                            {ctx.chapter4kannada.Content.para128}
+                        </Title>
+                        {["para129"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter4kannada.Content[item]}
+                            </Para>)}
+                            <Title>
+                            {ctx.chapter4kannada.Content.para130}
+                        </Title>
+                        {["para131"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter4kannada.Content[item]}
+                            </Para>)}
+
+                      
                     </div>
                 </div>
                 : <div>

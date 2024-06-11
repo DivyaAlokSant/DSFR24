@@ -39,12 +39,14 @@ const QualConclusion = () => {
                     <div className="contentwrapper" id="home">
                         <FloatingActionButtons back="/quality/follow" forward="/quality/recommendations" />
                         <Title>
-                            {ctx.chapter4kannada.Content.para98}
+                            {ctx.chapter4kannada.Content.para132}
                         </Title>
-                        {["para99", "para100", "para101", "para102","para102a"].map((item, ind) =>
+
+                        {["para133","para134","para135","para136","para137"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter4kannada.Content[item]}
                             </Para>)}
+                     
                     </div>
                 </div>
                 : <div>

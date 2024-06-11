@@ -46,13 +46,11 @@ const QualRecommendations = () => {
 
 
                         <Title>
-                            {ctx.chapter4kannada.Content.para103}
+                            {ctx.chapter4kannada.Content.para138}
                         </Title>
-                        {["para104", "para105", "para106", "para107"].map((item, ind) =>
+                        {["para139","para140","para141"].map((item, ind) =>
                             <Para key={ind / 10}>
-                                <i>
-                                    {ctx.chapter4kannada.Content[item]}
-                                </i>
+                                {ctx.chapter4kannada.Content[item]}
                             </Para>)}
 
                     </div>

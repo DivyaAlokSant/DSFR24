@@ -72,29 +72,27 @@ const ContingentBill = () => {
                 ? <div >
                     <Navbar />
                     <div className="contentwrapper" id="home">
-                        <FloatingActionButtons back="/quality/balances" forward="/quality/PDA" />
+                        <FloatingActionButtons back="/quality/delay" forward="/quality/PDA" />
                         <Title>
-                            {ctx.chapter4kannada.Content.para66}
+                            {ctx.chapter4kannada.Content.para27}
                         </Title>
-                        <Para>
-                            {ctx.chapter4kannada.Content.para67}
-                        </Para>
-                        <h3 className="headnote">
-                        (` ಕೋಟಿಗಳಲ್ಲಿ )
-          </h3>
-                        {/* <ImageComponent src={k43}  aspectRatio={1 / 0.5} /> */}
-                       <h4> ಆಕರ: ಹಣಕಾಸು ಲೆಕ್ಕಗಳು <br></br>		*ಸಾಲಗಳು ಮತ್ತು ಮುಂಗಡಗಳನ್ನು ಹೊರತುಪಡಿಸಿ </h4>
-                        <Para>
-                            {ctx.chapter4kannada.Content.para68}
-                        </Para>
-                        <h3 className="headnote">
-                        (` ಕೋಟಿಗಳಲ್ಲಿ)
-                        </h3>
-                        <Table10kan />
-                        <h4>ಆಕರ-ಎಮ್‌ಸಿಎ ಮೇಲಿನ ವರದಿ ಮತ್ತು ಹಣಕಾಸು ಲೆಕ್ಕಗಳು</h4>
-                        <Para>
-                            {ctx.chapter4kannada.Content.para69}
-                        </Para>
+                        {["para27a","para27b"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter4kannada.Content[item]}
+                            </Para>)}
+                        {["para27c"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter4kannada.Content[item]}
+                            </Para>)}
+                         {["para27d"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter4kannada.Content[item]}
+                            </Para>)}
+                        {["para27e","para27f","para27g"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter4kannada.Content[item]}
+                            </Para>)}
+                        
                       
                     </div>
                 </div>

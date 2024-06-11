@@ -48,21 +48,17 @@ const Compliance = () => {
     ? <div >
         <Navbar />
         <div className="contentwrapper" id="home">
-            <FloatingActionButtons back="/quality/timelines" forward="/quality/follow" />
+            <FloatingActionButtons back="/quality/impact" forward="/quality/observation" />
 
 
             <Title>
-                {ctx.chapter4kannada.Content.para93}
+                {ctx.chapter4kannada.Content.para110}
             </Title>
-            {["para94"].map((item, ind) =>
-                <Para key={ind / 10}>
-                    {ctx.chapter4kannada.Content[item]}
-                </Para>)}
-            <h3 className="headnote">
-                (` ಲಕ್ಷಗಳಲ್ಲಿ)
-            </h3>
-            <Table12kan />
-            <h4>  ಆಕರ: ಪ್ರಧಾನ ಮಹಾಲೇಖಾಪಾಲರ (ಲೆಕ್ಕಪರಿಶೋದನೆ-೧) ಮತ್ತು (ಲೆಕ್ಕ ಪರಿಶೋಧನೆ–II) ಕಚೇರಿಗಳು</h4>
+            {["para111","para112"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter4kannada.Content[item]}
+                            </Para>)}
+        
         </div>
     </div>
     : <div>

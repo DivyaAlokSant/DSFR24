@@ -50,40 +50,14 @@ const Ndischarge = () => {
                 ? <div >
                     <Navbar />
                     <div className="contentwrapper" id="home">
-                        <FloatingActionButtons back="/quality/delay" forward="/quality/pdaccounts" />
-                        <Title>{ctx.chapter4kannada.Content.para22}</Title>
-
-                        <Para>
-                            {ctx.chapter4kannada.Content.para23}
-                        </Para>
-                        <Para>
-                            {ctx.chapter4kannada.Content.para24}
-                        </Para>
-                        <h3 className="headnote">
-                        (` ಕೋಟಿಗಳಲ್ಲಿ)
-                        </h3>
-                        <Table4kan />
-                        <h4>ಆಕರ: ಹಣಕಾಸು ಲೆಕ್ಕಗಳು 	
-                        <br></br>			* ಮಾರ್ಚ್‌ ೨೦೨೨ರ ಬಿಲ್ಲುಗಳನ್ನು ಹೊರತುಪಡಿಸಿ 
-                             </h4>
-                             <h3 className="headnote">
-                        (` ಕೋಟಿಗಳಲ್ಲಿ )
-          </h3>
-                        {/* <ImageComponent src={k42}  aspectRatio={1 / 0.5} /> */}
-                       <h4> ಆಕರ: ಮಹಾಲೇಖಾಪಾಲರು (ಲೆ ಮತ್ತು ಹ) ಅವರ ಕಛೇರಿ </h4>
-
-                        {["para25", "para26", "para27"].map((item, ind) =>
+                        <FloatingActionButtons back="/quality/NonRemittance" forward="/quality/fund-transfer" />
+                        <Title>{ctx.chapter4kannada.Content.para14}</Title>
+                        {["para15","para16"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter4kannada.Content[item]}
                             </Para>)}
-                            <h3 className="headnote">
-                        (` ಕೋಟಿಗಳಲ್ಲಿ)
-                        </h3>
-                        <Table4akan />     
-                    {["para27a", "para27b", "para27c","para27d","para27e","para27f","para27g","para27h","para27i","para27j","para27k","para27l","para27m","para27n","para27o","para27p","para27q","para27r","para27s","para27t","para27u","para27v","para27w","para27x","para27y","para27z","para27za", "para27zb", "para27zc", "para27za","para27zd","para27ze","para27zf","para27zg","para27zh","para27zi",].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapter4kannada.Content[item]}
-                            </Para>)}
+
+                      
 
                     </div>
                 </div>

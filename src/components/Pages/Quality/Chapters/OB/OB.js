@@ -120,20 +120,73 @@ const OB = () => {
                     <Navbar />
                     <div className="contentwrapper" id="home">
 
-                        <FloatingActionButtons back="/quality/compliance" forward="/quality/dcu" />
+                        <FloatingActionButtons back="/quality/indiscriminate-use" forward="/quality/non-reconciliation" />
 
 
                         <Title>
-                            {ctx.chapter4kannada.Content.para79}
+                            {ctx.chapter4kannada.Content.para71}
                         </Title>
-                        {["para80"].map((item, ind) =>
+                        <Title>
+                            {ctx.chapter4kannada.Content.para72}
+                        </Title>
+                        <Subtitle><i>
+                           {ctx.chapter4kannada.Content.para73}</i>
+                        </Subtitle>
+                        {["para74","para75"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter4kannada.Content[item]}
                             </Para>)}
+                    {["para76","para77","para78","para79"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter4kannada.Content[item]}
+                            </Para>)}
+                    <Subtitle>
+                           {ctx.chapter4kannada.Content.para80}
+                        </Subtitle>
                         {["para80a"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter4kannada.Content[item]}
                             </Para>)}
+                    <Subtitle>
+                           {ctx.chapter4kannada.Content.para81}
+                        </Subtitle>
+                        {["para82"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter4kannada.Content[item]}
+                            </Para>)}
+                            <Subtitle>
+                           {ctx.chapter4kannada.Content.para83}
+                        </Subtitle>
+                        {["para84"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter4kannada.Content[item]}
+                            </Para>)}
+                            <Subtitle>
+                           {ctx.chapter4kannada.Content.para85}
+                        </Subtitle>
+                        {["para86"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter4kannada.Content[item]}
+                            </Para>)}
+                            <Subtitle>
+                           {ctx.chapter4kannada.Content.para87}
+                        </Subtitle>
+                        {["para88"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter4kannada.Content[item]}
+                            </Para>)}
+                         <Subtitle><i>
+                           {ctx.chapter4kannada.Content.para89}</i>
+                        </Subtitle>
+                        {["para90"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter4kannada.Content[item]}
+                            </Para>)}
+                            {["para91"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter4kannada.Content[item]}
+                            </Para>)}
+
 
                     </div>
                 </div>

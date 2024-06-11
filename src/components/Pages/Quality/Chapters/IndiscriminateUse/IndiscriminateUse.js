@@ -38,20 +38,17 @@ const IndiscriminateUse = () => {
                 ?<div >
                 <Navbar />
                 <div className="contentwrapper" id="home">
-                <FloatingActionButtons back="/quality/reconciliation" forward="/quality/submission" />
+                <FloatingActionButtons back="/quality/PDA" forward="/quality/OB" />
                   
                     
                     <Title>
-                    {ctx.chapter4kannada.Content.para74}
+                    {ctx.chapter4kannada.Content.para67}
                     </Title>
-                    <Subtitle>
-                    {ctx.chapter4kannada.Content.para75}   
-                    </Subtitle>
-                    {["para76","para77"].map((item, ind) =>
-                        <Para key={ind / 10}>
-                            {ctx.chapter4kannada.Content[item]}
-                        </Para> )}
-                        <Table11kan/>
+                    {["para68","para69"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter4kannada.Content[item]}
+                            </Para>)}
+                  
                      
                 </div>
             </div>

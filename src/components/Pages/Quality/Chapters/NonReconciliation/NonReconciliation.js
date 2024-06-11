@@ -57,16 +57,25 @@ const NonReconciliation = () => {
                 ? <div >
                     <Navbar />
                     <div className="contentwrapper" id="home">
-                        <FloatingActionButtons back="/quality/submission" forward="/quality/non-submission" />
+                        <FloatingActionButtons back="/quality/OB" forward="/quality/cash" />
 
                         <Title>
-                            {ctx.chapter4kannada.Content.para81}
+                            {ctx.chapter4kannada.Content.para92}
                         </Title>
-                        {["para82","para82a","para83", "para84"].map((item, ind) =>
+                      
+                        {["para93"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter4kannada.Content[item]}
                             </Para>)}
-
+                        {["para94"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter4kannada.Content[item]}
+                            </Para>)}
+                         {["para95"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter4kannada.Content[item]}
+                            </Para>)}
+                    
                     </div>
                 </div>
                 : <div>

@@ -40,16 +40,16 @@ const NonSubmission = () => {
                 ?<div >
                 <Navbar />
                 <div className="contentwrapper" id="home">
-                    <FloatingActionButtons back="/quality/dcu" forward="/quality/timelines" />
+                    <FloatingActionButtons back="/quality/non-reconciliation" forward="/quality/impact" />
                   
                     
                     <Title>
-                    {ctx.chapter4kannada.Content.para85}
+                    {ctx.chapter4kannada.Content.para97}
                     </Title>
-                    {["para86","para87","para88","para89"].map((item, ind) =>
-                        <Para key={ind / 10}>
-                            {ctx.chapter4kannada.Content[item]}
-                        </Para> )}
+                    {["para98","para99"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter4kannada.Content[item]}
+                    </Para>)}
                 </div>
             </div>
             : <div>

@@ -40,42 +40,16 @@ const FunTrans = () => {
                 ? <div >
                     <Navbar />
                     <div className="contentwrapper" id="home">
-                        <FloatingActionButtons back="/quality/acbills" forward="/quality/balances" />
+                        <FloatingActionButtons back="/quality/Non-discharge" forward="/quality/delay" />
                         <Title>
-                            {ctx.chapter4kannada.Content.para28}
+                            {ctx.chapter4kannada.Content.para17}
                         </Title>
 
-                        {["para29", "para30", "para31"].map((item, ind) =>
+                        {["para18"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter4kannada.Content[item]}
                             </Para>)}
-                        <h3 className="headnote">
-                            ₹ In crore
-                        </h3>
-                        <Table5kan />
-                        <h6>ಆಕರ: ಹಣಕಾಸು ಲೆಕ್ಕಗಳು</h6>
 
-                        {["para32", "para33"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapter4kannada.Content[item]}
-                            </Para>)}
-                        <h3 className="headnote">
-                        (` ಕೋಟಿಗಳಲ್ಲಿ)
-                        </h3>
-                        <Table6kan />
-                        <h4> ಆಕರ–ಋಣ, ಠೇವಣಿ ಇರಸಾಲು ಲೆಡ್ಜರ್‌ಗಳು </h4>
-                        {["para34", "para35", "para36"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapter4kannada.Content[item]}
-                            </Para>)}
-                        <h3 className="headnote"> 
-                            ₹ In crore
-                        </h3>
-                        {/* <Table7kan /> */}
-                        {/* {["para37a","para38","para39","para40","para41","para42"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapter4kannada.Content[item]}
-                            </Para>)} */}
 
                     </div>
                 </div>

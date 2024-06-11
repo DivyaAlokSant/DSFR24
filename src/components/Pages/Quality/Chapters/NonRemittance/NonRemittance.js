@@ -60,38 +60,16 @@ const NonRemittance
                     ? <div >
                         <Navbar />
                         <div className="contentwrapper" id="home">
-                            <FloatingActionButtons back="/quality/funds" forward="/quality/acbills" />
-                            <Title>{ctx.chapter4kannada.Content.para16}</Title>
-
-                            <Para>
-                                {ctx.chapter4kannada.Content.para17}
-                            </Para>
-                            <Para>
-                                {ctx.chapter4kannada.Content.para18}
-                            </Para>
-
-                            <h3 className="headnote">
-                                (`ಕೋಟಿಗಳಲ್ಲಿ)
-                            </h3>
-                            <Table2kan />
-                            <h4>ಆಕರ - ಮಹಾಲೇಖಪಾಲರ (ಲೆ ಮತ್ತು ಹ) ಕಚೇರಿ</h4>
-                            <h3 className="headnote">
-                                (`ಕೋಟಿಗಳಲ್ಲಿ)
-                            </h3>
-                            <Table3kan />
-                            <h4>ಆಕರ - ಮಹಾಲೇಖಪಾಲರ (ಲೆ ಮತ್ತು ಹ) ಕಚೇರಿ</h4>
-                            <Para>
-                                {ctx.chapter4kannada.Content.para19}
-                            </Para>
-                            <h3 className="headnote">
-                                (` ಕೋಟಿಗಳಲ್ಲಿ )
-                            </h3>
-                            {/* <ImageComponent src={k41} aspectRatio={1 / 0.5} /> */}
-                            <h4> ಆಕರ: ಮಹಾಲೇಖಾಪಾಲರು (ಲೆ ಮತ್ತು ಹ) ಅವರ ಕಛೇರಿ </h4>
-                            {["para20"].map((item, ind) =>
-                                <Para key={ind / 10}>
-                                    {ctx.chapter4kannada.Content[item]}
-                                </Para>)}
+                            <FloatingActionButtons back="/quality/funds" forward="/quality/Non-discharge" />
+                            <Title>{ctx.chapter4kannada.Content.para105}</Title>
+                            {["para106","para107","para11"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter4kannada.Content[item]}
+                            </Para>)}
+                        {["para12","para13"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter4kannada.Content[item]}
+                            </Para>)}
 
                         </div>
                     </div>

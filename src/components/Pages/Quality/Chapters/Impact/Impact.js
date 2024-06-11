@@ -48,16 +48,17 @@ const ImpactMajor = () => {
                 ? <div >
                 <Navbar />
                 <div className="contentwrapper" id="home">
-                    <FloatingActionButtons back="/quality/non-submission" forward="/quality/misappropriations" />
+                    <FloatingActionButtons back="/quality/cash" forward="/quality/compliance" />
                   
                     
                     <Title>
-                    {ctx.chapter4kannada.Content.para91}
+                    {ctx.chapter4kannada.Content.para108}
                     </Title>
-                    {["para92"].map((item, ind) =>
-                        <Para key={ind / 10}>
-                            {ctx.chapter4kannada.Content[item]}
-                        </Para> )}
+                    {["para109"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter4kannada.Content[item]}
+                            </Para>)}
+                    
                 
                 </div>
             </div>
