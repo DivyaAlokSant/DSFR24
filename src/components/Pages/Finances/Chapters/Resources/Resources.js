@@ -12,6 +12,7 @@ import ck14 from '../../../../../Images/ck14.png'
 import ckt12 from '../../../../../Images/ckt12.png'
 import ckt13 from '../../../../../Images/ckt13.png'
 import c16 from '../../../../../Images/c16.png'
+import c62 from '../../../../../Images/c62.png'
 
 
 
@@ -19,7 +20,7 @@ import c24 from '../../../../../Images/c24.png'
 
 import c25 from '../../../../../Images/c25.png'
 
-import c26 from '../../../../../Images/c26.png'
+
 
 import ImageComponent from 'material-ui-image'
 import Table3 from '../../../Tables/Chapter2/Table3'
@@ -49,6 +50,10 @@ import Table10kan from '../../../Tables/Chapter2kan/Table10'
 import Table11kan from '../../../Tables/Chapter2kan/Table11'
 import Table4 from '../../../Tables/Chapter2/Table4'
 import ck12 from '../../../../../Images/ck12.png'
+import c26a from '../../../../../Images/c26a.png'
+import c27a from '../../../../../Images/c27a.png'
+import t24a from '../../../../../Images/t24a.png'
+import c63 from '../../../../../Images/c63.png'
 import CustomTable from '../../../../CustomTable/CustomTable'
 
 const Resources = () => {
@@ -74,11 +79,7 @@ const Resources = () => {
                         </Para>
 
                         <ImageComponent src={c23} alt="chart23" aspectRatio={1 / 0.8} />
-                        <h3>
-                            <i>
-                            Source: Finance Accounts
-                            </i>
-                        </h3>
+                       
                       
 
                         
@@ -116,7 +117,7 @@ const Resources = () => {
                         <Para>
                             {ctx.chapterTwo.Para11}
                         </Para>
-                        {["Para12", "Para13", "Para14", "Para15", "Para15a", "Para15b"].map((item, ind) =>
+                        {["Para12", "Para13", "Para14", "Para15", "Para15a"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 <li>
                                     {ctx.chapterTwo[item]}
@@ -136,20 +137,20 @@ const Resources = () => {
                         <Para>
                             {ctx.chapterTwo.Para21}
                         </Para>
-                        {/* <Chrt4 />
+                        {/* <Chrt4 /> */}
                         <h4 className='footnote'>
                             <i>
                                 Source: Finance Accounts
                             </i>
-                        </h4> */}
-                        {/* <ImageComponent src={c26} alt="chart2.6" aspectRatio={1 / 0.5} />
-                        <ImageComponent src={c27} alt="chart2.7" aspectRatio={1 / 0.5} /> */}
+                        </h4>
+                        <ImageComponent  src={c26a} alt="chart23" aspectRatio={1 / 1} />                      
+                        <ImageComponent  src={c27a} alt="chart23" aspectRatio={1 / 1} />                      
                         <Para>
                         {ctx.chapterTwo.Para21a}
                         </Para>
-                        {/* <ImageComponent src={t24} alt="table24" aspectRatio={1 / 0.6} /> */}
+                        <ImageComponent src={t24a} alt="table24" aspectRatio={1 / 0.6} />
                         
-                        <Table4 />
+                        {/* <Table4 /> */}
                         
                         {["Para22"].map((item, ind) =>
                             <Para key={ind / 10}>
@@ -180,7 +181,7 @@ const Resources = () => {
                                 <span className="tooltiptext">
                                 Under Major Heads 0005 – CGST (₹9,786.19 crore), 0006 – SGST (₹61,403.30 crore) and 0008 – IGST (Nil).
                                 </span>
-                                <sup>7</sup>
+                                <sup>8</sup>
                             </span>
 
                             {ctx.chapterTwo.Para27.substring(357,)}
@@ -191,17 +192,7 @@ const Resources = () => {
                                 {ctx.chapterTwo[item]}
                             </Para>)}
                             
-                        {["Para28a","Para28b","Para28c"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                            <li> 
-                                {ctx.chapterTwo[item]}
-                            </li>
-                            </Para>)}
-
-                        <Para>
-                            {ctx.chapterTwo.Para28d}
-                        </Para>    
-                        
+                                              
                         <Subtitle>
                             {ctx.chapterTwo["Para29"]}
                         </Subtitle>
@@ -215,22 +206,35 @@ const Resources = () => {
                             {ctx.chapterTwo.Para32}
                         </Para>
                         <Table6 />
+                        <h4 className='footnote'>
+                            <i>
+                                Source: Departmental information
+                                
+                            </i>
+                        </h4>
                         <Subtitle>
                             {ctx.chapterTwo.Para33}
                         </Subtitle>
                         <Para>
                             {ctx.chapterTwo.Para34}
                         </Para>
-                        <Para>
-                            {ctx.chapterTwo.Para35}
-                        </Para>
+                        
 
                         <Table7 />
                         <h4 className='footnote'>
                             <i>
                             Source: Departmental information
                             </i>
+                           
+
                         </h4>
+                     
+                        <h4 className='footnote'>
+                        <i>
+                            *Does not include the case for the year 2022-23 as these would be due for assessment in the next financial year.
+                            </i>
+                        </h4>
+                         
 
                         <Subtitle>
                             {ctx.chapterTwo["Para36"]}
@@ -266,7 +270,7 @@ const Resources = () => {
                         <Para>
                             {ctx.chapterTwo["Para45"]}
                         </Para>
-                        <div style={{
+                        {/* <div style={{
                             backgroundColor: "#ac8",
                             fontSize: "18px",
                             padding:"5px 5px 5px 20px",
@@ -276,15 +280,22 @@ const Resources = () => {
                             <Subtitle>
                             {ctx.chapterTwo["Para46"]}
                             </Subtitle>    
-                            <Subtitle>
+                           
+                        </div> */}
+                        <Subtitle>
                             {ctx.chapterTwo["Para47"]}
                             </Subtitle>
                             {["Para48", "Para49"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)}
-                        </div>
                         <Table9 /> 
+                        <h4 className='footnote'>
+                            <i>
+                            Source: Inspection Reports and information furnished by colleges and Department of Higher Education
+                            </i>
+                        </h4> 
+
                         <Para>
                             {ctx.chapterTwo["Para50"]}
                         </Para>
@@ -293,7 +304,7 @@ const Resources = () => {
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)}    
-
+                            <ImageComponent  src={c62} alt="chart23" aspectRatio={1 / 1} />                      
                         
                         {["Para53", "Para54"].map((item, ind) =>
                             <Para key={ind / 10}>
@@ -331,7 +342,7 @@ const Resources = () => {
                             {ctx.chapterTwo.Para62}
                         </Para>     
                         {/* <ImageComponent src={c28} alt="chart2.7" aspectRatio={1 / 0.5} /> */}
-                       
+                        <ImageComponent src={c63} alt="table24" aspectRatio={1 / 0.6} />
 
                         <Subtitle>
                             {ctx.chapterTwo.Para63}
@@ -340,6 +351,9 @@ const Resources = () => {
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)} 
+                            <h3 className='headnote'>
+                            ₹ In Crore
+                    </h3>
 
                         <Table12/>    
 
@@ -347,7 +361,17 @@ const Resources = () => {
                             {ctx.chapterTwo.Para66}
                         </Para>
 
-                        <Table13/>  
+                        {/* <Table13/>   */}
+                        <h3 className='headnote'>
+                            ₹ In crore
+                    </h3>
+                            <CustomTable title={"Table 2.14: Trends in Central Tax transfers"}
+                            
+                            columns={ctx.tables2.Table13a}
+                            data={ctx.tables2.Table13a} />
+                             <h3 className='footnote'>
+                            Source:Finance Accounts
+                    </h3>
 
                         <Para>
                             {ctx.chapterTwo.Para67}
@@ -360,8 +384,19 @@ const Resources = () => {
                         <Para>
                             {ctx.chapterTwo.Para69}
                         </Para>    
+                        <h3 className='headnote'>
+                            ₹ In crore
+                    </h3>
+                            <CustomTable title={"Table 2.15: Grants-in-aid from GoI"}
+                            
+                            columns={ctx.tables2.Table13b}
+                            data={ctx.tables2.Table13b} />
+                             <h3 className='footnote'>
+                            Source:Finance Accounts
+                    </h3>
+
                         
-                        <Table14/>     
+                        {/* <Table14/>      */}
 
                         <Para>
                             {ctx.chapterTwo.Para70}
@@ -386,7 +421,15 @@ const Resources = () => {
                             {ctx.chapterTwo.Para77}
                         </Para>  
 
-                        <Table15 />   
+                        {/* <Table15 />    */}
+                        <CustomTable title={"Table 2.16: Recommended and actual release of grants during 2022-23"}
+                            
+                            columns={ctx.tables2.Table13c}
+                            data={ctx.tables2.Table13c} />
+                             <h3 className='footnote'>
+                             Source: XV FC Report and Finance Accounts
+                    </h3>
+                       
 
                         <Subtitle>
                             {ctx.chapterTwo.Para78}
@@ -418,7 +461,8 @@ const Resources = () => {
                             {ctx.chapterTwo.Para85}
                         </Para> 
                             
-                        <Table16 />    
+                        {/* <Table16 />     */}
+                      
                         <h4 className='footnote'>
                             <i>
                                 {ctx.tables2.T16f1} <br></br> 

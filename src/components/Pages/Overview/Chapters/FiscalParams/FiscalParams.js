@@ -118,7 +118,7 @@ const FiscalParams = () => {
                             <i>
                                 {ctx.tables1.T4F1}
                                 <br></br>
-                                * Effective Loans and Advances for GoI would be `14,869 crore as the Department of Expenditure, GoI had decided that GST compensation of `12,407 crore and `18,109 crore  given to the State as back-to-back loan during 2020-21 and 2021-22 respectively under Debt Receipt would not be treated as debt of the State for any norms which may be prescribed by the Finance Commission.
+                                * Effective Loans and Advances for GoI would be ₹14,210 crore for 2020-21, ₹14,869 crore for 2021-22 and ₹18,623 crore for 2022-23 as the Department of Expenditure, GoI had decided that GST compensation of ₹12,407 crore and ₹18,109 crore given to the State as back-to-back loan during 2020-21 and 2021-22 respectively under Debt Receipt would not be treated as debt of the State for any norms which may be prescribed by the Finance Commission.  
                             </i>
                         </h4>
 

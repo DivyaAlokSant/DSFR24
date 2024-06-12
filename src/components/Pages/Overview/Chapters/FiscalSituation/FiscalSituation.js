@@ -89,7 +89,7 @@ const FiscalSituation = () => {
                         <Table6 />
                         <h4 className='footnote'>
                             <i>
-                                {ctx.tables1.T6F1} 
+                            Source: Finance Accounts and MTFP 2021-25
                             </i>
                         </h4>
                  
@@ -167,12 +167,19 @@ const FiscalSituation = () => {
                         data={ctx.tables1kan.Table7} />
                          <h4 className='footnote'>
                           <i>
+                          Source: Finance Accounts and MTFP 2021-25
+                            <br></br>
+                            </i>
+                         </h4>
+                         <h4 className='footnote'>
+                          <i>
                          ಆಕರ: ಹಣಕಾಸು ಲೆಕ್ಕಗಳು ಮತ್ತು ಮಧ್ಯಂತರ ವಿತ್ತೀಯ ಅವಧಿಯ ಯೋಜನೆ 20೨1-2೫
                             <br></br>
 
 
                             </i>
                          </h4>
+                        
 
                           {["para71"].map((item, ind) =>
                             <Para key={ind / 10}>

@@ -35,11 +35,13 @@ const AssetsSnapshot = () => {
                        </h3>
                         <Table3 />
                         <h4 className='footnote'>
+                            <i>Source:Finance Accounts</i>     </h4>
+                            <h4 className='footnote'>
                             <i>
                                 {ctx.tables1.T3F1}
                                 <br></br>
-                                </i>
-                        </h4>
+                                </i></h4>
+                   
                         {["Para45"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterOne.Profile[item]}
