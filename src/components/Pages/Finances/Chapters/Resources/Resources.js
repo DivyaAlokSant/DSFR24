@@ -438,6 +438,10 @@ const Resources = () => {
                         <Para>
                             {ctx.chapterTwo.Para79}
                         </Para> 
+                              
+                        <Para>
+                            {ctx.chapterTwo.Para79a}
+                        </Para> 
 
                         <Subtitle>
                             {ctx.chapterTwo.Para80}
@@ -462,6 +466,16 @@ const Resources = () => {
                         </Para> 
                             
                         {/* <Table16 />     */}
+                        <h3 className='headnote'>
+                            ₹ In crore
+                    </h3>
+                            <CustomTable title={"Table 2.17: Trends in growth and composition of Capital Receipts"}
+                            
+                            columns={ctx.tables2.Table13d}
+                            data={ctx.tables2.Table13d} />
+                             <h3 className='footnote'>
+                            Source:Finance Accounts
+                    </h3>
                       
                         <h4 className='footnote'>
                             <i>
@@ -485,7 +499,12 @@ const Resources = () => {
                         <Para>
                             {ctx.chapterTwo.Para89}
                         </Para>    
-                        <Table17 />
+                        {/* <Table17 /> */}
+                        <CustomTable title={"Table 2.18: Tax and non-Tax receipts vis-à-vis projections during 2022-23"}
+                            
+                            columns={ctx.tables2.Table13e}
+                            data={ctx.tables2.Table13e} />
+                           
                         <h4 className='footnote'>
                             <i>
                             Source: XV FC Report and Finance Accounts. <br></br>

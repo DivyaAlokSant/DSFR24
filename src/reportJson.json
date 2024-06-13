@@ -18931,6 +18931,7 @@
         "Para77": "Out of the above, the State received inter se shares, empowering Local bodies and Disaster Risk Management. While net proceeds of tax is discussed in Paragraph 2.4.4 the remaining grants received are discussed in subsequent paragraphs. The recommended and actual release of  Finance Commission Grants is indicated in Table 2.16.",
         "Para78": "1. Grants to Rural Local Bodies/Urban Local Bodies",
         "Para79": "Out of the total grant recommended for RLBs, 40 per cent was towards Basic grants and 60 per cent towards tied grants for sanitation and maintenance of ODF status (30 per cent), supply of drinking water, rainwater harvesting and water recycling (30 per cent). The grants towards ULBs include grants for million plus cities and other than million plus cities. The grants for million plus cities are given in two instalments for air quality improvement and meeting service benchmarks. The grants for other than million plus cities are given in two equal parts, one as basic grant and another as tied grants towards drinking water and solid waste management. ",
+        "Para79a":"During 2022-23, there was shortfall in receipts of grants of ₹369.45 crore and ₹485.30 crore under RLBs and ULBs respectively against the recommendations.",
         "Para80": "2. Releases under Disaster Relief",
         "Para81": "As per the recommendation of XV FC, the disaster mitigation along with disaster response is the State Disaster Risk Management Fund (SDRMF). During 2022-23, under SDRF, the allocation to the State was ₹1,107 crore with ₹830 crore being the Central share and ₹277 crore being the State share. The State transferred ₹885.34 crore to the Fund with ₹664 crore as union share and ₹221.34 crore as State share during 2022-23. However, no amount was allocated under SDMF. The GoI as well as State contribution were transferred to Fund account under Public Account. This is discussed in Paragraph 2.6.2(e) and (f).",
         "Para82": "3. Health Grants",
@@ -18949,7 +18950,7 @@
         "Para95": "The basic parameters of total expenditure, its composition under Revenue, Capital, Loans and Advances and comparison with GSDP over a five-year period of 2018-19 to 2022-23 are furnished in the Table 2.19.",
         "Para96": "During the period 2018-19 to 2022-23, on an average, 80 per cent of the total expenditure was on revenue account.  During 2022-23, it reduced to 78 per cent and the share of Capital Expenditure (including Loans and Advances) was 22 per cent. The share of Revenue Expenditure, Capital Expenditure and Loans and Advances for the years 2018-19 to 2022-23 are shown in Chart 2.9",
         "Para97": "The trends of total expenditure by activities under General, Social, Economic, Loans and Advances and Grants-in-aid are shown in Chart 2.10.",
-        "Para98": "From the above chart, it can be seen that the relative share of General Services is on an increasing trend (marginally) since 2018-19. The other components exhibited stability during the period from 2018-19 to 2022-23 with marginal inter year variations.",
+        "Para98": "From the above chart, it can be seen that the relative share of General Services is on an increasing trend (marginally) since 2018-19. The other components exhibited stability during the period from 2018-19 to 2022-23 with marginal inter year variations. During 2022-23, the share of expenditure on social services decreased by around two per cent when compared to previous year. ",
         "Para99": "2.5.2 Revenue Expenditure",
         "Para100": "Revenue Expenditure is incurred to maintain the current level of services and payment for the past obligation. ",
         "Para101": "Revenue Expenditure comprises wages and salaries, interest payments, pensions, expenditure on operations and maintenance of capital works, subsidies and transfers to local bodies, co-operatives, Non-Government Organizations (NGOs) and others. Expenditure is also classified into various functional categories such as General Services, Social Services and Economic Services.  Expenditure on Social and Economic Services is incurred to create physical infrastructure and human resource development and, therefore, is considered productive, whereas expenditure on General Services and debt servicing is considered unproductive.",
@@ -19063,7 +19064,7 @@
         "Para209": "The ratio of capital expenditure to AE of the State was highest among all the neighboring States and GCS.",
         "Para210": "The DE/AE ratio of the State was higher when compared to its neighbouring States (except Telangana and Madhya Pradesh). ",
         "Para211": "Adequate priority needs to be given to Education sector, as the ratio of expenditure under the sector to AE is less than all neighboring States (except Telangana) and GCS and equal to Andhra Pradesh.",
-        "Para212": "The ratio of expenditure towards Health to AE has decreased during 2022-23 when compared to previous years and priority needs to be given to Health sector as its ratio is less when compared to the ratio of GCS and its neighbouring States viz., Kerala, Tamil Nadu and Andhra Pradesh.",
+        "Para212": "Adequate priority needs to be given to the ratio of expenditure towards Health to AE as its ratio is less when compared to the ratio of GCS.",
         "para213":"2.6 Public Account",
 		"para214":"Receipts and disbursements in respect of certain transactions, such as Small Savings, Provident Fund, Reserve Funds, Deposits, Suspense, Remittances etc., which do not form part of the Consolidated Fund are kept in the Public Account set up under Article 266(2) of the Constitution and are not subject to vote by the State Legislature.  The Government acts as a banker/trustee for custody of public money since these transactions are mere pass-through transactions.",
 		"para215":"2.6.1 Net Public Account balances",
@@ -19113,6 +19114,8 @@
 		"para258":"According to Karnataka State Consumer Fund Rules, 2005 read with Central Goods and Services Tax Act, 2017, the seed money from Central Consumer Welfare fund from GoI, assistance provided by Central Government, matching grants by the State Government, Court Fee/Penalty accrued with the District and State Consumer Fora, the money which are non-refundable to the manufactures etc., and any returns from the investment of the accumulation in the Fund are to be credited to the fund. The accumulations in the Funds are to be utilised by the State Government for the welfare of the Consumers.",
 		"para259":"Apart from these, Consumer Welfare Corpus Fund was established during 2013-14, by crediting the Central share of ₹7.50 crore and State share of ₹2.50 crore under the Interest bearing Deposit account 8342-00-120- 29- Deposits of Consumer Welfare Fund in Public Account.  As per the Government of India guidelines, the corpus is not to be spent on any activities and only the interest generated from the Corpus Fund should be utilised for meeting the expenditure on local programmes and activities relating to welfare and protection of Consumers.",
 		"para260":"The Consumer Welfare Fund, Consumer Welfare Fund under KGST Act, Consumer Welfare Corpus Fund had an opening balance of ₹1.19 crore, ₹0.39 crore and ₹13.60 crore respectively.",
+        "para260a":"During 2022-23, though there was total receipts of ₹0.41 crore which was not transferred to the concerned Consumer Welfare Fund Accounts.  In addition, the expenditure incurred towards activities relating to welfare and protection of consumers were also not transferred to the Fund.  Further, the State Government vide has credited (March 2023) ₹1.49 crore as interest for the years 2020-21 to 2022-23 towards Consumer Welfare Corpus Fund and no expenditure has been met out of the interest amount. Hence there was a closing balance of ₹0.94 crore, ₹0.39 crore and ₹15.09 crore respectively.",
+        "para260b":"The State Government in its reply (November 2023) stated that an expenditure of ₹0.25 crore incurred during 2022-23 has been transferred to the fund in May 2023. However, the reply is silent on the transfers on receipts to the fund account. Further, the State Government may take action to issue the transfer orders in the respective financial year itself as it would affect the fiscal parameters of the previous and the next financial year.",
 		"para261":"I) Bhoomi User Fund",
 		"para262":"Department of Revenue, GoK allowed (August 2002) to the Bhoomi User charges to be deposited in the Personal Deposit Account of the District Commissioners with terms and conditions for incurring expenditure out of it.  The terms and conditions were once again reiterated in their circular issued during April 2003.  Subsequently, Government approved (July 2021) opening of Bhoomi Reserve Fund and directed to deposit Bhoomi User charges to the Consolidated fund under Head of Account 0506-00-103-0-01 and transfer expenditure from Head of Account 2506-00-103-0-03 to the Reserve Fund.",
 		"para263":"During 2021-22, only ₹3.45 crore was collected as receipts and an expenditure of ₹0.07 crore was indicated as expenditure. However, both receipts and expenditure were not transferred to the Reserve Fund.  During 2022-23 receipts and expenditure amounting to ₹127.44 crore and ₹25.64 crore were transferred to the Bhoomi User fund and the closing balance was ₹101.80 crore.  Further, during audit of District Commissioner, Bengaluru Urban and Mysuru, it was observed that user charges during 2021-22 and 2022-23 were continued to be deposited in the Miscellaneous Personal Deposit of the DCs and the closing balances in these accounts were ₹ 3.39 crore and ₹3.77 crore respectively.  Further, the State Government had not issued any order for the transfer of balances in the Personal Deposit Accounts to the Reserve Fund. Account.",
@@ -19143,12 +19146,14 @@
 		"para288":"The total debt liabilities of the State is on the increasing trend during the period from 2018-19 to 2022-23. It increased by ₹2,68,125 crore. This was mainly under internal debt of ₹1,74,585 crore, Loans from GoI of ₹34,482 crore and Public Account Liabilities ₹56,614 crore. When compared to the previous year, the outstanding liability increased by ₹63,107 crore. This was mainly under Reserve funds not bearing interest (₹9,859 crore) and Deposits not bearing interest (₹31,340 crore).",
 		"para289":"During 2022-23, the Public Debt available to the State increased by ₹28,606 crore over the previous year from ₹3,74,427crore to ₹4,03,033 crore.",
 		"para290":"Out of the total outstanding debt, internal debt consisting of market borrowings, loans from NABARD, LIC, GIC and special securities issued to NSSF of Central Government constituted 63.95 per cent (₹3,53,894 crore). Public Account liabilities account for 24.03 per cent, loans from GoI comprise 8.88 per cent and off-budget borrowings 3.12 per cent.",
+        "para290a":"",
 		"para291":"2.7.1.1 Off-budget borrowings",
 		"para292":"The borrowings of the State Government are governed by Article 293 (1) of the Constitution of India.  The State stood as guarantor for loans availed by Government Companies/ Corporations/ Boards.  These Companies/ Corporations/ Boards borrowed funds from the market/ financial institutions for implementation of various State Plan programme projected outside the State budget.  The borrowings of these concerns ultimately turn out to be the liabilities of the State Government termed ‘Off-budget borrowings’ (OBB). In the State, these are disclosed in the Budget Overview and also in the MTFPs.",
 		"para293":"The trend of OBB during 2018-19 to 2022-23 is detailed in Table 2.37. Though State’s OBB was on an increasing trend during the years 2018-19 and 2019-20, the trend showed decrease since 2020-21. However, during 2022-23, the OBBs increased by ₹1,679 crore when compared to previous year.",
 		"para294":"In the State, the Government had been repaying the loans availed of by these Companies/ Corporations/ Societies including interest through regular budget provision under capital account. During 2022-23, Capital Expenditure of ₹57,349 crore included ₹3,405 crore towards servicing of principal amount of off-budget borrowings.  The interest payment during the year was ₹1,216 crore. Table 2.37 (a) gives the entity-wise position of borrowings as at the end of 2022-23.",
 		"para295":"All the seven entities mentioned in the above table do not have their own source of revenue and are incurring losses. The cumulative loss of these companies are around ₹7,637.50 crore.",
 		"para296":"Taking into account the OBBs of the State, the total liabilities at the end of March 2023 worked out to ₹5,53,363 crore.  The rate of effective outstanding liabilities of ₹5,22,847 crore (including OBBs) which was excluding back-to-back loan of ₹30,516 crore received from GoI in lieu of GST compensation to GSDP works out to 23.97 per cent at the end of the year. The position of the fiscal deficit and outstanding debt to GSDP of the State for the year 2018-19 to 2022-23 is indicated in Table 2.38.",
+        "para296a":"It is also pertinent to mention that the State Government had paid ₹1,216.04 crore (details in Paragraph 4.1 and 4.12) on account of interest payment on OBB.",
 		"para297":"The State Government in its reply (November 2023) stated that since the repayment of borrowings (Off- Budget) of the current Financial Year has already been included in the Fiscal deficit of the State, measuring the fiscal deficit by including Off Budget borrowings availed is not a correct measure, as these loans will be serviced in the future years based on their maturity.",
 		"para298":"The ratio of Fiscal deficit to GSDP even after including the off-budget borrowings is less than the targets set by the KFRA 2002 as amended from time to time.",
 		"para299":"The XV FC has opined that these are implicit contingent liabilities, outside the framework of standard guarantee that can eventually devolve heavily on State Government. Hence, it was recommended to observe strict discipline by resisting further additions to the stock of off-budget borrowing as it is against the norm of fiscal transparency and detrimental to fiscal sustainability. Further, it was stated that these obligations need to be cleared in time bound manner. But it has recommended that the resources for clearing should not be from the regular inflow of tax and non-Tax but additional resources should be mobilized by the Government. This could include monetization of assets.",
@@ -19170,12 +19175,13 @@
 		"para315":"Interest payment on Public debt showed an increasing trend during the years.",
 		"para316":"The ratio of interest payments to revenue receipts is a good measure of debt sustainability. This ratio was on an increasing trend from 2018-19 to 2020-21and decreased during 2021-22 and 2022-23. The decreasing trend indicates that interest burden is decreasing.",
 		"para317":"Higher the percentage of public debt repayments to public debt receipts, the greater the proportion of debt utilized for debt servicing rather than productivity. During the period 2018-19 to 2022-23, percentage of public debt repayments to public debt receipts ranged from 27.34 to 39.83, which meant that the borrowings were utilised towards repayment leaving lesser space for productivity. During 2022-23, the ratio was maximum which was due to less borrowings than previous years.",
-		"para318":"The debt stabilization condition states that if quantum spread together with primary deficit is zero, debt-GSDP ratio would tend to be constant or debt would stabilize eventually. On the other hand, if primary deficit together with quantum spread turns out to be negative, debt -GSDP ration would be rising and in case it is positive, debt-GSDP ration would eventually be falling. The primary deficit together with quantum spread was negative in all the years except 2021-22, where it was positive. Since, the sum is tending towards zero, it could be said that debt would stabilize eventually.",
+		
 		"para319":"Net debt available to the State which was on increasing trend up to 2020-21saw a decrease during 2021-22 and again increased during 2022-23. This was mainly due to repayment of interest through Revenue receipts and not through borrowings.",
 		"para320":"b)  Domar’s approach towards debt stability",
 		"para321":"Fiscal liabilities are considered sustainable if the Government is able to service the stock of these liabilities over the foreseeable future and the debt-GSDP ratio does not grow to unmanageable proportions. The Domar model is one of the models for analysis of public debts, which lays down that the debt-GSDP ratio is likely to be stable if the rate of growth of the economy exceeds the rate of interest on the debt. Table 2.43 provides the Domar sustainability condition.",
 		"para322":"Applying the DOMAR analysis to Karnataka, it is observed that except in 2020-21, in all the years the real economic growth rate was greater than real interest growth rate indicating strong economic growth as shown in Table 2.44. As a result, the fiscal liabilities should converge to a stable level. ",
-		"para323":"During 2018-2023, the primary deficit of the State ranged between (21,828 crore and ₹16,980 crore. The Domar gap (g-r) was positive during the period from 2018-19 to 2022-23, except in 2020-21. Therefore, in view of the debt sustainability conditions under Domar model as detailed in Table 2.41, the fiscal liabilities of the State Government satisfied the condition of debt sustainability (g-r>0), except during 2020-21when the growth rate of GSDP was negative due to global pandemic Covid 19.",
+		"para323":"During 2018-2023, the primary deficit of the State ranged between ₹21,828 crore and ₹16,980 crore. The DOMAR analysis showed that the Domar gap (g-r) was positive during the period from 2018-19 to 2022-23, except in 2020-21. During the pre-Covid period i.e., 2018-19 and 2019-20, the real growth rate of the GSDP was 6.40 per cent and 5.90 per cent respectively and the Domar gap (expressed as g-r) remained positive but there was primary deficit in the State. Covid-19 affected the real growth rate of GSDP during 2020-21 and the Domar gap turned negative during the year. In the subsequent years (2021-22 and 2022-23), the Domar gap became positive along with primary deficit, which reflects that Public Debt as a percentage of GSDP tends towards a stable value and is therefore sustainable. Depending on the stock of debt, it will either increase or decrease in time to reach a stable level greater than zero. ",
+        "para323a":"It may be mentioned that the sustainability of Public Debt will depend on whether the State economy maintains the real growth rate in the long run keeping the real interest rate under control.",
 		"para324":"2.8.1 Utilisation of borrowed funds",
 		"para325":"Borrowed funds should ideally be used to fund capital creation and developmental activities. Using borrowed funds for meeting current consumption and repayment of interest on outstanding loans is not sustainable. The details of utilisation of borrowed funds during the period 2018-19 to 2022-23 are given in Table 2.45.",
 		"para326":"From the above Table, it is noticed that during the period 2019-20 to 2021-22, the borrowed funds were sufficient to service the capital expenditure (including loans and Advances). During 2018-19 and 2022-23, the borrowings were insufficient to service the Capital expenditure. The revenue surplus were utilised towards Capital expenditure in the years",
@@ -19195,8 +19201,8 @@
 		"para340":"The cash balance investments of the State during the five-year period 2018-19 to 2022-23 are given in Table 2.48.",
 		"para341":"The trend analysis of the cash balance investment of the State Government during 2018-19 to 2022-23 revealed that investment increased significantly from 2019-20 to 2022-23 though there was a marginal decrease in the year 2020-21.",
 		"para342":"Chart 2.19 compares month-wise movement of Cash balances and net Cash Balance Investments during the year.",
-		"para343":"Chart 2.20 compares the balances available in the Cash Balance Investment Account and the Market Loans raised by the State during the period 2018-19 to 2022-23. Market Loans were taken at higher interest rates whereas investment in Treasury Bills yielded interest at lower rates.",
-		"para344":"From the Chart 2.18, it is evident that the Cash Balance Investment Account is on increasing trend. ",
+		"para343":"Chart 2.20 compares the balances available in the Cash Balance Investment Account and the Market Loans raised by the State during the period 2018-19 to 2022-23. It is evident from Chart 2.20 that the Cash Balance Investment Account is on an increasing trend. At the end of March 2023, the cash balance investment was ₹36,000 crore whereas Market loans raised where ₹47,920 crore. This is pertinent to mention that Market Loans were taken at higher interest rates whereas investment in Treasury Bills yielded interest at lower rates.",
+		
 		"para345":"2.9 Conclusion and Recommendations",
 		"para346":"State’s own resources",
 		"para347":"While the State Government registered an increase of 17.02 per cent in its Revenue Receipts during 2022-23, when compared to previous year, it was least in 2020-21 with negative growth rate which had rebounded in 2021-22 decreased once again during 2022-23. The growth rate of Revenue Receipts was on a decreasing trend from 2019-20 to 2020-21 due to Covid 19 pandemic lockdown. Own-Tax revenue contributed a major part (63 per cent) of the Revenue Receipts of the State and the ratio of State’s tax revenue to GSDP increased when compared to 2021-22. The State witnessed a growth rate in non-Tax revenue (18.15 per cent) during 2022-23. With considerable increase in own-Tax and non-Tax Revenue during the current year, the State witnessed a revenue surplus of ₹13,496 crore.",
@@ -19903,54 +19909,7 @@
                       "EducationAE": 14.85,
                       "HealthAE": 5.68
                     },
-                    {
-                      "abc": "Kerala",
-                      "AEGSDP": 15.6,
-                      "CEAE": 10.58,
-                      "DEAE": 49.38,
-                      "EducationAE": 14.02,
-                      "HealthAE": 6.43
-                    },
-                    {
-                      "abc": "Tamilnadu",
-                      "AEGSDP": 13.82,
-                      "CEAE": 14.32,
-                      "DEAE": 63.16,
-                      "EducationAE": 13.51,
-                      "HealthAE": 5.39
-                    },
-                    {
-                      "abc": "Andhra Pradesh",
-                      "AEGSDP": 15.96,
-                      "CEAE": 4.3,
-                      "DEAE": 68.93,
-                      "EducationAE": 12.35,
-                      "HealthAE": 5.46
-                    },
-                    {
-                      "abc": "Telangana",
-                      "AEGSDP": 14.66,
-                      "CEAE": 20.32,
-                      "DEAE": 73.37,
-                      "EducationAE": 9.06,
-                      "HealthAE": 4.57
-                    },
-                    {
-                      "abc": "Maharashtra",
-                      "AEGSDP": 13.44,
-                      "CEAE": 13.99,
-                      "DEAE": 64.61,
-                      "EducationAE": 16.88,
-                      "HealthAE": 4.3
-                    },
-                    {
-                      "abc": "Madhya  Pradesh",
-                      "AEGSDP": 18.65,
-                      "CEAE": 18.97,
-                      "DEAE": "74,10",
-                      "EducationAE": 13.9,
-                      "HealthAE": 5.68
-                    },
+                  
                     {
                       "abc": "Karnataka",
                       "AEGSDP": 12.32,
@@ -20898,6 +20857,125 @@
               
 
               ],
+              "Table13d":[
+                {
+                  "Sources of State’s Receipts": "Public Debt Receipts",
+                  "2018-19": "41,914",
+                  "2019-20": "50,459",
+                  "2020-21": "84,528*",
+                  "2021-22": "80,641*",
+                  "2022-23": "44,549"
+                },
+                {
+                  "Sources of State’s Receipts": "Internal Debt",
+                  "2018-19": "40,470",
+                  "2019-20": "49,473",
+                  "2020-21": "70,414",
+                  "2021-22": "60,462",
+                  "2022-23": "39,283"
+                },
+                {
+                  "Sources of State’s Receipts": "Growth rate (per cent)",
+                  "2018-19": 74.59,
+                  "2019-20": 22.24,
+                  "2020-21": 42.32,
+                  "2021-22": "(-)14.13",
+                  "2022-23": "(-)35.02"
+                },
+                {
+                  "Sources of State’s Receipts": "Loans and advances from GoI",
+                  "2018-19": "1,444",
+                  "2019-20": 675,
+                  "2020-21": "14,114#",
+                  "2021-22": "20,179#",
+                  "2022-23": "5,266"
+                },
+                {
+                  "Sources of State’s Receipts": "Growth rate (per cent)",
+                  "2018-19": "(-)25.68",
+                  "2019-20": "(-)53.25",
+                  "2020-21": 152.8,
+                  "2021-22": 21.26,
+                  "2022-23": 154.39
+                },
+                {
+                  "Sources of State’s Receipts": "Miscellaneous Capital Receipts",
+                  "2018-19": "(-)6",
+                  "2019-20": 45,
+                  "2020-21": 45,
+                  "2021-22": 6,
+                  "2022-23": 2
+                },
+                {
+                  "Sources of State’s Receipts": "Recovery of Loans and Advances",
+                  "2018-19": 31,
+                  "2019-20": 203,
+                  "2020-21": 270,
+                  "2021-22": 127,
+                  "2022-23": 478
+                },
+                {
+                  "Sources of State’s Receipts": "Capital Receipts",
+                  "2018-19": "41,939",
+                  "2019-20": "50,707",
+                  "2020-21": "84,843",
+                  "2021-22": "80,774",
+                  "2022-23": "45,029"
+                },
+                {
+                  "Sources of State’s Receipts": "Rate of growth of debt Capital Receipts (per cent)",
+                  "2018-19": 66.84,
+                  "2019-20": 20.39,
+                  "2020-21": 67.52,
+                  "2021-22": "(-)4.60",
+                  "2022-23": "(-)44.76"
+                },
+                {
+                  "Sources of State’s Receipts": "Rate of growth of Non-debt Capital Receipts (per cent)",
+                  "2018-19": "(-)82.26",
+                  "2019-20": 892,
+                  "2020-21": 27.01,
+                  "2021-22": "(-)57.77",
+                  "2022-23": 260.9
+                },
+                {
+                  "Sources of State’s Receipts": "Rate of growth of Capital Receipts (per cent)",
+                  "2018-19": 66,
+                  "2019-20": 20.91,
+                  "2020-21": 42.85,
+                  "2021-22": "(-)13.48",
+                  "2022-23": "(-)28.14"
+                }
+              
+
+              ],
+              "Table13e":[
+                {
+                  ".": "",
+                  "XV FC assessment": "(₹ in crore)",
+                  "Budget Estimates": "(₹ in crore)",
+                  "Actual": "(₹ in crore)",
+                  "Percentage variation of actual over": "Budget Estimates",
+                  "Percentage variation of actual over.": "XV FC Assessment"
+                },
+                {
+                  ".": "Own-Tax revenue",
+                  "XV FC assessment": "1,18,236",
+                  "Budget Estimates": "1,26,883",
+                  "Actual": "1,43,702",
+                  "Percentage variation of actual over": 13.26,
+                  "Percentage variation of actual over.": 21.54
+                },
+                {
+                  ".": "Non-Tax revenue",
+                  "XV FC assessment": "8,655",
+                  "Budget Estimates": "10,940",
+                  "Actual": "13,914",
+                  "Percentage variation of actual over": 27.18,
+                  "Percentage variation of actual over.": 60.76
+                }
+              ],
+
             "Table22": [
                 {
                   "123": 881.55,
@@ -21444,8 +21522,8 @@
                   "2018 19": "(-)14,373",
                   "2019 20": "(-)14,553",
                   "2020 21": "(-)64,149",
-                  "2021 22": "(+)16,129",
-                  "2022 23": "(-)2,356"
+                  "2021 22": "(+)11,769",
+                  "2022 23": "(-)952"
                 }
               ],
             "T23H1": "Investments made in loss making Companies",
@@ -22147,6 +22225,218 @@
                   "3": "Undefined situation"
                 }
               ],
+              "Table38a":[
+                {
+                  "Year": "",
+                  "Real economic growth (g)": "(in per cent)",
+                  "Real Interest rate (r)": "(in per cent)",
+                  "Domar gap( g-r)": "(₹ in crore)",
+                  "Primary deficit (-)/ Surplus (+)": "(₹ in crore)"
+                },
+                {
+                  "Year": "2018-19",
+                  "Real economic growth (g)": 6.4,
+                  "Real Interest rate (r)": 4.09,
+                  "Domar gap( g-r)": 2.31,
+                  "Primary deficit (-)/ Surplus (+)": "(-)21,828"
+                },
+                {
+                  "Year": "2019-20",
+                  "Real economic growth (g)": 5.9,
+                  "Real Interest rate (r)": 1.84,
+                  "Domar gap( g-r)": 4.06,
+                  "Primary deficit (-)/ Surplus (+)": "(-)18,263"
+                },
+                {
+                  "Year": "2020-21",
+                  "Real economic growth (g)": "(-)3.50",
+                  "Real Interest rate (r)": 1.35,
+                  "Domar gap( g-r)": "(-)2.15",
+                  "Primary deficit (-)/ Surplus (+)": "(-)43,665"
+                },
+                {
+                  "Year": "2021-22",
+                  "Real economic growth (g)": 11,
+                  "Real Interest rate (r)": 0.89,
+                  "Domar gap( g-r)": 10.11,
+                  "Primary deficit (-)/ Surplus (+)": "(-)39,760"
+                },
+                {
+                  "Year": "2022-23",
+                  "Real economic growth (g)": 7.9,
+                  "Real Interest rate (r)": 0.53,
+                  "Domar gap( g-r)": 7.37,
+                  "Primary deficit (-)/ Surplus (+)": "(-)16,980"
+                }
+              ],
+              "Table38b":[
+                
+                    {
+                      "Sl. No.": 1,
+                      "Year": "Total borrowings*",
+                      "2018-19": "41,914",
+                      "2019-20": "50,459",
+                      "2020-21": "84,528",
+                      "2021-22": "80,641",
+                      "2022-23": "44,549"
+                    },
+                    {
+                      "Sl. No.": 2,
+                      "Year": "Repayment of earlier borrowings (Principal)",
+                      "2018-19": "11,083",
+                      "2019-20": "10,180",
+                      "2020-21": "11,016",
+                      "2021-22": "13,972",
+                      "2022-23": "15,942"
+                    },
+                    {
+                      "Sl. No.": 3,
+                      "Year": "Net capital expenditure",
+                      "2018-19": "34,665",
+                      "2019-20": "35,485",
+                      "2020-21": "45,361",
+                      "2021-22": "47,868",
+                      "2022-23": "57,347"
+                    },
+                    {
+                      "Sl. No.": 4,
+                      "Year": "Net loans and advances",
+                      "2018-19": "4,456",
+                      "2019-20": "3,866",
+                      "2020-21": "2,399",
+                      "2021-22": "4,082",
+                      "2022-23": "2,772"
+                    },
+                    {
+                      "Sl. No.": 5,
+                      "Year": "Net availability of borrowed funds (1-2-3-4)",
+                      "2018-19": "(-)8,290",
+                      "2019-20": 928,
+                      "2020-21": "25,752",
+                      "2021-22": "14,719",
+                      "2022-23": "(-)31,512"
+                    }
+                  
+              ],
+              "Table38c":[
+                
+                    {
+                      "Guarantees": "Ceiling applicable to the outstanding amount of guarantees (80 per cent of revenue receipts of second preceding year)",
+                      "2018-19": "1,06,571",
+                      "2019-20": "1,17,600",
+                      "2020-21": "1,31,983",
+                      "2021-22": "1,40,354",
+                      "2022-23": "1,25,343"
+                    },
+                    {
+                      "Guarantees": "Outstanding amount of guarantees",
+                      "2018-19": "24,091",
+                      "2019-20": "26,830",
+                      "2020-21": "32,733",
+                      "2021-22": "33,192",
+                      "2022-23": "38,356"
+                    }
+                  
+              ],
+              "Table38d":[
+                {
+                  ".": "A. General Cash Balances",
+                  "Opening balance as on 1 April 2022": "",
+                  "Closing balance as on 31 March 2023": ""
+                },
+                {
+                  ".": "Deposits with Reserve Bank of India",
+                  "Opening balance as on 1 April 2022": "1,518.39",
+                  "Closing balance as on 31 March 2023": "2,788.21"
+                },
+                {
+                  ".": "Investments held in Cash Balance Investment Account",
+                  "Opening balance as on 1 April 2022": "31,973.89",
+                  "Closing balance as on 31 March 2023": "47,919.99"
+                },
+                {
+                  ".": "Total (A)",
+                  "Opening balance as on 1 April 2022": "33,492.28",
+                  "Closing balance as on 31 March 2023": "50,708.20"
+                },
+                {
+                  ".": "B. Other Cash Balances and Investments",
+                  "Opening balance as on 1 April 2022": "",
+                  "Closing balance as on 31 March 2023": ""
+                },
+                {
+                  ".": "Cash with departmental officers viz., forest and Public Works",
+                  "Opening balance as on 1 April 2022": 2.09,
+                  "Closing balance as on 31 March 2023": 2.09
+                },
+                {
+                  ".": "Permanent advances with departmental officers for contingent expenditure",
+                  "Opening balance as on 1 April 2022": 3.55,
+                  "Closing balance as on 31 March 2023": 3.9
+                },
+                {
+                  ".": "Investment of earmarked funds",
+                  "Opening balance as on 1 April 2022": "29,914.43",
+                  "Closing balance as on 31 March 2023": "32,914.43"
+                },
+                {
+                  ".": "Total (B)",
+                  "Opening balance as on 1 April 2022": "29,920.07",
+                  "Closing balance as on 31 March 2023": "32,920.42"
+                },
+                {
+                  ".": "Total (A + B)",
+                  "Opening balance as on 1 April 2022": "63,412.35",
+                  "Closing balance as on 31 March 2023": "83,628.62"
+                },
+                {
+                  ".": "Interest realised",
+                  "Opening balance as on 1 April 2022": 899.44,
+                  "Closing balance as on 31 March 2023": "1,139.09"
+                }
+              
+
+              ],
+              "Table38e":[
+                {
+                  "Year": "2018-19",
+                  "Opening Balance": "12,655.49",
+                  "Closing Balance": "5,139.28",
+                  "Increase (+)/ Decrease (-)": "(-)7,516.21",
+                  "Interest earned": 936.47
+                },
+                {
+                  "Year": "2019-20",
+                  "Opening Balance": "5,139.28",
+                  "Closing Balance": "13,634.21",
+                  "Increase (+)/ Decrease (-)": "8,494.93",
+                  "Interest earned": 535.1
+                },
+                {
+                  "Year": "2020-21",
+                  "Opening Balance": "13,634.21",
+                  "Closing Balance": "21,744.33",
+                  "Increase (+)/ Decrease (-)": "8,110.12",
+                  "Interest earned": 627.42
+                },
+                {
+                  "Year": "2021-22",
+                  "Opening Balance": "21,744.33",
+                  "Closing Balance": "31,973.89",
+                  "Increase (+)/ Decrease (-)": "10,229.56",
+                  "Interest earned": 899.44
+                },
+                {
+                  "Year": "2022-23",
+                  "Opening Balance": "31,973.89",
+                  "Closing Balance": "47,919.99",
+                  "Increase (+)/ Decrease (-)": "15,946.10",
+                  "Interest earned": "1,139.09"
+                }
+              
+
+              ],
+
             "Table39": [
                 {
                   "1": "",
@@ -23459,7 +23749,7 @@
             },
             "Table17": [
                 {
-                  "Components of Committed Expenditure": "Salaries & Wages",
+                  "Components of Committed Expenditure": "Salaries & Wages#",
                   "2018 19": "28,738",
                   "2019 20": "32,449",
                   "2020 21": "33,113",

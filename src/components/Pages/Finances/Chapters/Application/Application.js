@@ -217,9 +217,9 @@ const Application = () => {
 
                         {["Para122", "Para123", "Para124", "Para125", "Para126", "Para127"].map((item, ind) =>
                             <Para key={ind / 10}>
-                                <li>
+                                
                                     {ctx.chapterTwo[item]}
-                                </li>
+                                
                             </Para>)}
                         {["Para128", "Para129", "Para130"].map((item, ind) =>
                             <Para key={ind / 10}>
@@ -527,6 +527,7 @@ const Application = () => {
                         <Para >
                             {ctx.chapterTwo.Para206}
                         </Para>
+                        
                         <Para >
                             {ctx.chapterTwo.Para207}
                         </Para>

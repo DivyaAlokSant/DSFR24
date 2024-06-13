@@ -39,6 +39,11 @@ const BudgetProcess = () => {
             )
           )}
           <ImageComponent src={c31} alt="chart2.20" aspectRatio={1 / .8} />
+          <h4 className='footnote'>
+                <i>
+                Source: Budget S
+                   
+                </i></h4>
 
           {["para8", "para9"].map(
             (item, ind) => (

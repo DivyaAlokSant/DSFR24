@@ -51,6 +51,11 @@ const PublicAccount = () => {
                             <i>
                                 Source:Finance Accounts
                             </i>
+                            </h4>
+                            <h4>
+                            <i>
+                            Note: +ve denotes debit balance and –ve denotes credit balances
+                            </i>
                         </h4>    
                         <h3 className='headnote'>
                             ₹ In crore
@@ -152,19 +157,8 @@ const PublicAccount = () => {
                                 {ctx.chapterTwo[item]}
                             </Para>)} 
 
-                        <h3 className='headnote'>
-                            ₹ In crore
-                        </h3>
-                        <Table29 />
-                        <h4 className='footnote'>
-                            <i>
-                            Source: XV Finance Commission and Ledger
-                            </i>
-                        </h4>
 
-                        <Para >
-                            {ctx.chapterTwo.para249}
-                        </Para>      
+                       
                         <Subtitle>
                             
                             {ctx.chapterTwo["para250"]}
@@ -183,6 +177,10 @@ const PublicAccount = () => {
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)} 
+                            {["para260a","para260b"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapterTwo[item]}
+                            </Para>)}  
                         <Subtitle>
                             
                             {ctx.chapterTwo["para261"]}
@@ -194,7 +192,7 @@ const PublicAccount = () => {
                             </Para>)}  
                         <Subtitle>
                            <i>
-                            {ctx.chapterTwo["para261"]}
+                            {ctx.chapterTwo["para264"]}
                             </i> 
                         </Subtitle> 
                         {["para265","para266","para267"].map((item, ind) =>

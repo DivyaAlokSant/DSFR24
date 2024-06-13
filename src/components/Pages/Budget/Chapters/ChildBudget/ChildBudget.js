@@ -21,7 +21,7 @@ const ChildBudget = () => {
       <div>
         <Navbar />
         <div className="contentwrapper" id="home">
-        <FloatingActionButtons back="/budget/gender-budget" forward="/budget/appropaccounts" />
+        <FloatingActionButtons back="/budget/gender-budget" forward="/budget/Appropacc" />
 
           <Title>{ctx.chapterThree.Profile.para17}</Title>
           {["para18","para19"].map(
@@ -57,7 +57,7 @@ const ChildBudget = () => {
     <div>
         <Navbar />
         <div className="contentwrapper" id="home">
-          <FloatingActionButtons back="/budget/gender-budget" forward="/budget/appropaccounts" />
+          <FloatingActionButtons back="/budget/gender-budget" forward="/budget/Appropacc" />
 
           <Title>{ctx.chapter3kannada.Content.para116}</Title>
           {["para117","para118"].map((item, ind) =>

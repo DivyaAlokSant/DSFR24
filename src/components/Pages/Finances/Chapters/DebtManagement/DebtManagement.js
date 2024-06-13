@@ -90,9 +90,11 @@ const DebtManagement = () => {
                            <ImageComponent src={c216} alt="chart2.14" aspectRatio={1 / 0.5} />
                            <ImageComponent src={c217} alt="chart2.14" aspectRatio={1 / 0.5} />
                        
-                           <Para>
-                            {ctx.chapterTwo.Para290}
-                        </Para>
+                           {["para290"].map((item, ind) =>
+                           <Para key={ind / 10}>
+                               {ctx.chapterTwo[item]}
+                           </Para>)} 
+
 
                     <Subtitle>
                            
@@ -129,6 +131,11 @@ const DebtManagement = () => {
                            </Para>)} 
 
                       <Table33 />     
+                      {["para296a"].map((item, ind) =>
+                           <Para key={ind / 10}>
+                               {ctx.chapterTwo[item]}
+                           </Para>)} 
+                      
 
                     {["para297","para298","para299","para300"].map((item, ind) =>
                            <Para key={ind / 10}>

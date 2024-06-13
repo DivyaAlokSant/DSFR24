@@ -72,14 +72,49 @@ const Dsa = () => {
                                {ctx.chapterTwo[item]}
                             </li>
                            </Para>)}  
-                           {["para319","para320","para321"].map((item, ind) =>
+                           <Subtitle>
+                         <i> 
+                           {ctx.chapterTwo["para320"]}
+                        </i> 
+                    </Subtitle>
+
+                           {["para321"].map((item, ind) =>
                            <Para key={ind / 10}>
                                {ctx.chapterTwo[item]}
                            </Para>)}  
 
-                           <Table38 />
 
-                        {["para322","para323"].map((item, ind) =>
+                           <Table38 />
+                           
+                           {["para322"].map((item, ind) =>
+                           <Para key={ind / 10}>
+                               {ctx.chapterTwo[item]}
+                           </Para>)}  
+                           <CustomTable title={"Table 2.44: Public Debt Sustainability-real growth and real interest"}
+                            
+                            columns={ctx.tables2.Table38a}
+                            data={ctx.tables2.Table38a} />
+                            <h4 className='footnote'>
+                
+                •	Real economic growth rate has been calculated for real GSDP (i.e., at constant prices*). 
+                        
+                       
+                      
+                </h4>
+                <h4 className='footnote'>
+                •	Real interest rate is calculated as average interest rate on fiscal liabilities minus inflation. Average inflation** has been obtained from RBI.  
+                </h4>
+        
+                              <h4 className='footnote'>
+                <i>
+                * Information furnished by Directorate of Economics and Statistics
+                ** As published by RBI on November 19, 2022 and Handbook on statistics of Indian States
+                  
+                </i>
+        </h4>
+        
+
+                        {["para323","para323a"].map((item, ind) =>
                            <Para key={ind / 10}>
                                {ctx.chapterTwo[item]}
                            </Para>)}  
@@ -90,7 +125,30 @@ const Dsa = () => {
                             {ctx.chapterTwo["para324"]}
                             </i> 
                     </Subtitle>
-                    {["para325","para326"].map((item, ind) =>
+                    {["para325"].map((item, ind) =>
+                           <Para key={ind / 10}>
+                               {ctx.chapterTwo[item]}
+                           </Para>)}  
+                           <h3 className='headnote'>
+                            ₹ In crore
+                    </h3>
+                     <CustomTable title={"Table 2.45:  Utilisation of borrowed funds"}
+                            
+                            columns={ctx.tables2.Table38b}
+                            data={ctx.tables2.Table38b} />
+                              <h4 className='footnote'>
+                <i>
+                Source: Finance Accounts
+                   
+                </i>
+        </h4>  
+        <h4 className='footnote'>
+                <i>
+                * During 2020-21 and 2021-22, total borrowings are inclusive of back-to-back loan. GoI had decided that GST compensation of ₹12,407 crore and ₹18,109 crore given to the State as back-to-back loan during 2020-21 and 2021-22 respectively under Debt Receipt would not be treated as debt of the State for any norms which may be prescribed by the Finance Commission.
+                </i>
+        </h4>        
+
+                    {["para326"].map((item, ind) =>
                            <Para key={ind / 10}>
                                {ctx.chapterTwo[item]}
                            </Para>)}  
@@ -103,6 +161,19 @@ const Dsa = () => {
                            <Para key={ind / 10}>
                                {ctx.chapterTwo[item]}
                            </Para>)}
+                           <h3 className='headnote'>
+                            ₹ In crore
+                    </h3>
+                     <CustomTable title={"Table 2.46: Guarantees given by the State Government"}
+                            
+                            columns={ctx.tables2.Table38c}
+                            data={ctx.tables2.Table38c} />
+                              <h4 className='footnote'>
+                <i>
+                Source: Finance Accounts
+                   
+                </i>
+        </h4>    
                     <Para tooltips={[
                      { word: "sectors[18]", tooltip:"Irrigation (₹14,475 crore), Co-operation (₹1,374 crore), Finance (₹695 crore), Power (₹18,179 crore), Housing (₹1,900 crore), Transport (₹911 crore) and other sectors (₹728 crore)" },
                             
@@ -134,10 +205,45 @@ const Dsa = () => {
                         </Para>
 
 
-                    {["para336","para337","para338","para339","para340","para341","para342"].map((item, ind) =>
+                        {["para336"].map((item, ind) =>
+                           <Para key={ind / 10}>
+                               {ctx.chapterTwo[item]}
+                           </Para>)}  
+                           <h3 className='headnote'>
+                            ₹ In crore
+                    </h3>
+                     <CustomTable title={"Table 2.47: Cash Balances and their investment"}
+                            
+                            columns={ctx.tables2.Table38d}
+                            data={ctx.tables2.Table38d} />
+                              <h4 className='footnote'>
+                <i>
+                Source: Finance Accounts
+                   
+                </i>
+        </h4>    
+
+                    {["para337","para338","para339","para340"].map((item, ind) =>
                            <Para key={ind / 10}>
                                {ctx.chapterTwo[item]}
                     </Para>)}  
+                    <h3 className='headnote'>
+                            ₹ In crore
+                    </h3>
+                     <CustomTable title={"Table 2.48: Cash Balance Investment Account (Major Head-8673)"}
+                            
+                            columns={ctx.tables2.Table38e}
+                            data={ctx.tables2.Table38e} />
+                              <h4 className='footnote'>
+                <i>
+                Source: Finance Accounts
+                   
+                </i></h4>
+                    {["para341","para342"].map((item, ind) =>
+                           <Para key={ind / 10}>
+                               {ctx.chapterTwo[item]}
+                    </Para>)} 
+
                     <ImageComponent src={c219} alt="chart2.19" aspectRatio={1 / 0.75} />
                       
 
