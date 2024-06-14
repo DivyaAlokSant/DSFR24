@@ -70,10 +70,10 @@ const PDA = () => {
                         <CustomTable title={"Table 4.9: Closing balances in PD Accounts"}
                             columns={ctx.tables4.Table9}
                             data={ctx.tables4.Table9} />
+                               <h4 className='footnote'><i>
+                               Source: DDR Ledger </i>
+                        </h4>
 
-                        <Para>
-                            {ctx.chapterFour.Content.para44}
-                        </Para>
                         <Para>
                             {ctx.chapterFour.Content.para44a}
                         </Para>

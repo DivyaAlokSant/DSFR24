@@ -31,7 +31,7 @@ const Outcome = () => {
 
           <FloatingActionButtons back="/budget/audit" forward="/budget/conclusion" />
           <Title>{ctx.chapterThree.Profile.para116}</Title>
-          {["para113", "para115", "para116", "para117", "para118", "para119", "para120"].map(
+          {[ "para117", "para118", "para119", "para120"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
@@ -206,7 +206,7 @@ const Outcome = () => {
           <Subtitle>
             {ctx.chapterThree.Profile["para172"]}
           </Subtitle>
-          {["para173", "para174"].map(
+          {["para173", "para173a","para174"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
@@ -481,8 +481,13 @@ const Outcome = () => {
             )
           )}
           <Subtitle>
-            {ctx.chapterThree.Profile["para227","para227a"]}
+            {ctx.chapterThree.Profile["para227"]}
           </Subtitle>
+          {["para227a"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+            )
+          )}
           <h3 className='headnote'>
 
           </h3>

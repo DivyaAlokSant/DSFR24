@@ -39,6 +39,9 @@ const Ndischarge = () => {
                             <CustomTable title={"Table 4.3: Details of interest not paid"}
                                 columns={ctx.tables4.Table3}
                                 data={ctx.tables4.Table3} />    
+                                   <h4 className='footnote'><i>
+                                   * Closing Balance as of Dec 2022</i>
+                        </h4>
 
                     </div>
                 </div>

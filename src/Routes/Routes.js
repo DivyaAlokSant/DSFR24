@@ -136,7 +136,7 @@ const Routes = () => {
                             <Route path='/Budget/gender-budget' exact component={GenderBudget} />
                             <Route path='/Budget/child-budget' exact component={ChildBudget} />
                             {/* <Route path='/Budget/policy' exact component={MajorPolicy} /> */}
-                            <Route path='/Budget/Appropacc' exact component={Appropacc} />
+                            <Route path='/Budget/appropacc' exact component={Appropacc} />
                             <Route path='/Budget/audit' exact component={Audit} />
                             <Route path='/Budget/outcome' exact component={Outcome} />
                             <Route path='/Budget/conclusion' exact component={BudConclusion} />

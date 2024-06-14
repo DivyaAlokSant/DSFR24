@@ -185,7 +185,7 @@ export const SidebarData = [
         cName: 'sub-nav'
       },
       {
-        title: '3.3 Review of Gender Budgeting in Karnataka',
+        title: '3.3 Gender Budgeting in Karnataka',
         path: '/budget/gender-budget',
         id: 2,
         icon: <FaIcons.FaAngleRight />,

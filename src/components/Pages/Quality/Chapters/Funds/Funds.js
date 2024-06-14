@@ -52,6 +52,9 @@ const Funds = () => {
                         <CustomTable title={"Table 4.1(a): Entity-wise position of off-budget borrowings"}
                             columns={ctx.tables4.Table1a}
                             data={ctx.tables4.Table1a} />
+                            <h4 className='footnote'><i>
+                            Source: Finance Accounts</i>
+                        </h4>
                         <Para>
                             {ctx.chapterFour.Content.para7}
                         </Para>

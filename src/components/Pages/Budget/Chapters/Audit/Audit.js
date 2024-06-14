@@ -161,7 +161,9 @@ const Audit = () => {
             )
           )}
           <ImageComponent src={c33} alt="chart2.20" aspectRatio={1 / 0.55} />
-
+          <h3 className='footnote'>
+          Source:Grant Register
+          </h3>
           {["para59"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
@@ -218,7 +220,7 @@ const Audit = () => {
           <Subtitle>
             {ctx.chapterThree.Profile["para79"]}
           </Subtitle>
-          {["para80", "para81", "para82", "para83", "para84", "para85"].map(
+          {["para80", "para81", "para82","para82a", "para83", "para84", "para85"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
@@ -246,7 +248,8 @@ const Audit = () => {
             columns={ctx.tables3.Table11}
             data={ctx.tables3.Table11} />
 
-          <h4>
+          <h4 className="footnote">
+          Source: Appropriation Accounts and Grant Register
           </h4>
 
 
@@ -301,7 +304,9 @@ const Audit = () => {
             columns={ctx.tables3.Table13}
             data={ctx.tables3.Table13} />
 
-
+<h4 className="footnote">
+          Source: Appropriation Accounts 
+          </h4>
 
 
 
@@ -352,7 +357,7 @@ const Audit = () => {
           <h3 className='headnote'>
             ₹ In crore
           </h3>
-          <CustomTable title={""}
+          <CustomTable 
             columns={ctx.tables3.Table15}
             data={ctx.tables3.Table15} />
           <h4>

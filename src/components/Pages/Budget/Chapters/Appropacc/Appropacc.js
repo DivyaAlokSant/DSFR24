@@ -22,7 +22,7 @@ const Appropacc = () => {
         <Navbar />
         <div className="contentwrapper" id="home">
           <FloatingActionButtons back="/budget/child-budget" forward="/budget/audit" />
-
+          
           
         </div>
       </div>
@@ -38,7 +38,7 @@ const Appropacc = () => {
       <div className="contentwrapper" id="home">
         <FloatingActionButtons back="/budget/child-budget" forward="/budget/audit" />
 
-         
+       
 
 
 

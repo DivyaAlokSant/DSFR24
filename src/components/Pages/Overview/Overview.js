@@ -29,114 +29,134 @@ const Overview = () => {
                     <div className="contentwrapper" id="home">
                         <FloatingActionButtons back="/preface/" forward="/overview/introduction" />
                        
-                        <Title>{ctx.execsummary.para1}</Title>
-                        {['para2'].map((item, ind) =>
-                            <Para key={ind / 10}>
+                        <Title><i>{ctx.execsummary.para1}</i></Title>
+                        <Title><i>{ctx.execsummary.para10}</i></Title>
+                       {['para11',"para12"].map((item, ind) =>
+                             <i><Para key={ind / 10}>
                                 {ctx.execsummary[item]}
-                            </Para>
+                               </Para>  </i>
                         )}
-                        <Title>{ctx.execsummary.para3}</Title>
-                        {['para10'].map((item, ind) =>
-                            <Para key={ind / 10}>
+                        {['para13',"para14"].map((item, ind) =>
+                             <Para key={ind / 10}>
                                 {ctx.execsummary[item]}
-                            </Para>
+                               </Para> 
                         )}
-                        <Title>{ctx.execsummary.para11}</Title>
-                        {['para12'].map((item, ind) =>
-                            <Para key={ind / 10}>
+                         <Title><i>{ctx.execsummary.para15}</i></Title>
+                         {['para16',"para17","para18","para19"].map((item, ind) =>
+                             <Para key={ind / 10}>
                                 {ctx.execsummary[item]}
-                            </Para>
+                               </Para> 
                         )}
-                        <Title>{ctx.execsummary.para13}</Title>
-                        {['para14'].map((item, ind) =>
-                            <Para key={ind / 10}>
+                          <Title><i>{ctx.execsummary.para20}</i></Title>
+                          {['para21',"para22","para23","para24","para25","para26"].map((item, ind) =>
+                             <Para key={ind / 10}>
                                 {ctx.execsummary[item]}
-                            </Para>
+                               </Para> 
                         )}
-                        <Title>{ctx.execsummary.para15}</Title>
-                        {['para16'].map((item, ind) =>
-                            <Para key={ind / 10}>
+                        <Title><i>{ctx.execsummary.para27}</i></Title>
+                        {['para28',"para29"].map((item, ind) =>
+                             <Para key={ind / 10}>
                                 {ctx.execsummary[item]}
-                            </Para>
+                               </Para> 
                         )}
-                        <Title>{ctx.execsummary.para17}</Title>
-                        {['para18'].map((item, ind) =>
-                            <Para key={ind / 10}>
+                          <Title><i>{ctx.execsummary.para30}</i></Title>
+                          {['para31'].map((item, ind) =>
+                             <Para key={ind / 10}>
                                 {ctx.execsummary[item]}
-                            </Para>
+                               </Para> 
                         )}
-                        <Title>{ctx.execsummary.para19}</Title>
-                        {['para20'].map((item, ind) =>
-                            <Para key={ind / 10}>
+                         <Title><i>{ctx.execsummary.para32}</i></Title>
+                         {['para33'].map((item, ind) =>
+                             <Para key={ind / 10}>
                                 {ctx.execsummary[item]}
-                            </Para>
+                               </Para> 
                         )}
-                        <Title>{ctx.execsummary.para21}</Title>
-                        {['para22','para23'].map((item, ind) =>
-                            <Para key={ind / 10}>
+                          <Title><i>{ctx.execsummary.para34}</i></Title>
+                          {['para35'].map((item, ind) =>
+                             <Para key={ind / 10}>
                                 {ctx.execsummary[item]}
-                            </Para>
+                               </Para> 
                         )}
-                        <Title>{ctx.execsummary.para24}</Title>
-                        {['para25'].map((item, ind) =>
-                            <Para key={ind / 10}>
+                           <Title><i>{ctx.execsummary.para36}</i></Title>
+                           {['para37',"para38","para39"].map((item, ind) =>
+                             <Para key={ind / 10}>
                                 {ctx.execsummary[item]}
-                            </Para>
+                               </Para> 
                         )}
-                        <Title>{ctx.execsummary.para26}</Title>
-                        <Title>{ctx.execsummary.para27}</Title>
-                        {['para28','para29','para30','para31','para32','para33'].map((item, ind) =>
-                            <Para key={ind / 10}>
+                         <Title><i>{ctx.execsummary.para40}</i></Title>
+                         <Title><i>{ctx.execsummary.para41}</i></Title>
+                       
+                         {['para42'].map((item, ind) =>
+                             <Para key={ind / 10}>
                                 {ctx.execsummary[item]}
-                            </Para>
+                               </Para> 
                         )}
-                            <Title>{ctx.execsummary.para34}</Title>
-                    {['para35','para36','para37','para38','para39'].map((item, ind) =>
-                            <Para key={ind / 10}>
+                          <Title><i>{ctx.execsummary.para43}</i></Title>
+                          {['para44',"para45"].map((item, ind) =>
+                             <Para key={ind / 10}>
                                 {ctx.execsummary[item]}
-                            </Para>
+                               </Para> 
                         )}
-                         <Title>{ctx.execsummary.para40}</Title>
-                         <Title>{ctx.execsummary.para41}</Title>
-                         {['para42','para43','para44','para45'].map((item, ind) =>
-                            <Para key={ind / 10}>
+                          <Title><i>{ctx.execsummary.para46}</i></Title>
+                          {['para47'].map((item, ind) =>
+                             <Para key={ind / 10}>
                                 {ctx.execsummary[item]}
-                            </Para>
+                               </Para> 
                         )}
-                         <Title>{ctx.execsummary.para46}</Title>
-                         {['para47','para48','para49'].map((item, ind) =>
-                            <Para key={ind / 10}>
+                         <Title><i>{ctx.execsummary.para48}</i></Title>
+                         {['para49'].map((item, ind) =>
+                             <Para key={ind / 10}>
                                 {ctx.execsummary[item]}
-                            </Para>
+                               </Para> 
                         )}
-                          <Title>{ctx.execsummary.para50}</Title>
-                          <Title>{ctx.execsummary.para51}</Title>
-                          {['para52','para53'].map((item, ind) =>
-                            <Para key={ind / 10}>
+                             <Title><i>{ctx.execsummary.para50}</i></Title>
+                             {['para51'].map((item, ind) =>
+                             <Para key={ind / 10}>
                                 {ctx.execsummary[item]}
-                            </Para>
+                               </Para> 
                         )}
-                        <Title>{ctx.execsummary.para54}</Title>
-                        {['para55','para56','para57'].map((item, ind) =>
-                            <Para key={ind / 10}>
+                        <Title><i>{ctx.execsummary.para52}</i></Title>
+                        {['para53',"para54"].map((item, ind) =>
+                             <Para key={ind / 10}>
                                 {ctx.execsummary[item]}
-                            </Para>
+                               </Para> 
                         )}
-                          <Title>{ctx.execsummary.para58}</Title>
-                          <Title>{ctx.execsummary.para59}</Title>
-                          {['para60','para61','para62','para63','para64'].map((item, ind) =>
-                            <Para key={ind / 10}>
+                         <Title><i>{ctx.execsummary.para55}</i></Title>
+                         {['para56'].map((item, ind) =>
+                             <Para key={ind / 10}>
                                 {ctx.execsummary[item]}
-                            </Para>
+                               </Para> 
                         )}
-                         <Title>{ctx.execsummary.para65}</Title>
-                         {['para66','para67','para68'].map((item, ind) =>
-                            <Para key={ind / 10}>
+                         <Title><i>{ctx.execsummary.para57}</i></Title>
+                         {['para58'].map((item, ind) =>
+                             <Para key={ind / 10}>
                                 {ctx.execsummary[item]}
-                            </Para>
+                               </Para> 
                         )}
-                         <Title>{ctx.execsummary.para69}</Title>
-                          
+                          <Title><i>{ctx.execsummary.para59}</i></Title>
+                          {['para60'].map((item, ind) =>
+                             <Para key={ind / 10}>
+                                {ctx.execsummary[item]}
+                               </Para> 
+                        )}
+                         <Title><i>{ctx.execsummary.para61}</i></Title>
+                         {['para62'].map((item, ind) =>
+                             <Para key={ind / 10}>
+                                {ctx.execsummary[item]}
+                               </Para> 
+                        )}
+                         <Title><i>{ctx.execsummary.para63}</i></Title>
+                         {['para64',"para65"].map((item, ind) =>
+                             <Para key={ind / 10}>
+                                {ctx.execsummary[item]}
+                               </Para> 
+                        )}
+                          <Title><i>{ctx.execsummary.para66}</i></Title>
+                          {['para67',"para68","para69","para2"].map((item, ind) =>
+                             <Para key={ind / 10}>
+                                {ctx.execsummary[item]}
+                               </Para> 
+                        )}
 
                        
 

@@ -38,6 +38,9 @@ const NonRemittance
                             <CustomTable title={"Table 4.2: Details of interest earned and its treatment"}
                                 columns={ctx.tables4.Table2}
                                 data={ctx.tables4.Table2} />
+                                 <h4 className='footnote'><i>
+                                 *The Institutions are yet to be audited.</i>
+                        </h4>
 
                             {["para12", "para13"].map((item, ind) =>
                                 <Para key={ind / 10}>
