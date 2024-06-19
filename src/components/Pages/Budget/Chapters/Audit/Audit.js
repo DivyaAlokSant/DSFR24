@@ -45,7 +45,7 @@ const Audit = () => {
       <div>
         <Navbar />
         <div className="contentwrapper" id="home">
-          <FloatingActionButtons back="/budget/appropaccounts" forward="/budget/outcome" />
+          <FloatingActionButtons back="/budget/Appropacc" forward="/budget/outcome" />
 
           <Title>{ctx.chapterThree.Profile.para43}</Title>
           {["para44"].map(
@@ -422,7 +422,7 @@ const Audit = () => {
     <div>
       <Navbar />
       <div className="contentwrapper" id="home">
-        <FloatingActionButtons back="/budget/appropaccounts" forward="/budget/outcome" />
+        <FloatingActionButtons back="/budget/Appropacc" forward="/budget/outcome" />
 
         <Title>{ctx.chapter3kannada.Content.para139}</Title>
                            {["para14"].map((item, ind) =>

@@ -11,6 +11,8 @@ import c42 from '../../../../../Images/c42.png'
 
 import ImageComponent from 'material-ui-image'
 import CustomTable from "../../../../CustomTable/CustomTable";
+import ck16 from '../../../../../Images/ck16.png'
+
 const ContingentBill = () => {
 
     const ctx = useContext(MyContext)
@@ -83,14 +85,34 @@ const ContingentBill = () => {
                             <Para key={ind / 10}>
                                 {ctx.chapter4kannada.Content[item]}
                             </Para>)}
+                            <h3 className='headnote'>
+                            ₹ ಕೋಟಿಗಳಲ್ಲಿ
+                    </h3>
+                            <CustomTable title={"ಕೋಷ್ಟಕ-೪.5: ಸಂಕ್ಷಿಪ್ತ ಸಾದಿಲ್ವಾರು ಬಿಲ್ಲುಗಳಿಗೆ ಸವಿವರ ಬಿಲ್ಲುಗಳ ಸಲ್ಲಿಕೆಯಲ್ಲಿನ ವರ್ಷಾವಾರು ಪ್ರಗತಿ "}
+                            
+                            columns={ctx.tables4kan.Table5}
+                            data={ctx.tables4kan.Table5} /> 
+                                <h4 className='footnote'>
+                <i>
+                ಆಕರ: ಹಣಕಾಸು ಲೆಕ್ಕಗಳು 				* ಮಾರ್ಚ್‌ ೨೦೨3ರ ಬಿಲ್ಲುಗಳನ್ನು ಹೊರತುಪಡಿಸಿ 
+                </i></h4> 
+             
                         {["para27c"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter4kannada.Content[item]}
                             </Para>)}
+                            <h3 className='headnote'>
+                            ₹ ಕೋಟಿಗಳಲ್ಲಿ
+                    </h3>
+                            <CustomTable title={"ಕೋಷ್ಟಕ-4.6: ಸಂಕ್ಷಿಪ್ತ ಸಾದಿಲ್ವಾರು ಬಿಲ್ಲುಗಳ ವರ್ಷಾವಾರು ಬಾಕಿ ಇರುವಿಕೆ"}
+                            
+                            columns={ctx.tables4kan.Table6}
+                            data={ctx.tables4kan.Table6} /> 
                          {["para27d"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter4kannada.Content[item]}
                             </Para>)}
+                            <ImageComponent src={ck16} alt="chart2.20" aspectRatio={1 / .45} />      
                         {["para27e","para27f","para27g"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter4kannada.Content[item]}

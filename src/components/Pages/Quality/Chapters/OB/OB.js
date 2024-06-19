@@ -132,7 +132,19 @@ const OB = () => {
                         <Subtitle><i>
                            {ctx.chapter4kannada.Content.para73}</i>
                         </Subtitle>
-                        {["para74","para75"].map((item, ind) =>
+                        {["para74"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapter4kannada.Content[item]}
+                            </Para>)}
+                            <h3 className='headnote'>
+                            ₹ ಕೋಟಿಗಳಲ್ಲಿ
+                    </h3>
+                            <CustomTable title={"ಕೋಷ್ಟಕ-೪.೧೪: ಅಮಾನತ್ತು ಮತ್ತು ಇರಸಾಲು ಶೀರ್ಷಿಕೆಗಳಡಿಯ ಶಿಲ್ಕುಗಳು "}
+
+
+                            columns={ctx.tables4kan.Table14}
+                            data={ctx.tables4kan.Table14} />        
+                     {["para75"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter4kannada.Content[item]}
                             </Para>)}
@@ -182,6 +194,15 @@ const OB = () => {
                             <Para key={ind / 10}>
                                 {ctx.chapter4kannada.Content[item]}
                             </Para>)}
+                            <h3 className='headnote'>
+                            ₹ ಕೋಟಿಗಳಲ್ಲಿ
+                    </h3>
+                            <CustomTable title={"ಕೋಷ್ಟಕ-4.15: ಋಣ, ಠೇವಣಿ, ಇರಸಾಲು ಶೀರ್ಷಿಕೆಗಳ ಅಡಿಯಲ್ಲಿ ವ್ಯತಿರಿಕ್ತ ಶಿಲ್ಕುಗಳು "}
+
+
+                            columns={ctx.tables4kan.Table15}
+                            data={ctx.tables4kan.Table15} />        
+
                             {["para91"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter4kannada.Content[item]}

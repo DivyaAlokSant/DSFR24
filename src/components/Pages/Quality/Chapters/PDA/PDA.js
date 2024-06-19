@@ -262,6 +262,13 @@ const PDA = () => {
                             <Para key={ind / 10}>
                                 {ctx.chapter4kannada.Content[item]}
                             </Para>)}
+                            <h3 className='headnote'>
+                            ₹ ಕೋಟಿಗಳಲ್ಲಿ
+                    </h3>
+                            <CustomTable title={"ಕೋಷ್ಟಕ-4.೭: ೨೦೨೨-೨೩ರ ಅವಧಿಯಲ್ಲಿನ ವೈಯಕ್ತಿಕ ಠೇವಣಿ ಖಾತೆಗಳ ವಿವರಗಳು"}
+                            
+                            columns={ctx.tables4kan.Table7}
+                            data={ctx.tables4kan.Table7} />     
                         <Subtitle><i>
                            {ctx.chapter4kannada.Content.para27m}</i>
                         </Subtitle>
@@ -269,10 +276,35 @@ const PDA = () => {
                             <Para key={ind / 10}>
                                 {ctx.chapter4kannada.Content[item]}
                             </Para>)}
+                            <h3 className='headnote'>
+                            ₹ ಕೋಟಿಗಳಲ್ಲಿ
+                    </h3>
+                            <CustomTable title={"ಕೋಷ್ಟಕ-೪.೮: ವೈಯಕ್ತಿಕ ಠೇವಣಿ ಖಾತೆಗಳಲ್ಲಿ ಇರಿಸಲಾದ ನಿಧಿಗಳು "}
+                            
+                            columns={ctx.tables4kan.Table8}
+                            data={ctx.tables4kan.Table8} />     
+             <h4 className='footnote'>
+                <i>
+                ಆಕರ- ಹಣಕಾಸು ಲೆಕ್ಕಗಳು
+                   
+                </i></h4> 
+
                          {["para28","para29"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter4kannada.Content[item]}
                             </Para>)}
+                            <h3 className='headnote'>
+                            ₹ ಕೋಟಿಗಳಲ್ಲಿ
+                    </h3>
+                            <CustomTable title={"ಕೋಷ್ಟಕ-೪.೯: ವೈಯಕ್ತಿಕ ಠೇವಣಿ ಖಾತೆಗಳಲ್ಲಿನ ಅಂತಿಮ ಶಿಲ್ಕು "}
+                            
+                            columns={ctx.tables4kan.Table9}
+                            data={ctx.tables4kan.Table9} />     
+             <h4 className='footnote'>
+                <i>
+                ಆಕರ–ಋಣ, ಠೇವಣಿ ಇರಸಾಲು ಲೆಡ್ಜರ್‌ಗಳು 
+                   
+                </i></h4>    
                           {["para3"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter4kannada.Content[item]}
@@ -294,6 +326,10 @@ const PDA = () => {
                             <Para key={ind / 10}>
                                 {ctx.chapter4kannada.Content[item]}
                             </Para>)}
+                            <CustomTable title={"ಕೋಷ್ಟಕ-4.10: 2018-19ರಿಂದ 2022-23ರ ಅವಧಿಯಲ್ಲಿ ತೆರೆಯಲಾದ ಮತ್ತು ಮುಕ್ತಾಯಗೊಳಿಸಲಾದ ವೈಯಕ್ತಿಕ ಠೇವಣಿ ಖಾತೆಗಳ ಮಾಹಿತಿ"}
+                            
+                            columns={ctx.tables4kan.Table10}
+                            data={ctx.tables4kan.Table10} />     
                          {["para36"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter4kannada.Content[item]}
@@ -305,6 +341,13 @@ const PDA = () => {
                             <Para key={ind / 10}>
                                 {ctx.chapter4kannada.Content[item]}
                             </Para>)}
+                            <h3 className='headnote'>
+                            ₹ ಕೋಟಿಗಳಲ್ಲಿ
+                    </h3>
+                            <CustomTable title={"ಕೋಷ್ಟಕ-4.11: ೨೦೨೨-೨೩ರ ಅವಧಿಯಲ್ಲಿ ನಿಷ್ಕ್ರಿಯ ವೈಯಕ್ತಿಕ ಠೇವಣಿ ಖಾತೆಗಳು"}
+                            
+                            columns={ctx.tables4kan.Table11}
+                            data={ctx.tables4kan.Table11} /> 
                      {["para39","para40","para41","para42","para43"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter4kannada.Content[item]}
@@ -326,10 +369,27 @@ const PDA = () => {
                             <Para key={ind / 10}>
                                 {ctx.chapter4kannada.Content[item]}
                             </Para>)}
+                            <h3 className='headnote'>
+                            ₹ ಕೋಟಿಗಳಲ್ಲಿ
+                    </h3>
+                            <CustomTable title={"ಕೋಷ್ಟಕ-4.12: ಲೆಕ್ಕಪುಸ್ತಕಗಳಲ್ಲಿ ನಮೂದಿಸಲಾದ ವೈಯಕ್ತಿಕ ಠೇವಣಿ ಖಾತೆಗಳ ಶಿಲ್ಕುಗಳಲ್ಲಿನ ವ್ಯತ್ಯಾಸಗಳು"}
+                            
+                            columns={ctx.tables4kan.Table12}
+                            data={ctx.tables4kan.Table12} />        
                  {["para49"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter4kannada.Content[item]}
                             </Para>)}
+                            <h3 className='headnote'>
+                            ₹ ಕೋಟಿಗಳಲ್ಲಿ
+                    </h3>
+                            <CustomTable title={"ಕೋಷ್ಟಕ-4.13: ೩೧ ಮಾರ್ಚ್‌ ೨೦೨೩ರಲ್ಲಿದ್ದಂತೆ ಲೆಕ್ಕಪತ್ರಗಳ ಪುಸ್ತಕದಲ್ಲಿ ನಮೂದಿಸಿರುವ ಅಂಕಿಅಂಶಗಳಲ್ಲಿ ವ್ಯತ್ಯಾಸಗಳು"}
+
+
+                            
+                            columns={ctx.tables4kan.Table12}
+                            data={ctx.tables4kan.Table12} />        
+
                 {["para50"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter4kannada.Content[item]}

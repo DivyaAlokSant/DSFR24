@@ -58,6 +58,11 @@ const Compliance = () => {
                             <Para key={ind / 10}>
                                 {ctx.chapter4kannada.Content[item]}
                             </Para>)}
+     <CustomTable title={"ಕೋಷ್ಟಕ-4.18: ಲೆಕ್ಕಪತ್ರ ನಿರ್ವಹಣಾ ಮಾನದಂಡಗಳ ಅನುಸರಣೆ"}
+
+
+columns={ctx.tables4kan.Table18}
+data={ctx.tables4kan.Table18} />                 
         
         </div>
     </div>

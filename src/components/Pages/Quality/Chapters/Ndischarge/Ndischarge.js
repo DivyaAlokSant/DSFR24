@@ -59,7 +59,18 @@ const Ndischarge = () => {
                             <Para key={ind / 10}>
                                 {ctx.chapter4kannada.Content[item]}
                             </Para>)}
-
+                            <h3 className='headnote'>
+                            ₹ ಕೋಟಿಗಳಲ್ಲಿ
+                    </h3>
+                            <CustomTable title={"ಕೋಷ್ಟಕ-೪.2: ಗಳಿಸಿದ ಬಡ್ಡಿ ಮತ್ತು ಅದರ ವಹಿವಾಟಿನ ವಿವರಗಳು"}
+                            
+                            columns={ctx.tables4kan.Table4}
+                            data={ctx.tables4kan.Table4} /> 
+                                <h4 className='footnote'>
+                <i>
+                * ಡಿಸೆಂಬರ್‌ 2022ರಲ್ಲಿದ್ದಂತೆ ಅಂತಿಮ ಶಿಲ್ಕು
+                   
+                </i></h4> 
                       
 
                     </div>

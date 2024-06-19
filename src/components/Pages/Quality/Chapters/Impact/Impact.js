@@ -58,6 +58,17 @@ const ImpactMajor = () => {
                             <Para key={ind / 10}>
                                 {ctx.chapter4kannada.Content[item]}
                             </Para>)}
+                            <h3 className='headnote'>
+                            ₹ ಕೋಟಿಗಳಲ್ಲಿ
+                    </h3>
+                            <CustomTable title={"ಕೋಷ್ಟಕ-4.17: 2022-23ರ ಅವಧಿಯಲ್ಲಿ ಕೆಲವು ವಹಿವಾಟುಗಳ ಪ್ರಭಾವ"}
+
+
+                            columns={ctx.tables4kan.Table17}
+                            data={ctx.tables4kan.Table17} />  
+                            <h4>
+                            ಆಕರ: 2022-23ರ ಲೆಕ್ಕಪತ್ರಗಳ ಟಿಪ್ಪಣಿ ಮತ್ತು ಲೆಕ್ಕಪರಿಶೋಧನಾ ನಂತರದ ವಿಶ್ಲೇಷಣೆ
+                                </h4>      
                     
                 
                 </div>

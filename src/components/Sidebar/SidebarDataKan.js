@@ -198,7 +198,7 @@ export const SidebarDataKan = [
       },
       {
         title: '3.5 ಧನವಿನಿಯೋಗ ಲೆಕ್ಕಗಳು',
-        path: '/budget/appropaccounts',
+        path: '/budget/Appropacc',
         id: 2,
         icon: <FaIcons.FaAngleRight />,
         cName: 'sub-nav'

@@ -12,7 +12,7 @@ import Table9kan from "../../../Tables/Chapter4kan/Table9";
 import CustomTable from "../../../../CustomTable/CustomTable";
 import ImageComponent from 'material-ui-image'
 import c41 from '../../../../../Images/c41.png'
-
+import ck15 from '../../../../../Images/ck15.png'
 const Delay = () => {
 
     const ctx = useContext(MyContext)
@@ -97,10 +97,28 @@ const Delay = () => {
                             <Para key={ind / 10}>
                                 {ctx.chapter4kannada.Content[item]}
                             </Para>)}
+                            <h3 className='headnote'>
+                            ₹ ಕೋಟಿಗಳಲ್ಲಿ
+                    </h3>
+                            <CustomTable title={"ಕೋಷ್ಟಕ-೪.೪: ಬಾಕಿ ಇರುವ ಬಳಕೆ ಪ್ರಮಾಣ ಪತ್ರಗಳ ವರ್ಷಾವಾರು ವಿವರ"}
+                            
+                            columns={ctx.tables4kan.Table4a}
+                            data={ctx.tables4kan.Table4a} /> 
+                                <h4 className='footnote'>
+                <i>
+                ಆಕರ: ಮಹಾಲೇಖಾಪಾಲರ (ಲೆ ಮತ್ತು ಹ) ಕಛೇರಿ.
+                </i></h4> 
+                <h4 className='footnote'>
+                <i>
+                * ಮೇಲೆ ತಿಳಿಸಲಾದ ವರ್ಷವು "ಬಾಕಿ ಇರುವ ವರ್ಷ" ಕ್ಕೆ ಸಂಬಂಧಿಸಿದೆ, ಅಂದರೆ, ವಾಸ್ತವವಾಗಿ ಸೆಳೆದ 18 ತಿಂಗಳ ನಂತರದ ಅವಧಿ
+                   
+                </i></h4> 
+                        
                         {["para22","para23"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter4kannada.Content[item]}
                             </Para>)}
+                            <ImageComponent src={ck15} alt="chart2.14" aspectRatio={1 / 0.4} />
                         {["para24","para25","para26"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter4kannada.Content[item]}

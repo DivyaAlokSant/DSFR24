@@ -84,10 +84,29 @@ const Funds = () => {
                             <Para key={ind / 10}>
                                 {ctx.chapter4kannada.Content[item]}
                             </Para>)}
+                            <h3 className='headnote'>
+                            ₹ ಕೋಟಿಗಳಲ್ಲಿ
+                    </h3>
+                            <CustomTable title={"ಕೋಷ್ಟಕ-4.1: ಆಯವ್ಯಯೇತರ ಸಾಲಗಳ ಘಟಕವಾರು ಸ್ಥಿತಿ"}
+                            
+                            columns={ctx.tables4kan.Table1}
+                            data={ctx.tables4kan.Table1} />
                         {["para102a"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter4kannada.Content[item]}
                             </Para>)}
+                            <h3 className='headnote'>
+                            ₹ ಕೋಟಿಗಳಲ್ಲಿ
+                    </h3>
+                            <CustomTable title={"ಕೋಷ್ಟಕ-4.1(ಎ): ಆಯವ್ಯಯೇತರ ಸಾಲಗಳ ಘಟಕವಾರು ಸ್ಥಿತಿ"}
+                            
+                            columns={ctx.tables4kan.Table2}
+                            data={ctx.tables4kan.Table2} /> 
+                                <h4 className='footnote'>
+                <i>
+                ಆಕರ: ಹಣಕಾಸು ಲೆಕ್ಕಗಳು
+                   
+                </i></h4> 
                         {["para103","para104"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter4kannada.Content[item]}

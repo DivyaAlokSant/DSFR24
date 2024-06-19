@@ -9,6 +9,8 @@ import FloatingActionButtons from "../../../../FloatingActionButtons/FloatButton
 import CustomTable from "../../../../CustomTable/CustomTable";
 import ImageComponent from 'material-ui-image'
 import c43 from '../../../../../Images/c43.png'
+import ck17 from '../../../../../Images/ck17.png'
+
 
 const NonReconciliation = () => {
 
@@ -67,10 +69,19 @@ const NonReconciliation = () => {
                             <Para key={ind / 10}>
                                 {ctx.chapter4kannada.Content[item]}
                             </Para>)}
+                            <ImageComponent src={ck17} alt="chart2.14" aspectRatio={1 / 0.4} />
                         {["para94"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter4kannada.Content[item]}
                             </Para>)}
+                            <h3 className='headnote'>
+                            ₹ ಕೋಟಿಗಳಲ್ಲಿ
+                    </h3>
+                            <CustomTable title={"ಕೋಷ್ಟಕ-4.16: ಸ್ವೀಕೃತಿಗಳು ಮತ್ತು ವೆಚ್ಚದ ಅಂಕಿಗಳ ಸಮನ್ವಯದ ಸ್ಥಿತಿ "}
+
+
+                            columns={ctx.tables4kan.Table16}
+                            data={ctx.tables4kan.Table16} />        
                          {["para95"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter4kannada.Content[item]}

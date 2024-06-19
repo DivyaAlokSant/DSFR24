@@ -69,6 +69,18 @@ const NonRemittance
                             <Para key={ind / 10}>
                                 {ctx.chapter4kannada.Content[item]}
                             </Para>)}
+                            <h3 className='headnote'>
+                            ₹ ಕೋಟಿಗಳಲ್ಲಿ
+                    </h3>
+                            <CustomTable title={"ಕೋಷ್ಟಕ-೪.2: ಗಳಿಸಿದ ಬಡ್ಡಿ ಮತ್ತು ಅದರ ವಹಿವಾಟಿನ ವಿವರಗಳು"}
+                            
+                            columns={ctx.tables4kan.Table3}
+                            data={ctx.tables4kan.Table3} /> 
+                                <h4 className='footnote'>
+                <i>
+                * ಈ ಸಂಸ್ಥೆಗಳನ್ನು ಇನ್ನೂ ಲೆಕ್ಕಪರಿಶೋಧನೆ ಮಾಡಬೇಕಿದೆ.
+                   
+                </i></h4> 
                         {["para12","para13"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapter4kannada.Content[item]}

@@ -126,6 +126,14 @@ const Observation = () => {
                             <Para key={ind / 10}>
                                 {ctx.chapter4kannada.Content[item]}
                             </Para>)}
+                            <h3 className='headnote'>
+                            ₹ ಕೋಟಿಗಳಲ್ಲಿ
+                    </h3>
+                            <CustomTable title={"ಕೋಷ್ಟಕ-೪.೧೯: ದುರುಪಯೋಗ, ನಷ್ಟ ಮತ್ತು ಕಳ್ಳತನ ಇತ್ಯಾದಿಗಳ ಬಾಕಿ ಉಳಿದಿರುವ ಪ್ರಕರಣಗಳು "}
+
+
+                            columns={ctx.tables4kan.Table19}
+                            data={ctx.tables4kan.Table19} />        
                             <Title>
                             {ctx.chapter4kannada.Content.para130}
                         </Title>
