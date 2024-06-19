@@ -42,6 +42,11 @@ const Spse = () => {
 
                          {ctx.chapterFive.para11}
         </Para>
+        {["para11a"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
+            )
+          )}
                
                     <Subtitle>
                             {ctx.chapterFive.para12}                      

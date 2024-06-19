@@ -48,6 +48,13 @@ const Delay = () => {
                         <CustomTable title={"Table 4.4: Age wise pendency of Utilisation Certificates "}
                             columns={ctx.tables4.Table4}
                             data={ctx.tables4.Table4} />
+                              <h4>
+                              Source: Office of the AG(A&E)
+          </h4>
+          <h4>
+          *The year mentioned above relates to “Due year” i.e., after 18 months of actual drawal
+          </h4>
+
 
                         <Para>                            
                             {ctx.chapterFour.Content.para23}  

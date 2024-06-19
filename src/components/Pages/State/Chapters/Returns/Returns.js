@@ -47,9 +47,7 @@ const Returns = () => {
           <h4>
         Source: Latest Financial Statements of SPSEs
           </h4>
-          <h3 className='headnote'>
-            ₹ In crore
-          </h3>
+       
           {["para35"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>

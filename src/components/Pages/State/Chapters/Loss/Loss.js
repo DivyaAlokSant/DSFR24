@@ -69,7 +69,7 @@ const Loss = () => {
 
         {ctx.chapterFive.para60}
         </Para>
-        {["para61","para62"].map(
+        {["para61","para62","para62a","para62b","para62c","para62d"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
             )

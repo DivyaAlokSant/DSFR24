@@ -207,7 +207,7 @@ export const SidebarData = [
       // },
       {
         title: '3.5 Appropriation Accounts',
-        path: '/budget/appropaccounts',
+        path: '/budget/Appropacc',
         id: 2,
         icon: <FaIcons.FaAngleRight />,
         cName: 'sub-nav'

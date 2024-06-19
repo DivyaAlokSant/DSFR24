@@ -39,7 +39,10 @@ const ContingentBill = () => {
                         <CustomTable title={"Table 4.5: Year wise progress in submission of NDC bills against the AC bills"}
                             columns={ctx.tables4.Table5}
                             data={ctx.tables4.Table5} />
-
+                            
+                            <h4>
+                            Source: Finance Accounts 				*Excluding Bills for the Month of March 2023                
+          </h4>
                         <Para>                            
                             {ctx.chapterFour.Content.para31}  
                         </Para> 

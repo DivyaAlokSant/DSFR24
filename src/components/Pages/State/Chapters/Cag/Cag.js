@@ -39,7 +39,15 @@ const Cag = () => {
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
             )
-          )}                
+          )}    
+            <Subtitle>
+                            {ctx.chapterFive.para91}
+                        </Subtitle>         
+                        {["para92","para93","para94"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
+            )
+          )}      
                     </div>
                 </div>
                 : <div>

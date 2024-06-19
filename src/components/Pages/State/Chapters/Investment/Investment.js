@@ -40,6 +40,10 @@ const Investment = () => {
               <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
             )
           )}
+             <h3 className='headnote'>
+            ₹ In crore
+          </h3>
+
         <CustomTable title={"Table 5.2: Sector-wise investment in SPSEs"}
             columns={ctx.tables5.Table2}
             data={ctx.tables5.Table2} />
@@ -47,11 +51,8 @@ const Investment = () => {
           <h4>
         Source: Information furnished by SPSEs
           </h4>
-          <h3 className='headnote'>
-            ₹ In crore
-          </h3>
-
-        {["para19"].map(
+       
+        {["para19","para19a"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
             )
@@ -96,6 +97,9 @@ const Investment = () => {
               <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
             )
           )} 
+              <h3 className='headnote'>
+            ₹ In crore
+          </h3>
     <CustomTable title={"Table 5.3: Details regarding budgetary support to Power Sector SPSEs by State Government"}
             columns={ctx.tables5.Table3}
             data={ctx.tables5.Table3} />
@@ -103,15 +107,16 @@ const Investment = () => {
           <h4>
         
           </h4>
-          <h3 className='headnote'>
-            ₹ In crore
-          </h3>
+      
 
           {["para29"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
             )
           )}
+            <h3 className='headnote'>
+            ₹ In crore
+          </h3>
         <CustomTable title={"Table 5.4: Activity wise Investment in Power Sector PSUs"}
             columns={ctx.tables5.Table4}
             data={ctx.tables5.Table4} />
@@ -119,9 +124,7 @@ const Investment = () => {
           <h4>
         
           </h4>
-          <h3 className='headnote'>
-            ₹ In crore
-          </h3>
+        
           <Para tooltips={[
        { word: "GSDP[34]", tooltip:"GSDP of Karnataka for FY 2022-23 - ₹21,81,217 crore." },
        { word: "crore[35]", tooltip:"Represent dues towards State Generating Companies, viz. Karnataka Power Corporation Limited (KPCL):  ₹17,295.58 crore and Raichur Power Corporation Limited (RPCL): ₹2,781.74 crore (Amounts are taken as per the books of KPCL/RPCL)." },                    
