@@ -357,7 +357,10 @@ const Resources = () => {
 
                         <Table12/>    
 
-                        <Para>
+                        <Para tooltips={[
+                            { word: "₹34,596.18[9]", tooltip: " Out of the total devolution of ₹34,596.18 crore, the share of Corporation Tax 33.45 per cent, Customs Duty 3.93per cent, Union Excise Duties 1.23 per cent, CGST was 28.28 per cent. " },
+                            
+                        ]}>
                             {ctx.chapterTwo.Para66}
                         </Para>
 
