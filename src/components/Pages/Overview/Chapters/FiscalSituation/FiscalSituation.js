@@ -55,7 +55,7 @@ const FiscalSituation = () => {
                                 <span className="tooltiptext">
                                     Borrowings by PSUs and SPVs are Off-budget borrowings
                                 </span>
-                                <sup>3</sup>
+                                <sup>4</sup>
                             </span>
                             {ctx.chapterOne.Profile.Para58a.substring(185,)}
 

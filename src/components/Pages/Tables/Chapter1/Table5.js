@@ -75,7 +75,7 @@ const Table5 = () => {
         <div className="App" style={{ margin: "40px 0 40px 0" }} >
             <Card>
                 <DataTable
-                    title="Table 1.6: Compliance with provisions of KFRA"
+                    title="Table 1.6: Compliance with targets of KFRA"
                     columns={columns}
                     data={ctx.tables1.Table5}
                     customStyles={customStyles}

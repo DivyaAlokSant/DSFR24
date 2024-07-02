@@ -37,8 +37,8 @@ const columns = [
   
  
   {
-    name: "Targets as prescribed by 15th FC",
-    selector: "Targets as prescribed by 15th FC",
+    name: "Targets as prescribed by XV FC",
+    selector: "Targets as prescribed by XV FC",
     sortable: true,
     
   },

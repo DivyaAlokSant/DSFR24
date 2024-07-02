@@ -682,6 +682,9 @@
 				}
 				
 			  ],
+              "Table4e":[
+
+              ],
             "Table6": [
                 {
                   "Sl No": 1,
@@ -741,18 +744,12 @@
                 },
                 {
                   "Sl No": 9,
-                  "Fiscal Variables": "Revenue Deficit",
+                  "Fiscal Variables": "Revenue Deficit (-) / Surplus (+) (5-6)",
                   "Projection as per MTFP": "(-)28,088",
                   "Actuals": "13,496",
                   "Variation": 148.04
                 },
-                {
-                  "Sl No": "",
-                  "Fiscal Variables": "(-) / Surplus (+) (5-6)",
-                  "Projection as per MTFP": "",
-                  "Actuals": "",
-                  "Variation": ""
-                },
+               
                 {
                   "Sl No": 10,
                   "Fiscal Variables": "Fiscal Deficit (-)/ Surplus (+)",
@@ -761,23 +758,32 @@
                   "Variation": "(-)14.74"
                 },
                 {
-                  "Sl No": 11,
+                    "Sl No": 11,
+                    "Fiscal Variables": "Fiscal Deficit/GSDP",
+                    "Projection as per MTFP": "2.90",
+                    "Actuals": "2.14",
+                    "Variation": "0.76"
+                },
+                {
+                  "Sl No": 12,
                   "Fiscal Variables": "Debt-GSDP ratio (per cent)",
                   "Projection as per MTFP": 27.18,
                   "Actuals": 23.97,
                   "Variation": 3.21
                 },
+               
                 {
-                  "Sl No": 12,
-                  "Fiscal Variables": "GSDP growth rate at current prices (per cent)",
-                  "Projection as per MTFP": 10.8,
-                  "Actuals": 11.13,
-                  "Variation": 0.33
+                    "Sl No": 13,
+                    "Fiscal Variables": "GSDP growth rate at current prices (per cent)",
+                    "Projection as per MTFP": 10.8,
+                    "Actuals": 11.13,
+                    "Variation": 0.33
+
                 }
               ],
             "T2F1a": "* Effective total debt would be ₹403,519 crore as the Department of Expenditure, GoI had decided that GST compensation of ₹12,407 crore given to the state as back-to-back loan under Debt Receipt would not be treated as debt of the state for any norms which may be prescribed by the Finance Commission and therefore, the effective variation would be 6.59 per cent.",
             "T4H2": "(₹ in crore)",
-            "T2F1": "*Source: Finance Accounts, Annual Financial Statement and Overview of Budget 2022-23",
+            "T2F1": "Source: Finance Accounts, Annual Financial Statement and Overview of Budget 2022-23",
             "T7H2": "(₹ in crore)",
             "T3H2": "(₹ in crore)",
             "T5H1": "Compliance with targets of KFRA",
@@ -787,7 +793,7 @@
             "T1F2b":"$ GSVA figures as per Directorate of Economics and Statistics, Karnataka.",
 			"T1F2c":"@ Per Capita GSDP (2018-19 to 2021-22) as per Economic Survey 2022-23, GoK and the per capita GSDP for the year 2022-23 has been worked out based on the projected population of the state of 6.75crore as per Economic survey of Karnataka 2022-23.",
 			"T1F2d":"a. The per capita GDP for the years 2018-19 to 2021-22 have been worked out taking in the population figures from Economic Survey 2022-23, GoI.",
-			"T2F2": "Tax Revenue Includes Major Heads 0005 – Central Goods and Service Tax (₹9,786.19 crore), 0006 – State Goods and Service Tax (₹ 61,403.30 crore including advance apportionment of IGST of ₹2,089.65 crore) and 0008 – Integrated Goods and Service Tax (Nil).",
+			"T2F2": "*Tax Revenue Includes Major Heads 0005 – Central Goods and Service Tax (₹9,786.19 crore), 0006 – State Goods and Service Tax (₹ 61,403.30 crore including advance apportionment of IGST of ₹2,089.65 crore) and 0008 – Integrated Goods and Service Tax (Nil).",
             "T2F22":"^includes compensation of ₹8,976.43 crore and ₹29,288.40 crore during 2021-22 and 2022-23 respectively for loss of revenue arising out of implementation of GST.",
             "T2F3": "# Includes Interest amounting to ₹1,216.04 crore on Off Budget borrowings.",
             "T2F4": "^includes compensation of ₹8,976.43 crore for loss of revenue arising out of implementation of GST",
@@ -16943,13 +16949,13 @@
                   "Achievement": 2.6
                 },
                 {
-                  "1": "-38,166",
-                  "2": "-67,098",
-                  "3": "-66,036",
-                  "4": "-46,623",
+                  "1": "38,166",
+                  "2": "67,098",
+                  "3": "66,036",
+                  "4": "46,623",
                   "Fiscal Parameters": "",
                   "KFRA target": "",
-                  "Achievement": "-38,442"
+                  "Achievement": "38,442"
                 },
                 
                 {
@@ -17268,15 +17274,15 @@
 			  "Table3aa":[ 
 				{
 				  "Fiscal Variables": "",
-				  "Targets as prescribed by 15th FC": "",
+				  "Targets as prescribed by XV FC": "",
 				  "Targets in the Budget": "",
 				  "Actuals*": "",
-				  "Percentage variation of actual over": "Targets of 15th FC",
+				  "Percentage variation of actual over": "Targets of XV FC",
 				  "1": "Targets in Budget"
 				},
 				{
 				  "Fiscal Variables": "Revenue Deficit/GSDP (per cent)",
-				  "Targets as prescribed by 15th FC": "(-)0.8",
+				  "Targets as prescribed by XV FC": "(-)0.8",
 				  "Targets in the Budget": "(-)0.78",
 				  "Actuals*": 0.62,
 				  "Percentage variation of actual over": 1.42,
@@ -17284,7 +17290,7 @@
 				},
 				{
 				  "Fiscal Variables": "Fiscal Deficit/GSDP (per cent)",
-				  "Targets as prescribed by 15th FC": "(-)3.5",
+				  "Targets as prescribed by XV FC": "(-)3.5",
 				  "Targets in the Budget": "(-)3.26",
 				  "Actuals*": "(-)2.14",
 				  "Percentage variation of actual over": 1.36,
@@ -17292,7 +17298,7 @@
 				},
 				{
 				  "Fiscal Variables": "Total Outstanding Liability/GSDP^ (per cent)",
-				  "Targets as prescribed by 15th FC": 33.3,
+				  "Targets as prescribed by XV FC": 33.3,
 				  "Targets in the Budget": 27.3,
 				  "Actuals*": 23.97,
 				  "Percentage variation of actual over": 9.33,
@@ -17470,7 +17476,7 @@
 				  "__7": 14.41
 				}
 			  ],
-            "T3F1": "* Effective Loans and Advances for GoI would be `14,869 crore as the Department of Expenditure, GoI had decided that GST compensation of `12,407 and `18,109 crore given to the state as back-to-back loan during 2020-21 and 2021-22 respectively under Debt Receipt would not be treated as debt of the State for any norms which may be prescribed by the Finance Commission",
+            "T3F1": "*Effective Loans and Advances for GoI would be ₹14,869 crore for 2021-22 and ₹18,623 crore for 2022-23 as the Department of Expenditure, GoI had decided that GST compensation of ₹12,407 and ₹18,109 crore given to the State as back-to-back loan during 2020-21 and 2021-22 respectively under Debt Receipt would not be treated as debt of the State for any norms which may be prescribed by the Finance Commission ",
             "T4F3": "The ratio of total outstanding Debt to GSDP (22.37 per cent) has been arrived at after excluding GST compensation of ₹12,407 crore given to the state as back-to-back loan under Debt Receipts form the total outstanding liabilities as the Department of Expenditure, GoI had decided that it would not be treated as debt of the state for any norms which may be prescribed by the Finance Commission.",
             "T6F2": "*The back-to-back Loan (₹ 12,407 crore) received from GoI in lieu of GST compensation has not been considered as Debt for working out the indicator.",
             "T5F1": "* The back-to-back Loan (₹ 30,516 crore) received from GoI during 2020-21 and 2021-22 in lieu of GST compensation has not been considered as Debt for working out the indicator.",
@@ -17529,7 +17535,7 @@
   {
     "1": "",
     "2": 70.09,
-    "Sl No": 4,
+    "Sl No": 5,
     "Nature of transaction": "Non-transfer of receipts under Road Safety Cess",
     "Revenue Surplus": 70.09,
     "Fiscal Deficit": ""
@@ -17537,15 +17543,15 @@
   {
     "1": "",
     "2": 84.66,
-    "Sl No": 5,
-    "Nature of transaction": "Non payment of Interest in respect of Karnataka Group Insurance Department (KGID)",
+    "Sl No": 6,
+    "Nature of transaction": "Non payment of Interest in respect of Karnataka Employees Group Insurance Fund ",
     "Revenue Surplus": 84.66,
     "Fiscal Deficit": ""
   },
   {
     "1": "",
     "2": 17.94,
-    "Sl No": 6,
+    "Sl No": 7,
     "Nature of transaction": "Non payment of interest in respect of State Disaster Response Fund/ State Disaster Mitigation Fund",
     "Revenue Surplus": 17.94,
     "Fiscal Deficit": ""
@@ -17750,12 +17756,12 @@
             "Para18": "Finance Accounts and Appropriation Accounts of the State constitute the core data for this report.  Other sources include the following:",
             "Para19": "The State’s Budget for assessing the fiscal parameters and allocative priorities vis-à-vis projections, as well as for evaluating the effectiveness of budget’s implementation and compliance with the relevant rules and prescribed procedures;",
             "para2": "Karnataka is the sixth largest State in India in terms of geographical area (1,91,791 Sq. km) and the ninth largest by population. The State’s population was 6.11 crore (2011 census) and recorded a decadal growth of about 16 per cent (2001-11). As per population projections for India and States 2011-2036 by National Commission on Population, Ministry of Health &Family Welfare, the projected population of the State in 2022-23 stands at 6.77 crore.   The percentage of population below the poverty line[1]  was 20.90 compared to the All-India average of 21.90 (2011-12).  Literacy rate of the State was 75.36 per cent (2011 Census).  The State has 31 districts and 227 taluks as of March 2023. General and financial data relating to the State is given in Appendix 1.1.",
-            "Para20": "Results of audit carried out by the Office of the PAG (Audit I) and AG (Audit II);",
+            "Para20": "Results of audit carried out by the Office of the Pr.AG (Audit I) and Pr.AG (Audit II);",
             "Para21": "Other financial data obtained from various Government departments and organisations;",
-            "Para22": "GSDP data and other State related statistics from Directorate of Economics and Statistics, Government of Karnataka (GoK);",
+            "Para22": "GSDP data and other State related statistics from Directorate of Economics and Statistics, GoK;",
             "Para23": "Recommendations of XV Finance Commission (FC);",
             "Para24": "Karnataka Fiscal Responsibility Act (KFRA) 2002; and",
-            "Para25": "Guidelines of the Government of India (GoI).",
+            "Para25": "Guidelines of the  GoI.",
             "Para26": "1.4 Structure of Government Accounts",
             "Para27": "The Accounts of the State Government are kept in three parts:",
             "Para27a": "All receipts and expenditure on Revenue and Capital Account, Public Debt and Loans and Advances form one Consolidated Fund entitled the Consolidated Fund of State established under Article 266(1) of the Constitution of India.",
@@ -17771,7 +17777,7 @@
             "Para34": "Capital expenditure includes expenditure on the acquisition of land, building, machinery, equipment, investment in shares, loans and advances by the Government to the Public Sector Undertakings (PSUs) and other entities.",
             "Para35": "The layout of the Finance Accounts is shown in Appendix 1.2 and the pictorial depiction of the structure of Government Accounts is given in Chart 1.3.",
             "Para36": "1.5 Budgetary Processes",
-            "Para37": "In terms of Article 202 of the Constitution of India, the Governor of State shall cause to be laid before the State Legislature, a statement of the estimated receipts and expenditure of the State for the year 2022-23, in the form of an Annual Financial Statement. In terms of Article 203, the statement is submitted to the State Legislature in the form of Demands for Grants/Appropriations. On approval, the Appropriation Bill is passed by the Legislature under Article 204 to provide for appropriation of the required money out of the Consolidated Fund.  In the State of Karnataka, the budget documents include documents like Gender Budget (detailed in Chapter 3-Paragraph 3.3), Child Budget (detailed in Chapter 3-Paragraph 3.4) and document for district wise and scheme wise allocation to Panchayat Raj Institutions (PRIs) and Urban Local Bodies (ULBs) etc. ",
+            "Para37": "In terms of Article 202 of the Constitution of India, the Governor of State shall cause to be laid before the State Legislature, a statement of the estimated receipts and expenditure of the State for the year 2022-23, in the form of an Annual Financial Statement. In terms of Article 203, the statement is submitted to the State Legislature in the form of Demands for Grants/Appropriations. On approval, the Appropriation Bill is passed by the Legislature under Article 204 to provide for appropriation of the required money out of the Consolidated Fund.  In the State of Karnataka, the budget documents include documents like Gender Budget (detailed in Chapter 3-Paragraph 3.3), Child Budget (detailed in Chapter 3-Paragraph 3.4) and document for district wise and scheme wise allocation to Panchayati Raj Institutions (PRIs) and Urban Local Bodies (ULBs) etc. ",
             "Para38": "The State Budget Manual prescribes the process of budget formulation and guides the State Government in monitoring its expenditure activities.  Results of audit scrutiny of budget and implementation of other budgetary initiatives of the State Government are included in Chapter 3 of this Report.",
             "Para39": "1.6 Snapshot of Finances",
             "para4": "Growth of GSDP and GSVA is an important indicator of the State’s economy.",
@@ -17781,18 +17787,19 @@
             "Para42": "The Capital expenditure also exceeded the Budget provision by around 32 per cent. This was basically due to an increase in the Capital expenditure under Roads and Bridges, Medium Irrigation and Urban Development." ,
             "Para43": "1.7 Snapshot of Assets and Liabilities of the Government",
             "Para44": "Government accounts capture the financial liabilities of the Government and the assets created out of the expenditure incurred. The liabilities consist mainly of internal borrowings, loans and advances from GoI, receipts from public account and reserve funds, and the assets comprise mainly the capital outlay, loans and advances given by the State Government and cash balances. The growth rate components of Assets and Liabilities is given in Table 1.3 and summarised position of Assets and Liabilities as on 31 March 2023 compared with the corresponding position as on 31 March 2022 is given in Appendix 1.3.",
-            "Para45": "The increase in growth rate of assets in Consolidated Fund increased marginally (0.73) under Gross capital outlay and decreased by around five per cent under Loans and Advances when compared to the previous year. The growth rate of Liabilities under internal debt excluding off budget borrowings decreased by around nine per cent due to less borrowings by the State. The Loans and Advances by GoI decreased by 62 per cent when compared to the previous year. The cash balance including investment in Earmarked Funds increased by 32 per cent and as at the end of March 2023 was ₹83,629 crore.",
+            "Para45": "The growth rate of assets in the Consolidated Fund increased (14 per cent) under Gross capital outlay and increased by around eight per cent under Loans and Advances when compared to the previous year. While the growth rate of Liabilities under internal debt excluding of off-budget borrowings increased by around eight per cent. The Loans and Advances by GoI increased by eightper cent when compared to the previous year. The cash balance including investment in Earmarked Funds increased by 32 per cent and as at the end of March 2023 was ₹83,629 crore. ",
             "Para46": "1.8 Fiscal parameters",
             "Para47": "The three key fiscal parameters – revenue, fiscal and primary deficits indicate the extent of overall fiscal imbalances during a specified period.",
             "Para48": "The nature of deficit is an indicator of the extent of prudence in fiscal management. Further, the ways in which the deficit is financed, and the application of resources raised are important pointers to its fiscal health.  This section presents trends, nature and magnitude and the manner of financing these deficits and the assessment of actual levels of revenue and fiscal deficits vis-à-vis targets set under KFRA for the financial year 2022-23.",
             "Para49": "1.8.1 Trends in Deficit/Surplus",
             "para5": "Gross State Domestic Product (GSDP): GSDP is the market value of all officially recognized goods and services produced within the boundaries of the State in a given period of time.",
-            "Para50": "The targets set by 15th Finance Commission and those projected in the state budget vis-à-vis achievements in respect of major fiscal aggregates with reference to GSDP during 2022-23 are given in the Table:1.4 below:",
-            "Para50a": "During 2022-23, the State attained revenue surplus (0.62 per cent) against the Revenue deficit projections of 15th FC and budget. The ratio of fiscal deficit to GSDP and total outstanding Liability to GSDP was less than the target set by both 15th FC as well as budget.",
+            "Para50": "The targets set by XV Finance Commission and those projected in the state budget vis-à-vis achievements in respect of major fiscal aggregates with reference to GSDP during 2022-23 are given in the Table:1.4 below:",
+            "Para50a": "During 2022-23, the State attained revenue surplus (0.62 per cent) against the Revenue deficit projections of XV FC and budget. The ratio of fiscal deficit to GSDP and total outstanding Liability to GSDP was less than the target set by both XV FC as well as budget.",
             "Para50b": "The trend of surplus and deficits of key fiscal parameters over the five-year period from 2018-19 to 2022-23 is depicted in Chart 1.4 and trend in surplus and deficit relative to GSDP is given in Chart 1.5.",
+            "Para51":"During 2022-23, the State observed revenue surplus after a gap of two years and fiscal deficit was least at 2.14 in the last five years. This was on account of the high revenue surplus achieved during 2022-23.",
             "Para52": " 1.8.2 Trends in Fiscal Liabilities and its ratio to GSDP",
             "Para53": "Table 1.5 gives details of the composition of outstanding fiscal liabilities of the State and its ratio to GSDP during the years 2018-19 to 2022-23.",
-            "Para54": "The ratio of total liabilities to GSDP which was on an increasing trend from 2018-19 was at peak in the year 2020-21. However, the ratio was within the target of KFRA in all the five years. During 2022-23, the ratio was within the prescribed target due to less internal borrowings (reduction by 35 per cent) by the State when compared to the previous year.",
+            "Para54": "The ratio of total liabilities to GSDP which was on an increasing trend from 2018-19 was at peak in the year 2020-21. However, the ratio was within the target of KFRA in all the five years. During 2022-23, the ratio was within the prescribed target due to less internal debt (reduction by 35 per cent[3]) by the State when compared to the previous year.",
             "Para54a": "The total fiscal liabilities of the State increased by 94 per cent from ₹2,85,238 crore in 2018-19 to ₹5,53,363 crore in 2022-23 and by 13 per cent over the previous year. Internal debt which includes market borrowings constituted 56.36 per cent and Public Account constituted 24 per cent of the total fiscal liabilities during 2022-23. The ratio of total liabilities to GSDP increased from 19.28 per cent during 2018-19 to 23.97 per cent during 2022-23. During 2022-23, the ratio exceeded the previous year though within the limit set under the KFRA/Medium Term Fiscal Plan (MTFP) of 2022-23.",
             "Para55": "1.9 Fiscal situation of the State",
             "Para56": "The KFRA, 2002 as amended from time to time was enacted with the objective of achieving inter-generational equity in fiscal management and long-term macro-economic stability.",
@@ -32452,7 +32459,7 @@
             "para26":"Since non-submission of UCs is fraught with the risk of misutilisation, the State Government should continue its effort to monitor this aspect closely and hold the concerned persons accountable for submission of UCs in timely manner. ",
             "para27":"The State Government in its reply (November 2023) stated that instructions were issued (July 2023) to all the administrative Departments to submit UCs for the grant received.",
             "para28":"4.6 Abstract Contingent Bills",
-            "para29":"Under Rule 37(b)(3) of the Manual of Contingent Expenditure (MCE), 1958, the Controlling and Disbursing Officers are authorized to draw sums of money by preparing Abstract Contingent (AC) bills by debiting service heads and are required to present Non-payment Detailed Contingent (NDC) bills (vouchers in support of final expenditure) to the AG(A&E) through the treasuries before the 15th of the month following the month to which the bill relates. Controlling officers should also ensure that no amounts are drawn from the treasury through AC bills unless required for immediate disbursement. ",
+            "para29":"Under Rule 37(b)(3) of the Manual of Contingent Expenditure (MCE), 1958, the Controlling and Disbursing Officers are authorized to draw sums of money by preparing Abstract Contingent (AC) bills by debiting service heads and are required to present Non-payment Detailed Contingent (NDC) bills (vouchers in support of final expenditure) to the AG(A&E) through the treasuries before the XV of the month following the month to which the bill relates. Controlling officers should also ensure that no amounts are drawn from the treasury through AC bills unless required for immediate disbursement. ",
             "para30":"Detailed bills aggregating to ₹72.76 crore, drawn on 1,462 AC bills, were pending at the end of March 2023 as detailed in Table 4.5.",
             "para31":"The age wise pendency of AC bills is detailed in Table 4.6 below.",
             "para32":"During 2022-23, 2,217 AC bills amounting to ₹158.65 crore were drawn and out of these 357 AC bills amounting to ₹23.59 crore (15%) were drawn in March 2023.  ",

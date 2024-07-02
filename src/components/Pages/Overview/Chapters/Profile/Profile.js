@@ -98,11 +98,12 @@ const Profile = () => {
                         </h4>
 
                         <Para tooltips={[
-                            { word: "Statistics[2]", tooltip: "The GSDP as per the Economic Survey of Karnataka is Rs.22,41,368 crore, which differs from the GSDP(Rs.21,81,217 crore) projected by Ministry of Finance,GOI" },
+                            { word: "Statistics[2]", tooltip: "The GSDP as per the Economic Survey of Karnataka is Rs.22,41,368 crore, which differs from the GSDP(Rs.21,81,217 crore) projected by Ministry of Finance,GoI" },
 
                         ]}>
                             {ctx.chapterOne.Profile.para8a}
                         </Para>
+                       
                         <ImageComponent  aspectRatio={1/.6} src={c11} color="#ffffff00" />
                         {["Para9"].map((item, ind) =>
                             <Para key={ind / 10}>

@@ -64,7 +64,7 @@ const Table6 = () => {
         <div className="App" style={{ margin: "40px 0 40px 0" }} >
             <Card>
                 <DataTable
-                    title="Table 1.7: Actuals vis-à-vis projection in MTFP for 2021-22"
+                    title="Table 1.7: Actuals vis-à-vis projection in MTFP for 2022-23"
                     columns={columns}
                     data={ctx.tables1.Table6}
                     customStyles={customStyles}

@@ -32,16 +32,24 @@ const FinanceSnapshot = () => {
                         <h3 className='headnote'>
                             ₹ in crore
                         </h3>
-                        <Table2 />
+                        
+                        {/* <Table2 /> */}
+                        {/* <CustomTable title={"Table 1.2: Actual financial results vis-à-vis Budget Provisions"}
+
+
+                                columns={ctx.tables1.Table4e}
+                                data={ctx.tables1.Table4e} />
+                                <h4 className='footnote'>
+                            <i></i></h4> */}
                         <h4 className='footnote'>
                             <i>
                                 {ctx.tables1.T2F1}
                                 <br></br>
                                 {ctx.tables1.T2F2}
                                 <br></br>      
-                                {ctx.tables1.T2F22}
-                                <br></br>                            
                                 {ctx.tables1.T2F3}
+                                <br></br>                            
+                                {ctx.tables1.T2F22}
                                 <br></br>
                                 {ctx.tables1.T2F4}
                                 <br></br>
