@@ -20,7 +20,7 @@ const Budget = () => {
                     <div className="contentwrapper" id="home">
                         <FloatingActionButtons back="/finances/conclusion" forward="/budget/introduction" />
                         <Title>{ctx.execsummary.para3}</Title>
-                        {['para4'].map((item, ind) =>
+                        {/* {['para4'].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.execsummary[item]}
                             </Para>
@@ -30,7 +30,7 @@ const Budget = () => {
                             <Para key={ind / 10}>
                                 {ctx.execsummary[item]}
                             </Para>
-                        )}
+                        )} */}
                         
 
                     </div>

@@ -68,6 +68,10 @@ const Audit = () => {
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
+           <h3 className='headnote'>
+            ₹ In crore
+          </h3>
+
 
           <Table7 />
           <h4>
@@ -75,10 +79,7 @@ const Audit = () => {
               Source: Appropriation Accounts
             </i>
           </h4>
-          <h3 className='headnote'>
-            ₹ In crore
-          </h3>
-
+         
 
 
           {["para48b", "para49", "para50"].map(
@@ -109,9 +110,9 @@ const Audit = () => {
           <h4>
 
           </h4>
-          <h3 className='headnote'>
+          {/* <h3 className='headnote'>
             ₹ In crore
-          </h3>
+          </h3> */}
 
 
           {["para54"].map(
@@ -119,25 +120,25 @@ const Audit = () => {
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
-          <CustomTable title={"Grant head and nature of expenditure in crore"}
+          <CustomTable 
             columns={ctx.tables3.Table9}
             data={ctx.tables3.Table9} />
 
           <h4>
 
           </h4>
-          <h3 className='headnote'>
+          {/* <h3 className='headnote'>
             ₹ In crore
-          </h3>
+          </h3> */}
 
           {["para55"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
-          <h3 className='headnote'>
+          {/* <h3 className='headnote'>
             ₹ In crore
-          </h3>
+          </h3> */}
           <CustomTable title={"Head of Account and Amount in crore"}
             columns={ctx.tables3.Table10}
             data={ctx.tables3.Table10} />
@@ -242,7 +243,7 @@ const Audit = () => {
             )
           )}
           <h3 className='headnote'>
-            ₹ In crore
+          (Amount in ₹)
           </h3>
           <CustomTable title={"Table 3.8:Excess expenditure over the provision during 2022-23 requiring regularization"}
             columns={ctx.tables3.Table11}
@@ -259,9 +260,9 @@ const Audit = () => {
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
-          <h3 className='headnote'>
+          {/* <h3 className='headnote'>
             ₹ In crore
-          </h3>
+          </h3> */}
           <CustomTable title={""}
             columns={ctx.tables3.Table12}
             data={ctx.tables3.Table12} />
@@ -354,9 +355,9 @@ const Audit = () => {
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
-          <h3 className='headnote'>
+          {/* <h3 className='headnote'>
             ₹ In crore
-          </h3>
+          </h3> */}
           <CustomTable 
             columns={ctx.tables3.Table15}
             data={ctx.tables3.Table15} />
@@ -398,7 +399,10 @@ const Audit = () => {
             data={ctx.tables3.Table16} />
           <h4>
             Source:Monthly Civil Accounts
-            *The expenditure is Rs.(-)3,301 and hence indicated as Zero
+            
+          </h4>
+          <h4>
+          *The expenditure is Rs.(-)3,301 and hence indicated as Zero
           </h4>
 
 

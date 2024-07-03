@@ -23,11 +23,17 @@ const Appropacc = () => {
         <div className="contentwrapper" id="home">
           <FloatingActionButtons back="/budget/child-budget" forward="/budget/audit" />
           <Title>{ctx.chapterThree.Profile.para24}</Title>
-          {["para25"].map(
+          <Para tooltips={[
+                            { word: "Accounts[21]", tooltip: "  Finance Accounts provides broad perspective of finances of GoK during the financial year which is dealt in the Chapter 1 and 2 of this Report." },
+
+                        ]}>
+                            {ctx.chapterThree.Profile.para25}
+                        </ Para>
+          {/* {["para25"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
-          )}
+          )} */}
            <Title>{ctx.chapterThree.Profile.para26}</Title>
            {["para27"].map(
             (item, ind) => (
@@ -101,6 +107,9 @@ const Appropacc = () => {
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
+            <h3 className='headnote'>
+            ₹ In crore
+          </h3>
             <CustomTable title={"Table 3.6: Deviation of outturn in compared with RE"}
             columns={ctx.tables3.Table14d}
             data={ctx.tables3.Table14d} />

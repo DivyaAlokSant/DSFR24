@@ -18917,11 +18917,11 @@
         "Para42": "The XV FC has noted that there needs to be a focus on user charges and these revenues should keep pace with the growth of GSDP of the State. The expenditure reforms commission of the State in its fourth report (June 2021) has stated that the Government should articulate a clear policy on user charges. In this regard, the Finance Department in its reply to PAC in the SFAR for the year ending March 2020 stated the following:",
         "Para43": "With the approval of Legislature, the user charges received by Forest, Hospital, Horticulture departments, etc. were allowed to retain with the departments and use it for their immediate use.",
         "Para44": "Conducted meetings with Education, Health, Tourism and Kannada & Culture departments to revise the user charges. ",
-        "Para45": "Contrary to the Finance department’s reply we noticed that the State had allowed the Education department to retain its revenue which is discussed in the Box 2.1.",
+        "Para45": "Contrary to the Finance department’s reply auditnoticed that the State had allowed the Education department to retain its revenue which is discussed in the Box 2.1.",
         "Para46": "Box-2.1",
         "Para47": "Non-remittance of Revenue Receipts (Non-Tax revenue) to the Consolidated Fund of the State (CFS)",
         "Para48": "The Karnataka Educational Institutions (Collegiate education) Rules, 2003 vide rule 18(1) authorizes the managing committee of Government aided colleges to collect tuition and laboratory fees from the students at rates not exceeding twice the standard rates fixed by the Government. Further, as per rule 18(4), the managing committee shall credit all fees collected under 18(1) to the joint account. Subsequently, the Government amended (2014) rule 18(4) and directed the managing committee to credit one rate of tuition fees collected to the joint account and another to the college account. This was contrary to the article 266(1) of the Constitution of India which stipulates that all revenues received by the State Government are to form part of CFS.",
-        "Para49": "From the information furnished by 751 colleges with six regional offices under the administrative control of Higher Education, we noticed that during the period 2004 to 2023 tuition fees amounting to ₹211.74 crore was remitted to the joint account which was outside the CFS. In addition, it was noticed that many of the colleges had not remitted its one part of the tuition fees collected during the said period to the joint account which worked out to ₹152.09 crore. However, no action was taken by the department to ensure proper remittance of the fees. The details of tuition fee remitted and short remittance by the colleges are detailed in Table 2.9. ",
+        "Para49": "From the information furnished by 751 colleges with six regional offices under the administrative control of Higher Education, auditnoticed that during the period 2004 to 2023 tuition fees amounting to ₹211.74 crore was remitted to the joint account which was outside the CFS. In addition, it was noticed that many of the colleges had not remitted its one part of the tuition fees collected during the said period to the joint account which worked out to ₹152.09 crore. However, no action was taken by the department to ensure proper remittance of the fees. The details of tuition fee remitted and short remittance by the colleges are detailed in Table 2.9. ",
         "Para50": "Thus, framing of rules which was inconsistent with article 266(1) of Constitution of India and poor monitoring by the department resulted in understatement of Non-Tax revenue to the extent of ₹363.83 crore.",
         "Para51": "In addition, as discussed in paragraph 4.2, in spite of Finance Department issuing directions to all departments to remit interest earned on the Government funds to CFS, interest amounting to ₹198.99 crore earned during 2020-21 to 2022-23 by 13 Institutions/Government companies/Corporations was not remitted to Government account.",
         "Para52": "The component wise details of non-Tax revenue collected during 2018-19 to 2022-23 are indicated in Table 2.10.",
@@ -19042,7 +19042,7 @@
         "Para166": "As seen from the above chart, the actual expenditure was more than the estimated Capital Expenditure during 2020-21 to 2022-23. During 2018-19 and 2019-20, the actual Capital Expenditure was less than the estimate by five per cent and seven per cent respectively. The increase in the Capital expenditure was on account of releases of ₹1,940.35 crore towards Special Assistance to Capital investments extended by the GoI.",
         "Para167": "a) Major Changes in Capital Expenditure",
         "Para168": "Table 2.26 highlights the cases of significant increase or decrease in various Heads of Account in Capital Outlay during 2022-23 vis-à-vis the previous year.",
-        "Para169": "The above table reveals that increase in Capital Expenditure was mainly under Roads and Bridges followed by Road Transport, Medium irrigation, Urban Development etc. Though the State had acknowledged (MTFP 2023-27) that it has primary role in making capital investment particularly in education, healthcare, Skill development, infrastructure and R&D, we can see from the table that capital expenditure under Education and Health had reduced when compared to previous year.",
+        "Para169": "The above table reveals that increase in Capital Expenditure was mainly under Roads and Bridges followed by Road Transport, Medium irrigation, Urban Development etc. Though the State had acknowledged (MTFP 2023-27) that it has primary role in making capital investment particularly in education, healthcare, Skill development, infrastructure and R&D, auditcan see from the table that capital expenditure under Education and Health had reduced when compared to previous year.",
         "Para170": "The Expenditure Reforms Commission (ERC) of the State Government, in its first report (February 2010) had recommended that capital investments be stepped up and protected from fiscal uncertainties through prudent allocations.  It had also recommended maintaining the Capital Expenditure (excluding debt servicing) at five per cent of GSDP.  However, the ratio of Capital Expenditure to GSDP was only two to three per cent during 2018-2023.",
         "Para171": "2.5.4 Quality of Capital Expenditure",
         "Para172": "In the post KFRA framework, the Government is expected to keep its fiscal deficit (borrowing) at low levels and still meet its Capital Expenditure/investment (including Loans and Advances) requirements.  In addition, the State Government needs to initiate measures to earn adequate return on its investments rather than bearing the same in the form of subsidy at the cost of borrowed funds and take requisite steps to infuse transparency in financial operations.  This section presents the broad financial analysis of investments and other Capital Expenditure undertaken by the Government during 2022-23 vis-à-vis previous years.",
@@ -23447,6 +23447,7 @@
             "T5H2": "(₹ in crore)",
             "Table21": [
                 {
+                    
                   "abc": "Investments as at the end of the year (₹ in crore)",
                   "2018 19": "66,518.28",
                   "2019 20": "67,816.71",
@@ -28471,44 +28472,68 @@
             "Table8": [
                 {
                   "Grant No.": "01 – Agriculture and Horticulture",
-                  "Head of Account": "4851-00-107-1-01-139 Major Works",
+                  "Head of Account": "4851-00-107-1-01-139",
                   "Nature of expenditure": "Electrical repair works in the premises of Silk farm Grainage Building Unit - 1",
-                  "Amount": 0.94
+                  "Amount (₹ in crore)": 0.94
                 },
                 {
-                  "Grant No.": "01 – Agriculture and Horticulture",
-                  "Head of Account": "4851-00-107-1-01-422 Scheduled Caste Sub Plan",
+                  "Grant No.": "",
+                  "Head of Account": "Major Works",
+                  "Nature of expenditure": "",
+                  "Amount (₹ in crore)": ""
+                },
+                {
+                  "Grant No.": "",
+                  "Head of Account": "4851-00-107-1-01-422",
                   "Nature of expenditure": "Repair work of silk farm market building of Kollegala Taluk in Chamarajanagar District. (Power UG cable installation work)",
-                  "Amount": 0.04
+                  "Amount (₹ in crore)": 0.04
                 },
                 {
-                  "Grant No.": "01 – Agriculture and Horticulture",
-                  "Head of Account": "4851-00-107-1-01-423 Tribal Sub Plan",
+                  "Grant No.": "",
+                  "Head of Account": "Scheduled Caste Sub Plan",
+                  "Nature of expenditure": "",
+                  "Amount (₹ in crore)": ""
+                },
+                {
+                  "Grant No.": "",
+                  "Head of Account": "4851-00-107-1-01-423",
                   "Nature of expenditure": "Repair work of silk farm Market building of Malavalli Taluk in Mandya district. (Grill door installation work)",
-                  "Amount": 0.02
+                  "Amount (₹ in crore)": 0.02
+                },
+                {
+                  "Grant No.": "",
+                  "Head of Account": "Tribal Sub Plan",
+                  "Nature of expenditure": "",
+                  "Amount (₹ in crore)": ""
                 },
                 {
                   "Grant No.": "18 – Commerce and Industries",
-                  "Head of Account": "4851-00-102-0-12-386 Construction",
+                  "Head of Account": "4851-00-102-0-12-386",
                   "Nature of expenditure": "The expenditure was towards minor repairs of buildings and toilets.",
-                  "Amount": 0.1
+                  "Amount (₹ in crore)": 0.1
+                },
+                {
+                  "Grant No.": "",
+                  "Head of Account": "Construction",
+                  "Nature of expenditure": "",
+                  "Amount (₹ in crore)": ""
                 }
               ],
             "Table7b": [
                 {
                     "Head of Account": "2055-00-116-0-01-180  Machinery and Equipment",
                     "Nature of expenditure": "Purchase of Equipment for Ballari and Hubballi Regional Forensic Science Laboratory (RFSL)",
-                    "Amount": "7.5"
+                    "Amount(₹ in crore)": "7.5"
                 },
                 {
                     "Head of Account": "2055-00-116-0-03-051  General Expenses",
                     "Nature of expenditure": "Setting up of Cyber Forensic Lab cum Training Centre towards implementation of CCPWC and other facilities under Nirbhaya Fund",
-                    "Amount": "35.07"
+                    "Amount(₹ in crore)": "35.07"
                 },
                 {
                     "Head of Account": "2204-00-104-0-32-059  Other expenses",
                     "Nature of expenditure": "Construction of Gym and purchase of Gym Equipment",
-                    "Amount": "5"
+                    "Amount(₹ in crore)": "5"
                 }
             ],
             "Table7c": [
@@ -28922,7 +28947,7 @@
                   "Budget Provision": "8,929.99",
                   "Expenditure": "8,060.26",
                   "Unutilized Provision": 869.73,
-                  "Unutilized Provision (%)": 9.7
+                  "Unutilized Provision (Percentage)": 9.7
                 },
                 {
                   "Year": "2020-21",
@@ -28930,7 +28955,7 @@
                   "Budget Provision": 71.67,
                   "Expenditure": 39.61,
                   "Unutilized Provision": 32.06,
-                  "Unutilized Provision (%)": 44.7
+                  "Unutilized Provision (Percentage)": 44.7
                 },
                 {
                   "Year": "2021-22",
@@ -28938,7 +28963,7 @@
                   "Budget Provision": "8,317.34",
                   "Expenditure": "7,874.08",
                   "Unutilized Provision": 443.26,
-                  "Unutilized Provision (%)": 5.3
+                  "Unutilized Provision (Percentage)": 5.3
                 },
                 {
                   "Year": "2021-22",
@@ -28946,7 +28971,7 @@
                   "Budget Provision": 128.39,
                   "Expenditure": 112.06,
                   "Unutilized Provision": 16.32,
-                  "Unutilized Provision (%)": 12.7
+                  "Unutilized Provision (Percentage)": 12.7
                 },
                 {
                   "Year": "2022-23",
@@ -28954,7 +28979,7 @@
                   "Budget Provision": "9,260.49",
                   "Expenditure": "8,725.04",
                   "Unutilized Provision": 535.45,
-                  "Unutilized Provision (%)": 5.78
+                  "Unutilized Provision (Percentage)": 5.78
                 },
                 {
                   "Year": "2022-23",
@@ -28962,7 +28987,7 @@
                   "Budget Provision": 386.31,
                   "Expenditure": 325.66,
                   "Unutilized Provision": 60.65,
-                  "Unutilized Provision (%)": 15.69
+                  "Unutilized Provision (Percentage)": 15.69
                 }
               ],
             "Table18":[
@@ -29045,72 +29070,73 @@
                 {
                   "Year": "Department of Agriculture",
                   "Details of surrender proposals sent by Commissioner of Agriculture": "Department of Agriculture",
-                  "Amount (Rs. in lakh)": "Department of Agriculture",
+                  "Amount (₹ in lakh)": "Department of Agriculture",
                   "Details of Issue of GO by FD": "Department of Agriculture"
                 },
                 {
                   "Year": "2020-21",
                   "Details of surrender proposals sent by Commissioner of Agriculture": "No. ACABGT: Surrender 2020-21 dated: 16/04/2021",
-                  "Amount (Rs. in lakh)": "3,308.67",
+                  "Amount (₹ in lakh)": "3,308.67",
                   "Details of Issue of GO by FD": "Not available in the records"
                 },
                 {
                   "Year": "2021-22",
                   "Details of surrender proposals sent by Commissioner of Agriculture": "No. ACT/BGT/ Grant Surrender 2021-22 dated: 31/03/2022",
-                  "Amount (Rs. in lakh)": "1,472.79",
+                  "Amount (₹ in lakh)": "1,472.79",
                   "Details of Issue of GO by FD": "No. RE 59 Exp-4/ 2022, Bengaluru, dated: 31.03.2022"
                 },
                 {
                   "Year": "2022-23",
                   "Details of surrender proposals sent by Commissioner of Agriculture": "No. ACT/BGT/ Grant Surrender 2022-23 dated: 31/03/2023",
-                  "Amount (Rs. in lakh)": "43,824.85",
+                  "Amount (₹ in lakh)": "43,824.85",
                   "Details of Issue of GO by FD": "No. RE 45 Exp-4/ 2023, Bengaluru, dated: 31.03.2023"
                 },
                 {
                   "Year": "Department of Horticulture",
                   "Details of surrender proposals sent by Commissioner of Agriculture": "Department of Horticulture",
-                  "Amount (Rs. in lakh)": "Department of Horticulture",
+                  "Amount (₹ in lakh)": "Department of Horticulture",
                   "Details of Issue of GO by FD": "Department of Horticulture"
                 },
                 {
                   "Year": "2020-21",
                   "Details of surrender proposals sent by Commissioner of Agriculture": "No. DH-PLN0PLNT/28/2021-PLAN/AHO-1/488877 dated: 24/06.2021 and No. DH: ACC:42:2021/103 dated: 30/06/2021",
-                  "Amount (Rs. in lakh)": "2,086.27",
+                  "Amount (₹ in lakh)": "2,086.27",
                   "Details of Issue of GO by FD": "No. RE 85 Exp-4/ 2021, Bengaluru, dated: 31.03.2021"
                 },
                 {
                   "Year": "2021-22",
                   "Details of surrender proposals sent by Commissioner of Agriculture": "No. DH-PLN0PLNT/28/2021-PLAN/AHO-1/488877 dated: 01/06.2022, and No. DH: ACC:26:2022 dated: 08/04/2022",
-                  "Amount (Rs. in lakh)": "7,117.77",
+                  "Amount (₹ in lakh)": "7,117.77",
                   "Details of Issue of GO by FD": "No. RE 72 Exp-4/ 2022, Bengaluru, dated: 31.03.2022"
                 },
                 {
                   "Year": "2022-23",
                   "Details of surrender proposals sent by Commissioner of Agriculture": "No. DH-PLN0PLNT/12/2022-PLAN/AHO-1/74266 dated: 09/05/2022",
-                  "Amount (Rs. in lakh)": "5,404.29",
+                  "Amount (₹ in lakh)": "5,404.29",
                   "Details of Issue of GO by FD": "No. RE 50 Exp-4/ 2023, Bengaluru, dated: 31.03.2023"
                 },
                 {
                   "Year": "Department of Sericulture",
                   "Details of surrender proposals sent by Commissioner of Agriculture": "Department of Sericulture",
-                  "Amount (Rs. in lakh)": "Department of Sericulture",
+                  "Amount (₹ in lakh)": "Department of Sericulture",
                   "Details of Issue of GO by FD": "Department of Sericulture"
                 },
                 {
                   "Year": "2021-22",
                   "Details of surrender proposals sent by Commissioner of Agriculture": "No. DOS: AGEN0CW4(ASUR) /1/ 2022 dated: 28.04.2022",
-                  "Amount (Rs. in lakh)": "1,067.58",
+                  "Amount (₹ in lakh)": "1,067.58",
                   "Details of Issue of GO by FD": "No. RE 69 Exp-4/ 2022, Bengaluru, dated: 31.03.2022"
                 },
                 {
                   "Year": "2022-23",
                   "Details of surrender proposals sent by Commissioner of Agriculture": "No. DOS/ACTG/15/2023 dated: 28/04/2023",
-                  "Amount (Rs. in lakh)": 904.58,
+                  "Amount (₹ in lakh)": 904.58,
                   "Details of Issue of GO by FD": "No. RE 46 Exp-4/ 2023, Bengaluru, dated: 31.03.2023"
                 }
               ],
               "Table21":[
                 {
+                    "SI. No":"",
                   "Head of Account": "Head of Account",
                   "Total expenditure": "Amount in rupees",
                   "Expenditure in last quarter": "amt",
@@ -29119,6 +29145,7 @@
                   "expn march": "As percentage of total expenditure"
                 },
                 {
+                    "SI. No":"1",
                   "Head of Account": "2401-00-001-1-14-059 Other Expenses",
                   "Total expenditure": "2,42,60,048",
                   "Expenditure in last quarter": "2,42,60,048",
@@ -29127,6 +29154,7 @@
                   "expn march": 100
                 },
                 {
+                    "SI. No":"2",
                   "Head of Account": "2401-00-114-0-01-059 Other Expenses",
                   "Total expenditure": "15,00,000",
                   "Expenditure in last quarter": "15,00,000",
@@ -29135,6 +29163,7 @@
                   "expn march": 100
                 },
                 {
+                    "SI. No":"3",
                   "Head of Account": "2401-00-800-1-05-100- Financial Assistance/Relief",
                   "Total expenditure": "8,30,05,78,000",
                   "Expenditure in last quarter": "8,30,05,78,000",
@@ -29143,6 +29172,7 @@
                   "expn march": 100
                 },
                 {
+                    "SI. No":"4",
                   "Head of Account": "2401-00-800-1-05-422 SCSP",
                   "Total expenditure": "80,65,00,000",
                   "Expenditure in last quarter": "80,65,00,000",
@@ -29151,6 +29181,7 @@
                   "expn march": 100
                 },
                 {
+                    "SI. No":"5",
                   "Head of Account": "2401-00-800-1-05-423 TSP",
                   "Total expenditure": "49,07,54,000",
                   "Expenditure in last quarter": "49,07,54,000",
@@ -29159,6 +29190,7 @@
                   "expn march": 100
                 },
                 {
+                    "SI. No":"6",
                   "Head of Account": "2402-00-101-0-03-422 SCSP",
                   "Total expenditure": "₹ 17,08,000",
                   "Expenditure in last quarter": "17,08,000",
@@ -29167,6 +29199,7 @@
                   "expn march": 100
                 },
                 {
+                    "SI. No":"7",
                   "Head of Account": "2402-00-101-0-04-422- SCSP",
                   "Total expenditure": "11,39,000",
                   "Expenditure in last quarter": "11,39,000",
@@ -29175,6 +29208,7 @@
                   "expn march": 100
                 },
                 {
+                    "SI. No":"8",
                   "Head of Account": "2402-00-101-0-03-059 Other Expenses",
                   "Total expenditure": "87,37,000",
                   "Expenditure in last quarter": "87,35,256",
@@ -29183,6 +29217,7 @@
                   "expn march": 99.98
                 },
                 {
+                    "SI. No":"9",
                   "Head of Account": "2402-00-101-0-04-059 Other Expenses",
                   "Total expenditure": "58,25,000",
                   "Expenditure in last quarter": "58,23,837",
@@ -29191,6 +29226,7 @@
                   "expn march": 99.98
                 },
                 {
+                    "SI. No":"10",
                   "Head of Account": "2401-00-108-2-58-059 Other Expenses",
                   "Total expenditure": "6,00,00,000",
                   "Expenditure in last quarter": "5,92,00,000",
@@ -29199,6 +29235,7 @@
                   "expn march": 98.67
                 },
                 {
+                    "SI. No":"11",
                   "Head of Account": "2401-00-108-2-30-059 Other Expenses",
                   "Total expenditure": "6,76,00,000",
                   "Expenditure in last quarter": "6,64,00,000",
@@ -29207,6 +29244,7 @@
                   "expn march": 98.22
                 },
                 {
+                    "SI. No":"12",
                   "Head of Account": "2401-00-001-1-01-103 Grants-in-aid",
                   "Total expenditure": "18,46,27,000",
                   "Expenditure in last quarter": "18,07,51,000",
@@ -29215,6 +29253,7 @@
                   "expn march": 95.8
                 },
                 {
+                    "SI. No":"13",
                   "Head of Account": "2401-00-119-4-06-059 Other Expenses",
                   "Total expenditure": "2,04,78,000",
                   "Expenditure in last quarter": "2,00,00,000",
@@ -29365,14 +29404,17 @@
               "Table25":[
                 
                     {
+                        "SI.No":"1",
                       "Central Plan Scheme": "National Food Security Mission",
                       "Designated Bank for SNA account": "HDFC Bank"
                     },
                     {
+                        "SI.No":"2",
                       "Central Plan Scheme": "Grants for implementing Coconut Development Board Schemes/ Programme",
                       "Designated Bank for SNA account": "Axis Bank"
                     },
                     {
+                        "SI.No":"3",
                       "Central Plan Scheme": "Pramparagath Krishi Vikas Yojana",
                       "Designated Bank for SNA account": "ICICI Bank"
                     }
@@ -29586,36 +29628,42 @@
             "Table29":[
                 
                     {
+                        "SI.No":"1",
                       "Head of Account": "2210-03-104-0-02-Community Mental Health Programme in all districts",
                       "Savings 2020-21": 154.84,
                       "Savings 2021-22": 159.85,
                       "Savings 2022-23": 118.52
                     },
                     {
+                        "SI.No":"2",
                       "Head of Account": "2210-05-101-3-Departmental Drugs Manufacture",
                       "Savings 2020-21": 39.43,
                       "Savings 2021-22": 65.4,
                       "Savings 2022-23": 53.38
                     },
                     {
+                        "SI.No":"3",
                       "Head of Account": "2210-06-003-0-23-Health-Information, Education and Communication",
                       "Savings 2020-21": 113.35,
                       "Savings 2021-22": 156.98,
                       "Savings 2022-23": 3.67
                     },
                     {
+                        "SI.No":"4",
                       "Head of Account": "2210-06-104-0-01-Drugs Controller",
                       "Savings 2020-21": 307.36,
                       "Savings 2021-22": 269.49,
                       "Savings 2022-23": 189.53
                     },
                     {
+                        "SI.No":"5",
                       "Head of Account": "2210-80-800-0-18-Arogya Kavacha",
                       "Savings 2020-21": "14,368.66",
                       "Savings 2021-22": "12,795.01",
                       "Savings 2022-23": "16,616.78"
                     },
                     {
+                        "SI.No":"6",
                       "Head of Account": "4210-03-105-2-03-Buildings -Drugs Controller",
                       "Savings 2020-21": 755,
                       "Savings 2021-22": 146,
@@ -29624,41 +29672,52 @@
                   
             ],
             "Table30":[
-                
-                    {
-                      "HOA/Nomenclature": "CSS-Central Share-PM Ayushman Bharat Health Infrastructure Mission 2210-01-200-0-05",
-                      "Total Expenditure": "3,384.00",
-                      "Expenditure during last quarter(Amount)": "3,384.00",
-                      "Expenditure during last quarter(Percentage)": 100,
-                      "Expenditure during March(Amount)": "3,384.00",
-                      "Expenditure during March(Percentage)": 100
-                    },
-                    {
-                      "HOA/Nomenclature": "CSS-State Share-PM Ayushman Bharat Health Infrastructure Mission 2210-01-200-0-06",
-                      "Total Expenditure": "2,256.00",
-                      "Expenditure during last quarter(Amount)": "2,256.00",
-                      "Expenditure during last quarter(Percentage)": 100,
-                      "Expenditure during March(Amount)": "2,256.00",
-                      "Expenditure during March(Percentage)": 100
-                    },
-                    {
-                      "HOA/Nomenclature": "Purchase of Ambulance(Arogya Kavacha - 108) 4210-04-200-2-01",
-                      "Total Expenditure": "9,399.00",
-                      "Expenditure during last quarter(Amount)": "9,399.00",
-                      "Expenditure during last quarter(Percentage)": 100,
-                      "Expenditure during March(Amount)": "9,399.00",
-                      "Expenditure during March(Percentage)": 100
-                    },
-                    {
-                      "HOA/Nomenclature": "Unspent SCSP-TSP Amount as per the SCSP-TSP Act 2013, 4210-80-800-0-01",
-                      "Total Expenditure": "1,852.86",
-                      "Expenditure during last quarter(Amount)": "1,852.86",
-                      "Expenditure during last quarter(Percentage)": 100,
-                      "Expenditure during March(Amount)": "1,852.86",
-                      "Expenditure during March(Percentage)": 100
-                    }
-                  
-            ],
+                {
+                  "Sl. No.": "",
+                  "HOA/Nomenclature": "",
+                  "Total Expenditure": "",
+                  "Expenditure during last quarter": "Amount",
+                  "Expenditure during last quarter.": "Percentage",
+                  "Expenditure during March": "Amount",
+                  "Expenditure during March.": "Percentage"
+                },
+                {
+                  "Sl. No.": 1,
+                  "HOA/Nomenclature": "CSS-Central Share-PM Ayushman Bharat Health Infrastructure Mission 2210-01-200-0-05",
+                  "Total Expenditure": "3,384.00",
+                  "Expenditure during last quarter": "3,384.00",
+                  "Expenditure during last quarter.": 100,
+                  "Expenditure during March": "3,384.00",
+                  "Expenditure during March.": 100
+                },
+                {
+                  "Sl. No.": 2,
+                  "HOA/Nomenclature": "CSS-State Share-PM Ayushman Bharat Health Infrastructure Mission 2210-01-200-0-06",
+                  "Total Expenditure": "2,256.00",
+                  "Expenditure during last quarter": "2,256.00",
+                  "Expenditure during last quarter.": 100,
+                  "Expenditure during March": "2,256.00",
+                  "Expenditure during March.": 100
+                },
+                {
+                  "Sl. No.": 3,
+                  "HOA/Nomenclature": "Purchase of Ambulance (Arogya Kavacha - 108) 4210-04-200-2-01",
+                  "Total Expenditure": "9,399.00",
+                  "Expenditure during last quarter": "9,399.00",
+                  "Expenditure during last quarter.": 100,
+                  "Expenditure during March": "9,399.00",
+                  "Expenditure during March.": 100
+                },
+                {
+                  "Sl. No.": 4,
+                  "HOA/Nomenclature": "Unspent SCSP-TSP Amount as per the SCSP-TSP Act 2013 4210-80-800-0-01",
+                  "Total Expenditure": "1,852.86",
+                  "Expenditure during last quarter": "1,852.86",
+                  "Expenditure during last quarter.": 100,
+                  "Expenditure during March": "1,852.86",
+                  "Expenditure during March.": 100
+                }
+              ],
             "Table31":[
                 {
                   "Name of the Scheme": "National Health Mission",
@@ -29727,44 +29786,44 @@
               ],
             "Table12": [
                 {
-                  "Grant": "Grant 3 - Finance",
+                  "Grant": " 3 - Finance",
                   "Amount in crores": 240.92,
                   "Reason for excess": "3475-797-01-Transfer to Reserve Funds and Deposit Accounts Expenditure under Inter Account Transfers depends on the actual collection of cess. Actual collection of cess exceeding the   estimates under Inter Account Transfers resulted in excess expenditure under the Head."
                 },
                 {
-                  "Grant": "Grant 6 - Infrastructure Development",
+                  "Grant": " 6 - Infrastructure Development",
                   "Amount in crores": 103,
                   "Reason for excess": "5465-01-190-1-Investment in Infrastructure. Assistance provided for development of Shivamogga Airport and for development of works of small airports was insufficient."
                 },
                 {
-                  "Grant": "Grant 7 - Rural Development and Panchayat Raj",
+                  "Grant": " 7 - Rural Development and Panchayat Raj",
                   "Amount in crores": 257.06,
                   "Reason for excess": "5054-03-337-71 and 76-Central and State share -Prime Minister Grameena Sadak Yojana. The excess was due to release of central share of the scheme after providing the third and final instalment of Supplementary Provision for the year 2022-23."
                 },
                 {
-                  "Grant": "Grant 10 - Social Welfare",
+                  "Grant": " 10 - Social Welfare",
                   "Amount in crores": 196.5,
                   "Reason for excess": "4225-01-277-2-Construction. The additional funds provided through supplementary provisions for construction of Hostel and Residential School Buildings and SC Hostels under Special Assistance to States for Capital Investment proved insufficient."
                 },
                 {
-                  "Grant": "Grant 13 - Food and Civil Supplies",
+                  "Grant": " 13 - Food and Civil Supplies",
                   "Amount in crores": 148.69,
-                  "Reason for excess": "2408-01-101-05-CSS Central Share-Assistance to Intra State Movement of Foodgrains and FPS dealers’ margin under NFSA.No specific reasons."
+                  "Reason for excess": "2408-01-101-05-CSS Central Share-Assistance to Intra State Movement of Foodgrains and FPS dealers’ margin under NFSA.No specific reason furnished."
                 },
                 {
-                  "Grant": "Grant 14 - Revenue",
+                  "Grant": " 14 - Revenue",
                   "Amount in crores": "1,163.30",
                   "Reason for excess": "2245-05-101-05-NDRF and 2245-80-102-01-SDRF. Due to transfer of amount received by GoI under NDRF and SDRF without providing budget provision and release of Central Share after closure of third and final Supplementary Provision."
                 },
                 {
-                  "Grant": "Grant 20 - Public Works",
+                  "Grant": " 20 - Public Works",
                   "Amount in crores": 626.33,
-                  "Reason for excess": "5054-03-337-18-State Highways Development Project.No specific reasons."
+                  "Reason for excess": "5054-03-337-18-State Highways Development Project.No specific reason furnished."
                 },
                 {
-                  "Grant": "Grant 29 - Debt Servicing",
+                  "Grant": " 29 - Debt Servicing",
                   "Amount in crores": "1,000.00",
-                  "Reason for excess": "2048-101-4-Consolidated Sinking Fund.No specific reasons."
+                  "Reason for excess": "2048-101-4-Consolidated Sinking Fund.No specific reason furnished."
                 }
               ],
             "T17f1": "Source: Grant Register",
@@ -30140,7 +30199,7 @@
               ],
             "Table9": [
                 {
-                  "c": "03 - Finance",
+                  "Grant No.": "03 - Finance",
                   "Head of Account": "2052-00-090-0-12-195  Transport Expenses",
                   "Nature of expenditure": "Purchase of four vehicles for the President and Members of Seventh Pay Commission",
                   "Amount": 0.75
@@ -30238,7 +30297,7 @@
 			"para17":"3.4 Child Budget",
 			"para18":"The Child Budget Statement (CBS) is a policy tool to identify and classify the allocations and expenditure on children (0 -18 years) within the annual budget of GoK. This statement gives information on how much budgetary resource is allocated and spent on child development programme in various departments of the State. GoK decided (August 2019) to prepare the CBS from the Financial Year 2020-21 onwards.  ",
 			"para19":"The allocation and expenditure in the different categories of Child Centric Programmes /Schemes from 2020-21 to 2022-23 are shown in the Table 3.2. The Table also indicates the percentage of allocation of Child Centric Programmes to total budget allocation (Original) for each financial year.",
-			"para20":"As seen from the table, there is an increase in allocation under all categories except programmes less than 100% Child Centric Programme when compared to previous years. Despite the focus on Child Budget, the Child Centric allocation as a per cent of GSDP was less than five per cent from 2020-21 to 2022-23.",
+			"para20":"As seen from the table, there is an increase in allocation under all categories except programmes less than 100 per cent Child Centric Programme when compared to previous years. Despite the focus on Child Budget, the Child Centric allocation as a per cent of GSDP was less than five per cent from 2020-21 to 2022-23.",
 			"para21":"The category wise/department wise budget allocation and expenditure during  2022-23 are shown in Appendix 3.1.",
 			"para22":"It is pertinent to mention that several deficiencies were observed in one of the schemes for Women and Child Welfare, which was featured in the C&AG’s Compliance Audit Report for the year ended March 2022, GoK, wherein the Department of Women and Child Welfare failed to productively implement the hostel facilities for working women with children day care facilities. The observations included absence of action plan, non-allotment of hostels, non-construction of the hostels, deficiencies in infrastructure facilities, accessibility issues etc. The programme mentioned above for women and child welfare is a one off case and the Government should proactively look into other such schemes where the intended benefits could not be extended to the targeted women and child beneficiaries. Unless the provisions and allocations for gender and child budgeting are translated into effective implementation of the schemes followed by robust monitoring mechanism, the entire objective of gendering budgeting would remain defeated.",
 			"para23":"The State Government in its reply (November 2023) stated that action would be taken to hold a meeting with the Department of Women and Child Welfare and Secretary (Women and Child Welfare) regarding the monitoring mechanism, implementation of child day care facilities and hostel facilities for women etc.",
@@ -30270,7 +30329,7 @@
             "para48a":"The details of additional amount released through the executive orders for the period 2019-20 to 2022-23 are shown in Table 3.7.",
             "para48b":"During 2022-23, the number of cases and the amount, where the additional amount released through executive orders showed an increase compared to the previous year. Drawing the amount through executive order and later obtaining the authority of the Legislature is not a good practice. ",
             "para49":"The State Government in its reply (November 2023) stated that the Public Accounts Committee in its 5th Report submitted to the Assembly (July 2015) had given approval to release additionalities in extra ordinary cases of emergent or inventible necessities within the limits laid down for “New Service” criteria that is upto Rs.500.00 lakhs or twice the provision, subject to approval of the additionalities in the subsequent Supplementary Estimates by the legislature. Hence, additionality orders are issued in emergent cases.",
-            "para50":"The reply is not acceptable as the PAC in its 10th Report submitted to the Assembly (February 2023) had stated to restrict this practice. Further, the subsidies to electricity was issued during the month of November 2022, December 2022 and January 2022, while the Supplementary II of 2022-23 was placed during December 2022.  Hence, the subsidies could have been estimated in the Supplementary Estimates.  ",
+            "para50":"The reply is not acceptable as the PAC in its 10th Report submitted to the Assembly (February 2023) had stated to restrict this practice. Further, the subsidies to electricity was issued during the month of November 2022, December 2022 and January 2023, while the Supplementary II of 2022-23 was placed during December 2022.  Hence, the subsidies could have been estimated in the Supplementary Estimates.  ",
             "para51":"3.6.1.2. Misclassification of capital expenditure as revenue expenditure and vice-versa",
             "para52":"Misclassification of transactions as revenue/capital are characterised by lack of application of rules of classification of transactions under relevant heads. Misclassification between revenue and capital expenditure has a bearing on revenue account and the fiscal indicator viz., revenue surplus/deficit. ",
             "para53":"• During 2022-23, revenue expenditure amounting to ₹1.10 crore was shown as capital expenditure even though the expenditure was of revenue in nature as detailed below.",
@@ -30286,8 +30345,8 @@
             "para63":"(a) Unnecessary/Excessive/inadequate re-appropriation of Funds",
             "para64":"In test checked cases of re-appropriation of funds during 2022-23, it was observed that there were cases of unnecessary/ excessive/inadequate re-appropriation of funds (Appendix 3.7) as detailed below:",
             "para65":"• In 11 cases under seven grants, additional funds of ₹285.88 crore were provided through re-appropriation (cases more than ₹five crore) which proved unnecessary, as it resulted in unspent provision (cases more than ₹five crore) of ₹456.20 crore. The State Government attributed (November 2023) delay in submission of bills, non-utilisation of maintenance cost for new vehicles etc. as reasons for the savings.",
-            "para66":"• In 10 cases under six grants, additional funds (cases more than ₹five crore) of ₹699.84 crore provided through re-appropriation were found excessive resulting in unspent provision (cases more than ₹five crore) of ₹184.92 crore. The State Government attributed (November 2023) to non-release of grants from GoI towards centrally sponsored schemes.",
-            "para67":"• In two cases under one grant, additional funds of ₹113.96 crore provided through re-appropriation (cases more than ₹five crore) were insufficient as it resulted in excess expenditure (cases more than ₹five crore) of ₹94.59 crore. The State Government attributed (November 2023) release of State share towards centrally sponsored schemes after placement of final Supplementary Estimates resulted in inadequate re-appropriation.",
+            "para66":"• In 10 cases under six grants, additional funds (cases more than ₹five crore) of ₹699.84 crore provided through re-appropriation were found excessive resulting in unspent provision (cases more than ₹five crore) of ₹184.92 crore. The State Government attributed (November 2023) to non-release of grants from GoI towards CSS.",
+            "para67":"• In two cases under one grant, additional funds of ₹113.96 crore provided through re-appropriation (cases more than ₹five crore) were insufficient as it resulted in excess expenditure (cases more than ₹five crore) of ₹94.59 crore. The State Government attributed (November 2023) release of State share towards CSS after placement of final Supplementary Estimates resulted in inadequate re-appropriation.",
             "para68":"• In 13 cases, under six grants, injudicious withdrawal (cases more than ₹five crore) of ₹228.06 crore through re-appropriation, where the original provision itself was insufficient, resulted in excess expenditure (cases more than ₹five crore) of ₹1,573.36 crore.",
             "para69":"The Finance Department has to monitor that all the Heads of the Departments follow the instructions issued by them in order to avoid unnecessary/excessive Re-appropriation of funds.",
             "para70":"(b) Defective re-appropriation",
@@ -30295,10 +30354,10 @@
             "para72":"3.6.1.5 Unspent provisions against allocation/large savings/surrenders",
             "para73":"(a) Grants having large savings (savings above ₹50 crore and above) during 2022-23.",
             "para74":"There were 16 cases of unspent provisions, each exceeding ₹50 crore and above under 14 grants/appropriation, which aggregated ₹6,226.01 crore.  Large unspent provisions, i.e., more than ₹500 crore were in the areas of Revenue Voted under Home and Transport, Women and Child Development, Urban Development and Health and Family Welfare as indicated in the Appendix 3.9.  ",
-            "para75":"As per Rule 264 of the Karnataka Budget Manual (KBM), all savings anticipated by the Controlling Officers should be reported by them with full details and reasons to the Finance Department immediately after they are foreseen.  However, it was observed that the reasons were either not appropriately explained or furnished by the departments.",
+            "para75":"As per Rule 264 of the KBM, all savings anticipated by the Controlling Officers should be reported by them with full details and reasons to the Finance Department immediately after they are foreseen.  However, it was observed that the reasons were either not appropriately explained or furnished by the departments.",
             "para76":"However, it was observed that the reasons were either not appropriately explained or furnished by the departments.",
             "para77":"Details of grants grouped by the percentage of utilisation along with total savings during 2022-23 has been shown in Appendix 3.10 and Chart 3.4.",
-            "para78":"From the above Chart 3.4, we noticed that 24 out of 29 grants had utilized more than 70 per cent of its allocation and out of 24 grants, 20 grants had utilized more than 90 per cent of its allocation. During 2022-23, there is an overall savings of ₹10,155.12 crore. No object is served by retaining savings which need to be surrendered in time. Observation on analysis of surrenders during 2022-23 is brought out in the succeeding paragraph.",
+            "para78":"From the above Chart 3.4, auditnoticed that 24 out of 29 grants had utilized more than 70 per cent of its allocation and out of 24 grants, 20 grants had utilized more than 90 per cent of its allocation. During 2022-23, there is an overall savings of ₹10,155.12 crore. No object is served by retaining savings which need to be surrendered in time. Observation on analysis of surrenders during 2022-23 is brought out in the succeeding paragraph.",
             "para79":"(b)  Surrender of Savings",
             "para80":"Rule 66(1) of GFR, 2017 states that departments are required to surrender all the anticipated unspent provision noticed in grants/appropriation controlled by them to Finance Department by the stipulated date. During 2022-23, there was total unspent provision of ₹8,247.28 crore which was around 2.70 per cent of the total provision.  This was on account of ₹10,155.12 crore of saving offset with ₹1,907.84 crore of excess. The amount surrendered during 2022-23 was ₹11,078 crore.",
             "para81":"The observation in Grant wise analysis of unspent provision is detailed below:",
@@ -30321,7 +30380,7 @@
             "para97":"3.6.2.1 Budget Projection and gap between expectation and actual",
             "para98":"Efficient management of tax administration/ other receipts and public expenditure holds the balance for achievement of various fiscal indicators. Budgetary allocations based on unrealistic proposals, poor expenditure monitoring mechanism, weak scheme implementation capacities and weak internal controls lead to sub-optimal allocation among various developmental needs. Excessive savings in some departments deprive other departments of the funds, which they could have utilised.",
             "para99":"During the year 2022-23, as against the provision of ₹3,05,572.67 crore, expenditure of ₹2,97,325.39 crore was incurred resulting in the unspent provision of   ₹8,247.28 crore (around three per cent) under 29 grants/appropriation. The details are given in Table 3.9.",
-            "para100":"The position of budget utilization during the previous five years is given in Chart 3.5The position of budget utilization during the previous five years is given in Chart 3.5",
+            "para100":"The position of budget utilization during the previous five years is given in Chart 3.5",
             "para101":"Trends in the original budget, revised estimate, actual expenditure for the period 2018-19 to 2022-23 are given in Table 3.10.",
             "para102":"Table 3.10 shows that supplementary provision of ₹34,030.45 crore during 2022-23 constituted 12.53 per cent of the original provision as against 16.16 per cent in the previous year.",
             "para103":"From the above Chart, it can be seen that over the years from 2018-19 to 2022-23, the Revised Estimate (RE) was always lower than the Total Budget (TB) of the State. The gap between RE and the TB showed an increasing trend during the first four years upto 2021-22 wherein the gap was less than five per cent for the year 2022-23.",
@@ -30338,11 +30397,11 @@
             "para114":"Major cases where more than 50 per cent of the total expenditure was incurred in March 2022 alone are detailed in Table 3.11.",
             "para115":"As seen from the table, a substantial quantum of 2401 – Crop Husbandryexpenditure was incurred by the Government at the fag end of the year indicating inadequate control over expenditure. ",
             "para116":"3.7 Outcome of review of selected",
-            "para117":"Budgetary Procedures followed and methodology employed for control over 2406 – Forestry and Wildlifeexpenditure in the following two grants were reviewed.",
-            "para118":"1. Grant No. 01 – Agriculture and Horticulture2406 – Forestry and Wildlife",
+            "para117":"Budgetary Procedures followed and methodology employed for control over expenditure in the following two grants were reviewed.",
+            "para118":"1. Grant No. 01 – Agriculture and Horticulture",
             "para119":"2. Grant No. 22 – Health and Family Welfare",
             "para120":"The two grants were selected based on the highest percentage of savings in both revenue and capital heads over a three-years period from 2020-21 to 2022-23, which had not been reviewed in previous five years. Audit findings are detailed in the subsequent paragraph.",
-            "para121":"3.7.1 Grant No.1- Agriculture and Horticulture",
+            "para121":"3.7.1 Review of Grant No.1- Agriculture and Horticulture",
             "para121a":"3.7.1.1 Introduction",
             "para121b":"Grant No. 1 – Agriculture and Horticulture of the Appropriation Accounts comprises the following functional major heads.",
             "para122":"2013 – Council of Ministers",
@@ -30375,18 +30434,18 @@
             "para147":"The Para 110 of the KBM stipulates that due note of the past performance of the preceding three financial years may be taken while preparing the budget estimates for the ensuing year. This past performance may form the basis for intelligent anticipation of any expenditure trends or special features that may arise during the budget year. Budget estimates so formed will ensure that surrender of savings do not arise at a later stage and hence, be a testament to prudent fiscal planning. ",
             "para148":"However, persistent savings were observed during 2020-21 to 2022-23 in the Heads of Accounts detailed in Table 3.13 which were in contravention of the provisions of para 110 of KBM.",
             "para149":"(b) Anticipated Savings not Surrendered/ Partially Surrendered",
-            "para150":"As per 264 of the KBM (Karnataka Budget Manual) 1975, the spending departments are required to surrender grants/appropriations or portion thereof to the Finance Department as and when savings are anticipated. Further, surrender of funds should be done as soon as these are foreseen without waiting for the end of the financial year, to enable the Finance Department to efficiently redeploy the anticipated savings in other needy schemes. ",
-            "para151":"The details of savings, amount surrendered and amount not surrendered for Revenue and Capital section of the Grant during the period 2020-21 to 2022-23 are given in Table 3.14.",
+            "para150":"As per 264 of the KBM 1975, the spending departments are required to surrender grants/appropriations or portion thereof to the Finance Department as and when savings are anticipated. Further, surrender of funds should be made upon anticipation of savings without waiting for the end of the financial year, to enable the Finance Department to efficiently redeploy the anticipated savings in other needy schemes. ",
+            "para151":"The details of savings, amount surrendered under and amount not surrendered under Revenue and Capital section of the Grant during the period 2020-21 to 2022-23 are given in Table 3.14.",
             "para152":"During 2020-21, while the amount not surrendered under Revenue and Capital was 98 per cent and 100 per cent respectively, in 2021-22, it reduced to 14 per cent under Revenue and 0.1 per cent under Capital. However, in 2022-23 while the amount surrendered under Capital was 100 per cent, it exceeded the savings under Revenue.  The reason for surrender exceeding the savings was analysed and the following were noticed:",
             "para153":"• Many reappropriation orders were issued for transferring savings from one unit of grant/appropriation to meet excess expenditure under another unit within the same grant.",
             "para154":"• In many of the units which had been provided with additional funds through reappropriation for meeting its excess expenditure had in-turn surrendered the funds for non-implementation of the intended objective.",
             "para155":"• The surrender of such re-appropriated funds resulted in surrender being excess of actual total savings in the grant.",
             "para156":" (c) Inordinate delay in sending proposal for surrender",
-            "para157":"In addition to non-surrendering of funds, on review of records pertaining to the surrender of funds, we observed that the proposal of Budget surrender was sent to the Government on last day of the year or during the month of April of the next financial year for issue of surrender order by Finance Department for incorporation in the Government Accounts as detailed in Table 3.15.",
+            "para157":"In addition to non-surrendering of funds, on review of records pertaining to the surrender of funds, audit observed that the proposal of Budget surrender was sent to the Government on last day of the year or during the month of April of the next financial year for issue of surrender order by Finance Department for incorporation in the Government Accounts as detailed in Table 3.15.",
             "para158":"Sending the surrender proposal after the closing of financial year for the year 2020-21 and on the last day of the financial year for the year 2021-22 and 2022-23 defeated the intended purpose envisaged in the Budget Manual.",
-            "para159":"The Department of Agriculture in its reply dated 03.08.2023 explained that in some cases the Finance Department (FD) directs to surrender funds of the Schemes where no expenditure was incurred. In such cases surrender would be sent. As per the Department of Agriculture, this is the normal procedure followed for reappropriation and that usually the surrender of proposal is sent to FD after the closing of the Financial Year.",
+            "para159":"The Department of Agriculture in its reply (August 2023) explained that in some cases the Finance Department directs to surrender funds of the Schemes where no expenditure was incurred. In such cases surrender would be sent. As per the Department of Agriculture, this is the normal procedure followed for reappropriation and usually the surrender of proposal is sent to the Finance Department after the closing of the Financial Year.",
             "para160":"(d) Rush of Expenditure",
-            "para161":"As per paragraph 6 of instructions issued by Finance Department, Government of Karnataka (GoK) dated 9th September 2004, regarding releases, drawl and accounting of funds, the Administrative Departments and the Heads of Departments were to plan the expenditure for the remaining part of the financial year with due diligence and within available grants. The bunching of bills and rush of expenditure in the month of March should be avoided. Administrative orders were to be issued well in advance after obtaining necessary approvals at the required levels for expenditure likely to be incurred in February and March. Further, Article 161 (b) (2) of Karnataka Financial Code also reiterates that the expenditure of the offices should be disbursed evenly in the financial year and there should be no occasion for rush of expenditure during the month of March.",
+            "para161":"As per paragraph 6 of instructions issued by Finance Department, GoK dated 9th September 2004, regarding releases, drawl and accounting of funds, the Administrative Departments and the Heads of Departments were to plan the expenditure for the remaining part of the financial year with due diligence and within available grants. The bunching of bills and rush of expenditure in the month of March should be avoided. Administrative orders were to be issued well in advance after obtaining necessary approvals at the required levels for expenditure likely to be incurred in February and March. Further, Article 161 (b) (2) of Karnataka Financial Code also reiterates that the expenditure of the offices should be disbursed evenly in the financial year and there should be no occasion for rush of expenditure during the month of March.",
             "para162":"On review of expenditures incurred it was noticed that about 80 per cent of the total expenditure in the Grant for the year 2022-23 was incurred under three major heads – 2401 (Crop Husbandry), 2402 (Soil and Water Conservation) and 4401 (Capital Outlay on Crop Husbandry). The total expenditure was over ₹10 lakh with substantial expenditure incurred during the last quarter and the month of March 2023 for the aforesaid Major Heads. ",
             "para163":"• In 13 Heads of Accounts, the expenditure during March 2023 was more than 95 per cent of the total expenditure incurred during the year 2022-23 as shown in Table 3.16.",
             "para164":"• The percentage of expenditure during March 2023 in respect of the above Heads in the Table 3.16 and the remaining 47 Heads of Accounts ranged between 45 and 95 per cent.",
@@ -30395,9 +30454,9 @@
             "para166a":"The State Government reiterated (February 2024) the reply of the Agriculture Department. The reply is not acceptable as the entire expenditure was incurred in the month of March 2023.",
             "para167":"3.7.1.5 Role of Executives",
             "para168":"(a) Role of Internal Financial Advisor ",
-            "para169":"As per the notification issued by Government of Karnataka in July 1982, Internal Financial Advisor is responsible for ensuring that the budget estimates are properly framed, time schedule is scrupulously followed and examine and advice for all new schemes or new expenditure etc. Further, IFA renders advice on financial prudence, preparation of department budget, tracking audit reports and action taken reports etc.",
-            "para170":"Further, the circular issued (July 2003) instructs contained the Internal Financial Advisor to conduct a meeting with their controlling officers every month and monitor expenditure, identify areas where savings are possible and report to Finance Department. They should also keep a close watch and ensure that expenditure is within budget limits and to reconcile the expenditure figures within those of the Accountant General figures.",
-            "para171":"From the records it was observed that the IFA had not conducted meeting with their controlling officers every month for the defined purpose as instructed in the circular. This fact was confirmed by their reply (04.08.2023) and it also stated that monthly meetings would be conducted after filling up the vacant posts.",
+            "para169":"As per the notification issued by GoK in July 1982, IFA is responsible for ensuring that the budget estimates are properly framed, time schedule is scrupulously followed and examine and advice for all new schemes or new expenditure etc. Further, IFA renders advice on financial prudence, preparation of department budget, tracking audit reports and action taken reports etc.",
+            "para170":"Further, the circular issued (July 2003) instructs contained the IFA to conduct a meeting with their controlling officers every month and monitor expenditure, identify areas where savings are possible and report to Finance Department. They should also keep a close watch and ensure that expenditure is within budget limits and to reconcile the expenditure figures within those of the Accountant General figures.",
+            "para171":"From the records it was observed that the IFA had not conducted meeting with their controlling officers every month for the defined purpose as instructed in the circular. This fact was confirmed by their reply (August 2023) which stated that   stated that monthly meetings would be conducted after filling up the vacant posts.",
             "para171a":"The State Government in its reply (February 2024) confirmed the fact that IFA was not involved in preparation of budget etc.",
             "para172":"(b) Delay in submission of Budget Estimates",
             "para173":"As per 88 of KBM, the Heads of Departments and the Estimating Officers should prepare the estimates separately for each head of account with which they are concerned based on the material obtained by them from their subordinate officers and forward these to the Finance Department by the prescribed dates. Simultaneously they should submit copies of the estimates to the appropriate administrative departments of the Secretariat. The Administrative Departments will scrutinize these estimates and make available their comments to the Finance Department. The Administrative Departments of the Secretariat should also frame and furnish to the Finance Department estimates relating to items for which they are Estimating Officers. Similarly, the Accountant General also frames the estimates in respect of certain heads and furnishes these to Finance Department. The dates for submission of various estimates (both budget and revised) by the Estimating Officers and the dates by which these should reach the Finance Department are available through the circulars made available by Finance Department every year.",
@@ -30406,16 +30465,16 @@
             "para175":"From the Table, it is noticed that there was delay ranging from 3 days to 65 days in submission of Budget Estimates. Submission of the estimates within the time schedule prescribed is to be adhered to by all the Departments as it would enable smooth budget making process. ",
             "para175a":"The State Government replied (February 2024) that on account of delay in obtaining information from subordinate offices, the budget proposals were not submitted within the due date prescribed. ",
             "para176":"(c) Working of Single Nodal Agency – Department of Agriculture",
-            "para177":"The Department of Agriculture implements many Centrally Sponsored Schemes (CSS) through implementing agencies like Boards/Corporations/Societies constituted by the GoK. Earlier to 2021-22, the Department of Agriculture released funds to these Boards/Societies from the budget allocations[22]  made for implementation of various schemes. Subsequently, GoI brought in a procedure for monitoring utilisation of funds under CSS wherein the State Government was required to designate a Single Nodal Agency (SNA) for implementing each CSS. The Department of Agriculture is SNA for implementing many CSS. ",
+            "para177":"The Department of Agriculture implements many CSS through implementing agencies like Boards/Corporations/Societies constituted by the GoK. Earlier to 2021-22, the Department of Agriculture released funds to these Boards/Societies from the budget allocations[22]  made for implementation of various schemes. Subsequently, GoI brought in a procedure for monitoring utilisation of funds under CSS wherein the State Government was required to designate a Single Nodal Agency (SNA) for implementing each CSS. The Department of Agriculture is SNA for implementing many CSS. ",
             "para178":"On review of Rashtriya Krishi Vikas Yojana (RKVY), a CSS implemented through the Department of Agriculture, the following observations detailed in subsequent paragraphs were noticed.",
             "para179":"• Parking of funds outside Consolidated Fund of the State",
-            "para180":"The Department of Agriculture implemented the scheme through 21 Implementing Agencies. On review of funds released and expenditure incurred in two Implementing Agencies, it was observed that during the period 2020-21 to 2022-23, an amount of ₹ 41.97 crore shown as expenditure in the Consolidated Fund, was parked in the Accounts of Implementing Agencies.  This resulted in overstatement of expenditure to the tune of ₹5.2 crore as detailed in Table 3.18.",
+            "para180":"The Department of Agriculture implemented the scheme through 21 Implementing Agencies. On review of funds released and expenditure incurred in two Implementing Agencies, it was observed that during the period 2020-21 to 2022-23, an amount of ₹41.97 crore shown as expenditure in the Consolidated Fund, was parked in the Accounts of Implementing Agencies.  This resulted in overstatement of expenditure to the tune of ₹41.97 crore as detailed in Table 3.18.",
             "para180a":"The State Government replied (February 2024) that as ₹78.74 crore was transferred to implementing agencies it was accounted as expenditure by the SNA. Whereas the actual expenditure was ₹36.77 crore as at the end of March 2023 by the implementing agencies. It further stated that action would be initiated to ascertain the progress of work as well as expenditure. However, the reply does not explain the reason for non-transfer of unspent balance to the SNA account at the end of the year.",
             "para181":"• Opening of SNA Account in a Private Bank ",
             "para182":"The procedure for release of funds under CSS issued by GoI and also the circular of the Finance Department (June 2021) stipulated that SNA would open a Single Nodal Account for each CSS at the State level in a Scheduled Commercial Bank authorised to conduct government business by the State Government. As per the existing directions (January 2017) of the Finance Department, the new bank account should be opened in Public Sector Bank (PSB) or Regional Rural Bank (RRB) with the exception that other scheduled bank could be considered for opening of bank account only when a specific banking solution for its operational convenience is not provided by a PSB.",
             "para183":"Contrary to the directions of Finance Department, the Department of Agriculture (SNA) had opened single nodal account in ICICI Bank.  Further from the records made available to Audit it was noticed that no quotations were solicited from PSBs.",
             "para183a":"The State Government replied (February 2024) that as per the procedure for monitoring utilisation of funds under CSS, the SNA account was opened in a private sector scheduled bank recognised by RBI. The reply is not acceptable since, as per the procedure for monitoring utilisation of funds under CSS the GoI specified that SNA account at the State level could be opened in a scheduled commercial bank authorised to conduct government business by the State Government. As per the existing directions (January 2017) of the Finance Department the new bank account were to be opened in Public Sector Bank or Regional Rural Bank and the other scheduled bank could be considered only when a specified banking solution was not provided by a Public Sector Bank.",
-            "para184":"• Non-registration of zero balance[23]  accounts of Implementing Agencies",
+            "para184":"•Non-registration of zero balance[23]  accounts of Implementing Agencies",
             "para185":"The procedure for release of funds under CSS issued by GoI and also the circular of the Finance Department (June 2021) stipulated that Implementing Agencies down the ladder should use the SNA’s account with clearly defined drawing limits set for that account. Further, depending on operational requirements, zero-balance subsidiary accounts for each scheme may also be opened for the Implementing Agencies either in the same branch of the selected bank or in different branches.",
             "para186":"However, Department of Agriculture was yet to complete the process of registering zero-balance account of implementing agencies with unique PFMS IDs and mapping in PFMS and integration of SNAs and Implementing Agencies for using the Expenditure Advance and Transfer Modules (EAT) Module of PFMS.",
             "para186a":"The State Government replied (February 2024) that action has been taken to register zero balance account of the implementing agencies and integration with PFMS using EAT Module has been completed.",
@@ -30440,21 +30499,21 @@
             "para204":"• During 2021-22, ₹18.55 crore was released (February 2022) to KAPPEC by Department of Agriculture towards Marketing of Millets under Savayava Siri Scheme.  Subsequently, the Department of Agriculture restricted (September 2022) the amount to be utilised as ₹ 10 crore and directed to remit the balance ₹ 8.55 crore to the Consolidated Fund of the State. While KAPPEC utilised ₹10 crore, ₹8.55 crore was not surrendered to Government Accounts. Further, the interest of ₹0.32 crore earned was also not remitted back to the Government Account.",
             "para205":"3.7.2 Review of Grant No.22-Health and Family Welfare",
             "para206":"3.7.2.1 Introduction",
-            "para207":"The Karnataka State has made remarkable progress in establishing health infrastructure at different levels both at Urban as well as Rural areas of the State. In addition, it has been implementing various health schemes to provide better health services.  These are operated through existing health infrastructure.  These are implemented through the Department of Health and Family Welfare Services and the Department of Medical Education.  Funds to these two departments are provided under Grant No.22-Health and Family Welfare.  To implement all the activities of the above Departments, four separate Directorates/Department indicated below are established.",
+            "para207":"The Karnataka State has established health infrastructure at different levels both at Urban as well as Rural areas of the State. In addition, it has been implementing various health schemes to provide better health services.  These are operated through existing health infrastructure.  These are implemented through the Department of Health and Family Welfare Services and the Department of Medical Education.  Funds to these two departments are provided under Grant No.22-Health and Family Welfare.  To implement all the activities of the above Departments, four separate Directorates/Department indicated below are established.",
             "para208":"• Directorate of Health and Family Welfare Services.",
             "para209":"• Directorate of Medical Education",
             "para210":"• Directorate of Ayush",
             "para211":"• Department of Drugs Controller",
             "para212":"The functional major heads covered under Grant No.22 are:",
             "para213":"3.7.2.2 Current Study",
-            "para214":"The National Health Profile (2020) recognizes that health financing is one of the keyways to achieve universal health coverage.  Appropriate financing will help to ensure adequate funds for healthcare, provide equitable access to all and reduce barriers to utilize health services.  In the current study, we examined the trends in the financial allocation, expenditure, reasons for savings etc., under the Department of Health and Family Services for the period 2020-21 to 2022-23.",
+            "para214":"The National Health Profile (2020) recognizes that health financing is one of the keyways to achieve universal health coverage.  Appropriate financing will help to ensure adequate funds for healthcare, provide equitable access to all and reduce barriers to utilize health services.  In the current study, auditexamined the trends in the financial allocation, expenditure, reasons for savings etc., under the Department of Health and Family Services for the period 2020-21 to 2022-23.",
             "para215":"3.7.2.3 Overview of finances",
             "para216":"In 2022-23, the overall revenue and capital allocation under Grant 22 was Rs. 12,574.54 crore and Rs. 1,583.31 crore respectively.  There was a decrease in allocation under both revenue and capital by 4.5 and 40.9 per cent respectively when compared to the previous year.",
             "para217":"The overall position of budget provisions, actual disbursements and savings in the Department for the last three years is detailed in Table 3.22.",
             "para218":"During 2020-21 to 2022-23 as a percentage of total provision, unutilized provision ranged between around three and 16 per cent under Revenue Section and between two and 84 per cent under Capital Section. ",
             "para219":"3.7.2.4 Persistent savings",
             "para220":"Scrutiny of Appropriation Accounts for the years 2020-21 to 2022-23 showed that there were persistent savings under six heads of accounts during the above period.",
-            "para221":"It was observed that budget allocations remained unutilized every year indicating non-achievement of the projected financial outlays in the respective years. The budget allocations were made without considering the previous years’ expenditure as required under Rule 110 of the KBM, which resulted in persistent savings under the Heads of Accounts as shown in Table 3.23 below.",
+            "para221":"It was observed that budget allocations remained unutilised every year indicating non-achievement of the projected financial outlays in the respective years. The budget allocations were made without considering the expenditure for previous years as required under Rule 110 of the KBM, which resulted in persistent savings under the Heads of Accounts as shown in Table 3.23 below.",
             "para222":"3.7.2.5 Rush of Expenditure",
             "para223":"Rule 62 (3), GFR, 2017 states that rush of expenditure particularly in the closing month of the financial year shall be avoided as it is regarded as breach of financial propriety.  Further, as per Paragraph 6 of the instructions issued by the Department of Finance, GoK dated 09 September 2004, regarding releases, drawal and accounting of funds, the Administrative Department and the Heads of department were to plan the expenditure for the remaining part of the financial year with due diligence and within the available grants. Bunching of bills and rush of expenditure in the month of March was to be avoided. Administrative Orders were to be issued well in advance after obtaining necessary approvals at the required levels for expenditure likely to be incurred in February and March. However, it was noticed that the percentage of expenditure in the Heads of account detailed in Table 3.24 showed the 100 per cent expenditure done in last quarter of the year and Appendix 3.18 ranged between 52 per cent to 100 per cent during March and 57 per cent to 100 per cent during the last quarter of the year 2022-23.",
             "para224":"3.7.2.6 Working of Single Nodal Agency",
@@ -36065,7 +36124,7 @@
         "para69": "SPSUs were not adhering to the prescribed timeline regarding submission of their Financial Statement as per the Companies Act, 2013. As a result, 233 accounts of 96 Government companies were in arrears. Also, accounts of 2022-23 in respect of all six Statutory Corporations were in arrears.",
 
         "para2": "The State Government may impress upon the managements of SPSUs to ensure timely submission of their financial statements. In the absence of finalised accounts, Government investments in such SPSUs remain outside the oversight of the State Legislature. The State Government may also analyse the reasons for losses in loss making SPSUs and initiate steps to make their operations efficient and profitable.",
-        "para3": "",
+        "para3": "C h a p t e r – 3  Budgetary Management ",
         "para5": "",
         "para6": "",
         "para7": "",

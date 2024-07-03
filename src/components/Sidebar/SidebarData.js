@@ -164,7 +164,7 @@ export const SidebarData = [
     ]
   },
   {
-    title: '3 Budget Management',
+    title: '3 Budgetary Management',
     path: '/budget',
     id: 1,
     iconClosed: <FaIcons.FaPlusSquare size="12px"/>,
@@ -369,7 +369,7 @@ export const SidebarData = [
     ]
   },
   {
-    title: 'Chapter 5  - State Public Sector Enterprises',
+    title: 'Chapter 5  - State Public Sector Undertakings',
     path: '/State',
     id: 1,
     iconClosed: <FaIcons.FaPlusSquare size="12px"/>,
