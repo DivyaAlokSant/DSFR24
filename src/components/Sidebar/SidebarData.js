@@ -243,7 +243,7 @@ export const SidebarData = [
     ]
   },
   {
-    title: '4 Quality of Accounts and Financial Reporting',
+    title: '4 Quality of Accounts and Financial Reporting Pratices',
     path: '/quality',
     id: 1,
     iconClosed: <FaIcons.FaPlusSquare size="12px"/>,

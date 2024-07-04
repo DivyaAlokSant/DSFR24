@@ -34,6 +34,9 @@ const Debt = () => {
               <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
             )
           )} 
+           <h3 className='headnote'>
+            ₹ In crore
+          </h3>
         <CustomTable title={"Table 5.7: Interst Coverage Ratio"}
             columns={ctx.tables5.Table7}
             data={ctx.tables5.Table7} />
@@ -41,9 +44,7 @@ const Debt = () => {
           <h4>
         Source: Latest Financial Statement of SPSEs
           </h4>
-          <h3 className='headnote'>
-            ₹ In crore
-          </h3>
+         
 
 
         {["para43"].map(

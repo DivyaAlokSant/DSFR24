@@ -65,12 +65,12 @@ const Returns = () => {
 
         {ctx.chapterFive.para37}
         </Para>
-         <CustomTable title={"Table 5.6: Dividend Payout of SPSEs"}
+         <CustomTable title={"Table 5.6: Dividend Payout of SPSUs"}
             columns={ctx.tables5.Table6}
             data={ctx.tables5.Table6} />
 
           <h4>
-        Source: Latest Financial Statements of SPSEs
+        Source: Latest Financial Statements of SPSUs
           </h4>
         <h3 className='headnote'>
             ₹ In crore

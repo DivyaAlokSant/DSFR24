@@ -94,11 +94,11 @@ const Resources = () => {
                             <i>
                                 Source: Finance Accounts and Economic Survey of Gok<br></br>
                             </i>
-                            [1]Buoyancy ratio indicates the elasticity or degree of responsiveness of a fiscal variable with respect to a given change in the base variable.  For instance, revenue buoyancy with respect to GSDP at 0.63 implies that Revenue Receipts tend to increase by 0.63 percentage points, if the GSDP increases by one per cent.
+                            [5]Buoyancy ratio indicates the elasticity or degree of responsiveness of a fiscal variable with respect to a given change in the base variable.  For instance, revenue buoyancy with respect to GSDP at 0.63 implies that Revenue Receipts tend to increase by 0.63 percentage points, if the GSDP increases by one per cent.
                             <br></br>
-                            [2]Revenue buoyancy refers to the growth rate of Revenue Receipts to growth rate of GSDP.
+                            [6]Revenue buoyancy refers to the growth rate of Revenue Receipts to growth rate of GSDP.
                             <br></br>
-                            [3]Own revenue buoyancy refers to growth rate of Tax Revenue and non-Tax revenue to growth rate of GSDP.  It excludes devolution from GoI.
+                            [7]Own revenue buoyancy refers to growth rate of Tax Revenue and non-Tax revenue to growth rate of GSDP.  It excludes devolution from GoI.
                         </h4>
                         {/* <Chrt2 />
                         <h4 className='footnote'>
@@ -156,9 +156,9 @@ const Resources = () => {
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)}
-                        <Subtitle>
-                            {ctx.chapterTwo.Para24}
-                        </Subtitle>
+                       <h2><b>
+                            {ctx.chapterTwo.Para24}</b></h2>
+                        
                         <Para>
                             {ctx.chapterTwo.Para25}
                         </Para>
@@ -193,18 +193,22 @@ const Resources = () => {
                             </Para>)}
                             
                                               
-                        <Subtitle>
-                            {ctx.chapterTwo["Para29"]}
-                        </Subtitle>
+                        <h2><b>
+                            {ctx.chapterTwo["Para29"]}</b></h2>
+                        
                         <Para>
                             {ctx.chapterTwo.Para30}
                         </Para>
-                        <Subtitle>
-                            {ctx.chapterTwo["Para31"]}
-                        </Subtitle>
+                    <h2><b>
+                            {ctx.chapterTwo["Para31"]}</b></h2>
+                    
                         <Para>
                             {ctx.chapterTwo.Para32}
                         </Para>
+                        <h3 className='headnote'>
+                            (₹ In crore)
+                        </h3>
+                        {/* <Table5 /> */}
                         <Table6 />
                         <h4 className='footnote'>
                             <i>
@@ -212,15 +216,21 @@ const Resources = () => {
                                 
                             </i>
                         </h4>
-                        <Subtitle>
-                            {ctx.chapterTwo.Para33}
-                        </Subtitle>
+                        <h2><b>
+                            {ctx.chapterTwo.Para33}</b></h2>
+
+
                         <Para>
                             {ctx.chapterTwo.Para34}
                         </Para>
-                        
+                        <h3 className='headnote'>
+                            (₹ In crore)
+                        </h3>
 
-                        <Table7 />
+                        {/* <Table7 /> */}
+                        <CustomTable title={"Table 2.7 Arrears of assessment"}
+            columns={ctx.tables2.Table7}
+            data={ctx.tables2.Table7} />
                         <h4 className='footnote'>
                             <i>
                             Source: Departmental information
@@ -236,14 +246,17 @@ const Resources = () => {
                         </h4>
                          
 
-                        <Subtitle>
-                            {ctx.chapterTwo["Para36"]}
-                        </Subtitle>
+                    <h2><b>
+                            {ctx.chapterTwo["Para36"]}</b></h2>
+                        
                         {["Para37", "Para37a"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)}
-                        <Table8 />  
+                        {/* <Table8 />   */}
+                        <CustomTable title={"Table 2.8 Evasion of tax detected "}
+            columns={ctx.tables2.Table8}
+            data={ctx.tables2.Table8} />
                         <h4 className='footnote'>
                             <i>
                             Source: Departmental information
@@ -282,9 +295,9 @@ const Resources = () => {
                             </Subtitle>    
                            
                         </div> */}
-                        <Subtitle>
-                            {ctx.chapterTwo["Para47"]}
-                            </Subtitle>
+                       <h2><b>
+                            {ctx.chapterTwo["Para47"]}</b></h2>
+                            
                             {["Para48", "Para49"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
@@ -311,18 +324,20 @@ const Resources = () => {
                                 {ctx.chapterTwo[item]}
                             </Para>)}     
 
-                        <Subtitle>
-                            {ctx.chapterTwo.Para55}
-                        </Subtitle>
+                  <h2><b>
+                            {ctx.chapterTwo.Para55}</b></h2>
+                        
                         <Para>
                             {ctx.chapterTwo.Para56}
                         </Para>     
 
-                        <Table10 />     
+                        {/* <Table10 />      */}
+                        <CustomTable title={"Table 2.12:  Loss of revenue"}
+            columns={ctx.tables2.Table10}
+            data={ctx.tables2.Table10} />
+                        <h2><b>
+                            {ctx.chapterTwo.Para57}</b></h2>
                         
-                        <Subtitle>
-                            {ctx.chapterTwo.Para57}
-                        </Subtitle>
                         <Para>
                             {ctx.chapterTwo.Para58}
                         </Para>   
@@ -344,9 +359,9 @@ const Resources = () => {
                         {/* <ImageComponent src={c28} alt="chart2.7" aspectRatio={1 / 0.5} /> */}
                         <ImageComponent src={c63} alt="table24" aspectRatio={1 / 0.6} />
 
-                        <Subtitle>
-                            {ctx.chapterTwo.Para63}
-                        </Subtitle>
+                        <h2><b>
+                            {ctx.chapterTwo.Para63}</b>
+</h2>                        
                         {["Para64", "Para65"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
@@ -405,9 +420,9 @@ const Resources = () => {
                             {ctx.chapterTwo.Para70}
                         </Para>    
 
-                        <Subtitle>
-                            {ctx.chapterTwo.Para71}
-                        </Subtitle>
+                      <h2><b>                         
+                           {ctx.chapterTwo.Para71}</b></h2>
+                        
                           
                         <Para>
                             {ctx.chapterTwo.Para72}
@@ -434,9 +449,9 @@ const Resources = () => {
                     </h3>
                        
 
-                        <Subtitle>
-                            {ctx.chapterTwo.Para78}
-                        </Subtitle>
+                     <h2><b>
+                            {ctx.chapterTwo.Para78}</b></h2>
+                        
                           
                         <Para>
                             {ctx.chapterTwo.Para79}
@@ -446,16 +461,16 @@ const Resources = () => {
                             {ctx.chapterTwo.Para79a}
                         </Para> 
 
-                        <Subtitle>
-                            {ctx.chapterTwo.Para80}
-                        </Subtitle>
+                       <h2><b>
+                            {ctx.chapterTwo.Para80}</b></h2>
+                        
                           
                         <Para>
                             {ctx.chapterTwo.Para81}
                         </Para> 
-                        <Subtitle>
-                            {ctx.chapterTwo.Para82}
-                        </Subtitle>
+               <h2><b>
+                            {ctx.chapterTwo.Para82}</b></h2>
+                        
                           
                         <Para>
                             {ctx.chapterTwo.Para83}

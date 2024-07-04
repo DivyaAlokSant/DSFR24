@@ -54,7 +54,7 @@ const Table5 = () => {
         <div className="App" style={{ margin: "40px 0 40px 0" }} >
             <Card>
                 <DataTable
-                    title="Table 2.5: SGST receipts of Government of Karnataka"
+                    title="Table 2.5: SGST receipts of GoK"
                     columns={columns}
                     data={ctx.tables2.Table5}
                     customStyles={customStyles}

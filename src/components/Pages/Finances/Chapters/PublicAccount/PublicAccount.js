@@ -57,9 +57,9 @@ const PublicAccount = () => {
                             Note: +ve denotes debit balance and –ve denotes credit balances
                             </i>
                         </h4>    
-                        <h3 className='headnote'>
+                        {/* <h3 className='headnote'>
                             ₹ In crore
-                        </h3>  
+                        </h3>   */}
                         <ImageComponent src={c214} alt="chart2.14" aspectRatio={1 / 0.5} />
                        
 

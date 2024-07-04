@@ -57,6 +57,10 @@ const Spse = () => {
               <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
             )
           )}
+           <h3 className='headnote'>
+            ₹ In crore
+        </h3>
+
          <CustomTable title={"Table 5.1: Details of turnover of SPSEs vis-a-vis GSDP of Karnataka"}
             columns={ctx.tables5.Table1}
             data={ctx.tables5.Table1} />
@@ -64,10 +68,7 @@ const Spse = () => {
           <h4>
         
           </h4>
-        <h3 className='headnote'>
-            ₹ In crore
-        </h3>
-
+       
          {["para14"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>

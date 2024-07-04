@@ -49,7 +49,7 @@ const Dsa = () => {
                     <h4 className='footnote'>
                             <i>
                             Source: Finance Accounts<br></br>
-                            *The net public debt is ₹4,03,023.00 crore after taking into account the miscellaneous amount of (-)₹422.70 crore.
+                           
                             <br></br>
                             *Outstanding Public Debt is the sum of outstanding balances under the heads 6003-Internal Debt and 6004-Loans and Advances from Government of India and Off-Budget borrowings.
                                 #For the years 2020-21 and 2021-22, Net debt available to the State Government is calculated as excess of Public Debt receipts over Public Debt repayment and interest payments on Public Debt and does not include back-to-back loans received from GoI as GST compensation.  
@@ -66,7 +66,7 @@ const Dsa = () => {
                            <Para >
                                {ctx.chapterTwo["para313"]}
                            </Para>   
-                        {["para314","para315","para316","para317","para318","para319"].map((item, ind) =>
+                        {["para314","para315","para316","para317","para319"].map((item, ind) =>
                            <Para key={ind / 10}>
                            <li>
                                {ctx.chapterTwo[item]}
@@ -223,7 +223,7 @@ const Dsa = () => {
                 </i>
         </h4>    
 
-                    {["para337","para338","para339","para340"].map((item, ind) =>
+                    {["para337","para338","para338a","para339","para340"].map((item, ind) =>
                            <Para key={ind / 10}>
                                {ctx.chapterTwo[item]}
                     </Para>)}  

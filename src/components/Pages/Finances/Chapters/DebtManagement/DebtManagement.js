@@ -192,7 +192,24 @@ const DebtManagement = () => {
                     <h3 className='headnote'>
                             ₹ In crore
                     </h3>
-                        <Table36 />
+                        {/* <Table36 /> */}
+                        <h3 className='headnote'>
+                            ₹ In crore
+                    </h3>
+                            <CustomTable title={"Table 2.41: Maturity profile of Public Debt"}
+                            
+                            columns={ctx.tables2.Table36}
+                            data={ctx.tables2.Table36} />
+                             <h3 className='footnote'>
+                            Source:Finance Accounts
+                    </h3>
+                      
+                        <h4 className='footnote'>
+                            <i>
+                            *The net public debt is ₹4,03,023.00 crore after taking into account the miscellaneous amount of ₹(-)422.70 crore.  
+                            
+                            </i>
+                        </h4>
                     <h4 className='footnote'>
                             <i>
                             Source: Finance Accounts<br></br>
