@@ -65,7 +65,7 @@ const Submissions = () => {
             data={ctx.tables5.Table11} />
 
           <h4>
-        
+          [54]Includes 22 financial statements from 21 companies (including one non-working company) received before September 2023 but under various stages of audit / certification
           </h4>
         <h3 className='headnote'>
       

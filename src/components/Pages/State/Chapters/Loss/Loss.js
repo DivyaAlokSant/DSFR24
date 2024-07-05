@@ -31,13 +31,16 @@ const Loss = () => {
                             {ctx.chapterFive.para56}
                         </Subtitle>   
         <Para tooltips={[
-       { word: "SPSEs[47]", tooltip:"56 SPSEs include eight non-working SPSEs" },
+       { word: "SPSUs[47]", tooltip:"56 SPSEs include eight non-working SPSEs" },
        
        
         ]}>
 
         {ctx.chapterFive.para57}
         </Para>
+        <h3 className='headnote'>
+            ₹ In crore
+        </h3>
       
      <CustomTable title={"Table 5.10: SPSEs that incurred losses during 2020-21 to 2022-23"}
             columns={ctx.tables5.Table10}
@@ -46,12 +49,10 @@ const Loss = () => {
           <h4>
         
           </h4>
-        <h3 className='headnote'>
-            ₹ In crore
-        </h3>
+      
 
         <Para tooltips={[
-       { word: "SPSEs[49]", tooltip:"Bangalore Electricity Supply Company Limited (BESCOM) loss of ₹1,767.49 crore, Hubli Electricity Supply Company Limited (HESCOM) loss of ₹836.22 crore, Raichur Power Corporation Limited (RPCL) loss of ₹678.22 crore and Karnataka Neeravari Nigam Limited (KNNL) loss of ₹1,135.84 crore." },
+       { word: "SPSUs[49]", tooltip:" Bangalore Electricity Supply Company Limited (BESCOM) loss of ₹1,767.49 crore, Hubli Electricity Supply Company Limited (HESCOM) loss of ₹836.22 crore, Raichur Power Corporation Limited (RPCL) loss of ₹678.22 crore and Karnataka Neeravari Nigam Limited (KNNL) loss of ₹1,135.84 crore." },
        
        
         ]}>
