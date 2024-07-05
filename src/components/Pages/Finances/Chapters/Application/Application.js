@@ -138,7 +138,11 @@ const Application = () => {
                         <h3 className='headnote'>
                             ₹ In crore
                         </h3>
-                        <Table14 />
+                        {/* <Table14 /> */}
+                <CustomTable title={"Table 2.20: Revenue Expenditure – Basic parameters"}
+            columns={ctx.tables2.Table14}
+            data={ctx.tables2.Table14} />
+
                         <h4 className='footnote'>
                             <i>
                                 Source: Finance Accounts of respective years
