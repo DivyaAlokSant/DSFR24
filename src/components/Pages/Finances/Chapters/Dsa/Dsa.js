@@ -192,12 +192,12 @@ const Dsa = () => {
                             {ctx.chapterTwo["para332"]}
                             </i> 
                     </Subtitle>
-                    {["para333","para334"].map((item, ind) =>
+                   {["para333","para334"].map((item, ind) =>
                            <Para key={ind / 10}>
                                {ctx.chapterTwo[item]}
                            </Para>)}  
 
-                    <Para tooltips={[
+                 <Para tooltips={[
                      { word: "availed[19]", tooltip:"As per the annexure to Statement Number 2, Finance Accounts Vol 1." },
                             
                         ]}>

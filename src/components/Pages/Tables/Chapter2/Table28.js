@@ -63,15 +63,7 @@ const columns = [
 
         format: data => data["2021 22"].toLocaleString('en-IN')
     },
-    {
-        name: "2022-23",
-        selector: "2022 23",
-        // grow: 0.05,
-        // width:'110px',
-        wrap: true,
-
-        format: data => data["2022 23"].toLocaleString('en-IN')
-    }
+   
 ];
 
 const conditionalRowStyles = [

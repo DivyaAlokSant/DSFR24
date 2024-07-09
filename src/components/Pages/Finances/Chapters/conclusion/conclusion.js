@@ -25,29 +25,29 @@ const Conclusion = () => {
                             {ctx.chapterTwo.para345}
                         </Title>
                         <Title>
-                            {ctx.chapterTwo.para365}
+                            {ctx.chapterTwo.para346}
                         </Title>
 
                         <Para>
-                            {ctx.chapterTwo.para366}
+                            {ctx.chapterTwo.para347}
                         </Para>
                         <Para>     <b><i>
-                            {ctx.chapterTwo.para367}
+                            {ctx.chapterTwo.para348}
                             </i> </b>
                         </Para>
                         <Para>
                             <b><i>
-                                {ctx.chapterTwo.para368}
+                                {ctx.chapterTwo.para349}
                             </i></b>
                         </Para>
                         <Para>
-                            {ctx.chapterTwo.para369}
+                            {ctx.chapterTwo.para350}
                         </Para>
                         <Para>
-                            {ctx.chapterTwo.para370}
+                            {ctx.chapterTwo.para351}
                         </Para>
                         <Para><b><i>
-                            {ctx.chapterTwo.para371}
+                            {ctx.chapterTwo.para352}
                             </i></b>
                         </Para>
                         <Para><b><i>

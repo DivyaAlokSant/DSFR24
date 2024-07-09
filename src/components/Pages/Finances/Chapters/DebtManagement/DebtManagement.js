@@ -73,7 +73,14 @@ const DebtManagement = () => {
                         <h3 className='headnote'>
                             ₹ In crore
                         </h3>
-                        <Table30 />
+                        {/* <Table30 /> */}
+                        <CustomTable title={"Table 2.42: Trends in Debt Sustainability indicators"}
+                            
+                            columns={ctx.tables2.Table30}
+                            data={ctx.tables2.Table30} />
+                             <h3 className='footnote'>
+                            Source:Finance Accounts
+                    </h3>
                         <h4 className='footnote'>
                             <i>
                             Source: Finance Accounts<br></br>
@@ -118,7 +125,10 @@ const DebtManagement = () => {
                     <h3 className='headnote'>
                             ₹ In crore
                     </h3>
-                        <Table32 />
+                        {/* <Table32 /> */}
+              <CustomTable title={"Table 2.37 (a): Entity-wise position of off-budget borrowings"}
+            columns={ctx.tables2.Table32}
+            data={ctx.tables2.Table32} />
                     <h4 className='footnote'>
                             <i>
                             Source: Finance Accounts<br></br>
@@ -193,9 +203,7 @@ const DebtManagement = () => {
                             ₹ In crore
                     </h3>
                         {/* <Table36 /> */}
-                        <h3 className='headnote'>
-                            ₹ In crore
-                    </h3>
+                       
                             <CustomTable title={"Table 2.41: Maturity profile of Public Debt"}
                             
                             columns={ctx.tables2.Table36}
@@ -210,11 +218,11 @@ const DebtManagement = () => {
                             
                             </i>
                         </h4>
-                    <h4 className='footnote'>
+                    {/* <h4 className='footnote'>
                             <i>
                             Source: Finance Accounts<br></br>
                             </i>
-                    </h4>
+                    </h4> */}
 
                     <ImageComponent src={c218} alt="chart2.14" aspectRatio={1 / 0.5} />
                        
