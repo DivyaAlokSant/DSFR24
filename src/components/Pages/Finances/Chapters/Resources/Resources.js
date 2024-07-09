@@ -326,13 +326,17 @@ const Resources = () => {
 
                   <h2><b>
                             {ctx.chapterTwo.Para55}</b></h2>
+                            
                         
                         <Para>
                             {ctx.chapterTwo.Para56}
                         </Para>     
+                        <h3 className='headnote'>
+            ₹ In crore
+          </h3>
 
                         {/* <Table10 />      */}
-                        <CustomTable title={"Table 2.12:  Loss of revenue"}
+                        <CustomTable title={"Table 2.11:  Loss of Revenue on account of under assessmentLoss of revenue"}
             columns={ctx.tables2.Table10}
             data={ctx.tables2.Table10} />
                         <h2><b>
@@ -428,7 +432,7 @@ const Resources = () => {
                             {ctx.chapterTwo.Para72}
                         </Para>      
 
-                        {["Para73", "Para74", "Para75","Para76",].map((item, ind) =>
+                        {["Para74", "Para75","Para76",].map((item, ind) =>
                             <Para key={ind / 10}>
                                 <li>    
                                 {ctx.chapterTwo[item]}

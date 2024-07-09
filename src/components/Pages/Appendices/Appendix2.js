@@ -33,7 +33,7 @@ const Appendix2 = () => {
                         <h3 className='headnote'>
                             ₹ in crore
                         </h3>
-                        <CustomTable title={"Appendix 2.1 Abstract of Receipts and Disbursements"}
+                        <CustomTable title={"Appendix 2.1 Abstract of Receipts and Disbursements(Reference: Paragraph 2.2; Page 17)"}
                             columns={ctx.appendix2.Table1}
                             data={ctx.appendix2.Table1}
                             indexToIncreaseWidth={4}
@@ -45,7 +45,7 @@ const Appendix2 = () => {
                         </h4>
                         {/* <Tableb1 /> */}
                         {/* <Tableb2 /> */}
-                        <CustomTable title={"Appendix 2.2 Time series data on the State Government Finances"}
+                        <CustomTable title={"Appendix 2.2 Time series data on the State Government Finances(Reference: Paragraph 2.2, 2.4.3, 2.7.1; Page 17,23,62)"}
                             columns={ctx.appendix2.Table2}
                             data={ctx.appendix2.Table2}
                             indexToIncreaseWidth={0}
@@ -54,7 +54,7 @@ const Appendix2 = () => {
                             <br></br>  # Includes expenditure on interest payment in respect of off-budget borrowings etc., under various service heads (₹1,206.04 crore borrowed through Special Purpose Vehicles- Social Services (₹156.67 crore) and Economic Services (₹ 1,135.59 crore).<br></br>
                             *GSDP figures adopted in previous audit report are 2018-19 (₹14,76,496 crore), 2019-20 ₹16,15,457crore), 2020-21 (₹17,30,991 crore) and 2021-22(₹17,21,336 crore)<br></br>
                             **Buoyancy ratio indicates the elasticity or degree of responsiveness of a fiscal variable with respect to a given change in the base variable.  For instance, revenue buoyancy at 0.4 implies that revenue receipts tend to increase by 0.4 percentage points, if the GSDP increases by one<br></br>
-                            ^The back to back Loan ₹ 18,109 crore in 2021-22 received from GoI in lieu of GST compensation has not been considered as Debt for working out the indicator<br></br>
+                            ^The back to back Loan ₹ 12,407 crore in 2020-21 received from GoI in lieu of GST compensation has not been considered as Debt for working out the indicator<br></br>
                             ## The effective public debt would be₹72,121 crore and ₹62,532crore by deducting the GST compensation of 12,407 crore for 2020-21 and ₹18,109 crore for 2021-22 received as back to back loans. The Department of Expenditure, GoI had decided that GST compensation given to the state as back-to-back loan under Debt Receipts would not be treated as debt of the state for any norms which may be prescribed by the FC.<br></br>
                             $ The effective Loans and Advances from GoI would be₹1,707 crore and ₹2,070 crore by deducting the GST compensation of 12,407 crore for 2020-21 and ₹18,109 crore for 2021-22 received as back to back loans. The Department of Expenditure, GoI had decided that GST compensation given to the state as back-to-back loan under Debt Receipts would not be treated as debt of the state for any norms which may be prescribed by the FC.<br></br>
                             ^^ Effective Outstanding Fiscal Liabilities would be ₹4,03,519 crore, ₹4,59,740 crore and ₹5,22,847 crore as the Department of Expenditure, GoI had decided that GST compensation of ₹12,407 crore in 2020-21 and ₹ 18,109 crore in 2021-22 given to the state as back-to-back loan under Debt Receipts respectively would not be treated as debt of the state for any norms which may be prescribed by the Finance Commission.<br></br>
@@ -64,7 +64,7 @@ const Appendix2 = () => {
                             ₹ in crore
                         </h3>
                         {/* <Tableb3 /> */}
-                        <CustomTable title={"Appendix 2.3 Department wise share of Subsidies"}
+                        <CustomTable title={"Appendix 2.3 Department wise share of Subsidies(Reference: Paragraph 2.5.2.5; Page 42)"}
                             columns={ctx.appendix2.Table3}
                             data={ctx.appendix2.Table3}
                             indexToIncreaseWidth={6}
@@ -77,7 +77,7 @@ const Appendix2 = () => {
                             ₹ in crore
                         </h3>
                         {/* <Tableb4 /> */}
-                        <CustomTable title={"Appendix 2.4 Subsidies in the form of financial assistance, incentives etc."}
+                        <CustomTable title={"Appendix 2.4 Subsidies in the form of financial assistance, incentives etc.(Reference: Paragraph 2.5.2.5; Page 43)"}
                             columns={ctx.appendix2.Table4}
                             data={ctx.appendix2.Table4}
                             indexToIncreaseWidth={2}
@@ -89,7 +89,7 @@ const Appendix2 = () => {
                             ₹ in crore
                         </h3>
                         {/* <Tableb5 /> */}
-                        <CustomTable title={"Appendix 2.5 Detailed Loan Accounts maintained by Principal Accountant General (A&E)"}
+                        <CustomTable title={"Appendix 2.5 Detailed Loan Accounts maintained by Principal Accountant General (A&E)Reference: Paragraph 2.5.4.2; Page 50)"}
                             columns={ctx.appendix2.Table5}
                             data={ctx.appendix2.Table5}
                             indexToIncreaseWidth={1}

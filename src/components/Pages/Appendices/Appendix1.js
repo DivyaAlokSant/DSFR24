@@ -9,8 +9,10 @@ import Tablekan2 from '../Tables/Chapter1/Tablekan2'
 import Tablekan3 from '../Tables/Chapter1/Tablekan3'
 import Tablekan4 from '../Tables/Chapter1/Tablekan4'
 import CustomTable from "../../CustomTable/CustomTable"
+import Subtitle from "../../Subtitle/Subtitle"
 
 import FloatingActionButtons from "../../FloatingActionButtons/FloatButton"
+import Title from "../../Title/Title"
 
 
 
@@ -37,7 +39,7 @@ const Appendix1 = () => {
                             widthSize={'50px'} />
                         {/* <Tablea1 /> */}
                         {/* <Tablea2 /> */}
-                        <CustomTable title={"Appendix 1.1 B Financial Data"}
+                        <CustomTable title={"B          Financial Data"}
                             columns={ctx.appendix1.Table1b}
                             data={ctx.appendix1.Table1b}
                             indexToIncreaseWidth={1}
@@ -45,14 +47,26 @@ const Appendix1 = () => {
 
                         <h4> Source: Financial data is based on Finance Accounts <br></br>
                             # Human Development Index is a composite index comprising of life expectancy, education and per-capita income.<br></br>
-                            * GC states figures is adopted from the information sent by Economic Advisor, O/o the CAG, New Delhi.<br></br>
+                            * GC states figures are adopted from the information sent by Economic Advisor, O/o the CAG, New Delhi.<br></br>
+                            ^2017-18 to 2022-23 figures are arrived by considering the Finance Accounts of the respective years.
                             @ Per Capita GSDP (2018-19 to 2021-22) as per Economic Survey 2022-23, GoK and the per capita GSDP for the year 2022-23 has been worked out based on the projected population of the state of 6.75crore as per Economic survey of Karnataka 2022-23.
                         </h4>
-                        {["para1", "para2", "para3", "para3", "para5", "para6", "para7", "para8", "para9"].map((item, ind) =>
+                        {["para1", "para2", "para3", "para3", "para5", "para6", "para7", "para8","para12","para13","para14","para15","para16","para17", "para9"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.appendix1.content[item]}
                             </Para>
                         )}
+                   <Title><b> {["para9a"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.appendix1.content[item]}
+                            </Para>
+                        )}</b></Title>
+                         {["para9b", "para9c"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.appendix1.content[item]}
+                            </Para>
+                        )}
+                    
                         {["para10", "para11"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.appendix1.content[item]}
@@ -64,7 +78,7 @@ const Appendix1 = () => {
                             indexToIncreaseWidth={1}
                             widthSize={'1000px'} />
 
-                        <CustomTable title={"Appendix 1.3 Summarised Financial position of Government of Karnataka as on 31 March 2023"}
+                        <CustomTable title={"Appendix 1.3 Summarised Financial position of GoK as on 31 March 2023.(Reference: Paragraph 1.7; Page 8)"}
                             columns={ctx.appendix1.Table3}
                             data={ctx.appendix1.Table3}
                             indexToIncreaseWidth={2}

@@ -38,7 +38,7 @@ const Appendix3 = () => {
                             (₹ in crore)
                         </h3>
                         {/* <Tablec1 /> */}
-                        <CustomTable title={"Appendix 3.1 Category wise/department wise budget allocation/expenditure for Child Budget for the year 2022-23"}
+                        <CustomTable title={"Appendix 3.1 Category wise/department wise budget allocation/expenditure for Child Budget for the year 2022-23(Reference: Paragraph 3.4; Page 84)"}
                             columns={ctx.appendix3.Table1}
                             data={ctx.appendix3.Table1}
                             indexToIncreaseWidth={0}
@@ -48,7 +48,7 @@ const Appendix3 = () => {
                         <h3 className='headnote'>
                             (₹ in crore)
                         </h3>
-                        <CustomTable title={"Appendix 3.2 Grant wise Budget allocation/outturn and the deviation of outturn from BE and RE"}
+                        <CustomTable title={"Appendix 3.2 Grant wise Budget allocation/outturn and the deviation of outturn from BE and RE(Reference: Paragraph 3.5.3.1, 3.5.3.2; Page 87)"}
                             columns={ctx.appendix3.Table2}
                             data={ctx.appendix3.Table2}
                             indexToIncreaseWidth={1}
@@ -58,7 +58,7 @@ const Appendix3 = () => {
                         <h3 className='headnote'>
                             (₹ in crore)
                         </h3>
-                        <CustomTable title={"Appendix 3.3 Cases of incurring expenditure, which are not covered by the budget, but released by FD as additionalities"}
+                        <CustomTable title={"Appendix 3.3 Cases of incurring expenditure, which are not covered by the budget, but released by FD as additionalities(Reference: Paragraph 3.6.1.1; Page 87)"}
                             columns={ctx.appendix3.Table3}
                             data={ctx.appendix3.Table3}
                             indexToIncreaseWidth={1}
@@ -68,7 +68,7 @@ const Appendix3 = () => {
                         <h3 className='headnote'>
                             (₹ in crore)
                         </h3>
-                        <CustomTable title={"Appendix 3.4 Unnecessary Supplementary Provision"}
+                        <CustomTable title={"Appendix 3.4 Unnecessary Supplementary Provision(Reference: Paragraph 3.6.1.3; Page 89)"}
                             columns={ctx.appendix3.Table4}
                             data={ctx.appendix3.Table4}
                             indexToIncreaseWidth={2}
@@ -79,7 +79,7 @@ const Appendix3 = () => {
                         <h3 className='headnote'>
                             (₹ in crore)
                         </h3>
-                        <CustomTable title={"Appendix 3.5 Excessive Supplementary Provision"}
+                        <CustomTable title={"Appendix 3.5 Excessive Supplementary Provision(Reference: Paragraph 3.6.1.3; Page 89)"}
                             columns={ctx.appendix3.Table5}
                             data={ctx.appendix3.Table5}
                             indexToIncreaseWidth={2}
@@ -90,7 +90,7 @@ const Appendix3 = () => {
                         <h3 className='headnote'>
                             (₹ in crore)
                         </h3>
-                        <CustomTable title={"Appendix 3.6 Inadequate Supplementary Provision"}
+                        <CustomTable title={"Appendix 3.6 Inadequate Supplementary Provision(Reference: Paragraph 3.6.1.3; Page 89)"}
                             columns={ctx.appendix3.Table6}
                             data={ctx.appendix3.Table6}
                             indexToIncreaseWidth={2}
@@ -101,7 +101,7 @@ const Appendix3 = () => {
                         <h3 className='headnote'>
                             (₹ in crore)
                         </h3>
-                        <CustomTable title={"Appendix 3.7 Unnecessary/Excessive/Inadequate/Injudicious Re-appropriation"}
+                        <CustomTable title={"Appendix 3.7 Unnecessary/Excessive/Inadequate/Injudicious Re-appropriation(Reference: Paragraph 3.6.1.4(a); Page 90)"}
                             columns={ctx.appendix3.Table7}
                             data={ctx.appendix3.Table7}
                             indexToIncreaseWidth={2}
