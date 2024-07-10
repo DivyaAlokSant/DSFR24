@@ -28658,7 +28658,7 @@
                 {
                   "Sl. No.": "B",
                   "Description": "Appropriations",
-                  "Total No. of Grants/ Appropriations": 1,
+                  "Total No. of Grants/ Appropriations": "01",
                   "Items of Expenditure Voted/ Charged": "Charged",
                   "Revenue": "31,394.61",
                   "Capital": "15,976.44",
@@ -28740,21 +28740,21 @@
                   "Original Approved Budget (BE)": "2,07,519.80",
                   "Actual Outturn": "2,20,179.32",
                   "Difference between Actual and BE*": "12,659.52",
-                  "Percentage of deviation in Actual Outturn with BE": 6.1
+                  "Percentage of deviation in Actual Outturn with BE": "6.10"
                 },
                 {
                   "Description": "Capital",
                   "Original Approved Budget (BE)": "64,022.42",
                   "Actual Outturn": "77,146.07",
                   "Difference between Actual and BE*": "13,123.65",
-                  "Percentage of deviation in Actual Outturn with BE": 20.5
+                  "Percentage of deviation in Actual Outturn with BE": "20.50"
                 },
                 {
                   "Description": "Total",
                   "Original Approved Budget (BE)": "2,71,542.22",
                   "Actual Outturn": "2,97,325.39",
                   "Difference between Actual and BE*": "25,783.17",
-                  "Percentage of deviation in Actual Outturn with BE": 9.5
+                  "Percentage of deviation in Actual Outturn with BE": "9.50"
                 }
               ],
               "Table14d":[
@@ -30065,8 +30065,8 @@
                 {
                   "1": 2,
                   "123": 7.72,
-                  "456": 7.3,
-                  "789": 5.1,
+                  "456": 7.31,
+                  "789": 5.10,
                   "Category": "Less than 100% Child Centric Programme",
                   "Allocation": "18,892.79",
                   "abc": "18,433.01",
@@ -30282,7 +30282,7 @@
 			"para12":"A Gender Budgeting Statement was introduced for the first time as a part of the expenditure budget in the Union in the year 2005-06. GoK is placing the Gender Budget document in the Legislature since 2007-08. A Gender Budget Cell in the Fiscal Policy Institute prepares the Gender Budget in co-ordination with various departments, non-Government Organizations and experts.  The Department of Women and Child Development is the nodal agency for monitoring and evaluation of Gender Budgeting in collaboration with the Planning Department.  ",
 			"para13":"In the SFAR of the C&AG for the year ending March 2020 (Paragraph 3.3), a review of Gender Budgeting in Karnataka was taken up and the audit findings on planning and formulation of policy, analysis of Gender budget documents, Gender Budgeting Processes were brought out in detail. The State Government replied that the issues brought out in the report would be examined and the action would be taken thereof.",
 			"para14":"The total allocation earmarked for women across different departments for the period 2018-19 to 2022-23 under Category A (women specific schemes with 100 per cent allocation) and Category B (pro-women schemes with allocations more than 30 per cent and less than 100 per cent) along with their percentage to total allocation is indicated in Table 3.1.",
-			"para15":"The percentage of the Category ‘A’ allocation to total allocation which was in a decreasing trend since 2019-20, increased sharply in 2022-23. Analysis of trends in total number of schemes covered indicate that there were inter-year variations since 2018-19 and was maximum in 2022-23 in respect of Category ‘A’. In respect of Category ‘B’, it showed a decreasing trend since 2020-21.",
+			"para15":"The percentage of the Category ‘A’ allocation to total allocation, which was in a decreasing trend since 2019-20, increased sharply in 2022-23. Analysis of trends in total number of schemes covered indicate that there were inter-year variations since 2018-19 and was maximum in 2022-23 in respect of Category ‘A’. In respect of Category ‘B’, it showed a decreasing trend since 2020-21.",
 			"para16":"The State Government in its reply (November 2023) accepted the observations of Audit and included the five-step framework to be followed for finalizing the Gender Budget in the Gender Budget circular issued during November 2023.",
 			"para17":"3.4 Child Budget",
 			"para18":"The Child Budget Statement (CBS) is a policy tool to identify and classify the allocations and expenditure on children (0 -18 years) within the annual budget of GoK. This statement gives information on how much budgetary resource is allocated and spent on child development programme in various departments of the State. GoK decided (August 2019) to prepare the CBS from the Financial Year 2020-21 onwards.  ",
