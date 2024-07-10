@@ -31,7 +31,7 @@ const Loss = () => {
                             {ctx.chapterFive.para56}
                         </Subtitle>   
         <Para tooltips={[
-       { word: "SPSUs[47]", tooltip:"56 SPSEs include eight non-working SPSEs" },
+       { word: "SPSUs[47]", tooltip:"56 SPSUs include eight non-working SPSEs" },
        
        
         ]}>
@@ -42,12 +42,12 @@ const Loss = () => {
             ₹ In crore
         </h3>
       
-     <CustomTable title={"Table 5.10: SPSEs that incurred losses during 2020-21 to 2022-23"}
+     <CustomTable title={"Table 5.10: SPSUs that incurred losses during 2020-21 to 2022-23"}
             columns={ctx.tables5.Table10}
             data={ctx.tables5.Table10} />
 
           <h4>
-        
+          [48]Net worth means the sum total of the paid-up share capital and free reserves and surplus less accumulated loss and deferred revenue expenditure. Free reserves mean all reserves created out of profits and share premium account but do not include reserves created out of revaluation of assets and write back of depreciation provision.
           </h4>
       
 

@@ -26,7 +26,7 @@ const Appendix5 = () => {
 
                         {/* <Tablee1 /> */}
 
-                        <CustomTable title={"Appendix – 5.1 List of State Public Sector Enterprises under jurisdiction of Audit in Karnataka"}
+                        <CustomTable title={"Appendix – 5.1 List of State Public Sector Enterprises under jurisdiction of Audit in Karnataka(Reference: Paragraph 5.3.1, Page 142)"}
                             columns={ctx.appendix5.Table1}
                             data={ctx.appendix5.Table1}
                             indexToIncreaseWidth={1}
@@ -36,7 +36,7 @@ const Appendix5 = () => {
                             (Amount in ₹ Crore)
                         </h3>
                         {/* <Tablee2 /> */}
-                        <CustomTable title={"Appendix 5.2 Details of SPSEs whose Net worth has eroded as per their latest finalized accounts"}
+                        <CustomTable title={"Appendix 5.2 Details of SPSEs whose Net worth has eroded as per their latest finalized accounts(Reference: Paragraph 5.9.2, Page 149)"}
                             columns={ctx.appendix5.Table2}
                             data={ctx.appendix5.Table2}
                             indexToIncreaseWidth={0}
@@ -46,28 +46,28 @@ const Appendix5 = () => {
                         </h4>
 
                         <h3 className='headnote'>
-                            ₹ in crore
+                            Amount in crore
                         </h3>
                         {/* <Tablee3 /> */}
-                        <CustomTable title={"Appendix 5.3 Details of SPSEs whose financial statements were amended as a result of supplementary audit conducted by C&AG."}
+                        <CustomTable title={"Appendix 5.3 Details of SPSEs whose financial statements were amended as a result of supplementary audit conducted by C&AG.(Reference: Paragraph 5.14.2, Page 153)"}
                             columns={ctx.appendix5.Table3}
                             data={ctx.appendix5.Table3}
                             indexToIncreaseWidth={0}
                             widthSize={'80px'} />
 
-                        <CustomTable title={"Appendix 5.4 Details of SPSEs where Statutory Auditors’ Report was revised as aresult of supplementary audit conducted by C&AG."}
+                        <CustomTable title={"Appendix 5.4 Details of SPSEs where Statutory Auditors’ Report was revised as aresult of supplementary audit conducted by C&AG.(Reference: Paragraph 5.14.3, Page 153)"}
                             columns={ctx.appendix5.Table4}
                             data={ctx.appendix5.Table4}
                             indexToIncreaseWidth={0}
                             widthSize={'80px'} />
 
-                        <CustomTable title={"Appendix 5.5 Comments of Profitability"}
+                        <CustomTable title={"Appendix 5.5 Comments of Profitability(Reference: Paragraph 5.14.4, Page 153)"}
                             columns={ctx.appendix5.Table5}
                             data={ctx.appendix5.Table5}
                             indexToIncreaseWidth={0}
                             widthSize={'80px'} />
 
-                        <CustomTable title={"Appendix 5.6 Comments of Financial Position"}
+                        <CustomTable title={"Appendix 5.6 Comments of Financial Position(Reference: Paragraph 5.14.4, Page 153)"}
                             columns={ctx.appendix5.Table6}
                             data={ctx.appendix5.Table6}
                             indexToIncreaseWidth={0}

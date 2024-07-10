@@ -393,7 +393,7 @@ export const SidebarData = [
     subNav: [
     
       {
-        title: '5.1 Definition of Government Companies',
+        title: '5.1 Definition of Govt Companies/Corporations',
         path: '/State/Definition',
         id: 2,
         icon: <FaIcons.FaAngleRight />,

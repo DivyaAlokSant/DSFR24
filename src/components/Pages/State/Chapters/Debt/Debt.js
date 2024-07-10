@@ -42,8 +42,11 @@ const Debt = () => {
             data={ctx.tables5.Table7} />
 
           <h4>
-        Source: Latest Financial Statement of SPSEs
+        Source: Latest Financial Statement of SPSUs
           </h4>
+          <h4>
+         [44] This doesn’t include SPSUs which have loan liability, but interest coverage ratio couldn’t be calculated due to nil value either in interest expenses or EBIT.</h4>
+          <h4>[45]  This doesn’t include SPSUs which have loan liability, but interest coverage ratio couldn’t be calculated due to nil value either in interest expenses or EBIT.</h4>
          
 
 

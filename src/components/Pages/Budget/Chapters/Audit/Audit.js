@@ -103,7 +103,7 @@ const Audit = () => {
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )
           )}
-          <CustomTable title={"Grant head and nature of expenditure in crore"}
+          <CustomTable title={""}
             columns={ctx.tables3.Table8}
             data={ctx.tables3.Table8} />
 
@@ -139,7 +139,7 @@ const Audit = () => {
           {/* <h3 className='headnote'>
             ₹ In crore
           </h3> */}
-          <CustomTable title={"Head of Account and Amount in crore"}
+          <CustomTable title={""}
             columns={ctx.tables3.Table10}
             data={ctx.tables3.Table10} />
 
@@ -162,9 +162,9 @@ const Audit = () => {
             )
           )}
           <ImageComponent src={c33} alt="chart2.20" aspectRatio={1 / 0.55} />
-          <h3 className='footnote'>
+          {/* <h3 className='footnote'>
           Source:Grant Register
-          </h3>
+          </h3> */}
           {["para59"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>

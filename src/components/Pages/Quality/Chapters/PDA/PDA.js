@@ -57,6 +57,9 @@ const PDA = () => {
                         <CustomTable title={"Table 4.8: Funds kept in PD Accounts"}
                             columns={ctx.tables4.Table8}
                             data={ctx.tables4.Table8} />
+                               <h4 className='footnote'><i>
+                              Source:Finance Accounts</i>
+                        </h4>
 
                         {["para42", "para43"].map((item, ind) =>
                             <Para key={ind / 10}>
@@ -91,9 +94,7 @@ const PDA = () => {
                             <Para key={ind / 10}>
                                 {ctx.chapterFour.Content[item]}
                             </Para>)}
-                            <h3 className='headnote'>
-                            ₹ In crore
-                        </h3>
+                          
 
                         <CustomTable title={"Table 4.10: Information of the PD accounts opened and closed during 2018-19 to 2022-23."}
                             columns={ctx.tables4.Table10}
@@ -115,7 +116,7 @@ const PDA = () => {
                             ₹ In crore
                         </h3>
 
-                        <CustomTable title={"Table-4.11: Inoperative PD Accounts operated during 2022-23"}
+                        <CustomTable title={"Table-4.11: Inoperative PD Accounts during 2022-23"}
                             columns={ctx.tables4.Table11}
                             data={ctx.tables4.Table11} />
 
@@ -125,9 +126,9 @@ const PDA = () => {
                             </Para>)}
                         {["para57"].map((item, ind) =>
                             <Para key={ind / 10}>
-                                <li>
+                                
                                     {ctx.chapterFour.Content[item]}
-                                </li>
+                                
                             </Para>)}
                  <Para tooltips={[
        { word: "Bhavans[25]", tooltip:"Ambedkar Bhavana in Anekal Taluk-₹ 48 lakh; Construction of Samskruthi Bhavana -₹ 10 lakh; Chalavadi Bhavana-₹ 20 lakh; Bayalu Ranga Mandira-₹4 lakh; Gangothri Bhavana for Physically Challenged Person-₹ 20 lakh and Mahila Bhavana-₹15 lakh" },
@@ -137,9 +138,9 @@ const PDA = () => {
         </Para>
                     {["para59"].map((item, ind) =>
                             <Para key={ind / 10}>
-                                <li>
+                                
                                     {ctx.chapterFour.Content[item]}
-                                </li>
+                                
                             </Para>)}
                         <Subtitle>
                             {ctx.chapterFour.Content.para60}
@@ -158,7 +159,7 @@ const PDA = () => {
                         </Para>
 
                         <h3 className='headnote'>
-                            ₹ In crore
+                            ₹ In lakh
                         </h3>
 
                         <CustomTable title={"Table 4.12: Difference in the PD Account balances depicted in the Books of Accounts  "}
@@ -174,7 +175,7 @@ const PDA = () => {
 
                         
                         <h3 className='headnote'>
-                            ₹ In crore
+                          (Amount in ₹ )
                         </h3>
 
                         <CustomTable title={"Table 4.13: Difference in the figures depicted in the Books of Accounts as on 31st March 2023"}

@@ -58,13 +58,13 @@ const OperatingEff = () => {
               <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
             )
           )}  
-        <CustomTable title={"Table 5.9: Return on Equity relating to SPSEs where funds were infused by the State Government"}
+        <CustomTable title={"Table 5.9: Return on Equity relating to SPSUs where funds were infused by the State Government"}
             columns={ctx.tables5.Table9}
             data={ctx.tables5.Table9} />
 
-          <h4>
-        Source: Latest Financial Statement of SPSEs
-          </h4>
+          {/* <h4>
+        Source: Latest Financial Statement of SPSUs
+          </h4> */}
           <h3 className='headnote'>
           </h3>  
          {["para54"].map(

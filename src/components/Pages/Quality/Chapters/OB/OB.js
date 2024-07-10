@@ -39,6 +39,9 @@ const OB = () => {
                         <CustomTable title={"Table 4.14: Balances under Suspense and Remittance Head"}
                             columns={ctx.tables4.Table14}
                             data={ctx.tables4.Table14} />
+                               <h4>
+                            Source: Finance Accounts 				
+          </h4>
                         {["para90", "para91", "para92", "para93"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterFour.Content[item]}
@@ -71,8 +74,8 @@ const OB = () => {
                         <Para>
                             {ctx.chapterFour.Content.para100}
                         </Para>
-                        <Subtitle>
-                            {ctx.chapterFour.Content.para101}
+                        <Subtitle><li>
+                            {ctx.chapterFour.Content.para101}</li>
                         </Subtitle>
                         <Para>
                             {ctx.chapterFour.Content.para102}

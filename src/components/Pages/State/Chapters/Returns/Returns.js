@@ -92,6 +92,12 @@ const Returns = () => {
 
         {ctx.chapterFive.para39}
         </Para>
+        {["para39a"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
+            )
+        
+          )} 
              
                         
          </div>

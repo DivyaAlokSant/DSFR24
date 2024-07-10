@@ -49,7 +49,7 @@ const Investment = () => {
             data={ctx.tables5.Table2} />
 
           <h4>
-        Source: Information furnished by SPSEs
+        Source: Information furnished by SPSUs
           </h4>
        
         {["para19","para19a"].map(

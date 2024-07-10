@@ -60,7 +60,7 @@ const Submissions = () => {
               <Para key={ind / 10}>{ctx.chapterFive[item]}</Para>
             )
           )}  
-        <CustomTable title={"Table 5.11: Details of arrears in submission of accounts of SPSEs"}
+        <CustomTable title={"Table 5.11: Details of arrears in submission of accounts of SPSUs"}
             columns={ctx.tables5.Table11}
             data={ctx.tables5.Table11} />
 

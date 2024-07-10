@@ -24,9 +24,17 @@ const Appendix4 = () => {
                     <Navbar />
                     <div className="contentwrapper" id="home">
                     <FloatingActionButtons back="/appendices/appendix-3" forward="/appendices/appendix-5" />
-                    <CustomTable    title={"Appendix 4.1-Funds transferred directly to State Implementing Agencies"}
+                    <CustomTable    title={"Appendix 4.1-Funds transferred directly to State Implementing Agencies(Reference: Paragraph 4.4; Page120)"}
                         columns={ctx.appendix4.Table1}
                         data={ctx.appendix4.Table1} />
+                           <h4><i>
+                           Source: PFMS Website</i>
+
+
+          </h4>
+          <h3 className='headnote'>
+            ₹ In crore
+          </h3>
 
 
             <CustomTable    title={"Appendix 4.2-Major Head and Department-wise details of outstanding UCs separately for each year( Reference:Paragraph 4.5; Page121)"}
@@ -36,6 +44,7 @@ const Appendix4 = () => {
         Source: Office of the AG(A&E)
           </h4>
           <h3 className='headnote'>
+          Amount in ₹
           </h3> 
 
  <CustomTable    title={"Appendix 4.3-Balances remaining under in-operative PD accounts(Reference:Paragraph 4.7.3 1(b);Page 124)"}
@@ -46,38 +55,48 @@ const Appendix4 = () => {
           </h4>
 
                     <h3 className='headnote'>
-                                          
+                    Amount in ₹                   
                     </h3>
 
-    <CustomTable    title={"Appendix 4.3(A)-Balances reamaining underin-operative PD accounts (Reference:Paragraph 4.7.3 1(b);Page 125)"}
+    <CustomTable    title={"Appendix 4.3(A)-Balances reamaining underin-operative PD accounts for more than five years (Reference:Paragraph 4.7.3 1(b);Page 124)"}
                         columns={ctx.appendix4.Table3a}
                         data={ctx.appendix4.Table3a} />
+                          <h4>
+                          Source: Office of the AG(A&E)/DDR Ledger
+          </h4>
        
 
                     <h3 className='headnote'>
-                                          
+                    Amount in ₹                            
                     </h3>
      <CustomTable    title={"Appendix 4.4-PD accounts with Debit/Negative balance(Reference:Paragraph 4.7.3 1(c);Page 125)"}
                         columns={ctx.appendix4.Table4}
                         data={ctx.appendix4.Table4} />
-       
+          <h4><i>
+                          Source: Office of the AG(A&E)</i>
+          </h4>
 
                     <h3 className='headnote'>
-                                          
+                    Amount in ₹                    
                     </h3>
     <CustomTable    title={"Appendix 4.5-Details of diversion of funds from unspent balances in PD accounts(Reference:Paragraph 4.7.4 (b);Page 127)"}
                         columns={ctx.appendix4.Table5}
                         data={ctx.appendix4.Table5} />
+                         <h4><i>
+                          Source:Departmental Records</i>
+          </h4>
        
 
                     <h3 className='headnote'>
-                                          
+                    Amount in ₹                   
                     </h3>
     <CustomTable    title={"Appendix 4.6-Substantial Expenditure(20 per cent and above of total expenditure under Major Head) booked under Minor head 800-other expenditure(Reference:Paragraph 4.8 (b);Page 128)"}
                         columns={ctx.appendix4.Table6}
                         data={ctx.appendix4.Table6} />
        
-
+       <h4><i>
+                          Source:Departmental Records</i>
+          </h4>
                     <h3 className='headnote'>
                                           
                     </h3>
@@ -107,10 +126,10 @@ const Appendix4 = () => {
                         data={ctx.appendix4.Table9} />
        
        <h4>
-        Source: Office of the Pr.AG(Audit-I)
+        Source: Office of the Pr.AG(Audit-I) & Pr. AG (Audit-II)
                  </h4>
                     <h3 className='headnote'>
-                                          
+                     ₹ in lakh                 
                     </h3>
 <CustomTable    title={"Appendix 4.10-Department-wise/duration-wise breakup of the cases of theft and miss-appropriation(Reference:Paragraph 4.18;Page 135)"}
                         columns={ctx.appendix4.Table10}
