@@ -41050,1851 +41050,1731 @@
               ],
             "Table6": [
                 {
-                  "Sl.": "No",
-                  "Grant No": "",
-                  "HOA": "",
-                  "Budget Original": "",
-                  "Supplementary(>10 crore)": "",
-                  "Total": "",
-                  "Expendi": "ture",
-                  "Excess Expenditure(>10 crore)": ""
-                },
-                {
-                  "Sl.": 1,
+                  "Sl.No.": 1,
                   "Grant No": 1,
-                  "HOA": "2402-00-102-0-30-139",
+                  "Head of Account": "2402-00-102-0-30-139",
                   "Budget Original": 20.5,
-                  "Supplementary": 69.14,
+                  "Supplementary (>10 crore)": 69.14,
                   "Total": 89.64,
-                  "Expendi": 120.1,
-                  "Excess Expenditure": 30.46
+                  "Expenditure": 120.1,
+                  "Excess Expenditure (>10 crore)": 30.46
                 },
                 {
-                  "Sl.": "",
+                  "Sl.No.": "",
                   "Grant No": "",
-                  "HOA": "Major Works",
+                  "Head of Account": "Major Works",
                   "Budget Original": "",
-                  "Supplementary": "",
+                  "Supplementary (>10 crore)": "",
                   "Total": "",
-                  "Expendi": "",
-                  "Excess Expenditure": ""
+                  "Expenditure": "",
+                  "Excess Expenditure (>10 crore)": ""
                 },
                 {
-                  "Sl.": 2,
+                  "Sl.No.": 2,
                   "Grant No": "",
-                  "HOA": "2402-00-102-0-33-139",
+                  "Head of Account": "2402-00-102-0-33-139",
                   "Budget Original": 13.67,
-                  "Supplementary": 46.09,
+                  "Supplementary (>10 crore)": 46.09,
                   "Total": 59.76,
-                  "Expendi": 80.07,
-                  "Excess Expenditure": 20.31
+                  "Expenditure": 80.07,
+                  "Excess Expenditure (>10 crore)": 20.31
                 },
                 {
-                  "Sl.": "",
+                  "Sl.No.": "",
                   "Grant No": "",
-                  "HOA": "Major Works",
+                  "Head of Account": "Major Works",
                   "Budget Original": "",
-                  "Supplementary": "",
+                  "Supplementary (>10 crore)": "",
                   "Total": "",
-                  "Expendi": "",
-                  "Excess Expenditure": ""
+                  "Expenditure": "",
+                  "Excess Expenditure (>10 crore)": ""
                 },
                 {
-                  "Sl.": 3,
+                  "Sl.No.": 3,
                   "Grant No": 2,
-                  "HOA": "2404-00-191-1-17-100",
+                  "Head of Account": "2404-00-191-1-17-100",
                   "Budget Original": "1,025.00",
-                  "Supplementary": 30,
+                  "Supplementary (>10 crore)": 30,
                   "Total": "1,055.00",
-                  "Expendi": "1,071.00",
-                  "Excess Expenditure": 16
+                  "Expenditure": "1,071.00",
+                  "Excess Expenditure (>10 crore)": 16
                 },
                 {
-                  "Sl.": "",
+                  "Sl.No.": "",
                   "Grant No": "",
-                  "HOA": "Financial Assistance/Relief",
+                  "Head of Account": "Financial Assistance/Relief",
                   "Budget Original": "",
-                  "Supplementary": "",
+                  "Supplementary (>10 crore)": "",
                   "Total": "",
-                  "Expendi": "",
-                  "Excess Expenditure": ""
+                  "Expenditure": "",
+                  "Excess Expenditure (>10 crore)": ""
                 },
                 {
-                  "Sl.": 4,
+                  "Sl.No.": 4,
                   "Grant No": 3,
-                  "HOA": "2071-01-109-1-02-251",
+                  "Head of Account": "2071-01-109-1-02-251",
                   "Budget Original": 25,
-                  "Supplementary": 54.25,
+                  "Supplementary (>10 crore)": 54.25,
                   "Total": 79.25,
-                  "Expendi": 124.7,
-                  "Excess Expenditure": 45.45
+                  "Expenditure": 124.7,
+                  "Excess Expenditure (>10 crore)": 45.45
                 },
                 {
-                  "Sl.": "",
+                  "Sl.No.": "",
                   "Grant No": "",
-                  "HOA": "Pension and Retirement benefits",
+                  "Head of Account": "Pension and Retirement Benefits",
                   "Budget Original": "",
-                  "Supplementary": "",
+                  "Supplementary (>10 crore)": "",
                   "Total": "",
-                  "Expendi": "",
-                  "Excess Expenditure": ""
+                  "Expenditure": "",
+                  "Excess Expenditure (>10 crore)": ""
                 },
                 {
-                  "Sl.": 5,
+                  "Sl.No.": 5,
                   "Grant No": 5,
-                  "HOA": "4055-00-207-0-04-386",
+                  "Head of Account": "4055-00-207-0-04-386",
                   "Budget Original": 70,
-                  "Supplementary": 184.94,
+                  "Supplementary (>10 crore)": 184.94,
                   "Total": 254.94,
-                  "Expendi": 270.12,
-                  "Excess Expenditure": 15.18
+                  "Expenditure": 270.12,
+                  "Excess Expenditure (>10 crore)": 15.18
                 },
                 {
-                  "Sl.": "",
+                  "Sl.No.": "",
                   "Grant No": "",
-                  "HOA": "Construction",
+                  "Head of Account": "Construction",
                   "Budget Original": "",
-                  "Supplementary": "",
+                  "Supplementary (>10 crore)": "",
                   "Total": "",
-                  "Expendi": "",
-                  "Excess Expenditure": ""
+                  "Expenditure": "",
+                  "Excess Expenditure (>10 crore)": ""
                 },
                 {
-                  "Sl.": 6,
+                  "Sl.No.": 6,
                   "Grant No": 6,
-                  "HOA": "5465-01-190-1-05-132",
+                  "Head of Account": "5465-01-190-1-05-132",
                   "Budget Original": 150,
-                  "Supplementary": 275,
+                  "Supplementary (>10 crore)": 275,
                   "Total": 425,
-                  "Expendi": 533,
-                  "Excess Expenditure": 108
+                  "Expenditure": 533,
+                  "Excess Expenditure (>10 crore)": 108
                 },
                 {
-                  "Sl.": "",
+                  "Sl.No.": "",
                   "Grant No": "",
-                  "HOA": "Capital Expenses",
+                  "Head of Account": "Capital Expenses",
                   "Budget Original": "",
-                  "Supplementary": "",
+                  "Supplementary (>10 crore)": "",
                   "Total": "",
-                  "Expendi": "",
-                  "Excess Expenditure": ""
+                  "Expenditure": "",
+                  "Excess Expenditure (>10 crore)": ""
                 },
                 {
-                  "Sl.": 7,
+                  "Sl.No.": 7,
                   "Grant No": 7,
-                  "HOA": "2505-60-196-6-04-300",
+                  "Head of Account": "2505-60-196-6-04-300",
                   "Budget Original": 960,
-                  "Supplementary": "1,015.00",
+                  "Supplementary (>10 crore)": "1,015.00",
                   "Total": "1,975.00",
-                  "Expendi": "2,442.09",
-                  "Excess Expenditure": 467.09
+                  "Expenditure": "2,442.09",
+                  "Excess Expenditure (>10 crore)": 467.09
                 },
                 {
-                  "Sl.": "",
+                  "Sl.No.": "",
                   "Grant No": "",
-                  "HOA": "Lump sum for Zilla Panchayath",
+                  "Head of Account": "Lump sum for Zilla Panchayath",
                   "Budget Original": "",
-                  "Supplementary": "",
+                  "Supplementary (>10 crore)": "",
                   "Total": "",
-                  "Expendi": "",
-                  "Excess Expenditure": ""
+                  "Expenditure": "",
+                  "Excess Expenditure (>10 crore)": ""
                 },
                 {
-                  "Sl.": 8,
+                  "Sl.No.": 8,
                   "Grant No": "",
-                  "HOA": "2515-00-102-0-14-059",
+                  "Head of Account": "2515-00-102-0-14-059",
                   "Budget Original": 7.2,
-                  "Supplementary": 24.37,
+                  "Supplementary (>10 crore)": 24.37,
                   "Total": 31.57,
-                  "Expendi": 54.96,
-                  "Excess Expenditure": 23.39
+                  "Expenditure": 54.96,
+                  "Excess Expenditure (>10 crore)": 23.39
                 },
                 {
-                  "Sl.": "",
+                  "Sl.No.": "",
                   "Grant No": "",
-                  "HOA": "Other Expenses",
+                  "Head of Account": "Other Expenses",
                   "Budget Original": "",
-                  "Supplementary": "",
+                  "Supplementary (>10 crore)": "",
                   "Total": "",
-                  "Expendi": "",
-                  "Excess Expenditure": ""
+                  "Expenditure": "",
+                  "Excess Expenditure (>10 crore)": ""
                 },
                 {
-                  "Sl.": 9,
+                  "Sl.No.": 9,
                   "Grant No": "",
-                  "HOA": "2515-00-102-0-15-059",
+                  "Head of Account": "2515-00-102-0-15-059",
                   "Budget Original": 4.8,
-                  "Supplementary": 16.25,
+                  "Supplementary (>10 crore)": 16.25,
                   "Total": 21.05,
-                  "Expendi": 36.64,
-                  "Excess Expenditure": 15.59
+                  "Expenditure": 36.64,
+                  "Excess Expenditure (>10 crore)": 15.59
                 },
                 {
-                  "Sl.": "",
+                  "Sl.No.": "",
                   "Grant No": "",
-                  "HOA": "Other Expenses",
+                  "Head of Account": "Other Expenses",
                   "Budget Original": "",
-                  "Supplementary": "",
+                  "Supplementary (>10 crore)": "",
                   "Total": "",
-                  "Expendi": "",
-                  "Excess Expenditure": ""
+                  "Expenditure": "",
+                  "Excess Expenditure (>10 crore)": ""
                 },
                 {
-                  "Sl.": 10,
+                  "Sl.No.": 10,
                   "Grant No": "",
-                  "HOA": "5054-03-337-0-75-059",
+                  "Head of Account": "5054-03-337-0-75-059",
                   "Budget Original": 470,
-                  "Supplementary": "1,497.13",
+                  "Supplementary (>10 crore)": "1,497.13",
                   "Total": "1,967.13",
-                  "Expendi": "1,985.60",
-                  "Excess Expenditure": 18.47
+                  "Expenditure": "1,985.60",
+                  "Excess Expenditure (>10 crore)": 18.47
                 },
                 {
-                  "Sl.": "",
+                  "Sl.No.": "",
                   "Grant No": "",
-                  "HOA": "Other Expenses",
+                  "Head of Account": "Other Expenses",
                   "Budget Original": "",
-                  "Supplementary": "",
+                  "Supplementary (>10 crore)": "",
                   "Total": "",
-                  "Expendi": "",
-                  "Excess Expenditure": ""
+                  "Expenditure": "",
+                  "Excess Expenditure (>10 crore)": ""
                 },
                 {
-                  "Sl.": 11,
+                  "Sl.No.": 11,
                   "Grant No": "",
-                  "HOA": "5054-03-337-0-76-172",
+                  "Head of Account": "5054-03-337-0-76-172",
                   "Budget Original": 37.95,
-                  "Supplementary": 240.6,
+                  "Supplementary (>10 crore)": 240.6,
                   "Total": 278.55,
-                  "Expendi": 384.85,
-                  "Excess Expenditure": 106.3
+                  "Expenditure": 384.85,
+                  "Excess Expenditure (>10 crore)": 106.3
                 },
                 {
-                  "Sl.": "",
+                  "Sl.No.": "",
                   "Grant No": "",
-                  "HOA": "Roads",
+                  "Head of Account": "Roads",
                   "Budget Original": "",
-                  "Supplementary": "",
+                  "Supplementary (>10 crore)": "",
                   "Total": "",
-                  "Expendi": "",
-                  "Excess Expenditure": ""
+                  "Expenditure": "",
+                  "Excess Expenditure (>10 crore)": ""
                 },
                 {
-                  "Sl.": 12,
+                  "Sl.No.": 12,
                   "Grant No": "",
-                  "HOA": "5054-03-337-0-76-422",
+                  "Head of Account": "5054-03-337-0-76-422",
                   "Budget Original": 8.58,
-                  "Supplementary": 54.37,
+                  "Supplementary (>10 crore)": 54.37,
                   "Total": 62.95,
-                  "Expendi": 84.51,
-                  "Excess Expenditure": 21.56
+                  "Expenditure": 84.51,
+                  "Excess Expenditure (>10 crore)": 21.56
                 },
                 {
-                  "Sl.": "",
+                  "Sl.No.": "",
                   "Grant No": "",
-                  "HOA": "Scheduled Caste Sub Plan",
+                  "Head of Account": "Scheduled Caste Sub Plan",
                   "Budget Original": "",
-                  "Supplementary": "",
+                  "Supplementary (>10 crore)": "",
                   "Total": "",
-                  "Expendi": "",
-                  "Excess Expenditure": ""
+                  "Expenditure": "",
+                  "Excess Expenditure (>10 crore)": ""
                 },
                 {
-                  "Sl.": 13,
+                  "Sl.No.": 13,
                   "Grant No": 9,
-                  "HOA": "2425-00-107-2-74-125",
+                  "Head of Account": "2425-00-107-2-74-125",
                   "Budget Original": 0,
-                  "Supplementary": 25.46,
+                  "Supplementary (>10 crore)": 25.46,
                   "Total": 25.46,
-                  "Expendi": 40.25,
-                  "Excess Expenditure": 14.79
+                  "Expenditure": 40.25,
+                  "Excess Expenditure (>10 crore)": 14.79
                 },
                 {
-                  "Sl.": "",
+                  "Sl.No.": "",
                   "Grant No": "",
-                  "HOA": "Modernization",
+                  "Head of Account": "Modernisation",
                   "Budget Original": "",
-                  "Supplementary": "",
+                  "Supplementary (>10 crore)": "",
                   "Total": "",
-                  "Expendi": "",
-                  "Excess Expenditure": ""
+                  "Expenditure": "",
+                  "Excess Expenditure (>10 crore)": ""
                 },
                 {
-                  "Sl.": 14,
+                  "Sl.No.": 14,
                   "Grant No": 10,
-                  "HOA": "2225-03-190-0-06-059",
+                  "Head of Account": "2225-03-190-0-06-059",
                   "Budget Original": 52.53,
-                  "Supplementary": 41.09,
+                  "Supplementary (>10 crore)": 41.09,
                   "Total": 93.62,
-                  "Expendi": 106.62,
-                  "Excess Expenditure": 13
+                  "Expenditure": 106.62,
+                  "Excess Expenditure (>10 crore)": 13
                 },
                 {
-                  "Sl.": "",
+                  "Sl.No.": "",
                   "Grant No": "",
-                  "HOA": "Other Expenses",
+                  "Head of Account": "Other Expenses",
                   "Budget Original": "",
-                  "Supplementary": "",
+                  "Supplementary (>10 crore)": "",
                   "Total": "",
-                  "Expendi": "",
-                  "Excess Expenditure": ""
+                  "Expenditure": "",
+                  "Excess Expenditure (>10 crore)": ""
                 },
                 {
-                  "Sl.": 15,
+                  "Sl.No.": 15,
                   "Grant No": "",
-                  "HOA": "4225-01-277-2-03-386",
+                  "Head of Account": "4225-01-277-2-03-386",
                   "Budget Original": 345,
-                  "Supplementary": 270,
+                  "Supplementary (>10 crore)": 270,
                   "Total": 615,
-                  "Expendi": 815,
-                  "Excess Expenditure": 200
+                  "Expenditure": 815,
+                  "Excess Expenditure (>10 crore)": 200
                 },
                 {
-                  "Sl.": "",
+                  "Sl.No.": "",
                   "Grant No": "",
-                  "HOA": "Construction",
+                  "Head of Account": "Construction",
                   "Budget Original": "",
-                  "Supplementary": "",
+                  "Supplementary (>10 crore)": "",
                   "Total": "",
-                  "Expendi": "",
-                  "Excess Expenditure": ""
+                  "Expenditure": "",
+                  "Excess Expenditure (>10 crore)": ""
                 },
                 {
-                  "Sl.": 16,
+                  "Sl.No.": 16,
                   "Grant No": "",
-                  "HOA": "4225-03-277-2-04-386",
+                  "Head of Account": "4225-03-277-2-04-386",
                   "Budget Original": 24.85,
-                  "Supplementary": 30.14,
+                  "Supplementary (>10 crore)": 30.14,
                   "Total": 54.99,
-                  "Expendi": 85.13,
-                  "Excess Expenditure": 30.14
+                  "Expenditure": 85.13,
+                  "Excess Expenditure (>10 crore)": 30.14
                 },
                 {
-                  "Sl.": "",
+                  "Sl.No.": "",
                   "Grant No": "",
-                  "HOA": "Construction",
+                  "Head of Account": "Construction",
                   "Budget Original": "",
-                  "Supplementary": "",
+                  "Supplementary (>10 crore)": "",
                   "Total": "",
-                  "Expendi": "",
-                  "Excess Expenditure": ""
+                  "Expenditure": "",
+                  "Excess Expenditure (>10 crore)": ""
                 },
                 {
-                  "Sl.": 17,
+                  "Sl.No.": 17,
                   "Grant No": 11,
-                  "HOA": "2235-02-103-0-68-059",
+                  "Head of Account": "2235-02-103-0-68-059",
                   "Budget Original": 41.98,
-                  "Supplementary": 38.55,
+                  "Supplementary (>10 crore)": 38.55,
                   "Total": 80.53,
-                  "Expendi": 106.23,
-                  "Excess Expenditure": 25.7
+                  "Expenditure": 106.23,
+                  "Excess Expenditure (>10 crore)": 25.7
                 },
                 {
-                  "Sl.": "",
+                  "Sl.No.": "",
                   "Grant No": "",
-                  "HOA": "Other Expenses",
+                  "Head of Account": "Other Expenses",
                   "Budget Original": "",
-                  "Supplementary": "",
+                  "Supplementary (>10 crore)": "",
                   "Total": "",
-                  "Expendi": "",
-                  "Excess Expenditure": ""
+                  "Expenditure": "",
+                  "Excess Expenditure (>10 crore)": ""
                 },
                 {
-                  "Sl.": 18,
+                  "Sl.No.": 18,
                   "Grant No": 12,
-                  "HOA": "5452-01-800-0-14-132",
+                  "Head of Account": "5452-01-800-0-14-132",
                   "Budget Original": 20,
-                  "Supplementary": 20,
+                  "Supplementary (>10 crore)": 20,
                   "Total": 40,
-                  "Expendi": 73.47,
-                  "Excess Expenditure": 33.47
+                  "Expenditure": 73.47,
+                  "Excess Expenditure (>10 crore)": 33.47
                 },
                 {
-                  "Sl.": "",
+                  "Sl.No.": "",
                   "Grant No": "",
-                  "HOA": "Capital Expenses",
+                  "Head of Account": "Capital Expenses",
                   "Budget Original": "",
-                  "Supplementary": "",
+                  "Supplementary (>10 crore)": "",
                   "Total": "",
-                  "Expendi": "",
-                  "Excess Expenditure": ""
+                  "Expenditure": "",
+                  "Excess Expenditure (>10 crore)": ""
                 },
                 {
-                  "Sl.": 19,
+                  "Sl.No.": 19,
                   "Grant No": 14,
-                  "HOA": "2245-80-102-0-01-059",
+                  "Head of Account": "2245-80-102-0-01-059",
                   "Budget Original": 442.67,
-                  "Supplementary": 758.19,
+                  "Supplementary (>10 crore)": 758.19,
                   "Total": "1,200.86",
-                  "Expendi": "1,526.12",
-                  "Excess Expenditure": 325.26
+                  "Expenditure": "1,526.12",
+                  "Excess Expenditure (>10 crore)": 325.26
                 },
                 {
-                  "Sl.": "",
+                  "Sl.No.": "",
                   "Grant No": "",
-                  "HOA": "Other Expenses",
+                  "Head of Account": "Other Expenses",
                   "Budget Original": "",
-                  "Supplementary": "",
+                  "Supplementary (>10 crore)": "",
                   "Total": "",
-                  "Expendi": "",
-                  "Excess Expenditure": ""
+                  "Expenditure": "",
+                  "Excess Expenditure (>10 crore)": ""
                 },
                 {
-                  "Sl.": 20,
+                  "Sl.No.": 20,
                   "Grant No": 16,
-                  "HOA": "2216-02-800-0-04-422",
+                  "Head of Account": "2216-02-800-0-04-422",
                   "Budget Original": 164.48,
-                  "Supplementary": 29.77,
+                  "Supplementary (>10 crore)": 29.77,
                   "Total": 194.25,
-                  "Expendi": 334.46,
-                  "Excess Expenditure": 140.21
+                  "Expenditure": 334.46,
+                  "Excess Expenditure (>10 crore)": 140.21
                 },
                 {
-                  "Sl.": "",
+                  "Sl.No.": "",
                   "Grant No": "",
-                  "HOA": "SCSP",
+                  "Head of Account": "SCSP",
                   "Budget Original": "",
-                  "Supplementary": "",
+                  "Supplementary (>10 crore)": "",
                   "Total": "",
-                  "Expendi": "",
-                  "Excess Expenditure": ""
+                  "Expenditure": "",
+                  "Excess Expenditure (>10 crore)": ""
                 },
                 {
-                  "Sl.": 21,
+                  "Sl.No.": 21,
                   "Grant No": "",
-                  "HOA": "2216-02-800-0-05-422",
+                  "Head of Account": "2216-02-800-0-05-422",
                   "Budget Original": 0,
-                  "Supplementary": 200,
+                  "Supplementary (>10 crore)": 200,
                   "Total": 200,
-                  "Expendi": 385,
-                  "Excess Expenditure": 185
+                  "Expenditure": 385,
+                  "Excess Expenditure (>10 crore)": 185
                 },
                 {
-                  "Sl.": "",
+                  "Sl.No.": "",
                   "Grant No": "",
-                  "HOA": "SCSP",
+                  "Head of Account": "SCSP",
                   "Budget Original": "",
-                  "Supplementary": "",
+                  "Supplementary (>10 crore)": "",
                   "Total": "",
-                  "Expendi": "",
-                  "Excess Expenditure": ""
+                  "Expenditure": "",
+                  "Excess Expenditure (>10 crore)": ""
                 },
                 {
-                  "Sl.": 22,
+                  "Sl.No.": 22,
                   "Grant No": "",
-                  "HOA": "2216-02-800-0-06-106",
+                  "Head of Account": "2216-02-800-0-06-106",
                   "Budget Original": 0,
-                  "Supplementary": 100,
+                  "Supplementary (>10 crore)": 100,
                   "Total": 100,
-                  "Expendi": 300,
-                  "Excess Expenditure": 200
+                  "Expenditure": 300,
+                  "Excess Expenditure (>10 crore)": 200
                 },
                 {
-                  "Sl.": "",
+                  "Sl.No.": "",
                   "Grant No": "",
-                  "HOA": "Subsidies",
+                  "Head of Account": "Subsidies",
                   "Budget Original": "",
-                  "Supplementary": "",
+                  "Supplementary (>10 crore)": "",
                   "Total": "",
-                  "Expendi": "",
-                  "Excess Expenditure": ""
+                  "Expenditure": "",
+                  "Excess Expenditure (>10 crore)": ""
                 },
                 {
-                  "Sl.": 23,
+                  "Sl.No.": 23,
                   "Grant No": 18,
-                  "HOA": "2851-00-102-0-76-422",
+                  "Head of Account": "2851-00-102-0-76-422",
                   "Budget Original": 178.57,
-                  "Supplementary": 60,
+                  "Supplementary (>10 crore)": 60,
                   "Total": 238.57,
-                  "Expendi": 249.07,
-                  "Excess Expenditure": 10.5
+                  "Expenditure": 249.07,
+                  "Excess Expenditure (>10 crore)": 10.5
                 },
                 {
-                  "Sl.": "",
+                  "Sl.No.": "",
                   "Grant No": "",
-                  "HOA": "SCSP",
+                  "Head of Account": "SCSP",
                   "Budget Original": "",
-                  "Supplementary": "",
+                  "Supplementary (>10 crore)": "",
                   "Total": "",
-                  "Expendi": "",
-                  "Excess Expenditure": ""
+                  "Expenditure": "",
+                  "Excess Expenditure (>10 crore)": ""
                 },
                 {
-                  "Sl.": 24,
+                  "Sl.No.": 24,
                   "Grant No": "",
-                  "HOA": "6860-04-190-2-01-394",
+                  "Head of Account": "6860-04-190-2-01-394",
                   "Budget Original": 10,
-                  "Supplementary": 22.58,
+                  "Supplementary (>10 crore)": 22.58,
                   "Total": 32.58,
-                  "Expendi": 47.58,
-                  "Excess Expenditure": 15
+                  "Expenditure": 47.58,
+                  "Excess Expenditure (>10 crore)": 15
                 },
                 {
-                  "Sl.": "",
+                  "Sl.No.": "",
                   "Grant No": "",
-                  "HOA": "Loans",
+                  "Head of Account": "Loans",
                   "Budget Original": "",
-                  "Supplementary": "",
+                  "Supplementary (>10 crore)": "",
                   "Total": "",
-                  "Expendi": "",
-                  "Excess Expenditure": ""
+                  "Expenditure": "",
+                  "Excess Expenditure (>10 crore)": ""
                 },
                 {
-                  "Sl.": "Sl.",
-                  "Grant No": "Grant No",
-                  "HOA": "",
-                  "Budget Original": "Budget Original",
-                  "Supplementary": "Supplementary",
-                  "Total": "Total",
-                  "Expendi": "Expendi",
-                  "Excess Expenditure": "Excess Expenditure"
-                },
-                {
-                  "Sl.": "No",
-                  "Grant No": "",
-                  "HOA": "HOA",
-                  "Budget Original": "",
-                  "Supplementary": "(>10 crore)",
-                  "Total": "",
-                  "Expendi": "ture",
-                  "Excess Expenditure": "(>10 crore)"
-                },
-                {
-                  "Sl.": 25,
+                  "Sl.No.": 25,
                   "Grant No": 19,
-                  "HOA": "2217-05-191-0-04-032",
+                  "Head of Account": "2217-05-191-0-04-032",
                   "Budget Original": 50,
-                  "Supplementary": 150,
+                  "Supplementary (>10 crore)": 150,
                   "Total": 200,
-                  "Expendi": 600,
-                  "Excess Expenditure": 400
+                  "Expenditure": 600,
+                  "Excess Expenditure (>10 crore)": 400
                 },
                 {
-                  "Sl.": "",
+                  "Sl.No.": "",
                   "Grant No": "",
-                  "HOA": "Grants for Creation of Capital Assets",
+                  "Head of Account": "Grants for Creation of Capital Assets",
                   "Budget Original": "",
-                  "Supplementary": "",
+                  "Supplementary (>10 crore)": "",
                   "Total": "",
-                  "Expendi": "",
-                  "Excess Expenditure": ""
+                  "Expenditure": "",
+                  "Excess Expenditure (>10 crore)": ""
                 },
                 {
-                  "Sl.": 26,
+                  "Sl.No.": 26,
                   "Grant No": "",
-                  "HOA": "2217-05-191-1-16-059",
+                  "Head of Account": "2217-05-191-1-16-059",
                   "Budget Original": 0,
-                  "Supplementary": 49,
+                  "Supplementary (>10 crore)": 49,
                   "Total": 49,
-                  "Expendi": 98,
-                  "Excess Expenditure": 49
+                  "Expenditure": 98,
+                  "Excess Expenditure (>10 crore)": 49
                 },
                 {
-                  "Sl.": "",
+                  "Sl.No.": "",
                   "Grant No": "",
-                  "HOA": "Other Expenses",
+                  "Head of Account": "Other Expenses",
                   "Budget Original": "",
-                  "Supplementary": "",
+                  "Supplementary (>10 crore)": "",
                   "Total": "",
-                  "Expendi": "",
-                  "Excess Expenditure": ""
+                  "Expenditure": "",
+                  "Excess Expenditure (>10 crore)": ""
                 },
                 {
-                  "Sl.": 27,
+                  "Sl.No.": 27,
                   "Grant No": "",
-                  "HOA": "2217-05-191-1-18-059",
+                  "Head of Account": "2217-05-191-1-18-059",
                   "Budget Original": 0,
-                  "Supplementary": 49,
+                  "Supplementary (>10 crore)": 49,
                   "Total": 49,
-                  "Expendi": 98,
-                  "Excess Expenditure": 49
+                  "Expenditure": 98,
+                  "Excess Expenditure (>10 crore)": 49
                 },
                 {
-                  "Sl.": "",
+                  "Sl.No.": "",
                   "Grant No": "",
-                  "HOA": "Other Expenses",
+                  "Head of Account": "Other Expenses",
                   "Budget Original": "",
-                  "Supplementary": "",
+                  "Supplementary (>10 crore)": "",
                   "Total": "",
-                  "Expendi": "",
-                  "Excess Expenditure": ""
+                  "Expenditure": "",
+                  "Excess Expenditure (>10 crore)": ""
                 },
                 {
-                  "Sl.": 28,
+                  "Sl.No.": 28,
                   "Grant No": "",
-                  "HOA": "2217-05-191-1-25-059",
+                  "Head of Account": "2217-05-191-1-25-059",
                   "Budget Original": 0,
-                  "Supplementary": 49,
+                  "Supplementary (>10 crore)": 49,
                   "Total": 49,
-                  "Expendi": 98,
-                  "Excess Expenditure": 49
+                  "Expenditure": 98,
+                  "Excess Expenditure (>10 crore)": 49
                 },
                 {
-                  "Sl.": "",
+                  "Sl.No.": "",
                   "Grant No": "",
-                  "HOA": "Other Expenses",
+                  "Head of Account": "Other Expenses",
                   "Budget Original": "",
-                  "Supplementary": "",
+                  "Supplementary (>10 crore)": "",
                   "Total": "",
-                  "Expendi": "",
-                  "Excess Expenditure": ""
+                  "Expenditure": "",
+                  "Excess Expenditure (>10 crore)": ""
                 },
                 {
-                  "Sl.": 29,
+                  "Sl.No.": 29,
                   "Grant No": "",
-                  "HOA": "2217-05-191-1-27-059",
+                  "Head of Account": "2217-05-191-1-27-059",
                   "Budget Original": 0,
-                  "Supplementary": 49,
+                  "Supplementary (>10 crore)": 49,
                   "Total": 49,
-                  "Expendi": 98,
-                  "Excess Expenditure": 49
+                  "Expenditure": 98,
+                  "Excess Expenditure (>10 crore)": 49
                 },
                 {
-                  "Sl.": "",
+                  "Sl.No.": "",
                   "Grant No": "",
-                  "HOA": "Other Expenses",
+                  "Head of Account": "Other Expenses",
                   "Budget Original": "",
-                  "Supplementary": "",
+                  "Supplementary (>10 crore)": "",
                   "Total": "",
-                  "Expendi": "",
-                  "Excess Expenditure": ""
+                  "Expenditure": "",
+                  "Excess Expenditure (>10 crore)": ""
                 },
                 {
-                  "Sl.": 30,
+                  "Sl.No.": 30,
                   "Grant No": "",
-                  "HOA": "3604-00-191-2-18-032",
+                  "Head of Account": "3604-00-191-2-18-032",
                   "Budget Original": 90.2,
-                  "Supplementary": 146.94,
+                  "Supplementary (>10 crore)": 146.94,
                   "Total": 237.14,
-                  "Expendi": 316.91,
-                  "Excess Expenditure": 79.77
+                  "Expenditure": 316.91,
+                  "Excess Expenditure (>10 crore)": 79.77
                 },
                 {
-                  "Sl.": "",
+                  "Sl.No.": "",
                   "Grant No": "",
-                  "HOA": "Grants for Creation of Capital Assets",
+                  "Head of Account": "Grants for Creation of Capital Assets",
                   "Budget Original": "",
-                  "Supplementary": "",
+                  "Supplementary (>10 crore)": "",
                   "Total": "",
-                  "Expendi": "",
-                  "Excess Expenditure": ""
+                  "Expenditure": "",
+                  "Excess Expenditure (>10 crore)": ""
                 },
                 {
-                  "Sl.": 31,
+                  "Sl.No.": 31,
                   "Grant No": "",
-                  "HOA": "4217-01-800-0-02-132",
+                  "Head of Account": "4217-01-800-0-02-132",
                   "Budget Original": "2,245.29",
-                  "Supplementary": 500,
+                  "Supplementary (>10 crore)": 500,
                   "Total": "2,745.29",
-                  "Expendi": "4,713.22",
-                  "Excess Expenditure": "1,967.93"
+                  "Expenditure": "4,713.22",
+                  "Excess Expenditure (>10 crore)": "1,967.93"
                 },
                 {
-                  "Sl.": "",
+                  "Sl.No.": "",
                   "Grant No": "",
-                  "HOA": "Capital Expenses",
+                  "Head of Account": "Capital Expenses",
                   "Budget Original": "",
-                  "Supplementary": "",
+                  "Supplementary (>10 crore)": "",
                   "Total": "",
-                  "Expendi": "",
-                  "Excess Expenditure": ""
+                  "Expenditure": "",
+                  "Excess Expenditure (>10 crore)": ""
                 },
                 {
-                  "Sl.": 32,
+                  "Sl.No.": 32,
                   "Grant No": 20,
-                  "HOA": "5054-03-337-0-17-154",
+                  "Head of Account": "5054-03-337-0-17-154",
                   "Budget Original": 285,
-                  "Supplementary": 370,
+                  "Supplementary (>10 crore)": 370,
                   "Total": 655,
-                  "Expendi": 859.73,
-                  "Excess Expenditure": 204.73
+                  "Expenditure": 859.73,
+                  "Excess Expenditure (>10 crore)": 204.73
                 },
                 {
-                  "Sl.": "",
+                  "Sl.No.": "",
                   "Grant No": "",
-                  "HOA": "Extensions and Improvements",
+                  "Head of Account": "Extensions and Improvements",
                   "Budget Original": "",
-                  "Supplementary": "",
+                  "Supplementary (>10 crore)": "",
                   "Total": "",
-                  "Expendi": "",
-                  "Excess Expenditure": ""
+                  "Expenditure": "",
+                  "Excess Expenditure (>10 crore)": ""
                 },
                 {
-                  "Sl.": 33,
+                  "Sl.No.": 33,
                   "Grant No": "",
-                  "HOA": "5054-03-337-0-18-154",
+                  "Head of Account": "5054-03-337-0-18-154",
                   "Budget Original": "1,400.00",
-                  "Supplementary": 450,
+                  "Supplementary (>10 crore)": 450,
                   "Total": "1,850.00",
-                  "Expendi": "2,476.33",
-                  "Excess Expenditure": 626.33
+                  "Expenditure": "2,476.33",
+                  "Excess Expenditure (>10 crore)": 626.33
                 },
                 {
-                  "Sl.": "",
+                  "Sl.No.": "",
                   "Grant No": "",
-                  "HOA": "Extensions and Improvements",
+                  "Head of Account": "Extensions and Improvements",
                   "Budget Original": "",
-                  "Supplementary": "",
+                  "Supplementary (>10 crore)": "",
                   "Total": "",
-                  "Expendi": "",
-                  "Excess Expenditure": ""
+                  "Expenditure": "",
+                  "Excess Expenditure (>10 crore)": ""
                 },
                 {
-                  "Sl.": 34,
+                  "Sl.No.": 34,
                   "Grant No": "",
-                  "HOA": "5054-03-800-0-02-132",
+                  "Head of Account": "5054-03-800-0-02-132",
                   "Budget Original": 100,
-                  "Supplementary": 86.9,
+                  "Supplementary (>10 crore)": 86.9,
                   "Total": 186.9,
-                  "Expendi": 344.62,
-                  "Excess Expenditure": 157.72
+                  "Expenditure": 344.62,
+                  "Excess Expenditure (>10 crore)": 157.72
                 },
                 {
-                  "Sl.": "",
+                  "Sl.No.": "",
                   "Grant No": "",
-                  "HOA": "Capital Expenses",
+                  "Head of Account": "Capital Expenses",
                   "Budget Original": "",
-                  "Supplementary": "",
+                  "Supplementary (>10 crore)": "",
                   "Total": "",
-                  "Expendi": "",
-                  "Excess Expenditure": ""
+                  "Expenditure": "",
+                  "Excess Expenditure (>10 crore)": ""
                 },
                 {
-                  "Sl.": 35,
+                  "Sl.No.": 35,
                   "Grant No": "",
-                  "HOA": "5054-04-337-0-01-154",
+                  "Head of Account": "5054-04-337-0-01-154",
                   "Budget Original": 940,
-                  "Supplementary": 653.81,
+                  "Supplementary (>10 crore)": 653.81,
                   "Total": "1,593.81",
-                  "Expendi": "1,967.79",
-                  "Excess Expenditure": 373.98
+                  "Expenditure": "1,967.79",
+                  "Excess Expenditure (>10 crore)": 373.98
                 },
                 {
-                  "Sl.": "",
+                  "Sl.No.": "",
                   "Grant No": "",
-                  "HOA": "Extensions and Improvements",
+                  "Head of Account": "Extensions and Improvements",
                   "Budget Original": "",
-                  "Supplementary": "",
+                  "Supplementary (>10 crore)": "",
                   "Total": "",
-                  "Expendi": "",
-                  "Excess Expenditure": ""
+                  "Expenditure": "",
+                  "Excess Expenditure (>10 crore)": ""
                 },
                 {
-                  "Sl.": 36,
+                  "Sl.No.": 36,
                   "Grant No": 21,
-                  "HOA": "4702-00-101-1-07-139",
+                  "Head of Account": "4702-00-101-1-07-139",
                   "Budget Original": 325,
-                  "Supplementary": 30,
+                  "Supplementary (>10 crore)": 30,
                   "Total": 355,
-                  "Expendi": 368.98,
-                  "Excess Expenditure": 13.98
+                  "Expenditure": 368.98,
+                  "Excess Expenditure (>10 crore)": 13.98
                 },
                 {
-                  "Sl.": "",
+                  "Sl.No.": "",
                   "Grant No": "",
-                  "HOA": "Major Works",
+                  "Head of Account": "Major Works",
                   "Budget Original": "",
-                  "Supplementary": "",
+                  "Supplementary (>10 crore)": "",
                   "Total": "",
-                  "Expendi": "",
-                  "Excess Expenditure": ""
+                  "Expenditure": "",
+                  "Excess Expenditure (>10 crore)": ""
                 },
                 {
-                  "Sl.": 37,
+                  "Sl.No.": 37,
                   "Grant No": "",
-                  "HOA": "4702-00-101-3-01-139",
+                  "Head of Account": "4702-00-101-3-01-139",
                   "Budget Original": 850,
-                  "Supplementary": 120,
+                  "Supplementary (>10 crore)": 120,
                   "Total": 970,
-                  "Expendi": "1,102.99",
-                  "Excess Expenditure": 132.99
+                  "Expenditure": "1,102.99",
+                  "Excess Expenditure (>10 crore)": 132.99
                 },
                 {
-                  "Sl.": "",
+                  "Sl.No.": "",
                   "Grant No": "",
-                  "HOA": "Major Works",
+                  "Head of Account": "Major Works",
                   "Budget Original": "",
-                  "Supplementary": "",
+                  "Supplementary (>10 crore)": "",
                   "Total": "",
-                  "Expendi": "",
-                  "Excess Expenditure": ""
+                  "Expenditure": "",
+                  "Excess Expenditure (>10 crore)": ""
                 },
                 {
-                  "Sl.": 38,
+                  "Sl.No.": 38,
                   "Grant No": "",
-                  "HOA": "4702-00-101-5-01-139",
+                  "Head of Account": "4702-00-101-5-01-139",
                   "Budget Original": 200,
-                  "Supplementary": 60,
+                  "Supplementary (>10 crore)": 60,
                   "Total": 260,
-                  "Expendi": 328.43,
-                  "Excess Expenditure": 68.43
+                  "Expenditure": 328.43,
+                  "Excess Expenditure (>10 crore)": 68.43
                 },
                 {
-                  "Sl.": "",
+                  "Sl.No.": "",
                   "Grant No": "",
-                  "HOA": "Major Works",
+                  "Head of Account": "Major Works",
                   "Budget Original": "",
-                  "Supplementary": "",
+                  "Supplementary (>10 crore)": "",
                   "Total": "",
-                  "Expendi": "",
-                  "Excess Expenditure": ""
+                  "Expenditure": "",
+                  "Excess Expenditure (>10 crore)": ""
                 },
                 {
-                  "Sl.": 39,
+                  "Sl.No.": 39,
                   "Grant No": "",
-                  "HOA": "4702-00-101-5-02-139",
+                  "Head of Account": "4702-00-101-5-02-139",
                   "Budget Original": 250,
-                  "Supplementary": 250,
+                  "Supplementary (>10 crore)": 250,
                   "Total": 500,
-                  "Expendi": 544,
-                  "Excess Expenditure": 44
+                  "Expenditure": 544,
+                  "Excess Expenditure (>10 crore)": 44
                 },
                 {
-                  "Sl.": "",
+                  "Sl.No.": "",
                   "Grant No": "",
-                  "HOA": "Major Works",
+                  "Head of Account": "Major Works",
                   "Budget Original": "",
-                  "Supplementary": "",
+                  "Supplementary (>10 crore)": "",
                   "Total": "",
-                  "Expendi": "",
-                  "Excess Expenditure": ""
+                  "Expenditure": "",
+                  "Excess Expenditure (>10 crore)": ""
                 },
                 {
-                  "Sl.": 40,
+                  "Sl.No.": 40,
                   "Grant No": "",
-                  "HOA": "4711-01-103-1-00-140",
+                  "Head of Account": "4711-01-103-1-00-140",
                   "Budget Original": 40,
-                  "Supplementary": 40,
+                  "Supplementary (>10 crore)": 40,
                   "Total": 80,
-                  "Expendi": 118.86,
-                  "Excess Expenditure": 38.86
+                  "Expenditure": 118.86,
+                  "Excess Expenditure (>10 crore)": 38.86
                 },
                 {
-                  "Sl.": "",
+                  "Sl.No.": "",
                   "Grant No": "",
-                  "HOA": "Minor Works",
+                  "Head of Account": "Minor Works",
                   "Budget Original": "",
-                  "Supplementary": "",
+                  "Supplementary (>10 crore)": "",
                   "Total": "",
-                  "Expendi": "",
-                  "Excess Expenditure": ""
+                  "Expenditure": "",
+                  "Excess Expenditure (>10 crore)": ""
                 },
                 {
-                  "Sl.": 41,
+                  "Sl.No.": 41,
                   "Grant No": 23,
-                  "HOA": "2501-06-198-6-02-300",
+                  "Head of Account": "2501-06-198-6-02-300",
                   "Budget Original": 82,
-                  "Supplementary": 126.61,
+                  "Supplementary (>10 crore)": 126.61,
                   "Total": 208.61,
-                  "Expendi": 262.92,
-                  "Excess Expenditure": 54.31
+                  "Expenditure": 262.92,
+                  "Excess Expenditure (>10 crore)": 54.31
                 },
                 {
-                  "Sl.": "Total",
+                  "Sl.No.": "",
                   "Grant No": "",
-                  "HOA": "",
+                  "Head of Account": "Lump sum for Zilla Panchayath",
+                  "Budget Original": "",
+                  "Supplementary (>10 crore)": "",
+                  "Total": "",
+                  "Expenditure": "",
+                  "Excess Expenditure (>10 crore)": ""
+                },
+                {
+                  "Sl.No.": "Total",
+                  "Grant No": "",
+                  "Head of Account": "",
                   "Budget Original": "10,930.27",
-                  "Supplementary": "8,283.18",
+                  "Supplementary (>10 crore)": "8,283.18",
                   "Total": "19,213.45",
-                  "Expendi": "25,653.35",
-                  "Excess Expenditure": "6,439.90"
+                  "Expenditure": "25,653.35",
+                  "Excess Expenditure (>10 crore)": "6,439.90"
                 }
               ],
             "Table7": [
                 {
-                  "Sl No": "",
+                  "Sl. No.": "Unnecessary Re-appropriation of funds",
                   "Grant No": "",
                   "Head of Account": "",
-                  "": "",
                   "Budget including supplementary": "",
-                  "Re-appropriation (>5 crore)": "(+)",
+                  "Re-appropriation (>5 crore) (+)": "",
                   "Total": "",
                   "Expenditure": "",
-                  "Savings": "(> 5 crore)"
+                  "Savings (> 5 crore)(-)": ""
                 },
                 {
-                  "Sl No": "",
-                  "Grant No": "",
-                  "Head of Account": "",
-                  "": "",
-                  "Budget including supplementary": "",
-                  "Re-appropriation (>5 crore)": "",
-                  "Total": "",
-                  "Expenditure": "",
-                  "Savings": "(-)"
-                },
-                {
-                  "Sl No": 1,
+                  "Sl. No.": 1,
                   "Grant No": 5,
                   "Head of Account": "2055-00-109-1-01-014",
-                  "": "",
                   "Budget including supplementary": 742.61,
-                  "Re-appropriation (>5 crore)": 21.51,
+                  "Re-appropriation (>5 crore) (+)": 21.51,
                   "Total": 764.12,
                   "Expenditure": 730.2,
-                  "Savings": 33.92
+                  "Savings (> 5 crore)(-)": 33.92
                 },
                 {
-                  "Sl No": "",
+                  "Sl. No.": "",
                   "Grant No": "",
                   "Head of Account": "Other Allowances",
-                  "": "",
                   "Budget including supplementary": "",
-                  "Re-appropriation (>5 crore)": "",
+                  "Re-appropriation (>5 crore) (+)": "",
                   "Total": "",
                   "Expenditure": "",
-                  "Savings": ""
+                  "Savings (> 5 crore)(-)": ""
                 },
                 {
-                  "Sl No": 2,
+                  "Sl. No.": 2,
                   "Grant No": "",
                   "Head of Account": "2055-00-109-1-01-195",
-                  "": "",
                   "Budget including supplementary": 192,
-                  "Re-appropriation (>5 crore)": 9.5,
+                  "Re-appropriation (>5 crore) (+)": 9.5,
                   "Total": 201.5,
                   "Expenditure": 181.24,
-                  "Savings": 20.26
+                  "Savings (> 5 crore)(-)": 20.26
                 },
                 {
-                  "Sl No": "",
+                  "Sl. No.": "",
                   "Grant No": "",
                   "Head of Account": "Transport Expenses",
-                  "": "",
                   "Budget including supplementary": "",
-                  "Re-appropriation (>5 crore)": "",
+                  "Re-appropriation (>5 crore) (+)": "",
                   "Total": "",
                   "Expenditure": "",
-                  "Savings": ""
+                  "Savings (> 5 crore)(-)": ""
                 },
                 {
-                  "Sl No": 3,
+                  "Sl. No.": 3,
                   "Grant No": 7,
                   "Head of Account": "2515-00-196-1-05-300",
-                  "": "",
                   "Budget including supplementary": 203.1,
-                  "Re-appropriation (>5 crore)": 50,
+                  "Re-appropriation (>5 crore) (+)": 50,
                   "Total": 253.1,
                   "Expenditure": 180.62,
-                  "Savings": 72.48
+                  "Savings (> 5 crore)(-)": 72.48
                 },
                 {
-                  "Sl No": "",
+                  "Sl. No.": "",
                   "Grant No": "",
                   "Head of Account": "Lump sum for Zilla Panchayath",
-                  "": "",
                   "Budget including supplementary": "",
-                  "Re-appropriation (>5 crore)": "",
+                  "Re-appropriation (>5 crore) (+)": "",
                   "Total": "",
                   "Expenditure": "",
-                  "Savings": ""
+                  "Savings (> 5 crore)(-)": ""
                 },
                 {
-                  "Sl No": 4,
+                  "Sl. No.": 4,
                   "Grant No": 10,
                   "Head of Account": "2225-01-196-1-01-300",
-                  "": "",
                   "Budget including supplementary": 0.01,
-                  "Re-appropriation (>5 crore)": 56.08,
+                  "Re-appropriation (>5 crore) (+)": 56.08,
                   "Total": 56.09,
                   "Expenditure": 0,
-                  "Savings": 56.09
+                  "Savings (> 5 crore)(-)": 56.09
                 },
                 {
-                  "Sl No": "",
+                  "Sl. No.": "",
                   "Grant No": "",
                   "Head of Account": "Lump sum for Zilla Panchayath",
-                  "": "",
                   "Budget including supplementary": "",
-                  "Re-appropriation (>5 crore)": "",
+                  "Re-appropriation (>5 crore) (+)": "",
                   "Total": "",
                   "Expenditure": "",
-                  "Savings": ""
+                  "Savings (> 5 crore)(-)": ""
                 },
                 {
-                  "Sl No": 5,
+                  "Sl. No.": 5,
                   "Grant No": "",
                   "Head of Account": "2225-01-197-1-01-300",
-                  "": "",
                   "Budget including supplementary": 0.01,
-                  "Re-appropriation (>5 crore)": 28.2,
+                  "Re-appropriation (>5 crore) (+)": 28.2,
                   "Total": 28.21,
                   "Expenditure": 0,
-                  "Savings": 28.21
+                  "Savings (> 5 crore)(-)": 28.21
                 },
                 {
-                  "Sl No": "",
+                  "Sl. No.": "",
                   "Grant No": "",
                   "Head of Account": "Lump sum for Zilla Panchayath",
-                  "": "",
                   "Budget including supplementary": "",
-                  "Re-appropriation (>5 crore)": "",
+                  "Re-appropriation (>5 crore) (+)": "",
                   "Total": "",
                   "Expenditure": "",
-                  "Savings": ""
+                  "Savings (> 5 crore)(-)": ""
                 },
                 {
-                  "Sl No": 6,
+                  "Sl. No.": 6,
                   "Grant No": 11,
                   "Head of Account": "2235-02-102-0-52-059",
-                  "": "",
                   "Budget including supplementary": 36.51,
-                  "Re-appropriation (>5 crore)": 51.11,
+                  "Re-appropriation (>5 crore) (+)": 51.11,
                   "Total": 87.62,
                   "Expenditure": 4.34,
-                  "Savings": 83.28
+                  "Savings (> 5 crore)(-)": 83.28
                 },
                 {
-                  "Sl No": "",
+                  "Sl. No.": "",
                   "Grant No": "",
                   "Head of Account": "Other Expenses",
-                  "": "",
                   "Budget including supplementary": "",
-                  "Re-appropriation (>5 crore)": "",
+                  "Re-appropriation (>5 crore) (+)": "",
                   "Total": "",
                   "Expenditure": "",
-                  "Savings": ""
+                  "Savings (> 5 crore)(-)": ""
                 },
                 {
-                  "Sl No": 7,
+                  "Sl. No.": 7,
                   "Grant No": "",
                   "Head of Account": "2235-02-102-0-53-059",
-                  "": "",
                   "Budget including supplementary": 27.28,
-                  "Re-appropriation (>5 crore)": 32.4,
+                  "Re-appropriation (>5 crore) (+)": 32.4,
                   "Total": 59.68,
                   "Expenditure": 1.72,
-                  "Savings": 57.96
+                  "Savings (> 5 crore)(-)": 57.96
                 },
                 {
-                  "Sl No": "",
+                  "Sl. No.": "",
                   "Grant No": "",
                   "Head of Account": "Other Expenses",
-                  "": "",
                   "Budget including supplementary": "",
-                  "Re-appropriation (>5 crore)": "",
+                  "Re-appropriation (>5 crore) (+)": "",
                   "Total": "",
                   "Expenditure": "",
-                  "Savings": ""
+                  "Savings (> 5 crore)(-)": ""
                 },
                 {
-                  "Sl No": 8,
+                  "Sl. No.": 8,
                   "Grant No": 17,
                   "Head of Account": "2202-03-102-0-31-101",
-                  "": "",
                   "Budget including supplementary": 26.7,
-                  "Re-appropriation (>5 crore)": 6.91,
+                  "Re-appropriation (>5 crore) (+)": 6.91,
                   "Total": 33.61,
                   "Expenditure": 25.97,
-                  "Savings": 7.64
+                  "Savings (> 5 crore)(-)": 7.64
                 },
                 {
-                  "Sl No": "",
+                  "Sl. No.": "",
                   "Grant No": "",
                   "Head of Account": "GIA – Salaries",
-                  "": "",
                   "Budget including supplementary": "",
-                  "Re-appropriation (>5 crore)": "",
+                  "Re-appropriation (>5 crore) (+)": "",
                   "Total": "",
                   "Expenditure": "",
-                  "Savings": ""
+                  "Savings (> 5 crore)(-)": ""
                 },
                 {
-                  "Sl No": 9,
+                  "Sl. No.": 9,
                   "Grant No": 19,
                   "Head of Account": "3604-00-191-1-51-051",
-                  "": "",
                   "Budget including supplementary": 64.5,
-                  "Re-appropriation (>5 crore)": 7.12,
+                  "Re-appropriation (>5 crore) (+)": 7.12,
                   "Total": 71.62,
                   "Expenditure": 36.12,
-                  "Savings": 35.5
+                  "Savings (> 5 crore)(-)": 35.5
                 },
                 {
-                  "Sl No": "",
+                  "Sl. No.": "",
                   "Grant No": "",
                   "Head of Account": "General Expenses",
-                  "": "",
                   "Budget including supplementary": "",
-                  "Re-appropriation (>5 crore)": "",
+                  "Re-appropriation (>5 crore) (+)": "",
                   "Total": "",
                   "Expenditure": "",
-                  "Savings": ""
+                  "Savings (> 5 crore)(-)": ""
                 },
                 {
-                  "Sl No": 10,
+                  "Sl. No.": 10,
                   "Grant No": 22,
                   "Head of Account": "2210-80-101-0-01-422",
-                  "": "",
                   "Budget including supplementary": 173.22,
-                  "Re-appropriation (>5 crore)": 15.42,
+                  "Re-appropriation (>5 crore) (+)": 15.42,
                   "Total": 188.64,
                   "Expenditure": 145.33,
-                  "Savings": 43.31
+                  "Savings (> 5 crore)(-)": 43.31
                 },
                 {
-                  "Sl No": "",
+                  "Sl. No.": "",
                   "Grant No": "",
                   "Head of Account": "SCSP",
-                  "": "",
                   "Budget including supplementary": "",
-                  "Re-appropriation (>5 crore)": "",
+                  "Re-appropriation (>5 crore) (+)": "",
                   "Total": "",
                   "Expenditure": "",
-                  "Savings": ""
+                  "Savings (> 5 crore)(-)": ""
                 },
                 {
-                  "Sl No": 11,
+                  "Sl. No.": 11,
                   "Grant No": "",
                   "Head of Account": "2210-80-101-0-01-423",
-                  "": "",
                   "Budget including supplementary": 70.2,
-                  "Re-appropriation (>5 crore)": 7.63,
+                  "Re-appropriation (>5 crore) (+)": 7.63,
                   "Total": 77.83,
                   "Expenditure": 60.28,
-                  "Savings": 17.55
+                  "Savings (> 5 crore)(-)": 17.55
                 },
                 {
-                  "Sl No": "",
+                  "Sl. No.": "",
                   "Grant No": "",
                   "Head of Account": "TSP",
-                  "": "",
                   "Budget including supplementary": "",
-                  "Re-appropriation (>5 crore)": "",
+                  "Re-appropriation (>5 crore) (+)": "",
                   "Total": "",
                   "Expenditure": "",
-                  "Savings": ""
+                  "Savings (> 5 crore)(-)": ""
                 },
                 {
-                  "Sl No": "Total",
+                  "Sl. No.": "Total",
                   "Grant No": "",
                   "Head of Account": "",
-                  "": "",
                   "Budget including supplementary": "1,536.14",
-                  "Re-appropriation (>5 crore)": 285.88,
+                  "Re-appropriation (>5 crore) (+)": 285.88,
                   "Total": "1,822.02",
                   "Expenditure": "1,365.82",
-                  "Savings": 456.2
+                  "Savings (> 5 crore)(-)": 456.2
                 },
                 {
-                  "Sl No": "Excessive re-appropriation resulting in savings",
+                  "Sl. No.": "Excessive re-appropriation resulting in savings",
                   "Grant No": "",
                   "Head of Account": "",
-                  "": "",
                   "Budget including supplementary": "",
-                  "Re-appropriation (>5 crore)": "",
+                  "Re-appropriation (>5 crore) (+)": "",
                   "Total": "",
                   "Expenditure": "",
-                  "Savings": ""
+                  "Savings (> 5 crore)(-)": ""
                 },
                 {
-                  "Sl No": "Sl No",
+                  "Sl. No.": "Sl. No.",
                   "Grant No": "Grant",
                   "Head of Account": "HOA",
-                  "": "",
                   "Budget including supplementary": "Budget including Supplementary",
-                  "Re-appropriation (>5 crore)": "Re-appropriation (> ₹5 crore)",
+                  "Re-appropriation (>5 crore) (+)": "Re-appropriation (> ₹5 crore) (+)",
                   "Total": "Total",
                   "Expenditure": "Expendi",
-                  "Savings": "Savings"
+                  "Savings (> 5 crore)(-)": "Savings"
                 },
                 {
-                  "Sl No": "",
+                  "Sl. No.": "",
                   "Grant No": "No.",
                   "Head of Account": "",
-                  "": "",
                   "Budget including supplementary": "",
-                  "Re-appropriation (>5 crore)": "(+)",
+                  "Re-appropriation (>5 crore) (+)": "",
                   "Total": "",
                   "Expenditure": "ture",
-                  "Savings": "(>₹5 crore)"
+                  "Savings (> 5 crore)(-)": "(>₹5 crore)"
                 },
                 {
-                  "Sl No": "",
+                  "Sl. No.": "",
                   "Grant No": "",
                   "Head of Account": "",
-                  "": "",
                   "Budget including supplementary": "",
-                  "Re-appropriation (>5 crore)": "",
+                  "Re-appropriation (>5 crore) (+)": "",
                   "Total": "",
                   "Expenditure": "",
-                  "Savings": "(-)"
+                  "Savings (> 5 crore)(-)": "(-)"
                 },
                 {
-                  "Sl No": 1,
+                  "Sl. No.": 1,
                   "Grant No": 1,
                   "Head of Account": "2401-00-110-0-07-422",
-                  "": "",
                   "Budget including supplementary": 100,
-                  "Re-appropriation (>5 crore)": 200,
+                  "Re-appropriation (>5 crore) (+)": 200,
                   "Total": 300,
                   "Expenditure": 265,
-                  "Savings": 35
+                  "Savings (> 5 crore)(-)": 35
                 },
                 {
-                  "Sl No": "",
+                  "Sl. No.": "",
                   "Grant No": "",
                   "Head of Account": "SCSP",
-                  "": "",
                   "Budget including supplementary": "",
-                  "Re-appropriation (>5 crore)": "",
+                  "Re-appropriation (>5 crore) (+)": "",
                   "Total": "",
                   "Expenditure": "",
-                  "Savings": ""
+                  "Savings (> 5 crore)(-)": ""
                 },
                 {
-                  "Sl No": 2,
+                  "Sl. No.": 2,
                   "Grant No": "",
                   "Head of Account": "2401-00-110-0-07-423",
-                  "": "",
                   "Budget including supplementary": 50,
-                  "Re-appropriation (>5 crore)": 76.9,
+                  "Re-appropriation (>5 crore) (+)": 76.9,
                   "Total": 126.9,
                   "Expenditure": 111.9,
-                  "Savings": 15
+                  "Savings (> 5 crore)(-)": 15
                 },
                 {
-                  "Sl No": "",
+                  "Sl. No.": "",
                   "Grant No": "",
                   "Head of Account": "TSP",
-                  "": "",
                   "Budget including supplementary": "",
-                  "Re-appropriation (>5 crore)": "",
+                  "Re-appropriation (>5 crore) (+)": "",
                   "Total": "",
                   "Expenditure": "",
-                  "Savings": ""
+                  "Savings (> 5 crore)(-)": ""
                 },
                 {
-                  "Sl No": 3,
+                  "Sl. No.": 3,
                   "Grant No": 5,
                   "Head of Account": "2070-00-108-1-01-003",
-                  "": "",
                   "Budget including supplementary": 193.02,
-                  "Re-appropriation (>5 crore)": 10.35,
+                  "Re-appropriation (>5 crore) (+)": 10.35,
                   "Total": 203.37,
                   "Expenditure": 198.25,
-                  "Savings": 5.12
+                  "Savings (> 5 crore)(-)": 5.12
                 },
                 {
-                  "Sl No": "",
+                  "Sl. No.": "",
                   "Grant No": "",
                   "Head of Account": "Pay of Staff",
-                  "": "",
                   "Budget including supplementary": "",
-                  "Re-appropriation (>5 crore)": "",
+                  "Re-appropriation (>5 crore) (+)": "",
                   "Total": "",
                   "Expenditure": "",
-                  "Savings": ""
+                  "Savings (> 5 crore)(-)": ""
                 },
                 {
-                  "Sl No": 4,
+                  "Sl. No.": 4,
                   "Grant No": 7,
                   "Head of Account": "2515-00-198-1-11-300",
-                  "": "",
                   "Budget including supplementary": 136.94,
-                  "Re-appropriation (>5 crore)": 35.98,
+                  "Re-appropriation (>5 crore) (+)": 35.98,
                   "Total": 172.92,
                   "Expenditure": 162.3,
-                  "Savings": 10.62
+                  "Savings (> 5 crore)(-)": 10.62
                 },
                 {
-                  "Sl No": "",
+                  "Sl. No.": "",
                   "Grant No": "",
                   "Head of Account": "Lump sum for Zilla Panchayath",
-                  "": "",
                   "Budget including supplementary": "",
-                  "Re-appropriation (>5 crore)": "",
+                  "Re-appropriation (>5 crore) (+)": "",
                   "Total": "",
                   "Expenditure": "",
-                  "Savings": ""
+                  "Savings (> 5 crore)(-)": ""
                 },
                 {
-                  "Sl No": 5,
+                  "Sl. No.": 5,
                   "Grant No": 14,
                   "Head of Account": "2030-03-001-1-00-071",
-                  "": "",
                   "Budget including supplementary": 15,
-                  "Re-appropriation (>5 crore)": 11.16,
+                  "Re-appropriation (>5 crore) (+)": 11.16,
                   "Total": 26.16,
                   "Expenditure": 20.96,
-                  "Savings": 5.2
+                  "Savings (> 5 crore)(-)": 5.2
                 },
                 {
-                  "Sl No": "",
+                  "Sl. No.": "",
                   "Grant No": "",
                   "Head of Account": "Building Expenses",
-                  "": "",
                   "Budget including supplementary": "",
-                  "Re-appropriation (>5 crore)": "",
+                  "Re-appropriation (>5 crore) (+)": "",
                   "Total": "",
                   "Expenditure": "",
-                  "Savings": ""
+                  "Savings (> 5 crore)(-)": ""
                 },
                 {
-                  "Sl No": 6,
+                  "Sl. No.": 6,
                   "Grant No": 19,
                   "Head of Account": "2217-05-191-1-16-059",
-                  "": "",
                   "Budget including supplementary": 49,
-                  "Re-appropriation (>5 crore)": 74,
+                  "Re-appropriation (>5 crore) (+)": 74,
                   "Total": 123,
                   "Expenditure": 98,
-                  "Savings": 25
+                  "Savings (> 5 crore)(-)": 25
                 },
                 {
-                  "Sl No": "",
+                  "Sl. No.": "",
                   "Grant No": "",
                   "Head of Account": "Other Expenses",
-                  "": "",
                   "Budget including supplementary": "",
-                  "Re-appropriation (>5 crore)": "",
+                  "Re-appropriation (>5 crore) (+)": "",
                   "Total": "",
                   "Expenditure": "",
-                  "Savings": ""
+                  "Savings (> 5 crore)(-)": ""
                 },
                 {
-                  "Sl No": 7,
+                  "Sl. No.": 7,
                   "Grant No": "",
                   "Head of Account": "2217-05-191-1-18-059",
-                  "": "",
                   "Budget including supplementary": 49,
-                  "Re-appropriation (>5 crore)": 70,
+                  "Re-appropriation (>5 crore) (+)": 70,
                   "Total": 119,
                   "Expenditure": 98,
-                  "Savings": 21
+                  "Savings (> 5 crore)(-)": 21
                 },
                 {
-                  "Sl No": "",
+                  "Sl. No.": "",
                   "Grant No": "",
                   "Head of Account": "Other Expenses",
-                  "": "",
                   "Budget including supplementary": "",
-                  "Re-appropriation (>5 crore)": "",
+                  "Re-appropriation (>5 crore) (+)": "",
                   "Total": "",
                   "Expenditure": "",
-                  "Savings": ""
+                  "Savings (> 5 crore)(-)": ""
                 },
                 {
-                  "Sl No": 8,
+                  "Sl. No.": 8,
                   "Grant No": "",
                   "Head of Account": "2217-05-191-1-23-059",
-                  "": "",
                   "Budget including supplementary": 0.1,
-                  "Re-appropriation (>5 crore)": 70,
+                  "Re-appropriation (>5 crore) (+)": 70,
                   "Total": 70.1,
                   "Expenditure": 49,
-                  "Savings": 21.1
+                  "Savings (> 5 crore)(-)": 21.1
                 },
                 {
-                  "Sl No": "",
+                  "Sl. No.": "",
                   "Grant No": "",
                   "Head of Account": "Other Expenses",
-                  "": "",
                   "Budget including supplementary": "",
-                  "Re-appropriation (>5 crore)": "",
+                  "Re-appropriation (>5 crore) (+)": "",
                   "Total": "",
                   "Expenditure": "",
-                  "Savings": ""
+                  "Savings (> 5 crore)(-)": ""
                 },
                 {
-                  "Sl No": 9,
+                  "Sl. No.": 9,
                   "Grant No": 22,
                   "Head of Account": "2210-01-110-1-22-034",
-                  "": "",
                   "Budget including supplementary": 72.66,
-                  "Re-appropriation (>5 crore)": 144.4,
+                  "Re-appropriation (>5 crore) (+)": 144.4,
                   "Total": 217.06,
                   "Expenditure": 175.56,
-                  "Savings": 41.5
+                  "Savings (> 5 crore)(-)": 41.5
                 },
                 {
-                  "Sl No": "",
+                  "Sl. No.": "",
                   "Grant No": "",
                   "Head of Account": "Contract/Outsource",
-                  "": "",
                   "Budget including supplementary": "",
-                  "Re-appropriation (>5 crore)": "",
+                  "Re-appropriation (>5 crore) (+)": "",
                   "Total": "",
                   "Expenditure": "",
-                  "Savings": ""
+                  "Savings (> 5 crore)(-)": ""
                 },
                 {
-                  "Sl No": 10,
+                  "Sl. No.": 10,
                   "Grant No": "",
                   "Head of Account": "2210-05-105-1-65-101",
-                  "": "",
                   "Budget including supplementary": 39.59,
-                  "Re-appropriation (>5 crore)": 7.05,
+                  "Re-appropriation (>5 crore) (+)": 7.05,
                   "Total": 46.64,
                   "Expenditure": 41.26,
-                  "Savings": 5.38
+                  "Savings (> 5 crore)(-)": 5.38
                 },
                 {
-                  "Sl No": "",
+                  "Sl. No.": "",
                   "Grant No": "",
                   "Head of Account": "GIA – Salaries",
-                  "": "",
                   "Budget including supplementary": "",
-                  "Re-appropriation (>5 crore)": "",
+                  "Re-appropriation (>5 crore) (+)": "",
                   "Total": "",
                   "Expenditure": "",
-                  "Savings": ""
+                  "Savings (> 5 crore)(-)": ""
                 },
                 {
-                  "Sl No": "Total",
+                  "Sl. No.": "Total",
                   "Grant No": "",
                   "Head of Account": "",
-                  "": "",
                   "Budget including supplementary": 705.31,
-                  "Re-appropriation (>5 crore)": 699.84,
+                  "Re-appropriation (>5 crore) (+)": 699.84,
                   "Total": "1,405.15",
                   "Expenditure": "1,220.23",
-                  "Savings": 184.92
+                  "Savings (> 5 crore)(-)": 184.92
                 },
                 {
-                  "Sl No": "Inadequate re-appropriation",
+                  "Sl. No.": "Inadequate Re-appropriation",
                   "Grant No": "",
                   "Head of Account": "",
-                  "": "",
                   "Budget including supplementary": "",
-                  "Re-appropriation (>5 crore)": "",
+                  "Re-appropriation (>5 crore) (+)": "",
                   "Total": "",
                   "Expenditure": "",
-                  "Savings": ""
+                  "Savings (> 5 crore)(-)": ""
                 },
                 {
-                  "Sl No": "Sl No",
+                  "Sl. No.": "Sl. No.",
                   "Grant No": "Grant No",
                   "Head of Account": "HOA",
-                  "": "",
                   "Budget including supplementary": "Budget including supplementary",
-                  "Re-appropriation (>5 crore)": "Re-appropria",
-                  "Total": "Total",
+                  "Re-appropriation (>5 crore) (+)": "Re-appropria",
+                  "Total": "",
                   "Expenditure": "Expendi",
-                  "Savings": "Excess"
+                  "Savings (> 5 crore)(-)": "Excess"
                 },
                 {
-                  "Sl No": "",
+                  "Sl. No.": "",
                   "Grant No": "",
                   "Head of Account": "",
-                  "": "",
                   "Budget including supplementary": "",
-                  "Re-appropriation (>5 crore)": "tion",
+                  "Re-appropriation (>5 crore) (+)": "tion",
                   "Total": "",
                   "Expenditure": "ture",
-                  "Savings": "(>₹5 crore)"
+                  "Savings (> 5 crore)(-)": "(>₹5 crore)"
                 },
                 {
-                  "Sl No": "",
+                  "Sl. No.": "",
                   "Grant No": "",
                   "Head of Account": "",
-                  "": "",
                   "Budget including supplementary": "",
-                  "Re-appropriation (>5 crore)": "(>₹5 crore)",
+                  "Re-appropriation (>5 crore) (+)": "(>₹5 crore)",
                   "Total": "",
                   "Expenditure": "",
-                  "Savings": "(+)"
+                  "Savings (> 5 crore)(-)": "(+)"
                 },
                 {
-                  "Sl No": "",
+                  "Sl. No.": "",
                   "Grant No": "",
                   "Head of Account": "",
-                  "": "",
                   "Budget including supplementary": "",
-                  "Re-appropriation (>5 crore)": "(+)",
+                  "Re-appropriation (>5 crore) (+)": "(+)",
                   "Total": "",
                   "Expenditure": "",
-                  "Savings": ""
+                  "Savings (> 5 crore)(-)": ""
                 },
                 {
-                  "Sl No": 1,
+                  "Sl. No.": 1,
                   "Grant No": 1,
                   "Head of Account": "2401-00-108-2-58-106",
-                  "": "",
                   "Budget including supplementary": 96.9,
-                  "Re-appropriation (>5 crore)": 87.7,
+                  "Re-appropriation (>5 crore) (+)": 87.7,
                   "Total": 184.6,
                   "Expenditure": 260.17,
-                  "Savings": 75.57
+                  "Savings (> 5 crore)(-)": 75.57
                 },
                 {
-                  "Sl No": "",
+                  "Sl. No.": "",
                   "Grant No": "",
                   "Head of Account": "Subsidies",
-                  "": "",
                   "Budget including supplementary": "",
-                  "Re-appropriation (>5 crore)": "",
+                  "Re-appropriation (>5 crore) (+)": "",
                   "Total": "",
                   "Expenditure": "",
-                  "Savings": ""
+                  "Savings (> 5 crore)(-)": ""
                 },
                 {
-                  "Sl No": 2,
+                  "Sl. No.": 2,
                   "Grant No": "",
                   "Head of Account": "2401-00-108-2-58-422",
-                  "": "",
                   "Budget including supplementary": 22.64,
-                  "Re-appropriation (>5 crore)": 26.26,
+                  "Re-appropriation (>5 crore) (+)": 26.26,
                   "Total": 48.9,
                   "Expenditure": 67.92,
-                  "Savings": 19.02
+                  "Savings (> 5 crore)(-)": 19.02
                 },
                 {
-                  "Sl No": "",
+                  "Sl. No.": "",
                   "Grant No": "",
                   "Head of Account": "SCSP",
-                  "": "",
                   "Budget including supplementary": "",
-                  "Re-appropriation (>5 crore)": "",
+                  "Re-appropriation (>5 crore) (+)": "",
                   "Total": "",
                   "Expenditure": "",
-                  "Savings": ""
+                  "Savings (> 5 crore)(-)": ""
                 },
                 {
-                  "Sl No": "Total",
+                  "Sl. No.": "Total",
                   "Grant No": "",
                   "Head of Account": "",
-                  "": "",
                   "Budget including supplementary": 119.54,
-                  "Re-appropriation (>5 crore)": 113.96,
+                  "Re-appropriation (>5 crore) (+)": 113.96,
                   "Total": 233.5,
                   "Expenditure": 328.09,
-                  "Savings": 94.59
+                  "Savings (> 5 crore)(-)": 94.59
                 },
                 {
-                  "Sl No": "Injudicious re-appropriation",
+                  "Sl. No.": "Injudicious Re-appropriation",
                   "Grant No": "",
                   "Head of Account": "",
-                  "": "",
                   "Budget including supplementary": "",
-                  "Re-appropriation (>5 crore)": "",
+                  "Re-appropriation (>5 crore) (+)": "",
                   "Total": "",
                   "Expenditure": "",
-                  "Savings": ""
+                  "Savings (> 5 crore)(-)": ""
                 },
                 {
-                  "Sl No": "Sl No",
+                  "Sl. No.": "Sl. No.",
                   "Grant No": "Grant No",
                   "Head of Account": "Head of Account",
-                  "": "",
                   "Budget including supplementary": "Budget including supplementary",
-                  "Re-appropriation (>5 crore)": "Re-appropriation (>5 crore)",
-                  "Total": "Total",
+                  "Re-appropriation (>5 crore) (+)": "Re-appropriation (>5 crore)",
+                  "Total": "",
                   "Expenditure": "Expenditure",
-                  "Savings": "Excess"
+                  "Savings (> 5 crore)(-)": "Excess"
                 },
                 {
-                  "Sl No": "",
+                  "Sl. No.": "",
                   "Grant No": "",
                   "Head of Account": "",
-                  "": "",
                   "Budget including supplementary": "",
-                  "Re-appropriation (>5 crore)": "(-)",
+                  "Re-appropriation (>5 crore) (+)": "(-)",
                   "Total": "",
                   "Expenditure": "",
-                  "Savings": "(>5 crore) (+)"
+                  "Savings (> 5 crore)(-)": "(>5 crore) (+)"
                 },
                 {
-                  "Sl No": 1,
+                  "Sl. No.": 1,
                   "Grant No": 3,
                   "Head of Account": "2071-01-104-2-03-251",
-                  "": "",
                   "Budget including supplementary": "1,760.91",
-                  "Re-appropriation (>5 crore)": 64.77,
+                  "Re-appropriation (>5 crore) (+)": 64.77,
                   "Total": "1,696.14",
                   "Expenditure": "1,796.14",
-                  "Savings": 100
+                  "Savings (> 5 crore)(-)": 100
                 },
                 {
-                  "Sl No": "",
+                  "Sl. No.": "",
                   "Grant No": "",
                   "Head of Account": "Pensions",
-                  "": "",
                   "Budget including supplementary": "",
-                  "Re-appropriation (>5 crore)": "",
+                  "Re-appropriation (>5 crore) (+)": "",
                   "Total": "",
                   "Expenditure": "",
-                  "Savings": ""
+                  "Savings (> 5 crore)(-)": ""
                 },
                 {
-                  "Sl No": 2,
+                  "Sl. No.": 2,
                   "Grant No": "",
                   "Head of Account": "2071-01-105-3-01-251",
-                  "": "",
                   "Budget including supplementary": "3,122.90",
-                  "Re-appropriation (>5 crore)": 7.38,
+                  "Re-appropriation (>5 crore) (+)": 7.38,
                   "Total": "3,115.52",
                   "Expenditure": "4,034.14",
-                  "Savings": 918.62
+                  "Savings (> 5 crore)(-)": 918.62
                 },
                 {
-                  "Sl No": "",
+                  "Sl. No.": "",
                   "Grant No": "",
                   "Head of Account": "Pensions",
-                  "": "",
                   "Budget including supplementary": "",
-                  "Re-appropriation (>5 crore)": "",
+                  "Re-appropriation (>5 crore) (+)": "",
                   "Total": "",
                   "Expenditure": "",
-                  "Savings": ""
+                  "Savings (> 5 crore)(-)": ""
                 },
                 {
-                  "Sl No": 3,
+                  "Sl. No.": 3,
                   "Grant No": "",
                   "Head of Account": "2071-01-110-1-01-251",
-                  "": "",
                   "Budget including supplementary": 190,
-                  "Re-appropriation (>5 crore)": 25.4,
+                  "Re-appropriation (>5 crore) (+)": 25.4,
                   "Total": 164.6,
                   "Expenditure": 201.24,
-                  "Savings": 36.64
+                  "Savings (> 5 crore)(-)": 36.64
                 },
                 {
-                  "Sl No": "",
+                  "Sl. No.": "",
                   "Grant No": "",
                   "Head of Account": "Pensions",
-                  "": "",
                   "Budget including supplementary": "",
-                  "Re-appropriation (>5 crore)": "",
+                  "Re-appropriation (>5 crore) (+)": "",
                   "Total": "",
                   "Expenditure": "",
-                  "Savings": ""
+                  "Savings (> 5 crore)(-)": ""
                 },
                 {
-                  "Sl No": 4,
+                  "Sl. No.": 4,
                   "Grant No": "",
                   "Head of Account": "2071-01-110-1-02-251",
-                  "": "",
                   "Budget including supplementary": 40,
-                  "Re-appropriation (>5 crore)": 5.97,
+                  "Re-appropriation (>5 crore) (+)": 5.97,
                   "Total": 34.03,
                   "Expenditure": 42.07,
-                  "Savings": 8.04
+                  "Savings (> 5 crore)(-)": 8.04
                 },
                 {
-                  "Sl No": "",
+                  "Sl. No.": "",
                   "Grant No": "",
                   "Head of Account": "Pensions",
-                  "": "",
                   "Budget including supplementary": "",
-                  "Re-appropriation (>5 crore)": "",
+                  "Re-appropriation (>5 crore) (+)": "",
                   "Total": "",
                   "Expenditure": "",
-                  "Savings": ""
+                  "Savings (> 5 crore)(-)": ""
                 },
                 {
-                  "Sl No": 5,
+                  "Sl. No.": 5,
                   "Grant No": "",
                   "Head of Account": "2071-01-110-1-03-251",
-                  "": "",
                   "Budget including supplementary": 45,
-                  "Re-appropriation (>5 crore)": 7.14,
+                  "Re-appropriation (>5 crore) (+)": 7.14,
                   "Total": 37.86,
                   "Expenditure": 46.34,
-                  "Savings": 8.48
+                  "Savings (> 5 crore)(-)": 8.48
                 },
                 {
-                  "Sl No": "",
+                  "Sl. No.": "",
                   "Grant No": "",
                   "Head of Account": "Pensions",
-                  "": "",
                   "Budget including supplementary": "",
-                  "Re-appropriation (>5 crore)": "",
+                  "Re-appropriation (>5 crore) (+)": "",
                   "Total": "",
                   "Expenditure": "",
-                  "Savings": ""
+                  "Savings (> 5 crore)(-)": ""
                 },
                 {
-                  "Sl No": 6,
+                  "Sl. No.": 6,
                   "Grant No": "",
                   "Head of Account": "2071-01-110-1-04-251",
-                  "": "",
                   "Budget including supplementary": 150,
-                  "Re-appropriation (>5 crore)": 13.97,
+                  "Re-appropriation (>5 crore) (+)": 13.97,
                   "Total": 136.03,
                   "Expenditure": 166.07,
-                  "Savings": 30.04
+                  "Savings (> 5 crore)(-)": 30.04
                 },
                 {
-                  "Sl No": "",
+                  "Sl. No.": "",
                   "Grant No": "",
                   "Head of Account": "Pensions",
-                  "": "",
                   "Budget including supplementary": "",
-                  "Re-appropriation (>5 crore)": "",
+                  "Re-appropriation (>5 crore) (+)": "",
                   "Total": "",
                   "Expenditure": "",
-                  "Savings": ""
+                  "Savings (> 5 crore)(-)": ""
                 },
                 {
-                  "Sl No": 7,
+                  "Sl. No.": 7,
                   "Grant No": "",
                   "Head of Account": "2071-01-117-0-01-251",
-                  "": "",
                   "Budget including supplementary": "1,817.75",
-                  "Re-appropriation (>5 crore)": 13.78,
+                  "Re-appropriation (>5 crore) (+)": 13.78,
                   "Total": "1,803.97",
                   "Expenditure": "1,868.97",
-                  "Savings": 65
+                  "Savings (> 5 crore)(-)": 65
                 },
                 {
-                  "Sl No": "",
+                  "Sl. No.": "",
                   "Grant No": "",
                   "Head of Account": "Pensions",
-                  "": "",
                   "Budget including supplementary": "",
-                  "Re-appropriation (>5 crore)": "",
+                  "Re-appropriation (>5 crore) (+)": "",
                   "Total": "",
                   "Expenditure": "",
-                  "Savings": ""
+                  "Savings (> 5 crore)(-)": ""
                 },
                 {
-                  "Sl No": 8,
+                  "Sl. No.": 8,
                   "Grant No": 10,
                   "Head of Account": "2225-01-196-1-01-405",
-                  "": "",
                   "Budget including supplementary": 23.07,
-                  "Re-appropriation (>5 crore)": 5.46,
+                  "Re-appropriation (>5 crore) (+)": 5.46,
                   "Total": 17.61,
                   "Expenditure": 23.74,
-                  "Savings": 6.13
+                  "Savings (> 5 crore)(-)": 6.13
                 },
                 {
-                  "Sl No": "",
+                  "Sl. No.": "",
                   "Grant No": "",
-                  "Head of Account": "Shimoga",
-                  "": "",
+                  "Head of Account": "Shivamogga",
                   "Budget including supplementary": "",
-                  "Re-appropriation (>5 crore)": "",
+                  "Re-appropriation (>5 crore) (+)": "",
                   "Total": "",
                   "Expenditure": "",
-                  "Savings": ""
+                  "Savings (> 5 crore)(-)": ""
                 },
                 {
-                  "Sl No": 9,
+                  "Sl. No.": 9,
                   "Grant No": 11,
                   "Head of Account": "2236-02-197-6-01-401",
-                  "": "",
                   "Budget including supplementary": 46.61,
-                  "Re-appropriation (>5 crore)": 10.98,
+                  "Re-appropriation (>5 crore) (+)": 10.98,
                   "Total": 35.63,
                   "Expenditure": 125.46,
-                  "Savings": 89.83
+                  "Savings (> 5 crore)(-)": 89.83
                 },
                 {
-                  "Sl No": "",
+                  "Sl. No.": "",
                   "Grant No": "",
-                  "Head of Account": "Bangalore (Urban)",
-                  "": "",
+                  "Head of Account": "Bengaluru (Urban)",
                   "Budget including supplementary": "",
-                  "Re-appropriation (>5 crore)": "",
+                  "Re-appropriation (>5 crore) (+)": "",
                   "Total": "",
                   "Expenditure": "",
-                  "Savings": ""
+                  "Savings (> 5 crore)(-)": ""
                 },
                 {
-                  "Sl No": 10,
+                  "Sl. No.": 10,
                   "Grant No": "",
                   "Head of Account": "2236-02-197-6-02-401",
-                  "": "",
                   "Budget including supplementary": 46.61,
-                  "Re-appropriation (>5 crore)": 10.98,
+                  "Re-appropriation (>5 crore) (+)": 10.98,
                   "Total": 35.63,
                   "Expenditure": 128.46,
-                  "Savings": 92.83
+                  "Savings (> 5 crore)(-)": 92.83
                 },
                 {
-                  "Sl No": "",
+                  "Sl. No.": "",
                   "Grant No": "",
-                  "Head of Account": "Bangalore (Urban)",
-                  "": "",
+                  "Head of Account": "Bengaluru (Urban)",
                   "Budget including supplementary": "",
-                  "Re-appropriation (>5 crore)": "",
+                  "Re-appropriation (>5 crore) (+)": "",
                   "Total": "",
                   "Expenditure": "",
-                  "Savings": ""
+                  "Savings (> 5 crore)(-)": ""
                 },
                 {
-                  "Sl No": 11,
+                  "Sl. No.": 11,
                   "Grant No": 19,
                   "Head of Account": "2217-05-191-1-25-059",
-                  "": "",
                   "Budget including supplementary": 49,
-                  "Re-appropriation (>5 crore)": 24.84,
+                  "Re-appropriation (>5 crore) (+)": 24.84,
                   "Total": 24.16,
                   "Expenditure": 98,
-                  "Savings": 73.84
+                  "Savings (> 5 crore)(-)": 73.84
                 },
                 {
-                  "Sl No": "",
+                  "Sl. No.": "",
                   "Grant No": "",
                   "Head of Account": "Other Expenses",
-                  "": "",
                   "Budget including supplementary": "",
-                  "Re-appropriation (>5 crore)": "",
+                  "Re-appropriation (>5 crore) (+)": "",
                   "Total": "",
                   "Expenditure": "",
-                  "Savings": ""
+                  "Savings (> 5 crore)(-)": ""
                 },
                 {
-                  "Sl No": 12,
+                  "Sl. No.": 12,
                   "Grant No": 21,
                   "Head of Account": "4702-00-101-5-01-436",
-                  "": "",
                   "Budget including supplementary": 56.6,
-                  "Re-appropriation (>5 crore)": 7.39,
+                  "Re-appropriation (>5 crore) (+)": 7.39,
                   "Total": 49.21,
                   "Expenditure": 104.44,
-                  "Savings": 55.23
+                  "Savings (> 5 crore)(-)": 55.23
                 },
                 {
-                  "Sl No": "",
+                  "Sl. No.": "",
                   "Grant No": "",
                   "Head of Account": "NABARD Works",
-                  "": "",
                   "Budget including supplementary": "",
-                  "Re-appropriation (>5 crore)": "",
+                  "Re-appropriation (>5 crore) (+)": "",
                   "Total": "",
                   "Expenditure": "",
-                  "Savings": ""
+                  "Savings (> 5 crore)(-)": ""
                 },
                 {
-                  "Sl No": 13,
+                  "Sl. No.": 13,
                   "Grant No": 29,
                   "Head of Account": "2049-04-101-0-02-240",
-                  "": "",
                   "Budget including supplementary": 200,
-                  "Re-appropriation (>5 crore)": 30,
+                  "Re-appropriation (>5 crore) (+)": 30,
                   "Total": 170,
                   "Expenditure": 258.68,
-                  "Savings": 88.68
+                  "Savings (> 5 crore)(-)": 88.68
                 },
                 {
-                  "Sl No": "",
+                  "Sl. No.": "",
                   "Grant No": "",
                   "Head of Account": "Debt Servicing",
-                  "": "",
                   "Budget including supplementary": "",
-                  "Re-appropriation (>5 crore)": "",
+                  "Re-appropriation (>5 crore) (+)": "",
                   "Total": "",
                   "Expenditure": "",
-                  "Savings": ""
+                  "Savings (> 5 crore)(-)": ""
                 },
                 {
-                  "Sl No": "Total",
+                  "Sl. No.": "Total",
                   "Grant No": "",
                   "Head of Account": "",
-                  "": "",
                   "Budget including supplementary": "7,548.45",
-                  "Re-appropriation (>5 crore)": 228.06,
+                  "Re-appropriation (>5 crore) (+)": 228.06,
                   "Total": "7,320.39",
                   "Expenditure": "8,893.75",
-                  "Savings": "1,573.36"
+                  "Savings (> 5 crore)(-)": "1,573.36"
                 }
               ],
             "Table8":[
                 {
-                  "Sl.No.": 1,
+                  "Sl. No.": 1,
                   "Grant No.": 2,
                   "Government Order No.": "DOF/TECHO/E-819516",
                   "Date": "07.07.2022",
@@ -42903,7 +42783,7 @@
                   "Reasons for rejection": "Form 22A is not Self Balanced"
                 },
                 {
-                  "Sl.No.": 2,
+                  "Sl. No.": 2,
                   "Grant No.": "",
                   "Government Order No.": "E-232",
                   "Date": "14.12.2022",
@@ -42912,7 +42792,7 @@
                   "Reasons for rejection": ""
                 },
                 {
-                  "Sl.No.": 3,
+                  "Sl. No.": 3,
                   "Grant No.": 4,
                   "Government Order No.": "ATI/Act(1)/Viva/4/22-23",
                   "Date": "01.12.2022",
@@ -42921,34 +42801,34 @@
                   "Reasons for rejection": "Form 22A is not self balanced"
                 },
                 {
-                  "Sl.No.": 4,
+                  "Sl. No.": 4,
                   "Grant No.": "",
                   "Government Order No.": "DPAR(AR)11 EASU 2022(1)",
                   "Date": "06.02.2023",
-                  "Amount": 0.028,
+                  "Amount": 0.03,
                   "Issuing Authority": "The Under Secretary to Government, DPAR (AR-Training & RTI Section), Vidhana Soudha, Bengaluru",
                   "Reasons for rejection": ""
                 },
                 {
-                  "Sl.No.": 5,
+                  "Sl. No.": 5,
                   "Grant No.": "",
                   "Government Order No.": "DPAR(AR) 46 EKA  2022",
                   "Date": "20.02.2023",
-                  "Amount": 0.017,
+                  "Amount": 0.02,
                   "Issuing Authority": "",
                   "Reasons for rejection": ""
                 },
                 {
-                  "Sl.No.": 6,
+                  "Sl. No.": 6,
                   "Grant No.": "",
                   "Government Order No.": "DPAR(AR) 11 EASU 2022",
                   "Date": "03.03.2023",
-                  "Amount": 0.093,
+                  "Amount": 0.09,
                   "Issuing Authority": "",
                   "Reasons for rejection": ""
                 },
                 {
-                  "Sl.No.": 7,
+                  "Sl. No.": 7,
                   "Grant No.": 5,
                   "Government Order No.": "CT/AC1/RA-26/22-23",
                   "Date": "24.01.2023",
@@ -42957,16 +42837,16 @@
                   "Reasons for rejection": "Budget Provision not tallied"
                 },
                 {
-                  "Sl.No.": 8,
+                  "Sl. No.": 8,
                   "Grant No.": "",
                   "Government Order No.": "TC/AC-1/RA-26/22-23",
                   "Date": "08.03.2023",
-                  "Amount": 0.045,
-                  "Issuing Authority": "The Commissioner of Transport, Bengaluru",
+                  "Amount": 0.04,
+                  "Issuing Authority": "",
                   "Reasons for rejection": ""
                 },
                 {
-                  "Sl.No.": 9,
+                  "Sl. No.": 9,
                   "Grant No.": "",
                   "Government Order No.": "TD/48/TDO/23",
                   "Date": "17.03.2023",
@@ -42975,34 +42855,34 @@
                   "Reasons for rejection": ""
                 },
                 {
-                  "Sl.No.": 10,
+                  "Sl. No.": 10,
                   "Grant No.": 7,
                   "Government Order No.": "KPRC/MISC/206/2022",
                   "Date": "14.10.2022",
                   "Amount": 0.05,
                   "Issuing Authority": "The Additional Chief Secretary to Government, Rural Development and Panchayat Raj Department, M.S.Building, Bengaluru",
-                  "Reasons for rejection": "Form 22 A is not self Balanced"
+                  "Reasons for rejection": "Form 22 A is not self balanced"
                 },
                 {
-                  "Sl.No.": 11,
+                  "Sl. No.": 11,
                   "Grant No.": "",
                   "Government Order No.": "RDC/EGS/203/2021",
                   "Date": "14.12.2022",
-                  "Amount": 0.045,
+                  "Amount": 0.04,
                   "Issuing Authority": "The Commissioner, Rural Development and Panchayat Raj Department, M.S.Building, Bengaluru",
                   "Reasons for rejection": ""
                 },
                 {
-                  "Sl.No.": 12,
+                  "Sl. No.": 12,
                   "Grant No.": "",
                   "Government Order No.": "RDC/EGS/203/2021",
                   "Date": "02.02.2023",
                   "Amount": 0.01,
-                  "Issuing Authority": "The Commissioner, Rural Development and Panchayat Raj Department, M.S.Building, Bengaluru",
+                  "Issuing Authority": "",
                   "Reasons for rejection": ""
                 },
                 {
-                  "Sl.No.": 13,
+                  "Sl. No.": 13,
                   "Grant No.": "",
                   "Government Order No.": "RDPR/68/ZPS/2022",
                   "Date": "02.02.2023",
@@ -43011,16 +42891,16 @@
                   "Reasons for rejection": "Insufficient balance"
                 },
                 {
-                  "Sl.No.": 14,
+                  "Sl. No.": 14,
                   "Grant No.": "",
                   "Government Order No.": "SEC/29/ACT/19-20",
                   "Date": "22.02.2023",
                   "Amount": 0.1,
                   "Issuing Authority": "The Secretary, State Election Commission, Ballari Road, Bengaluru",
-                  "Reasons for rejection": "Form 22 A is not self Balanced"
+                  "Reasons for rejection": "Form 22 A is not self balanced"
                 },
                 {
-                  "Sl.No.": 15,
+                  "Sl. No.": 15,
                   "Grant No.": "",
                   "Government Order No.": "RDPR/722/RRC/2022(895795)",
                   "Date": "27.02.2023",
@@ -43029,16 +42909,16 @@
                   "Reasons for rejection": ""
                 },
                 {
-                  "Sl.No.": 16,
+                  "Sl. No.": 16,
                   "Grant No.": "",
                   "Government Order No.": "KPRC/SCM/106/2022",
                   "Date": "16.03.2023",
-                  "Amount": 0.105,
+                  "Amount": 0.1,
                   "Issuing Authority": "The Additional Chief Secretary to Government (Panchayat Raj), Rural Development and Panchayat Raj Department, M.S.Building, Bengaluru",
                   "Reasons for rejection": ""
                 },
                 {
-                  "Sl.No.": 17,
+                  "Sl. No.": 17,
                   "Grant No.": "",
                   "Government Order No.": "RDPR/ACCT ONSG/1/487663 (e-Office)/2021",
                   "Date": "18.03.2023",
@@ -43047,16 +42927,16 @@
                   "Reasons for rejection": ""
                 },
                 {
-                  "Sl.No.": 18,
+                  "Sl. No.": 18,
                   "Grant No.": "",
                   "Government Order No.": "RDPR/ACCT ONSG/1/487663 (e-Office)/2021",
                   "Date": "24.03.2023",
-                  "Amount": 0.262,
+                  "Amount": 0.26,
                   "Issuing Authority": "",
                   "Reasons for rejection": ""
                 },
                 {
-                  "Sl.No.": 19,
+                  "Sl. No.": 19,
                   "Grant No.": "",
                   "Government Order No.": "KPRC/CSM/194/2022",
                   "Date": "27.03.2023",
@@ -43065,34 +42945,34 @@
                   "Reasons for rejection": ""
                 },
                 {
-                  "Sl.No.": 20,
+                  "Sl. No.": 20,
                   "Grant No.": "",
                   "Government Order No.": "KPRC/DEV/526/2021",
                   "Date": "27.03.2023",
-                  "Amount": 0.066,
+                  "Amount": 0.07,
                   "Issuing Authority": "",
                   "Reasons for rejection": ""
                 },
                 {
-                  "Sl.No.": 21,
+                  "Sl. No.": 21,
                   "Grant No.": 10,
                   "Government Order No.": "SWD/Est/Accts/CR/50",
                   "Date": "07.06.2022",
                   "Amount": 0.1,
                   "Issuing Authority": "The Commissioner, Social Welfare Department, Bengaluru",
-                  "Reasons for rejection": "Form 22 A is not self Balanced"
+                  "Reasons for rejection": "Form 22 A is not self balanced"
                 },
                 {
-                  "Sl.No.": 22,
+                  "Sl. No.": 22,
                   "Grant No.": "",
                   "Government Order No.": "WSCD/Accts/CR-14",
                   "Date": "21.09.2022",
-                  "Amount": 0.092,
+                  "Amount": 0.09,
                   "Issuing Authority": "The Director, Department of Welfare of Scheduled Castes, Bengaluru",
                   "Reasons for rejection": ""
                 },
                 {
-                  "Sl.No.": 23,
+                  "Sl. No.": 23,
                   "Grant No.": "",
                   "Government Order No.": "BCWD/C9/CR-34/22-23",
                   "Date": "10.11.2022",
@@ -43101,7 +42981,7 @@
                   "Reasons for rejection": ""
                 },
                 {
-                  "Sl.No.": 24,
+                  "Sl. No.": 24,
                   "Grant No.": "",
                   "Government Order No.": "SWD/ACT/A2/12/22/E-944775/2022",
                   "Date": "03.01.2023",
@@ -43110,7 +42990,7 @@
                   "Reasons for rejection": "Budget Provision differs"
                 },
                 {
-                  "Sl.No.": 25,
+                  "Sl. No.": 25,
                   "Grant No.": 11,
                   "Government Order No.": "MME 60 MMA 2022",
                   "Date": "06.12.2022",
@@ -43119,16 +42999,16 @@
                   "Reasons for rejection": "Form 22 A is not enclosed"
                 },
                 {
-                  "Sl.No.": 26,
+                  "Sl. No.": 26,
                   "Grant No.": "",
                   "Government Order No.": "MME/Acct7/RA/421/22-23",
                   "Date": "02.03.2023",
                   "Amount": 0.1,
                   "Issuing Authority": "The Director, Department of Women and Child Development, Bengaluru",
-                  "Reasons for rejection": "Form 22 A is not self Balanced"
+                  "Reasons for rejection": "Form 22 A is not self balanced"
                 },
                 {
-                  "Sl.No.": 27,
+                  "Sl. No.": 27,
                   "Grant No.": "",
                   "Government Order No.": "KSICPS/Accts/GIA/Bill-01/22-23",
                   "Date": "13.03.2023",
@@ -43137,34 +43017,34 @@
                   "Reasons for rejection": ""
                 },
                 {
-                  "Sl.No.": 28,
+                  "Sl. No.": 28,
                   "Grant No.": 14,
                   "Government Order No.": "Accts-2/CR-10/10-11/3782",
                   "Date": "06.02.2023",
                   "Amount": 0.05,
                   "Issuing Authority": "The Registrar, Karnataka Appellate Tribunal, M.S.Building, Bengaluru",
-                  "Reasons for rejection": "Form 22 A is not self Balanced"
+                  "Reasons for rejection": "Form 22 A is not self balanced"
                 },
                 {
-                  "Sl.No.": 29,
+                  "Sl. No.": 29,
                   "Grant No.": 17,
                   "Government Order No.": "ED 02 HPT 2023",
                   "Date": "27.02.2023",
                   "Amount": 0.06,
                   "Issuing Authority": "The Joint Secretary to Government (Technical Education & Planning), Higher Education Department, M.S.Building, Bengaluru",
-                  "Reasons for rejection": "Form 22 A is not self Balanced"
+                  "Reasons for rejection": "Form 22 A is not self balanced"
                 },
                 {
-                  "Sl.No.": 30,
+                  "Sl. No.": 30,
                   "Grant No.": "",
                   "Government Order No.": "EP 38 YOYOKA 2023",
                   "Date": "09.03.2023",
-                  "Amount": 0.353,
+                  "Amount": 0.35,
                   "Issuing Authority": "The Special Officer & Ex-officio Under Secretary to Government (Planning), Education Department (School Education & Literacy), M.S.Building, Bengaluru",
                   "Reasons for rejection": ""
                 },
                 {
-                  "Sl.No.": 31,
+                  "Sl. No.": 31,
                   "Grant No.": "",
                   "Government Order No.": "FD 701 BRS 2022 & FD 905 Exp-8/2022",
                   "Date": "09.03.3023 & 23.03.2023",
@@ -43173,70 +43053,70 @@
                   "Reasons for rejection": ""
                 },
                 {
-                  "Sl.No.": 32,
+                  "Sl. No.": 32,
                   "Grant No.": "",
                   "Government Order No.": "EP 48 YOYOKA 2023",
                   "Date": "20.03.2023",
-                  "Amount": 0.251,
+                  "Amount": 0.25,
                   "Issuing Authority": "The Special Officer & Ex-officio Under Secretary to Government (Planning), Education Department (School Education & Literacy), M.S.Building, Bengaluru",
                   "Reasons for rejection": "Budget Provision not tallied"
                 },
                 {
-                  "Sl.No.": 33,
+                  "Sl. No.": 33,
                   "Grant No.": 18,
                   "Government Order No.": "HTD/Accts/A2/Upload/1/22-23",
                   "Date": "28.02.2023",
                   "Amount": 0.1,
                   "Issuing Authority": "The Commissioner for Handloom Development & Director, Handloom & Textiles, Bengaluru",
-                  "Reasons for rejection": "Form 22 A is not self Balanced"
+                  "Reasons for rejection": "Form 22 A is not self balanced"
                 },
                 {
-                  "Sl.No.": 34,
+                  "Sl. No.": 34,
                   "Grant No.": "",
                   "Government Order No.": "DSK/EAP/28/22-23",
                   "Date": "17.03.3023",
-                  "Amount": 0.016,
+                  "Amount": 0.02,
                   "Issuing Authority": "The Commissioner, Sugar Cane Development and Director of Sugar, Bengaluru",
                   "Reasons for rejection": ""
                 },
                 {
-                  "Sl.No.": 35,
+                  "Sl. No.": 35,
                   "Grant No.": 19,
                   "Government Order No.": "TRP/LP(2)1/RA/23",
                   "Date": "06.03.2023",
                   "Amount": 0.06,
                   "Issuing Authority": "The Director, Town Planning, Bengaluru",
-                  "Reasons for rejection": "Form 22 A is not self Balanced"
+                  "Reasons for rejection": "Form 22 A is not self balanced"
                 },
                 {
-                  "Sl.No.": 36,
+                  "Sl. No.": 36,
                   "Grant No.": "",
                   "Government Order No.": "TRP/LV(2)/RA/23",
                   "Date": "29.03.2023",
-                  "Amount": 0.021,
+                  "Amount": 0.02,
                   "Issuing Authority": "The Director, Town Planning, Bengaluru",
                   "Reasons for rejection": "Budget Provision not tallied"
                 },
                 {
-                  "Sl.No.": 37,
+                  "Sl. No.": 37,
                   "Grant No.": 21,
                   "Government Order No.": "MID/S/FIN/23",
                   "Date": "04.02.2023",
-                  "Amount": 0.018,
+                  "Amount": 0.02,
                   "Issuing Authority": "The Under Secretary to Government, Minor Irrigation and Ground Water Department, Bengaluru",
-                  "Reasons for rejection": "Form 22 A is not self Balanced"
+                  "Reasons for rejection": "Form 22 A is not self balanced"
                 },
                 {
-                  "Sl.No.": 38,
+                  "Sl. No.": 38,
                   "Grant No.": "",
                   "Government Order No.": "MID/16/FIN/23",
                   "Date": "10.03.2023",
-                  "Amount": 0.037,
+                  "Amount": 0.04,
                   "Issuing Authority": "",
                   "Reasons for rejection": "Budget Provision not tallied"
                 },
                 {
-                  "Sl.No.": 39,
+                  "Sl. No.": 39,
                   "Grant No.": "",
                   "Government Order No.": "MID/41/FIN/23",
                   "Date": "18.03.2023",
@@ -43245,16 +43125,16 @@
                   "Reasons for rejection": ""
                 },
                 {
-                  "Sl.No.": 40,
+                  "Sl. No.": 40,
                   "Grant No.": 22,
                   "Government Order No.": "AKK/103/CGE/2022",
                   "Date": "06.01.2023",
-                  "Amount": 0.462,
+                  "Amount": 0.46,
                   "Issuing Authority": "The Under Secretary to Government, Health and Family Welfare Department, Bengaluru",
-                  "Reasons for rejection": "Form 22 A is not self Balanced"
+                  "Reasons for rejection": "Form 22 A is not self balanced"
                 },
                 {
-                  "Sl.No.": 41,
+                  "Sl. No.": 41,
                   "Grant No.": "",
                   "Government Order No.": "AKK/1489/GM-2022",
                   "Date": "02.03.2023",
@@ -43263,7 +43143,7 @@
                   "Reasons for rejection": ""
                 },
                 {
-                  "Sl.No.": 42,
+                  "Sl. No.": 42,
                   "Grant No.": "",
                   "Government Order No.": "HFW/174/PIM/2022",
                   "Date": "14.03.2023",
@@ -43272,16 +43152,16 @@
                   "Reasons for rejection": ""
                 },
                 {
-                  "Sl.No.": 43,
+                  "Sl. No.": 43,
                   "Grant No.": 23,
                   "Government Order No.": "KTU/TRG/Plg-1/VV-2/22-23",
                   "Date": "30.11.2022",
-                  "Amount": 0.006,
+                  "Amount": 0.01,
                   "Issuing Authority": "The Commissioner, Industrial Training and Employment Department, Bengaluru",
-                  "Reasons for rejection": "Form 22 A is not self Balanced"
+                  "Reasons for rejection": "Form 22 A is not self balanced"
                 },
                 {
-                  "Sl.No.": 44,
+                  "Sl. No.": 44,
                   "Grant No.": "",
                   "Government Order No.": "ME/BGT/34/22-23",
                   "Date": "15.02.2023",
@@ -43290,16 +43170,16 @@
                   "Reasons for rejection": ""
                 },
                 {
-                  "Sl.No.": 45,
+                  "Sl. No.": 45,
                   "Grant No.": "",
                   "Government Order No.": "KOUSHALYA 01 KTS 2023",
                   "Date": "23.02.2023",
-                  "Amount": 0.039,
+                  "Amount": 0.04,
                   "Issuing Authority": "The Under Secretary to Government, Skill Development, Livelihood and Entrepreneurship Department, Bengaluru",
                   "Reasons for rejection": ""
                 },
                 {
-                  "Sl.No.": 46,
+                  "Sl. No.": 46,
                   "Grant No.": "",
                   "Government Order No.": "Act-2/Misc/CR-65/2022-23",
                   "Date": "07.03.2023",
@@ -43308,65 +43188,65 @@
                   "Reasons for rejection": ""
                 },
                 {
-                  "Sl.No.": 47,
+                  "Sl. No.": 47,
                   "Grant No.": "",
                   "Government Order No.": "KOUSHALYA 33 KTS 2023",
                   "Date": "20.03.2023",
-                  "Amount": 0.297,
+                  "Amount": 0.3,
                   "Issuing Authority": "The Under Secretary to Government, Skill Development, Livelihood and Entrepreneurship Department, Bengaluru",
                   "Reasons for rejection": ""
                 },
                 {
-                  "Sl.No.": 48,
+                  "Sl. No.": 48,
                   "Grant No.": "",
                   "Government Order No.": "LD/19/CLC/2022",
                   "Date": "20.03.2023",
-                  "Amount": 0.005,
+                  "Amount": 0.01,
                   "Issuing Authority": "The Under Secretary to Government, Labour Department, Bengaluru",
                   "Reasons for rejection": ""
                 },
                 {
-                  "Sl.No.": 49,
+                  "Sl. No.": 49,
                   "Grant No.": 25,
                   "Government Order No.": "KZD/Est(1)/36/2021-22",
                   "Date": "24.02.2023",
-                  "Amount": 0.011,
+                  "Amount": 0.01,
                   "Issuing Authority": "The Chief Editor, Karnataka Gazetteer Department, Bengaluru",
-                  "Reasons for rejection": "Form 22 A is not self Balanced"
+                  "Reasons for rejection": "Form 22 A is not self balanced"
                 },
                 {
-                  "Sl.No.": 50,
+                  "Sl. No.": 50,
                   "Grant No.": "",
                   "Government Order No.": "KSA-16016/1/2021/KSA/Adm/KSA",
                   "Date": "16.03.2023",
-                  "Amount": 0.013,
+                  "Amount": 0.01,
                   "Issuing Authority": "The Director, Karnataka State Archieves Department, Vidhana Soudha, Bengaluru",
                   "Reasons for rejection": ""
                 },
                 {
-                  "Sl.No.": 51,
+                  "Sl. No.": 51,
                   "Grant No.": 26,
                   "Government Order No.": "PDS 01 PSD 2023",
                   "Date": "24.03.2023",
-                  "Amount": 0.028,
+                  "Amount": 0.03,
                   "Issuing Authority": "The Under Secretary (1 &2) to Government, Planning, Programme Coordination and Statistics Department, Bengaluru",
-                  "Reasons for rejection": "Form 22 A is not self Balanced"
+                  "Reasons for rejection": "Form 22 A is not self balanced"
                 },
                 {
-                  "Sl.No.": 52,
+                  "Sl. No.": 52,
                   "Grant No.": "",
                   "Government Order No.": "PDS 01 PSD 2023",
                   "Date": "24.03.2023",
-                  "Amount": 0.038,
+                  "Amount": 0.04,
                   "Issuing Authority": "",
                   "Reasons for rejection": ""
                 },
                 {
-                  "Sl.No.": "Total",
+                  "Sl. No.": "Total",
                   "Grant No.": "",
                   "Government Order No.": "",
                   "Date": "",
-                  "Amount": 17.088,
+                  "Amount": 17.09,
                   "Issuing Authority": "",
                   "Reasons for rejection": ""
                 }
@@ -46199,7 +46079,7 @@
                 {
                   "Sl. No.": 4,
                   "Grant No.": 4,
-                  "Nomenclature": "DPAR",
+                  "Nomenclature": "Department of personnel and Administrative Reforms",
                   "No. of cases": 2,
                   "Total Provision": 70.41,
                   "Amount Surrendered": 14.74,
@@ -46407,16 +46287,11 @@
             "Table16": [
                 {
                   "Year": "2020-21",
-                  "Grant No./Description": "14-Revenue",
+                  "Grant No./Description": "14-Revenue Revenue -Voted",
                   "Excess required to be regularised as commented in the AA/AR": "3,54,59,49,004",
                   "Remarks": "This was due to deduct entries not made for transfer under NDRF."
                 },
-                {
-                  "Year": "",
-                  "Grant No./Description": "Revenue -Voted",
-                  "Excess required to be regularised as commented in the AA/AR": "",
-                  "Remarks": ""
-                },
+              
                 {
                   "Year": "",
                   "Grant No./Description": "Capital - Charged",
@@ -46425,16 +46300,11 @@
                 },
                 {
                   "Year": "",
-                  "Grant No./Description": "24-Energy",
+                  "Grant No./Description": "24-Energy Revenue- Voted",
                   "Excess required to be regularised as commented in the AA/AR": "13,29,91,400",
                   "Remarks": "Deduction of late payment charges payable by HESCOM to SECI."
                 },
-                {
-                  "Year": "",
-                  "Grant No./Description": "Revenue- Voted",
-                  "Excess required to be regularised as commented in the AA/AR": "",
-                  "Remarks": ""
-                },
+               
                 {
                   "Year": "Total",
                   "Grant No./Description": "",

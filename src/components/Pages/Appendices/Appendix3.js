@@ -33,11 +33,8 @@ const Appendix3 = () => {
                 ? <div >
                     <Navbar />
                     <div className="contentwrapper" id="home">
-                        <FloatingActionButtons back="/appendices/appendix-2" forward="/appendices/appendix-4" />
-                        <h3 className='headnote'>
-                            (₹ in crore)
-                        </h3>
-                        {/* <Tablec1 /> */}
+                    <FloatingActionButtons back="/appendices/appendix-2" forward="/appendices/appendix-4" />
+                   
                         <CustomTable title={"Appendix 3.1 Category wise/department wise budget allocation/expenditure for Child Budget for the year 2022-23(Reference: Paragraph 3.4; Page 84)"}
                             columns={ctx.appendix3.Table1}
                             data={ctx.appendix3.Table1}
@@ -112,7 +109,7 @@ const Appendix3 = () => {
                         <h3 className='headnote'>
                             (₹ in crore)
                         </h3>
-                        <CustomTable title={"Appendix 3.8 Cases of Defective Re-Appropriation Orders"}
+                        <CustomTable title={"Appendix 3.8 Cases of Defective Re-Appropriation Orders(Reference: Paragraph 3.6.1.4 (b); Page 91)"}
                             columns={ctx.appendix3.Table8}
                             data={ctx.appendix3.Table8}
                             indexToIncreaseWidth={5}
@@ -123,7 +120,7 @@ const Appendix3 = () => {
                         <h3 className='headnote'>
                             (₹ in crore)
                         </h3>
-                        <CustomTable title={"Appendix 3.9 Grants/Appropriations with unspent provisions of ₹50 crore and above"}
+                        <CustomTable title={"Appendix 3.9 Grants/Appropriations with unspent provisions of ₹50 crore and above(Reference: Paragraph 3.6.1.5(a); Page 91) "}
                             columns={ctx.appendix3.Table9}
                             data={ctx.appendix3.Table9}
                             indexToIncreaseWidth={1}
@@ -134,7 +131,7 @@ const Appendix3 = () => {
                         <h3 className='headnote'>
                             (₹ in crore)
                         </h3>
-                        <CustomTable title={"Appendix 3.10 Statement showing grant-wise savings for the year 2022-23"}
+                        <CustomTable title={"Appendix 3.10 Statement showing grant-wise savings for the year 2022-23(Reference: Paragraph 3.6.1.5(a); Page 91)"}
                             columns={ctx.appendix3.Table10}
                             data={ctx.appendix3.Table10}
                             indexToIncreaseWidth={0}
@@ -145,7 +142,7 @@ const Appendix3 = () => {
                         <h3 className='headnote'>
                             (₹ in crore)
                         </h3>
-                        <CustomTable title={"Appendix 3.11 Statement of various grants/appropriations in which unspent provision occurred but no part of which was surrendered"}
+                        <CustomTable title={"Appendix 3.11 Statement of various grants/appropriations in which unspent provision occurred but no part of which was surrendered(Reference: Paragraph 3.6.1.5(b); Page 92)"}
                             columns={ctx.appendix3.Table11}
                             data={ctx.appendix3.Table11}
                             indexToIncreaseWidth={2}
@@ -156,7 +153,7 @@ const Appendix3 = () => {
                         <h3 className='headnote'>
                             (₹ in crore)
                         </h3>
-                        <CustomTable title={"Appendix 3.12 Surrender of entire unspent provision"}
+                        <CustomTable title={"Appendix 3.12 Surrender of entire unspent provision (Reference: Paragraph 3.6.1.5(b); Page 92)"}
                             columns={ctx.appendix3.Table12}
                             data={ctx.appendix3.Table12}
                             indexToIncreaseWidth={1}
@@ -167,7 +164,7 @@ const Appendix3 = () => {
                         <h3 className='headnote'>
                             (₹ in crore)
                         </h3>
-                        <CustomTable title={"Appendix 3.13 Surrender of unspent provision"}
+                        <CustomTable title={"Appendix 3.13 Surrender of unspent provision (Reference: Paragraph 3.6.1.5(b); Page 92)"}
                             columns={ctx.appendix3.Table13}
                             data={ctx.appendix3.Table13}
                             indexToIncreaseWidth={1}
@@ -178,7 +175,7 @@ const Appendix3 = () => {
                         <h3 className='headnote'>
                             (₹ in crore)
                         </h3>
-                        <CustomTable title={"Appendix 3.14 Results of substantial surrenders made during the year"}
+                        <CustomTable title={"Appendix 3.14 Results of substantial surrenders made during the year (Reference: Paragraph 3.6.1.5(b); Page 93)"}
                             columns={ctx.appendix3.Table14}
                             data={ctx.appendix3.Table14}
                             indexToIncreaseWidth={6}
@@ -189,7 +186,7 @@ const Appendix3 = () => {
                         <h3 className='headnote'>
                             (₹ in crore)
                         </h3>
-                        <CustomTable title={"Appendix 3.15 Cases of surrender of funds in excess of ₹ five crore on 30 and 31 of March 2023"}
+                        <CustomTable title={"Appendix 3.15 Cases of surrender of funds in excess of ₹ five crore on 30 and 31 of March 2023(Reference: Paragraph 3.6.1.5(b); Page 93)"}
                             columns={ctx.appendix3.Table15}
                             data={ctx.appendix3.Table15}
                             indexToIncreaseWidth={2}
@@ -200,7 +197,7 @@ const Appendix3 = () => {
                         <h3 className='headnote'>
                             (₹ in crore)
                         </h3>
-                        <CustomTable title={"Appendix 3.16 Excess Expenditure over Provision requiring regularization"}
+                        <CustomTable title={"Appendix 3.16 Excess Expenditure over Provision requiring regularization(Reference: Paragraph 3.6.1.6(b); Page 94)"}
                             columns={ctx.appendix3.Table16}
                             data={ctx.appendix3.Table16}
                             indexToIncreaseWidth={3}
@@ -211,7 +208,7 @@ const Appendix3 = () => {
                         <h3 className='headnote'>
                             (₹ in crore)
                         </h3>
-                        <CustomTable title={"Appendix 3.17 Grant-wise details under which reasons for savings not intimated"}
+                        <CustomTable title={"Appendix 3.17 Grant-wise details under which reasons for savings not intimated (Reference: Paragraph 3.6.2.2; Page 97)"}
                             columns={ctx.appendix3.Table17}
                             data={ctx.appendix3.Table17}
                             indexToIncreaseWidth={1}
@@ -220,9 +217,9 @@ const Appendix3 = () => {
 
 
                         <h3 className='headnote'>
-                            (₹ in crore)
+                            (₹ in lakh)
                         </h3>
-                        <CustomTable title={"Appendix 3.18 Rush of Expenditure for Grant No. 22 for the year 2022-23"}
+                        <CustomTable title={"Appendix 3.18 Rush of Expenditure for Grant No. 22 for the year 2022-23(Reference: Paragraph 3.7.2.5; Page 111)"}
                             columns={ctx.appendix3.Table18}
                             data={ctx.appendix3.Table18}
                             indexToIncreaseWidth={1}
