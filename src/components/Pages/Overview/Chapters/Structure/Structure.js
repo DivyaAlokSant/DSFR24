@@ -99,17 +99,17 @@ const Structure = () => {
                         </Title>
                         <ContentSlider
                             position="left"
-                            content={ctx.chapterOne.Profile.Para31a}
+                            content={ctx.chapter1kannada.Content.para31a}
                             title="ಸಂಚಿತ ನಿಧಿ"
                         />
                         <ContentSlider
                             position="right"
-                            content={ctx.chapterOne.Profile.Para31b}
+                            content={ctx.chapter1kannada.Content.para31b}
                             title="ಸಾದಿಲ್ವಾರು ನಿಧಿ"
                         />
                         <ContentSlider
                             position="left"
-                            content={ctx.chapterOne.Profile.Para31c}
+                            content={ctx.chapter1kannada.Content.para31c}
                             title="ಸಾರ್ವಜನಿಕ ಲೆಕ್ಕ"
                         />
 

@@ -1,6 +1,6 @@
 // import { BrowserRouter as Router } from 'react-router-dom';
 import React from 'react';
-import {  Router } from 'react-router-dom';
+import { Router } from 'react-router-dom';
 import { MyProvider } from './Context/MyProvider';
 import './App.css';
 import Routes from './Routes/Routes';

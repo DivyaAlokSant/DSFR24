@@ -9,7 +9,7 @@ import './../../Finances.css'
 import Subtitle from '../../../../Subtitle/Subtitle'
 
 
-const Conclusion = () => {
+const Conclusion =( ) => {
 
     const ctx = useContext(MyContext)
     console.log(ctx.chapterFour)
