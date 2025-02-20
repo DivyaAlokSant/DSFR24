@@ -29,12 +29,22 @@ const FinanceSnapshot = () => {
                         <Para >
                             {ctx.chapterOne.Profile["Para40"]}
                         </Para>
-                        <h3 className='headnote'>
-                            ₹ in crore
-                        </h3>
                         
-                        {/* <Table2 /> */}
-                        {/* <CustomTable title={"Table 1.2: Actual financial results vis-à-vis Budget Provisions"}
+                        <h3 className='headnote'>
+                            ₹ In crore
+                    </h3>
+
+        <CustomTable    title={"Table 1.2: Actual financial results vis-à-vis Budget Provisions"}
+                        columns={ctx.tables1.Table4e}
+                        data={ctx.tables1.Table4e} />
+                         <h4 className='footnote'>
+                <i>
+               {/* Source: Grant Register and Gender Budget of the respective years */}
+                   
+                </i></h4> 
+                        
+                        {/* <Table2 /> 
+                         <CustomTable title={"Table 1.2: Actual financial results vis-à-vis Budget Provisions"}
 
 
                                 columns={ctx.tables1.Table4e}
@@ -50,14 +60,42 @@ const FinanceSnapshot = () => {
                                 {ctx.tables1.T2F3}
                                 <br></br>                            
                                 {ctx.tables1.T2F22}
-                                <br></br>
+                                {/* <br></br>
                                 {ctx.tables1.T2F4}
                                 <br></br>
-                                {ctx.tables1.T2F5}
+                                {ctx.tables1.T2F5} */}
                                 </i>
                         </h4>
 
-                        {["Para40a", "Para41", "Para42"].map((item, ind) =>
+                        {[ "Para41", "Para42"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapterOne.Profile[item]}
+                            </Para>
+                        )}
+                         <Title id="anchor">
+                            {ctx.chapterOne.Profile.Para42a}
+                        </Title>
+                        <Para >
+                            {ctx.chapterOne.Profile["Para42b"]}
+                        </Para>
+                        <h3 className='headnote'>
+                            ₹ In crore
+                    </h3>
+
+        <CustomTable    title={"Table 1.2(a): Details of Five Guarantee Schemes implemented during 2023-24"}
+                        columns={ctx.tables1.Table4f}
+                        data={ctx.tables1.Table4f} />
+                         <h4 className='footnote'>
+                <i>
+               Source: Grant registers maintained by AG (A&E), Karnataka
+                </i></h4> 
+                <h4 className='footnote'>
+                <i>
+                * Cash Transfers: Gruha Lakshmi and Yuva Nidhi. Subsidies: Gruha Jyothi, Anna Bhagya and Shakti  
+                </i></h4> 
+                        
+
+                        {[ "Para42c", "Para42d","Para42e","Para42f","Para42g","Para42h","Para42i","Para42j"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterOne.Profile[item]}
                             </Para>

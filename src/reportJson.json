@@ -676,6 +676,332 @@
 				
 			  ],
               "Table4e":[
+                {
+                  "Sl. No.": "Section A: Revenue Receipts",
+                  "Components": "",
+                  "2022-23(Actual)": "",
+                  "2023-24(BE)": "",
+                  "2023-24(Actual)": "",
+                  "Percentage of Actuals to BE": "",
+                  "Percentage of Actuals to GSDP": ""
+                },
+                {
+                  "Sl. No.": 1,
+                  "Components": "Tax Revenue",
+                  "2022-23(Actual)": "1,78,298",
+                  "2023-24(BE)": "2,10,555",
+                  "2023-24(Actual)": "2,04,698*",
+                  "Percentage of Actuals to BE": 97.22,
+                  "Percentage of Actuals to GSDP": 7.97
+                },
+                {
+                  "Sl. No.": "i",
+                  "Components": "Own-Tax Revenue",
+                  "2022-23(Actual)": "1,43,702",
+                  "2023-24(BE)": "1,73,303",
+                  "2023-24(Actual)": "1,63,505",
+                  "Percentage of Actuals to BE": 94.35,
+                  "Percentage of Actuals to GSDP": 6.37
+                },
+                {
+                  "Sl. No.": "ii",
+                  "Components": "Share of Union Taxes and Duties",
+                  "2022-23(Actual)": "34,596",
+                  "2023-24(BE)": "37,252",
+                  "2023-24(Actual)": "41,193",
+                  "Percentage of Actuals to BE": 110.58,
+                  "Percentage of Actuals to GSDP": 1.6
+                },
+                {
+                  "Sl. No.": 2,
+                  "Components": "Non-Tax Revenue",
+                  "2022-23(Actual)": "13,914",
+                  "2023-24(BE)": "12,500",
+                  "2023-24(Actual)": "13,117",
+                  "Percentage of Actuals to BE": 104.94,
+                  "Percentage of Actuals to GSDP": 0.51
+                },
+                {
+                  "Sl. No.": 3,
+                  "Components": "Grants-in-Aid and Contributions",
+                  "2022-23(Actual)": "36,868^",
+                  "2023-24(BE)": "15,355",
+                  "2023-24(Actual)": "15,528",
+                  "Percentage of Actuals to BE": 101.13,
+                  "Percentage of Actuals to GSDP": 0.6
+                },
+                {
+                  "Sl. No.": 4,
+                  "Components": "Revenue Receipts (1+2+3)",
+                  "2022-23(Actual)": "2,29,080",
+                  "2023-24(BE)": "2,38,410",
+                  "2023-24(Actual)": "2,33,343",
+                  "Percentage of Actuals to BE": 97.87,
+                  "Percentage of Actuals to GSDP": 9.09
+                },
+                {
+                  "Sl. No.": "Section B: Capital Receipts",
+                  "Components": "",
+                  "2022-23(Actual)": "",
+                  "2023-24(BE)": "",
+                  "2023-24(Actual)": "",
+                  "Percentage of Actuals to BE": "",
+                  "Percentage of Actuals to GSDP": ""
+                },
+                {
+                  "Sl. No.": 5,
+                  "Components": "Recoveries of Loans and Advances",
+                  "2022-23(Actual)": 478,
+                  "2023-24(BE)": 228,
+                  "2023-24(Actual)": 306,
+                  "Percentage of Actuals to BE": 134.21,
+                  "Percentage of Actuals to GSDP": 0.01
+                },
+                {
+                  "Sl. No.": 6,
+                  "Components": "Miscellaneous Capital Receipts",
+                  "2022-23(Actual)": 2,
+                  "2023-24(BE)": 23,
+                  "2023-24(Actual)": 36,
+                  "Percentage of Actuals to BE": 156.52,
+                  "Percentage of Actuals to GSDP": 0
+                },
+                {
+                  "Sl. No.": 7,
+                  "Components": "Public Debt Receipts",
+                  "2022-23(Actual)": "44,549",
+                  "2023-24(BE)": "85,818",
+                  "2023-24(Actual)": "90,280",
+                  "Percentage of Actuals to BE": 105.2,
+                  "Percentage of Actuals to GSDP": 3.52
+                },
+                {
+                  "Sl. No.": 8,
+                  "Components": "Capital Receipts (5+6+7)",
+                  "2022-23(Actual)": "45,029",
+                  "2023-24(BE)": "86,069",
+                  "2023-24(Actual)": "90,622",
+                  "Percentage of Actuals to BE": 105.29,
+                  "Percentage of Actuals to GSDP": 3.53
+                },
+                {
+                  "Sl. No.": 9,
+                  "Components": "Total Receipts (4+8)",
+                  "2022-23(Actual)": "2,74,109",
+                  "2023-24(BE)": "3,24,479",
+                  "2023-24(Actual)": "3,23,965",
+                  "Percentage of Actuals to BE": 99.84,
+                  "Percentage of Actuals to GSDP": 12.62
+                },
+                {
+                  "Sl. No.": "Section C: Expenditure/Disbursement",
+                  "Components": "",
+                  "2022-23(Actual)": "",
+                  "2023-24(BE)": "",
+                  "2023-24(Actual)": "",
+                  "Percentage of Actuals to BE": "",
+                  "Percentage of Actuals to GSDP": ""
+                },
+                {
+                  "Sl. No.": 10,
+                  "Components": "Revenue Expenditure",
+                  "2022-23(Actual)": "2,15,584",
+                  "2023-24(BE)": "2,50,933",
+                  "2023-24(Actual)": "2,42,614",
+                  "Percentage of Actuals to BE": 96.68,
+                  "Percentage of Actuals to GSDP": 9.45
+                },
+                {
+                  "Sl. No.": "a",
+                  "Components": "Interest Payments",
+                  "2022-23(Actual)": "29,643",
+                  "2023-24(BE)": "34,027",
+                  "2023-24(Actual)": "31,872#",
+                  "Percentage of Actuals to BE": 90.19,
+                  "Percentage of Actuals to GSDP": 1.24
+                },
+                {
+                  "Sl. No.": 11,
+                  "Components": "Capital Expenditure",
+                  "2022-23(Actual)": "57,349",
+                  "2023-24(BE)": "50,989",
+                  "2023-24(Actual)": "52,120",
+                  "Percentage of Actuals to BE": 102.22,
+                  "Percentage of Actuals to GSDP": 2.03
+                },
+                {
+                  "Sl. No.": 12,
+                  "Components": "Loan and Advances",
+                  "2022-23(Actual)": "3,250",
+                  "2023-24(BE)": "3,385",
+                  "2023-24(Actual)": "4,473",
+                  "Percentage of Actuals to BE": 132.14,
+                  "Percentage of Actuals to GSDP": 0.17
+                },
+                {
+                  "Sl. No.": 13,
+                  "Components": "Public Debt Repayment",
+                  "2022-23(Actual)": "15,942",
+                  "2023-24(BE)": "22,441",
+                  "2023-24(Actual)": "22,453",
+                  "Percentage of Actuals to BE": 100.05,
+                  "Percentage of Actuals to GSDP": 0.87
+                },
+                {
+                  "Sl. No.": 14,
+                  "Components": "Transfer to Contingency Fund",
+                  "2022-23(Actual)": "-",
+                  "2023-24(BE)": "-",
+                  "2023-24(Actual)": "-",
+                  "Percentage of Actuals to BE": "",
+                  "Percentage of Actuals to GSDP": ""
+                },
+                {
+                  "Sl. No.": 15,
+                  "Components": "Total Disbursement out of Consolidated Fund (10+11+12+13+14)",
+                  "2022-23(Actual)": "2,92,125",
+                  "2023-24(BE)": "3,27,748",
+                  "2023-24(Actual)": "3,21,660",
+                  "Percentage of Actuals to BE": 98.14,
+                  "Percentage of Actuals to GSDP": 12.53
+                },
+                {
+                  "Sl. No.": "",
+                  "Components": "",
+                  "2022-23(Actual)": "",
+                  "2023-24(BE)": "",
+                  "2023-24(Actual)": "",
+                  "Percentage of Actuals to BE": "",
+                  "Percentage of Actuals to GSDP": ""
+                },
+                {
+                  "Sl. No.": "Section D: Fiscal Indicator",
+                  "Components": "",
+                  "2022-23(Actual)": "",
+                  "2023-24(BE)": "",
+                  "2023-24(Actual)": "",
+                  "Percentage of Actuals to BE": "",
+                  "Percentage of Actuals to GSDP": ""
+                },
+                {
+                  "Sl. No.": 16,
+                  "Components": "Revenue Deficit",
+                  "2022-23(Actual)": "13,496",
+                  "2023-24(BE)": "12,523",
+                  "2023-24(Actual)": "(-)9,271",
+                  "Percentage of Actuals to BE": 74.03,
+                  "Percentage of Actuals to GSDP": 0.36
+                },
+                {
+                  "Sl. No.": "",
+                  "Components": "(-)/Surplus (+)  (4-10)",
+                  "2022-23(Actual)": "",
+                  "2023-24(BE)": "",
+                  "2023-24(Actual)": "",
+                  "Percentage of Actuals to BE": "",
+                  "Percentage of Actuals to GSDP": ""
+                },
+                {
+                  "Sl. No.": 17,
+                  "Components": "Fiscal Deficit",
+                  "2022-23(Actual)": "46,623",
+                  "2023-24(BE)": "66,646",
+                  "2023-24(Actual)": "65,522",
+                  "Percentage of Actuals to BE": 98.31,
+                  "Percentage of Actuals to GSDP": 2.55
+                },
+                {
+                  "Sl. No.": "",
+                  "Components": "{(4+5+6)-(10+11+12+14)}",
+                  "2022-23(Actual)": "",
+                  "2023-24(BE)": "",
+                  "2023-24(Actual)": "",
+                  "Percentage of Actuals to BE": "",
+                  "Percentage of Actuals to GSDP": ""
+                },
+                {
+                  "Sl. No.": 18,
+                  "Components": "Primary Deficit (17-10a)",
+                  "2022-23(Actual)": "16,980",
+                  "2023-24(BE)": "32,619",
+                  "2023-24(Actual)": "33,650",
+                  "Percentage of Actuals to BE": 106.79,
+                  "Percentage of Actuals to GSDP": 1.36
+                },
+                {
+                  "Sl. No.": "",
+                  "Components": "Buoyancy Ratio",
+                  "2022-23(Actual)": "",
+                  "2023-24(BE)": "",
+                  "2023-24(Actual)": "",
+                  "Percentage of Actuals to BE": "",
+                  "Percentage of Actuals to GSDP": ""
+                },
+                {
+                  "Sl. No.": "",
+                  "Components": "Revenue Receipt",
+                  "2022-23(Actual)": 1.15,
+                  "2023-24(BE)": 1.44,
+                  "2023-24(Actual)": 0.14,
+                  "Percentage of Actuals to BE": "",
+                  "Percentage of Actuals to GSDP": ""
+                },
+                {
+                  "Sl. No.": "",
+                  "Components": "Revenue Expenditure",
+                  "2022-23(Actual)": 0.2,
+                  "2023-24(BE)": 1.28,
+                  "2023-24(Actual)": 0.96,
+                  "Percentage of Actuals to BE": "",
+                  "Percentage of Actuals to GSDP": ""
+                }
+              
+
+              ],
+              "Table4f":[
+                {
+                  "Scheme": "Gruha Lakshmi",
+                  "Benefits": "Transfer of ₹2,000 per month to Women head of the family",
+                  "Total Budget": "16,964.40",
+                  "Expenditure": "16,964.40",
+                  "Percentage of expenditure  to Revenue expenditure": 6.99
+                },
+                {
+                  "Scheme": "Gruha Jyothi",
+                  "Benefits": "Free power supply to households consuming upto 200 units per month",
+                  "Total Budget": "8,900.00",
+                  "Expenditure": "8,900.00",
+                  "Percentage of expenditure  to Revenue expenditure": 3.67
+                },
+                {
+                  "Scheme": "Anna bhagya",
+                  "Benefits": "Additional 5 kg rice per head every month to families below poverty line",
+                  "Total Budget": "7,384.68",
+                  "Expenditure": "7,344.68",
+                  "Percentage of expenditure  to Revenue expenditure": 3.03
+                },
+                {
+                  "Scheme": "Shakti",
+                  "Benefits": "Free travel in all except luxury buses to all resident women of the State",
+                  "Total Budget": "3,200.00",
+                  "Expenditure": "3,200.00",
+                  "Percentage of expenditure  to Revenue expenditure": 1.32
+                },
+                {
+                  "Scheme": "Yuva Nidhi",
+                  "Benefits": "Unemployment allowance of ₹3,000 to graduate and ₹1,500 to diploma holders for limited period",
+                  "Total Budget": 88.88,
+                  "Expenditure": 88.88,
+                  "Percentage of expenditure  to Revenue expenditure": 0.04
+                },
+                {
+                  "Scheme": "Total",
+                  "Benefits": "",
+                  "Total Budget": "36,537.96",
+                  "Expenditure": "36,497.96",
+                  "Percentage of expenditure  to Revenue expenditure": 15.05
+                }
+              
 
               ],
             "Table6": [
@@ -776,19 +1102,20 @@
               ],
             "T2F1a": "* Effective total debt would be ₹403,519 crore as the Department of Expenditure, GoI had decided that GST compensation of ₹12,407 crore given to the state as back-to-back loan under Debt Receipt would not be treated as debt of the state for any norms which may be prescribed by the Finance Commission and therefore, the effective variation would be 6.59 per cent.",
             "T4H2": "(₹ in crore)",
-            "T2F1": "Source: Finance Accounts, Annual Financial Statement and Overview of Budget 2022-23",
+            "T2F1": "Source: Finance Accounts, Annual Financial Statement and Overview of Budget 2023-24",
             "T7H2": "(₹ in crore)",
             "T3H2": "(₹ in crore)",
             "T5H1": "Compliance with targets of KFRA",
             "T2H1": "Actual financial results vis-à-vis Budget Provisions",
-            "T1F2": "#GSDP (2018-19 to 2021-22) figures as per Economic Survey 2022-23, GoK and GSDP for 2022-23, as per Ministry of Finance,GOI.",
-            "T1F2a": "^ GVA figures have been taken from National Accounts Statistics, CSO, MoSPI.",
-            "T1F2b":"$ GSVA figures as per Directorate of Economics and Statistics, Karnataka.",
-			"T1F2c":"@ Per Capita GSDP (2018-19 to 2021-22) as per Economic Survey 2022-23, GoK and the per capita GSDP for the year 2022-23 has been worked out based on the projected population of the state of 6.75crore as per Economic survey of Karnataka 2022-23.",
+            "T1F1a": "^ GVA figures as per Economic Survey of India -2023-24.",
+            "T1F2": "#GSDP (2019-20 to 2022-23) figures as per Economic Survey 2023-24, GoK and GSDP for 2023-24, as per Ministry of Finance, GoI.",
+            "T1F2a": "$ GSVA as per Economic Survey 2023-24, GoK",
+            "T1F2b":"a. The per capita GDP for the years 2019-20 to 2023-24  as per MosPI, GoI.",
+			"T1F2c":"@ Per Capita GSDP (2019-20 to 2023-24) as per Economic Survey 2023-24, GoK and the per capita GSDP for the year 2023-24 has been worked out based on the projected population of the State of 6.81crore as per National Commission on Population, Ministry of Health & Family Welfare.",
 			"T1F2d":"a. The per capita GDP for the years 2018-19 to 2021-22 have been worked out taking in the population figures from Economic Survey 2022-23, GoI.",
-			"T2F2": "*Tax Revenue Includes Major Heads 0005 – Central Goods and Service Tax (₹9,786.19 crore), 0006 – State Goods and Service Tax (₹ 61,403.30 crore including advance apportionment of IGST of ₹2,089.65 crore) and 0008 – Integrated Goods and Service Tax (Nil).",
-            "T2F22":"^includes compensation of ₹8,976.43 crore and ₹29,288.40 crore during 2021-22 and 2022-23 respectively for loss of revenue arising out of implementation of GST.",
-            "T2F3": "# Includes Interest amounting to ₹1,216.04 crore on Off Budget borrowings.",
+			"T2F2": "*Tax Revenue Includes Major Heads 0005 – Central Goods and Services Tax (₹12,501.46 crore), 0006 – State Goods and Services Tax (₹71,041.45 crore including advance apportionment of IGST of ₹(-)798.30 crore) and 0008 – Integrated Goods and Services Tax (Nil).",
+            "T2F22":"# Includes Interest amounting to ₹1,046.01 crore on Off-Budget borrowings.",
+            "T2F3": "^includes compensation of ₹20,288.40 crore and ₹1,191.41 crore during 2022-23 and 2023-24 respectively for loss of revenue arising out of implementation of GST.",
             "T2F4": "^includes compensation of ₹8,976.43 crore for loss of revenue arising out of implementation of GST",
             "T2F5": "^^ Effective Public Debt Receipts for the year 2021-22 would be ₹62,532 crore , as the Department of Expenditure, GoI had decided that GST compensation of ₹18,109 crore in 2021-22 given to the State as back-to-back loan under Debt Receipts would not be treated as debt of the State for any norms which may be prescribed by the Finance Commission.",
             
@@ -16804,103 +17131,103 @@
             "T1H1": "Table 1.1 Trends in GSDP/GSVA compared to the GDP/GVA (at current prices)",
             "T1H2": "",
             "Table1": [
-				{
-				  "Year": "INDIA",
-				  "2018-19": "",
-				  "2019-20": "",
-				  "2020-21": "",
-				  "2021-22": "",
-				  "2022-23": ""
-				},
-				{
-				  "Year": "GDP* (₹ in crore)",
-				  "2018-19": "1,88,99,668",
-				  "2019-20": "2,01,03,593",
-				  "2020-21": "1,98,29,927",
-				  "2021-22": "2,34,71,012",
-				  "2022-23": "2,72,40,712"
-				},
-				{
-				  "Year": "GVA^",
-				  "2018-19": "1,71,75,128",
-				  "2019-20": "1,83,81,117",
-				  "2020-21": "1,81,88,780",
-				  "2021-22": "2,14,38,883",
-				  "2022-23": "2,47,42,871"
-				},
-				{
-				  "Year": "Growth rate of GDP over previous year     (in per cent)",
-				  "2018-19": 10.58,
-				  "2019-20": 6.37,
-				  "2020-21": "(-)1.36",
-				  "2021-22": 18.36,
-				  "2022-23": 16.06
-				},
-				{
-				  "Year": "Growth rate of GVA over previous year         (in per cent)",
-				  "2018-19": 10.76,
-				  "2019-20": 7.02,
-				  "2020-21": "(-)1.05",
-				  "2021-22": 17.87,
-				  "2022-23": 15.41
-				},
-				{
-				  "Year": "Per Capita GDPa   (in ₹)",
-				  "2018-19": "1,42,424",
-				  "2019-20": "1,49,915",
-				  "2020-21": "1,46,301",
-				  "2021-22": "1,71,498",
-				  "2022-23": "1,96,983"
-				},
-				{
-				  "Year": "State",
-				  "2018-19": "",
-				  "2019-20": "",
-				  "2020-21": "",
-				  "2021-22": "",
-				  "2022-23": ""
-				},
-				{
-				  "Year": "GSDP# (₹ in crore)",
-				  "2018-19": "14,79,391",
-				  "2019-20": "16,11,134",
-				  "2020-21": "16,25,073",
-				  "2021-22": "19,62,725",
-				  "2022-23": "21,81,217"
-				},
-				{
-				  "Year": "GSVA$",
-				  "2018-19": "13,38,719",
-				  "2019-20": "14,72,147",
-				  "2020-21": "14,93,668",
-				  "2021-22": "18,01,695",
-				  "2022-23": "20,53,015"
-				},
-				{
-				  "Year": "Growth rate of GSDP over previous year  (in per cent)",
-				  "2018-19": 10.96,
-				  "2019-20": 8.9,
-				  "2020-21": 0.86,
-				  "2021-22": 20.77,
-				  "2022-23": 11.13
-				},
-				{
-				  "Year": "Growth rate of GSVA over previous year (in per cent)",
-				  "2018-19": 11.63,
-				  "2019-20": 9.96,
-				  "2020-21": 1.46,
-				  "2021-22": 20.62,
-				  "2022-23": 13.94
-				},
-				{
-				  "Year": "Per Capita GSDP (in ₹)@",
-				  "2018-19": "2,25,586",
-				  "2019-20": "2,43,727",
-				  "2020-21": "2,43,906",
-				  "2021-22": "2,92,542",
-				  "2022-23": "3,22,189"
-				}
-			  ],
+                {
+                  "Year": "INDIA",
+                  "2019-20": "",
+                  "2020-21": "",
+                  "2021-22": "",
+                  "2022-23": "",
+                  "2023-24": ""
+                },
+                {
+                  "Year": "GDP* (₹ in crore)",
+                  "2019-20": "2,01,03,593",
+                  "2020-21": "1,98,54,096",
+                  "2021-22": "2,35,97,399",
+                  "2022-23": "2,69,49,646",
+                  "2023-24": "2,95,35,667"
+                },
+                {
+                  "Year": "GVA^",
+                  "2019-20": "1,83,81,117",
+                  "2020-21": "1,82,10,997",
+                  "2021-22": "2,16,35,584",
+                  "2022-23": "2,46,59,041",
+                  "2023-24": "2,67,62,147"
+                },
+                {
+                  "Year": "Growth rate of GDP over previous year (in per cent)",
+                  "2019-20": 6.37,
+                  "2020-21": "(-)1.24",
+                  "2021-22": 18.85,
+                  "2022-23": 14.21,
+                  "2023-24": 9.6
+                },
+                {
+                  "Year": "Growth rate of GVA over previous year (in per cent)",
+                  "2019-20": 7.02,
+                  "2020-21": "(-)0.93",
+                  "2021-22": 18.81,
+                  "2022-23": 13.97,
+                  "2023-24": 8.53
+                },
+                {
+                  "Year": "Per Capita GDPa (in ₹)",
+                  "2019-20": "1,49,915",
+                  "2020-21": "1,46,480",
+                  "2021-22": "1,72,422",
+                  "2022-23": "1,94,879",
+                  "2023-24": "2,11,725"
+                },
+                {
+                  "Year": "STATE (Karnataka)",
+                  "2019-20": "",
+                  "2020-21": "",
+                  "2021-22": "",
+                  "2022-23": "",
+                  "2023-24": ""
+                },
+                {
+                  "Year": "GSDP# (₹ in crore)",
+                  "2019-20": "16,15,827",
+                  "2020-21": "16,41,460",
+                  "2021-22": "19,78,094",
+                  "2022-23": "22,69,995",
+                  "2023-24": "25,67,340"
+                },
+                {
+                  "Year": "GSVA$",
+                  "2019-20": "14,76,840",
+                  "2020-21": "15,08,669",
+                  "2021-22": "18,23,310",
+                  "2022-23": "20,76,302",
+                  "2023-24": "22,97,296"
+                },
+                {
+                  "Year": "Growth rate of GSDP over previous year (in per cent)",
+                  "2019-20": 9.22,
+                  "2020-21": 1.59,
+                  "2021-22": 20.51,
+                  "2022-23": 14.76,
+                  "2023-24": 13.1
+                },
+                {
+                  "Year": "Growth rate of GSVA over previous year (in per cent)",
+                  "2019-20": 10.32,
+                  "2020-21": 2.16,
+                  "2021-22": 20.86,
+                  "2022-23": 13.88,
+                  "2023-24": 10.64
+                },
+                {
+                  "Year": "Per Capita GSDP (in ₹)@",
+                  "2019-20": "2,44,437",
+                  "2020-21": "2,46,366",
+                  "2021-22": "2,94,833",
+                  "2022-23": "3,36,221",
+                  "2023-24": "3,76,996"
+                }
+              ],
             "T4F2": "*The back-to-back Loan (₹ 12,407 crore) received from GoI in lieu of GST compensation has not been considered as Debt for working out the indicator.",
             "T6F1": "Source: Finance Accounts",
             "T4F1": "Source: Finance Accounts",
@@ -17300,180 +17627,166 @@
 				
 			  ],
             "Table3":[
-				{
-				  "Liabilities": "",
-				  "8": "",
-				  "__1": "2021-22",
-				  "__2": "2022-23",
-				  "__3": "Per cent increase/decrease",
-				  "Assets": "",
-				  "__4": "",
-				  "__5": "2021-22",
-				  "__6": "2022-23",
-				  "__7": "Per cent increase/decrease"
-				},
-				{
-				  "Liabilities": "Consolidated Fund",
-				  "8": "",
-				  "__1": "",
-				  "__2": "",
-				  "__3": "",
-				  "Assets": "",
-				  "__4": "",
-				  "__5": "",
-				  "__6": "",
-				  "__7": ""
-				},
-				{
-				  "Liabilities": "A",
-				  "8": "Internal Debt",
-				  "__1": "3,29,042",
-				  "__2": "3,53,894",
-				  "__3": 7.55,
-				  "Assets": "a",
-				  "__4": "Gross Capital Outlay",
-				  "__5": "3,99,069",
-				  "__6": "4,56,417",
-				  "__7": 14.36
-				},
-				{
-				  "Liabilities": "B",
-				  "8": "Loans and Advances from GoI",
-				  "__1": "45,385*",
-				  "__2": "49,139*",
-				  "__3": 8.27,
-				  "Assets": "b",
-				  "__4": "Loans and Advances",
-				  "__5": "35,329",
-				  "__6": "38,101",
-				  "__7": 7.84
-				},
-				{
-				  "Liabilities": "Contingency Fund",
-				  "8": "",
-				  "__1": 500,
-				  "__2": 500,
-				  "__3": "-",
-				  "Assets": "Contingency Fund",
-				  "__4": "",
-				  "__5": "-",
-				  "__6": "-",
-				  "__7": "-"
-				},
-				{
-				  "Liabilities": "Public Account",
-				  "8": "",
-				  "__1": "",
-				  "__2": "",
-				  "__3": "",
-				  "Assets": "",
-				  "__4": "",
-				  "__5": "",
-				  "__6": "",
-				  "__7": ""
-				},
-				{
-				  "Liabilities": "A",
-				  "8": "Small Savings, Provident Funds etc.",
-				  "__1": "42,333",
-				  "__2": "45,736",
-				  "__3": 8.03,
-				  "Assets": "a",
-				  "__4": "Advances",
-				  "__5": 7,
-				  "__6": 7,
-				  "__7": "-"
-				},
-				{
-				  "Liabilities": "B",
-				  "8": "Deposits",
-				  "__1": "33,682",
-				  "__2": "59,874",
-				  "__3": 77.76,
-				  "Assets": "b",
-				  "__4": "Remittance",
-				  "__5": "1,207",
-				  "__6": "1,048",
-				  "__7": "(-)13.17"
-				},
-				{
-				  "Liabilities": "C",
-				  "8": "Reserve Funds",
-				  "__1": "53,046",
-				  "__2": "60,328",
-				  "__3": 13.72,
-				  "Assets": "c",
-				  "__4": "Suspense and Miscellaneous",
-				  "__5": "",
-				  "__6": "",
-				  "__7": ""
-				},
-				{
-				  "Liabilities": "",
-				  "8": "",
-				  "__1": "",
-				  "__2": "",
-				  "__3": "",
-				  "Assets": "Cumulative Excess of Receipts over expenditure",
-				  "__4": "",
-				  "__5": "7,188",
-				  "__6": "-",
-				  "__7": "-"
-				},
-				{
-				  "Liabilities": "D",
-				  "8": "Suspense and Miscellaneous",
-				  "__1": "2,224",
-				  "__2": "3,421",
-				  "__3": 53.82,
-				  "Assets": "Cash balance (including investment in Earmarked Fund)",
-				  "__4": "",
-				  "__5": "63,412",
-				  "__6": "83,629",
-				  "__7": 31.88
-				},
-				{
-				  "Liabilities": "E",
-				  "8": "Remittances",
-				  "__1": "-",
-				  "__2": "-",
-				  "__3": "-",
-				  "Assets": "Total",
-				  "__4": "",
-				  "__5": "5,06,212",
-				  "__6": "5,79,200",
-				  "__7": 14.41
-				},
-				{
-				  "Liabilities": "",
-				  "8": "Cumulative Excess of Receipts over expenditure",
-				  "__1": "-",
-				  "__2": "6,310",
-				  "__3": "-",
-				  "Assets": "Deficit in Revenue Account",
-				  "__4": "",
-				  "__5": "-",
-				  "__6": "",
-				  "__7": "-"
-				},
-				{
-				  "Liabilities": "Total",
-				  "8": "",
-				  "__1": "5,06,212",
-				  "__2": "5,79,202",
-				  "__3": 14.41,
-				  "Assets": "Total",
-				  "__4": "",
-				  "__5": "5,06,212",
-				  "__6": "5,79,202",
-				  "__7": 14.41
-				}
-			  ],
+                {
+                  "Liabilities": "Year",
+                  "Liabilities.": "_",
+                  "Liabilities,": "2022-23",
+                  "Liabilities..": "2023-24",
+                  ".": "Per cent increase/decrease",
+                  "Assets": "",
+                  "Assets,": "2022-23",
+                  "Assets.": "2023-24",
+                  ",": "Per cent increase/decrease"
+                },
+                {
+                  "Liabilities": "Consolidated Fund",
+                  "Liabilities.": "",
+                  "Liabilities,": "",
+                  "Liabilities..": "",
+                  ".": "",
+                  "Assets": "",
+                  "Assets,": "",
+                  "Assets.": "",
+                  ",": ""
+                },
+                {
+                  "Liabilities": "A",
+                  "Liabilities.": "Internal Debt",
+                  "Liabilities,": "3,53,894",
+                  "Liabilities..": "4,17,455",
+                  ".": 17.96,
+                  "Assets": "Gross Capital Outlay",
+                  "Assets,": "4,56,415",
+                  "Assets.": "5,08,558",
+                  ",": 11.42
+                },
+                {
+                  "Liabilities": "B",
+                  "Liabilities.": "Loans and Advances from GoI",
+                  "Liabilities,": "49,139*",
+                  "Liabilities..": "53,406*",
+                  ".": 8.68,
+                  "Assets": "Loans and Advances",
+                  "Assets,": "38,101",
+                  "Assets.": "42,268",
+                  ",": 10.94
+                },
+                {
+                  "Liabilities": "Contingency Fund",
+                  "Liabilities.": "",
+                  "Liabilities,": 500,
+                  "Liabilities..": 500,
+                  ".": "-",
+                  "Assets": "Contingency Fund",
+                  "Assets,": "-",
+                  "Assets.": "-",
+                  ",": "-"
+                },
+                {
+                  "Liabilities": "Public Account",
+                  "Liabilities.": "",
+                  "Liabilities,": "",
+                  "Liabilities..": "",
+                  ".": "",
+                  "Assets": "",
+                  "Assets,": "",
+                  "Assets.": "",
+                  ",": ""
+                },
+                {
+                  "Liabilities": "A",
+                  "Liabilities.": "Small Savings, Provident Funds etc.",
+                  "Liabilities,": "45,736",
+                  "Liabilities..": "49,290",
+                  ".": 7.77,
+                  "Assets": "Advances",
+                  "Assets,": 7,
+                  "Assets.": 7,
+                  ",": "-"
+                },
+                {
+                  "Liabilities": "B",
+                  "Liabilities.": "Deposits",
+                  "Liabilities,": "59,874",
+                  "Liabilities..": "67,348",
+                  ".": 12.48,
+                  "Assets": "Remittance",
+                  "Assets,": "1,048",
+                  "Assets.": 992,
+                  ",": -5.34
+                },
+                {
+                  "Liabilities": "C",
+                  "Liabilities.": "Reserve Funds",
+                  "Liabilities,": "60,642#",
+                  "Liabilities..": "67,969",
+                  ".": 12.08,
+                  "Assets": "Suspense and Miscellaneous",
+                  "Assets,": "-",
+                  "Assets.": "-",
+                  ",": "-"
+                },
+                {
+                  "Liabilities": "",
+                  "Liabilities.": "",
+                  "Liabilities,": "",
+                  "Liabilities..": "",
+                  ".": "",
+                  "Assets": "Cumulative Excess of Expenditure over Reciepts",
+                  "Assets,": "-",
+                  "Assets.": "2,905",
+                  ",": "-"
+                },
+                {
+                  "Liabilities": "D",
+                  "Liabilities.": "Suspense and Miscellaneous",
+                  "Liabilities,": "3,421",
+                  "Liabilities..": "6,026",
+                  ".": 76.15,
+                  "Assets": "Cash balance (including investment in Earmarked Fund)",
+                  "Assets,": "83,943#",
+                  "Assets.": "1,07,264",
+                  ",": 27.78
+                },
+                {
+                  "Liabilities": "E",
+                  "Liabilities.": "Remittances",
+                  "Liabilities,": "-",
+                  "Liabilities..": "-",
+                  ".": "-",
+                  "Assets": "Total",
+                  "Assets,": "5,79,514",
+                  "Assets.": "6,61,994",
+                  ",": ""
+                },
+                {
+                  "Liabilities": "",
+                  "Liabilities.": "Cumulative Excess of Receipts over expenditure",
+                  "Liabilities,": "6,308",
+                  "Liabilities..": "-",
+                  ".": "-",
+                  "Assets": "Deficit in Revenue Account",
+                  "Assets,": "-",
+                  "Assets.": "-",
+                  ",": ""
+                },
+                {
+                  "Liabilities": "Total",
+                  "Liabilities.": "",
+                  "Liabilities,": "5,79,514",
+                  "Liabilities..": "6,61,994",
+                  ".": 14.23,
+                  "Assets": "Total",
+                  "Assets,": "5,79,514",
+                  "Assets.": "6,61,994",
+                  ",": 14.23
+                }
+              ],
             "T3F1": "*Effective Loans and Advances for GoI would be ₹14,869 crore for 2021-22 and ₹18,623 crore for 2022-23 as the Department of Expenditure, GoI had decided that GST compensation of ₹12,407 and ₹18,109 crore given to the State as back-to-back loan during 2020-21 and 2021-22 respectively under Debt Receipt would not be treated as debt of the State for any norms which may be prescribed by the Finance Commission ",
             "T4F3": "The ratio of total outstanding Debt to GSDP (22.37 per cent) has been arrived at after excluding GST compensation of ₹12,407 crore given to the state as back-to-back loan under Debt Receipts form the total outstanding liabilities as the Department of Expenditure, GoI had decided that it would not be treated as debt of the state for any norms which may be prescribed by the Finance Commission.",
             "T6F2": "*The back-to-back Loan (₹ 12,407 crore) received from GoI in lieu of GST compensation has not been considered as Debt for working out the indicator.",
             "T5F1": "* The back-to-back Loan (₹ 30,516 crore) received from GoI during 2020-21 and 2021-22 in lieu of GST compensation has not been considered as Debt for working out the indicator.",
-            "T1F1": " Source: *All India GDP (2018-19 to 2022-23) figures as per Economic Survey 2022-23, Government of Karnataka(GoK). ",
+            "T1F1": " Source: *All India GDP (2019-20 to 2023-24) figures as per Economic Survey of India -2023-24. ",
             "T7H1": "Impact of certain major transactions during 2020-21",
             "T7F1": "Source: Notes to Accounts 2022-23 and Post audit analysis",
             "Table7": [
@@ -17740,15 +18053,15 @@
         },
         "Profile": {
             "para1": "",
-            "Para10": "The trend in Sectorial growth in GSDP for the period 2018-19 to 2022-23 is indicated in Chart 1.2. From the Chart, it can be seen that the growth rate in Agricultural sector which was on an increasing trend since 2018-19 decreased in 2021-22. During 2022-23, it further decreased by almost 50 per cent when compared to the previous year. Meanwhile the growth rate under Industry and Service sectors which were in decreasing trend had decreased drastically and both showed a negative growth rate during 2020-21. It rebounded back in 2021-22.",
-            "Para11": "The significant growth seen in Industries and Services sector during 2021-22 which was attributed to recovery of economic activity post Covid-19 pandemic, as per the advance estimate, further saw a steep decline during 2022-23. The reasons for the decline in the Agricultural, Industries and Service sectors were mainly attributed to Crop sub-sector, Fishing and Forestry & Logging, Mining and Quarry and Restaurant and Air Transport sub-sectors respectively.",
+            "Para10": "The trend in Sectorial growth in GSVA for the period 2019-20 to 2023-24 is indicated in Chart 1.2. From the Chart, it can be seen that the growth rate in Agricultural sector which had increased in the year 2020-21 over 2019-20 showed a decreasing trend till the year 2022-23 and marginally increased during the year 2023-24. Meanwhile the growth rate under Industry sector which had negative growth rate in 2019-20 showed increase in the year 2020-21 and grew drastically in the year 2021-22. Thereafter, it is in the decreasing trend.  Service sector which was negative in 2020-21, rebounded back in the year 2021-22. However, it has decreased during the years 2022-23 and 2023-24",
+            "Para11": "The reasons for the decline in the Industries and Service sectors were mainly attributed to Road Transport, Trade and Repair services and Financial services.",
             "Para12": "The decline in growth rate in Agriculture Sector was mainly due to decline in the growth rate in Livestock, Forestry & Logging and also lower rate in crop                      sector due to failure of food grain production caused by the floods in Karnataka.  The increase in the growth rate in Construction and Air Transport sectors contributed to the overall increase in the Industrial and Service sectors respectively when compared to previous year (2020-21). The sectoral contribution to GSDP[34] of the State during 2021-22 is given in Chart 1.4.",
             "Para15": "1.3 Basis and Approach to State Finance Audit Report",
             "Para16": "The State Finance Audit Report (SFAR) is prepared under Article 151 (2) of the Constitution of India, which states that the reports of the Comptroller and Auditor General of India (C&AG) relating to the accounts of a State are to be submitted to the Governor of the State, who shall cause them to be laid before the Legislature of the State.",
             "Para17": "Accountant General (Accounts & Entitlements) {AG (A&E)} prepares the Finance Accounts and Appropriation Accounts of the State annually, from initial and subsidiary accounts rendered by the treasuries, offices and other departments responsible for maintaining initial accounts and the statements received from the Reserve Bank of India (RBI). These accounts are audited independently by the Pr.AG (Audit) and certified by the C&AG.",
-            "Para18": "Finance Accounts and Appropriation Accounts of the State constitute the core data for this report.  Other sources include the following:",
+            "Para18": "Finance Accounts and Appropriation Accounts of the State constitute the core data for this report. Other sources include the following:",
             "Para19": "The State’s Budget for assessing the fiscal parameters and allocative priorities vis-à-vis projections, as well as for evaluating the effectiveness of budget’s implementation and compliance with the relevant rules and prescribed procedures;",
-            "para2": "Karnataka is the sixth largest State in India in terms of geographical area (1,91,791 Sq. km) and the ninth largest by population. The State’s population was 6.11 crore (2011 census) and recorded a decadal growth of about 16 per cent (2001-11). As per population projections for India and States 2011-2036 by National Commission on Population, Ministry of Health &Family Welfare, the projected population of the State in 2022-23 stands at 6.77 crore.   The percentage of population below the poverty line[1]  was 20.90 compared to the All-India average of 21.90 (2011-12).  Literacy rate of the State was 75.36 per cent (2011 Census).  The State has 31 districts and 227 taluks as of March 2023. General and financial data relating to the State is given in Appendix 1.1.",
+            "para2": "Karnataka is the seventh largest State in India in terms of geographical area (1,91,791 Sq. km) and the ninth largest by population. The State’s population was 6.11 crore (2011 census) and recorded a projected decadal growth of about 8.09 per cent (2014-2024). As per population projections for India and States 2011-2036 by National Commission on Population, Ministry of Health & Family Welfare, the projected population of the State in 2023-24 stands at 6.81crore. The percentage of population below the poverty line  was 20.91 compared to the All-India average of 21.92 (2011-12).  Literacy rate of the State was 75.36 per cent (2011 Census).  The State has 31 districts and 232 taluks as of March 2024. General and financial data relating to the State is given in Appendix 1.1.",
             "Para20": "Results of audit carried out by the Office of the Pr.AG (Audit I) and Pr.AG (Audit II);",
             "Para21": "Other financial data obtained from various Government departments and organisations;",
             "Para22": "GSDP data and other State related statistics from Directorate of Economics and Statistics, GoK;",
@@ -17774,50 +18087,62 @@
             "Para38": "The State Budget Manual prescribes the process of budget formulation and guides the State Government in monitoring its expenditure activities.  Results of audit scrutiny of budget and implementation of other budgetary initiatives of the State Government are included in Chapter 3 of this Report.",
             "Para39": "1.6 Snapshot of Finances",
             "para4": "Growth of GSDP and GSVA is an important indicator of the State’s economy.",
-            "Para40": "The Table 1.2 provides the details of actual financial results vis-à-vis Budget Estimates for the year 2022-23 vis-à-vis actuals of 2021-22.",
+            "Para40": "Table 1.2 provides the details of actual financial results vis-à-vis Budget Estimates for the year 2023-24 vis-à-vis actuals of 2022-23.",
             "Para40a": "The total receipts under Goods and Service Tax (GST) during 2022-23 were ₹71,189.49 crore.",
-            "Para41": "The State’s Revenue Receipts (₹2,29,080 crore) as well as Revenue expenditure (₹2,15,584 crore) exceeded over the Budget provision of ₹1,89,887 crore and ₹2,04,587 crore by 20.64 per cent and by 5.38 per cent respectively. The State attained Revenue surplus after Revenue Deficit in previous two years, which is mainly attributed to increase in Revenue Receipts (17.02 per cent) compared to very marginal increase of 2.94 per cent in Revenue Expenditure of current year over the previous year. There was a decrease in Revenue Expenditure over the previous year mainly under Health and Family Welfare, Social welfare and Nutrition and Water supply, Sanitation, Housing and Urban Development of social sector.",
-            "Para42": "The Capital expenditure also exceeded the Budget provision by around 32 per cent. This was basically due to an increase in the Capital expenditure under Roads and Bridges, Medium Irrigation and Urban Development." ,
+            "Para41": "The State’s Revenue Receipts (₹2,33,343 crore) which included Goods and Services Tax (GST) of ₹83,542.91 crore and Revenue expenditure (₹2,42,614 crore) were short when compared to Budget provision of ₹2,38,410 crore and ₹2,50,933 crore by 2.13 per cent and 3.32 per cent respectively. The State witnessed Revenue Deficit in the current year after attaining the Revenue surplus in the previous year. This was mainly attributed to an increase of Revenue Expenditure by 12.54 per cent compared to a marginal increase in Revenue Receipts (1.86 per cent) over the previous year. The Capital expenditure marginally exceeded the Budget provision by around 2.22 per cent. ",
+            "Para42": "The increase in Revenue Expenditure over the previous year was mainly on account of subsidies and Financial Assistance provided by the State through five Guarantee schemes, which is discussed below:" ,
+            "Para42a":"Five Guarantee Schemes announced by GoK during 2023-24",
+            "Para42b":"GoK implemented five guarantee schemes indicated in Table below during 2023-24 and the State made a budget provision of ₹36,538 crore for these schemes. Out of these five schemes*, while three schemes where in the form of subsides, remaining two schemes were cash transfers.  Cash transfer schemes provide the beneficiaries with more freedom to spend the funds according to their choice. In comparison, the subsidies either limit the scope of beneficiaries covered or the purpose for which such transfers can be used. The details of expenditure of these five schemes is indicated in Table 1.2(a) ",
+            "Para42c":"From the Table, it is evident that the schemes accounted for 15 per cent of Revenue Expenditure for the year 2023-24. Except in Anna Bhagya scheme, the State utilised the entire allocation.",
+            "Para42d":"Analysis of the State Finances for the year 2023-24 and scrutiny of the Government orders revealed the following:",
+            "Para42e":"• During the year 2023-24, while the State’s revenue grew by 1.86 per cent over last year, its expenditure grew by 12.54 per cent.  The increase in growth of expenditure was mainly on account of the Guarantee Schemes which was the contributing factor of revenue deficit of ₹9,271 crore. This mismatch of Receipt and Expenditure during the current year had resulted in State witnessing Revenue Deficit of ₹9,271 crore after its recovery during 2022-23 from Covid 19 economic slowdown.",
+            "Para42f":"• Consequently, Fiscal Deficit of the State also increased from ₹46,623 crore in 2022-23 to ₹65,522 crore in 2023-24.",
+            "Para42g":"• To finance the Guarantee Schemes and the deficits arising thereof, the State availed net market borrowing of ₹63,000 crores which was ₹37,000 crore more than the last year’s net borrowings (₹26,000 crore).  This would not only increase repayment burden in the near future but also would enormously increase the interest burden of the State.",
+            "Para42h":"• The State also reduced the capital expenditure towards infrastructure by around ₹5,229 crores when compared to previous year. This has an impact on the increase in incomplete projects by 68 per cent when compared to previous year. This compression in gross capital formation may prove to be detrimental to future growth prospects.",
+            "Para42i":"Thus, implementation of the five Guarantee schemes without rationalising of existing subsidies/ financial assistance or the benefits would place a pressure on State’s resources and have an influence on fiscal deficits and debt level as already discussed above.",
+            "Para42j":"The Finance Department while accepting the facts during Exit conference (January 2025) stated that the Five Guarantee Schemes boosted the local economy, reduced economic disparities, and support human capital development. Though the cash transfers such as Yuva Nidhi and Gruha Lakshmi empowered the youth and women and also gave security and enhanced their purchasing power, these cash transfers along with the other three subsidy schemes without rationalisation of existing subsidies would strain the Financial economy of the State. The Government in Medium Term Fiscal Plan 2024-28 has projected a Revenue deficit of ₹27,354 crore and thereby increasing its borrowings to ₹1,05,246 crore.",
+
             "Para43": "1.7 Snapshot of Assets and Liabilities of the Government",
-            "Para44": "Government accounts capture the financial liabilities of the Government and the assets created out of the expenditure incurred. The liabilities consist mainly of internal borrowings, loans and advances from GoI, receipts from public account and reserve funds, and the assets comprise mainly the capital outlay, loans and advances given by the State Government and cash balances. The growth rate components of Assets and Liabilities is given in Table 1.3 and summarised position of Assets and Liabilities as on 31 March 2023 compared with the corresponding position as on 31 March 2022 is given in Appendix 1.3.",
-            "Para45": "The growth rate of assets in the Consolidated Fund increased (14 per cent) under Gross capital outlay and increased by around eight per cent under Loans and Advances when compared to the previous year. While the growth rate of Liabilities under internal debt excluding of off-budget borrowings increased by around eight per cent. The Loans and Advances by GoI increased by eightper cent when compared to the previous year. The cash balance including investment in Earmarked Funds increased by 32 per cent and as at the end of March 2023 was ₹83,629 crore. ",
+            "Para44": "Government accounts capture the financial liabilities of the Government and the assets created out of the expenditure incurred. The liabilities consist mainly of internal borrowings, loans and advances from GoI, receipts from public account and reserve funds, and the assets comprise mainly the capital outlay, loans and advances given by the State Government and cash balances. The growth rate components of Assets and Liabilities is given in Table 1.3 and summarized position of Assets and Liabilities as on 31 March 2024 compared with the corresponding position as on 31 March 2023 is given in Appendix 1.3.",
+            "Para45": "The growth rate of assets in the Consolidated Fund increased (around 11 per cent) under Gross capital outlay and increased by around 11 per cent under Loans and Advances when compared to the previous year. While the growth rate of Liabilities under internal debt excluding of off-budget borrowings increased by around 18 per cent. The Loans and Advances by GoI increased by nine per cent when compared to the previous year. The cash balance including investment in Earmarked Funds increased by 28 per cent and as at the end of March 2024 was ₹1,07,264 crore.  ",
             "Para46": "1.8 Fiscal parameters",
             "Para47": "The three key fiscal parameters – revenue, fiscal and primary deficits indicate the extent of overall fiscal imbalances during a specified period.",
-            "Para48": "The nature of deficit is an indicator of the extent of prudence in fiscal management. Further, the ways in which the deficit is financed, and the application of resources raised are important pointers to its fiscal health.  This section presents trends, nature and magnitude and the manner of financing these deficits and the assessment of actual levels of revenue and fiscal deficits vis-à-vis targets set under KFRA for the financial year 2022-23.",
+            "Para48": "The nature of deficit is an indicator of the extent of prudence in fiscal management. Further, the ways in which the deficit is financed, and the application of resources raised are important pointers to its fiscal health.  This section presents trends, nature and magnitude and the manner of financing these deficits and the assessment of actual levels of revenue and fiscal deficits vis-à-vis targets set under KFRA for the financial year 2023-24.  ",
             "Para49": "1.8.1 Trends in Deficit/Surplus",
             "para5": "Gross State Domestic Product (GSDP): GSDP is the market value of all officially recognized goods and services produced within the boundaries of the State in a given period of time.",
-            "Para50": "The targets set by XV Finance Commission and those projected in the state budget vis-à-vis achievements in respect of major fiscal aggregates with reference to GSDP during 2022-23 are given in the Table:1.4 below:",
-            "Para50a": "During 2022-23, the State attained revenue surplus (0.62 per cent) against the Revenue deficit projections of XV FC and budget. The ratio of fiscal deficit to GSDP and total outstanding Liability to GSDP was less than the target set by both XV FC as well as budget.",
-            "Para50b": "The trend of surplus and deficits of key fiscal parameters over the five-year period from 2018-19 to 2022-23 is depicted in Chart 1.4 and trend in surplus and deficit relative to GSDP is given in Chart 1.5.",
-            "Para51":"During 2022-23, the State observed revenue surplus after a gap of two years and fiscal deficit was least at 2.14 in the last five years. This was on account of the high revenue surplus achieved during 2022-23.",
+            "Para50": "The targets set by XV Finance Commission and those projected in the State budget vis-à-vis achievements in respect of major fiscal aggregates with reference to GSDP during 2023-24 are given in the Table:1.4 below:",
+            "Para50a": "During 2023-24, the State witnessed the ratios of revenue deficit to GSDP (0.36 per cent) and fiscal deficit to GSDP (2.55 per cent) less than the projections of XV FC and budget. Though the ratio of total outstanding Liability to GSDP (23.49) was less than the target set by XV FC, the ratio was more than the projection made in the budget.",
+            "Para50b": "The trend of surplus and deficits of key fiscal parameters over the five-year period from 2019-20 to 2023-24 is depicted in Chart 1.4 and trend in surplus and deficit relative to GSDP is given in Chart 1.5.",
+            "Para51":"During 2023-24, the State witnessed revenue deficit after attaining Revenue surplus in previous year and fiscal deficit to GSDP ratio was at 2.55, which increased over the previous year. The increase in Fiscal Deficit/GSDP ratio was on account of the revenue deficit witnessed by the State during 2023-24. The State witnessed Revenue deficit as result of growth of Revenue Expenditure (12.54 per cent) more than that of Revenue receipts (1.86 per cent).",
             "Para52": " 1.8.2 Trends in Fiscal Liabilities and its ratio to GSDP",
-            "Para53": "Table 1.5 gives details of the composition of outstanding fiscal liabilities of the State and its ratio to GSDP during the years 2018-19 to 2022-23.",
-            "Para54": "The ratio of total liabilities to GSDP which was on an increasing trend from 2018-19 was at peak in the year 2020-21. However, the ratio was within the target of KFRA in all the five years. During 2022-23, the ratio was within the prescribed target due to less internal debt (reduction by 35 per cent[3]) by the State when compared to the previous year.",
-            "Para54a": "The total fiscal liabilities of the State increased by 94 per cent from ₹2,85,238 crore in 2018-19 to ₹5,53,363 crore in 2022-23 and by 13 per cent over the previous year. Internal debt which includes market borrowings constituted 56.36 per cent and Public Account constituted 24 per cent of the total fiscal liabilities during 2022-23. The ratio of total liabilities to GSDP increased from 19.28 per cent during 2018-19 to 23.97 per cent during 2022-23. During 2022-23, the ratio exceeded the previous year though within the limit set under the KFRA/Medium Term Fiscal Plan (MTFP) of 2022-23.",
+            "Para53": "Table 1.5 gives details of the composition of outstanding fiscal liabilities of the State and its ratio to GSDP during the years 2019-20 to 2023-24.",
+            "Para54": "The ratio of total liabilities to GSDP which was highest during 2020-21 was on a decreasing trend during 2021-22 and 2022-23. It once again increased during 2023-24 to 23.49 per cent due to increase in internal debt of the State by 115 per cent during the current year when compared to previous year.  However, the ratio was within the target of KFRA in all the five years. During 2023-24, though the ratio increased marginally from the last year, it was within the prescribed target.",
+            "Para54a": "The total fiscal liabilities of the State increased by 88 per cent from ₹3,37,520 crore in 2019-20 to ₹6,33,531 crore in 2023-24 and by 14 per cent over the previous year. Internal debt which includes market borrowings constituted 65.89 per cent and Public Account constituted 23.55 per cent of the total fiscal liabilities during 2023-24.   ",
             "Para55": "1.9 Fiscal situation of the State",
             "Para56": "The KFRA, 2002 as amended from time to time was enacted with the objective of achieving inter-generational equity in fiscal management and long-term macro-economic stability.",
             "Para57": "1.9.1 KFRA targets on key fiscal parameters and achievements thereon",
             "Para58": "The KFRA, 2002 envisaged sufficient revenue surplus and prudential debt management through limits on borrowings, debt and deficits.  The targets for revenue and fiscal deficits along with their actual levels are given in Table 1.6.",
-            "Para58a": "By an amendment to KFRA, 2002 in February 2014, the scope of total liabilities as defined under Section-2(g) was amplified to include the borrowings by PSUs and Special Purpose Vehicles  (SPVs) and other equivalent instruments where the principal and/or interest are to be serviced out of the State Budget. The State Government has been amending the KFRA from time to time keeping in view the parameters prescribed by successive Finance Commissions (FC) and also based on the fiscal situation.",
-            "Para59": "During the year 2022-23, the State Government amended the KFRA to reduce the fiscal deficit from four per cent to 3.5 per cent of the estimated GSDP. In addition, the State envisaged revenue deficit due to slow recovery of the economy to the pre covid level. It also envisaged total liabilities to exceed 25 per cent of the estimated GSDP.",
+            "Para58a": "By an amendment to KFRA, 2002 in February 2014, the scope of total liabilities as defined under Section-2(g) was amplified to include the borrowings by PSUs and Special Purpose Vehicles  (SPVs) and other equivalent instruments where the principal and/or interest are to be serviced out of the State Budget. The State Government has been amending the KFRA from time to time keeping in view the parameters prescribed by successive Finance Commissions (FC) and also based on the fiscal situation. ",
+            "Para59": "During the year 2023-24, the State Government amended the KFRA to reduce the fiscal deficit from 3.5 per cent to 3.0 per cent of the estimated GSDP. ",
             "para6": "Gross State Value Added (GSVA): GSVA is the value of goods and services produced by industry sector, manufacturer around a region in an economy i.e. it is total value of output product without intermediary costs that went into production.",
-            "Para60": "The State Government recorded revenue surplus from 2004-05 to 2019-20 and during 2020-21 and 2021-22, the State witnessed revenue deficit and the revenue deficit was met out of the borrowed funds. During 2022-23, the State recorded revenue surplus. The fiscal deficit was well within the target fixed by KFRA in all the years. The total debt outstanding ratio to GSDP as prescribed under the Act, was well within the target of 25 per cent provided in the Act.",
-            "Para61": "1.9.2 Actuals vis-à-vis projections of Medium Term Fiscal Plan for 2022-23",
-            "Para62": "As per the KFRA, the State Government has to lay before the State Legislature, a Five-Year Fiscal Plan along with the Annual Budget.  The MTFP has set forth a five-year rolling target for the prescribed fiscal indicators. Table 1.7 indicates the variation between the projections made for 2022-23 in MTFP and actuals for the year.",
-            "Para64": "As seen from the above table, while actual receipts and debt increased from the projection made in MTFP, the expenditure and GSDP was less than projected. As a result, there was variation in the fiscal parameters. which has been discussed in previous paragraphs.",
-            "Para66": "1.10 Impact of certain transactions on major fiscal indicators during 2022-23",
-            "Para67": "Scrutiny of certain major transactions during 2022-23 revealed that revenue deficit and fiscal deficit were affected by certain accounting adjustments (some of them are brought out in Notes to Accounts of Finance Accounts) and through post audit analysis which are detailed in Table 1.8.",
+            "Para60": "The State Government recorded revenue surplus from 2004-05 to 2019-20 and during 2020-21 and 2021-22, the State witnessed revenue deficit and the revenue deficit was met out of the borrowed funds. During 2022-23, the State recorded revenue surplus. However, the State once again witnessed Revenue Deficit during 2023-24. The fiscal deficit was well within the target fixed by KFRA in all the years. The total liabilities outstanding ratio to GSDP as prescribed under the Act, was well within the target of 25 per cent provided in the Act.",
+            "Para61": "1.9.2 Actuals vis-à-vis projections of Medium Term Fiscal Plan for 2023-24",
+            "Para62": "As per the KFRA, the State Government has to lay before the State Legislature, a Five-Year Fiscal Plan along with the Annual Budget.  The MTFP has set forth a five-year rolling target for the prescribed fiscal indicators. Table 1.7 indicates the variation between the projections made for 2023-24 in MTFP and actuals for the year.",
+            "Para64": "As seen from the above table, the actual receipts, expenditure, liabilities and GSDP increased from the projection made in MTFP. As a result, there was variation in the fiscal parameters which has been discussed in previous paragraphs.",
+            "Para66": "1.10 Impact of certain transactions on major fiscal indicators during 2023-24",
+            "Para67": "Scrutiny of certain major transactions during 2023-24 revealed that revenue deficit and fiscal deficit were affected by certain accounting adjustments (some of them are brought out in Notes to Accounts of Finance Accounts) and through post audit analysis which are detailed in Table 1.8.",
             "Para68": "The above transactions are discussed below:",
-            "Para69": " Expenditure of ₹50 crore which was to be treated as Revenue was treated as Capital Expenditure which is detailed in paragraph 3.6.1.2 of Chapter 3;",
-            "para7": "Gross Value Added (GVA) is being used for economic analysis by GoI and international organisations like International Monetary Fund (IMF) and World Bank since GVA is considered better indicator of economic growth compared to Gross Domestic Product (GDP), as it ignores the impact of taxes and subsidies. GDP can be and is also calculated as the sum of total of various expenditures incurred in the economy including private consumption spending, government consumption spending and gross fixed capital formation or investment spending, reflecting essentially on the demand conditions in the economy. Both measures have differences in treatment of net taxes as a result of which the inclusion of taxes in GDP may differ from the real output situation. From a policy maker’s perspective, it is therefore, vital to have comparison of the GVA and GSVA data for better analysis and making policy interventions.",
-            "Para70": "Expenditure of ₹1.10 crore under Capital head were utilized towards expenditure of revenue nature which is discussed in paragraph 3.6.1.2 of Chapter 3;",
-            "Para71": "Expenditure of ₹0.75 crore under Revenue head were utilized towards expenditure of Capital nature which is discussed in paragraph 3.6.1.2 of Chapter 3;",
-            "Para72": "Green Tax Cess collected (₹14.94 crore), expenditure incurred their against (₹22.83 crore) and Road safety Cess (₹70.09 crore) collected under Consolidated Fund of the State were not transferred to the fund account in Reserve Fund, which is discussed in paragraph 2.6.2 (c) &(d) of Chapter 2;",
-            "Para73": "The State did not provide interest of ₹84.66 crore (₹6.81 crore as interest for insurance fund and ₹77.85 crore as interest for saving fund) in respect of Karnataka Group Insurance Department during the fourth quarter of the year.",
-            "Para74": "The State Government was required to pay interest of ₹17.94 crore on the un-expended balance lying under Reserve Funds and Deposits bearing interest in respect of State Disaster Response Fund and State Disaster Mitigation Fund.",
-            "Para75":"The Revenue Surplus and Fiscal Deficit would have an impact because of the above transactions. The Revenue Surplus would reduce by ₹215.15 crore and would stand at ₹13,281 crore and the effective Fiscal Deficit would increase by ₹164.80 crore and would stand at ₹46,788 crore. The FD-GSDP ratio would thus stand at 2.15 per cent.",
-            "para8": "It is important to understand changes in sectoral contribution to the GSDP and GSVA since they indicate changing structure of economy. Economic activity is generally divided into Primary, Secondary and Tertiary sectors, which correspond to the Agriculture, Industry and Service sectors. The trends in the annual growth of nation’s GDP and GVA and that of the State, at current prices for the years 2018-19 to 2022-23 are indicated in Table 1.1 and the trends in growth rate of GSDP with respect to GSVA at current prices is depicted in Chart 1.1.",
-            "para8a": "As seen from the Table 1.1, the Karnataka’s GSDP growth rate at current prices was more than that of nation’s growth rate in all the years up to 2021-22. However, during 2022-23, the growth rate of GSDP at current prices is less when compared to nation’s growth rate. Similarly, the GSVA growth rate is more than that of nation’s GVA in all the years except during the year 2022-23. Further, it is noticed that per capita GSDP of the State is more than the per capita GDP in all the years during the period 2018-23. The GSDP for the State during 2022-23 has been adopted as per the figure projected for the State by the Ministry of Finance, GoI. The sectoral contribution in GSDP has been made as per the analysis made by the Directorate of Economics and Statistics[2], Government of Karnataka (GoK).",
+            "Para69": "Expenditure of ₹374.64 crore which was to be treated as Revenue was treated as Capital Expenditure which is detailed in paragraph 3.7.1.2 of Chapter 3;",
+            "para7": "Gross Value Added (GVA) is being used for economic analysis by Government of India (GoI) and international organizations like International Monetary Fund (IMF) and World Bank since GVA is considered also a better indicator of economic growth compared to Gross Domestic Product (GDP), as it ignores the impact of taxes and subsidies. GDP can be and is also calculated as the sum of total of various expenditures incurred in the economy including private consumption spending, government consumption spending and gross fixed capital formation or investment spending, reflecting essentially on the demand conditions in the economy. Both measures have differences in treatment of net taxes as a result of which the inclusion of taxes in GDP may differ from the real output situation. Similarly for the State, GSVA is considered a better indicator compared to GSDP. Hence, from a policy maker’s perspective, it is therefore vital to have a comparison of the GVA and GSVA data for better analysis and making policy interventions.Gross Value Added (GVA) is being used for economic analysis by Government of India (GoI) and international organizations like International Monetary Fund (IMF) and World Bank since GVA is considered also a better indicator of economic growth compared to Gross Domestic Product (GDP), as it ignores the impact of taxes and subsidies. GDP can be and is also calculated as the sum of total of various expenditures incurred in the economy including private consumption spending, government consumption spending and gross fixed capital formation or investment spending, reflecting essentially on the demand conditions in the economy. Both measures have differences in treatment of net taxes as a result of which the inclusion of taxes in GDP may differ from the real output situation. Similarly for the State, GSVA is considered a better indicator compared to GSDP. Hence, from a policy maker’s perspective, it is therefore vital to have a comparison of the GVA and GSVA data for better analysis and making policy interventions.",
+            "Para70": "Expenditure of ₹129.65 crore under Capital head was utilized towards expenditure of revenue nature which is discussed in paragraph 3.7.1.2 of Chapter 3;",
+            "Para71": "Expenditure of ₹0.01 crore under Revenue head was utilized towards expenditure of Capital nature which is discussed in paragraph 3.7.1.2 of Chapter 3;",
+            "Para72": "The State Government was required to pay interest of ₹27.73 crore on the un-expended balance lying under Reserve Funds and Deposits bearing interest in respect of State Disaster Response Fund and State Disaster Mitigation Fund as discussed in in paragraph 2.6.2(b) and (c) of Chapter 2;",
+            "Para73": "Capital expenditure of ₹492.12 crore, which was to be incurred from CRIF was not transferred to the said Fund account which is discussed in in paragraph 2.6.2(f) of Chapter 2.",
+            "Para74": "The Revenue Deficit and Fiscal Deficit would have an impact because of the above transactions. The Revenue Deficit would increase by ₹532.01 crore and would stand at ₹9,803.01 crore and the effective Fiscal Deficit would decrease by ₹464.39 crore and would stand at ₹65,057.61 crore. The FD-GSDP ratio would continue to remain at 2.53 per cent.",
+            
+            "para8": "Economic activity is generally divided into Primary, Secondary and Tertiary sectors, which correspond to the Agriculture, Industry and Service sectors. The trends in the annual growth of nation’s GDP and GVA and that of the State, at current prices for the years 2019-20 to 2023-24 are indicated in Table 1.1 and the trends in growth rate of GSDP with respect to GSVA at current prices is depicted in Chart 1.1.",
+            "para8b": "Adoption of GSDP by GoK Department of Expenditure, Ministry of Finance, GoI while determining the Net Borrowings ceiling of State for each financial year projects the GSDP of the State as per the methodology prescribed by the XV Finance Commission. For the GoK, the projected GSDP for the year 2023-24 is ₹25,67,340 crore. The State has adopted the same for estimating the fiscal parameters in the budget document like Medium Term Fiscal Plan and Overview of the Budget. The State has also communicated to adopt the same in Finance Accounts as well as State Finance Audit Report",
+            "para8a": "As seen from the Chart 1.1, the Karnataka’s GSDP growth rate at current prices was less than growth rate of GSVA in the years from 2019-20 to 2021-22, However, it increased in the years 2022-23 and 2023-24. This indicated that during 2022-23 and 2023-24, the taxes earned by the State was more than the subsidies provided by the State and hence the growth rate of GSDP was more than the GSVA.",
             "Para9": "As seen from the Chart 1.1, the Karnataka’s GSDP growth rate at current prices was less than growth rate of GSVA in all the years from 2018-19 to 2022-23 except 2021-22. This indicated that during 2021-22, the taxes earned by the State was more than the subsidies provided and hence the growth rate of GSDP was more than the GSVA.",
             "sup2": "The difference between per capita income of the State and National’s average during 2020-21 was ₹99,828.",
             "sup3": "  Product taxes or subsidies are paid or received on per unit of product. Some examples of product taxes are excise tax, sales tax, service tax and import and export duties. Product subsidies include food, petroleum and fertilizer subsidies, interest subsidies given to farmers, households, etc. through banks",

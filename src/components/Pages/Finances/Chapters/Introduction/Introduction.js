@@ -21,9 +21,9 @@ const FinIntroduction = () => {
                         <Title>
                             {ctx.chapterTwo.Introduction.title}
                             </Title>
-                        <Para>
+                        {<Para>
                             {ctx.chapterTwo.Introduction.para1}
-                        </Para>
+                        </Para>}
 
                     </div>
                 </div>

@@ -76,7 +76,7 @@ const Profile = () => {
                         <Para>
                             {ctx.chapterOne.Profile.para6}
                         </Para>
-                        {["para7", "para8"].map((item, ind) =>
+                        {["para7", "para8","para8b"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterOne.Profile[item]}
                             </Para>
@@ -88,17 +88,18 @@ const Profile = () => {
                         <h4 className='footnote'>
                             <i>
                                 {ctx.tables1.T1F1} <br></br>
+                                {ctx.tables1.T1F1a} <br></br>
                                 {ctx.tables1.T1F2}<br></br>
                                 {ctx.tables1.T1F2a}<br></br>
                                 {ctx.tables1.T1F2b}<br></br>
                                 {ctx.tables1.T1F2c}<br></br>
-                                {ctx.tables1.T1F2d}<br></br>
+                                {/* {ctx.tables1.T1F2d}<br></br> */}
                                
                             </i>
                         </h4>
 
                         <Para tooltips={[
-                            { word: "Statistics[2]", tooltip: "The GSDP as per the Economic Survey of Karnataka is Rs.22,41,368 crore, which differs from the GSDP(Rs.21,81,217 crore) projected by Ministry of Finance,GoI" },
+                            { word: "Statistics[2]", tooltip: "The GSDP as per the Economic Survey of Karnataka is ₹25,00,733 crore, which differs from the GSDP (₹25,67,340 crore) projected by Ministry of Finance, GoI." },
 
                         ]}>
                             {ctx.chapterOne.Profile.para8a}
