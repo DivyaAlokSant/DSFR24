@@ -47,18 +47,22 @@ const FiscalParams = () => {
                                 {ctx.chapterOne.Profile[item]}
                             </Para>
                         )}
-                        <Table3aa />
-                        <h4>
-                        Source: Recommendations of 15th FC, Annual Financial Statement, Overview of Budget 2022-23 and Finance Accounts  <br></br>
+                        {/* <Table3aa /> */}
+                        <CustomTable    title={"Table 1.4: Targets vis-à-vis achievements in respect of major fiscal aggregates for the year 2023-24"}
+                        columns={ctx.tables1.Table3aa}
+                        data={ctx.tables1.Table3aa} />
+                        
+                        <h4>Source: Recommendations of XV FC, Annual Financial Statement, MTFP 2024-28 Overview of Budget 2023-24 and Finance Accounts
+                       <br></br>
                         </h4>
                         <h4>
                         Note: Deficit figures have been shown in minus.
                         </h4>
                         <h4>
-                        *  Calculated on the basis of GSDP figures of ₹21,81,217crore as per Ministry of Finance, GOI.
+                        *  Calculated on the basis of GSDP figures of ₹25,67,340 crore as per Ministry of Finance, GoI.
                         </h4>
                         <h4>
-                        ^ The back-to-back Loan (₹ 30,516 crore) received from GoI during 2020-21 and 2021-22 in lieu of GST     compensation has not been considered as Debt for working out the indicator.
+                        ^  The back-to-back Loan (₹30,516 crore) received from GoI during 2020-21 and 2021-22 in lieu of GST     compensation has not been considered as Debt for working out the indicator. This includes Off-budget borrowing.
                         </h4>
                         <Para>
                           
@@ -73,16 +77,16 @@ const FiscalParams = () => {
                         Chart 1.4: Trends in fiscal parameters                    
                         </Title>
                         <ImageComponent flex="2" aspectRatio = "2" resizeMode = 'contain' src={c14} color ="#ffffff00" />
-                        <h4>
+                        {/* <h4>
                         Source: Finance Accounts  
-                        </h4>
+                        </h4> */}
                         <Title>
                         Chart 1.5: Trends in Surplus/Deficit relative to GSDP                    
                         </Title>
                         <ImageComponent flex="2" aspectRatio = "2" resizeMode = 'contain' src={c15} color ="#ffffff00" />
-                        <h4>
+                        {/* <h4>
                         Source: Directorate of Economics and Statistics, GoK, and Finance Accounts 
-                        </h4>
+                        </h4> */}
                         {/* <Chart5 />
                         <Chart6 /> */}
 
@@ -113,12 +117,16 @@ const FiscalParams = () => {
                         <h3 className='headnote'>
                             ₹ In crore
                         </h3>
-                        <Table4 />
+                        {/* <Table4 /> */}
+                        <CustomTable    title={"Table 1.5: Trends in Fiscal Liabilities and its ratio to GSDP"}
+                        columns={ctx.tables1.Table4}
+                        data={ctx.tables1.Table4} />
                         <h4 className='footnote'>
                             <i>
                                 {ctx.tables1.T4F1}
                                 <br></br>
-                                * Effective Loans and Advances for GoI would be ₹14,210 crore for 2020-21, ₹14,869 crore for 2021-22 and ₹18,623 crore for 2022-23 as the Department of Expenditure, GoI had decided that GST compensation of ₹12,407 crore and ₹18,109 crore given to the State as back-to-back loan during 2020-21 and 2021-22 respectively under Debt Receipt would not be treated as debt of the State for any norms which may be prescribed by the Finance Commission.  
+                                Source: Finance Accounts
+                                * Effective Loans and Advances for GoI would be ₹14,210 crore for 2020-21, ₹14,869 crore for 2021-22,  ₹18,623 crore for 2022-23 and ₹22,890 for 2023-24 as the Department of Expenditure, GoI had decided that GST compensation of ₹12,407 crore and ₹18,109 crore given to the State as back-to-back loan during 2020-21 and 2021-22 respectively under Debt Receipt would not be treated as debt of the State for any norms which may be prescribed by the Finance Commission.
                             </i>
                         </h4>
                         <Para tooltips={[

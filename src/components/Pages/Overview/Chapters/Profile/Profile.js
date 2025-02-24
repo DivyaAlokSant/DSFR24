@@ -83,7 +83,10 @@ const Profile = () => {
                         )}
 
                         {/* Table 1 goes here */}
-                        <Table1 id="table1" />
+                        {/* <Table1 id="table1" /> */}
+                        <CustomTable    title={"Table 1.1 Trends in GSDP/GSVA compared to the GDP/GVA (at current prices)"}
+                        columns={ctx.tables1.Table1}
+                        data={ctx.tables1.Table1} /> 
                         {/* /* ENglish */}
                         <h4 className='footnote'>
                             <i>

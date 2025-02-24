@@ -32,10 +32,13 @@ const Impact = () => {
                          <h3 className='headnote'>
                             ₹ In crore
                         </h3>
-                        <Table7 />
+                        {/* <Table7 /> */}
+                        <CustomTable    title={"Table 1.8: Impact of certain major transactions during 2023-24"}
+                        columns={ctx.tables1.Table7}
+                        data={ctx.tables1.Table7} />
                         <h4 className='footnote'>
                             <i>
-                                {ctx.tables1.T7F1}
+                            Source: Notes to Accounts 2023-24 and Post audit analysis
                             </i>
                         </h4>
                         <Para>

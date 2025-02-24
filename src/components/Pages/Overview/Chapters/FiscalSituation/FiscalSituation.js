@@ -41,10 +41,13 @@ const FiscalSituation = () => {
                             </Para>
                         )}
                         
-                        <Table5 />
+                        {/* <Table5 /> */}
+                        <CustomTable    title={"Table 1.6: Compliance with targets of KFRA"}
+                        columns={ctx.tables1.Table5}
+                        data={ctx.tables1.Table5} />
                         <h4 className='footnote'>
                             <i>
-                                {ctx.tables1.T5F1}
+                            * The back-to-back Loan of ₹12,407 crore received from GoI during 2020-21 and ₹ 18,109 crore in 2021-22 in lieu of GST compensation has not been considered as Debt for working out the indicator. 
                             </i>
                         </h4>
                         <Para>
@@ -86,10 +89,19 @@ const FiscalSituation = () => {
                         <h3 className='headnote'>
                             ₹ In crore
                         </h3>
-                        <Table6 />
+                        {/* <Table6 /> */}
+                        <CustomTable    title={"Table 1.7: Actuals vis-à-vis projection in MTFP for 2023-24"}
+                        columns={ctx.tables1.Table6}
+                        data={ctx.tables1.Table6} />
+
                         <h4 className='footnote'>
                             <i>
-                            Source: Finance Accounts and MTFP 2021-25
+                            Source: Finance Accounts and MTFP 2022-26
+                            </i>
+                        </h4>
+                        <h4 className='footnote'>
+                            <i>
+                            The back-to-back Loan (₹30,516 crore) received from GoI during 2020-21 and 2021-22 in lieu of GST compensation has not been considered as Debt for working out the indicator.
                             </i>
                         </h4>
                  

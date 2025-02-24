@@ -617,64 +617,63 @@
         "parar1": "₹",
         "Tables": {
 			"Table4":[
-				{
-				  "Liabilities": "Internal Debt",
-				  "2018-19": "1,79,309",
-				  "2019-20": "2,20,337",
-				  "2020-21": "2,81,140",
-				  "2021-22": "3,29,042",
-				  "2022-23": "3,53,894"
-				},
-				{
-				  "Liabilities": "GoI Loans",
-				  "2018-19": "14,657",
-				  "2019-20": "13,908",
-				  "2020-21": "26,617*",
-				  "2021-22": "45,385*",
-				  "2022-23": "49,139*"
-				},
-				{
-				  "Liabilities": "Public Account",
-				  "2018-19": "76,410",
-				  "2019-20": "85,172",
-				  "2020-21": "89,748",
-				  "2021-22": "99,147",
-				  "2022-23": "1,33,024"
-				},
-				{
-				  "Liabilities": "Off-budget borrowings",
-				  "2018-19": "14,862",
-				  "2019-20": "18,103",
-				  "2020-21": "18,421",
-				  "2021-22": "16,682",
-				  "2022-23": "17,306"
-				},
-				{
-				  "Liabilities": "Total Fiscal Liabilities",
-				  "2018-19": "2,85,238",
-				  "2019-20": "3,37,520",
-				  "2020-21": "4,15,926",
-				  "2021-22": "4,90,256",
-				  "2022-23": "5,53,363"
-				},
-				{
-				  "Liabilities": "Total Liabilities to GSDP (in per cent)",
-				  "2018-19": 19.28,
-				  "2019-20": 20.95,
-				  "2020-21": "24.83*",
-				  "2021-22": "23.42*",
-				  "2022-23": "23.97*"
-				},
-				{
-				  "Liabilities": "Target (in per cent)",
-				  "2018-19": 25,
-				  "2019-20": 25,
-				  "2020-21": 25,
-				  "2021-22": 25,
-				  "2022-23": 25
-				}
-				
-			  ],
+                {
+                  "Liabilities": "Internal Debt",
+                  "2019-20": "2,20,337",
+                  "2020-21": "2,81,140",
+                  "2021-22": "3,29,042",
+                  "2022-23": "3,53,894",
+                  "2023-24": "4,17,455"
+                },
+                {
+                  "Liabilities": "GoI Loans",
+                  "2019-20": "13,908",
+                  "2020-21": "26,617*",
+                  "2021-22": "45,385*",
+                  "2022-23": "49,139*",
+                  "2023-24": "53,406*"
+                },
+                {
+                  "Liabilities": "Public Account",
+                  "2019-20": "85,172",
+                  "2020-21": "89,748",
+                  "2021-22": "99,147",
+                  "2022-23": "1,33,024",
+                  "2023-24": "1,49,192"
+                },
+                {
+                  "Liabilities": "Off-Budget Borrowings",
+                  "2019-20": "18,103",
+                  "2020-21": "18,421",
+                  "2021-22": "16,682",
+                  "2022-23": "17,306",
+                  "2023-24": "13,478"
+                },
+                {
+                  "Liabilities": "Total Fiscal Liabilities",
+                  "2019-20": "3,37,520",
+                  "2020-21": "4,15,926",
+                  "2021-22": "4,90,256",
+                  "2022-23": "5,53,363",
+                  "2023-24": "6,33,531"
+                },
+                {
+                  "Liabilities": "Total Liabilities to GSDP (in per cent)",
+                  "2019-20": 20.89,
+                  "2020-21": "24.58*",
+                  "2021-22": "23.24*",
+                  "2022-23": "23.03*",
+                  "2023-24": "23.49*"
+                },
+                {
+                  "Liabilities": "KFRA Target (in per cent)",
+                  "2019-20": 25,
+                  "2020-21": 25,
+                  "2021-22": 25,
+                  "2022-23": 25,
+                  "2023-24": 25
+                }
+              ],
               "Table4e":[
                 {
                   "Sl. No.": "Section A: Revenue Receipts",
@@ -1006,98 +1005,102 @@
               ],
             "Table6": [
                 {
-                  "Sl No": 1,
-                  "Fiscal Variables": "Own Tax Revenue",
-                  "Projection as per MTFP": "1,30,535",
-                  "Actuals": "1,43,702",
-                  "Variation": 10.09
+                  "Sl. No.": 1,
+                  "Fiscal Variables": "Own-Tax Revenue",
+                  "Projection as per MTFP 2022-26": "1,40,067",
+                  "Actuals(2023-24)": "1,63,505",
+                  "Variation(in per cent)": 16.73
                 },
                 {
-                  "Sl No": 2,
+                  "Sl. No.": 2,
                   "Fiscal Variables": "Non-Tax Revenue",
-                  "Projection as per MTFP": "8,589",
-                  "Actuals": "13,914",
-                  "Variation": 62
+                  "Projection as per MTFP 2022-26": "11,943",
+                  "Actuals(2023-24)": "13,117",
+                  "Variation(in per cent)": 9.83
                 },
                 {
-                  "Sl No": 3,
+                  "Sl. No.": 3,
                   "Fiscal Variables": "Share of Central Taxes",
-                  "Projection as per MTFP": "26,719",
-                  "Actuals": "34,596",
-                  "Variation": 29.48
+                  "Projection as per MTFP 2022-26": "30,065",
+                  "Actuals(2023-24)": "41,193",
+                  "Variation(in per cent)": 37.01
                 },
                 {
-                  "Sl No": 4,
+                  "Sl. No.": 4,
                   "Fiscal Variables": "Grants-in-aid from GoI",
-                  "Projection as per MTFP": "14,073",
-                  "Actuals": "36,868",
-                  "Variation": 161.98
+                  "Projection as per MTFP 2022-26": "16,944",
+                  "Actuals(2023-24)": "15,528",
+                  "Variation(in per cent)": "(-)8.36"
                 },
                 {
-                  "Sl No": 5,
+                  "Sl. No.": 5,
                   "Fiscal Variables": "Revenue Receipts (1+2+3+4)",
-                  "Projection as per MTFP": "1,79,916",
-                  "Actuals": "2,29,080",
-                  "Variation": 27.33
+                  "Projection as per MTFP 2022-26": "1,99,019",
+                  "Actuals(2023-24)": "2,33,343",
+                  "Variation(in per cent)": 17.25
                 },
                 {
-                  "Sl No": 6,
+                  "Sl. No.": 6,
                   "Fiscal Variables": "Revenue Expenditure",
-                  "Projection as per MTFP": "2,08,004",
-                  "Actuals": "2,15,584",
-                  "Variation": 3.64
+                  "Projection as per MTFP 2022-26": "2,39,587",
+                  "Actuals(2023-24)": "2,42,614",
+                  "Variation(in per cent)": 1.26
                 },
                 {
-                  "Sl No": 7,
-                  "Fiscal Variables": "Total Debt",
-                  "Projection as per MTFP": "5,12,585",
-                  "Actuals": "5,53,363",
-                  "Variation": 7.95
+                  "Sl. No.": 7,
+                  "Fiscal Variables": "Total Liabilities",
+                  "Projection as per MTFP 2022-26": "5,91,977",
+                  "Actuals(2023-24)": "6,33,531*",
+                  "Variation(in per cent)": 7.02
                 },
                 {
-                  "Sl No": 8,
+                  "Sl. No.": 8,
                   "Fiscal Variables": "GSDP",
-                  "Projection as per MTFP": "18,85,750",
-                  "Actuals": "21,81,217",
-                  "Variation": 15.67
+                  "Projection as per MTFP 2022-26": "21,10,499",
+                  "Actuals(2023-24)": "25,67,340",
+                  "Variation(in per cent)": 21.65
                 },
                 {
-                  "Sl No": 9,
-                  "Fiscal Variables": "Revenue Deficit (-) / Surplus (+) (5-6)",
-                  "Projection as per MTFP": "(-)28,088",
-                  "Actuals": "13,496",
-                  "Variation": 148.04
+                  "Sl. No.": 9,
+                  "Fiscal Variables": "Revenue Deficit",
+                  "Projection as per MTFP 2022-26": "(-)40,568",
+                  "Actuals(2023-24)": "(-)9,271",
+                  "Variation(in per cent)": 77.14
                 },
-               
                 {
-                  "Sl No": 10,
+                  "Sl. No.": "",
+                  "Fiscal Variables": "(-) / Surplus (+) (5-6)",
+                  "Projection as per MTFP 2022-26": "",
+                  "Actuals(2023-24)": "",
+                  "Variation(in per cent)": ""
+                },
+                {
+                  "Sl. No.": 10,
                   "Fiscal Variables": "Fiscal Deficit (-)/ Surplus (+)",
-                  "Projection as per MTFP": "(-)54,687",
-                  "Actuals": "(-)46,623",
-                  "Variation": "(-)14.74"
+                  "Projection as per MTFP 2022-26": "(-)61,204",
+                  "Actuals(2023-24)": "(-)65,522",
+                  "Variation(in per cent)": "(-)7.05"
                 },
                 {
-                    "Sl No": 11,
-                    "Fiscal Variables": "Fiscal Deficit/GSDP",
-                    "Projection as per MTFP": "2.90",
-                    "Actuals": "2.14",
-                    "Variation": "0.76"
+                  "Sl. No.": 11,
+                  "Fiscal Variables": "Fiscal Deficit/ GSDP",
+                  "Projection as per MTFP 2022-26": 2.9,
+                  "Actuals(2023-24)": 2.55,
+                  "Variation(in per cent)": "(-)0.35"
                 },
                 {
-                  "Sl No": 12,
-                  "Fiscal Variables": "Debt-GSDP ratio (per cent)",
-                  "Projection as per MTFP": 27.18,
-                  "Actuals": 23.97,
-                  "Variation": 3.21
+                  "Sl. No.": 12,
+                  "Fiscal Variables": "Liabilities-GSDP ratio (per cent)",
+                  "Projection as per MTFP 2022-26": 28.05,
+                  "Actuals(2023-24)": 23.49,
+                  "Variation(in per cent)": "(-)4.56"
                 },
-               
                 {
-                    "Sl No": 13,
-                    "Fiscal Variables": "GSDP growth rate at current prices (per cent)",
-                    "Projection as per MTFP": 10.8,
-                    "Actuals": 11.13,
-                    "Variation": 0.33
-
+                  "Sl. No.": 13,
+                  "Fiscal Variables": "GSDP growth rate at current prices (per cent)",
+                  "Projection as per MTFP 2022-26": 11.9,
+                  "Actuals(2023-24)": 13.1,
+                  "Variation(in per cent)": 1.2
                 }
               ],
             "T2F1a": "* Effective total debt would be ₹403,519 crore as the Department of Expenditure, GoI had decided that GST compensation of ₹12,407 crore given to the state as back-to-back loan under Debt Receipt would not be treated as debt of the state for any norms which may be prescribed by the Finance Commission and therefore, the effective variation would be 6.59 per cent.",
@@ -17233,77 +17236,94 @@
             "T4F1": "Source: Finance Accounts",
             "Table5": [
                 {
-                  "1": "2019-20",
-                  "2": "2020-21",
-                  "3": "2021-22",
-                  "4": "2022-23",
                   "Fiscal Parameters": "",
                   "KFRA target": "",
-                  "Achievement": "2018-19"
+                  "Achievement": "2019-20",
+                  "Achievement.": "2020-21",
+                  "Achievement..": "2021-22",
+                  "Achievement,": "2022-23",
+                  "Achievement,,": "2023-24"
                 },
                 {
-                  "1": "1,185",
-                  "2": "(-)19,338",
-                  "3": "(-)13,666",
-                  "4": "13,496",
                   "Fiscal Parameters": "Revenue Surplus/Deficit",
                   "KFRA target": "To maintain Revenue Surplus up to 2019-20.",
-                  "Achievement": 679
+                  "Achievement": "1,185",
+                  "Achievement.": "(-)19,338",
+                  "Achievement..": "(-)13,666",
+                  "Achievement,": "13,496",
+                  "Achievement,,": "(-)9,271"
                 },
                 {
-                  "1": "√",
-                  "2": "State saw Revenue Deficit",
-                  "3": "",
-                  "4": "State achieved Revenue Surplus",
                   "Fiscal Parameters": "(₹ in crore)",
-                  "KFRA target": "Revenue Surplus may not be attained during 2020-21 due to covid 19 & in 2021-22 and 2022-23 Revenue Deficit would arise and slow recovery of the economy.",
-                  "Achievement": "√"
+                  "KFRA target": "Revenue Surplus may not be attained during 2020-21 due to covid 19 & in 2021-22 and 2022-23 Revenue Deficit would arise due to slow recovery of the economy.",
+                  "Achievement": "√",
+                  "Achievement.": "State saw Revenue Deficit",
+                  "Achievement..": "",
+                  "Achievement,": "State achieved Revenue Surplus",
+                  "Achievement,,": "State saw Revenue Deficit"
                 },
                 {
-                  "1": 2.36,
-                  "2": 3.88,
-                  "3": 3.84,
-                  "4": 2.14,
                   "Fiscal Parameters": "Fiscal Deficit (as percentage of GSDP)",
                   "KFRA target": "3.00 per cent (upto 2019-20)",
-                  "Achievement": 2.6
+                  "Achievement": 2.36,
+                  "Achievement.": 4.09,
+                  "Achievement..": 3.34,
+                  "Achievement,": 2.05,
+                  "Achievement,,": 2.55
                 },
                 {
-                  "1": "38,166",
-                  "2": "67,098",
-                  "3": "66,036",
-                  "4": "46,623",
                   "Fiscal Parameters": "",
                   "KFRA target": "",
-                  "Achievement": "38,442"
+                  "Achievement": "-38,166",
+                  "Achievement.": "-67,098",
+                  "Achievement..": "-66,036",
+                  "Achievement,": "-46,623",
+                  "Achievement,,": "-65,522"
                 },
-                
                 {
-                  "1": "√",
-                  "2": "√",
-                  "3": "√",
-                  "4": "√",
                   "Fiscal Parameters": "",
-                  "KFRA target": "5.00 per cent (2020-21, 4.00 per cent  (2021-22) and 3.5 per cent (2022-23)",
-                  "Achievement": "√"
+                  "KFRA target": "",
+                  "Achievement": "",
+                  "Achievement.": "",
+                  "Achievement..": "",
+                  "Achievement,": "",
+                  "Achievement,,": ""
                 },
                 {
-                  "1": 20.95,
-                  "2": 24.83,
-                  "3": 23.42,
-                  "4": 23.97,
-                  "Fiscal Parameters": "Ratio of total outstanding debt to GSDP",
-                  "KFRA target": "25.00 per cent (up to 2022-23) Debt to GSDP ratio may increase (2021-22 and 2022-23)",
-                  "Achievement": 19.28
+                  "Fiscal Parameters": "",
+                  "KFRA target": "5.00 per cent (2020-21), 4.00 per cent (2021-22) 3.5 per cent (2022-23) and",
+                  "Achievement": "√",
+                  "Achievement.": "√",
+                  "Achievement..": "√",
+                  "Achievement,": "√",
+                  "Achievement,,": "√"
                 },
                 {
-                  "1": "√",
-                  "2": "√",
-                  "3": "√",
-                  "4": "√",
+                  "Fiscal Parameters": "",
+                  "KFRA target": "3.0 per cent (2023-24)",
+                  "Achievement": "",
+                  "Achievement.": "",
+                  "Achievement..": "",
+                  "Achievement,": "",
+                  "Achievement,,": ""
+                },
+                {
+                  "Fiscal Parameters": "Ratio of total outstanding Liabilities to GSDP",
+                  "KFRA target": "25.00 per cent (up to 2023-24) Liabilities to GSDP ratio may increase (2021-22 and 2022-23)",
+                  "Achievement": 20.89,
+                  "Achievement.": "24.58*",
+                  "Achievement..": "23.24*",
+                  "Achievement,": "23.03*",
+                  "Achievement,,": "23.49*"
+                },
+                {
                   "Fiscal Parameters": "(in per cent)",
                   "KFRA target": "",
-                  "Achievement": "√"
+                  "Achievement": "√",
+                  "Achievement.": "√",
+                  "Achievement..": "√",
+                  "Achievement,": "√",
+                  "Achievement,,": "√"
                 }
               ],
             "T2H2": "(₹ in crore)",
@@ -17591,41 +17611,40 @@
                   }
 			  ],
 			  "t3aah1":"Table 1.4: Targets vis-à-vis achievements in respect of major fiscal aggregates for the year 2022-23",
-			  "Table3aa":[ 
-				{
-				  "Fiscal Variables": "",
-				  "Targets as prescribed by XV FC": "",
-				  "Targets in the Budget": "",
-				  "Actuals*": "",
-				  "Percentage variation of actual over": "Targets of XV FC",
-				  "1": "Targets in Budget"
-				},
-				{
-				  "Fiscal Variables": "Revenue Deficit/GSDP (per cent)",
-				  "Targets as prescribed by XV FC": "(-)0.8",
-				  "Targets in the Budget": "(-)0.78",
-				  "Actuals*": 0.62,
-				  "Percentage variation of actual over": 1.42,
-				  "1": 1.4
-				},
-				{
-				  "Fiscal Variables": "Fiscal Deficit/GSDP (per cent)",
-				  "Targets as prescribed by XV FC": "(-)3.5",
-				  "Targets in the Budget": "(-)3.26",
-				  "Actuals*": "(-)2.14",
-				  "Percentage variation of actual over": 1.36,
-				  "1": 1.12
-				},
-				{
-				  "Fiscal Variables": "Total Outstanding Liability/GSDP^ (per cent)",
-				  "Targets as prescribed by XV FC": 33.3,
-				  "Targets in the Budget": 27.3,
-				  "Actuals*": 23.97,
-				  "Percentage variation of actual over": 9.33,
-				  "1": 3.33
-				}
-				
-			  ],
+			  "Table3aa":[
+                {
+                  "Fiscal Variables": "",
+                  "Targets as prescribed by XV FC": "",
+                  "Targets in the Budget": "",
+                  "Actuals*": "",
+                  "Percentage variation of actual over": "Targets of XV FC",
+                  "Percentage variation of actual over.": "Targets in Budget"
+                },
+                {
+                  "Fiscal Variables": "Revenue Deficit/GSDP (per cent)",
+                  "Targets as prescribed by XV FC": "(-)1.20",
+                  "Targets in the Budget": "(-)0.49",
+                  "Actuals*": "(-)0.36",
+                  "Percentage variation of actual over": 0.84,
+                  "Percentage variation of actual over.": 0.13
+                },
+                {
+                  "Fiscal Variables": "Fiscal Deficit/GSDP (per cent)",
+                  "Targets as prescribed by XV FC": "(-)3.00",
+                  "Targets in the Budget": "(-)2.60",
+                  "Actuals*": "(-)2.55",
+                  "Percentage variation of actual over": 0.45,
+                  "Percentage variation of actual over.": 0.05
+                },
+                {
+                  "Fiscal Variables": "Total Outstanding Liability/GSDP^ (per cent)",
+                  "Targets as prescribed by XV FC": 27.2,
+                  "Targets in the Budget": 22.27,
+                  "Actuals*": 23.49,
+                  "Percentage variation of actual over": 3.71,
+                  "Percentage variation of actual over.": "(-)1.22"
+                }
+              ],
             "Table3":[
                 {
                   "Liabilities": "Year",
@@ -17790,87 +17809,55 @@
             "T7H1": "Impact of certain major transactions during 2020-21",
             "T7F1": "Source: Notes to Accounts 2022-23 and Post audit analysis",
             "Table7": [
-  {
-    "1": "Under-statement",
-    "2": "Under-statement",
-    "Sl No": "",
-    "Nature of transaction": "",
-    "Revenue Surplus": "Over- statement",
-    "Fiscal Deficit": "Over-statement"
-  },
-  {
-    "1": "",
-    "2": "",
-    "Sl No": 1,
-    "Nature of transaction": "Booking of capital expenditure instead of revenue expenditure",
-    "Revenue Surplus": 1.1,
-    "Fiscal Deficit": ""
-  },
-  {
-    "1": "",
-    "2": "",
-    "Sl No": "1a",
-    "Nature of transaction": "Booking of capital expenditure instead of revenue expenditure (Grants in Aid)",
-    "Revenue Surplus": 50,
-    "Fiscal Deficit": ""
-  },
-  {
-    "1": 0.75,
-    "2": "",
-    "Sl No": 2,
-    "Nature of transaction": "Booking of Revenue expenditure instead of Capital expenditure",
-    "Revenue Surplus": "",
-    "Fiscal Deficit": ""
-  },
-  {
-    "1": "",
-    "2": 14.94,
-    "Sl No": 3,
-    "Nature of transaction": "Non-transfer of receipts under Green Tax Cess to Reserve Fund",
-    "Revenue Surplus": 14.94,
-    "Fiscal Deficit": ""
-  },
-  {
-    "1": 22.83,
-    "2": "",
-    "Sl No": 4,
-    "Nature of transaction": "Non-transfer of expenditure under Green Tax Cess to Reserve Fund",
-    "Revenue Surplus": "",
-    "Fiscal Deficit": 22.83
-  },
-  {
-    "1": "",
-    "2": 70.09,
-    "Sl No": 5,
-    "Nature of transaction": "Non-transfer of receipts under Road Safety Cess",
-    "Revenue Surplus": 70.09,
-    "Fiscal Deficit": ""
-  },
-  {
-    "1": "",
-    "2": 84.66,
-    "Sl No": 6,
-    "Nature of transaction": "Non payment of Interest in respect of Karnataka Employees Group Insurance Fund ",
-    "Revenue Surplus": 84.66,
-    "Fiscal Deficit": ""
-  },
-  {
-    "1": "",
-    "2": 17.94,
-    "Sl No": 7,
-    "Nature of transaction": "Non payment of interest in respect of State Disaster Response Fund/ State Disaster Mitigation Fund",
-    "Revenue Surplus": 17.94,
-    "Fiscal Deficit": ""
-  },
-  {
-    "1": 23.58,
-    "2": 187.63,
-    "Sl No": "Total",
-    "Nature of transaction": "",
-    "Revenue Surplus": 238.73,
-    "Fiscal Deficit": 22.83
-  }
-]
+                {
+                  "Sl. No.": 1,
+                  "Nature of transaction": "Booking of capital expenditure instead of revenue expenditure",
+                  "Revenue Deficit(Over- statement)": "",
+                  "Revenue Deficit(Under-statement)": 374.64,
+                  "Fiscal Deficit(Over-statement)": "",
+                  "Fiscal Deficit(Under-statement)": ""
+                },
+                {
+                  "Sl. No.": "1a",
+                  "Nature of transaction": "Booking of capital expenditure instead of revenue expenditure (Grants-in-aid)",
+                  "Revenue Deficit(Over- statement)": "",
+                  "Revenue Deficit(Under-statement)": 129.65,
+                  "Fiscal Deficit(Over-statement)": "",
+                  "Fiscal Deficit(Under-statement)": ""
+                },
+                {
+                  "Sl. No.": 2,
+                  "Nature of transaction": "Booking of Revenue expenditure instead of Capital expenditure",
+                  "Revenue Deficit(Over- statement)": 0.01,
+                  "Revenue Deficit(Under-statement)": "",
+                  "Fiscal Deficit(Over-statement)": "",
+                  "Fiscal Deficit(Under-statement)": ""
+                },
+                {
+                  "Sl. No.": 3,
+                  "Nature of transaction": "Non payment of interest in respect of State Disaster Response Fund/ State Disaster Mitigation Fund",
+                  "Revenue Deficit(Over- statement)": "",
+                  "Revenue Deficit(Under-statement)": 27.73,
+                  "Fiscal Deficit(Over-statement)": "",
+                  "Fiscal Deficit(Under-statement)": 27.73
+                },
+                {
+                  "Sl. No.": 4,
+                  "Nature of transaction": "Non transfer of Capital expenditure incurred from CRIF to CRIF Fund.",
+                  "Revenue Deficit(Over- statement)": "",
+                  "Revenue Deficit(Under-statement)": "",
+                  "Fiscal Deficit(Over-statement)": 492.12,
+                  "Fiscal Deficit(Under-statement)": ""
+                },
+                {
+                  "Sl. No.": "Total",
+                  "Nature of transaction": "",
+                  "Revenue Deficit(Over- statement)": 0.01,
+                  "Revenue Deficit(Under-statement)": 532.02,
+                  "Fiscal Deficit(Over-statement)": 492.12,
+                  "Fiscal Deficit(Under-statement)": 27.73
+                }
+              ]
         },
         "Charts": {
             "C6H2": "(₹ in crore)",
