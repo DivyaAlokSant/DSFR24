@@ -32,16 +32,30 @@ const ChildBudget = () => {
            <h3 className='headnote'>
           ₹ In crore
         </h3>   
-         <Table2 /> 
+         {/* <Table2 />  */}
+         <CustomTable    title={"Table 3.2: Details of allocation under Child Centric Programme/Schemes"}
+                        columns={ctx.tables3.Table2}
+                        data={ctx.tables3.Table2} />
+                        
         
 
         <h4>
         <i>
         Source: Grant Register and Child Budget Document
         </i>
-        </h4>    
+        </h4>  
+        {["para20"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+            )
+          )}  
       
-          {["para20","para21","para22","para23"].map(
+          {["para21","para22","para23"].map(
+            (item, ind) => (
+              <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
+            )
+          )}
+          {["para23a","para23b"].map(
             (item, ind) => (
               <Para key={ind / 10}>{ctx.chapterThree.Profile[item]}</Para>
             )

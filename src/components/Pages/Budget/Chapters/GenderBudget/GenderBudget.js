@@ -30,12 +30,12 @@ const GenderBudget = () => {
                             ₹ In crore
                     </h3>
 
-        <CustomTable    title={"Table 3.1 – Category-wise allocation during 2018-19 to 2022-23"}
+        <CustomTable    title={"Table 3.1: Category-wise allocation during 2019-20 to 2023-24"}
                         columns={ctx.tables3.Table1}
                         data={ctx.tables3.Table1} />
                          <h4 className='footnote'>
                 <i>
-               Source: Grant Register and Gender Budget of the respective years
+                Source: Appropriation Accounts and Gender Budget of the respective years
                    
                 </i></h4> 
 
