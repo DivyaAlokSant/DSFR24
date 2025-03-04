@@ -29,10 +29,18 @@ const  SourcesApplication = () => {
                             {ctx.chapterTwo.Para5}
                         </Para>
                         
-                        <Table2/>
+                        {/* <Table2/> */}
+                        <CustomTable    title={"Table 2.2: Details of Sources and Application of funds during 2022-23 and 2023-24"}
+                        columns={ctx.tables2.Table2}
+                        data={ctx.tables2.Table2} />
                         <h4 className='footnote'>
                             <i>
                                 Source: Finance Accounts
+                            </i>
+                        </h4>
+                        <h4 className='footnote'>
+                            <i>
+                            * The closing cash balance differs from last year due to non-accounting of ₹314 crore invested in the Guarantee Redemption fund.
                             </i>
                         </h4>
                         {/* <Chart11a />

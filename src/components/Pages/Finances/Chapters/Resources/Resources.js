@@ -80,7 +80,11 @@ const Resources = () => {
 
                         <ImageComponent src={c23} alt="chart23" aspectRatio={1 / 0.8} />
                        
-                      
+                        <h4 className='footnote'>
+                            <i>
+                                Source: Finance Accounts
+                            </i>
+                        </h4>
 
                         
                         <Subtitle>
@@ -156,6 +160,10 @@ const Resources = () => {
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)}
+                            {["Para23"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapterTwo[item]}
+                            </Para>)}
                        <h2><b>
                             {ctx.chapterTwo.Para24}</b></h2>
                         
@@ -223,6 +231,9 @@ const Resources = () => {
                         <Para>
                             {ctx.chapterTwo.Para34}
                         </Para>
+                        <Para>
+                            {ctx.chapterTwo.Para35}
+                        </Para>
                         <h3 className='headnote'>
                             (₹ In crore)
                         </h3>
@@ -239,11 +250,15 @@ const Resources = () => {
 
                         </h4>
                      
-                        <h4 className='footnote'>
+                        {/* <h4 className='footnote'>
                         <i>
                             *Does not include the case for the year 2022-23 as these would be due for assessment in the next financial year.
                             </i>
-                        </h4>
+                        </h4> */}
+                        
+                        <Para>
+                            {ctx.chapterTwo.Para35a}
+                        </Para>
                          
 
                     <h2><b>
@@ -273,16 +288,14 @@ const Resources = () => {
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)}
-                        {["Para43", "Para44"].map((item, ind) =>
+                        {["Para43", "Para44","Para45","Para47"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 <li>
                                 {ctx.chapterTwo[item]}
                                 </li>
                             </Para>)}
 
-                        <Para>
-                            {ctx.chapterTwo["Para45"]}
-                        </Para>
+                       
                         {/* <div style={{
                             backgroundColor: "#ac8",
                             fontSize: "18px",
@@ -295,10 +308,10 @@ const Resources = () => {
                             </Subtitle>    
                            
                         </div> */}
-                       <h2><b>
-                            {ctx.chapterTwo["Para47"]}</b></h2>
+
+                       
                             
-                            {["Para48", "Para49"].map((item, ind) =>
+                            {["Para48", "Para49","Para50"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)}
@@ -309,9 +322,7 @@ const Resources = () => {
                             </i>
                         </h4> 
 
-                        <Para>
-                            {ctx.chapterTwo["Para50"]}
-                        </Para>
+                       
 
                         {["Para51", "Para52"].map((item, ind) =>
                             <Para key={ind / 10}>
@@ -432,16 +443,14 @@ const Resources = () => {
                             {ctx.chapterTwo.Para72}
                         </Para>      
 
-                        {["Para74", "Para75","Para76",].map((item, ind) =>
+                        {["Para74", "Para75","Para76","Para77"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 <li>    
                                 {ctx.chapterTwo[item]}
                                 </li>
                             </Para>)}    
 
-                        <Para>
-                            {ctx.chapterTwo.Para77}
-                        </Para>  
+                     
 
                         {/* <Table15 />    */}
                         <CustomTable title={"Table 2.16: Recommended and actual release of grants during 2022-23"}

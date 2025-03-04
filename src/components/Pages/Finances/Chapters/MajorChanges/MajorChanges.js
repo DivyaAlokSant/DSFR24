@@ -8,6 +8,7 @@ import FloatingActionButtons from "./../../../../FloatingActionButtons/FloatButt
 import './../../Finances.css'
 import Table1 from '../../../Tables/Chapter2/Table1'
 import Table1kan from '../../../Tables/Chapter2kan/Table1kan'
+import CustomTable from "../../../../CustomTable/CustomTable";
 
 const MajorChanges = () => {
 
@@ -25,7 +26,11 @@ const MajorChanges = () => {
                         <Para>
                             {ctx.chapterTwo.Para2}
                         </Para>
-                        <Table1/>
+                        {/* <Table1/> */}
+                        <CustomTable    title={"Table 2.1: Changes in key fiscal aggregates during 2023-24 compared to 2022-23"}
+                        columns={ctx.tables2.Table1}
+                        data={ctx.tables2.Table1} />
+                        
 
                         {/* Demo Tables for all chapters are here*/}
           
