@@ -13,15 +13,8 @@ import ckt12 from '../../../../../Images/ckt12.png'
 import ckt13 from '../../../../../Images/ckt13.png'
 import c16 from '../../../../../Images/c16.png'
 import c62 from '../../../../../Images/c62.png'
-
-
-
 import c24 from '../../../../../Images/c24.png'
-
 import c25 from '../../../../../Images/c25.png'
-
-
-
 import ImageComponent from 'material-ui-image'
 import Table3 from '../../../Tables/Chapter2/Table3'
 import Table9 from '../../../Tables/Chapter2/Table9'
@@ -33,7 +26,6 @@ import Table14 from '../../../Tables/Chapter2/Table14'
 import Table15 from '../../../Tables/Chapter2/Table15'
 import Table16 from '../../../Tables/Chapter2/Table16'
 import Table17 from '../../../Tables/Chapter2/Table17'
-
 import Table5 from '../../../Tables/Chapter2/Table5'
 import Table6 from '../../../Tables/Chapter2/Table6'
 import Table7 from '../../../Tables/Chapter2/Table7'
@@ -93,16 +85,20 @@ const Resources = () => {
                         <Para>
                             {ctx.chapterTwo.Para10a}
                         </Para>
-                        <Table3 />
+                        {/* <Table3 /> */}
+                        <CustomTable    title={"Table 2.3: Trends and growth in Revenue Receipts"}
+                        columns={ctx.tables2.Table3}
+                        data={ctx.tables2.Table3} />
                         <h4 className='footnote'>
                             <i>
                                 Source: Finance Accounts and Economic Survey of Gok<br></br>
                             </i>
-                            [5]Buoyancy ratio indicates the elasticity or degree of responsiveness of a fiscal variable with respect to a given change in the base variable.  For instance, revenue buoyancy with respect to GSDP at 0.63 implies that Revenue Receipts tend to increase by 0.63 percentage points, if the GSDP increases by one per cent.
+                            [4]Buoyancy indicates the degree of responsiveness of a fiscal variable with respect to a given change in the base variable.
                             <br></br>
-                            [6]Revenue buoyancy refers to the growth rate of Revenue Receipts to growth rate of GSDP.
+                            [5]Revenue buoyancy refers to the growth rate of Revenue Receipts to growth rate of GSDP.
                             <br></br>
-                            [7]Own revenue buoyancy refers to growth rate of Tax Revenue and non-Tax revenue to growth rate of GSDP.  It excludes devolution from GoI.
+                            [6]Own revenue buoyancy refers to growth rate of Tax Revenue and non-Tax revenue to growth rate of GSDP.  It excludes devolution from GoI.
+                            
                         </h4>
                         {/* <Chrt2 />
                         <h4 className='footnote'>
@@ -173,7 +169,11 @@ const Resources = () => {
                         <h3 className='headnote'>
                             ₹ In crore
                         </h3>
-                        <Table5 />
+                        {/* <Table5 /> */}
+                        <CustomTable    title={"Table 2.5: SGST receipts of GoK"}
+                        columns={ctx.tables2.Table5}
+                        data={ctx.tables2.Table5} />
+
                         <h4 className='footnote'>
                             <i>
                                 Source: Finance Accounts
@@ -217,7 +217,11 @@ const Resources = () => {
                             (₹ In crore)
                         </h3>
                         {/* <Table5 /> */}
-                        <Table6 />
+                        {/* <Table6 /> */}
+                        <CustomTable    title={" Table 2.6 Arrears of revenue     "}
+                        columns={ctx.tables2.Table5}
+                        data={ctx.tables2.Table5} />
+
                         <h4 className='footnote'>
                             <i>
                                 Source: Departmental information
@@ -239,7 +243,7 @@ const Resources = () => {
                         </h3>
 
                         {/* <Table7 /> */}
-                        <CustomTable title={"Table 2.7 Arrears of assessment"}
+                        <CustomTable title={"Table 2.7 Evasion of tax detected "}
             columns={ctx.tables2.Table7}
             data={ctx.tables2.Table7} />
                         <h4 className='footnote'>
@@ -269,14 +273,14 @@ const Resources = () => {
                                 {ctx.chapterTwo[item]}
                             </Para>)}
                         {/* <Table8 />   */}
-                        <CustomTable title={"Table 2.8 Evasion of tax detected "}
+                        {/* <CustomTable title={"Table 2.8 Evasion of tax detected "}
             columns={ctx.tables2.Table8}
             data={ctx.tables2.Table8} />
                         <h4 className='footnote'>
                             <i>
                             Source: Departmental information
                             </i>
-                        </h4> 
+                        </h4>  */}
                          
                         <Para>
                             {ctx.chapterTwo.Para38}
@@ -315,26 +319,23 @@ const Resources = () => {
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)}
-                        <Table9 /> 
+                        {/* <Table9 /> 
                         <h4 className='footnote'>
                             <i>
                             Source: Inspection Reports and information furnished by colleges and Department of Higher Education
                             </i>
-                        </h4> 
+                        </h4>  */}
 
                        
 
-                        {["Para51", "Para52"].map((item, ind) =>
+                            <ImageComponent  src={c62} alt="chart23" aspectRatio={1 / 1} />                      
+
+                            {["Para51"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)}    
-                            <ImageComponent  src={c62} alt="chart23" aspectRatio={1 / 1} />                      
                         
-                        {["Para53", "Para54"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                {ctx.chapterTwo[item]}
-                            </Para>)}     
-
+                       
                   <h2><b>
                             {ctx.chapterTwo.Para55}</b></h2>
                             
@@ -347,9 +348,9 @@ const Resources = () => {
           </h3>
 
                         {/* <Table10 />      */}
-                        <CustomTable title={"Table 2.11:  Loss of Revenue on account of under assessmentLoss of revenue"}
+            {/* <CustomTable title={"Table 2.11:  Loss of Revenue on account of under assessmentLoss of revenue"}
             columns={ctx.tables2.Table10}
-            data={ctx.tables2.Table10} />
+            data={ctx.tables2.Table10} /> */}
                         <h2><b>
                             {ctx.chapterTwo.Para57}</b></h2>
                         
@@ -357,7 +358,7 @@ const Resources = () => {
                             {ctx.chapterTwo.Para58}
                         </Para>   
 
-                        <Table11 />    
+                        {/* <Table11 />     */}
 
                         {["Para59", "Para60"].map((item, ind) =>
                             <Para key={ind / 10}>
@@ -385,7 +386,10 @@ const Resources = () => {
                             ₹ In Crore
                     </h3>
 
-                        <Table12/>    
+                        {/* <Table12/>     */}
+                        <CustomTable title={"Table 2.9: State’s share in union taxes and duties:Actual devolution vis-à-vis Finance Commission Projections"}
+            columns={ctx.tables2.Table12}
+            data={ctx.tables2.Table12} />
 
                         <Para tooltips={[
                             { word: "₹34,596.18[9]", tooltip: " Out of the total devolution of ₹34,596.18 crore, the share of Corporation Tax 33.45 per cent, Customs Duty 3.93per cent, Union Excise Duties 1.23 per cent, CGST was 28.28 per cent. " },
@@ -398,7 +402,7 @@ const Resources = () => {
                         <h3 className='headnote'>
                             ₹ In crore
                     </h3>
-                            <CustomTable title={"Table 2.14: Trends in Central Tax transfers"}
+                            <CustomTable title={"Table 2.10: Trends in Central Tax transfers"}
                             
                             columns={ctx.tables2.Table13a}
                             data={ctx.tables2.Table13a} />
@@ -420,7 +424,7 @@ const Resources = () => {
                         <h3 className='headnote'>
                             ₹ In crore
                     </h3>
-                            <CustomTable title={"Table 2.15: Grants-in-aid from GoI"}
+                            <CustomTable title={"Table 2.11: Grants-in-aid from GoI"}
                             
                             columns={ctx.tables2.Table13b}
                             data={ctx.tables2.Table13b} />
@@ -441,7 +445,19 @@ const Resources = () => {
                           
                         <Para>
                             {ctx.chapterTwo.Para72}
+                        </Para>   
+                        <Para>
+                            {ctx.chapterTwo.Para73}
                         </Para>      
+                        <CustomTable title={"Table 2.12: Recommended and actual release of grants during 2023-24"}
+                            
+                            columns={ctx.tables2.Table13c}
+                            data={ctx.tables2.Table13c} />
+                             <h3 className='footnote'>
+                             Source: XV FC Report and Finance Accounts
+                    </h3>
+                       
+ 
 
                         {["Para74", "Para75","Para76","Para77"].map((item, ind) =>
                             <Para key={ind / 10}>
@@ -453,15 +469,7 @@ const Resources = () => {
                      
 
                         {/* <Table15 />    */}
-                        <CustomTable title={"Table 2.16: Recommended and actual release of grants during 2022-23"}
-                            
-                            columns={ctx.tables2.Table13c}
-                            data={ctx.tables2.Table13c} />
-                             <h3 className='footnote'>
-                             Source: XV FC Report and Finance Accounts
-                    </h3>
                        
-
                      <h2><b>
                             {ctx.chapterTwo.Para78}</b></h2>
                         
@@ -500,7 +508,7 @@ const Resources = () => {
                         <h3 className='headnote'>
                             ₹ In crore
                     </h3>
-                            <CustomTable title={"Table 2.17: Trends in growth and composition of Capital Receipts"}
+                            <CustomTable title={"Table 2.13: Trends in growth and composition of Capital Receipts"}
                             
                             columns={ctx.tables2.Table13d}
                             data={ctx.tables2.Table13d} />
@@ -531,7 +539,7 @@ const Resources = () => {
                             {ctx.chapterTwo.Para89}
                         </Para>    
                         {/* <Table17 /> */}
-                        <CustomTable title={"Table 2.18: Tax and non-Tax receipts vis-à-vis projections during 2022-23"}
+                        <CustomTable title={"Table 2.14: Tax and non-Tax receipts vis-à-vis projections during 2023-24"}
                             
                             columns={ctx.tables2.Table13e}
                             data={ctx.tables2.Table13e} />
@@ -544,8 +552,6 @@ const Resources = () => {
                         <Para>
                             {ctx.chapterTwo.Para90}
                         </Para>      
-
-
                     </div>
                 </div>
                 : <div>

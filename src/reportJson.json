@@ -20639,28 +20639,24 @@
               ],
             "Table7": [
                 {
-                  "Sl. No.": 1,
-                  "Head of Revenue": "Taxes/VAT on Sales, Trade, etc.",
-                  "Cases pending at the beginning of 2022-23": "2,071",
-                  "Cases disposed of during 2022-23": "1,818",
-                  "Balance at the end of the year*": 253,
-                  "Percentage of disposal": 88
-                },
-                {
-                  "Sl. No.": 2,
-                  "Head of Revenue": "Goods and Services Tax (U/s 73 & 74 Adjudication)",
-                  "Cases pending at the beginning of 2022-23": "13,287",
-                  "Cases disposed of during 2022-23": "4,674",
-                  "Balance at the end of the year*": "8,613",
-                  "Percentage of disposal": 35
-                },
-                {
-                  "Sl. No.": "Total",
+                  "SL. No.": "",
                   "Head of Revenue": "",
-                  "Cases pending at the beginning of 2022-23": "15,358",
-                  "Cases disposed of during 2022-23": "6,492",
-                  "Balance at the end of the year*": "8,866",
-                  "Percentage of disposal": 42
+                  "Cases pending as on 31 March 2023": "",
+                  "Cases detected during 2023-24": "",
+                  "Total": "",
+                  "No. of cases in which assessment / investigation completed with penalty, etc., raised": "No. of Cases",
+                  "No. of cases in which assessment / investigation completed with penalty, etc., raised.": "Amount of demand(₹ in crore)",
+                  "No. of cases pending for finalisation as on 31 March 2024": ""
+                },
+                {
+                  "SL. No.": 1,
+                  "Head of Revenue": "Goods and Services Tax",
+                  "Cases pending as on 31 March 2023": "6,180",
+                  "Cases detected during 2023-24": "15,757",
+                  "Total": "21,937",
+                  "No. of cases in which assessment / investigation completed with penalty, etc., raised": "11,744",
+                  "No. of cases in which assessment / investigation completed with penalty, etc., raised.": "3,257.26",
+                  "No. of cases pending for finalisation as on 31 March 2024": "10,193"
                 }
               ],
             "Table8": [
@@ -20879,399 +20875,274 @@
               "Table13a":[
                 {
                   "Head": "Central Goods and Services Tax (CGST)",
-                  "2018-19": "8,858.76",
                   "2019-20": "8,773.82",
                   "2020-21": "6,236.01",
                   "2021-22": "9,158.36",
-                  "2022-23": "9,786.19"
+                  "2022-23": "9,786.19",
+                  "2023-24": "12,501.46"
                 },
                 {
                   "Head": "Integrated Goods and Service Tax (IGST)",
-                  "2018-19": 707,
                   "2019-20": "-",
                   "2020-21": "-",
                   "2021-22": "-",
-                  "2022-23": "-"
+                  "2022-23": "-",
+                  "2023-24": "-"
                 },
                 {
                   "Head": "Corporation Tax",
-                  "2018-19": "12,481.94",
                   "2019-20": "10,542.17",
                   "2020-21": "6,656.01",
                   "2021-22": "9,823.19",
-                  "2022-23": "11,574.64"
+                  "2022-23": "11,574.64",
+                  "2023-24": "12,364.18"
                 },
                 {
                   "Head": "Taxes on Income other than Corporation Tax",
-                  "2018-19": "9,192.40",
                   "2019-20": "8,260.51",
                   "2020-21": "6,837.75",
                   "2021-22": "9,623.93",
-                  "2022-23": "11,335.59"
+                  "2022-23": "11,335.59",
+                  "2023-24": "14,279.02"
                 },
                 {
                   "Head": "Customs",
-                  "2018-19": "2,544.18",
                   "2019-20": "1,959.84",
                   "2020-21": "1,110.05",
                   "2021-22": "2,573.81",
-                  "2022-23": "1,361.47"
+                  "2022-23": "1,361.47",
+                  "2023-24": "1,443.54"
                 },
                 {
                   "Head": "Union Excise Duties",
-                  "2018-19": "1,690.77",
                   "2019-20": "1,362.62",
                   "2020-21": 714.26,
                   "2021-22": "1,539.33",
-                  "2022-23": 427.12
+                  "2022-23": 427.12,
+                  "2023-24": 546.27
                 },
                 {
                   "Head": "Service Tax",
-                  "2018-19": 331.65,
                   "2019-20": "-",
                   "2020-21": 119.03,
                   "2021-22": 528.33,
-                  "2022-23": 54.17
+                  "2022-23": 54.17,
+                  "2023-24": 7.66
                 },
                 {
                   "Head": "Taxes on Wealth",
-                  "2018-19": 4.58,
                   "2019-20": 0.46,
                   "2020-21": "-",
                   "2021-22": 2.63,
-                  "2022-23": "-"
+                  "2022-23": "-",
+                  "2023-24": "-"
                 },
                 {
                   "Head": "Other Taxes on Income and Expenditure",
-                  "2018-19": 65.01,
                   "2019-20": "-",
                   "2020-21": "-",
                   "2021-22": 0.07,
-                  "2022-23": "-"
+                  "2022-23": "-",
+                  "2023-24": "-"
                 },
                 {
                   "Head": "Other Taxes and Duties and Commodities and Services",
-                  "2018-19": 18.54,
                   "2019-20": 19.58,
                   "2020-21": 21,
                   "2021-22": 33.93,
-                  "2022-23": 57
+                  "2022-23": 57,
+                  "2023-24": 51
                 },
                 {
                   "Head": "Total",
-                  "2018-19": "35,894.83",
-                  "2019-20": "30,919.00",
-                  "2020-21": "21,694.11",
-                  "2021-22": "33,283.58",
-                  "2022-23": "34,596.18"
+                  "2019-20": "30,919",
+                  "2020-21": "21,694",
+                  "2021-22": "33,284",
+                  "2022-23": "34,596",
+                  "2023-24": "41,193"
                 },
                 {
                   "Head": "Percentage of increase over previous year",
-                  "2018-19": 13.05,
                   "2019-20": "(-)13.86",
-                  "2020-21": "(-)29.84",
+                  "2020-21": -29.84,
                   "2021-22": 53.42,
-                  "2022-23": 3.94
+                  "2022-23": 3.94,
+                  "2023-24": 19.07
                 },
                 {
                   "Head": "Percentage of Central Tax transfers to Revenue Receipts",
-                  "2018-19": 21.76,
                   "2019-20": 17.62,
                   "2020-21": 13.84,
                   "2021-22": 17,
-                  "2022-23": 15.1
+                  "2022-23": 15.1,
+                  "2023-24": 17.65
                 }
-              
-                
               ],
               "Table13b":[
                 {
                   "Head": "Grants for Centrally Sponsored Schemes",
-                  "2018-19": "10,393",
                   "2019-20": "12,214",
                   "2020-21": "9,852",
                   "2021-22": "12,659",
-                  "2022-23": "11,629"
+                  "2022-23": "11,629",
+                  "2023-24": "9,866"
                 },
                 {
-                  "Head": "Other transfers/ Grants to States[10]",
-                  "2018-19": "11,714",
+                  "Head": "Other transfers/ Grants to States[1]",
                   "2019-20": "17,593",
                   "2020-21": "14,667",
                   "2021-22": "11,064",
-                  "2022-23": "21,744"
+                  "2022-23": "21,744",
+                  "2023-24": "1,893"
                 },
                 {
                   "Head": "Finance Commission Grants",
-                  "2018-19": "3,374",
                   "2019-20": "4,673",
                   "2020-21": "5,557",
                   "2021-22": "6,239",
-                  "2022-23": "3,495"
+                  "2022-23": "3,495",
+                  "2023-24": "3,769"
                 },
                 {
                   "Head": "Total",
-                  "2018-19": "25,481",
                   "2019-20": "34,480",
                   "2020-21": "30,076",
                   "2021-22": "29,962",
-                  "2022-23": "36,868"
+                  "2022-23": "36,868",
+                  "2023-24": "15,528"
                 },
                 {
                   "Head": "Percentage of increase/decrease over the previous year",
-                  "2018-19": 17.74,
                   "2019-20": 35.32,
                   "2020-21": "(-)12.77",
                   "2021-22": "(-)0.38",
-                  "2022-23": 23.05
+                  "2022-23": 23.05,
+                  "2023-24": "(-)57.88"
                 },
                 {
                   "Head": "Percentage of GIA to Revenue Receipts",
-                  "2018-19": 15.44,
                   "2019-20": 19.65,
                   "2020-21": 19.19,
                   "2021-22": 15.31,
-                  "2022-23": 16.09
+                  "2022-23": 16.09,
+                  "2023-24": 6.65
                 }
-              
-                
               ],
               "Table13c":[
                 {
-                  "Year": "Type of Grant",
-                  "Year.": "",
-                  "2020-21": "Basic Grants",
-                  "2020-21.": "Tied Grants",
-                  "2021-22": "Basic Grants",
-                  "2021-22.": "Tied Grants",
-                  "2022-23": "Basic Grants",
-                  "2022-23.": "Tied Grants",
-                  "Total": ""
+                  "Type of Grant": "RLB",
+                  "Recommended": "2,490.00",
+                  "Actual": "2,086.59",
+                  "Short-fall (-)/ Excess (+)": "(-)403.41"
                 },
                 {
-                  "Year": "RLB",
-                  "Year.": "Recommended",
-                  "2020-21": "1,608.50",
-                  "2020-21.": "1,608.50",
-                  "2021-22": 950.8,
-                  "2021-22.": "1,426.20",
-                  "2022-23": 985.2,
-                  "2022-23.": "1,477.80",
-                  "Total": "8,057.00"
+                  "Type of Grant": "ULBs",
+                  "Recommended": "1,282.00",
+                  "Actual": 727.4,
+                  "Short-fall (-)/ Excess (+)": "(-)554.60"
                 },
                 {
-                  "Year": "",
-                  "Year.": "Actual",
-                  "2020-21": "1,608.50",
-                  "2020-21.": "1,608.50",
-                  "2021-22": 949.3,
-                  "2021-22.": "1,426.20",
-                  "2022-23": "2,093.55",
-                  "2022-23.": "2,093.55",
-                  "Total": "7,686.05"
+                  "Type of Grant": "SDRMF",
+                  "Recommended": 871.5,
+                  "Actual": 697.6,
+                  "Short-fall (-)/ Excess (+)": "(-)173.90"
                 },
                 {
-                  "Year": "",
-                  "Year.": "Short-fall (-)/ Excess (+)",
-                  "2020-21": 0,
-                  "2020-21.": 0,
-                  "2021-22": "(-)1.50",
-                  "2021-22.": "(-)1.50",
-                  "2022-23": "(-)369.45",
-                  "2022-23.": "(-)369.45",
-                  "Total": "(-)370.95"
-                },
-                {
-                  "Year": "ULBs",
-                  "Year.": "Recommended",
-                  "2020-21": "1,549.00",
-                  "2020-21.": "1,549.00",
-                  "2021-22": "1,171.00",
-                  "2021-22.": "1,171.00",
-                  "2022-23": "1,213.00",
-                  "2022-23.": "1,213.00",
-                  "Total": "3,933.00"
-                },
-                {
-                  "Year": "",
-                  "Year.": "Actual",
-                  "2020-21": "1,549.00",
-                  "2020-21.": "1,549.00",
-                  "2021-22": 890,
-                  "2021-22.": 890,
-                  "2022-23": 737.7,
-                  "2022-23.": 737.7,
-                  "Total": "3,176.70"
-                },
-                {
-                  "Year": "",
-                  "Year.": "Short-fall (-)/ Excess (+)",
-                  "2020-21": 0,
-                  "2020-21.": 0,
-                  "2021-22": "(-)281",
-                  "2021-22.": "(-)281",
-                  "2022-23": "(-)485.30",
-                  "2022-23.": "(-)485.30",
-                  "Total": "(-)766.30"
-                },
-                {
-                  "Year": "SDRMF",
-                  "Year.": "Recommended",
-                  "2020-21": "1,054.00",
-                  "2020-21.": "1,054.00",
-                  "2021-22": "1,054.00",
-                  "2021-22.": "1,054.00",
-                  "2022-23": "1,107.00",
-                  "2022-23.": "1,107.00",
-                  "Total": "3,215.00"
-                },
-                {
-                  "Year": "",
-                  "Year.": "Actual",
-                  "2020-21": "1,054.00",
-                  "2020-21.": "1,054.00",
-                  "2021-22": "1,054.00",
-                  "2021-22.": "1,054.00",
-                  "2022-23": 885.34,
-                  "2022-23.": 885.34,
-                  "Total": "2,993.34"
-                },
-                {
-                  "Year": "",
-                  "Year.": "Short-fall (-)/ Excess (+)",
-                  "2020-21": 0,
-                  "2020-21.": 0,
-                  "2021-22": 0,
-                  "2021-22.": 0,
-                  "2022-23": "(-)221.66",
-                  "2022-23.": "(-)221.66",
-                  "Total": "(-)221.66"
-                },
-                {
-                  "Year": "HEALTH",
-                  "Year.": "Recommended",
-                  "2020-21": 0,
-                  "2020-21.": 0,
-                  "2021-22": 552,
-                  "2021-22.": 552,
-                  "2022-23": 552,
-                  "2022-23.": 552,
-                  "Total": "1,104.00"
-                },
-                {
-                  "Year": "",
-                  "Year.": "Actual",
-                  "2020-21": 0,
-                  "2020-21.": 0,
-                  "2021-22": 552,
-                  "2021-22.": 552,
-                  "2022-23": 0,
-                  "2022-23.": 0,
-                  "Total": 552
-                },
-                {
-                  "Year": "",
-                  "Year.": "Short-fall (-)/ Excess (+)",
-                  "2020-21": 0,
-                  "2020-21.": 0,
-                  "2021-22": 0,
-                  "2021-22.": 0,
-                  "2022-23": "(-)552.00",
-                  "2022-23.": "(-)552.00",
-                  "Total": "(-)552.00"
+                  "Type of Grant": "HEALTH",
+                  "Recommended": 579,
+                  "Actual": 257.04,
+                  "Short-fall (-)/ Excess (+)": "(-)321.96"
                 }
               ],
               "Table13d":[
                 {
                   "Sources of State’s Receipts": "Public Debt Receipts",
-                  "2018-19": "41,914",
                   "2019-20": "50,459",
                   "2020-21": "84,528*",
                   "2021-22": "80,641*",
-                  "2022-23": "44,549"
+                  "2022-23": "44,549",
+                  "2023-24": "90,280"
                 },
                 {
                   "Sources of State’s Receipts": "Internal Debt",
-                  "2018-19": "40,470",
                   "2019-20": "49,473",
                   "2020-21": "70,414",
                   "2021-22": "60,462",
-                  "2022-23": "39,283"
+                  "2022-23": "39,283",
+                  "2023-24": "84,334"
                 },
                 {
                   "Sources of State’s Receipts": "Growth rate (per cent)",
-                  "2018-19": 74.59,
                   "2019-20": 22.24,
-                  "2020-21": 42.32,
+                  "2020-21": 42.33,
                   "2021-22": "(-)14.13",
-                  "2022-23": "(-)35.02"
+                  "2022-23": "(-)35.03",
+                  "2023-24": 114.68
                 },
                 {
                   "Sources of State’s Receipts": "Loans and advances from GoI",
-                  "2018-19": "1,444",
                   "2019-20": 675,
                   "2020-21": "14,114#",
                   "2021-22": "20,179#",
-                  "2022-23": "5,266"
+                  "2022-23": "5,266",
+                  "2023-24": "5,946"
                 },
                 {
                   "Sources of State’s Receipts": "Growth rate (per cent)",
-                  "2018-19": "(-)25.68",
                   "2019-20": "(-)53.25",
                   "2020-21": 152.8,
                   "2021-22": 21.26,
-                  "2022-23": 154.39
+                  "2022-23": 154.39,
+                  "2023-24": 12.91
                 },
                 {
                   "Sources of State’s Receipts": "Miscellaneous Capital Receipts",
-                  "2018-19": "(-)6",
                   "2019-20": 45,
                   "2020-21": 45,
                   "2021-22": 6,
-                  "2022-23": 2
+                  "2022-23": 2,
+                  "2023-24": 36
                 },
                 {
                   "Sources of State’s Receipts": "Recovery of Loans and Advances",
-                  "2018-19": 31,
                   "2019-20": 203,
                   "2020-21": 270,
                   "2021-22": 127,
-                  "2022-23": 478
+                  "2022-23": 478,
+                  "2023-24": 306
                 },
                 {
                   "Sources of State’s Receipts": "Capital Receipts",
-                  "2018-19": "41,939",
                   "2019-20": "50,707",
                   "2020-21": "84,843",
                   "2021-22": "80,774",
-                  "2022-23": "45,029"
+                  "2022-23": "45,029",
+                  "2023-24": "90,622"
                 },
                 {
                   "Sources of State’s Receipts": "Rate of growth of debt Capital Receipts (per cent)",
-                  "2018-19": 66.84,
-                  "2019-20": 20.39,
+                  "2019-20": 20.38,
                   "2020-21": 67.52,
                   "2021-22": "(-)4.60",
-                  "2022-23": "(-)44.76"
+                  "2022-23": "(-)44.76",
+                  "2023-24": 102.65
                 },
                 {
                   "Sources of State’s Receipts": "Rate of growth of Non-debt Capital Receipts (per cent)",
-                  "2018-19": "(-)82.26",
                   "2019-20": 892,
-                  "2020-21": 27.01,
-                  "2021-22": "(-)57.77",
-                  "2022-23": 260.9
+                  "2020-21": 27.02,
+                  "2021-22": "(-)57.78",
+                  "2022-23": 260.9,
+                  "2023-24": "(-)28.75"
                 },
                 {
                   "Sources of State’s Receipts": "Rate of growth of Capital Receipts (per cent)",
-                  "2018-19": 66,
                   "2019-20": 20.91,
-                  "2020-21": 42.85,
-                  "2021-22": "(-)13.48",
-                  "2022-23": "(-)28.14"
+                  "2020-21": 67.32,
+                  "2021-22": "(-)4.80",
+                  "2022-23": "(-)44.25",
+                  "2023-24": 101.25
                 }
-              
-
               ],
               "Table13e":[
                 {
@@ -21279,24 +21150,24 @@
                   "XV FC assessment": "(₹ in crore)",
                   "Budget Estimates": "(₹ in crore)",
                   "Actual": "(₹ in crore)",
-                  "Percentage variation of actual over": "Budget Estimates",
-                  "Percentage variation of actual over.": "XV FC Assessment"
+                  "Percentage variation of actual over": "XV FC Assessment",
+                  "Percentage variation of actual over.": "Budget Estimates"
                 },
                 {
                   ".": "Own-Tax revenue",
-                  "XV FC assessment": "1,18,236",
-                  "Budget Estimates": "1,26,883",
-                  "Actual": "1,43,702",
-                  "Percentage variation of actual over": 13.26,
-                  "Percentage variation of actual over.": 21.54
+                  "XV FC assessment": "1,34,950",
+                  "Budget Estimates": "1,73,303",
+                  "Actual": "1,63,505",
+                  "Percentage variation of actual over": 21.16,
+                  "Percentage variation of actual over.": "(-)5.65"
                 },
                 {
                   ".": "Non-Tax revenue",
-                  "XV FC assessment": "8,655",
-                  "Budget Estimates": "10,940",
-                  "Actual": "13,914",
-                  "Percentage variation of actual over": 27.18,
-                  "Percentage variation of actual over.": 60.76
+                  "XV FC assessment": "9,790",
+                  "Budget Estimates": "12,500",
+                  "Actual": "13,117",
+                  "Percentage variation of actual over": 33.98,
+                  "Percentage variation of actual over.": 4.94
                 }
               ],
 
@@ -21554,124 +21425,117 @@
               ],
             "Table3": [
                 {
-                  "Parameters": "Revenue Receipts (RR)(₹ in crore)",
-                  "2018 19": "1,64,979",
-                  "2019 20": "1,75,443",
-                  "2020 21": "1,56,716",
-                  "2021 22": "1,95,762",
-                  "2022 23": "2,29,080"
+                  "Parameters": "Revenue Receipts (RR) (₹ in crore)",
+                  "2019-20": "1,75,443",
+                  "2020-21": "1,56,716",
+                  "2021-22": "1,95,762",
+                  "2022-23": "2,29,080",
+                  "2023-24": "2,33,343"
                 },
-               
                 {
                   "Parameters": "Rate of growth of RR(per cent)",
-                  "2018 19": 12.23,
-                  "2019 20": 6.34,
-                  "2020 21": "(-)10.67",
-                  "2021 22": 24.92,
-                  "2022 23": 17.02
-                },
-                
-                {
-                  "Parameters": "own-Tax Revenue(₹ in crore)",
-                  "2018 19": "96,830",
-                  "2019 20": "1,02,363",
-                  "2020 21": "97,052",
-                  "2021 22": "1,20,739",
-                  "2022 23": "1,43,702"
-                },
-                
-                {
-                  "Parameters": "non-Tax Revenue (₹ in crore)",
-                  "2018 19": "6,773",
-                  "2019 20": "7,681",
-                  "2020 21": "7,894",
-                  "2021 22": "11,777",
-                  "2022 23": "13,914"
-                },
-               
-                {
-                  "Parameters": "State’s Own Revenue(Own-tax revenue + Non-tax revenue)",
-                  "2018 19": "1,03,603",
-                  "2019 20": "1,10,044",
-                  "2020 21": "1,04,946",
-                  "2021 22": "1,32,516",
-                  "2022 23": "1,57,616"
-                },
-               
-                {
-                  "Parameters": "Grants-in aid from GOI",
-                  "2018 19": "25,481",
-                  "2019 20": "34,480",
-                  "2020 21": "30,076",
-                  "2021 22": "29,962",
-                  "2022 23": "36,868"
+                  "2019-20": 6.34,
+                  "2020-21": -10.67,
+                  "2021-22": 24.92,
+                  "2022-23": 17.02,
+                  "2023-24": 1.86
                 },
                 {
-                  "Parameters": "Rate of growth of State’s own Revenue(Own-tax revenue + Non-tax revenue) (per cent)",
-                  "2018 19": 10.68,
-                  "2019 20": 6.22,
-                  "2020 21": "(-)4.63",
-                  "2021 22": 26.27,
-                  "2022 23": 18.94
+                  "Parameters": "Own-Tax Revenue(₹ in crore)",
+                  "2019-20": "1,02,363",
+                  "2020-21": "97,052",
+                  "2021-22": "1,20,739",
+                  "2022-23": "1,43,702",
+                  "2023-24": "1,63,505"
                 },
-               
+                {
+                  "Parameters": "Non-Tax Revenue(₹ in crore)",
+                  "2019-20": "7,681",
+                  "2020-21": "7,894",
+                  "2021-22": "11,777",
+                  "2022-23": "13,914",
+                  "2023-24": "13,117"
+                },
+                {
+                  "Parameters": "State’s Own Revenue(own-Tax revenue + non-Tax revenue)",
+                  "2019-20": "1,10,044",
+                  "2020-21": "1,04,946",
+                  "2021-22": "1,32,516",
+                  "2022-23": "1,57,616",
+                  "2023-24": "1,76,622"
+                },
+                {
+                  "Parameters": "Rate of growth of State’s own Revenue(own-Tax revenue + non-Tax revenue) (per cent)",
+                  "2019-20": 6.22,
+                  "2020-21": "(-)4.63",
+                  "2021-22": 26.27,
+                  "2022-23": 18.94,
+                  "2023-24": 12.06
+                },
+                {
+                  "Parameters": "Grants-in-aid from GoI",
+                  "2019-20": "34,480",
+                  "2020-21": "30,076",
+                  "2021-22": "29,962",
+                  "2022-23": "36,868",
+                  "2023-24": "15,528"
+                },
+                {
+                  "Parameters": "Rate of growth of Grants-in aid from GoI (per cent)",
+                  "2019-20": 35.32,
+                  "2020-21": "(-)12.77",
+                  "2021-22": "(-)0.38",
+                  "2022-23": 23.05,
+                  "2023-24": "(-)57.88"
+                },
                 {
                   "Parameters": "GSDP (₹ in crore)",
-                  "2018 19": "14,79,391",
-                  "2019 20": "16,11,134",
-                  "2020 21": "16,25,073",
-                  "2021 22": "19,62,725",
-                  "2022 23": "21,81,217"
+                  "2019-20": "16,15,827",
+                  "2020-21": "16,41,460",
+                  "2021-22": "19,78,094",
+                  "2022-23": "22,69,995",
+                  "2023-24": "25,67,340"
                 },
                 {
-                    "Parameters": "Rate of growth of Grants-in aid from GoI (per cent)",
-                    "2018 19": 17.74,
-                    "2019 20": 35.32,
-                    "2020 21": "(-)12.77",
-                    "2021 22": "(-)0.38",
-                    "2022 23": 23.05
-                  },
-                {
                   "Parameters": "Rate of growth of GSDP (per cent)",
-                  "2018 19": 10.96,
-                  "2019 20": 8.91,
-                  "2020 21": 0.87,
-                  "2021 22": 20.78,
-                  "2022 23": 11.13
+                  "2019-20": 9.22,
+                  "2020-21": 1.59,
+                  "2021-22": 20.51,
+                  "2022-23": 14.76,
+                  "2023-24": 13.1
                 },
                 {
                   "Parameters": "RR/GSDP (per cent)",
-                  "2018 19": 11.15,
-                  "2019 20": 10.89,
-                  "2020 21": 9.64,
-                  "2021 22": 9.97,
-                  "2022 23": 10.5
+                  "2019-20": 10.86,
+                  "2020-21": 9.55,
+                  "2021-22": 9.9,
+                  "2022-23": 10.09,
+                  "2023-24": 9.09
                 },
                 {
-                  "Parameters": "Buoyancy ratios[5]",
-                  "2018 19": "",
-                  "2019 20": "",
-                  "2020 21": "",
-                  "2021 22": "",
-                  "2022 23": ""
+                  "Parameters": "Buoyancy ratios[1]",
+                  "2019-20": "",
+                  "2020-21": "",
+                  "2021-22": "",
+                  "2022-23": "",
+                  "2023-24": ""
                 },
                 {
-                  "Parameters": "Revenue Buoyancy[6] w.r.t GSDP",
-                  "2018 19": 1.12,
-                  "2019 20": 0.71,
-                  "2020 21": "(-)12.26",
-                  "2021 22": 1.19,
-                  "2022 23": 1.53
+                  "Parameters": "Revenue Buoyancy[2] w.r.t GSDP",
+                  "2019-20": 0.68,
+                  "2020-21": "(-)6.73",
+                  "2021-22": 1.21,
+                  "2022-23": 1.15,
+                  "2023-24": 0.14
                 },
                 {
-                  "Parameters": "State’s own revenue buoyancy[7] w.r.t GSDP",
-                  "2018 19": 1.02,
-                  "2019 20": 0.64,
-                  "2020 21": "(-)5.96",
-                  "2021 22": 1.17,
-                  "2022 23": 1.7
+                  "Parameters": "State’s own revenue buoyancy[3] w.r.t GSDP",
+                  "2019-20": 0.7,
+                  "2020-21": "(-)2.92",
+                  "2021-22": 1.28,
+                  "2022-23": 1.28,
+                  "2023-24": 0.92
                 }
-               
               ],
             "Table4": [
                 {
@@ -21972,70 +21836,75 @@
               ],
             "T23H2": "(₹ in crore)",
             "Table12": [
-               
-               
                 {
-                  "0": "2015-16",
-                  "Finance Commission projections": "4.328 per cent of net proceeds of all sharable taxes excluding tax and 4.397 per cent of sharable service tax",
-                  "Projections in FCR": "32,489",
+                  "Year": "2015-16",
+                  "Finance Commission projections": "Inter se shares of Karnataka in the net proceeds of the taxes is  4.713 per cent of net proceeds of all sharable taxes and 4.822 per cent of sharable service tax.",
+                  "Projections in FCR": "27,419",
                   "Actual tax devolution": "23,983",
-                  "Difference": "(-)8,506"
+                  "Difference": "(-)3,436"
                 },
                 {
-                  "0": "2016-17",
+                  "Year": "2016-17",
                   "Finance Commission projections": "",
-                  "Projections in FCR": "37,654",
+                  "Projections in FCR": "31,641",
                   "Actual tax devolution": "28,760",
-                  "Difference": "(-)8,894"
+                  "Difference": "(-)2,881"
                 },
                 {
-                  "0": "2017-18",
+                  "Year": "2017-18",
                   "Finance Commission projections": "",
-                  "Projections in FCR": "43,693",
+                  "Projections in FCR": "36,563",
                   "Actual tax devolution": "31,752",
-                  "Difference": "(-)11,941"
+                  "Difference": "(-)4,811"
                 },
                 {
-                  "0": "2018-19",
+                  "Year": "2018-19",
                   "Finance Commission projections": "",
-                  "Projections in FCR": "50,758",
+                  "Projections in FCR": "42,303",
                   "Actual tax devolution": "35,895",
-                  "Difference": "(-)14,863"
+                  "Difference": "(-)6,408"
                 },
                 {
-                  "0": "2019-20",
+                  "Year": "2019-20",
                   "Finance Commission projections": "",
-                  "Projections in FCR": "59,026",
+                  "Projections in FCR": "48,999",
                   "Actual tax devolution": "30,919",
-                  "Difference": "(-)28,107"
+                  "Difference": "(-)18,080"
                 },
                 {
-                  "0": "",
-                  "Finance Commission projections": "Total of 14th FC",
-                  "Projections in FCR": "2,23,620",
+                  "Year": "Total of XIV FC",
+                  "Finance Commission projections": "",
+                  "Projections in FCR": "1,86,925",
                   "Actual tax devolution": "1,51,309",
-                  "Difference": "(-)72,311"
+                  "Difference": "(-)35,616"
                 },
                 {
-                  "0": "2020-21",
-                  "Finance Commission projections": "Inter se shares of Karnataka in the net proceeds of the taxes (divisible pool) is 3.647 per cent",
-                  "Projections in FCR": "20,931",
+                  "Year": "2020-21",
+                  "Finance Commission projections": "Inter se shares of Karnataka in the net proceeds of the taxes is 3.646 per cent and 3.647 for 2020-21 and 2021-26 respectively.",
+                  "Projections in FCR": "31,180",
                   "Actual tax devolution": "21,694",
-                  "Difference": 763
+                  "Difference": "(-)9,486"
                 },
                 {
-                  "0": "2021-22",
+                  "Year": "2021-22",
                   "Finance Commission projections": "",
                   "Projections in FCR": "24,019",
                   "Actual tax devolution": "33,284",
                   "Difference": "9,265"
                 },
                 {
-                  "0": "2022-23",
+                  "Year": "2022-23",
                   "Finance Commission projections": "",
                   "Projections in FCR": "26,719",
                   "Actual tax devolution": "34,596",
                   "Difference": "7,877"
+                },
+                {
+                  "Year": "2023-24",
+                  "Finance Commission projections": "",
+                  "Projections in FCR": "30,065",
+                  "Actual tax devolution": "41,193",
+                  "Difference": "11,128"
                 }
               ],
             "T8H2": "(₹ in crore)",
@@ -23301,28 +23170,22 @@
             },
             "Table5": [
                 {
-                  "State Goods and Service Tax": "Tax",
-                  "2021 22": "24,084",
-                  "2022 23": "30,315",
-                  "Increase/ Decrease": "6,231"
+                  "Sl. No.": 1,
+                  "Head of revenue": "Taxes/VAT on Sales, Trade, etc.",
+                  "Amount outstanding as on 31 March 2024": "13,937.44",
+                  "Amount outstanding for more than five years as on 31 March 2024": "-"
                 },
                 {
-                  "State Goods and Service Tax": "Advance Apportionment of Taxes from IGST",
-                  "2021 22": "3,099",
-                  "2022 23": "2,090",
-                  "Increase/ Decrease": "(-)1,009"
+                  "Sl. No.": 2,
+                  "Head of revenue": "Goods and Services Tax",
+                  "Amount outstanding as on 31 March 2024": "16,082.29",
+                  "Amount outstanding for more than five years as on 31 March 2024": "-"
                 },
                 {
-                  "State Goods and Service Tax": "Others",
-                  "2021 22": "22,746",
-                  "2022 23": "28,998",
-                  "Increase/ Decrease": "6,252"
-                },
-                {
-                  "State Goods and Service Tax": "Total SGST collection",
-                  "2021 22": "49,929",
-                  "2022 23": "61,403",
-                  "Increase/ Decrease": "11,474"
+                  "Sl. No.": "Total",
+                  "Head of revenue": "",
+                  "Amount outstanding as on 31 March 2024": "30,019.73",
+                  "Amount outstanding for more than five years as on 31 March 2024": "-"
                 }
               ],
             "T22H1": "Return on Investment",
