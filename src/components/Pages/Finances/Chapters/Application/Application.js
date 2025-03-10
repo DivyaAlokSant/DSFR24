@@ -98,10 +98,14 @@ const Application = () => {
                         <h3 className='headnote'>
                             ₹ In crore
                         </h3>
-                        <Table13 />
+                        {/* <Table13 /> */}
+                        <CustomTable title={"Table 2.15: Total expenditure – Trends and composition"}
+                            
+                            columns={ctx.tables2.Table13}
+                            data={ctx.tables2.Table13} />
                         <h4 className='footnote'>
                             <i>
-                                Source: Finance Accounts of respective years.
+                                Source: Finance Accounts
                             </i>
                         </h4>
                         <Para>
@@ -139,7 +143,7 @@ const Application = () => {
                             ₹ In crore
                         </h3>
                         {/* <Table14 /> */}
-                <CustomTable title={"Table 2.20: Revenue Expenditure – Basic parameters"}
+                <CustomTable title={"Table 2.16: Revenue Expenditure – Basic parameters"}
             columns={ctx.tables2.Table14}
             data={ctx.tables2.Table14} />
 
@@ -171,18 +175,23 @@ const Application = () => {
                         <h3 className='headnote'>
                             ₹ In crore
                         </h3>
-                        <Table15 />
+                        {/* <Table15 /> */}
+                        <CustomTable title={"Table 2.17: Variation in Revenue expenditure during 2023-24 compared to 2022-23"}
+            columns={ctx.tables2.Table15}
+            data={ctx.tables2.Table15} />
+
+
                         <h4 className='footnote'>
                             <i>
                                 Source: Finance Accounts
                             </i>
                         </h4>
-                        {["Para107", "Para108"].map((item, ind) =>
+                        {["Para107"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)}
 
-                        {["Para109", "Para110", "Para111", "Para112", "Para113", "Para114"].map((item, ind) =>
+                        {[,"Para108","Para109", "Para110"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 <li>
                                     {ctx.chapterTwo[item]}
@@ -196,7 +205,7 @@ const Application = () => {
                         <Para>
                             {ctx.chapterTwo.Para116}
                         </Para>
-                        <h3 className='headnote'>
+                        {/* <h3 className='headnote'>
                             ₹ In crore
                         </h3>
                         <Table16 />
@@ -206,18 +215,18 @@ const Application = () => {
                                 <br></br>
                                 *Includes object heads Consolidated Salary, pay of officers, pay of staff, Interim Relief, Dearness Allowance, Other allowances, medical allowance and reimbursement of medical expenses
                             </i>
-                        </h4>
-                        {["Para117"].map((item, ind) =>
+                        </h4> */}
+                        {["Para121"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)}
-                        <Subtitle>
+                        {/* <Subtitle>
                             {ctx.chapterTwo.Para118}
                         </Subtitle>
                         {["Para119", "Para121"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
-                            </Para>)}
+                            </Para>)} */}
 
                         {["Para122", "Para123", "Para124", "Para125", "Para126", "Para127"].map((item, ind) =>
                             <Para key={ind / 10}>
@@ -233,46 +242,50 @@ const Application = () => {
                         <h3 className='headnote'>
                             ₹ In crore
                         </h3>
-                        <Table17 />
+                        {/* <Table17 /> */}
+                        <CustomTable title={"Table 2.18: Components of Committed Expenditure"}
+            columns={ctx.tables2.Table17}
+            data={ctx.tables2.Table17} />
+
                         <h4>
                             <i>
                                 Source: Finance Accounts
                                 <br></br>
-                                *Includes object heads Consolidated Salary, pay of officers, pay of staff, Interim Relief, Dearness Allowance, Other allowances, medical allowance and reimbursement of medical expenses
+                                # Includes salaries of PRIs (₹22,349.76 crore), ULB salaries (1,817.45 crore) and Wages (₹1,330.53 crore).
                             </i>
                         </h4>
-                        {["Para131", "Para132"].map((item, ind) =>
+                        {["Para131"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)}
                         <h2><b>
-                            {ctx.chapterTwo.Para133}</b></h2>
+                            {ctx.chapterTwo.Para132}</b></h2>
                         
-                        {["Para134", "Para135"].map((item, ind) =>
+                        {["Para133"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)}
 
                     <h2><b>
-                            {ctx.chapterTwo.Para136}</b></h2>
+                            {ctx.chapterTwo.Para134}</b></h2>
                         
-                        {["Para137"].map((item, ind) =>
+                        {["Para135"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)}
 
                         <Subtitle>
-                            {ctx.chapterTwo.Para138}
+                            {ctx.chapterTwo.Para136}
                         </Subtitle>
-                        {["Para139", "Para140", "Para141", "Para142", "Para143", "Para144",].map((item, ind) =>
+                        {["Para137", "Para138", "Para139", "Para140",].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)}
 
                        <h2><b>
-                            {ctx.chapterTwo.Para145}</b></h2>
+                            {ctx.chapterTwo.Para141}</b></h2>
                         
-                        {["Para146", "Para147"].map((item, ind) =>
+                        {["Para142", "Para143"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)}
@@ -294,7 +307,10 @@ const Application = () => {
                         <h3 className='headnote'>
                             ₹ In crore
                         </h3>
-                        <Table18 />
+                        {/* <Table18 /> */}
+                        <CustomTable title={"Table 2.19: Expenditure on subsidies during 2019-20 to 2023-24"}
+            columns={ctx.tables2.Table18}
+            data={ctx.tables2.Table18} />
                         <h4>
                             <i>
                                 Source: Finance Accounts
@@ -309,12 +325,17 @@ const Application = () => {
                            
 
 
-                        <Subtitle>
+                      
+                        {["Para154", "Para155"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapterTwo[item]}
+                            </Para>)}
+                              <Subtitle>
                             <li>
-                                {ctx.chapterTwo.Para154}
+                                {ctx.chapterTwo.Para156}
                             </li>
                         </Subtitle>
-                        {["Para155", "Para156"].map((item, ind) =>
+                        {["Para156a", "Para156b"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)}
@@ -332,7 +353,10 @@ const Application = () => {
                         <h3 className='headnote'>
                             ₹ In crore
                         </h3>
-                        <Table19 />
+                        {/* <Table19 /> */}
+                        <CustomTable title={"Table 2.20: Financial Assistance to Local Bodies and Other institutions."}
+            columns={ctx.tables2.Table19}
+            data={ctx.tables2.Table19} />
                         <h4>
                             <i>
                                 Source: Finance Accounts
@@ -358,6 +382,13 @@ const Application = () => {
                         <Para >
                             {ctx.chapterTwo.Para166}
                         </Para>
+                        <h3 className='headnote'>
+                            ₹ In crore
+                        </h3>
+                       
+                        <CustomTable title={"Table 2.21: Loans released to the State under schemes for Special Assistance to States for Capital investment"}
+            columns={ctx.tables2.Table19a}
+            data={ctx.tables2.Table19a} />
 
                         <Subtitle>
                             {ctx.chapterTwo.Para167}
@@ -369,7 +400,9 @@ const Application = () => {
                         <h3 className='headnote'>
                             ₹ In crore
                         </h3>
-                        <Table20 />
+                        <CustomTable title={"Table 2.22: Capital Expenditure during 2023-24 compared to 2022-23	"}
+            columns={ctx.tables2.Table20}
+            data={ctx.tables2.Table20} />
                         <h4>
                             <i>
                                 Source: Finance Accounts
@@ -379,7 +412,7 @@ const Application = () => {
                         <Para >
                             {ctx.chapterTwo.Para169}
                         </Para>
-                        <div style={{
+                        {/* <div style={{
                             backgroundColor: "#ac8",
                             fontSize: "18px",
                             padding: "5px 5px 5px 20px",
@@ -391,7 +424,11 @@ const Application = () => {
                                 <Para key={ind / 10}>
                                     {ctx.chapterTwo[item]}
                                 </Para>)}
-                        </div>
+                        </div> */}
+                          {["Para170"].map((item, ind) =>
+                                <Para key={ind / 10}>
+                                    {ctx.chapterTwo[item]}
+                                </Para>)}
                         <Subtitle>
                             {ctx.chapterTwo.Para171}
                         </Subtitle>
@@ -418,10 +455,18 @@ const Application = () => {
                         <h3 className='headnote'>
                             ₹ In crore
                         </h3>
-                        <Table21 />
+                        {/* <Table21 /> */}
+                        <CustomTable title={"Table 2.23: Return on Investment"}
+            columns={ctx.tables2.Table21}
+            data={ctx.tables2.Table21} />
+
                         <h4>
                             <i>
                                 Source: Finance Accounts
+                            </i></h4>
+                            <h4>
+                            <i>
+                            Average RoI = Interest payments/Average of Outstanding Liabilities of Previous and Current Financial Year*100. 
                             </i>
                         </h4>
 
@@ -441,34 +486,68 @@ const Application = () => {
                         <h3 className='headnote'>
                             ₹ In crore
                         </h3>
-                        <Table22 />
+                        {/* <Table22 /> */}
+                        <CustomTable title={"Table 2.24: Investments made in loss making Companies"}
+            columns={ctx.tables2.Table22}
+            data={ctx.tables2.Table22} />
+
                         <h4>
                             <i>
                                 Source: Finance Accounts
                             </i>
                         </h4>
+                        <Para >
+                            {ctx.chapterTwo.Para184}
+                        </Para>
 
 
-                        {["Para184", "Para185", "Para186", "Para187", "Para188"].map((item, ind) =>
+                     
+                            <Subtitle>
+                            {ctx.chapterTwo.Para185}
+                        </Subtitle>
+                        <Para >
+                            {ctx.chapterTwo.Para186}
+                        </Para>
+                        <h3 className='headnote'>
+                            ₹ In crore
+                        </h3>
+                        {/* <Table23 /> */}
+                        <CustomTable title={"Table 2.25: Quantum of loans disbursed and recovered during the last five years"}
+            columns={ctx.tables2.Table23}
+            data={ctx.tables2.Table23} />
+                        <h4>
+                            <i>
+                                Source: Finance Accounts
+                            </i>
+                        </h4>
+                        <h4>
+                            <i>
+                            Effective  RoI = Interest payments/ Outstanding Liabilities of Current Financial Year*100.
+                            </i>
+                        </h4>
+                           {["Para187", "Para188", "Para189", "Para190", "Para191","Para192","Para193"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)}
-                        <Subtitle>
+                            <Subtitle>
+                            {ctx.chapterTwo.Para194}
+                        </Subtitle>
+                        <Para >
+                            {ctx.chapterTwo.Para195}
+                        </Para>
+                        {["Para196", "Para197"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapterTwo[item]}
+                            </Para>)}
+
+
+                        {/* <Subtitle>
                             {ctx.chapterTwo.Para189}
                         </Subtitle>
                         <Para >
                             {ctx.chapterTwo.Para190}
                         </Para>
-                        <h3 className='headnote'>
-                            ₹ In crore
-                        </h3>
-                        <Table23 />
-                        <h4>
-                            <i>
-                                Source: Finance Accounts
-                            </i>
-                        </h4>
-
+                       
 
 
                         {["Para191", "Para192", "Para193", "Para194", "Para195", "Para196", "Para197"].map((item, ind) =>
@@ -476,7 +555,7 @@ const Application = () => {
                                 <li>
                                     {ctx.chapterTwo[item]}
                                 </li>
-                            </Para>)}
+                            </Para>)} */}
                         <Subtitle>
                             {ctx.chapterTwo.Para198}
                         </Subtitle>
