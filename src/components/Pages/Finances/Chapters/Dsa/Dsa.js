@@ -83,13 +83,10 @@ const Dsa = () => {
                                {ctx.chapterTwo[item]}
                            </Para>)}  
 
-
-                           <Table38 />
+{/* 
+                           <Table38 /> */}
                            
-                           {["para322"].map((item, ind) =>
-                           <Para key={ind / 10}>
-                               {ctx.chapterTwo[item]}
-                           </Para>)}  
+                            
                            <CustomTable title={"Table 2.44: Public Debt Sustainability-real growth and real interest"}
                             
                             columns={ctx.tables2.Table38a}
@@ -112,19 +109,23 @@ const Dsa = () => {
                   
                 </i>
         </h4>
-        
+        {["para322"].map((item, ind) =>
+                           <Para key={ind / 10}>
+                               {ctx.chapterTwo[item]}
+                           </Para>)}
+                           <Subtitle>
+                           <i>
+                            {ctx.chapterTwo["para323"]}
+                            </i> 
+                    </Subtitle>
 
-                        {["para323","para323a"].map((item, ind) =>
+                        {["para323a","para324"].map((item, ind) =>
                            <Para key={ind / 10}>
                                {ctx.chapterTwo[item]}
                            </Para>)}  
 
                            
-                    <Subtitle>
-                           <i>
-                            {ctx.chapterTwo["para324"]}
-                            </i> 
-                    </Subtitle>
+                    
                     {["para325"].map((item, ind) =>
                            <Para key={ind / 10}>
                                {ctx.chapterTwo[item]}
@@ -181,17 +182,13 @@ const Dsa = () => {
                          {ctx.chapterTwo.para329}
                         </Para>
 
-                    {["para330","para331"].map((item, ind) =>
+                    {["para330","para331","para332"].map((item, ind) =>
                            <Para key={ind / 10}>
                                {ctx.chapterTwo[item]}
                            </Para>)}  
 
                       
-                    <Subtitle>
-                           <i>
-                            {ctx.chapterTwo["para332"]}
-                            </i> 
-                    </Subtitle>
+                   
                    {["para333","para334"].map((item, ind) =>
                            <Para key={ind / 10}>
                                {ctx.chapterTwo[item]}
