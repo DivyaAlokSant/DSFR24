@@ -82,22 +82,22 @@ const PublicAccount = () => {
                             {ctx.chapterTwo["para221"]}
                         
                         </Subtitle>
-                        {["para222"].map((item, ind) =>
+                        {["para222","para223"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)}
                         <Subtitle>
                             
-                            {ctx.chapterTwo["para223"]}
+                            {ctx.chapterTwo["para224"]}
                         
                         </Subtitle>  
-                        {["para224","para225","para226"].map((item, ind) =>
+                        {["para225","para226","para227","para228","para229"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)} 
                             <Subtitle>
                             
-                            {ctx.chapterTwo["para227"]}
+                            {ctx.chapterTwo["para230"]}
                         
                         </Subtitle> 
                        
@@ -108,35 +108,40 @@ const PublicAccount = () => {
                          {ctx.chapterTwo.para228}
                         </Para>
                             
-                        {["para229","para230","para231"].map((item, ind) =>
+                        {["para231","para232","para233","para234","para235","para236","para237"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)}  
+                            {["para238"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                {ctx.chapterTwo[item]}
+                            </Para>)}
+
                         <Subtitle>
                             
-                            {ctx.chapterTwo["para232"]}
+                            {ctx.chapterTwo["para240"]}
                         
                         </Subtitle>
-                        {["para233","para234","para235"].map((item, ind) =>
+                        {["para241","para242","para243","para244","para245"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)}   
                         <Subtitle>
                             
-                            {ctx.chapterTwo["para236"]}
+                            {ctx.chapterTwo["para246"]}
                         
                         </Subtitle> 
-                        {["para237","para238","para240","para241","para242"].map((item, ind) =>
+                        {["para247","para248","para249","para250","para251","para252","para253"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)}   
                             
                         <Subtitle>
                             
-                            {ctx.chapterTwo["para243"]}
+                            {ctx.chapterTwo["para254"]}
                         
                         </Subtitle> 
-                        {["para244","para245","para246","para247","para248"].map((item, ind) =>
+                        {["para255","para256","para257","para258","para259"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)} 
@@ -161,23 +166,23 @@ const PublicAccount = () => {
                        
                         <Subtitle>
                             
-                            {ctx.chapterTwo["para250"]}
+                            {ctx.chapterTwo["para260"]}
                         
                         </Subtitle> 
-                        {["para251","para252","para253","para254","para255"].map((item, ind) =>
+                        {["para260a","para260b"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)}   
                         <Subtitle>
                             
-                            {ctx.chapterTwo["para256"]}
+                            {ctx.chapterTwo["para261"]}
                         
                         </Subtitle> 
-                        {["para257","para258","para259","para260"].map((item, ind) =>
+                        {["para262","para263","para264","para265","para266"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)} 
-                            {["para260a","para260b"].map((item, ind) =>
+                            {/* {["para260a","para260b"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)}  
@@ -227,7 +232,7 @@ const PublicAccount = () => {
                     {["para279","para280"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
-                            </Para>)}  
+                            </Para>)}   */}
                             
                                        
                     </div>

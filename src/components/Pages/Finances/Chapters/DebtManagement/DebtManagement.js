@@ -56,16 +56,16 @@ const DebtManagement = () => {
                         </Para>
                         <ImageComponent src={c215} alt="chart2.14" aspectRatio={1 / 0.5} />
                        
-                    {["para283","para284"].map((item, ind) =>
+                    {["para283"].map((item, ind) =>
                            <Para key={ind / 10}>
                                {ctx.chapterTwo[item]}
                            </Para>)}  
                     <Subtitle>
                           <i> 
-                           {ctx.chapterTwo["para285"]}
+                           {ctx.chapterTwo["para284"]}
                            </i> 
                     </Subtitle>
-                    {["para286","para287"].map((item, ind) =>
+                    {["para285","para286"].map((item, ind) =>
                            <Para key={ind / 10}>
                                {ctx.chapterTwo[item]}
                            </Para>)}  
@@ -90,14 +90,14 @@ const DebtManagement = () => {
                         </h4>
 
                            
-                    {["para288","para289"].map((item, ind) =>
+                    {["para287","para288"].map((item, ind) =>
                            <Para key={ind / 10}>
                                {ctx.chapterTwo[item]}
                            </Para>)}
                            <ImageComponent src={c216} alt="chart2.14" aspectRatio={1 / 0.5} />
                            <ImageComponent src={c217} alt="chart2.14" aspectRatio={1 / 0.5} />
                        
-                           {["para290"].map((item, ind) =>
+                           {["para289"].map((item, ind) =>
                            <Para key={ind / 10}>
                                {ctx.chapterTwo[item]}
                            </Para>)} 
@@ -105,10 +105,10 @@ const DebtManagement = () => {
 
                     <Subtitle>
                            
-                           {ctx.chapterTwo["para291"]}
+                           {ctx.chapterTwo["para290"]}
                            
                     </Subtitle>
-                    {["para292","para293"].map((item, ind) =>
+                    {["para291","para292"].map((item, ind) =>
                            <Para key={ind / 10}>
                                {ctx.chapterTwo[item]}
                            </Para>)}  
@@ -119,7 +119,7 @@ const DebtManagement = () => {
                         <Table31 />
                     
                     <Para >
-                        {ctx.chapterTwo.para294}
+                        {ctx.chapterTwo.para293}
                     </Para>
 
                     <h3 className='headnote'>
@@ -135,29 +135,26 @@ const DebtManagement = () => {
                             </i>
                     </h4>
 
-                    {["para295","para296"].map((item, ind) =>
+                    {["para294","para295"].map((item, ind) =>
                            <Para key={ind / 10}>
                                {ctx.chapterTwo[item]}
                            </Para>)} 
 
                       <Table33 />     
-                      {["para296a"].map((item, ind) =>
+                      {["para296","para296a","para297","para298"].map((item, ind) =>
                            <Para key={ind / 10}>
                                {ctx.chapterTwo[item]}
                            </Para>)} 
                       
 
-                    {["para297","para298","para299","para300"].map((item, ind) =>
-                           <Para key={ind / 10}>
-                               {ctx.chapterTwo[item]}
-                           </Para>)}         
+                
                     <Subtitle>
                          <i> 
-                           {ctx.chapterTwo["para301"]}
+                           {ctx.chapterTwo["para299"]}
                         </i> 
                     </Subtitle>
                     <Para >
-                        {ctx.chapterTwo.para302}
+                        {ctx.chapterTwo.para300}
                     </Para>
 
                     <h3 className='headnote'>
@@ -173,7 +170,7 @@ const DebtManagement = () => {
                     </h4>
 
                     <Para >
-                            {ctx.chapterTwo.para303}
+                            {ctx.chapterTwo.para301}
                     </Para>
 
                     <h3 className='headnote'>
@@ -186,17 +183,17 @@ const DebtManagement = () => {
                             </i>
                     </h4>
 
-                    {["para304"].map((item, ind) =>
+                    {["para302"].map((item, ind) =>
                            <Para key={ind / 10}>
                                {ctx.chapterTwo[item]}
                            </Para>)}
                     <Subtitle>
                          <i> 
-                           {ctx.chapterTwo["para305"]}
+                           {ctx.chapterTwo["para303"]}
                         </i> 
                     </Subtitle>
                     <Para >
-                            {ctx.chapterTwo.para306}
+                            {ctx.chapterTwo.para304}
                     </Para>
 
                     <h3 className='headnote'>
@@ -228,7 +225,7 @@ const DebtManagement = () => {
                        
 
                     <Para >
-                            {ctx.chapterTwo.para307}
+                            {ctx.chapterTwo.para305}
                     </Para>
 
                     

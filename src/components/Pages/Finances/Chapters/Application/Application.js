@@ -562,10 +562,13 @@ const Application = () => {
                         <Para >
                             {ctx.chapterTwo.Para199}
                         </Para>
-                        <Table24 />
+                        {/* <Table24 /> */}
+ <CustomTable title={"Table 2.28: Status of Public Private Partnership projects as on 31st March 2024"}
+            columns={ctx.tables2.Table24}
+            data={ctx.tables2.Table24} />
                         <h4>
                             <i>
-                                Source: Finance Accounts
+                                Source: Infrastructure Development, Ports & Inland Water Transport Department
                             </i>
                         </h4>
                         <h3 className='headnote'>
