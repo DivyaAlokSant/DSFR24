@@ -86,11 +86,18 @@ const PDA = () => {
                         <Para>
                             {ctx.chapterFour.Content.para46}
                         </Para>
-                        {["para47", "para48"].map((item, ind) =>
+                        <Para>
+                            {ctx.chapterFour.Content.para47}
+                        </Para>
+                        {["para48"].map((item, ind) =>
                             <Subtitle key={ind / 10}>
                                 {ctx.chapterFour.Content[item]}
                             </Subtitle>)}
-                        {["para49", "para50"].map((item, ind) =>
+                            <Para>
+                            {ctx.chapterFour.Content.para49}
+                        </Para>
+
+                        {/* {["para49", "para50"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterFour.Content[item]}
                             </Para>)}
@@ -234,7 +241,7 @@ const PDA = () => {
                             <Para key={ind / 10}>
                                 {ctx.chapterFour.Content[item]}
                             </Para>)}
-                        
+                         */}
                         
 
                     </div>

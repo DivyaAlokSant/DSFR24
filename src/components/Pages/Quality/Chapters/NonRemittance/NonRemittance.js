@@ -31,7 +31,7 @@ const NonRemittance
                                 <Para key={ind / 10}>
                                     {ctx.chapterFour.Content[item]}
                                 </Para>)}
-                            <h3 className='headnote'>
+                            {/* <h3 className='headnote'>
                                 ₹ In crore
                             </h3>
 
@@ -43,7 +43,7 @@ const NonRemittance
                         </h4>
                                  <h4 className='footnote'><i>
                                  *The Institutions are yet to be audited.</i>
-                        </h4>
+                        </h4> */}
 
                             {["para12", "para13"].map((item, ind) =>
                                 <Para key={ind / 10}>

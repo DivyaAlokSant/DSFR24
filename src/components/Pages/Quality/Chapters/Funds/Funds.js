@@ -45,7 +45,7 @@ const Funds = () => {
                             {ctx.chapterFour.Content.para6}
 
                         </Para>
-                        <h3 className='headnote'>
+                        {/* <h3 className='headnote'>
                             ₹ In crore
                         </h3>
 
@@ -60,7 +60,7 @@ const Funds = () => {
                         </Para>
                         <Para>
                             {ctx.chapterFour.Content.para7a}
-                        </Para>
+                        </Para> */}
 
 
 

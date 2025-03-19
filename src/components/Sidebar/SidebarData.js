@@ -376,139 +376,139 @@ export const SidebarData = [
       }
     ]
   },
-  {
-    title: 'Chapter 5  - State Public Sector Undertakings',
-    path: '/State',
-    id: 1,
-    iconClosed: <FaIcons.FaPlusSquare size="12px"/>,
-    iconOpened: <FaIcons.FaRegMinusSquare size="12px" />,
-    subNav: [
+  // {
+  //   title: 'Chapter 5  - State Public Sector Undertakings',
+  //   path: '/State',
+  //   id: 1,
+  //   iconClosed: <FaIcons.FaPlusSquare size="12px"/>,
+  //   iconOpened: <FaIcons.FaRegMinusSquare size="12px" />,
+  //   subNav: [
     
-      {
-        title: '5.1 Definition of Government Companies',
-        path: '/State/Definition',
-        id: 2,
-        icon: <FaIcons.FaAngleRight />,
-        cName: 'sub-nav'
-      },
+  //     {
+  //       title: '5.1 Definition of Government Companies',
+  //       path: '/State/Definition',
+  //       id: 2,
+  //       icon: <FaIcons.FaAngleRight />,
+  //       cName: 'sub-nav'
+  //     },
      
-      {
-        title: '5.2 Mandate of Audit',
-        path: '/State/Mandate',
-        id: 2,
-        icon: <FaIcons.FaAngleRight />,
-        cName: 'sub-nav'
-      },
-      {
-        title: '5.3 SPSEs and their contribution to the GSDP of the State',
-        path: '/State/Spse',
-        id: 2,
-        icon: <FaIcons.FaAngleRight />,
-        cName: 'sub-nav'
-      },
-      {
-        title: '5.4 Investment in SPSEs and Budgetary support',
-        path: '/State/Investment',
-        id: 2,
-        icon: <FaIcons.FaAngleRight />,
-        cName: 'sub-nav'
-      },
+  //     {
+  //       title: '5.2 Mandate of Audit',
+  //       path: '/State/Mandate',
+  //       id: 2,
+  //       icon: <FaIcons.FaAngleRight />,
+  //       cName: 'sub-nav'
+  //     },
+  //     {
+  //       title: '5.3 SPSEs and their contribution to the GSDP of the State',
+  //       path: '/State/Spse',
+  //       id: 2,
+  //       icon: <FaIcons.FaAngleRight />,
+  //       cName: 'sub-nav'
+  //     },
+  //     {
+  //       title: '5.4 Investment in SPSEs and Budgetary support',
+  //       path: '/State/Investment',
+  //       id: 2,
+  //       icon: <FaIcons.FaAngleRight />,
+  //       cName: 'sub-nav'
+  //     },
  
-      {
-        title: '5.5 Returns from SPSEs',
-        path: '/State/Returns',
-        id: 2,
-        icon: <FaIcons.FaAngleRight />,
-        cName: 'sub-nav'
-      },
-      {
-        title: '5.6 Debt Servicing',
-        path: '/State/Debt',
-        id: 2,
-        icon: <FaIcons.FaAngleRight />,
-        cName: 'sub-nav'
-      },
-      {
-        title: '5.7 Performance of listed SPSEs vis-a-vis private companies',
-        path: '/State/Performance',
-        id: 2,
-        icon: <FaIcons.FaAngleRight />,
-        cName: 'sub-nav'
-      },
-      {
-        title: '5.8 Operating efficiency',
-        path: '/State/operating-efficiency',
-        id: 2,
-        icon: <FaIcons.FaAngleRight />,
-        cName: 'sub-nav'
-      },
+  //     {
+  //       title: '5.5 Returns from SPSEs',
+  //       path: '/State/Returns',
+  //       id: 2,
+  //       icon: <FaIcons.FaAngleRight />,
+  //       cName: 'sub-nav'
+  //     },
+  //     {
+  //       title: '5.6 Debt Servicing',
+  //       path: '/State/Debt',
+  //       id: 2,
+  //       icon: <FaIcons.FaAngleRight />,
+  //       cName: 'sub-nav'
+  //     },
+  //     {
+  //       title: '5.7 Performance of listed SPSEs vis-a-vis private companies',
+  //       path: '/State/Performance',
+  //       id: 2,
+  //       icon: <FaIcons.FaAngleRight />,
+  //       cName: 'sub-nav'
+  //     },
+  //     {
+  //       title: '5.8 Operating efficiency',
+  //       path: '/State/operating-efficiency',
+  //       id: 2,
+  //       icon: <FaIcons.FaAngleRight />,
+  //       cName: 'sub-nav'
+  //     },
 
-      {
-        title: '5.9 SPSEs incurring losses',
-        path: '/State/Loss',
-        id: 2,
-        icon: <FaIcons.FaAngleRight />,
-        cName: 'sub-nav'
-      },
-      {
-        title: '5.10 Audit of SPSEs',
-        path: '/State/Auditt',
-        id: 2,
-        icon: <FaIcons.FaAngleRight />,
-        cName: 'sub-nav'
-      },
+  //     {
+  //       title: '5.9 SPSEs incurring losses',
+  //       path: '/State/Loss',
+  //       id: 2,
+  //       icon: <FaIcons.FaAngleRight />,
+  //       cName: 'sub-nav'
+  //     },
+  //     {
+  //       title: '5.10 Audit of SPSEs',
+  //       path: '/State/Auditt',
+  //       id: 2,
+  //       icon: <FaIcons.FaAngleRight />,
+  //       cName: 'sub-nav'
+  //     },
       
-      {
-        title: '5.11  Appointment of statutory auditors of SPSEs by C&AG',
-        path: '/State/Appointment',
-        id: 2,
-        icon: <FaIcons.FaAngleRight />,
-        cName: 'sub-nav'
-      },
-      {
-        title: '5.12 Submission of accounts by SPSEs',
-        path: '/State/Submissions',
-        id: 2,
-        icon: <FaIcons.FaAngleRight />,
-        cName: 'sub-nav'
-      },
-      {
-        title: "5.13 C&AG's oversight  ",
-        path: '/State/Cag',
-        id: 2,
-        icon: <FaIcons.FaAngleRight />,
-        cName: 'sub-nav'
-      },
-      {
-        title: '5.14  Result of C&AG’s oversight role',
-        path: '/State/Result',
-        id: 2,
-        icon: <FaIcons.FaAngleRight />,
-        cName: 'sub-nav'
-      },
-      {
-        title: '5.15 Management letters',
-        path: '/State/Management',
-        id: 2,
-        icon: <FaIcons.FaAngleRight />,
-        cName: 'sub-nav'
-      },
-      {
-        title: '5.16 Conclusion',
-        path: '/State/Conclusions',
-        id: 2,
-        icon: <FaIcons.FaAngleRight />,
-        cName: 'sub-nav'
-      },
-      {
-        title: '5.17 Recommendations',
-        path: '/State/Recommend',
-        id: 2,
-        icon: <FaIcons.FaAngleRight />,
-        cName: 'sub-nav'
-      }
-    ]
-  },
+  //     {
+  //       title: '5.11  Appointment of statutory auditors of SPSEs by C&AG',
+  //       path: '/State/Appointment',
+  //       id: 2,
+  //       icon: <FaIcons.FaAngleRight />,
+  //       cName: 'sub-nav'
+  //     },
+  //     {
+  //       title: '5.12 Submission of accounts by SPSEs',
+  //       path: '/State/Submissions',
+  //       id: 2,
+  //       icon: <FaIcons.FaAngleRight />,
+  //       cName: 'sub-nav'
+  //     },
+  //     {
+  //       title: "5.13 C&AG's oversight  ",
+  //       path: '/State/Cag',
+  //       id: 2,
+  //       icon: <FaIcons.FaAngleRight />,
+  //       cName: 'sub-nav'
+  //     },
+  //     {
+  //       title: '5.14  Result of C&AG’s oversight role',
+  //       path: '/State/Result',
+  //       id: 2,
+  //       icon: <FaIcons.FaAngleRight />,
+  //       cName: 'sub-nav'
+  //     },
+  //     {
+  //       title: '5.15 Management letters',
+  //       path: '/State/Management',
+  //       id: 2,
+  //       icon: <FaIcons.FaAngleRight />,
+  //       cName: 'sub-nav'
+  //     },
+  //     {
+  //       title: '5.16 Conclusion',
+  //       path: '/State/Conclusions',
+  //       id: 2,
+  //       icon: <FaIcons.FaAngleRight />,
+  //       cName: 'sub-nav'
+  //     },
+  //     {
+  //       title: '5.17 Recommendations',
+  //       path: '/State/Recommend',
+  //       id: 2,
+  //       icon: <FaIcons.FaAngleRight />,
+  //       cName: 'sub-nav'
+  //     }
+  //   ]
+  // },
   {
     title: 'Appendices',
     path: '#',

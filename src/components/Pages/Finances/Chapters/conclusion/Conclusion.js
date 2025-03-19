@@ -35,10 +35,9 @@ const Conclusion =( ) => {
                             {ctx.chapterTwo.para348}
                             </i> </b>
                         </Para>
+                        
                         <Para>
-                            <b><i>
-                                {ctx.chapterTwo.para349}
-                            </i></b>
+                            {ctx.chapterTwo.para349}
                         </Para>
                         <Para>
                             {ctx.chapterTwo.para350}
@@ -50,11 +49,27 @@ const Conclusion =( ) => {
                             {ctx.chapterTwo.para352}
                             </i></b>
                         </Para>
+                        <Para>
+                            {ctx.chapterTwo.para353}
+                        </Para>
+                        <Para>
+                            {ctx.chapterTwo.para354}
+                        </Para>
                         <Para><b><i>
-                            {ctx.chapterTwo.para372}
+                            {ctx.chapterTwo.para355}
                             </i></b>
                         </Para>
-                        {["para373","para374"].map((item, ind) =>
+                        <Para>
+                            {ctx.chapterTwo.para356}
+                        </Para>
+                        <Para><b><i>
+                            {ctx.chapterTwo.para357}
+                            </i></b>
+                        </Para>
+                        <Para>
+                            {ctx.chapterTwo.para358}
+                        </Para>
+                        {/* {["para373","para374"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)}
@@ -87,7 +102,7 @@ const Conclusion =( ) => {
                         <Para><b><i>
                             {ctx.chapterTwo.para383}
                             </i></b>
-                        </Para>
+                        </Para> */}
 
 
                     </div>
