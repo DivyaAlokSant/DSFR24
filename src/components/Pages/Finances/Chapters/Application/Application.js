@@ -571,22 +571,49 @@ const Application = () => {
                                 Source: Infrastructure Development, Ports & Inland Water Transport Department
                             </i>
                         </h4>
+                       
+                        <Subtitle>
+                            {ctx.chapterTwo.Para205}
+                        </Subtitle>
+                        <Para >
+                            {ctx.chapterTwo.Para206}
+                        </Para>
                         <h3 className='headnote'>
-                            ₹ In crore
+                        (in per cent)
                         </h3>
-                        <Table25 />
+
+
+                        {/* <Table25 /> */}
+                        <CustomTable title={"Table 2.29: Fiscal priority of the States in 2023-24"}
+            columns={ctx.tables2.Table25}
+            data={ctx.tables2.Table25} />
                         <h4>
                             <i>
                                 Source: Finance Accounts
                             </i>
                         </h4>
-                        <h3 className='headnote'>
+                        <h4>
+                            <i>
+                            AE: Aggregate Expenditure, CE: Capital Expenditure, DE: Development Expenditure (includes total expenditure under social and economic sectors)
+                            </i>
+                        </h4>
+                        {/* <h3 className='headnote'>
                             ₹ In crore
-                        </h3>
+                        </h3> */}
+                         <Para >
+                            {ctx.chapterTwo.Para207}
+                        </Para>
+
+                          {["Para208", "Para209", "Para210", "Para211"].map((item, ind) =>
+                            <Para key={ind / 10}>
+                                <li>
+                                    {ctx.chapterTwo[item]}
+                                </li>
+                            </Para>)}
 
 
 
-                        {["Para200", "Para201", "Para202"].map((item, ind) =>
+                        {/* {["Para200", "Para201", "Para202"].map((item, ind) =>
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)}
@@ -627,14 +654,9 @@ const Application = () => {
                                 Source:Finance Accounts
                             </i>
                         </h4>
-                       
+                        */}
 
-                        {["Para208", "Para209", "Para210", "Para211", "Para212"].map((item, ind) =>
-                            <Para key={ind / 10}>
-                                <li>
-                                    {ctx.chapterTwo[item]}
-                                </li>
-                            </Para>)}
+                      
 
 
 

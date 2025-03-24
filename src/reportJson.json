@@ -20354,119 +20354,119 @@
                 {
                   "Sector": "I. Small Savings, Provident Funds, etc.",
                   "Sub Sector": "Small Savings, Provident Funds, etc.",
-                  "2018 19": "3,292",
-                  "2019 20": "4,156",
-                  "2020 21": "3,632",
-                  "2021 22": "3,522",
-                  "2022 23": "3,403"
+                  "2019-20": "4,156",
+                  "2020-21": "3,632",
+                  "2021-22": "3,522",
+                  "2022-23": "3,403",
+                  "2023-24": "3,554"
                 },
                 {
                   "Sector": "J. Reserve Funds",
                   "Sub Sector": "(a) Reserve Funds bearing Interest",
-                  "2018 19": 393,
-                  "2019 20": 839,
-                  "2020 21": "(-)99",
-                  "2021 22": "(-)46",
-                  "2022 23": "(-)141"
+                  "2019-20": 839,
+                  "2020-21": "(-)99",
+                  "2021-22": "(-)46",
+                  "2022-23": "(-)141",
+                  "2023-24": 14
                 },
                 {
                   "Sector": "",
                   "Sub Sector": "(b) Reserve Funds not bearing Interest",
-                  "2018 19": "2,804",
-                  "2019 20": "3,889",
-                  "2020 21": "6,374",
-                  "2021 22": "9,219",
-                  "2022 23": "7,422"
+                  "2019-20": "3,889",
+                  "2020-21": "6,374",
+                  "2021-22": "9,219",
+                  "2022-23": "7,422",
+                  "2023-24": "7,314"
                 },
                 {
                   "Sector": "K. Deposits and Advances",
                   "Sub Sector": "(a) Deposits bearing Interest",
-                  "2018 19": 62,
-                  "2019 20": 99,
-                  "2020 21": 16,
-                  "2021 22": "(-)18",
-                  "2022 23": 51
+                  "2019-20": 99,
+                  "2020-21": 16,
+                  "2021-22": "(-)18",
+                  "2022-23": 51,
+                  "2023-24": 62
                 },
                 {
                   "Sector": "",
                   "Sub Sector": "(b) Deposits not bearing Interest",
-                  "2018 19": "3,006",
-                  "2019 20": "3,074",
-                  "2020 21": "(-)702",
-                  "2021 22": "2,826",
-                  "2022 23": "26,141"
+                  "2019-20": "3,074",
+                  "2020-21": "(-)702",
+                  "2021-22": "2,826",
+                  "2022-23": "26,141",
+                  "2023-24": "7,412"
                 },
                 {
                   "Sector": "",
                   "Sub Sector": "(c) Advances",
-                  "2018 19": "-",
-                  "2019 20": "-",
-                  "2020 21": "-",
-                  "2021 22": "-",
-                  "2022 23": "-"
+                  "2019-20": "-",
+                  "2020-21": "-",
+                  "2021-22": "-",
+                  "2022-23": "-",
+                  "2023-24": "-"
                 },
                 {
                   "Sector": "L. Suspense and Miscellaneous",
                   "Sub Sector": "(a) Suspense",
-                  "2018 19": "(-) 15",
-                  "2019 20": 178,
-                  "2020 21": "(-)242",
-                  "2021 22": "(-)60",
-                  "2022 23": "(-)72"
+                  "2019-20": 178,
+                  "2020-21": "(-)242",
+                  "2021-22": "(-)60",
+                  "2022-23": "(-)72",
+                  "2023-24": 873
                 },
                 {
                   "Sector": "",
                   "Sub Sector": "(b) Other Accounts",
-                  "2018 19": "(-) 6,072",
-                  "2019 20": "(-) 1,542",
-                  "2020 21": "(-)2,679",
-                  "2021 22": "(-)93",
-                  "2022 23": "1,268"
+                  "2019-20": "(-)1,542",
+                  "2020-21": "(-)2,679",
+                  "2021-22": "(-)93",
+                  "2022-23": "1,268",
+                  "2023-24": "1,733"
                 },
                 {
                   "Sector": "",
                   "Sub Sector": "(c) Accounts with Governments of Foreign Countries",
-                  "2018 19": "-",
-                  "2019 20": "-",
-                  "2020 21": "-",
-                  "2021 22": "-",
-                  "2022 23": "-"
+                  "2019-20": "-",
+                  "2020-21": "-",
+                  "2021-22": "-",
+                  "2022-23": "-",
+                  "2023-24": "-"
                 },
                 {
                   "Sector": "",
                   "Sub Sector": "(d) Miscellaneous",
-                  "2018 19": "-",
-                  "2019 20": "-",
-                  "2020 21": "-",
-                  "2021 22": "-",
-                  "2022 23": "-"
+                  "2019-20": "-",
+                  "2020-21": "-",
+                  "2021-22": "-",
+                  "2022-23": "-",
+                  "2023-24": "-"
                 },
                 {
                   "Sector": "M. Remittances",
                   "Sub Sector": "(a) Money Orders and other remittances",
-                  "2018 19": "(-) 81",
-                  "2019 20": "(-) 263",
-                  "2020 21": "(-)53",
-                  "2021 22": "-",
-                  "2022 23": "(-)0.01"
+                  "2019-20": "(-)263",
+                  "2020-21": "(-)53",
+                  "2021-22": "-",
+                  "2022-23": "(-)0.01",
+                  "2023-24": "-"
                 },
                 {
                   "Sector": "",
                   "Sub Sector": "(b) Inter-Governmental Adjustment Account",
-                  "2018 19": 42,
-                  "2019 20": "(-) 84",
-                  "2020 21": 17,
-                  "2021 22": "(-)133",
-                  "2022 23": 159
+                  "2019-20": "(-)84",
+                  "2020-21": 17,
+                  "2021-22": "(-)133",
+                  "2022-23": 159,
+                  "2023-24": 56
                 },
                 {
                   "Sector": "Total",
                   "Sub Sector": "",
-                  "2018 19": "3,431",
-                  "2019 20": "10,346",
-                  "2020 21": "6,264",
-                  "2021 22": "15,217",
-                  "2022 23": "38,232"
+                  "2019-20": "10,346",
+                  "2020-21": "6,264",
+                  "2021-22": "15,217",
+                  "2022-23": "38,232",
+                  "2023-24": "21,018"
                 }
               ],
             "Table14": [
@@ -21690,76 +21690,60 @@
             "T23H1": "Investments made in loss making Companies",
             "Table24": [
                 {
-                  "1": "Up to 2012-13",
-                  "2": 22,
-                  "3": 35.87,
-                  "4": 31.33
+                  "Sl. No.": "",
+                  "Department": "",
+                  "Total Projects": "No.",
+                  "Total Projects.": "Estimated Cost",
+                  "Dropped Projects": "No.",
+                  "Dropped Projects.": "Estimated Cost"
                 },
                 {
-                  "1": "2013-14",
-                  "2": 4,
-                  "3": 8.72,
-                  "4": 8.67
+                  "Sl. No.": 1,
+                  "Department": "Tourism",
+                  "Total Projects": 7,
+                  "Total Projects.": 201.4,
+                  "Dropped Projects": 1,
+                  "Dropped Projects.": "-"
                 },
                 {
-                  "1": "2014-15",
-                  "2": 18,
-                  "3": 65.46,
-                  "4": 59.3
+                  "Sl. No.": 2,
+                  "Department": "Youth Empowerment & Sports",
+                  "Total Projects": 9,
+                  "Total Projects.": "1,505.15",
+                  "Dropped Projects": 2,
+                  "Dropped Projects.": 131.15
                 },
                 {
-                  "1": "2015-16",
-                  "2": 39,
-                  "3": 88.15,
-                  "4": 83.64
+                  "Sl. No.": 3,
+                  "Department": "Animal Husbandry",
+                  "Total Projects": 3,
+                  "Total Projects.": 132.5,
+                  "Dropped Projects": "-",
+                  "Dropped Projects.": "-"
                 },
                 {
-                  "1": "2016-17",
-                  "2": 39,
-                  "3": 192.29,
-                  "4": 190.37
+                  "Sl. No.": 4,
+                  "Department": "Transport",
+                  "Total Projects": 2,
+                  "Total Projects.": 240,
+                  "Dropped Projects": "-",
+                  "Dropped Projects.": "-"
                 },
                 {
-                  "1": "2017-18",
-                  "2": 165,
-                  "3": 553.54,
-                  "4": 503.93
+                  "Sl. No.": 5,
+                  "Department": "Infrastructure Development",
+                  "Total Projects": 11,
+                  "Total Projects.": "5,189.00",
+                  "Dropped Projects": "-",
+                  "Dropped Projects.": "-"
                 },
                 {
-                  "1": "2018-19",
-                  "2": 198,
-                  "3": "1,475.66",
-                  "4": 706.56
-                },
-                {
-                  "1": "2019-20",
-                  "2": 311,
-                  "3": "1,253.67",
-                  "4": 919.7
-                },
-                {
-                  "1": "2020-21",
-                  "2": 267,
-                  "3": "1,292.54",
-                  "4": 797.73
-                },
-                {
-                  "1": "2021-22",
-                  "2": 435,
-                  "3": "1,748.01",
-                  "4": "1,125.04"
-                },
-                {
-                  "1": "2022-23",
-                  "2": 366,
-                  "3": "1,762.49",
-                  "4": "1,095.12"
-                },
-                {
-                  "1": "Total",
-                  "2": "1,864",
-                  "3": "8,476.40",
-                  "4": "5,521.59"
+                  "Sl. No.": "Total",
+                  "Department": "",
+                  "Total Projects": 32,
+                  "Total Projects.": "7,268.05",
+                  "Dropped Projects": 3,
+                  "Dropped Projects.": 131.15
                 }
               ],
             "Table25a": [
@@ -22031,42 +22015,24 @@
               ],
             "T12H1": "Tax and non-tax receipts vis-à-vis projections during 2020-21",
             "T10H2": "(₹ in crore)",
-            "Table25": {
-                "t25h1": "Table 2.24: Equity, loans and Guarantees outstanding as per Finance Accounts vis-à-vis records of SPSUs ",
-                "t25h2": "(₹ in crore)",
-                "t25": [
-                    {
-                      "1": "Roads and Bridges",
-                      "2": "1,035",
-                      "Estimated cost": "4,785.22",
-                      "Expenditure": "3,014.85"
-                    },
-                    {
-                      "1": "Irrigation",
-                      "2": 361,
-                      "Estimated cost": "1,474.92",
-                      "Expenditure": "1,062.77"
-                    },
-                    {
-                      "1": "Buildings",
-                      "2": 193,
-                      "Estimated cost": 918.42,
-                      "Expenditure": 527.18
-                    },
-                    {
-                      "1": "Others",
-                      "2": 275,
-                      "Estimated cost": "1,297.84",
-                      "Expenditure": 916.79
-                    },
-                    {
-                      "1": "Total",
-                      "2": "1,864",
-                      "Estimated cost": "8,476.40",
-                      "Expenditure": "5,521.59"
-                    }
-                  ]
-            },
+            "Table25": [
+                {
+                  ".": "GCS",
+                  "AE/ GSDP": 15.66,
+                  "CE/ AE": 16.5,
+                  "DE/AE": 67.93,
+                  "Education/ AE": 14.36,
+                  "Health & Family Welfare/ AE": 5.71
+                },
+                {
+                  ".": "Karnataka",
+                  "AE/ GSDP": 11.65,
+                  "CE/ AE": 17.44,
+                  "DE/AE": 70.13,
+                  "Education/ AE": 11.47,
+                  "Health & Family Welfare/ AE": 4.5
+                }
+              ],
             "T9F1": "Source: Finance Accounts",
             "T24H1": "Quantum of loans disbursed and recovered during the last five years",
             "T12F1": "Source: XV FC Report and Finance Accounts",
@@ -23015,66 +22981,65 @@
               ],
 
               "Table29":[
-               
                 {
-                  "Fund": "",
+                  ".": "",
                   "Minor Head of Account": "Opening Balance",
-                  "Expenditure during 2022 23": 2.42
+                  "Expenditure during  2022-23": 89.2
                 },
                 {
-                  "Fund": "05-State Disaster Response Fund",
+                  ".": "05-State Disaster Response Fund",
                   "Minor Head of Account": "Transfers to Reserve Funds and Deposit Accounts – SDRF",
-                  "Expenditure during 2022 23": 885.34
+                  "Expenditure during  2022-23": 930.13
                 },
                 {
-                  "Fund": "",
+                  ".": "",
                   "Minor Head of Account": "Transfers to Reserve Funds and Deposit Accounts – NDRF",
-                  "Expenditure during 2022 23": 939.83
+                  "Expenditure during  2022-23": 0
                 },
                 {
-                  "Fund": "",
+                  ".": "",
                   "Minor Head of Account": "Deduct-Amount met from-SDRF",
-                  "Expenditure during 2022 23": "(-)798.56"
+                  "Expenditure during  2022-23": "(-)1,019.33"
                 },
                 {
-                  "Fund": "",
+                  ".": "",
                   "Minor Head of Account": "Deduct-Amount met from-NDRF",
-                  "Expenditure during 2022 23": "(-)939.83"
+                  "Expenditure during  2022-23": 0
                 },
                 {
-                  "Fund": "",
-                  "Minor Head of Account": "Transfers of interest in respect of unutilised amount under SDRF during 2021-22.",
-                  "Expenditure during 2022 23": "-"
+                  ".": "",
+                  "Minor Head of Account": "Transfers of interest in respect of unutilised amount under SDRF during 2023-24",
+                  "Expenditure during  2022-23": "-"
                 },
                 {
-                  "Fund": "",
+                  ".": "",
                   "Minor Head of Account": "Closing Balance",
-                  "Expenditure during 2022 23": 89.2
+                  "Expenditure during  2022-23": "Nil"
                 },
                 {
-                  "Fund": "10-State Disaster Mitigation Fund",
+                  ".": "10-State Disaster Mitigation Fund",
                   "Minor Head of Account": "Opening Balance",
-                  "Expenditure during 2022 23": 237.1
+                  "Expenditure during  2022-23": 237.1
                 },
                 {
-                  "Fund": "",
+                  ".": "",
                   "Minor Head of Account": "Transfers to Reserve Funds and Deposit Accounts – SDMF",
-                  "Expenditure during 2022 23": "-"
+                  "Expenditure during  2022-23": "-"
                 },
                 {
-                  "Fund": "",
+                  ".": "",
                   "Minor Head of Account": "Deduct-Amount met from-SDMF",
-                  "Expenditure during 2022 23": "-"
+                  "Expenditure during  2022-23": "-"
                 },
                 {
-                  "Fund": "",
-                  "Minor Head of Account": "Transfers of interest in respect of unutilised amount under SDMF during 2021-22.",
-                  "Expenditure during 2022 23": "-"
+                  ".": "",
+                  "Minor Head of Account": "Transfers of interest in respect of unutilised amount under SDMF during 2023-24",
+                  "Expenditure during  2022-23": "-"
                 },
                 {
-                  "Fund": "",
+                  ".": "",
                   "Minor Head of Account": "Closing Balance",
-                  "Expenditure during 2022 23": 237.1
+                  "Expenditure during  2022-23": 237.1
                 }
               ],   
 

@@ -44,9 +44,14 @@ const PublicAccount = () => {
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)}
+                             <h3 className='headnote'>
+                            ₹ In crore
+                        </h3>  
 
-
-                            <Table28 />
+                        <CustomTable title={"Table 2.30: Component-wise net balances in Public Account as of 31 March of the year"}
+            columns={ctx.tables2.Table28}
+            data={ctx.tables2.Table28} />
+                            {/* <Table28 /> */}
                         <h4>
                             <i>
                                 Source:Finance Accounts
@@ -57,9 +62,7 @@ const PublicAccount = () => {
                             Note: +ve denotes debit balance and –ve denotes credit balances
                             </i>
                         </h4>    
-                        {/* <h3 className='headnote'>
-                            ₹ In crore
-                        </h3>   */}
+                       
                         <ImageComponent src={c214} alt="chart2.14" aspectRatio={1 / 0.5} />
                        
 
@@ -145,7 +148,10 @@ const PublicAccount = () => {
                             <Para key={ind / 10}>
                                 {ctx.chapterTwo[item]}
                             </Para>)} 
-                        <Table29 />
+                            <CustomTable title={"Table 2.31: Details of expenditure/receipts under SDRF/SDMF"}
+            columns={ctx.tables2.Table29}
+            data={ctx.tables2.Table29} />
+                        {/* <Table29 /> */}
                         <h4>
                             <i>
                                 Source: XV Finance Commission and Ledger
